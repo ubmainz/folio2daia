@@ -21,9 +21,31 @@
         </xsl:call-template>
     </xsl:template>
     
-    <xsl:template match="permanentLoanType/name">
+    <xsl:template match="permanentLoanType/name"> <!-- noch ohne Logik -->
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">aus_ind</xsl:with-param>
+        </xsl:call-template>
+    </xsl:template>
+    
+    <xsl:template match="status/name"> <!-- noch sehr schlicht -->
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag">aus_status</xsl:with-param>
+            <xsl:with-param name="value">
+                <xsl:choose>
+                    <xsl:when test=".='Checked out'">
+                        <xsl:text>vormerkbar</xsl:text>
+                    </xsl:when>
+                    <xsl:when test=".='Available'">
+                        <xsl:text>verfuegbar</xsl:text>
+                    </xsl:when>
+                    <xsl:when test=".='Intellectual item'">
+                        <xsl:text>frei_best</xsl:text>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="."/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:with-param>
         </xsl:call-template>
     </xsl:template>
 
