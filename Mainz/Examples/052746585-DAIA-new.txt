@@ -1,0 +1,4 @@
+
+DAIAinfo epn 113674406-1 ofniAIAD
+DAIAinfo sig 4°BB 1129 ofniAIAD
+DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
