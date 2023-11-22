@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta name="viewport" content="width=device-width" /><title>https://resolver.hebis.de/folioconnector/mz/originalInfo/052746585/xml</title><link rel="stylesheet" type="text/css" href="resource://content-accessible/viewsource.css" /></head><body id="viewsource" class="highlight" style="tab-size: 4"><pre id="line1"><span></span><span>&lt;<span class="start-tag">instanceData</span>&gt;</span><span>
+<span id="line2"></span>  </span><span>&lt;<span class="start-tag">lang</span>&gt;</span><span>de</span><span>&lt;/<span class="end-tag">lang</span>&gt;</span><span>
+<span id="line3"></span>  </span><span>&lt;<span class="start-tag">instance</span>&gt;</span><span>
+<span id="line4"></span>    </span><span>&lt;<span class="start-tag">id</span>&gt;</span><span>7b59929c-f683-4d95-aca2-7b87c1ed356f</span><span>&lt;/<span class="end-tag">id</span>&gt;</span><span>
+<span id="line5"></span>    </span><span class="error" title="Falsches Zeichen nach “&lt;”. Wahrscheinliche Ursache: Unkodierte “&lt;”. Versuchen Sie es als “&amp;lt;” zu kodieren.">&lt;_</span><span>version&gt;386</span><span class="error comment" title="Müll nach &quot;&lt;/&quot;.">&lt;/_version&gt;</span><span>
+<span id="line6"></span>    </span><span>&lt;<span class="start-tag">hrid</span>&gt;</span><span>052746585</span><span>&lt;/<span class="end-tag">hrid</span>&gt;</span><span>
+<span id="line7"></span>    </span><span>&lt;<span class="start-tag">source</span>&gt;</span><span>hebis</span><span>&lt;/<span class="end-tag">source</span>&gt;</span><span>
+<span id="line8"></span>    </span><span>&lt;<span class="start-tag">title</span>&gt;</span><span>Methoden zur Regenwurm-Extraktion : Vergleich der Formalin-, Senf- und Elektromethode / [Autor: F. Vetter]</span><span>&lt;/<span class="end-tag">title</span>&gt;</span><span>
+<span id="line9"></span>    </span><span>&lt;<span class="start-tag">indexTitle</span>&gt;</span><span>Methoden zur RegenwurmExtraktion Vergleich der Formalin Senf und Elektromethode Autor F Vetter</span><span>&lt;/<span class="end-tag">indexTitle</span>&gt;</span><span>
+<span id="line10"></span>    </span><span>&lt;<span class="start-tag">alternativeTitles</span>&gt;</span><span>
+<span id="line11"></span>      </span><span>&lt;<span class="start-tag">alternativeTitleTypeId</span>&gt;</span><span>2584943f-36ad-4037-a7fa-3bdebb09f452</span><span>&lt;/<span class="end-tag">alternativeTitleTypeId</span>&gt;</span><span>
+<span id="line12"></span>      </span><span>&lt;<span class="start-tag">alternativeTitle</span>&gt;</span><span>Methoden zur Regenwurm-Extraktion</span><span>&lt;/<span class="end-tag">alternativeTitle</span>&gt;</span><span>
+<span id="line13"></span>    </span><span>&lt;/<span class="end-tag">alternativeTitles</span>&gt;</span><span>
+<span id="line14"></span>    </span><span>&lt;<span class="start-tag">series</span>&gt;</span><span>Umwelt-Materialien ; 62 : Boden</span><span>&lt;/<span class="end-tag">series</span>&gt;</span><span>
+<span id="line15"></span>    </span><span>&lt;<span class="start-tag">identifiers</span>&gt;</span><span>
+<span id="line16"></span>      </span><span>&lt;<span class="start-tag">value</span>&gt;</span><span>052746585</span><span>&lt;/<span class="end-tag">value</span>&gt;</span><span>
+<span id="line17"></span>      </span><span>&lt;<span class="start-tag">identifierTypeId</span>&gt;</span><span>1d5cb40c-508f-451b-8952-87c92be4255a</span><span>&lt;/<span class="end-tag">identifierTypeId</span>&gt;</span><span>
+<span id="line18"></span>    </span><span>&lt;/<span class="end-tag">identifiers</span>&gt;</span><span>
+<span id="line19"></span>    </span><span>&lt;<span class="start-tag">identifiers</span>&gt;</span><span>
+<span id="line20"></span>      </span><span>&lt;<span class="start-tag">value</span>&gt;</span><span>79666495</span><span>&lt;/<span class="end-tag">value</span>&gt;</span><span>
+<span id="line21"></span>      </span><span>&lt;<span class="start-tag">identifierTypeId</span>&gt;</span><span>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</span><span>&lt;/<span class="end-tag">identifierTypeId</span>&gt;</span><span>
+<span id="line22"></span>    </span><span>&lt;/<span class="end-tag">identifiers</span>&gt;</span><span>
+<span id="line23"></span>    </span><span>&lt;<span class="start-tag">identifiers</span>&gt;</span><span>
+<span id="line24"></span>      </span><span>&lt;<span class="start-tag">value</span>&gt;</span><span>HEB: 052746585</span><span>&lt;/<span class="end-tag">value</span>&gt;</span><span>
+<span id="line25"></span>      </span><span>&lt;<span class="start-tag">identifierTypeId</span>&gt;</span><span>8e33c1be-e2c4-43ac-a975-8fb50f71137a</span><span>&lt;/<span class="end-tag">identifierTypeId</span>&gt;</span><span>
+<span id="line26"></span>    </span><span>&lt;/<span class="end-tag">identifiers</span>&gt;</span><span>
+<span id="line27"></span>    </span><span>&lt;<span class="start-tag">contributors</span>&gt;</span><span>
+<span id="line28"></span>      </span><span>&lt;<span class="start-tag">name</span>&gt;</span><span>Vetter, Fredy</span><span>&lt;/<span class="end-tag">name</span>&gt;</span><span>
+<span id="line29"></span>      </span><span>&lt;<span class="start-tag">contributorNameTypeId</span>&gt;</span><span>2b94c631-fca9-4892-a730-03ee529ffe2a</span><span>&lt;/<span class="end-tag">contributorNameTypeId</span>&gt;</span><span>
+<span id="line30"></span>      </span><span>&lt;<span class="start-tag">primary</span>&gt;</span><span>true</span><span>&lt;/<span class="end-tag">primary</span>&gt;</span><span>
+<span id="line31"></span>    </span><span>&lt;/<span class="end-tag">contributors</span>&gt;</span><span>
+<span id="line32"></span>    </span><span>&lt;<span class="start-tag">publication</span>&gt;</span><span>
+<span id="line33"></span>      </span><span>&lt;<span class="start-tag">publisher</span>&gt;</span><span>Bundesamt für Umwelt, Wald und Landschaft (BUWAL)</span><span>&lt;/<span class="end-tag">publisher</span>&gt;</span><span>
+<span id="line34"></span>      </span><span>&lt;<span class="start-tag">place</span>&gt;</span><span>Bern</span><span>&lt;/<span class="end-tag">place</span>&gt;</span><span>
+<span id="line35"></span>      </span><span>&lt;<span class="start-tag">dateOfPublication</span>&gt;</span><span>1996</span><span>&lt;/<span class="end-tag">dateOfPublication</span>&gt;</span><span>
+<span id="line36"></span>      </span><span>&lt;<span class="start-tag">role</span>&gt;</span><span>Publisher</span><span>&lt;/<span class="end-tag">role</span>&gt;</span><span>
+<span id="line37"></span>    </span><span>&lt;/<span class="end-tag">publication</span>&gt;</span><span>
+<span id="line38"></span>    </span><span>&lt;<span class="start-tag">instanceTypeId</span>&gt;</span><span>30fffe0e-e985-4144-b2e2-1e8179bdb41f</span><span>&lt;/<span class="end-tag">instanceTypeId</span>&gt;</span><span>
+<span id="line39"></span>    </span><span>&lt;<span class="start-tag">instanceFormatIds</span>&gt;</span><span>98f0caa9-d38e-427b-9ec4-454de81a94d7</span><span>&lt;/<span class="end-tag">instanceFormatIds</span>&gt;</span><span>
+<span id="line40"></span>    </span><span>&lt;<span class="start-tag">physicalDescriptions</span>&gt;</span><span>45 S. : Ill., graph. Darst.</span><span>&lt;/<span class="end-tag">physicalDescriptions</span>&gt;</span><span>
+<span id="line41"></span>    </span><span>&lt;<span class="start-tag">languages</span>&gt;</span><span>ger</span><span>&lt;/<span class="end-tag">languages</span>&gt;</span><span>
+<span id="line42"></span>    </span><span>&lt;<span class="start-tag">languages</span>&gt;</span><span>fre</span><span>&lt;/<span class="end-tag">languages</span>&gt;</span><span>
+<span id="line43"></span>    </span><span>&lt;<span class="start-tag">languages</span>&gt;</span><span>eng</span><span>&lt;/<span class="end-tag">languages</span>&gt;</span><span>
+<span id="line44"></span>    </span><span>&lt;<span class="start-tag">languages</span>&gt;</span><span>ita</span><span>&lt;/<span class="end-tag">languages</span>&gt;</span><span>
+<span id="line45"></span>    </span><span>&lt;<span class="start-tag">notes</span>&gt;</span><span>
+<span id="line46"></span>      </span><span>&lt;<span class="start-tag">note</span>&gt;</span><span>Zsfassung in franz., engl. und ital. Sprache</span><span>&lt;/<span class="end-tag">note</span>&gt;</span><span>
+<span id="line47"></span>      </span><span>&lt;<span class="start-tag">staffOnly</span>&gt;</span><span>false</span><span>&lt;/<span class="end-tag">staffOnly</span>&gt;</span><span>
+<span id="line48"></span>      </span><span>&lt;<span class="start-tag">instanceNoteTypeId</span>&gt;</span><span>7356cde5-ec6b-4961-9cb0-961c48a37af4</span><span>&lt;/<span class="end-tag">instanceNoteTypeId</span>&gt;</span><span>
+<span id="line49"></span>    </span><span>&lt;/<span class="end-tag">notes</span>&gt;</span><span>
+<span id="line50"></span>    </span><span>&lt;<span class="start-tag">administrativeNotes</span>&gt;</span><span>Aau (Bibliografische Gattung)</span><span>&lt;/<span class="end-tag">administrativeNotes</span>&gt;</span><span>
+<span id="line51"></span>    </span><span>&lt;<span class="start-tag">administrativeNotes</span>&gt;</span><span>12.06.23, 16:21 (Letzte Änderung CBS)</span><span>&lt;/<span class="end-tag">administrativeNotes</span>&gt;</span><span>
+<span id="line52"></span>    </span><span>&lt;<span class="start-tag">modeOfIssuanceId</span>&gt;</span><span>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</span><span>&lt;/<span class="end-tag">modeOfIssuanceId</span>&gt;</span><span>
+<span id="line53"></span>    </span><span>&lt;<span class="start-tag">previouslyHeld</span>&gt;</span><span>false</span><span>&lt;/<span class="end-tag">previouslyHeld</span>&gt;</span><span>
+<span id="line54"></span>    </span><span>&lt;<span class="start-tag">discoverySuppress</span>&gt;</span><span>false</span><span>&lt;/<span class="end-tag">discoverySuppress</span>&gt;</span><span>
+<span id="line55"></span>    </span><span>&lt;<span class="start-tag">statusUpdatedDate</span>&gt;</span><span>2023-10-19T16:37:06.221+0000</span><span>&lt;/<span class="end-tag">statusUpdatedDate</span>&gt;</span><span>
+<span id="line56"></span>    </span><span>&lt;<span class="start-tag">metadata</span>&gt;</span><span>
+<span id="line57"></span>      </span><span>&lt;<span class="start-tag">createdDate</span>&gt;</span><span>2021-08-23T13:10:54.028+00:00</span><span>&lt;/<span class="end-tag">createdDate</span>&gt;</span><span>
+<span id="line58"></span>      </span><span>&lt;<span class="start-tag">createdByUserId</span>&gt;</span><span>25b17144-cbd0-4f75-907d-2a68d119aee4</span><span>&lt;/<span class="end-tag">createdByUserId</span>&gt;</span><span>
+<span id="line59"></span>      </span><span>&lt;<span class="start-tag">updatedDate</span>&gt;</span><span>2023-10-19T16:37:06.223+00:00</span><span>&lt;/<span class="end-tag">updatedDate</span>&gt;</span><span>
+<span id="line60"></span>      </span><span>&lt;<span class="start-tag">updatedByUserId</span>&gt;</span><span>25b17144-cbd0-4f75-907d-2a68d119aee4</span><span>&lt;/<span class="end-tag">updatedByUserId</span>&gt;</span><span>
+<span id="line61"></span>    </span><span>&lt;/<span class="end-tag">metadata</span>&gt;</span><span>
+<span id="line62"></span>  </span><span>&lt;/<span class="end-tag">instance</span>&gt;</span><span>
+<span id="line63"></span>  </span><span>&lt;<span class="start-tag">holdings</span>&gt;</span><span>
+<span id="line64"></span>    </span><span>&lt;<span class="start-tag">holding</span>&gt;</span><span>
+<span id="line65"></span>      </span><span>&lt;<span class="start-tag">id</span>&gt;</span><span>90e3b724-a252-403c-86e2-ae8c15f7bf27</span><span>&lt;/<span class="end-tag">id</span>&gt;</span><span>
+<span id="line66"></span>      </span><span class="error" title="Falsches Zeichen nach “&lt;”. Wahrscheinliche Ursache: Unkodierte “&lt;”. Versuchen Sie es als “&amp;lt;” zu kodieren.">&lt;_</span><span>version&gt;387</span><span class="error comment" title="Müll nach &quot;&lt;/&quot;.">&lt;/_version&gt;</span><span>
+<span id="line67"></span>      </span><span>&lt;<span class="start-tag">hrid</span>&gt;</span><span>113674406</span><span>&lt;/<span class="end-tag">hrid</span>&gt;</span><span>
+<span id="line68"></span>      </span><span>&lt;<span class="start-tag">holdingsTypeId</span>&gt;</span><span>0c422f92-0f4d-4d32-8cbe-390ebc33a3e5</span><span>&lt;/<span class="end-tag">holdingsTypeId</span>&gt;</span><span>
+<span id="line69"></span>      </span><span>&lt;<span class="start-tag">instanceId</span>&gt;</span><span>7b59929c-f683-4d95-aca2-7b87c1ed356f</span><span>&lt;/<span class="end-tag">instanceId</span>&gt;</span><span>
+<span id="line70"></span>      </span><span>&lt;<span class="start-tag">permanentLocationId</span>&gt;</span><span>413fe054-a4f3-423e-a62f-088eb111ea8d</span><span>&lt;/<span class="end-tag">permanentLocationId</span>&gt;</span><span>
+<span id="line71"></span>      </span><span>&lt;<span class="start-tag">effectiveLocationId</span>&gt;</span><span>413fe054-a4f3-423e-a62f-088eb111ea8d</span><span>&lt;/<span class="end-tag">effectiveLocationId</span>&gt;</span><span>
+<span id="line72"></span>      </span><span>&lt;<span class="start-tag">callNumberPrefix</span>&gt;</span><span>4°</span><span>&lt;/<span class="end-tag">callNumberPrefix</span>&gt;</span><span>
+<span id="line73"></span>      </span><span>&lt;<span class="start-tag">callNumber</span>&gt;</span><span>BB 1129</span><span>&lt;/<span class="end-tag">callNumber</span>&gt;</span><span>
+<span id="line74"></span>      </span><span>&lt;<span class="start-tag">notes</span>&gt;</span><span>
+<span id="line75"></span>        </span><span>&lt;<span class="start-tag">note</span>&gt;</span><span>07.08.23 21:59</span><span>&lt;/<span class="end-tag">note</span>&gt;</span><span>
+<span id="line76"></span>        </span><span>&lt;<span class="start-tag">staffOnly</span>&gt;</span><span>true</span><span>&lt;/<span class="end-tag">staffOnly</span>&gt;</span><span>
+<span id="line77"></span>        </span><span>&lt;<span class="start-tag">holdingsNoteTypeId</span>&gt;</span><span>7cad8584-35f9-4ea7-8944-11bcf40ff29c</span><span>&lt;/<span class="end-tag">holdingsNoteTypeId</span>&gt;</span><span>
+<span id="line78"></span>      </span><span>&lt;/<span class="end-tag">notes</span>&gt;</span><span>
+<span id="line79"></span>      </span><span>&lt;<span class="start-tag">notes</span>&gt;</span><span>
+<span id="line80"></span>        </span><span>&lt;<span class="start-tag">note</span>&gt;</span><span>BASIS</span><span>&lt;/<span class="end-tag">note</span>&gt;</span><span>
+<span id="line81"></span>        </span><span>&lt;<span class="start-tag">staffOnly</span>&gt;</span><span>false</span><span>&lt;/<span class="end-tag">staffOnly</span>&gt;</span><span>
+<span id="line82"></span>        </span><span>&lt;<span class="start-tag">holdingsNoteTypeId</span>&gt;</span><span>49050d37-2d82-452c-a963-2645ffc0b9a9</span><span>&lt;/<span class="end-tag">holdingsNoteTypeId</span>&gt;</span><span>
+<span id="line83"></span>      </span><span>&lt;/<span class="end-tag">notes</span>&gt;</span><span>
+<span id="line84"></span>      </span><span>&lt;<span class="start-tag">discoverySuppress</span>&gt;</span><span>false</span><span>&lt;/<span class="end-tag">discoverySuppress</span>&gt;</span><span>
+<span id="line85"></span>      </span><span>&lt;<span class="start-tag">statisticalCodeIds</span>&gt;</span><span>0ac04835-6a08-4043-9453-38908ff91129</span><span>&lt;/<span class="end-tag">statisticalCodeIds</span>&gt;</span><span>
+<span id="line86"></span>      </span><span>&lt;<span class="start-tag">metadata</span>&gt;</span><span>
+<span id="line87"></span>        </span><span>&lt;<span class="start-tag">createdDate</span>&gt;</span><span>2021-08-23T13:10:54.049+00:00</span><span>&lt;/<span class="end-tag">createdDate</span>&gt;</span><span>
+<span id="line88"></span>        </span><span>&lt;<span class="start-tag">createdByUserId</span>&gt;</span><span>25b17144-cbd0-4f75-907d-2a68d119aee4</span><span>&lt;/<span class="end-tag">createdByUserId</span>&gt;</span><span>
+<span id="line89"></span>        </span><span>&lt;<span class="start-tag">updatedDate</span>&gt;</span><span>2023-10-19T16:37:06.222+00:00</span><span>&lt;/<span class="end-tag">updatedDate</span>&gt;</span><span>
+<span id="line90"></span>        </span><span>&lt;<span class="start-tag">updatedByUserId</span>&gt;</span><span>25b17144-cbd0-4f75-907d-2a68d119aee4</span><span>&lt;/<span class="end-tag">updatedByUserId</span>&gt;</span><span>
+<span id="line91"></span>      </span><span>&lt;/<span class="end-tag">metadata</span>&gt;</span><span>
+<span id="line92"></span>      </span><span>&lt;<span class="start-tag">sourceId</span>&gt;</span><span>ed96edb1-d91d-4a31-9c40-006f5199d782</span><span>&lt;/<span class="end-tag">sourceId</span>&gt;</span><span>
+<span id="line93"></span>      </span><span>&lt;<span class="start-tag">effectiveLocation</span>&gt;</span><span>
+<span id="line94"></span>        </span><span>&lt;<span class="start-tag">id</span>&gt;</span><span>413fe054-a4f3-423e-a62f-088eb111ea8d</span><span>&lt;/<span class="end-tag">id</span>&gt;</span><span>
+<span id="line95"></span>        </span><span>&lt;<span class="start-tag">name</span>&gt;</span><span>ZB Magazin</span><span>&lt;/<span class="end-tag">name</span>&gt;</span><span>
+<span id="line96"></span>        </span><span>&lt;<span class="start-tag">code</span>&gt;</span><span>ZBMAG</span><span>&lt;/<span class="end-tag">code</span>&gt;</span><span>
+<span id="line97"></span>        </span><span>&lt;<span class="start-tag">description</span>&gt;</span><span>BCO 000 alle anderen Fälle. Also 8201 enthält "MAG". Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder
+<span id="line98"></span>BCO 093 und 8201 ist genau "MAG" oder BCO 125</span><span>&lt;/<span class="end-tag">description</span>&gt;</span><span>
+<span id="line99"></span>        </span><span>&lt;<span class="start-tag">discoveryDisplayName</span>&gt;</span><span>000 ZBMAG</span><span>&lt;/<span class="end-tag">discoveryDisplayName</span>&gt;</span><span>
+<span id="line100"></span>        </span><span>&lt;<span class="start-tag">isActive</span>&gt;</span><span>true</span><span>&lt;/<span class="end-tag">isActive</span>&gt;</span><span>
+<span id="line101"></span>        </span><span>&lt;<span class="start-tag">institutionId</span>&gt;</span><span>fe3f6097-691f-4349-b86b-ac5cfff9a763</span><span>&lt;/<span class="end-tag">institutionId</span>&gt;</span><span>
+<span id="line102"></span>        </span><span>&lt;<span class="start-tag">campusId</span>&gt;</span><span>b8c8a576-282d-4909-94e1-85485b8ed044</span><span>&lt;/<span class="end-tag">campusId</span>&gt;</span><span>
+<span id="line103"></span>        </span><span>&lt;<span class="start-tag">libraryId</span>&gt;</span><span>26aa1666-6d00-4221-bcf0-65f0ab963e98</span><span>&lt;/<span class="end-tag">libraryId</span>&gt;</span><span>
+<span id="line104"></span>        </span><span>&lt;<span class="start-tag">details</span><span>/</span>&gt;</span><span>
+<span id="line105"></span>        </span><span>&lt;<span class="start-tag">primaryServicePoint</span>&gt;</span><span>05ab989a-5104-4c6c-a5d1-d55e80e4637d</span><span>&lt;/<span class="end-tag">primaryServicePoint</span>&gt;</span><span>
+<span id="line106"></span>        </span><span>&lt;<span class="start-tag">servicePointIds</span>&gt;</span><span>05ab989a-5104-4c6c-a5d1-d55e80e4637d</span><span>&lt;/<span class="end-tag">servicePointIds</span>&gt;</span><span>
+<span id="line107"></span>        </span><span>&lt;<span class="start-tag">servicePointIds</span>&gt;</span><span>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</span><span>&lt;/<span class="end-tag">servicePointIds</span>&gt;</span><span>
+<span id="line108"></span>        </span><span>&lt;<span class="start-tag">metadata</span>&gt;</span><span>
+<span id="line109"></span>          </span><span>&lt;<span class="start-tag">createdDate</span>&gt;</span><span>2021-01-11T14:40:05.771+00:00</span><span>&lt;/<span class="end-tag">createdDate</span>&gt;</span><span>
+<span id="line110"></span>          </span><span>&lt;<span class="start-tag">createdByUserId</span>&gt;</span><span>b7b7945c-4cf2-497f-a0e3-1202a8389673</span><span>&lt;/<span class="end-tag">createdByUserId</span>&gt;</span><span>
+<span id="line111"></span>          </span><span>&lt;<span class="start-tag">updatedDate</span>&gt;</span><span>2023-07-06T15:00:15.537+00:00</span><span>&lt;/<span class="end-tag">updatedDate</span>&gt;</span><span>
+<span id="line112"></span>          </span><span>&lt;<span class="start-tag">updatedByUserId</span>&gt;</span><span>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</span><span>&lt;/<span class="end-tag">updatedByUserId</span>&gt;</span><span>
+<span id="line113"></span>        </span><span>&lt;/<span class="end-tag">metadata</span>&gt;</span><span>
+<span id="line114"></span>      </span><span>&lt;/<span class="end-tag">effectiveLocation</span>&gt;</span><span>
+<span id="line115"></span>      </span><span>&lt;<span class="start-tag">items</span>&gt;</span><span>
+<span id="line116"></span>        </span><span>&lt;<span class="start-tag">item</span>&gt;</span><span>
+<span id="line117"></span>          </span><span>&lt;<span class="start-tag">id</span>&gt;</span><span>9a0137fe-2067-48ce-ba03-c96dd2d72c4a</span><span>&lt;/<span class="end-tag">id</span>&gt;</span><span>
+<span id="line118"></span>          </span><span class="error" title="Falsches Zeichen nach “&lt;”. Wahrscheinliche Ursache: Unkodierte “&lt;”. Versuchen Sie es als “&amp;lt;” zu kodieren.">&lt;_</span><span>version&gt;338</span><span class="error comment" title="Müll nach &quot;&lt;/&quot;.">&lt;/_version&gt;</span><span>
+<span id="line119"></span>          </span><span>&lt;<span class="start-tag">hrid</span>&gt;</span><span>113674406-1</span><span>&lt;/<span class="end-tag">hrid</span>&gt;</span><span>
+<span id="line120"></span>          </span><span>&lt;<span class="start-tag">holdingsRecordId</span>&gt;</span><span>90e3b724-a252-403c-86e2-ae8c15f7bf27</span><span>&lt;/<span class="end-tag">holdingsRecordId</span>&gt;</span><span>
+<span id="line121"></span>          </span><span>&lt;<span class="start-tag">discoverySuppress</span>&gt;</span><span>false</span><span>&lt;/<span class="end-tag">discoverySuppress</span>&gt;</span><span>
+<span id="line122"></span>          </span><span>&lt;<span class="start-tag">barcode</span>&gt;</span><span>34414860</span><span>&lt;/<span class="end-tag">barcode</span>&gt;</span><span>
+<span id="line123"></span>          </span><span>&lt;<span class="start-tag">effectiveShelvingOrder</span>&gt;</span><span>BB 41129</span><span>&lt;/<span class="end-tag">effectiveShelvingOrder</span>&gt;</span><span>
+<span id="line124"></span>          </span><span>&lt;<span class="start-tag">effectiveCallNumberComponents</span>&gt;</span><span>
+<span id="line125"></span>            </span><span>&lt;<span class="start-tag">callNumber</span>&gt;</span><span>BB 1129</span><span>&lt;/<span class="end-tag">callNumber</span>&gt;</span><span>
+<span id="line126"></span>            </span><span>&lt;<span class="start-tag">prefix</span>&gt;</span><span>4°</span><span>&lt;/<span class="end-tag">prefix</span>&gt;</span><span>
+<span id="line127"></span>          </span><span>&lt;/<span class="end-tag">effectiveCallNumberComponents</span>&gt;</span><span>
+<span id="line128"></span>          </span><span>&lt;<span class="start-tag">status</span>&gt;</span><span>
+<span id="line129"></span>            </span><span>&lt;<span class="start-tag">name</span>&gt;</span><span>Available</span><span>&lt;/<span class="end-tag">name</span>&gt;</span><span>
+<span id="line130"></span>            </span><span>&lt;<span class="start-tag">date</span>&gt;</span><span>2022-09-27T15:05:26.400+00:00</span><span>&lt;/<span class="end-tag">date</span>&gt;</span><span>
+<span id="line131"></span>          </span><span>&lt;/<span class="end-tag">status</span>&gt;</span><span>
+<span id="line132"></span>          </span><span>&lt;<span class="start-tag">materialTypeId</span>&gt;</span><span>24080190-7539-4520-bde1-762f57d006fc</span><span>&lt;/<span class="end-tag">materialTypeId</span>&gt;</span><span>
+<span id="line133"></span>          </span><span>&lt;<span class="start-tag">permanentLoanTypeId</span>&gt;</span><span>7a03b2e2-c995-47a4-83d0-04bbe1930af4</span><span>&lt;/<span class="end-tag">permanentLoanTypeId</span>&gt;</span><span>
+<span id="line134"></span>          </span><span>&lt;<span class="start-tag">effectiveLocationId</span>&gt;</span><span>413fe054-a4f3-423e-a62f-088eb111ea8d</span><span>&lt;/<span class="end-tag">effectiveLocationId</span>&gt;</span><span>
+<span id="line135"></span>          </span><span>&lt;<span class="start-tag">metadata</span>&gt;</span><span>
+<span id="line136"></span>            </span><span>&lt;<span class="start-tag">createdDate</span>&gt;</span><span>2022-09-27T15:05:26.409+00:00</span><span>&lt;/<span class="end-tag">createdDate</span>&gt;</span><span>
+<span id="line137"></span>            </span><span>&lt;<span class="start-tag">createdByUserId</span>&gt;</span><span>25b17144-cbd0-4f75-907d-2a68d119aee4</span><span>&lt;/<span class="end-tag">createdByUserId</span>&gt;</span><span>
+<span id="line138"></span>            </span><span>&lt;<span class="start-tag">updatedDate</span>&gt;</span><span>2023-10-19T16:37:06.242+00:00</span><span>&lt;/<span class="end-tag">updatedDate</span>&gt;</span><span>
+<span id="line139"></span>            </span><span>&lt;<span class="start-tag">updatedByUserId</span>&gt;</span><span>25b17144-cbd0-4f75-907d-2a68d119aee4</span><span>&lt;/<span class="end-tag">updatedByUserId</span>&gt;</span><span>
+<span id="line140"></span>          </span><span>&lt;/<span class="end-tag">metadata</span>&gt;</span><span>
+<span id="line141"></span>          </span><span>&lt;<span class="start-tag">permanentLoanType</span>&gt;</span><span>
+<span id="line142"></span>            </span><span>&lt;<span class="start-tag">id</span>&gt;</span><span>7a03b2e2-c995-47a4-83d0-04bbe1930af4</span><span>&lt;/<span class="end-tag">id</span>&gt;</span><span>
+<span id="line143"></span>            </span><span>&lt;<span class="start-tag">name</span>&gt;</span><span>0 u ausleihbar</span><span>&lt;/<span class="end-tag">name</span>&gt;</span><span>
+<span id="line144"></span>            </span><span>&lt;<span class="start-tag">metadata</span>&gt;</span><span>
+<span id="line145"></span>              </span><span>&lt;<span class="start-tag">createdDate</span>&gt;</span><span>2021-01-05T12:05:10.396+00:00</span><span>&lt;/<span class="end-tag">createdDate</span>&gt;</span><span>
+<span id="line146"></span>              </span><span>&lt;<span class="start-tag">createdByUserId</span>&gt;</span><span>b7b7945c-4cf2-497f-a0e3-1202a8389673</span><span>&lt;/<span class="end-tag">createdByUserId</span>&gt;</span><span>
+<span id="line147"></span>              </span><span>&lt;<span class="start-tag">updatedDate</span>&gt;</span><span>2021-07-05T11:57:13.721+00:00</span><span>&lt;/<span class="end-tag">updatedDate</span>&gt;</span><span>
+<span id="line148"></span>              </span><span>&lt;<span class="start-tag">updatedByUserId</span>&gt;</span><span>b7b7945c-4cf2-497f-a0e3-1202a8389673</span><span>&lt;/<span class="end-tag">updatedByUserId</span>&gt;</span><span>
+<span id="line149"></span>            </span><span>&lt;/<span class="end-tag">metadata</span>&gt;</span><span>
+<span id="line150"></span>          </span><span>&lt;/<span class="end-tag">permanentLoanType</span>&gt;</span><span>
+<span id="line151"></span>          </span><span>&lt;<span class="start-tag">effectiveLocation</span>&gt;</span><span>
+<span id="line152"></span>            </span><span>&lt;<span class="start-tag">id</span>&gt;</span><span>413fe054-a4f3-423e-a62f-088eb111ea8d</span><span>&lt;/<span class="end-tag">id</span>&gt;</span><span>
+<span id="line153"></span>            </span><span>&lt;<span class="start-tag">name</span>&gt;</span><span>ZB Magazin</span><span>&lt;/<span class="end-tag">name</span>&gt;</span><span>
+<span id="line154"></span>            </span><span>&lt;<span class="start-tag">code</span>&gt;</span><span>ZBMAG</span><span>&lt;/<span class="end-tag">code</span>&gt;</span><span>
+<span id="line155"></span>            </span><span>&lt;<span class="start-tag">description</span>&gt;</span><span>BCO 000 alle anderen Fälle. Also 8201 enthält "MAG". Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder
+<span id="line156"></span>BCO 093 und 8201 ist genau "MAG" oder BCO 125</span><span>&lt;/<span class="end-tag">description</span>&gt;</span><span>
+<span id="line157"></span>            </span><span>&lt;<span class="start-tag">discoveryDisplayName</span>&gt;</span><span>000 ZBMAG</span><span>&lt;/<span class="end-tag">discoveryDisplayName</span>&gt;</span><span>
+<span id="line158"></span>            </span><span>&lt;<span class="start-tag">isActive</span>&gt;</span><span>true</span><span>&lt;/<span class="end-tag">isActive</span>&gt;</span><span>
+<span id="line159"></span>            </span><span>&lt;<span class="start-tag">institutionId</span>&gt;</span><span>fe3f6097-691f-4349-b86b-ac5cfff9a763</span><span>&lt;/<span class="end-tag">institutionId</span>&gt;</span><span>
+<span id="line160"></span>            </span><span>&lt;<span class="start-tag">campusId</span>&gt;</span><span>b8c8a576-282d-4909-94e1-85485b8ed044</span><span>&lt;/<span class="end-tag">campusId</span>&gt;</span><span>
+<span id="line161"></span>            </span><span>&lt;<span class="start-tag">libraryId</span>&gt;</span><span>26aa1666-6d00-4221-bcf0-65f0ab963e98</span><span>&lt;/<span class="end-tag">libraryId</span>&gt;</span><span>
+<span id="line162"></span>            </span><span>&lt;<span class="start-tag">details</span><span>/</span>&gt;</span><span>
+<span id="line163"></span>            </span><span>&lt;<span class="start-tag">primaryServicePoint</span>&gt;</span><span>05ab989a-5104-4c6c-a5d1-d55e80e4637d</span><span>&lt;/<span class="end-tag">primaryServicePoint</span>&gt;</span><span>
+<span id="line164"></span>            </span><span>&lt;<span class="start-tag">servicePointIds</span>&gt;</span><span>05ab989a-5104-4c6c-a5d1-d55e80e4637d</span><span>&lt;/<span class="end-tag">servicePointIds</span>&gt;</span><span>
+<span id="line165"></span>            </span><span>&lt;<span class="start-tag">servicePointIds</span>&gt;</span><span>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</span><span>&lt;/<span class="end-tag">servicePointIds</span>&gt;</span><span>
+<span id="line166"></span>            </span><span>&lt;<span class="start-tag">metadata</span>&gt;</span><span>
+<span id="line167"></span>              </span><span>&lt;<span class="start-tag">createdDate</span>&gt;</span><span>2021-01-11T14:40:05.771+00:00</span><span>&lt;/<span class="end-tag">createdDate</span>&gt;</span><span>
+<span id="line168"></span>              </span><span>&lt;<span class="start-tag">createdByUserId</span>&gt;</span><span>b7b7945c-4cf2-497f-a0e3-1202a8389673</span><span>&lt;/<span class="end-tag">createdByUserId</span>&gt;</span><span>
+<span id="line169"></span>              </span><span>&lt;<span class="start-tag">updatedDate</span>&gt;</span><span>2023-07-06T15:00:15.537+00:00</span><span>&lt;/<span class="end-tag">updatedDate</span>&gt;</span><span>
+<span id="line170"></span>              </span><span>&lt;<span class="start-tag">updatedByUserId</span>&gt;</span><span>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</span><span>&lt;/<span class="end-tag">updatedByUserId</span>&gt;</span><span>
+<span id="line171"></span>            </span><span>&lt;/<span class="end-tag">metadata</span>&gt;</span><span>
+<span id="line172"></span>          </span><span>&lt;/<span class="end-tag">effectiveLocation</span>&gt;</span><span>
+<span id="line173"></span>        </span><span>&lt;/<span class="end-tag">item</span>&gt;</span><span>
+<span id="line174"></span>      </span><span>&lt;/<span class="end-tag">items</span>&gt;</span><span>
+<span id="line175"></span>    </span><span>&lt;/<span class="end-tag">holding</span>&gt;</span><span>
+<span id="line176"></span>  </span><span>&lt;/<span class="end-tag">holdings</span>&gt;</span><span>
+<span id="line177"></span></span><span>&lt;/<span class="end-tag">instanceData</span>&gt;</span><span>
+<span id="line178"></span></span></pre></body></html>

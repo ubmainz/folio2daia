@@ -1,0 +1,7 @@
+Konvertierungsregeln für MZ (anpassen!)
+
+DAIAinfo epn 113674406-1 ofniAIAD
+DAIAinfo sig BB 1129 ofniAIAD
+DAIAinfo standort <a href="http://bibmap.ub.uni-MAINZ..../BIBMAP_Server?signatur=BB%201129"/>Standort in der Bibliothek anzeigen ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD

@@ -1,0 +1,10 @@
+DAIAinfo epn 113674406 ofniAIAD
+DAIAinfo abt_ppn 102599602 ofniAIAD
+DAIAinfo abt_link https://opac.ub.uni-mainz.de/DB=1/CMD?ACT=SRCHA&IKT=12&REC=2&TRM=102599602 ofniAIAD
+DAIAinfo abt_name Universität Mainz, Zentralbibliothek ofniAIAD
+DAIAinfo standort Standort: MAGAZIN - zur Ausleihe bestellen ofniAIAD
+DAIAinfo sig 4º BB 1129 ofniAIAD
+DAIAinfo abt_num 000 ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_link https://opac.ub.uni-mainz.de/loan/DB=1/IMPLAND=Y/LNG=DU/SID=593f96be-831/TTL=1/REQ?EPN=113674406&MTR=mon&BES=1 ofniAIAD
