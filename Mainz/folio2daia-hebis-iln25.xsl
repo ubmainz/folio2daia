@@ -4,8 +4,8 @@
     
     <xsl:template match="//instanceData">
         
-        <xsl:apply-templates select="holdings/holding[holdingsTypeId='996f93e2-5b5e-4cf2-9168-33ced1f95eed']/*"/>
-        <xsl:apply-templates select="holdings/holding[holdingsTypeId!='996f93e2-5b5e-4cf2-9168-33ced1f95eed']/items/item/*"></xsl:apply-templates>
+        <xsl:apply-templates select="holdings/holding[holdingsTypeId='996f93e2-5b5e-4cf2-9168-33ced1f95eed']//*"/>
+        <xsl:apply-templates select="holdings/holding[holdingsTypeId!='996f93e2-5b5e-4cf2-9168-33ced1f95eed']/items/item//*"></xsl:apply-templates>
         
     </xsl:template>
         
@@ -14,10 +14,28 @@
              <xsl:with-param name="tag">epn</xsl:with-param>
          </xsl:call-template>
     </xsl:template>
-     
+
+    <xsl:template match="error">
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag">error</xsl:with-param>
+        </xsl:call-template>
+    </xsl:template>
+    
+    <xsl:template match="permanentLoanType/name">
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag">aus_ind</xsl:with-param>
+        </xsl:call-template>
+    </xsl:template>
+
     <xsl:template match="electronicAccess/uri">
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">online_link</xsl:with-param>
+        </xsl:call-template>
+    </xsl:template>
+    
+    <xsl:template match="notes[staffOnly='false']/note">
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag">aus_text</xsl:with-param>
         </xsl:call-template>
     </xsl:template>
     
