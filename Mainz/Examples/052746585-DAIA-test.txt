@@ -1,4 +1,4 @@
-Konvertierungsregeln fÃ¼r MZ (anpassen!)
+Konvertierungsregeln für MZ (!anpassen)
 
 DAIAinfo epn 113674406-1 ofniAIAD
 DAIAinfo sig BB 1129 ofniAIAD
