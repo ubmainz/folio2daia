@@ -10,27 +10,36 @@
     </xsl:template>
         
      <xsl:template match="hrid">
-        <xsl:text>&#10;DAIAinfo </xsl:text>
-        <xsl:text>epn </xsl:text>
-        <xsl:value-of select="."/>
-        <xsl:text> ofniAIAD</xsl:text>
+         <xsl:call-template name="DAIA">
+             <xsl:with-param name="tag">epn</xsl:with-param>
+         </xsl:call-template>
     </xsl:template>
      
     <xsl:template match="electronicAccess/uri">
-        <xsl:text>&#10;DAIAinfo </xsl:text>
-        <xsl:text>online_link </xsl:text>
-        <xsl:value-of select="."/>
-        <xsl:text> ofniAIAD</xsl:text>  
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag">online_link</xsl:with-param>
+        </xsl:call-template>
     </xsl:template>
     
     <xsl:template match="effectiveCallNumberComponents">
-        <xsl:text>&#10;DAIAinfo </xsl:text>
-        <xsl:text>sig </xsl:text>
-        <xsl:value-of select="prefix"/><xsl:value-of select="callNumber"/>
-        <xsl:text> ofniAIAD</xsl:text>
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag">sig</xsl:with-param>
+            <xsl:with-param name="value"><xsl:value-of select="prefix"/><xsl:value-of select="callNumber"/></xsl:with-param>
+        </xsl:call-template>
     </xsl:template>
     
     <xsl:template match="*"/>
 
-
+    <xsl:template name="DAIA">
+        <xsl:param name="tag"/>
+        <xsl:param name="value"/>
+        <xsl:text>&#10;DAIAinfo </xsl:text>
+        <xsl:value-of select="$tag"/>
+        <xsl:text> </xsl:text>
+        <xsl:choose>
+            <xsl:when test="$value"><xsl:value-of select="$value"/></xsl:when>
+            <xsl:otherwise> <xsl:value-of select="."/></xsl:otherwise>
+        </xsl:choose>
+        <xsl:text> ofniAIAD</xsl:text>
+    </xsl:template>
 </xsl:stylesheet>
