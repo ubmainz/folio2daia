@@ -3,7 +3,7 @@
     <xsl:output method="text"/>
 
     <xsl:template match="/">
-        <xsl:apply-templates select="//*"/>
+        <xsl:apply-templates select="//instanceData"/>
     </xsl:template>
 
     <xsl:template match="instanceData">
