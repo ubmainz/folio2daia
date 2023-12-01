@@ -6,7 +6,7 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 
 DAIAinfo epn 070304823-1 ofniAIAD
-DAIAinfo sig 4°ZA 363 ofniAIAD
+DAIAinfo sig 4° ZA 363 ofniAIAD
 DAIAinfo aus_status frei_best ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 
@@ -16,12 +16,12 @@ DAIAinfo aus_status frei_best ofniAIAD
 DAIAinfo aus_ind 5 i nur für den Lesesaal ofniAIAD
 
 DAIAinfo epn 113674406-1 ofniAIAD
-DAIAinfo sig 4°BB 1129 ofniAIAD
+DAIAinfo sig 4° BB 1129 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 
 DAIAinfo epn 127646841-1 ofniAIAD
-DAIAinfo sig RARAZD 759-236 ofniAIAD
+DAIAinfo sig RARA ZD 759-236 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 5 i nur für den Lesesaal ofniAIAD
 
@@ -35,7 +35,7 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
 
 DAIAinfo epn 1010332449-1 ofniAIAD
-DAIAinfo sig SSCLIT-GB 89.99 Glass 1 ofniAIAD
+DAIAinfo sig SSC LIT-GB 89.99 Glass 1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 
@@ -48,15 +48,15 @@ DAIAinfo sig ANGL 860/1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 3 s Präsenzbestand Lesesaal ofniAIAD
 DAIAinfo epn 1010642685-3 ofniAIAD
-DAIAinfo sig LBSKUL-AP 07.44 Gilro 200 (2.-4. Ex.) ofniAIAD
+DAIAinfo sig LBS KUL-AP 07.44 Gilro 200 (2.-4. Ex.) ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 2 c Lehrbuchsammlung ofniAIAD
 DAIAinfo epn 1010642685-4 ofniAIAD
-DAIAinfo sig LBSKUL-AP 07.44 Gilro 200 (2.-4. Ex.) ofniAIAD
+DAIAinfo sig LBS KUL-AP 07.44 Gilro 200 (2.-4. Ex.) ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 2 c Lehrbuchsammlung ofniAIAD
 DAIAinfo epn 1010642685-2 ofniAIAD
-DAIAinfo sig LBSKUL-AP 07.44 Gilro 200 (2.-4. Ex.) ofniAIAD
+DAIAinfo sig LBS KUL-AP 07.44 Gilro 200 (2.-4. Ex.) ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 2 c Lehrbuchsammlung ofniAIAD
 
@@ -79,11 +79,11 @@ DAIAinfo sig 302.689 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 DAIAinfo epn 1010876694-1 ofniAIAD
-DAIAinfo sig LBSLIN-DE 83:1-3 ofniAIAD
+DAIAinfo sig LBS LIN-DE 83:1-3 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 2 c Lehrbuchsammlung ofniAIAD
 DAIAinfo epn 1010876694-2 ofniAIAD
-DAIAinfo sig LBSLIN-DE 83:1-3 ofniAIAD
+DAIAinfo sig LBS LIN-DE 83:1-3 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 2 c Lehrbuchsammlung ofniAIAD
 DAIAinfo epn 1010876708-1 ofniAIAD
@@ -91,7 +91,7 @@ DAIAinfo sig GERM 550/1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 3 s Präsenzbestand Lesesaal ofniAIAD
 DAIAinfo epn 101238604X-1 ofniAIAD
-DAIAinfo sig 073Av 2016/2 ofniAIAD
+DAIAinfo sig 073 Av 2016/2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 5 i nur für den Lesesaal ofniAIAD
 
@@ -132,11 +132,11 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 3 s Präsenzbestand Lesesaal ofniAIAD
 
 DAIAinfo epn 1229734694-1 ofniAIAD
-DAIAinfo sig 210DW 1400 S384 (3) ofniAIAD
+DAIAinfo sig 210 DW 1400 S384 (3) ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 
 DAIAinfo epn 1234193264-1 ofniAIAD
-DAIAinfo sig 092AaM 6 / 54,2 ofniAIAD
+DAIAinfo sig 092 AaM 6 / 54,2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 5 i nur für den Lesesaal ofniAIAD

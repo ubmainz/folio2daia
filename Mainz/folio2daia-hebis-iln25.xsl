@@ -57,7 +57,7 @@
     <xsl:template match="loan/dueDate">
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">aus_datum</xsl:with-param>
-            <xsl:with-param name="value"><xsl:value-of select="substring(loan/dueDate, 0, 11)"/></xsl:with-param>
+            <xsl:with-param name="value"><xsl:value-of select="substring(loan/dueDate,0,11)"/></xsl:with-param>
         </xsl:call-template>        
     </xsl:template>
 
@@ -76,7 +76,7 @@
     <xsl:template match="effectiveCallNumberComponents">
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">sig</xsl:with-param>
-            <xsl:with-param name="value"><xsl:value-of select="prefix"/><xsl:text> </xsl:text><xsl:value-of select="callNumber"/></xsl:with-param>
+            <xsl:with-param name="value"><xsl:value-of select="string-join((prefix,callNumber),' ')"/></xsl:with-param>
         </xsl:call-template>
     </xsl:template>
     
