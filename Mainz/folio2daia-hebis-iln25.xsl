@@ -8,6 +8,7 @@
 
     <xsl:template match="instanceData">
         <xsl:text>&#10;</xsl:text>
+        
         <xsl:apply-templates select="holdings/holding[holdingsTypeId='996f93e2-5b5e-4cf2-9168-33ced1f95eed']//*"/>
         <xsl:apply-templates select="holdings/holding[holdingsTypeId!='996f93e2-5b5e-4cf2-9168-33ced1f95eed']/items/item//*"></xsl:apply-templates>
         
@@ -42,7 +43,7 @@
                     <xsl:when test=".='Available'">
                         <xsl:text>verfuegbar</xsl:text>
                     </xsl:when>
-                    <xsl:when test=".='Intellectual item'">
+                    <xsl:when test=".='Intellectual item'"> <!-- c-Sätze (location=dummy) ? -->
                         <xsl:text>frei_best</xsl:text>
                     </xsl:when>
                     <xsl:otherwise>
@@ -51,6 +52,13 @@
                 </xsl:choose>
             </xsl:with-param>
         </xsl:call-template>
+    </xsl:template>
+
+    <xsl:template match="loan/dueDate">
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag">aus_datum</xsl:with-param>
+            <xsl:with-param name="value"><xsl:value-of select="substring(loan/dueDate, 0, 11)"/></xsl:with-param>
+        </xsl:call-template>        
     </xsl:template>
 
     <xsl:template match="electronicAccess/uri">
@@ -68,7 +76,7 @@
     <xsl:template match="effectiveCallNumberComponents">
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">sig</xsl:with-param>
-            <xsl:with-param name="value"><xsl:value-of select="prefix"/><xsl:value-of select="callNumber"/></xsl:with-param>
+            <xsl:with-param name="value"><xsl:value-of select="prefix"/><xsl:text> </xsl:text><xsl:value-of select="callNumber"/></xsl:with-param>
         </xsl:call-template>
     </xsl:template>
     
