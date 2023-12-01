@@ -35,6 +35,7 @@
     <xsl:template match="effectiveLocation/discoveryDisplayName">
         <xsl:variable name="tabelle">
             <e><c>000 ZBMAG</c><n>Zentralbibliothek Magazin</n></e>
+            <e><c>Location-Code</c><n>Name der Location</n></e>
             
         </xsl:variable>
         <xsl:call-template name="DAIA">
@@ -71,7 +72,7 @@
     <xsl:template match="loan/dueDate">
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">aus_datum</xsl:with-param>
-            <xsl:with-param name="value"><xsl:value-of select="substring(loan/dueDate,0,11)"/></xsl:with-param>
+            <xsl:with-param name="value" select="substring(loan/dueDate,0,11)"/>
         </xsl:call-template>        
     </xsl:template>
 
@@ -90,7 +91,7 @@
     <xsl:template match="effectiveCallNumberComponents">
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">sig</xsl:with-param>
-            <xsl:with-param name="value"><xsl:value-of select="string-join((prefix,callNumber),' ')"/></xsl:with-param>
+            <xsl:with-param name="value" select="string-join((prefix,callNumber),' ')"/>
         </xsl:call-template>
     </xsl:template>
     
