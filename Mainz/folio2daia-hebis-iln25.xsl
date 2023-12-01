@@ -32,6 +32,16 @@
         </xsl:call-template>
     </xsl:template>
     
+    <xsl:template match="effectiveLocation/discoveryDisplayName">
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag">abt_num</xsl:with-param>
+        </xsl:call-template>
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag">abt_name</xsl:with-param>
+            <xsl:with-param name="value">Name der Location</xsl:with-param>
+        </xsl:call-template>
+    </xsl:template>
+    
     <xsl:template match="status/name"> <!-- noch sehr schlicht -->
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">aus_status</xsl:with-param>

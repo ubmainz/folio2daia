@@ -4,139 +4,201 @@ DAIAinfo epn 1009406612-1 ofniAIAD
 DAIAinfo sig 89.2008 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
+DAIAinfo abt_num BB TSK Magazin ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 
 DAIAinfo epn 070304823-1 ofniAIAD
 DAIAinfo sig 4° ZA 363 ofniAIAD
 DAIAinfo aus_status frei_best ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
+DAIAinfo abt_num 000 ZBMAG ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 
 DAIAinfo epn 577916610-1 ofniAIAD
 DAIAinfo sig Z 440 ofniAIAD
 DAIAinfo aus_status frei_best ofniAIAD
 DAIAinfo aus_ind 5 i nur für den Lesesaal ofniAIAD
+DAIAinfo abt_num BB TSK Magazin ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 
 DAIAinfo epn 113674406-1 ofniAIAD
 DAIAinfo sig 4° BB 1129 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
+DAIAinfo abt_num 000 ZBMAG ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 
 DAIAinfo epn 127646841-1 ofniAIAD
 DAIAinfo sig RARA ZD 759-236 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 5 i nur für den Lesesaal ofniAIAD
+DAIAinfo abt_num Zentralbibliothek Magazin - Rara ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 
 DAIAinfo epn 101021411X-1 ofniAIAD
 DAIAinfo sig 20025435 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
+DAIAinfo abt_num BB TSK Magazin ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 DAIAinfo epn 165857854-1 ofniAIAD
 DAIAinfo sig L/II/4 V 1 I ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
+DAIAinfo abt_num BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 
 DAIAinfo epn 1010332449-1 ofniAIAD
 DAIAinfo sig SSC LIT-GB 89.99 Glass 1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
+DAIAinfo abt_num BB TSK CELTRA / SSC ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 
 DAIAinfo epn 399194665-1 ofniAIAD
 DAIAinfo sig L/VII G 7 I ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
+DAIAinfo abt_num BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 DAIAinfo epn 1010642677-1 ofniAIAD
 DAIAinfo sig ANGL 860/1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 3 s Präsenzbestand Lesesaal ofniAIAD
+DAIAinfo abt_num Bereichsbibliothek TSK Lesesaal ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 DAIAinfo epn 1010642685-3 ofniAIAD
 DAIAinfo sig LBS KUL-AP 07.44 Gilro 200 (2.-4. Ex.) ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 2 c Lehrbuchsammlung ofniAIAD
+DAIAinfo abt_num Lehrbuchsammlung Bereichsbibliothek TSK ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 DAIAinfo epn 1010642685-4 ofniAIAD
 DAIAinfo sig LBS KUL-AP 07.44 Gilro 200 (2.-4. Ex.) ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 2 c Lehrbuchsammlung ofniAIAD
+DAIAinfo abt_num Lehrbuchsammlung Bereichsbibliothek TSK ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 DAIAinfo epn 1010642685-2 ofniAIAD
 DAIAinfo sig LBS KUL-AP 07.44 Gilro 200 (2.-4. Ex.) ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 2 c Lehrbuchsammlung ofniAIAD
+DAIAinfo abt_num Lehrbuchsammlung Bereichsbibliothek TSK ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 
 DAIAinfo epn 623198681-1 ofniAIAD
 DAIAinfo sig 7880 FAF 5938 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
+DAIAinfo abt_num 000 ZBMAG ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 
 DAIAinfo epn 784544778-1 ofniAIAD
 DAIAinfo sig 274.926 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
+DAIAinfo abt_num Zentralbibliothek Bücherturm ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 
 DAIAinfo epn 102045931X-1 ofniAIAD
 DAIAinfo sig 08 H - B 112 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
+DAIAinfo abt_num BB Philosophicum, Germanistik und Kulturanthropologie ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 DAIAinfo epn 1214351387-1 ofniAIAD
 DAIAinfo sig 302.689 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
+DAIAinfo abt_num Zentralbibliothek Bücherturm ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 DAIAinfo epn 1010876694-1 ofniAIAD
 DAIAinfo sig LBS LIN-DE 83:1-3 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 2 c Lehrbuchsammlung ofniAIAD
+DAIAinfo abt_num Lehrbuchsammlung Bereichsbibliothek TSK ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 DAIAinfo epn 1010876694-2 ofniAIAD
 DAIAinfo sig LBS LIN-DE 83:1-3 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 2 c Lehrbuchsammlung ofniAIAD
+DAIAinfo abt_num Lehrbuchsammlung Bereichsbibliothek TSK ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 DAIAinfo epn 1010876708-1 ofniAIAD
 DAIAinfo sig GERM 550/1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 3 s Präsenzbestand Lesesaal ofniAIAD
+DAIAinfo abt_num Bereichsbibliothek TSK Lesesaal ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 DAIAinfo epn 101238604X-1 ofniAIAD
 DAIAinfo sig 073 Av 2016/2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 5 i nur für den Lesesaal ofniAIAD
+DAIAinfo abt_num BB Philosophicum Separiert ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 
 DAIAinfo epn 1116531178-1 ofniAIAD
 DAIAinfo sig LIT-AR 10:1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
+DAIAinfo abt_num BB TSK Freihand ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 
 DAIAinfo epn 1118271912-1 ofniAIAD
 DAIAinfo sig BG 1111-2,2.Ex. ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
+DAIAinfo abt_num 000 ZBMAG ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 DAIAinfo epn 1107770459-1 ofniAIAD
 DAIAinfo sig BG 1111-2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
+DAIAinfo abt_num 000 ZBMAG ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 
 DAIAinfo epn 1147375208-1 ofniAIAD
 DAIAinfo sig 15D 075,5.Aufl. ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 2 c Lehrbuchsammlung ofniAIAD
+DAIAinfo abt_num Zentralbibliothek Lehrbuchsammlung ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 DAIAinfo epn 1147375208-2 ofniAIAD
 DAIAinfo sig 15D 075,5.Aufl. ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 2 c Lehrbuchsammlung ofniAIAD
+DAIAinfo abt_num Zentralbibliothek Lehrbuchsammlung ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 DAIAinfo epn 1147375208-3 ofniAIAD
 DAIAinfo sig 15D 075,5.Aufl. ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 2 c Lehrbuchsammlung ofniAIAD
+DAIAinfo abt_num Zentralbibliothek Lehrbuchsammlung ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 DAIAinfo epn 1145954014-1 ofniAIAD
 DAIAinfo sig GERM B 112 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 3 s Präsenzbestand Lesesaal ofniAIAD
+DAIAinfo abt_num Zentralbibliothek Lesesaal ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 
 DAIAinfo epn 1214509029-1 ofniAIAD
 DAIAinfo sig LM 1:262-54.2022 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 3 s Präsenzbestand Lesesaal ofniAIAD
+DAIAinfo abt_num Zentralbibliothek Lesesaal ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 
 DAIAinfo epn 1229734694-1 ofniAIAD
 DAIAinfo sig 210 DW 1400 S384 (3) ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
+DAIAinfo abt_num Zentralbibliothek Lesesaal ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
 
 DAIAinfo epn 1234193264-1 ofniAIAD
 DAIAinfo sig 092 AaM 6 / 54,2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 5 i nur für den Lesesaal ofniAIAD
+DAIAinfo abt_num BB Philosophicum Separiert ofniAIAD
+DAIAinfo abt_name Name der Location ofniAIAD
