@@ -4,7 +4,7 @@
 
     <xsl:template match="/instanceData">
         <xsl:variable name="lang" select="lang"/>
-        <xsl:text>Konvertierungsregeln für MZ (!anpassen)</xsl:text>
+        <xsl:text>Konvertierungsregeln für MZ (!anpassen!)</xsl:text>
         <xsl:text>&#10;</xsl:text>
         <xsl:choose>
             <xsl:when test="error and (matches(hrid, '8\d{7}[\dxX]'))">
