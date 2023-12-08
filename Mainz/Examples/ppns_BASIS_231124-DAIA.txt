@@ -8,30 +8,30 @@ DAIAinfo abt_num BB TSK Magazin ofniAIAD
 DAIAinfo abt_name BB TSK Magazin ofniAIAD
 
 DAIAinfo epn 070304823-1 ofniAIAD
-DAIAinfo sig 4° ZA 363 ofniAIAD
+DAIAinfo sig 4Â° ZA 363 ofniAIAD
 DAIAinfo aus_status frei_best ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 DAIAinfo abt_num 000 ZBMAG ofniAIAD
-DAIAinfo abt_name Zentralbibliothek Magazin ofniAIAD
+DAIAinfo abt_name 000 ZBMAG ofniAIAD
 
 DAIAinfo epn 577916610-1 ofniAIAD
 DAIAinfo sig Z 440 ofniAIAD
 DAIAinfo aus_status frei_best ofniAIAD
-DAIAinfo aus_ind 5 i nur für den Lesesaal ofniAIAD
+DAIAinfo aus_ind 5 i nur fÃ¼r den Lesesaal ofniAIAD
 DAIAinfo abt_num BB TSK Magazin ofniAIAD
 DAIAinfo abt_name BB TSK Magazin ofniAIAD
 
 DAIAinfo epn 113674406-1 ofniAIAD
-DAIAinfo sig 4° BB 1129 ofniAIAD
+DAIAinfo sig 4Â° BB 1129 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 DAIAinfo abt_num 000 ZBMAG ofniAIAD
-DAIAinfo abt_name Zentralbibliothek Magazin ofniAIAD
+DAIAinfo abt_name 000 ZBMAG ofniAIAD
 
 DAIAinfo epn 127646841-1 ofniAIAD
 DAIAinfo sig RARA ZD 759-236 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
-DAIAinfo aus_ind 5 i nur für den Lesesaal ofniAIAD
+DAIAinfo aus_ind 5 i nur fÃ¼r den Lesesaal ofniAIAD
 DAIAinfo abt_num Zentralbibliothek Magazin - Rara ofniAIAD
 DAIAinfo abt_name Zentralbibliothek Magazin - Rara ofniAIAD
 
@@ -44,7 +44,7 @@ DAIAinfo abt_name BB TSK Magazin ofniAIAD
 DAIAinfo epn 165857854-1 ofniAIAD
 DAIAinfo sig L/II/4 V 1 I ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
-DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
+DAIAinfo aus_ind 4 d PrÃ¤senzbestand Wochenendausleihe ofniAIAD
 DAIAinfo abt_num BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 
@@ -58,13 +58,13 @@ DAIAinfo abt_name BB TSK CELTRA / SSC ofniAIAD
 DAIAinfo epn 399194665-1 ofniAIAD
 DAIAinfo sig L/VII G 7 I ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
-DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
+DAIAinfo aus_ind 4 d PrÃ¤senzbestand Wochenendausleihe ofniAIAD
 DAIAinfo abt_num BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 DAIAinfo epn 1010642677-1 ofniAIAD
 DAIAinfo sig ANGL 860/1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
-DAIAinfo aus_ind 3 s Präsenzbestand Lesesaal ofniAIAD
+DAIAinfo aus_ind 3 s PrÃ¤senzbestand Lesesaal ofniAIAD
 DAIAinfo abt_num Bereichsbibliothek TSK Lesesaal ofniAIAD
 DAIAinfo abt_name Bereichsbibliothek TSK Lesesaal ofniAIAD
 DAIAinfo epn 1010642685-3 ofniAIAD
@@ -91,27 +91,27 @@ DAIAinfo sig 7880 FAF 5938 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 DAIAinfo abt_num 000 ZBMAG ofniAIAD
-DAIAinfo abt_name Zentralbibliothek Magazin ofniAIAD
+DAIAinfo abt_name 000 ZBMAG ofniAIAD
 
 DAIAinfo epn 784544778-1 ofniAIAD
 DAIAinfo sig 274.926 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
-DAIAinfo abt_num Zentralbibliothek Bücherturm ofniAIAD
-DAIAinfo abt_name Zentralbibliothek Bücherturm ofniAIAD
+DAIAinfo abt_num Zentralbibliothek BÃ¼cherturm ofniAIAD
+DAIAinfo abt_name Zentralbibliothek BÃ¼cherturm ofniAIAD
 
 DAIAinfo epn 102045931X-1 ofniAIAD
 DAIAinfo sig 08 H - B 112 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
-DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
+DAIAinfo aus_ind 4 d PrÃ¤senzbestand Wochenendausleihe ofniAIAD
 DAIAinfo abt_num BB Philosophicum, Germanistik und Kulturanthropologie ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Germanistik und Kulturanthropologie ofniAIAD
 DAIAinfo epn 1214351387-1 ofniAIAD
 DAIAinfo sig 302.689 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
-DAIAinfo abt_num Zentralbibliothek Bücherturm ofniAIAD
-DAIAinfo abt_name Zentralbibliothek Bücherturm ofniAIAD
+DAIAinfo abt_num Zentralbibliothek BÃ¼cherturm ofniAIAD
+DAIAinfo abt_name Zentralbibliothek BÃ¼cherturm ofniAIAD
 DAIAinfo epn 1010876694-1 ofniAIAD
 DAIAinfo sig LBS LIN-DE 83:1-3 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -127,13 +127,13 @@ DAIAinfo abt_name Lehrbuchsammlung Bereichsbibliothek TSK ofniAIAD
 DAIAinfo epn 1010876708-1 ofniAIAD
 DAIAinfo sig GERM 550/1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
-DAIAinfo aus_ind 3 s Präsenzbestand Lesesaal ofniAIAD
+DAIAinfo aus_ind 3 s PrÃ¤senzbestand Lesesaal ofniAIAD
 DAIAinfo abt_num Bereichsbibliothek TSK Lesesaal ofniAIAD
 DAIAinfo abt_name Bereichsbibliothek TSK Lesesaal ofniAIAD
 DAIAinfo epn 101238604X-1 ofniAIAD
 DAIAinfo sig 073 Av 2016/2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
-DAIAinfo aus_ind 5 i nur für den Lesesaal ofniAIAD
+DAIAinfo aus_ind 5 i nur fÃ¼r den Lesesaal ofniAIAD
 DAIAinfo abt_num BB Philosophicum Separiert ofniAIAD
 DAIAinfo abt_name BB Philosophicum Separiert ofniAIAD
 
@@ -149,13 +149,13 @@ DAIAinfo sig BG 1111-2,2.Ex. ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 DAIAinfo abt_num 000 ZBMAG ofniAIAD
-DAIAinfo abt_name Zentralbibliothek Magazin ofniAIAD
+DAIAinfo abt_name 000 ZBMAG ofniAIAD
 DAIAinfo epn 1107770459-1 ofniAIAD
 DAIAinfo sig BG 1111-2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 DAIAinfo abt_num 000 ZBMAG ofniAIAD
-DAIAinfo abt_name Zentralbibliothek Magazin ofniAIAD
+DAIAinfo abt_name 000 ZBMAG ofniAIAD
 
 DAIAinfo epn 1147375208-1 ofniAIAD
 DAIAinfo sig 15D 075,5.Aufl. ofniAIAD
@@ -178,14 +178,14 @@ DAIAinfo abt_name Zentralbibliothek Lehrbuchsammlung ofniAIAD
 DAIAinfo epn 1145954014-1 ofniAIAD
 DAIAinfo sig GERM B 112 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
-DAIAinfo aus_ind 3 s Präsenzbestand Lesesaal ofniAIAD
+DAIAinfo aus_ind 3 s PrÃ¤senzbestand Lesesaal ofniAIAD
 DAIAinfo abt_num Zentralbibliothek Lesesaal ofniAIAD
 DAIAinfo abt_name Zentralbibliothek Lesesaal ofniAIAD
 
 DAIAinfo epn 1214509029-1 ofniAIAD
 DAIAinfo sig LM 1:262-54.2022 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
-DAIAinfo aus_ind 3 s Präsenzbestand Lesesaal ofniAIAD
+DAIAinfo aus_ind 3 s PrÃ¤senzbestand Lesesaal ofniAIAD
 DAIAinfo abt_num Zentralbibliothek Lesesaal ofniAIAD
 DAIAinfo abt_name Zentralbibliothek Lesesaal ofniAIAD
 
@@ -199,6 +199,6 @@ DAIAinfo abt_name Zentralbibliothek Lesesaal ofniAIAD
 DAIAinfo epn 1234193264-1 ofniAIAD
 DAIAinfo sig 092 AaM 6 / 54,2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
-DAIAinfo aus_ind 5 i nur für den Lesesaal ofniAIAD
+DAIAinfo aus_ind 5 i nur fÃ¼r den Lesesaal ofniAIAD
 DAIAinfo abt_num BB Philosophicum Separiert ofniAIAD
 DAIAinfo abt_name BB Philosophicum Separiert ofniAIAD
