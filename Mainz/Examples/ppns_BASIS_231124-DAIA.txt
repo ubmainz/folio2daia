@@ -35,18 +35,18 @@ DAIAinfo aus_ind 5 i nur für den Lesesaal ofniAIAD
 DAIAinfo abt_num Zentralbibliothek Magazin - Rara ofniAIAD
 DAIAinfo abt_name Zentralbibliothek Magazin - Rara ofniAIAD
 
-DAIAinfo epn 101021411X-1 ofniAIAD
-DAIAinfo sig 20025435 ofniAIAD
-DAIAinfo aus_status verfuegbar ofniAIAD
-DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
-DAIAinfo abt_num BB TSK Magazin ofniAIAD
-DAIAinfo abt_name BB TSK Magazin ofniAIAD
 DAIAinfo epn 165857854-1 ofniAIAD
 DAIAinfo sig L/II/4 V 1 I ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
 DAIAinfo abt_num BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
+DAIAinfo epn 101021411X-1 ofniAIAD
+DAIAinfo sig 20025435 ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
+DAIAinfo abt_num BB TSK Magazin ofniAIAD
+DAIAinfo abt_name BB TSK Magazin ofniAIAD
 
 DAIAinfo epn 1010332449-1 ofniAIAD
 DAIAinfo sig SSC LIT-GB 89.99 Glass 1 ofniAIAD
@@ -106,12 +106,18 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
 DAIAinfo abt_num BB Philosophicum, Germanistik und Kulturanthropologie ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Germanistik und Kulturanthropologie ofniAIAD
-DAIAinfo epn 1214351387-1 ofniAIAD
-DAIAinfo sig 302.689 ofniAIAD
+DAIAinfo epn 101238604X-1 ofniAIAD
+DAIAinfo sig 073 Av 2016/2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
-DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
-DAIAinfo abt_num Zentralbibliothek Bücherturm ofniAIAD
-DAIAinfo abt_name Zentralbibliothek Bücherturm ofniAIAD
+DAIAinfo aus_ind 5 i nur für den Lesesaal ofniAIAD
+DAIAinfo abt_num BB Philosophicum Separiert ofniAIAD
+DAIAinfo abt_name BB Philosophicum Separiert ofniAIAD
+DAIAinfo epn 1010876708-1 ofniAIAD
+DAIAinfo sig GERM 550/1 ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind 3 s Präsenzbestand Lesesaal ofniAIAD
+DAIAinfo abt_num Bereichsbibliothek TSK Lesesaal ofniAIAD
+DAIAinfo abt_name Bereichsbibliothek TSK Lesesaal ofniAIAD
 DAIAinfo epn 1010876694-1 ofniAIAD
 DAIAinfo sig LBS LIN-DE 83:1-3 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -124,18 +130,12 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 2 c Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_num Lehrbuchsammlung Bereichsbibliothek TSK ofniAIAD
 DAIAinfo abt_name Lehrbuchsammlung Bereichsbibliothek TSK ofniAIAD
-DAIAinfo epn 1010876708-1 ofniAIAD
-DAIAinfo sig GERM 550/1 ofniAIAD
+DAIAinfo epn 1214351387-1 ofniAIAD
+DAIAinfo sig 302.689 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
-DAIAinfo aus_ind 3 s Präsenzbestand Lesesaal ofniAIAD
-DAIAinfo abt_num Bereichsbibliothek TSK Lesesaal ofniAIAD
-DAIAinfo abt_name Bereichsbibliothek TSK Lesesaal ofniAIAD
-DAIAinfo epn 101238604X-1 ofniAIAD
-DAIAinfo sig 073 Av 2016/2 ofniAIAD
-DAIAinfo aus_status verfuegbar ofniAIAD
-DAIAinfo aus_ind 5 i nur für den Lesesaal ofniAIAD
-DAIAinfo abt_num BB Philosophicum Separiert ofniAIAD
-DAIAinfo abt_name BB Philosophicum Separiert ofniAIAD
+DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
+DAIAinfo abt_num Zentralbibliothek Bücherturm ofniAIAD
+DAIAinfo abt_name Zentralbibliothek Bücherturm ofniAIAD
 
 DAIAinfo epn 1116531178-1 ofniAIAD
 DAIAinfo sig LIT-AR 10:1 ofniAIAD

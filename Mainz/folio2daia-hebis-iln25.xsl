@@ -9,8 +9,14 @@
     <xsl:template match="instanceData">
         <xsl:text>&#10;</xsl:text>
         
-        <xsl:apply-templates select="holdings/holding[holdingsTypeId='996f93e2-5b5e-4cf2-9168-33ced1f95eed']//*"/>
-        <xsl:apply-templates select="holdings/holding[holdingsTypeId!='996f93e2-5b5e-4cf2-9168-33ced1f95eed']/items/item//*"></xsl:apply-templates>
+        <xsl:for-each select="holdings/holding[holdingsTypeId='996f93e2-5b5e-4cf2-9168-33ced1f95eed']">
+            <xsl:sort select="holdingsTypeId" order="ascending" lang="de"/> <!-- Sortierkriterium muss noch festgelegt werden -->
+            <xsl:apply-templates select="//*"/> 
+        </xsl:for-each>
+        <xsl:for-each select="holdings/holding[holdingsTypeId!='996f93e2-5b5e-4cf2-9168-33ced1f95eed']">
+            <xsl:sort select="effectiveLocation/discoveryDisplayName" order="ascending" lang="de"/>
+            <xsl:apply-templates select="items/item//*"/>
+        </xsl:for-each>
         
     </xsl:template>
         
