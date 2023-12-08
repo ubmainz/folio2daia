@@ -34,9 +34,12 @@
     
     <xsl:template match="effectiveLocation/discoveryDisplayName">
         <xsl:variable name="tabelle">
-            <e><c>000 ZBMAG</c><n>Zentralbibliothek Magazin</n></e>
-            <e><c>Location-Code</c><n>Name der Location</n></e>
-            
+            <e><c>25/006-006-10-MINT</c><n>BB MINT Freihand</n></e>
+            <e><c>25/006-006-12-MINTLBS</c><n>BB MINT Lehrbuchsammlung</n></e>
+            <e><c>25/006-006-14-MINTFAK</c><n>BB MINT Handapparate</n></e>
+            <e><c>25/004-004-PHRVK</c><n>BB Philosophicum RVK-Aufstellung</n></e>
+            <e><c>25/004-127-PHMAG</c><n>BB Philosophicum Magazin</n></e>
+            <e><c>25/004-071-PHAVL</c><n>BB Philosophicum AVL</n></e>
         </xsl:variable>
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">abt_num</xsl:with-param>
