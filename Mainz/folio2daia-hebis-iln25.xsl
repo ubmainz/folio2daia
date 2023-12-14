@@ -11,12 +11,15 @@
         <xsl:text>&#10;</xsl:text>
         
         <xsl:for-each select="holdings/holding[holdingsTypeId='996f93e2-5b5e-4cf2-9168-33ced1f95eed']">
-            <xsl:sort select="holdingsTypeId" order="ascending" lang="de"/> <!-- Sortierkriterium muss noch festgelegt werden -->
-            <xsl:apply-templates select="//*"/> 
+            <!-- evtl. sortieren <xsl:sort select="..." order="ascending" lang="de"/> -->
+            <xsl:apply-templates select=".//*"/> 
         </xsl:for-each>
         <xsl:for-each select="holdings/holding[holdingsTypeId!='996f93e2-5b5e-4cf2-9168-33ced1f95eed']">
             <xsl:sort select="effectiveLocation/discoveryDisplayName" order="ascending" lang="de"/>
-            <xsl:apply-templates select="items/item//*"/>
+            <xsl:for-each select="items/item">
+                <xsl:sort select="hrid" order="ascending"/> <!-- evtl. ZS-Bände? -->
+                <xsl:apply-templates select=".//*"/>
+            </xsl:for-each>
         </xsl:for-each>
         
     </xsl:template>
@@ -24,6 +27,7 @@
      <xsl:template match="hrid">
          <xsl:call-template name="DAIA">
              <xsl:with-param name="tag">epn</xsl:with-param>
+             <xsl:with-param name="value" select="concat(ancestor::holding/hrid,'-',.)"/>
          </xsl:call-template>
     </xsl:template>
 
