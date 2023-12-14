@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0">
     <xsl:output method="text"/>
+    <xsl:param name="lang" select="(//lang,'de')[1]"/>
 
     <xsl:template match="/">
         <xsl:apply-templates select="//instanceData"/>
@@ -40,7 +41,7 @@
     
     <xsl:template match="effectiveLocation/discoveryDisplayName">
         <xsl:variable name="tabelle">
-            <e><c>25/000-000-10-ZBFREI</c><de>Zentralbibliothek, Bücherturm</de></e>
+            <e><c>25/000-000-10-ZBFREI</c><de>Zentralbibliothek, Bücherturm</de></e>  <!-- Sprachvarianten, z.B. <en>...</en> -->
             <e><c>25/000-000-12-ZBLBS</c><de>Zentralbibliothek, Lehrbuchsammlung</de></e>
             <e><c>25/000-000-14-ZBLS</c><de>Zentralbibliothek,Lesesaal</de></e>
             <e><c>25/000-000-16-ZBMAG</c><de>Zentralbibliothek, Magazin</de></e>
@@ -124,7 +125,7 @@
         </xsl:call-template>
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">abt_name</xsl:with-param>
-            <xsl:with-param name="value" select="$tabelle/e[c=current()]/de"/>
+            <xsl:with-param name="value" select="$tabelle/e[c=current()]/*[name()=$lang]"/>
         </xsl:call-template>
     </xsl:template>
     
