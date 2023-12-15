@@ -429,15 +429,15 @@ DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 DAIAinfo abt_num 25/019-019-10-GHFREI ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand ofniAIAD
 
-DAIAinfo epn 1009145665-1009145665-1 ofniAIAD
-DAIAinfo sig 4° BF 7592 ofniAIAD
-DAIAinfo aus_status frei_best ofniAIAD
-DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
-DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
-DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo epn 1009145665-it00000000054 ofniAIAD
 DAIAinfo sig 4° BF 7592 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
+DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
+DAIAinfo epn 1009145665-1009145665-1 ofniAIAD
+DAIAinfo sig 4° BF 7592 ofniAIAD
+DAIAinfo aus_status frei_best ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
