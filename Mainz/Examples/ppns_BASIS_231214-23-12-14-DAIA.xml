@@ -57,7 +57,7 @@ DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo epn 150699484-150699484-1 ofniAIAD
 DAIAinfo sig Univ 76 Mai 1987 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
-DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
+DAIAinfo aus_ind s Praesenzbestand ofniAIAD
 DAIAinfo abt_num 25/999-034-FBGTEM ofniAIAD
 DAIAinfo abt_name Universität Mainz, Institut für Geschichte, Theorie und Ethik der Medizin ofniAIAD
 
@@ -234,7 +234,7 @@ DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germe
 DAIAinfo epn 58115052X-58115052X-1 ofniAIAD
 DAIAinfo sig LEX ÄSTH 2.5 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
-DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
+DAIAinfo aus_ind s Praesenzbestand ofniAIAD
 DAIAinfo abt_num 25/999-111-FBKUNST ofniAIAD
 DAIAinfo abt_name Universität Mainz, Kunsthochschule ofniAIAD
 
@@ -616,7 +616,7 @@ DAIAinfo abt_name BB Philosophicum, Magazin ofniAIAD
 DAIAinfo epn 765476622-765476622-1 ofniAIAD
 DAIAinfo sig 3 S/h 9 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
-DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
+DAIAinfo aus_ind s Praesenzbestand ofniAIAD
 DAIAinfo abt_num 25/018-018-10-RW ofniAIAD
 DAIAinfo abt_name BB Rechts- und Wirtschaftswissenschaften, Freihand ofniAIAD
 DAIAinfo epn 1010740881-1010740881-1 ofniAIAD

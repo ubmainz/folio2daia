@@ -56,10 +56,10 @@
         <e><c>25/016-016-14-THRARA</c><de>BB Theologie, Magazin</de></e>
         <e><c>25/016-016-16-THPSYCH</c><de>BB Theologie, Handapparat Psychologie</de></e>
         <e><c>25/016-016-18-THFAK</c><de>BB Theologie, Handapparate Fachbereich</de></e>
-        <e><c>25/018-018-10-RW</c><de>BB Rechts- und Wirtschaftswissenschaften, Freihand</de></e>
+        <e><c>25/018-018-10-RW</c><ind>s Praesenzbestand</ind><de>BB Rechts- und Wirtschaftswissenschaften, Freihand</de></e>
         <e><c>25/018-018-12-RWLBS</c><de>BB Rechts- und Wirtschaftswissenschaften, Lernzentrum</de></e>
         <e><c>25/018-018-14-RWMAG</c><de>BB Rechts- und Wirtschaftswissenschaften, Magazin</de></e>
-        <e><c>25/018-020-RWFAK</c><de>BB Rechts- und Wirtschaftswissenschaften, Lehrstühle</de></e>
+        <e><c>25/018-020-RWFAK</c><ind>s Praesenzbestand</ind><de>BB Rechts- und Wirtschaftswissenschaften, Lehrstühle</de></e>
         <e><c>25/019-019-10-GHFREI</c><de>BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand</de></e>
         <e><c>25/019-019-12-GHLBS</c><de>BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lehrbuchsammlung</de></e>
         <e><c>25/019-019-14-GHLS</c><de>BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lesesaal</de></e>
@@ -73,14 +73,14 @@
         <e><c>25/091-091-PHMUW</c><de>BB Philosophicum, Musikwissenschaft</de></e>
         <e><c>25/112-112-10-PHHFMFREI</c><de>BB Philosophicum, Hochschule für Musik, Freihand</de></e>
         <e><c>25/112-112-12-PHHFMMAG</c><de>BB BB Philosophicum, Hochschule für Musik, Magazin</de></e>
-        <e><c>25/999-009-FBMPI</c><de>Max-Planck-Institut für Polymerforschung, Bibliothek</de></e>
-        <e><c>25/999-034-FBGTEM</c><de>Universität Mainz, Institut für Geschichte, Theorie und Ethik der Medizin</de></e>
-        <e><c>25/999-094-FBIGL</c><de>Institut für Geschichtliche Landeskunde Rheinland-Pfalz e.V., Bibliothek</de></e>
-        <e><c>25/999-069-FBPSY</c><de>Universität Mainz, Psychologisches Institut</de></e>
-        <e><c>25/999-082-FBÄGYPT</c><de>Universität Mainz, Institut für Altertumswissenschaften - Ägyptologie und Altorientalistik</de></e>
-        <e><c>25/25/999-085-FBAVFGA</c><de>Universität Mainz, Institut für Altertumswissenschaften - Vor- und Frühgeschichtliche Archäologie</de></e>
-        <e><c>25/999-111-FBKUNST</c><de>Universität Mainz, Kunsthochschule</de></e>
-        <e><c>25/999-124-FBGESANG</c><de>Universität Mainz, Gesangbucharchiv</de></e>
+        <e><c>25/999-009-FBMPI</c><ind>s Praesenzbestand</ind><de>Max-Planck-Institut für Polymerforschung, Bibliothek</de></e>
+        <e><c>25/999-034-FBGTEM</c><ind>s Praesenzbestand</ind><de>Universität Mainz, Institut für Geschichte, Theorie und Ethik der Medizin</de></e>
+        <e><c>25/999-094-FBIGL</c><ind>s Praesenzbestand</ind><de>Institut für Geschichtliche Landeskunde Rheinland-Pfalz e.V., Bibliothek</de></e>
+        <e><c>25/999-069-FBPSY</c><ind>s Praesenzbestand</ind><de>Universität Mainz, Psychologisches Institut</de></e>
+        <e><c>25/999-082-FBÄGYPT</c><ind>s Praesenzbestand</ind><de>Universität Mainz, Institut für Altertumswissenschaften - Ägyptologie und Altorientalistik</de></e>
+        <e><c>25/25/999-085-FBAVFGA</c><ind>s Praesenzbestand</ind><de>Universität Mainz, Institut für Altertumswissenschaften - Vor- und Frühgeschichtliche Archäologie</de></e>
+        <e><c>25/999-111-FBKUNST</c><ind>s Praesenzbestand</ind><de>Universität Mainz, Kunsthochschule</de></e>
+        <e><c>25/999-124-FBGESANG</c><ind>s Praesenzbestand</ind><de>Universität Mainz, Gesangbucharchiv</de></e>
     </xsl:variable>
 
     <xsl:template match="/">
@@ -148,9 +148,10 @@
                 </xsl:choose>
             </xsl:with-param>
         </xsl:call-template>
+        <xsl:message><xsl:value-of select="$tabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/ind"/>#</xsl:message>
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">aus_ind</xsl:with-param>
-            <xsl:with-param name="value" select="../../permanentLoanType/name"></xsl:with-param>
+            <xsl:with-param name="value" select="($tabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/ind,../../permanentLoanType/name)[1]"></xsl:with-param>
         </xsl:call-template>
     </xsl:template>
 
