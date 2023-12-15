@@ -2,6 +2,86 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0">
     <xsl:output method="text"/>
     <xsl:param name="lang" select="(//lang,'de')[1]"/>
+    <xsl:variable name="tabelle"> <!-- Sprachvarianten, z.B. <de>...</de><en>...</en> -->
+        <e><c>25/000-000-10-ZBFREI</c><de>Zentralbibliothek, Bücherturm</de><en>Central Library, Book Tower</en></e>  
+        <e><c>25/000-000-12-ZBLBS</c><de>Zentralbibliothek, Lehrbuchsammlung</de></e>
+        <e><c>25/000-000-14-ZBLS</c><de>Zentralbibliothek,Lesesaal</de></e>
+        <e><c>25/000-000-16-ZBMAG</c><de>Zentralbibliothek, Magazin</de></e>
+        <e><c>25/000-000-18-ZBRARA</c><de>Zentralbibliothek, Rara</de></e>
+        <e><c>25/000-000-20-ZBSEM</c><de>Zentralbibliothek, Semesterapparate</de></e>
+        <e><c>25/000-000-22-ZBZEB</c><de>Zentralbibliothek, Zur Erwerbung bestellt</de></e>
+        <e><c>25/002-002-10-GFGPÄD</c><de>BB Georg Forster-Gebäude, Erziehungswissenschaft</de></e>
+        <e><c>25/002-002-12-GFGFILM</c><de>BB Georg Forster-Gebäude, Filmwissenschaft</de></e>
+        <e><c>25/002-002-14-GFGJOUR</c><de>BB Georg Forster-Gebäude, Journalistik</de></e>
+        <e><c>25/002-002-16-GFGPOL</c><de>BB Georg Forster-Gebäude, Politikwissenschaft</de></e>
+        <e><c>25/002-002-18-GFGPSYCH</c><de>BB Georg Forster-Gebäude, Psychologie</de></e>
+        <e><c>25/002-002-20-GFGPUB</c><de>BB Georg Forster-Gebäude, Publizistik</de></e>
+        <e><c>25/002-002-22-GFGSOZ</c><de>BB Georg Forster-Gebäude, Soziologie</de></e>
+        <e><c>25/002-002-24-GFGSEM</c><de>BB Georg Forster-Gebäude, Semesterapparate</de></e>
+        <e><c>25/002-002-26-GFGZEB</c><de>BB Georg Forster-Gebäude, Zur Erwerbung bestellt</de></e>
+        <e><c>25/002-079-GFGKUN</c><de>BB Georg Forster-Gebäude, Kunstgeschichte</de></e>
+        <e><c>25/002-110-GFGGEO</c><de>BB Georg Forster-Gebäude, Geographie und Geowissenschaften</de></e>
+        <e><c>25/002-113-GFGSPO</c><de>BB Georg Forster-Gebäude, Sportwissenschaften</de></e>
+        <e><c>25/002-126-GFGUSA</c><de>BB Georg Forster-Gebäude, USA-Bibliothek</de></e>
+        <e><c>25/004-004-PHRVK</c><de>BB Philosophicum, RVK-Aufstellung</de></e>
+        <e><c>25/004-058-PHPHI</c><de>BB Philosophicum, Philosophie</de></e>
+        <e><c>25/004-070-PHGER</c><de>BB Philosophicum, Germanistik I / Kulturanthropologie und Germanistik II</de></e>
+        <e><c>25/004-071-PHAVL</c><de>BB Philosophicum, Allgemeine und Vergleichende Literaturwissenschaft</de></e>
+        <e><c>25/004-072-PHANG</c><de>BB Philosophicum, Anglistik/Amerikanistik</de></e>
+        <e><c>25/004-073-PHAVS</c><de>BB Philosophicum, Allgemeine und Vergleichende Spachwissenschaft</de></e>
+        <e><c>25/004-074-PHROM</c><de>BB Philosophicum, Romanistik</de></e>
+        <e><c>25/004-075-PHSLAV</c><de>BB Philosophicum, Slavistik</de></e>
+        <e><c>25/004-076-PHPOL</c><de>BB Philosophicum, Polonicum</de></e>
+        <e><c>25/004-077-PHKLP</c><de>BB Philosophicum, Klassische Philologie</de></e>
+        <e><c>25/004-078-PHKLA</c><de>BB Philosophicum, Klassische Archäologie</de></e>
+        <e><c>25/004-083-PHKLW</c><de>BB Philosophicum, Historische Kulturwissenschaften</de></e>
+        <e><c>25/004-086-PHALG</c><de>BB Philosophicum, Alte Geschichte</de></e>
+        <e><c>25/004-087-PHBYZ</c><de>BB Philosophicum, Byzantinistik</de></e>
+        <e><c>25/004-088-PHMNG</c><de>BB Philosophicum, Mittlere und neuere Geschichte</de></e>
+        <e><c>25/004-090-PHBUW</c><de>BB Philosophicum, Buchwissenschaft</de></e>
+        <e><c>25/004-092-PHOEG</c><de>BB Philosophicum, Osteuropäische Geschichte</de></e>
+        <e><c>25/004-120-PHTHW</c><de>BB Philosophicum, Theaterwissenschaft / Medienkulturwissenschaft / Alltagsmedien</de></e>
+        <e><c>25/004-127-PHMAG</c><de>BB Philosophicum, Magazin</de></e>
+        <e><c>25/005-005-10-UMFH</c><de>BB Universitätsmedizin, Freihand</de></e>
+        <e><c>25/005-005-12-UMLBS</c><de>BB Universitätsmedizin, Lehrbuchsammlung</de></e>
+        <e><c>25/005-005-14-UMLS</c><de>BB Universitätsmedizin, Lesesaal</de></e>
+        <e><c>25/005-035-UMRMED</c><de>BB Universitätsmedizin, Institut für Rechtsmedizin</de></e>
+        <e><c>25/005-043-UMPSY</c><de>BB Universitätsmedizin, Klinik für Psychiatrie und Psychotherapie</de></e>
+        <e><c>25/005-054-UMZMK</c><de>BB Universitätsmedizin, Zahnklinik</de></e>
+        <e><c>25/006-006-10-MINT</c><de>BB Mathematik, Informatik, Naturwissenschaften und Technik, Freihand</de></e>
+        <e><c>25/006-006-12-MINTLBS</c><de>BB Mathematik, Informatik, Naturwissenschaften und Technik, Lehrbuchsammlung</de></e>
+        <e><c>25/006-006-14-MINTFAK</c><de>BB Mathematik, Informatik, Naturwissenschaften und Technik, Handapparate</de></e>
+        <e><c>25/016-016-10-TH</c><de>BB Theologie, Freihand</de></e>
+        <e><c>25/016-016-12-THLBS</c><de>BB Theologie, Lehrbuchsammlung</de></e>
+        <e><c>25/016-016-14-THRARA</c><de>BB Theologie, Magazin</de></e>
+        <e><c>25/016-016-16-THPSYCH</c><de>BB Theologie, Handapparat Psychologie</de></e>
+        <e><c>25/016-016-18-THFAK</c><de>BB Theologie, Handapparate Fachbereich</de></e>
+        <e><c>25/018-018-10-RW</c><de>BB Rechts- und Wirtschaftswissenschaften, Freihand</de></e>
+        <e><c>25/018-018-12-RWLBS</c><de>BB Rechts- und Wirtschaftswissenschaften, Lernzentrum</de></e>
+        <e><c>25/018-018-14-RWMAG</c><de>BB Rechts- und Wirtschaftswissenschaften, Magazin</de></e>
+        <e><c>25/018-020-RWFAK</c><de>BB Rechts- und Wirtschaftswissenschaften, Lehrstühle</de></e>
+        <e><c>25/019-019-10-GHFREI</c><de>BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand</de></e>
+        <e><c>25/019-019-12-GHLBS</c><de>BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lehrbuchsammlung</de></e>
+        <e><c>25/019-019-14-GHLS</c><de>BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lesesaal</de></e>
+        <e><c>25/019-019-16-GHMAG</c><de>BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Magazin</de></e>
+        <e><c>25/019-019-18-GHSEP</c><de>BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Separiert</de></e>
+        <e><c>25/019-019-20-GHFAK</c><de>BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Handapparate</de></e>
+        <e><c>25/019-019-22-GHZEB</c><de>BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Zur Erwerbung bestellt</de></e>
+        <e><c>25/066-066-10-RWETH</c><de>BB Rechts- und Wirtschaftswissenschaften / Ethnologie und Afrikastudien</de></e>
+        <e><c>25/066-066-12-RWAMA</c><de>Zentralbibliothek, AMA - African Music Archives</de></e>
+        <e><c>25/080-080-RWTURK</c><de>BB Rechts- und Wirtschaftswissenschaften / Turkologie</de></e>
+        <e><c>25/091-091-PHMUW</c><de>BB Philosophicum, Musikwissenschaft</de></e>
+        <e><c>25/112-112-10-PHHFMFREI</c><de>BB Philosophicum, Hochschule für Musik, Freihand</de></e>
+        <e><c>25/112-112-12-PHHFMMAG</c><de>BB BB Philosophicum, Hochschule für Musik, Magazin</de></e>
+        <e><c>25/999-009-FBMPI</c><de>Max-Planck-Institut für Polymerforschung, Bibliothek</de></e>
+        <e><c>25/999-034-FBGTEM</c><de>Universität Mainz, Institut für Geschichte, Theorie und Ethik der Medizin</de></e>
+        <e><c>25/999-094-FBIGL</c><de>Institut für Geschichtliche Landeskunde Rheinland-Pfalz e.V., Bibliothek</de></e>
+        <e><c>25/999-069-FBPSY</c><de>Universität Mainz, Psychologisches Institut</de></e>
+        <e><c>25/999-082-FBÄGYPT</c><de>Universität Mainz, Institut für Altertumswissenschaften - Ägyptologie und Altorientalistik</de></e>
+        <e><c>25/25/999-085-FBAVFGA</c><de>Universität Mainz, Institut für Altertumswissenschaften - Vor- und Frühgeschichtliche Archäologie</de></e>
+        <e><c>25/999-111-FBKUNST</c><de>Universität Mainz, Kunsthochschule</de></e>
+        <e><c>25/999-124-FBGESANG</c><de>Universität Mainz, Gesangbucharchiv</de></e>
+    </xsl:variable>
 
     <xsl:template match="/">
         <xsl:apply-templates select="//instanceData"/>
@@ -38,93 +118,7 @@
         </xsl:call-template>
     </xsl:template>
     
-    <xsl:template match="permanentLoanType/name"> <!-- noch ohne Logik -->
-        <xsl:call-template name="DAIA">
-            <xsl:with-param name="tag">aus_ind</xsl:with-param>
-        </xsl:call-template>
-    </xsl:template>
-    
     <xsl:template match="effectiveLocation/discoveryDisplayName">
-        <xsl:variable name="tabelle"> <!-- Sprachvarianten, z.B. <de>...</de><en>...</en> -->
-            <e><c>25/000-000-10-ZBFREI</c><de>Zentralbibliothek, Bücherturm</de><en>Central Library, Book Tower</en></e>  
-            <e><c>25/000-000-12-ZBLBS</c><de>Zentralbibliothek, Lehrbuchsammlung</de></e>
-            <e><c>25/000-000-14-ZBLS</c><de>Zentralbibliothek,Lesesaal</de></e>
-            <e><c>25/000-000-16-ZBMAG</c><de>Zentralbibliothek, Magazin</de></e>
-            <e><c>25/000-000-18-ZBRARA</c><de>Zentralbibliothek, Rara</de></e>
-            <e><c>25/000-000-20-ZBSEM</c><de>Zentralbibliothek, Semesterapparate</de></e>
-            <e><c>25/000-000-22-ZBZEB</c><de>Zentralbibliothek, Zur Erwerbung bestellt</de></e>
-            <e><c>25/002-002-10-GFGPÄD</c><de>BB Georg Forster-Gebäude, Erziehungswissenschaft</de></e>
-            <e><c>25/002-002-12-GFGFILM</c><de>BB Georg Forster-Gebäude, Filmwissenschaft</de></e>
-            <e><c>25/002-002-14-GFGJOUR</c><de>BB Georg Forster-Gebäude, Journalistik</de></e>
-            <e><c>25/002-002-16-GFGPOL</c><de>BB Georg Forster-Gebäude, Politikwissenschaft</de></e>
-            <e><c>25/002-002-18-GFGPSYCH</c><de>BB Georg Forster-Gebäude, Psychologie</de></e>
-            <e><c>25/002-002-20-GFGPUB</c><de>BB Georg Forster-Gebäude, Publizistik</de></e>
-            <e><c>25/002-002-22-GFGSOZ</c><de>BB Georg Forster-Gebäude, Soziologie</de></e>
-            <e><c>25/002-002-24-GFGSEM</c><de>BB Georg Forster-Gebäude, Semesterapparate</de></e>
-            <e><c>25/002-002-26-GFGZEB</c><de>BB Georg Forster-Gebäude, Zur Erwerbung bestellt</de></e>
-            <e><c>25/002-079-GFGKUN</c><de>BB Georg Forster-Gebäude, Kunstgeschichte</de></e>
-            <e><c>25/002-110-GFGGEO</c><de>BB Georg Forster-Gebäude, Geographie und Geowissenschaften</de></e>
-            <e><c>25/002-113-GFGSPO</c><de>BB Georg Forster-Gebäude, Sportwissenschaften</de></e>
-            <e><c>25/002-126-GFGUSA</c><de>BB Georg Forster-Gebäude, USA-Bibliothek</de></e>
-            <e><c>25/004-004-PHRVK</c><de>BB Philosophicum, RVK-Aufstellung</de></e>
-            <e><c>25/004-058-PHPHI</c><de>BB Philosophicum, Philosophie</de></e>
-            <e><c>25/004-070-PHGER</c><de>BB Philosophicum, Germanistik I / Kulturanthropologie und Germanistik II</de></e>
-            <e><c>25/004-071-PHAVL</c><de>BB Philosophicum, Allgemeine und Vergleichende Literaturwissenschaft</de></e>
-            <e><c>25/004-072-PHANG</c><de>BB Philosophicum, Anglistik/Amerikanistik</de></e>
-            <e><c>25/004-073-PHAVS</c><de>BB Philosophicum, Allgemeine und Vergleichende Spachwissenschaft</de></e>
-            <e><c>25/004-074-PHROM</c><de>BB Philosophicum, Romanistik</de></e>
-            <e><c>25/004-075-PHSLAV</c><de>BB Philosophicum, Slavistik</de></e>
-            <e><c>25/004-076-PHPOL</c><de>BB Philosophicum, Polonicum</de></e>
-            <e><c>25/004-077-PHKLP</c><de>BB Philosophicum, Klassische Philologie</de></e>
-            <e><c>25/004-078-PHKLA</c><de>BB Philosophicum, Klassische Archäologie</de></e>
-            <e><c>25/004-083-PHKLW</c><de>BB Philosophicum, Historische Kulturwissenschaften</de></e>
-            <e><c>25/004-086-PHALG</c><de>BB Philosophicum, Alte Geschichte</de></e>
-            <e><c>25/004-087-PHBYZ</c><de>BB Philosophicum, Byzantinistik</de></e>
-            <e><c>25/004-088-PHMNG</c><de>BB Philosophicum, Mittlere und neuere Geschichte</de></e>
-            <e><c>25/004-090-PHBUW</c><de>BB Philosophicum, Buchwissenschaft</de></e>
-            <e><c>25/004-092-PHOEG</c><de>BB Philosophicum, Osteuropäische Geschichte</de></e>
-            <e><c>25/004-120-PHTHW</c><de>BB Philosophicum, Theaterwissenschaft / Medienkulturwissenschaft / Alltagsmedien</de></e>
-            <e><c>25/004-127-PHMAG</c><de>BB Philosophicum, Magazin</de></e>
-            <e><c>25/005-005-10-UMFH</c><de>BB Universitätsmedizin, Freihand</de></e>
-            <e><c>25/005-005-12-UMLBS</c><de>BB Universitätsmedizin, Lehrbuchsammlung</de></e>
-            <e><c>25/005-005-14-UMLS</c><de>BB Universitätsmedizin, Lesesaal</de></e>
-            <e><c>25/005-035-UMRMED</c><de>BB Universitätsmedizin, Institut für Rechtsmedizin</de></e>
-            <e><c>25/005-043-UMPSY</c><de>BB Universitätsmedizin, Klinik für Psychiatrie und Psychotherapie</de></e>
-            <e><c>25/005-054-UMZMK</c><de>BB Universitätsmedizin, Zahnklinik</de></e>
-            <e><c>25/006-006-10-MINT</c><de>BB Mathematik, Informatik, Naturwissenschaften und Technik, Freihand</de></e>
-            <e><c>25/006-006-12-MINTLBS</c><de>BB Mathematik, Informatik, Naturwissenschaften und Technik, Lehrbuchsammlung</de></e>
-            <e><c>25/006-006-14-MINTFAK</c><de>BB Mathematik, Informatik, Naturwissenschaften und Technik, Handapparate</de></e>
-            <e><c>25/016-016-10-TH</c><de>BB Theologie, Freihand</de></e>
-            <e><c>25/016-016-12-THLBS</c><de>BB Theologie, Lehrbuchsammlung</de></e>
-            <e><c>25/016-016-14-THRARA</c><de>BB Theologie, Magazin</de></e>
-            <e><c>25/016-016-16-THPSYCH</c><de>BB Theologie, Handapparat Psychologie</de></e>
-            <e><c>25/016-016-18-THFAK</c><de>BB Theologie, Handapparate Fachbereich</de></e>
-            <e><c>25/018-018-10-RW</c><de>BB Rechts- und Wirtschaftswissenschaften, Freihand</de></e>
-            <e><c>25/018-018-12-RWLBS</c><de>BB Rechts- und Wirtschaftswissenschaften, Lernzentrum</de></e>
-            <e><c>25/018-018-14-RWMAG</c><de>BB Rechts- und Wirtschaftswissenschaften, Magazin</de></e>
-            <e><c>25/018-020-RWFAK</c><de>BB Rechts- und Wirtschaftswissenschaften, Lehrstühle</de></e>
-            <e><c>25/019-019-10-GHFREI</c><de>BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand</de></e>
-            <e><c>25/019-019-12-GHLBS</c><de>BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lehrbuchsammlung</de></e>
-            <e><c>25/019-019-14-GHLS</c><de>BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lesesaal</de></e>
-            <e><c>25/019-019-16-GHMAG</c><de>BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Magazin</de></e>
-            <e><c>25/019-019-18-GHSEP</c><de>BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Separiert</de></e>
-            <e><c>25/019-019-20-GHFAK</c><de>BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Handapparate</de></e>
-            <e><c>25/019-019-22-GHZEB</c><de>BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Zur Erwerbung bestellt</de></e>
-            <e><c>25/066-066-10-RWETH</c><de>BB Rechts- und Wirtschaftswissenschaften / Ethnologie und Afrikastudien</de></e>
-            <e><c>25/066-066-12-RWAMA</c><de>Zentralbibliothek, AMA - African Music Archives</de></e>
-            <e><c>25/080-080-RWTURK</c><de>BB Rechts- und Wirtschaftswissenschaften / Turkologie</de></e>
-            <e><c>25/091-091-PHMUW</c><de>BB Philosophicum, Musikwissenschaft</de></e>
-            <e><c>25/112-112-10-PHHFMFREI</c><de>BB Philosophicum, Hochschule für Musik, Freihand</de></e>
-            <e><c>25/112-112-12-PHHFMMAG</c><de>BB BB Philosophicum, Hochschule für Musik, Magazin</de></e>
-            <e><c>25/999-009-FBMPI</c><de>Max-Planck-Institut für Polymerforschung, Bibliothek</de></e>
-            <e><c>25/999-034-FBGTEM</c><de>Universität Mainz, Institut für Geschichte, Theorie und Ethik der Medizin</de></e>
-            <e><c>25/999-094-FBIGL</c><de>Institut für Geschichtliche Landeskunde Rheinland-Pfalz e.V., Bibliothek</de></e>
-            <e><c>25/999-069-FBPSY</c><de>Universität Mainz, Psychologisches Institut</de></e>
-            <e><c>25/999-082-FBÄGYPT</c><de>Universität Mainz, Institut für Altertumswissenschaften - Ägyptologie und Altorientalistik</de></e>
-            <e><c>25/25/999-085-FBAVFGA</c><de>Universität Mainz, Institut für Altertumswissenschaften - Vor- und Frühgeschichtliche Archäologie</de></e>
-            <e><c>25/999-111-FBKUNST</c><de>Universität Mainz, Kunsthochschule</de></e>
-            <e><c>25/999-124-FBGESANG</c><de>Universität Mainz, Gesangbucharchiv</de></e>
-        </xsl:variable>
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">abt_num</xsl:with-param>
         </xsl:call-template>
@@ -153,6 +147,10 @@
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:with-param>
+        </xsl:call-template>
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag">aus_ind</xsl:with-param>
+            <xsl:with-param name="value" select="../../permanentLoanType/name"></xsl:with-param>
         </xsl:call-template>
     </xsl:template>
 
