@@ -148,7 +148,6 @@
                 </xsl:choose>
             </xsl:with-param>
         </xsl:call-template>
-        <xsl:message><xsl:value-of select="$tabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/ind"/>#</xsl:message>
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">aus_ind</xsl:with-param>
             <xsl:with-param name="value" select="($tabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/ind,../../permanentLoanType/name)[1]"></xsl:with-param>
