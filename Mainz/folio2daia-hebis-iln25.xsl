@@ -17,7 +17,8 @@
         <xsl:for-each select="holdings/holding[holdingsTypeId!='996f93e2-5b5e-4cf2-9168-33ced1f95eed']">
             <xsl:sort select="effectiveLocation/discoveryDisplayName" order="ascending" lang="de"/>
             <xsl:for-each select="items/item">
-                <xsl:sort select="hrid" order="ascending"/> <!-- evtl. ZS-Bände? -->
+                <xsl:sort select="chronology" order="descending"/>
+                <xsl:sort select="hrid" order="ascending"/>
                 <xsl:apply-templates select=".//*"/>
             </xsl:for-each>
         </xsl:for-each>
