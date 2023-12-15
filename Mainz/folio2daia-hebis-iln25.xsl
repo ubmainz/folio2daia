@@ -45,8 +45,8 @@
     </xsl:template>
     
     <xsl:template match="effectiveLocation/discoveryDisplayName">
-        <xsl:variable name="tabelle">
-            <e><c>25/000-000-10-ZBFREI</c><de>Zentralbibliothek, Bücherturm</de><en>Central Library, Book Tower</en></e>  <!-- Sprachvarianten, z.B. <en>...</en> -->
+        <xsl:variable name="tabelle"> <!-- Sprachvarianten, z.B. <de>...</de><en>...</en> -->
+            <e><c>25/000-000-10-ZBFREI</c><de>Zentralbibliothek, Bücherturm</de><en>Central Library, Book Tower</en></e>  
             <e><c>25/000-000-12-ZBLBS</c><de>Zentralbibliothek, Lehrbuchsammlung</de></e>
             <e><c>25/000-000-14-ZBLS</c><de>Zentralbibliothek,Lesesaal</de></e>
             <e><c>25/000-000-16-ZBMAG</c><de>Zentralbibliothek, Magazin</de></e>
