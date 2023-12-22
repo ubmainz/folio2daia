@@ -79,7 +79,7 @@
         <e><c>25/999-069-FBPSY</c><ind>s Praesenzbestand</ind><de>Universität Mainz, Psychologisches Institut</de></e>
         <e><c>25/999-082-FBÄGYPT</c><ind>s Praesenzbestand</ind><de>Universität Mainz, Institut für Altertumswissenschaften - Ägyptologie und Altorientalistik</de></e>
         <e><c>25/25/999-085-FBAVFGA</c><ind>s Praesenzbestand</ind><de>Universität Mainz, Institut für Altertumswissenschaften - Vor- und Frühgeschichtliche Archäologie</de></e>
-        <e><c>25/999-111-FBKUNST</c><ind>s Praesenzbestand</ind><de>Universität Mainz, Kunsthochschule</de></e>
+        <e><c>25/999-111-FBKUNST</c><ind>s Praesenzbestand</ind><de>Universität Mainz, Kunsthochschule</de><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102600600</url></e>
         <e><c>25/999-124-FBGESANG</c><ind>s Praesenzbestand</ind><de>Universität Mainz, Gesangbucharchiv</de></e>
     </xsl:variable>
 
