@@ -8,7 +8,7 @@
         <e><c>25/000-000-14-ZBLS</c><de>Zentralbibliothek,Lesesaal</de></e>
         <e><c>25/000-000-16-ZBMAG</c><de>Zentralbibliothek, Magazin</de></e>
         <e><c>25/000-000-18-ZBRARA</c><de>Zentralbibliothek, Rara</de></e>
-        <e><c>25/000-000-20-ZBSEM</c><de>Zentralbibliothek, Semesterapparate</de></e>
+        <e><c>25/000-000-20-ZBSEM</c><ind>s Praesenzbestand</ind><de>Zentralbibliothek, Semesterapparate</de></e>
         <e><c>25/000-000-22-ZBZEB</c><de>Zentralbibliothek, Zur Erwerbung bestellt</de></e>
         <e><c>25/002-002-10-GFGPÄD</c><de>BB Georg Forster-Gebäude, Erziehungswissenschaft</de></e>
         <e><c>25/002-002-12-GFGFILM</c><de>BB Georg Forster-Gebäude, Filmwissenschaft</de></e>
@@ -17,7 +17,7 @@
         <e><c>25/002-002-18-GFGPSYCH</c><de>BB Georg Forster-Gebäude, Psychologie</de></e>
         <e><c>25/002-002-20-GFGPUB</c><de>BB Georg Forster-Gebäude, Publizistik</de></e>
         <e><c>25/002-002-22-GFGSOZ</c><de>BB Georg Forster-Gebäude, Soziologie</de></e>
-        <e><c>25/002-002-24-GFGSEM</c><de>BB Georg Forster-Gebäude, Semesterapparate</de></e>
+        <e><c>25/002-002-24-GFGSEM</c><ind>s Praesenzbestand</ind><de>BB Georg Forster-Gebäude, Semesterapparate</de></e>
         <e><c>25/002-002-26-GFGZEB</c><de>BB Georg Forster-Gebäude, Zur Erwerbung bestellt</de></e>
         <e><c>25/002-079-GFGKUN</c><de>BB Georg Forster-Gebäude, Kunstgeschichte</de></e>
         <e><c>25/002-110-GFGGEO</c><de>BB Georg Forster-Gebäude, Geographie und Geowissenschaften</de></e>
