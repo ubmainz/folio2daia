@@ -100,6 +100,7 @@
                 <xsl:sort select="chronology" order="descending"/>
                 <xsl:sort select="hrid" order="ascending"/>
                 <xsl:apply-templates select=".//*"/>
+                <xsl:apply-templates select="../../notes/note"/>
             </xsl:for-each>
         </xsl:for-each>
         
@@ -128,6 +129,19 @@
         </xsl:call-template>
     </xsl:template>
     
+    <xsl:template match="notes[holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note"> <!-- logic correction needed -->
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag">standort</xsl:with-param>
+            <xsl:with-param name="value"><xsl:text>&lt;b&gt;Standort: &lt;/b&gt;</xsl:text><xsl:value-of select="."/></xsl:with-param>
+        </xsl:call-template>
+    </xsl:template>
+
+    <xsl:template match="notes[staffOnly='false']/note">
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag">aus_text</xsl:with-param>
+        </xsl:call-template>
+    </xsl:template>
+ 
     <xsl:template match="status/name"> <!-- noch sehr schlicht -->
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">aus_status</xsl:with-param>
@@ -167,13 +181,7 @@
         </xsl:call-template>
     </xsl:template>
     
-    <xsl:template match="notes[staffOnly='false']/note">
-        <xsl:call-template name="DAIA">
-            <xsl:with-param name="tag">aus_text</xsl:with-param>
-        </xsl:call-template>
-    </xsl:template>
-    
-    <xsl:template match="effectiveCallNumberComponents">
+     <xsl:template match="effectiveCallNumberComponents">
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">sig</xsl:with-param>
             <xsl:with-param name="value" select="string-join((prefix,callNumber),' ')"/>
