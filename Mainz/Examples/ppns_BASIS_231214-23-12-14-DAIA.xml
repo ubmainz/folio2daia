@@ -48,14 +48,14 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
-DAIAinfo aus_text Katholische Theologie ofniAIAD
+DAIAinfo standort <b>Standort: </b>Katholische Theologie ofniAIAD
 DAIAinfo epn 076191818-076191818-1 ofniAIAD
 DAIAinfo sig Af 123 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
-DAIAinfo aus_text Evangelische Theologie ofniAIAD
+DAIAinfo standort <b>Standort: </b>Evangelische Theologie ofniAIAD
 DAIAinfo aus_text 01701 ofniAIAD
 DAIAinfo epn 150699484-150699484-1 ofniAIAD
 DAIAinfo sig Univ 76 Mai 1987 ofniAIAD
@@ -160,7 +160,7 @@ DAIAinfo aus_status frei_best ofniAIAD
 DAIAinfo aus_ind 9 g nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/006-006-10-MINT ofniAIAD
 DAIAinfo abt_name BB Mathematik, Informatik, Naturwissenschaften und Technik, Freihand ofniAIAD
-DAIAinfo aus_text MIN / HANDAPPARAT METEOROLOGIE ofniAIAD
+DAIAinfo standort <b>Standort: </b>MIN / HANDAPPARAT METEOROLOGIE ofniAIAD
 DAIAinfo aus_text Genauen Standort in der BB MIN erfragen! ofniAIAD
 
 DAIAinfo epn 127646841-127646841-1 ofniAIAD
@@ -169,7 +169,7 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 5 i nur für den Lesesaal ofniAIAD
 DAIAinfo abt_num 25/000-000-18-ZBRARA ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Rara ofniAIAD
-DAIAinfo aus_text George Slg, RARA ofniAIAD
+DAIAinfo standort <b>Standort: </b>George Slg, RARA ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo aus_text BASIS DAIA ofniAIAD
 
@@ -179,7 +179,7 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
-DAIAinfo aus_text Anglistik ofniAIAD
+DAIAinfo standort <b>Standort: </b>Anglistik ofniAIAD
 DAIAinfo epn 101021411X-101021411X-1 ofniAIAD
 DAIAinfo sig 20025435 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -195,7 +195,7 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 DAIAinfo abt_num 25/019-019-18-GHSEP ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Separiert ofniAIAD
-DAIAinfo aus_text SSC ofniAIAD
+DAIAinfo standort <b>Standort: </b>SSC ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo aus_text BASIS DAIA ofniAIAD
 
@@ -247,7 +247,7 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 3 s Präsenzbestand Lesesaal ofniAIAD
 DAIAinfo abt_num 25/004-127-PHMAG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Magazin ofniAIAD
-DAIAinfo aus_text Germanistik / Separiert ofniAIAD
+DAIAinfo standort <b>Standort: </b>Germanistik / Separiert ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo epn 221750266-221750266-1 ofniAIAD
 DAIAinfo sig Zo 4-5 ofniAIAD
@@ -255,7 +255,7 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
-DAIAinfo aus_text Evangelische Theologie ofniAIAD
+DAIAinfo standort <b>Standort: </b>Evangelische Theologie ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo epn 1010401270-1010401270-1 ofniAIAD
 DAIAinfo sig PHIL 50/5 ofniAIAD
@@ -291,7 +291,7 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
-DAIAinfo aus_text Amerikanistik ofniAIAD
+DAIAinfo standort <b>Standort: </b>Amerikanistik ofniAIAD
 DAIAinfo epn 1010451073-1010451073-1 ofniAIAD
 DAIAinfo sig LIT-AM 01.20 Berco 2-4 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -299,7 +299,7 @@ DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 DAIAinfo abt_num 25/019-019-10-GHFREI ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand ofniAIAD
 DAIAinfo aus_text 3. print., 2012 ofniAIAD
-DAIAinfo aus_text Freihand / Amerikanisch ofniAIAD
+DAIAinfo standort <b>Standort: </b>Freihand / Amerikanisch ofniAIAD
 
 DAIAinfo epn 399194665-399194665-1 ofniAIAD
 DAIAinfo sig L/VII G 7 I ofniAIAD
@@ -307,7 +307,7 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
-DAIAinfo aus_text Anglistik ofniAIAD
+DAIAinfo standort <b>Standort: </b>Anglistik ofniAIAD
 DAIAinfo epn 1010642685-1010642685-2 ofniAIAD
 DAIAinfo sig LBS KUL-AP 07.44 Gilro 200 (2.-4. Ex.) ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -377,7 +377,7 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
-DAIAinfo aus_text Amerikanistik ofniAIAD
+DAIAinfo standort <b>Standort: </b>Amerikanistik ofniAIAD
 DAIAinfo epn 588407364-588407364-1 ofniAIAD
 DAIAinfo sig MR 7100 DAE/ 1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -390,14 +390,14 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
 DAIAinfo abt_num 25/004-120-PHTHW ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Theaterwissenschaft / Medienkulturwissenschaft / Alltagsmedien ofniAIAD
-DAIAinfo aus_text Theaterwissenschaft ofniAIAD
+DAIAinfo standort <b>Standort: </b>Theaterwissenschaft ofniAIAD
 DAIAinfo epn 1010522914-1010522914-1 ofniAIAD
 DAIAinfo sig KUL-ALLG 02.50 Kultu 4 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 DAIAinfo abt_num 25/019-019-10-GHFREI ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand ofniAIAD
-DAIAinfo aus_text Freihand / Allgemein ofniAIAD
+DAIAinfo standort <b>Standort: </b>Freihand / Allgemein ofniAIAD
 
 DAIAinfo epn 593398408-593398408-1 ofniAIAD
 DAIAinfo sig 29F 364 ofniAIAD
@@ -453,7 +453,7 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
-DAIAinfo aus_text Katholische Theologie ofniAIAD
+DAIAinfo standort <b>Standort: </b>Katholische Theologie ofniAIAD
 DAIAinfo aus_text 01650 ofniAIAD
 
 DAIAinfo epn 544422562-544422562-1 ofniAIAD
@@ -475,7 +475,7 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 DAIAinfo abt_num 25/019-019-10-GHFREI ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand ofniAIAD
-DAIAinfo aus_text Freihand / Amerikanisch ofniAIAD
+DAIAinfo standort <b>Standort: </b>Freihand / Amerikanisch ofniAIAD
 
 DAIAinfo epn 1009145665-it00000000054 ofniAIAD
 DAIAinfo sig 4° BF 7592 ofniAIAD
@@ -564,7 +564,7 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 DAIAinfo abt_num 25/019-019-10-GHFREI ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand ofniAIAD
-DAIAinfo aus_text Freihand / Polnisch ofniAIAD
+DAIAinfo standort <b>Standort: </b>Freihand / Polnisch ofniAIAD
 
 DAIAinfo epn 633387142-633387142-1 ofniAIAD
 DAIAinfo sig 256.994 ofniAIAD
@@ -626,7 +626,7 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
-DAIAinfo aus_text Evangelische Theologie ofniAIAD
+DAIAinfo standort <b>Standort: </b>Evangelische Theologie ofniAIAD
 DAIAinfo aus_text 01750 ofniAIAD
 
 DAIAinfo epn 623198681-623198681-1 ofniAIAD
@@ -635,7 +635,7 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
-DAIAinfo aus_text Frankreichforschung ofniAIAD
+DAIAinfo standort <b>Standort: </b>Frankreichforschung ofniAIAD
 DAIAinfo aus_text 00015 ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo aus_text BASIS DAIA ofniAIAD
@@ -670,14 +670,14 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 3 s Präsenzbestand Lesesaal ofniAIAD
 DAIAinfo abt_num 25/004-127-PHMAG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Magazin ofniAIAD
-DAIAinfo aus_text Germanistik / Separiert ofniAIAD
+DAIAinfo standort <b>Standort: </b>Germanistik / Separiert ofniAIAD
 DAIAinfo epn 765476622-765476622-1 ofniAIAD
 DAIAinfo sig 3 S/h 9 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
 DAIAinfo abt_num 25/018-018-10-RW ofniAIAD
 DAIAinfo abt_name BB Rechts- und Wirtschaftswissenschaften, Freihand ofniAIAD
-DAIAinfo aus_text Recht ofniAIAD
+DAIAinfo standort <b>Standort: </b>Recht ofniAIAD
 DAIAinfo aus_text 01810 ofniAIAD
 DAIAinfo epn 1010740881-1010740881-1 ofniAIAD
 DAIAinfo sig LIT 320/4 ofniAIAD
@@ -714,7 +714,7 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 5 i nur für den Lesesaal ofniAIAD
 DAIAinfo abt_num 25/004-127-PHMAG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Magazin ofniAIAD
-DAIAinfo aus_text Allgemeine und Vergleichende Sprachwissenschaft / Separiert ofniAIAD
+DAIAinfo standort <b>Standort: </b>Allgemeine und Vergleichende Sprachwissenschaft / Separiert ofniAIAD
 DAIAinfo epn 1010876694-1010876694-1 ofniAIAD
 DAIAinfo sig LBS LIN-DE 83:1-3 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -751,7 +751,7 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
-DAIAinfo aus_text Amerikanistik ofniAIAD
+DAIAinfo standort <b>Standort: </b>Amerikanistik ofniAIAD
 DAIAinfo epn 1012300560-1012300560-1 ofniAIAD
 DAIAinfo sig 20036194 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -789,7 +789,7 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 4 d Präsenzbestand Wochenendausleihe ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
-DAIAinfo aus_text Katholische Theologie ofniAIAD
+DAIAinfo standort <b>Standort: </b>Katholische Theologie ofniAIAD
 DAIAinfo aus_text 01650 ofniAIAD
 
 DAIAinfo epn 1116531178-1116531178-1 ofniAIAD
@@ -798,7 +798,7 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 DAIAinfo abt_num 25/019-019-10-GHFREI ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand ofniAIAD
-DAIAinfo aus_text Freihand / Arabisch ofniAIAD
+DAIAinfo standort <b>Standort: </b>Freihand / Arabisch ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo aus_text BASIS DAIA ofniAIAD
 
@@ -860,7 +860,7 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 3 s Präsenzbestand Lesesaal ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
-DAIAinfo aus_text Evangelische Theologie ofniAIAD
+DAIAinfo standort <b>Standort: </b>Evangelische Theologie ofniAIAD
 DAIAinfo epn 1240880685-1240880685-1 ofniAIAD
 DAIAinfo sig E ling L 38,4 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -869,7 +869,7 @@ DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo aus_text Abbestellt, da dublett zu Ev. Theol., Signatur: Aa 77,... ofniAIAD
 DAIAinfo aus_text Lieferungen 8-10 ungebunden. Es fehlen: Lfrg. 11-16. ofniAIAD
-DAIAinfo aus_text Katholische Theologie ofniAIAD
+DAIAinfo standort <b>Standort: </b>Katholische Theologie ofniAIAD
 DAIAinfo aus_text 01650 ofniAIAD
 
 DAIAinfo epn 1214509029-1214509029-1 ofniAIAD
@@ -888,6 +888,6 @@ DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind 0 u ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek,Lesesaal ofniAIAD
-DAIAinfo aus_text LESESAAL ofniAIAD
+DAIAinfo standort <b>Standort: </b>LESESAAL ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo aus_text BASIS DAIA ofniAIAD
