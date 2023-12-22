@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0">
     <xsl:output method="text"/>
+    <!-- language, defaults to de -->
     <xsl:param name="lang" select="(//lang,'de')[1]"/>
+    <!-- default location url -->
+    <xsl:param name="locationurl" select="'https://www.ub.uni-mainz.de/de/standorte'"/>
     <xsl:variable name="tabelle"> <!-- Sprachvarianten, z.B. <de>...</de><en>...</en> -->
         <e><c>25/000-000-10-ZBFREI</c><de>Zentralbibliothek, Bücherturm</de><en>Central Library, Book Tower</en></e>  
         <e><c>25/000-000-12-ZBLBS</c><de>Zentralbibliothek, Lehrbuchsammlung</de></e>
@@ -126,6 +129,10 @@
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">abt_name</xsl:with-param>
             <xsl:with-param name="value" select="$tabelle/e[c=current()]/*[name()=$lang]"/>
+        </xsl:call-template>
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag">abt_link</xsl:with-param>
+            <xsl:with-param name="value" select="($tabelle/e[c=current()]/url,$locationurl)[1]"/>
         </xsl:call-template>
     </xsl:template>
     
