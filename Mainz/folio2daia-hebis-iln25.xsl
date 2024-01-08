@@ -165,7 +165,7 @@
                 <xsl:when test=".='Awaiting pickup'">
                     <s>vormerkbar</s>
                     <xsl:choose>
-                        <xsl:when test="index-of(('u','b','c','d'),$ind)>0"><i>u</i></xsl:when>
+                        <xsl:when test="index-of(('u','b','c','d'),$ind)>0"><i>u</i></xsl:when> <!-- b,c,d siehe oben -->
                         <xsl:when test="$ind='i'"><i>i</i><t>nur für den Lesesaal</t></xsl:when>
                         <xsl:when test="$ind='s'"><i>c</i></xsl:when>
                         <xsl:otherwise><xsl:message>Katalogisierungfehler <xsl:value-of select="$ind"/></xsl:message></xsl:otherwise>
