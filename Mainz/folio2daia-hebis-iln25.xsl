@@ -195,6 +195,12 @@
             <xsl:with-param name="tag">aus_ind</xsl:with-param>
             <xsl:with-param name="value" select="$result/i"/>
         </xsl:call-template>
+        <xsl:if test="$result/t">
+            <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag">aus_text</xsl:with-param>
+                <xsl:with-param name="value" select="$result/t"/>
+            </xsl:call-template>
+        </xsl:if>
     </xsl:template>
 
     <xsl:template match="loan/dueDate">
