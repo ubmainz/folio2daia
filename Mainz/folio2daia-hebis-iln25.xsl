@@ -150,11 +150,11 @@
     </xsl:template>
  
     <xsl:template match="status/name"> <!-- noch sehr schlicht -->
-        <xsl:variable select="substring(../../permanentLoanType/name,1,1)" name="ind"/> <!-- + temp loan type -->
+        <xsl:variable select="substring(($tabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/ind,../../permanentLoanType/name)[1],1,1)" name="ind"/> <!-- + temp loan type -->
         <xsl:variable name="result">
             <xsl:choose>
                 <xsl:when test=".='Available'">
-                    <s>verfügbar</s>
+                    <s>verfuegbar</s>
                     <xsl:choose>
                         <xsl:when test="index-of(('u','b','c','d'),$ind)>0"><i>u</i></xsl:when> <!-- b,c,d ist in Mainz ausleihbar -->
                         <xsl:when test="$ind='i'"><i>i</i></xsl:when>
@@ -163,10 +163,10 @@
                     </xsl:choose>
                 </xsl:when>
                 <xsl:when test=".='Awaiting pickup'">
-                    <s>verfügbar</s>
+                    <s>vormerkbar</s>
                     <xsl:choose>
                         <xsl:when test="index-of(('u','b','c','d'),$ind)>0"><i>u</i></xsl:when>
-                        <xsl:when test="$ind='i'"><i>i</i></xsl:when>
+                        <xsl:when test="$ind='i'"><i>i</i><t>nur für den Lesesaal</t></xsl:when>
                         <xsl:when test="$ind='s'"><i>c</i></xsl:when>
                         <xsl:otherwise><xsl:message>Katalogisierungfehler <xsl:value-of select="$ind"/></xsl:message></xsl:otherwise>
                     </xsl:choose>                   
@@ -175,7 +175,7 @@
                 <xsl:when test="(.='Claimed returned') or (.='Declared lost')"></xsl:when>
                 <xsl:when test=".='In process'"></xsl:when>
                 <xsl:when test=".='In process - not requestable'"></xsl:when>
-                <xsl:when test=".='Intellectual item'"></xsl:when>
+                <xsl:when test=".='Intellectual item'"><s></s><i></i></xsl:when> <!-- bei ZS: Link zur Bestellung -->
                 <xsl:when test=".='In transit'"></xsl:when>
                 <xsl:when test=".='Long missing'"></xsl:when>
                 <xsl:when test=".='Lost and paid'"></xsl:when>
@@ -186,30 +186,14 @@
                 <xsl:when test="(.='Restricted') or (.='Unavailable') or (.='Unknown') or (.='Withdrawn')"></xsl:when>
             </xsl:choose>
         </xsl:variable>
-        <xsl:message><xsl:value-of select="$result"/></xsl:message>
        
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">aus_status</xsl:with-param>
-            <xsl:with-param name="value">
-                <xsl:choose>
-                    <xsl:when test=".='Checked out'">
-                        <xsl:text>vormerkbar</xsl:text>
-                    </xsl:when>
-                    <xsl:when test=".='Available'">
-                        <xsl:text>verfuegbar</xsl:text>
-                    </xsl:when>
-                    <xsl:when test=".='Intellectual item'"> <!-- c-Sätze (location=dummy) ? -->
-                        <xsl:text>frei_best</xsl:text>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:value-of select="."/>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </xsl:with-param>
+            <xsl:with-param name="value" select="$result/s"/>
         </xsl:call-template>
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">aus_ind</xsl:with-param>
-            <xsl:with-param name="value" select="($tabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/ind,../../permanentLoanType/name)[1]"></xsl:with-param>
+            <xsl:with-param name="value" select="$result/i"/>
         </xsl:call-template>
     </xsl:template>
 
