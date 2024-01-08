@@ -150,6 +150,44 @@
     </xsl:template>
  
     <xsl:template match="status/name"> <!-- noch sehr schlicht -->
+        <xsl:variable select="substring(../../permanentLoanType/name,1,1)" name="ind"/> <!-- + temp loan type -->
+        <xsl:variable name="result">
+            <xsl:choose>
+                <xsl:when test=".='Available'">
+                    <s>verfügbar</s>
+                    <xsl:choose>
+                        <xsl:when test="index-of(('u','b','c','d'),$ind)>0"><i>u</i></xsl:when> <!-- b,c,d ist in Mainz ausleihbar -->
+                        <xsl:when test="$ind='i'"><i>i</i></xsl:when>
+                        <xsl:when test="$ind='s'"><i>s</i></xsl:when>
+                        <xsl:otherwise><xsl:message>Katalogisierungfehler <xsl:value-of select="$ind"/></xsl:message></xsl:otherwise>
+                    </xsl:choose>
+                </xsl:when>
+                <xsl:when test=".='Awaiting pickup'">
+                    <s>verfügbar</s>
+                    <xsl:choose>
+                        <xsl:when test="index-of(('u','b','c','d'),$ind)>0"><i>u</i></xsl:when>
+                        <xsl:when test="$ind='i'"><i>i</i></xsl:when>
+                        <xsl:when test="$ind='s'"><i>c</i></xsl:when>
+                        <xsl:otherwise><xsl:message>Katalogisierungfehler <xsl:value-of select="$ind"/></xsl:message></xsl:otherwise>
+                    </xsl:choose>                   
+                </xsl:when>
+                <xsl:when test=".='Checked out'"></xsl:when>
+                <xsl:when test="(.='Claimed returned') or (.='Declared lost')"></xsl:when>
+                <xsl:when test=".='In process'"></xsl:when>
+                <xsl:when test=".='In process - not requestable'"></xsl:when>
+                <xsl:when test=".='Intellectual item'"></xsl:when>
+                <xsl:when test=".='In transit'"></xsl:when>
+                <xsl:when test=".='Long missing'"></xsl:when>
+                <xsl:when test=".='Lost and paid'"></xsl:when>
+                <xsl:when test=".='Missing'"></xsl:when>
+                <xsl:when test=".='On order'"></xsl:when>
+                <xsl:when test=".='Order closed'"></xsl:when>
+                <xsl:when test=".='Paged'"></xsl:when>
+                <xsl:when test="(.='Restricted') or (.='Unavailable') or (.='Unknown') or (.='Withdrawn')"></xsl:when>
+            </xsl:choose>
+        </xsl:variable>
+        <xsl:message><xsl:value-of select="$result"/></xsl:message>
+       
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">aus_status</xsl:with-param>
             <xsl:with-param name="value">

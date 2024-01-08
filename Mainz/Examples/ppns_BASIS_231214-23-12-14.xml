@@ -129,7 +129,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -233,7 +233,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -336,7 +336,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -439,7 +439,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -542,7 +542,7 @@ andere Texte ... usw.)". Auch für Bestellkatalogisate der BB MINT</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -650,7 +650,7 @@ andere Texte ... usw.)". Auch für Bestellkatalogisate der BB MINT</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -760,7 +760,7 @@ andere Texte ... usw.)". Auch für Bestellkatalogisate der BB MINT</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -860,7 +860,7 @@ andere Texte ... usw.)". Auch für Bestellkatalogisate der BB MINT</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -962,7 +962,7 @@ BCO 077</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -1065,7 +1065,7 @@ BCO 077</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -1254,7 +1254,7 @@ BCO 077</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -1536,7 +1536,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -1789,7 +1789,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>e04e82c1-1257-4046-bc5e-d742bbe061da</id>
-            <name>5 i nur für den Lesesaal</name>
+            <name>i nur für den Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:06:07.129+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -1970,7 +1970,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -2296,7 +2296,7 @@ andere Texte ... usw.)". Auch für Bestellkatalogisate der BB MINT</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -2401,7 +2401,7 @@ BCO 072</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -2508,7 +2508,7 @@ BCO 072</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -2613,7 +2613,7 @@ BCO 075</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -2718,7 +2718,7 @@ BCO 075</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -2823,7 +2823,7 @@ BCO 088</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -2928,7 +2928,7 @@ BCO 090</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -3033,7 +3033,7 @@ BCO 090</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -3138,7 +3138,7 @@ BCO 090</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -3334,7 +3334,7 @@ BCO 090</description>
           </metadata>
           <permanentLoanType>
             <id>e04e82c1-1257-4046-bc5e-d742bbe061da</id>
-            <name>5 i nur für den Lesesaal</name>
+            <name>i nur für den Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:06:07.129+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -3510,7 +3510,7 @@ BCO 090</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -3618,7 +3618,7 @@ BCO 072</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -3795,7 +3795,7 @@ BCO 072</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -3970,7 +3970,7 @@ BCO 072</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -4078,7 +4078,7 @@ BCO 072</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -4191,7 +4191,7 @@ BCO 072</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -4299,7 +4299,7 @@ BCO 072</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -4408,7 +4408,7 @@ BCO 070</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -4517,7 +4517,7 @@ BCO 071</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -4626,7 +4626,7 @@ BCO 071</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -4735,7 +4735,7 @@ BCO 083</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -4842,7 +4842,7 @@ BCO 083</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -4957,7 +4957,7 @@ BCO 127</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -5141,7 +5141,7 @@ BCO 127</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -5250,7 +5250,7 @@ BCO 072</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -5359,7 +5359,7 @@ BCO 072</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -5462,7 +5462,7 @@ BCO 072</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -5653,7 +5653,7 @@ BCO 072</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -5759,7 +5759,7 @@ BCO 072</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -5818,7 +5818,7 @@ BCO 072</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -5877,7 +5877,7 @@ BCO 072</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -5985,7 +5985,7 @@ BCO 072</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -6173,7 +6173,7 @@ BCO 058</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -6275,7 +6275,7 @@ BCO 070</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -6383,7 +6383,7 @@ BCO 072</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -6486,7 +6486,7 @@ BCO 083</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -6594,7 +6594,7 @@ BCO 120</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -6697,7 +6697,7 @@ BCO 120</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -6800,7 +6800,7 @@ BCO 120</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -6857,7 +6857,7 @@ BCO 120</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -6914,7 +6914,7 @@ BCO 120</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -7023,7 +7023,7 @@ BCO 120</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -7227,7 +7227,7 @@ BCO 120</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -7330,7 +7330,7 @@ BCO 120</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -7387,7 +7387,7 @@ BCO 120</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -7444,7 +7444,7 @@ BCO 120</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -7501,7 +7501,7 @@ BCO 120</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -7558,7 +7558,7 @@ BCO 120</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -7661,7 +7661,7 @@ BCO 120</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -7773,7 +7773,7 @@ BCO 120</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -7875,7 +7875,7 @@ BCO 071</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -8071,7 +8071,7 @@ BCO 071</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -8175,7 +8175,7 @@ BCO 074</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -8284,7 +8284,7 @@ BCO 074</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -8467,7 +8467,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -8526,7 +8526,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -8635,7 +8635,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -8741,7 +8741,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -8932,7 +8932,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -9036,7 +9036,7 @@ BCO 076</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -9139,7 +9139,7 @@ BCO 088</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -9242,7 +9242,7 @@ BCO 088</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -9480,7 +9480,7 @@ BCO 092</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -9537,7 +9537,7 @@ BCO 092</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -9594,7 +9594,7 @@ BCO 092</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -9697,7 +9697,7 @@ BCO 092</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -9754,7 +9754,7 @@ BCO 092</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -9811,7 +9811,7 @@ BCO 092</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -10036,7 +10036,7 @@ BCO 070</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -10139,7 +10139,7 @@ BCO 070</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -10242,7 +10242,7 @@ BCO 070</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -10353,7 +10353,7 @@ BCO 070</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -10455,7 +10455,7 @@ BCO 071</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -10558,7 +10558,7 @@ BCO 071</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -10661,7 +10661,7 @@ BCO 083</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -10764,7 +10764,7 @@ BCO 083</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -10821,7 +10821,7 @@ BCO 083</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -10878,7 +10878,7 @@ BCO 083</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -11056,7 +11056,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -11236,7 +11236,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -11343,7 +11343,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -11446,7 +11446,7 @@ BCO 058</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -11549,7 +11549,7 @@ BCO 074</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -11659,7 +11659,7 @@ BCO 127</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -11762,7 +11762,7 @@ BCO 127</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -11864,7 +11864,7 @@ BCO 127</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -12075,7 +12075,7 @@ BCO 127</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -12281,7 +12281,7 @@ BCO 127</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -12384,7 +12384,7 @@ BCO 070</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -12486,7 +12486,7 @@ BCO 070</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -12608,7 +12608,7 @@ BCO 070</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -12667,7 +12667,7 @@ BCO 070</description>
           </metadata>
           <permanentLoanType>
             <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
-            <name>2 c Lehrbuchsammlung</name>
+            <name>c Lehrbuchsammlung</name>
             <metadata>
               <createdDate>2021-01-05T12:05:28.355+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -12777,7 +12777,7 @@ BCO 127</description>
           </metadata>
           <permanentLoanType>
             <id>e04e82c1-1257-4046-bc5e-d742bbe061da</id>
-            <name>5 i nur für den Lesesaal</name>
+            <name>i nur für den Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:06:07.129+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -12973,7 +12973,7 @@ BCO 127</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -13081,7 +13081,7 @@ BCO 072</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -13189,7 +13189,7 @@ BCO 072</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -13391,7 +13391,7 @@ BCO 087</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -13496,7 +13496,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -13609,7 +13609,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -13711,7 +13711,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -13816,7 +13816,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -14033,7 +14033,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -14230,7 +14230,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -14345,7 +14345,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -14535,7 +14535,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -14641,7 +14641,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -14761,7 +14761,7 @@ BCO 093 und 8201 ist genau "MAG" oder BCO 125</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -14863,7 +14863,7 @@ BCO 058</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -14966,7 +14966,7 @@ BCO 074</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -15069,7 +15069,7 @@ BCO 077</description>
           </metadata>
           <permanentLoanType>
             <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>4 d Präsenzbestand Wochenendausleihe</name>
+            <name>d Präsenzbestand Wochenendausleihe</name>
             <metadata>
               <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -15172,7 +15172,7 @@ BCO 077</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -15274,7 +15274,7 @@ BCO 077</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -15473,7 +15473,7 @@ BCO 077</description>
           </metadata>
           <permanentLoanType>
             <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
-            <name>3 s Präsenzbestand Lesesaal</name>
+            <name>s Präsenzbestand Lesesaal</name>
             <metadata>
               <createdDate>2021-01-05T12:05:35.628+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
@@ -15676,7 +15676,7 @@ BCO 077</description>
           </metadata>
           <permanentLoanType>
             <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>0 u ausleihbar</name>
+            <name>u ausleihbar</name>
             <metadata>
               <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
               <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
