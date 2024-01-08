@@ -172,9 +172,9 @@
                     </xsl:choose>                   
                 </xsl:when>
                 <xsl:when test=".='Checked out'"></xsl:when>
-                <xsl:when test="(.='Claimed returned') or (.='Declared lost')"></xsl:when>
+                <xsl:when test="(.='Claimed returned') or (.='Declared lost')"></xsl:when> <!-- Nicht verfügbar -->
                 <xsl:when test=".='In process'"></xsl:when>
-                <xsl:when test=".='In process - not requestable'"></xsl:when>
+                <xsl:when test=".='In process - not requestable'"></xsl:when> <!-- Nicht verfügbar -->
                 <xsl:when test=".='Intellectual item'"><s></s><i></i></xsl:when> <!-- bei ZS: Link zur Bestellung -->
                 <xsl:when test=".='In transit'"></xsl:when>
                 <xsl:when test=".='Long missing'"></xsl:when>
