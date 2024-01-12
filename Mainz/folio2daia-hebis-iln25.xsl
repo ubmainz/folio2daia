@@ -149,7 +149,7 @@
         </xsl:call-template>
     </xsl:template>
  
-    <xsl:template match="status/name"> <!-- noch sehr schlicht -->
+    <xsl:template match="status/name">
         <xsl:variable select="substring(($tabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/ind,../../permanentLoanType/name)[1],1,1)" name="ind"/> <!-- + temp loan type -->
         <xsl:variable name="result">
             <xsl:choose>
@@ -189,7 +189,15 @@
                 </xsl:when>
                 <xsl:when test=".='In process - not requestable'"><i>g</i></xsl:when> <!-- Nicht verfügbar -->
                 <xsl:when test=".='Intellectual item'"><i> </i></xsl:when> <!-- bei ZS: Link zur Bestellung -->
-                <xsl:when test=".='In transit'"></xsl:when>
+                <xsl:when test=".='In transit'">
+                    <xsl:choose>
+                        <xsl:when test="index-of(('u','b','c','d','i'),$ind)>0"><i>u</i><s>vormerkbar</s></xsl:when> <!-- b,c,d siehe oben -->
+                        <xsl:when test="$ind='i'"><i>i</i><t>nur für den Lesesaal</t></xsl:when>
+                        <xsl:when test="$ind='s'"><i>c</i><s>nicht vormerkbar</s></xsl:when>
+                        <xsl:when test="$ind='e'"><i>e</i><t>vermisst</t></xsl:when>
+                        <xsl:otherwise><i>g</i></xsl:otherwise>
+                    </xsl:choose>  
+                </xsl:when>
                 <xsl:when test=".='Long missing'"></xsl:when>
                 <xsl:when test=".='Lost and paid'"></xsl:when>
                 <xsl:when test=".='Missing'"></xsl:when>
