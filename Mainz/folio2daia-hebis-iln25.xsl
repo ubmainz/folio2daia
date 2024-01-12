@@ -154,28 +154,41 @@
         <xsl:variable name="result">
             <xsl:choose>
                 <xsl:when test=".='Available'">
-                    <s>verfuegbar</s>
                     <xsl:choose>
-                        <xsl:when test="index-of(('u','b','c','d'),$ind)>0"><i>u</i></xsl:when> <!-- b,c,d ist in Mainz ausleihbar -->
-                        <xsl:when test="$ind='i'"><i>i</i></xsl:when>
+                        <xsl:when test="index-of(('u','b','c','d'),$ind)>0"><i>u</i><s>verfuegbar</s></xsl:when> <!-- b,c,d ist in Mainz ausleihbar -->
+                        <xsl:when test="$ind='i'"><i>i</i><s>verfuegbar</s></xsl:when>
                         <xsl:when test="$ind='s'"><i>s</i></xsl:when>
-                        <xsl:otherwise><xsl:message>Katalogisierungfehler <xsl:value-of select="$ind"/></xsl:message></xsl:otherwise>
+                        <xsl:when test="$ind='e'"><i>e</i><t>vermisst</t></xsl:when> <!-- tbd Sprachsteuerung -->
+                        <xsl:otherwise><i>g</i></xsl:otherwise>
                     </xsl:choose>
                 </xsl:when>
                 <xsl:when test=".='Awaiting pickup'">
-                    <s>vormerkbar</s>
                     <xsl:choose>
-                        <xsl:when test="index-of(('u','b','c','d'),$ind)>0"><i>u</i></xsl:when> <!-- b,c,d siehe oben -->
-                        <xsl:when test="$ind='i'"><i>i</i><t>nur für den Lesesaal</t></xsl:when>
-                        <xsl:when test="$ind='s'"><i>c</i></xsl:when>
-                        <xsl:otherwise><xsl:message>Katalogisierungfehler <xsl:value-of select="$ind"/></xsl:message></xsl:otherwise>
+                        <xsl:when test="index-of(('u','b','c','d'),$ind)>0"><s>vormerkbar</s><i>u</i></xsl:when> <!-- b,c,d siehe oben -->
+                        <xsl:when test="$ind='i'"><i>i</i><t>nur für den Lesesaal</t><s>vormerkbar</s></xsl:when>
+                        <xsl:when test="$ind='s'"><i>c</i><s>nicht vormerkbar</s></xsl:when>
+                        <xsl:when test="$ind='e'"><i>e</i><t>vermisst</t></xsl:when>
+                        <xsl:otherwise><i>g</i></xsl:otherwise>
                     </xsl:choose>                   
                 </xsl:when>
-                <xsl:when test=".='Checked out'"></xsl:when>
-                <xsl:when test="(.='Claimed returned') or (.='Declared lost')"></xsl:when> <!-- Nicht verfügbar -->
-                <xsl:when test=".='In process'"></xsl:when>
-                <xsl:when test=".='In process - not requestable'"></xsl:when> <!-- Nicht verfügbar -->
-                <xsl:when test=".='Intellectual item'"><s></s><i></i></xsl:when> <!-- bei ZS: Link zur Bestellung -->
+                <xsl:when test=".='Checked out'">
+                    <xsl:choose>
+                        <xsl:when test="index-of(('u','b','c','d','i'),$ind)>0"><i>u</i><s>vormerkbar</s></xsl:when> <!-- b,c,d siehe oben -->
+                        <xsl:when test="$ind='s'"><i>c</i><s>nicht vormerkbar</s></xsl:when>
+                        <xsl:when test="$ind='e'"><i>e</i><t>vermisst</t></xsl:when>
+                        <xsl:otherwise><i>g</i></xsl:otherwise>
+                    </xsl:choose>  
+                </xsl:when>
+                <xsl:when test="(.='Claimed returned') or (.='Declared lost')"><i>g</i></xsl:when> <!-- Nicht verfügbar -->
+                <xsl:when test=".='In process'">
+                    <xsl:choose>
+                        <xsl:when test="index-of(('u','b','c','d','i'),$ind)>0"><i>u</i><s>vormerkbar</s></xsl:when> <!-- b,c,d siehe oben -->
+                        <xsl:when test="$ind='e'"><i>e</i><t>vermisst</t></xsl:when>
+                        <xsl:otherwise><i>g</i></xsl:otherwise>
+                    </xsl:choose>       
+                </xsl:when>
+                <xsl:when test=".='In process - not requestable'"><i>g</i></xsl:when> <!-- Nicht verfügbar -->
+                <xsl:when test=".='Intellectual item'"><i> </i></xsl:when> <!-- bei ZS: Link zur Bestellung -->
                 <xsl:when test=".='In transit'"></xsl:when>
                 <xsl:when test=".='Long missing'"></xsl:when>
                 <xsl:when test=".='Lost and paid'"></xsl:when>
@@ -187,10 +200,12 @@
             </xsl:choose>
         </xsl:variable>
        
-        <xsl:call-template name="DAIA">
-            <xsl:with-param name="tag">aus_status</xsl:with-param>
-            <xsl:with-param name="value" select="$result/s"/>
-        </xsl:call-template>
+        <xsl:if test="$result/s">
+            <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag">aus_status</xsl:with-param>
+                <xsl:with-param name="value" select="$result/s"/>
+            </xsl:call-template>
+        </xsl:if>
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">aus_ind</xsl:with-param>
             <xsl:with-param name="value" select="$result/i"/>
