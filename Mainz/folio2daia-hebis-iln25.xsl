@@ -191,20 +191,28 @@
                 <xsl:when test=".='Intellectual item'"><i> </i></xsl:when> <!-- bei ZS: Link zur Bestellung -->
                 <xsl:when test=".='In transit'">
                     <xsl:choose>
-                        <xsl:when test="index-of(('u','b','c','d','i'),$ind)>0"><i>u</i><s>vormerkbar</s></xsl:when> <!-- b,c,d siehe oben -->
-                        <xsl:when test="$ind='i'"><i>i</i><t>nur für den Lesesaal</t></xsl:when>
+                        <xsl:when test="index-of(('u','b','c','d'),$ind)>0"><i>u</i><s>vormerkbar</s></xsl:when> <!-- b,c,d siehe oben -->
+                        <xsl:when test="$ind='i'"><i>i</i><s>vormerkbar</s><t>nur für den Lesesaal</t></xsl:when>
                         <xsl:when test="$ind='s'"><i>c</i><s>nicht vormerkbar</s></xsl:when>
                         <xsl:when test="$ind='e'"><i>e</i><t>vermisst</t></xsl:when>
                         <xsl:otherwise><i>g</i></xsl:otherwise>
                     </xsl:choose>  
                 </xsl:when>
-                <xsl:when test=".='Long missing'"></xsl:when>
-                <xsl:when test=".='Lost and paid'"></xsl:when>
+                <xsl:when test=".='Long missing'"><i>e</i><t>vermisst</t></xsl:when>
+                <xsl:when test=".='Lost and paid'"><i>g</i></xsl:when>
                 <xsl:when test=".='Missing'"></xsl:when>
                 <xsl:when test=".='On order'"></xsl:when>
                 <xsl:when test=".='Order closed'"></xsl:when>
-                <xsl:when test=".='Paged'"></xsl:when>
-                <xsl:when test="(.='Restricted') or (.='Unavailable') or (.='Unknown') or (.='Withdrawn')"></xsl:when>
+                <xsl:when test=".='Paged'">
+                    <xsl:choose>
+                        <xsl:when test="index-of(('u','b','c','d'),$ind)>0"><i>u</i><s>vormerkbar</s></xsl:when> <!-- b,c,d siehe oben -->
+                        <xsl:when test="$ind='i'"><i>i</i><s>vormerkbar</s><t>nur für den Lesesaal</t></xsl:when>
+                        <xsl:when test="$ind='s'"><i>c</i><s>nicht vormerkbar</s></xsl:when>
+                        <xsl:when test="$ind='e'"><i>e</i><t>vermisst</t></xsl:when>
+                        <xsl:otherwise><i>g</i></xsl:otherwise>
+                    </xsl:choose>  
+                </xsl:when>
+                <xsl:when test="(.='Restricted') or (.='Unavailable') or (.='Unknown') or (.='Withdrawn')"><i>g</i></xsl:when>
             </xsl:choose>
         </xsl:variable>
        
