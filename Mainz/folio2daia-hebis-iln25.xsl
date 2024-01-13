@@ -175,11 +175,11 @@
             </xsl:variable>
             <xsl:variable name="cases">
                 <UF><i>u</i><s>verfuegbar</s></UF> <!-- bestellbar -->
-                <IF><i>i</i><s>verfuegbar</s><t>nur für den Lesesaal</t></IF> <!-- nur für den Lesesaal bestellbar -->
+                <IF><i>i</i><s>verfuegbar</s><t xml:lang="de">nur für den Lesesaal</t><t xml:lang="en">reading room only</t></IF> <!-- nur für den Lesesaal bestellbar -->
                 <SX><i>s</i></SX> <!-- Päsenzbestand -->
-                <EM><i>e</i><t>vermisst</t></EM> <!-- tbd Sprachsteuerung -->
+                <EM><i>e</i><t xml:lang="de">vermisst</t><t xml:lang="en">missing</t></EM> <!--  -->
                 <UV><i>u</i><s>vormerkbar</s></UV> <!-- vormerkbar -->
-                <IV><i>i</i><s>vormerkbar</s><t>nur für den Lesesaal</t></IV> <!-- nur für den Lesesaal vormerkbar -->
+                <IV><i>i</i><s>vormerkbar</s><t xml:lang="de">nur für den Lesesaal</t><t xml:lang="en">reading room only</t></IV> <!-- nur für den Lesesaal vormerkbar -->
                 <CN><i>c</i><s>nicht vormerkbar</s></CN> <!-- Präsenzbestand -->
                 <XO><i>a</i><s>gesperrt</s></XO> <!--  -->
                 
@@ -202,7 +202,7 @@
         <xsl:if test="$result/t">
             <xsl:call-template name="DAIA">
                 <xsl:with-param name="tag">aus_text</xsl:with-param>
-                <xsl:with-param name="value" select="$result/t"/>
+                <xsl:with-param name="value" select="$result/t[@xml:lang=$lang]"/>
             </xsl:call-template>
         </xsl:if>
     </xsl:template>
