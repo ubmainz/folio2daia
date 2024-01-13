@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0">
     <xsl:output method="text"/>
-    <!-- language, defaults to de -->
+    <!-- Sprache, default ist Deutsch -->
     <xsl:param name="lang" select="(//lang,'de')[1]"/>
-    <!-- default location url -->
+    <!-- Default Standort-URL -->
     <xsl:param name="locationurl" select="'https://www.ub.uni-mainz.de/de/standorte'"/>
+    <!-- Tabelle bbtabelle mit Infomationen zu den Standorten:
+         c : [pflicht] Standort-Code wie er in effectiveLocation/discoveryDisplayName übergeben wird, gleichzeitig Sortierkriterium
+         n : [pflicht] Name des Standorts wir er ausgegeben werden soll, ggf. sprachabhängig <n xml:lang="de">...</n><n xml:lang="en">...</n>
+         ind : [optional] Ausleihindikator, überschreibt für diesen Standort den Wert, der aus FOLIO kommt
+         url : [optional] URL für den Nutzer mit Infomationen für den Nutzer (z.B. Normdatensatz), default siehe oben -->
     <xsl:variable name="bbtabelle"> <!-- Sprachvarianten, z.B. <n xml:lang="de">...</n><n xml:lang="en">...</n> -->
         <e><c>25/000-000-10-ZBFREI</c><n xml:lang="de">Zentralbibliothek, Bücherturm</n><n xml:lang="en">Central Library, Book Tower</n></e>  
         <e><c>25/000-000-12-ZBLBS</c><n xml:lang="de">Zentralbibliothek, Lehrbuchsammlung</n></e>
@@ -93,11 +98,11 @@
     <xsl:template match="instanceData">
         <xsl:text>&#10;</xsl:text>
         
-        <xsl:for-each select="holdings/holding[holdingsTypeId='996f93e2-5b5e-4cf2-9168-33ced1f95eed']">
+        <xsl:for-each select="holdings/holding[holdingsTypeId='996f93e2-5b5e-4cf2-9168-33ced1f95eed']"> <!-- für elektronische Bestände -->
             <!-- evtl. sortieren <xsl:sort select="..." order="ascending" lang="de"/> -->
             <xsl:apply-templates select=".//*"/> 
         </xsl:for-each>
-        <xsl:for-each select="holdings/holding[holdingsTypeId!='996f93e2-5b5e-4cf2-9168-33ced1f95eed']">
+        <xsl:for-each select="holdings/holding[holdingsTypeId!='996f93e2-5b5e-4cf2-9168-33ced1f95eed']"> <!-- für nicht elektronische Bestände -->
             <xsl:sort select="effectiveLocation/discoveryDisplayName" order="ascending" lang="de"/>
             <xsl:for-each select="items/item">
                 <xsl:sort select="chronology" order="descending"/>
@@ -109,7 +114,7 @@
         
     </xsl:template>
         
-     <xsl:template match="hrid">
+     <xsl:template match="hrid"> <!-- wird sowohl aus dem Holding als auch aus dem Item gebutzt -->
          <xsl:call-template name="DAIA">
              <xsl:with-param name="tag">epn</xsl:with-param>
              <xsl:with-param name="value" select="concat(ancestor::holding/hrid,'-',.)"/>
@@ -122,7 +127,7 @@
         </xsl:call-template>
     </xsl:template>
     
-    <xsl:template match="effectiveLocation/discoveryDisplayName">
+    <xsl:template match="effectiveLocation/discoveryDisplayName"> <!-- Standortangabe als Code -->
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">abt_num</xsl:with-param>
         </xsl:call-template>
@@ -136,7 +141,7 @@
         </xsl:call-template>
     </xsl:template>
     
-    <xsl:template match="notes[holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note">
+    <xsl:template match="notes[holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note"> <!-- Standorthinweis (aus 8201) -->
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">standort</xsl:with-param>
             <xsl:with-param name="value"><xsl:text>&lt;b&gt;Standort: &lt;/b&gt;</xsl:text><xsl:value-of select="."/></xsl:with-param>
@@ -149,7 +154,7 @@
         </xsl:call-template>
     </xsl:template>
  
-    <xsl:template match="status/name">
+    <xsl:template match="status/name"> <!-- Trigger für Status (als immer eindeutig vorhanden vorausgesetzt) für Status und Ausleihindikator - emuliert LBS -->
         <xsl:variable select="substring(($bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/ind,../../permanentLoanType/name)[1],1,1)" name="ind"/> <!-- + temp loan type -->
         <xsl:variable name="result">
             <xsl:variable name="emulator">
@@ -177,7 +182,7 @@
                 <UF><i>u</i><s>verfuegbar</s></UF> <!-- bestellbar -->
                 <IF><i>i</i><s>verfuegbar</s><t xml:lang="de">nur für den Lesesaal</t><t xml:lang="en">reading room only</t></IF> <!-- nur für den Lesesaal bestellbar -->
                 <SX><i>s</i></SX> <!-- Päsenzbestand -->
-                <EM><i>e</i><t xml:lang="de">vermisst</t><t xml:lang="en">missing</t></EM> <!--  -->
+                <EM><i>e</i><t xml:lang="de">vermisst</t><t xml:lang="en">missing</t></EM> <!-- vermisst -->
                 <UV><i>u</i><s>vormerkbar</s></UV> <!-- vormerkbar -->
                 <IV><i>i</i><s>vormerkbar</s><t xml:lang="de">nur für den Lesesaal</t><t xml:lang="en">reading room only</t></IV> <!-- nur für den Lesesaal vormerkbar -->
                 <CN><i>c</i><s>nicht vormerkbar</s></CN> <!-- Präsenzbestand -->
@@ -229,7 +234,7 @@
     
     <xsl:template match="*"/>
 
-    <xsl:template name="DAIA">
+    <xsl:template name="DAIA"> <!-- Template für alle DAIA-Tags, Default-Node für den Wert ist "." -->
         <xsl:param name="tag"/>
         <xsl:param name="value"/>
         <xsl:text>&#10;DAIAinfo </xsl:text>
