@@ -3,6 +3,7 @@
 DAIAinfo epn 660437244-660437244-1 ofniAIAD
 DAIAinfo sig PAED H 524 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek,Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -68,6 +69,7 @@ DAIAinfo aus_text 01701 ofniAIAD
 DAIAinfo epn 150699484-150699484-1 ofniAIAD
 DAIAinfo sig Univ 76 Mai 1987 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/999-034-FBGTEM ofniAIAD
 DAIAinfo abt_name Universität Mainz, Institut für Geschichte, Theorie und Ethik der Medizin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -168,6 +170,7 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 178441880-178441880-1 ofniAIAD
 DAIAinfo sig 086.931 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-20-ZBSEM ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Semesterapparate ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -248,6 +251,7 @@ DAIAinfo aus_text Genauen Standort in der BB MIN erfragen! ofniAIAD
 DAIAinfo epn 1009778307-1009778307-1 ofniAIAD
 DAIAinfo sig INT 100/3 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/019-019-14-GHLS ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -366,6 +370,7 @@ DAIAinfo standort <b>Standort: </b>Katholische Theologie ofniAIAD
 DAIAinfo epn 188365591-188365591-1 ofniAIAD
 DAIAinfo sig SEM 18-4 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/999-111-FBKUNST ofniAIAD
 DAIAinfo abt_name Universität Mainz, Kunsthochschule ofniAIAD
 DAIAinfo abt_link http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102600600 ofniAIAD
@@ -402,6 +407,7 @@ DAIAinfo aus_text BASIS DAIA ofniAIAD
 DAIAinfo epn 221901884-221901884-1 ofniAIAD
 DAIAinfo sig 090 Oq 102 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/004-127-PHMAG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -412,6 +418,7 @@ DAIAinfo aus_text Tagesausleihe erst nach Rücksprache möglich ofniAIAD
 DAIAinfo epn 222302275-222302275-1 ofniAIAD
 DAIAinfo sig ANGL C 621-4 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek,Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -474,6 +481,7 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 1010642677-1010642677-1 ofniAIAD
 DAIAinfo sig ANGL 860/1 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/019-019-14-GHLS ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -504,6 +512,7 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 568244516-568244516-1 ofniAIAD
 DAIAinfo sig HIST W 503 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek,Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -765,18 +774,21 @@ DAIAinfo aus_text BASIS DAIA ofniAIAD
 DAIAinfo epn 76698527X-76698527X-1 ofniAIAD
 DAIAinfo sig LING C 315-12 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek,Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 765020505-765020505-1 ofniAIAD
 DAIAinfo sig HB 23 405, 12 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/002-002-10-GFGPÄD ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Erziehungswissenschaft ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 76533139X-76533139X-1 ofniAIAD
 DAIAinfo sig O III - 40 / 12 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/004-058-PHPHI ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Philosophie ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -790,6 +802,7 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 765541602-765541602-1 ofniAIAD
 DAIAinfo sig 070 05 N - H 67 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/004-127-PHMAG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -797,6 +810,7 @@ DAIAinfo standort <b>Standort: </b>Germanistik / Separiert ofniAIAD
 DAIAinfo epn 765476622-765476622-1 ofniAIAD
 DAIAinfo sig 3 S/h 9 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/018-018-10-RW ofniAIAD
 DAIAinfo abt_name BB Rechts- und Wirtschaftswissenschaften, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -805,6 +819,7 @@ DAIAinfo aus_text 01810 ofniAIAD
 DAIAinfo epn 1010740881-1010740881-1 ofniAIAD
 DAIAinfo sig LIT 320/4 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/019-019-14-GHLS ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -864,6 +879,7 @@ DAIAinfo aus_text BASIS DAIA ofniAIAD
 DAIAinfo epn 1010876708-1010876708-1 ofniAIAD
 DAIAinfo sig GERM 550/1 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/019-019-14-GHLS ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -994,6 +1010,7 @@ DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo epn 1145954014-1145954014-1 ofniAIAD
 DAIAinfo sig GERM B 112 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek,Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -1002,18 +1019,21 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 116903084X-116903084X-1 ofniAIAD
 DAIAinfo sig LING A 2360-4,2 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek,Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 1182674917-1182674917-1 ofniAIAD
 DAIAinfo sig HB 9056 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/002-002-10-GFGPÄD ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Erziehungswissenschaft ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 1174243635-1174243635-1 ofniAIAD
 DAIAinfo sig A a.26/14-4,2 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/002-079-GFGKUN ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Kunstgeschichte ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -1027,6 +1047,7 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 118095713X-118095713X-1 ofniAIAD
 DAIAinfo sig WL / 2 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/004-074-PHROM ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Romanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -1040,6 +1061,7 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 123028849X-123028849X-1 ofniAIAD
 DAIAinfo sig Aa 771-4,2 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -1047,6 +1069,7 @@ DAIAinfo standort <b>Standort: </b>Evangelische Theologie ofniAIAD
 DAIAinfo epn 1240880685-1240880685-1 ofniAIAD
 DAIAinfo sig E ling L 38,4 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -1074,6 +1097,7 @@ DAIAinfo aus_text Dienstliteratur, Einsicht nur nach Anfrage an info@zww.uni-mai
 DAIAinfo epn 1214509029-1214509029-1 ofniAIAD
 DAIAinfo sig LM 1:262-54.2022 ofniAIAD
 DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek,Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD

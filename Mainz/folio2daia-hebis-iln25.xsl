@@ -181,7 +181,7 @@
             <xsl:variable name="cases">
                 <UF><i>u</i><s>verfuegbar</s></UF> <!-- bestellbar -->
                 <IF><i>i</i><s>verfuegbar</s><t xml:lang="de">nur für den Lesesaal</t><t xml:lang="en">reading room only</t></IF> <!-- nur für den Lesesaal bestellbar -->
-                <SX><i>s</i></SX> <!-- Päsenzbestand -->
+                <SX><i>s</i><t xml:lang="de">nicht ausleihbar</t><t xml:lang="en">not available for loan</t></SX> <!-- Päsenzbestand -->
                 <EM><i>e</i><t xml:lang="de">vermisst</t><t xml:lang="en">missing</t></EM> <!-- vermisst -->
                 <UV><i>u</i><s>vormerkbar</s></UV> <!-- vormerkbar -->
                 <IV><i>i</i><s>vormerkbar</s><t xml:lang="de">nur für den Lesesaal</t><t xml:lang="en">reading room only</t></IV> <!-- nur für den Lesesaal vormerkbar -->
