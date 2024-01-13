@@ -121,7 +121,7 @@ DAIAinfo aus_ind u ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo aus_ind Open ofniAIAD
+DAIAinfo aus_ind g ofniAIAD
 DAIAinfo aus_datum 2024-10-25T21:59:59.000+00:00 ofniAIAD
 DAIAinfo aus_ind g ofniAIAD
 DAIAinfo epn 12514248X-it00000000063 ofniAIAD
@@ -240,7 +240,7 @@ DAIAinfo abt_name BB Philosophicum, Buchwissenschaft ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 776201417-776201417-1 ofniAIAD
 DAIAinfo sig 90/METEOROLOGIE X 24 ofniAIAD
-DAIAinfo aus_ind  ofniAIAD
+DAIAinfo aus_ind g ofniAIAD
 DAIAinfo abt_num 25/006-006-10-MINT ofniAIAD
 DAIAinfo abt_name BB Mathematik, Informatik, Naturwissenschaften und Technik, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -294,21 +294,24 @@ DAIAinfo aus_text Nachdr. 2011 ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo epn 182300447-182300447-1 ofniAIAD
 DAIAinfo sig 08 X - B 45 ofniAIAD
-DAIAinfo aus_ind Missing ofniAIAD
+DAIAinfo aus_ind e ofniAIAD
+DAIAinfo aus_text vermisst ofniAIAD
 DAIAinfo abt_num 25/004-070-PHGER ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Germanistik I / Kulturanthropologie und Germanistik II ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo epn 150329199-150329199-1 ofniAIAD
 DAIAinfo sig 15.2 - 115/3 ofniAIAD
-DAIAinfo aus_ind Missing ofniAIAD
+DAIAinfo aus_ind e ofniAIAD
+DAIAinfo aus_text vermisst ofniAIAD
 DAIAinfo abt_num 25/004-071-PHAVL ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Allgemeine und Vergleichende Literaturwissenschaft ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo epn 166002399-166002399-1 ofniAIAD
 DAIAinfo sig L/VII B 5 I a ofniAIAD
-DAIAinfo aus_ind Missing ofniAIAD
+DAIAinfo aus_ind e ofniAIAD
+DAIAinfo aus_text vermisst ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -317,7 +320,8 @@ DAIAinfo aus_text BB Philosophicum vermisst 2016-06 ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo epn 174158661-174158661-1 ofniAIAD
 DAIAinfo sig L/VII B 5 I b ofniAIAD
-DAIAinfo aus_ind Missing ofniAIAD
+DAIAinfo aus_ind e ofniAIAD
+DAIAinfo aus_text vermisst ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -326,7 +330,8 @@ DAIAinfo aus_text BB Philosophicum vermisst 2019-06 ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo epn 165007893-165007893-1 ofniAIAD
 DAIAinfo sig T 02 / D / 160 ofniAIAD
-DAIAinfo aus_ind Missing ofniAIAD
+DAIAinfo aus_ind e ofniAIAD
+DAIAinfo aus_text vermisst ofniAIAD
 DAIAinfo abt_num 25/004-120-PHTHW ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Theaterwissenschaft / Medienkulturwissenschaft / Alltagsmedien ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -426,7 +431,7 @@ DAIAinfo aus_ind u ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo aus_ind Open ofniAIAD
+DAIAinfo aus_ind g ofniAIAD
 DAIAinfo aus_datum 2024-10-25T21:59:59.000+00:00 ofniAIAD
 DAIAinfo aus_ind g ofniAIAD
 DAIAinfo standort <b>Standort: </b>Amerikanistik ofniAIAD
@@ -940,7 +945,7 @@ DAIAinfo aus_text BASIS DAIA ofniAIAD
 
 DAIAinfo epn 1084099152-1084099152-1 ofniAIAD
 DAIAinfo sig bestellt BB Philosophicum ofniAIAD
-DAIAinfo aus_ind On order ofniAIAD
+DAIAinfo aus_ind g ofniAIAD
 DAIAinfo abt_num 25/004-087-PHBYZ ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Byzantinistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD

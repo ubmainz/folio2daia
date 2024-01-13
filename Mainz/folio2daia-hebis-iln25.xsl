@@ -152,70 +152,43 @@
     <xsl:template match="status/name">
         <xsl:variable select="substring(($tabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/ind,../../permanentLoanType/name)[1],1,1)" name="ind"/> <!-- + temp loan type -->
         <xsl:variable name="result">
-            <xsl:choose>
-                <xsl:when test=".='Available'">
-                    <xsl:choose>
-                        <xsl:when test="index-of(('u','b','c','d'),$ind)>0"><i>u</i><s>verfuegbar</s></xsl:when> <!-- b,c,d ist in Mainz ausleihbar -->
-                        <xsl:when test="$ind='i'"><i>i</i><s>verfuegbar</s></xsl:when>
-                        <xsl:when test="$ind='s'"><i>s</i></xsl:when>
-                        <xsl:when test="$ind='e'"><i>e</i><t>vermisst</t></xsl:when> <!-- tbd Sprachsteuerung -->
-                        <xsl:otherwise><i>g</i></xsl:otherwise>
-                    </xsl:choose>
-                </xsl:when>
-                <xsl:when test=".='Awaiting pickup'">
-                    <xsl:choose>
-                        <xsl:when test="index-of(('u','b','c','d'),$ind)>0"><s>vormerkbar</s><i>u</i></xsl:when> <!-- b,c,d siehe oben -->
-                        <xsl:when test="$ind='i'"><i>i</i><t>nur für den Lesesaal</t><s>vormerkbar</s></xsl:when>
-                        <xsl:when test="$ind='s'"><i>c</i><s>nicht vormerkbar</s></xsl:when>
-                        <xsl:when test="$ind='e'"><i>e</i><t>vermisst</t></xsl:when>
-                        <xsl:otherwise><i>g</i></xsl:otherwise>
-                    </xsl:choose>                   
-                </xsl:when>
-                <xsl:when test=".='Checked out'">
-                    <xsl:choose>
-                        <xsl:when test="index-of(('u','b','c','d','i'),$ind)>0"><i>u</i><s>vormerkbar</s></xsl:when> <!-- b,c,d siehe oben -->
-                        <xsl:when test="$ind='s'"><i>c</i><s>nicht vormerkbar</s></xsl:when>
-                        <xsl:when test="$ind='e'"><i>e</i><t>vermisst</t></xsl:when>
-                        <xsl:otherwise><i>g</i></xsl:otherwise>
-                    </xsl:choose>  
-                </xsl:when>
-                <xsl:when test="(.='Claimed returned') or (.='Declared lost')"><i>g</i></xsl:when> <!-- Nicht verfügbar -->
-                <xsl:when test=".='In process'">
-                    <xsl:choose>
-                        <xsl:when test="index-of(('u','b','c','d','i'),$ind)>0"><i>u</i><s>vormerkbar</s></xsl:when> <!-- b,c,d siehe oben -->
-                        <xsl:when test="$ind='e'"><i>e</i><t>vermisst</t></xsl:when>
-                        <xsl:otherwise><i>g</i></xsl:otherwise>
-                    </xsl:choose>       
-                </xsl:when>
-                <xsl:when test=".='In process - not requestable'"><i>g</i></xsl:when> <!-- Nicht verfügbar -->
-                <xsl:when test=".='Intellectual item'"><i> </i></xsl:when> <!-- bei ZS: Link zur Bestellung -->
-                <xsl:when test=".='In transit'">
-                    <xsl:choose>
-                        <xsl:when test="index-of(('u','b','c','d'),$ind)>0"><i>u</i><s>vormerkbar</s></xsl:when> <!-- b,c,d siehe oben -->
-                        <xsl:when test="$ind='i'"><i>i</i><s>vormerkbar</s><t>nur für den Lesesaal</t></xsl:when>
-                        <xsl:when test="$ind='s'"><i>c</i><s>nicht vormerkbar</s></xsl:when>
-                        <xsl:when test="$ind='e'"><i>e</i><t>vermisst</t></xsl:when>
-                        <xsl:otherwise><i>g</i></xsl:otherwise>
-                    </xsl:choose>  
-                </xsl:when>
-                <xsl:when test=".='Long missing'"><i>e</i><t>vermisst</t></xsl:when>
-                <xsl:when test=".='Lost and paid'"><i>g</i></xsl:when>
-                <xsl:when test=".='Missing'"></xsl:when>
-                <xsl:when test=".='On order'"></xsl:when>
-                <xsl:when test=".='Order closed'"></xsl:when>
-                <xsl:when test=".='Paged'">
-                    <xsl:choose>
-                        <xsl:when test="index-of(('u','b','c','d'),$ind)>0"><i>u</i><s>vormerkbar</s></xsl:when> <!-- b,c,d siehe oben -->
-                        <xsl:when test="$ind='i'"><i>i</i><s>vormerkbar</s><t>nur für den Lesesaal</t></xsl:when>
-                        <xsl:when test="$ind='s'"><i>c</i><s>nicht vormerkbar</s></xsl:when>
-                        <xsl:when test="$ind='e'"><i>e</i><t>vermisst</t></xsl:when>
-                        <xsl:otherwise><i>g</i></xsl:otherwise>
-                    </xsl:choose>  
-                </xsl:when>
-                <xsl:when test="(.='Restricted') or (.='Unavailable') or (.='Unknown') or (.='Withdrawn')"><i>g</i></xsl:when>
-            </xsl:choose>
+            <xsl:variable name="emulator">
+                <status name='Available'>                    <b>UF</b><c>UF</c><d>UF</d><e>EM</e><i>IF</i><s>SX</s><u>UF</u> </status> <!-- b,c,d ist in Mainz ausleihbar -->
+                <status name='Awaiting pickup'>              <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
+                <status name='Checked out'>                  <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
+                <status name='Claimed returned'/> 
+                <status name='Declared lost'/>   
+                <status name='In process'>                   <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
+                <status name='In process - not requestable'> <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
+                <status name='Intellectual item'>            <b>IL</b><c>IL</c><d>IL</d><e>IL</e><i>IL</i><s>IL</s><u>IL</u> </status> <!-- bei ZS: Link zur Bestellung -->
+                <status name='In transit'>                   <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
+                <status name='Long missing'>                 <b>EM</b><c>EM</c><d>EM</d><e>EM</e><i>EM</i><s>EM</s><u>EM</u> </status>
+                <status name='Lost and paid'/>    
+                <status name='Missing'>                      <b>EM</b><c>EM</c><d>EM</d><e>EM</e><i>EM</i><s>EM</s><u>EM</u> </status>
+                <status name='On order'>                     <b>XO</b><c>XO</c><d>XO</d><e>XO</e><i>XO</i><s>XO</s><u>XO</u> </status>
+                <status name='Order closed'/> <!-- Status kann in Hebis und GBV nicht erreicht werden -->                  
+                <status name='Paged'>                        <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
+                <status name='Restricted'/>
+                <status name='Unavailable'/>
+                <status name='Unknown'/>
+                <status name='Withdrawn'/>
+            </xsl:variable>
+            <xsl:variable name="cases">
+                <UF><i>u</i><s>verfuegbar</s></UF> <!--  -->
+                <IF><i>i</i><s>verfuegbar</s></IF> <!--  -->
+                <SX><i>s</i></SX>
+                <EM><i>e</i><t>vermisst</t></EM><!-- tbd Sprachsteuerung -->
+                <UV><i>u</i><s>vormerkbar</s></UV> <!--  -->
+                <IV><i>i</i><s>vormerkbar</s><t>nur für den Lesesaal</t></IV> <!--  -->
+                <CN><i>c</i><s>nicht vormerkbar</s></CN> <!--  -->
+                <XO><i>a</i><s>gesperrt</s></XO> <!--  -->
+                
+                <IL><i> </i></IL> <!-- Intelectual Item -->
+                <XX><i>g</i></XX> <!-- XX=Default: Nicht verfügbar -->
+            </xsl:variable>
+            <xsl:copy-of select="$cases/*[name()=($emulator/status[@name=current()]/*[name()=$ind],'XX')[1]]/*"/>
         </xsl:variable>
-       
+
         <xsl:if test="$result/s">
             <xsl:call-template name="DAIA">
                 <xsl:with-param name="tag">aus_status</xsl:with-param>
