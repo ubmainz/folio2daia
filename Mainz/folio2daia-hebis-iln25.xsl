@@ -5,12 +5,13 @@
     <xsl:param name="lang" select="(//lang,'de')[1]"/>
     <!-- Default Standort-URL -->
     <xsl:param name="locationurl" select="'https://www.ub.uni-mainz.de/de/standorte'"/>
-    <!-- Tabelle bbtabelle mit Infomationen zu den Standorten:
+    <!-- Tabelle "bbtabelle" mit allen Infomationen zu den Standorten:
          c : [pflicht] Standort-Code wie er in effectiveLocation/discoveryDisplayName übergeben wird, gleichzeitig Sortierkriterium
          n : [pflicht] Name des Standorts wir er ausgegeben werden soll, ggf. sprachabhängig <n xml:lang="de">...</n><n xml:lang="en">...</n>
          ind : [optional] Ausleihindikator, überschreibt für diesen Standort den Wert, der aus FOLIO kommt
-         url : [optional] URL für den Nutzer mit Infomationen für den Nutzer (z.B. Normdatensatz), default siehe oben -->
-    <xsl:variable name="bbtabelle"> <!-- Sprachvarianten, z.B. <n xml:lang="de">...</n><n xml:lang="en">...</n> -->
+         url : [optional] URL für den Nutzer mit Infomationen für den Nutzer (z.B. Normdatensatz), default siehe oben
+         campus : [optional] Campus Germersheim ("cg") oder Campus Mainz ("cm") für campusübergreifende Ausleihe UB Mainz -->
+    <xsl:variable name="bbtabelle">
         <e><c>25/000-000-10-ZBFREI</c><n xml:lang="de">Zentralbibliothek, Bücherturm</n><n xml:lang="en">Central Library, Book Tower</n></e>  
         <e><c>25/000-000-12-ZBLBS</c><n xml:lang="de">Zentralbibliothek, Lehrbuchsammlung</n></e>
         <e><c>25/000-000-14-ZBLS</c><n xml:lang="de">Zentralbibliothek,Lesesaal</n></e>
@@ -68,7 +69,7 @@
         <e><c>25/018-018-12-RWLBS</c><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Lernzentrum</n></e>
         <e><c>25/018-018-14-RWMAG</c><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Magazin</n></e>
         <e><c>25/018-020-RWFAK</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Lehrstühle</n></e>
-        <e><c>25/019-019-10-GHFREI</c><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand</n></e>
+        <e><c>25/019-019-10-GHFREI</c><campus>cg</campus><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand</n></e>
         <e><c>25/019-019-12-GHLBS</c><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lehrbuchsammlung</n></e>
         <e><c>25/019-019-14-GHLS</c><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lesesaal</n></e>
         <e><c>25/019-019-16-GHMAG</c><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Magazin</n></e>
@@ -114,7 +115,7 @@
         
     </xsl:template>
         
-     <xsl:template match="hrid"> <!-- wird sowohl aus dem Holding als auch aus dem Item gebutzt -->
+     <xsl:template match="hrid"> <!-- wird sowohl aus dem Holding als auch aus dem Item genutzt -->
          <xsl:call-template name="DAIA">
              <xsl:with-param name="tag">epn</xsl:with-param>
              <xsl:with-param name="value" select="concat(ancestor::holding/hrid,'-',.)"/>
@@ -165,7 +166,7 @@
                 <status name='Declared lost'/>   
                 <status name='In process'>                   <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
                 <status name='In process - not requestable'> <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
-                <status name='Intellectual item'>            <b>IL</b><c>IL</c><d>IL</d><e>IL</e><i>IL</i><s>IL</s><u>IL</u> </status> <!-- bei ZS: Link zur Bestellung -->
+                <status name='Intellectual item'>            <b>IL</b><c>IL</c><d>IL</d><e>IL</e><i>IL</i><s>IL</s><u>IL</u> </status>
                 <status name='In transit'>                   <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
                 <status name='Long missing'>                 <b>EM</b><c>EM</c><d>EM</d><e>EM</e><i>EM</i><s>EM</s><u>EM</u> </status>
                 <status name='Lost and paid'/>    
@@ -178,8 +179,13 @@
                 <status name='Unknown'/>
                 <status name='Withdrawn'/>
             </xsl:variable>
+            <xsl:variable name="campusubmainz">
+                <hinweis campus="cg"><t xml:lang="de">Germersheim: ohne Bestellung am Regal holen</t><t xml:lang="en">Germersheim: ...</t></hinweis>
+                <hinweis campus="cm"><t xml:lang="de">Mainz: ohne Bestellung am Regal holen</t><t xml:lang="en">Mainz: ...</t></hinweis>
+            </xsl:variable>
+            <xsl:message><xsl:copy-of select="$campusubmainz/hinweis[@campus=$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/campus]/*"></xsl:copy-of></xsl:message>
             <xsl:variable name="cases">
-                <UF><i>u</i><s>verfuegbar</s></UF> <!-- bestellbar -->
+                <UF><i>u</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis[@campus=$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/campus]/*"/></UF> <!-- bestellbar -->
                 <IF><i>i</i><s>verfuegbar</s><t xml:lang="de">nur für den Lesesaal</t><t xml:lang="en">reading room only</t></IF> <!-- nur für den Lesesaal bestellbar -->
                 <SX><i>s</i><t xml:lang="de">nicht ausleihbar</t><t xml:lang="en">not available for loan</t></SX> <!-- Päsenzbestand -->
                 <EM><i>e</i><t xml:lang="de">vermisst</t><t xml:lang="en">missing</t></EM> <!-- vermisst -->
@@ -188,7 +194,7 @@
                 <CN><i>c</i><s>nicht vormerkbar</s></CN> <!-- Präsenzbestand -->
                 <XO><i>a</i><s>gesperrt</s></XO> <!--  -->
                 
-                <IL><i> </i></IL> <!-- Intelectual Item -->
+                <IL><i> </i></IL> <!-- Intelectual Item, Link zur Bestellung wird aus Discovery-System getriggert -->
                 <XX><i>g</i></XX> <!-- XX=Default: Nicht verfügbar -->
             </xsl:variable>
             <xsl:copy-of select="$cases/*[name()=($emulator/status[@name=current()]/*[name()=$ind],'XX')[1]]/*"/>

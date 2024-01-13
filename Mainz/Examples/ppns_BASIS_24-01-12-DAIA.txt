@@ -443,6 +443,7 @@ DAIAinfo epn 1010451073-1010451073-1 ofniAIAD
 DAIAinfo sig LIT-AM 01.20 Berco 2-4 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ofniAIAD
+DAIAinfo aus_text Germersheim: ohne Bestellung am Regal holen ofniAIAD
 DAIAinfo abt_num 25/019-019-10-GHFREI ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -557,6 +558,7 @@ DAIAinfo epn 1010522914-1010522914-1 ofniAIAD
 DAIAinfo sig KUL-ALLG 02.50 Kultu 4 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ofniAIAD
+DAIAinfo aus_text Germersheim: ohne Bestellung am Regal holen ofniAIAD
 DAIAinfo abt_num 25/019-019-10-GHFREI ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -581,6 +583,7 @@ DAIAinfo epn 1010558935-1010558935-1 ofniAIAD
 DAIAinfo sig GEN-AM 62.65 Fensk 1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ofniAIAD
+DAIAinfo aus_text Germersheim: ohne Bestellung am Regal holen ofniAIAD
 DAIAinfo abt_num 25/019-019-10-GHFREI ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -681,6 +684,7 @@ DAIAinfo epn 1010637142-1010637142-1 ofniAIAD
 DAIAinfo sig HIS-PL 10.10 Borod 1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ofniAIAD
+DAIAinfo aus_text Germersheim: ohne Bestellung am Regal holen ofniAIAD
 DAIAinfo abt_num 25/019-019-10-GHFREI ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -950,6 +954,7 @@ DAIAinfo epn 1116531178-1116531178-1 ofniAIAD
 DAIAinfo sig LIT-AR 10:1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ofniAIAD
+DAIAinfo aus_text Germersheim: ohne Bestellung am Regal holen ofniAIAD
 DAIAinfo abt_num 25/019-019-10-GHFREI ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
