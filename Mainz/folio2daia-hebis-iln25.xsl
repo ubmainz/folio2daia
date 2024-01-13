@@ -183,7 +183,6 @@
                 <hinweis campus="cg"><t xml:lang="de">Germersheim: ohne Bestellung am Regal holen</t><t xml:lang="en">Germersheim: ...</t></hinweis>
                 <hinweis campus="cm"><t xml:lang="de">Mainz: ohne Bestellung am Regal holen</t><t xml:lang="en">Mainz: ...</t></hinweis>
             </xsl:variable>
-            <xsl:message><xsl:copy-of select="$campusubmainz/hinweis[@campus=$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/campus]/*"></xsl:copy-of></xsl:message>
             <xsl:variable name="cases">
                 <UF><i>u</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis[@campus=$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/campus]/*"/></UF> <!-- bestellbar -->
                 <IF><i>i</i><s>verfuegbar</s><t xml:lang="de">nur für den Lesesaal</t><t xml:lang="en">reading room only</t></IF> <!-- nur für den Lesesaal bestellbar -->
