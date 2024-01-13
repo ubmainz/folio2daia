@@ -256,6 +256,7 @@ DAIAinfo epn 127646841-127646841-1 ofniAIAD
 DAIAinfo sig RARA ZD 759-236 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind i ofniAIAD
+DAIAinfo aus_text nur für den Lesesaal ofniAIAD
 DAIAinfo abt_num 25/000-000-18-ZBRARA ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Rara ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -837,6 +838,7 @@ DAIAinfo epn 101238604X-101238604X-1 ofniAIAD
 DAIAinfo sig 073 Av 2016/2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind i ofniAIAD
+DAIAinfo aus_text nur für den Lesesaal ofniAIAD
 DAIAinfo abt_num 25/004-127-PHMAG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -1094,6 +1096,7 @@ DAIAinfo epn 1234193264-1234193264-1 ofniAIAD
 DAIAinfo sig 092 AaM 6 / 54,2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind i ofniAIAD
+DAIAinfo aus_text nur für den Lesesaal ofniAIAD
 DAIAinfo abt_num 25/004-127-PHMAG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
