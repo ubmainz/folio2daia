@@ -121,9 +121,7 @@ DAIAinfo aus_ind u ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo aus_ind g ofniAIAD
 DAIAinfo aus_datum 2024-10-25T21:59:59.000+00:00 ofniAIAD
-DAIAinfo aus_ind g ofniAIAD
 DAIAinfo epn 12514248X-it00000000063 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -431,9 +429,7 @@ DAIAinfo aus_ind u ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo aus_ind g ofniAIAD
 DAIAinfo aus_datum 2024-10-25T21:59:59.000+00:00 ofniAIAD
-DAIAinfo aus_ind g ofniAIAD
 DAIAinfo standort <b>Standort: </b>Amerikanistik ofniAIAD
 DAIAinfo epn 1010451073-1010451073-1 ofniAIAD
 DAIAinfo sig LIT-AM 01.20 Berco 2-4 ofniAIAD

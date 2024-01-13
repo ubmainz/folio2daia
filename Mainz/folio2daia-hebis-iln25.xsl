@@ -102,7 +102,7 @@
             <xsl:for-each select="items/item">
                 <xsl:sort select="chronology" order="descending"/>
                 <xsl:sort select="hrid" order="ascending"/>
-                <xsl:apply-templates select=".//*"/>
+                <xsl:apply-templates select="./*|./*/*"/>
                 <xsl:apply-templates select="../../notes/note"/>
             </xsl:for-each>
         </xsl:for-each>
