@@ -159,7 +159,9 @@
         <xsl:variable select="substring(($bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/ind,../../permanentLoanType/name)[1],1,1)" name="ind"/> <!-- + temp loan type -->
         <xsl:variable name="result">
             <xsl:variable name="emulator">
+                <status name='Aged to lost'/>
                 <status name='Available'>                    <b>UF</b><c>UF</c><d>UF</d><e>EM</e><i>IF</i><s>SX</s><u>UF</u> </status> <!-- b,c,d ist in Mainz ausleihbar -->
+                <status name='Awaiting delivery'/> <!-- wird in Mainz nicht benutzt -->
                 <status name='Awaiting pickup'>              <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
                 <status name='Checked out'>                  <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
                 <status name='Claimed returned'/> 
@@ -193,26 +195,33 @@
                 <CN><i>c</i><s>nicht vormerkbar</s></CN> <!-- Präsenzbestand -->
                 <XO><i>a</i><s>gesperrt</s></XO> <!--  -->
                 
-                <IL><i> </i></IL> <!-- Intelectual Item, Link zur Bestellung wird aus Discovery-System getriggert -->
+                <IL><h>https://localhost</h></IL> <!-- Intellectual Item, Link muss noch festgelegt werden -->
                 <XX><i>g</i></XX> <!-- XX=Default: Nicht verfügbar -->
             </xsl:variable>
             <xsl:copy-of select="$cases/*[name()=($emulator/status[@name=current()]/*[name()=$ind],'XX')[1]]/*"/>
         </xsl:variable>
-
         <xsl:if test="$result/s">
             <xsl:call-template name="DAIA">
                 <xsl:with-param name="tag">aus_status</xsl:with-param>
                 <xsl:with-param name="value" select="$result/s"/>
             </xsl:call-template>
         </xsl:if>
-        <xsl:call-template name="DAIA">
-            <xsl:with-param name="tag">aus_ind</xsl:with-param>
-            <xsl:with-param name="value" select="$result/i"/>
-        </xsl:call-template>
+        <xsl:if test="$result/i">
+            <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag">aus_ind</xsl:with-param>
+                <xsl:with-param name="value" select="$result/i"/>
+            </xsl:call-template>
+        </xsl:if>
         <xsl:if test="$result/t">
             <xsl:call-template name="DAIA">
                 <xsl:with-param name="tag">aus_text</xsl:with-param>
                 <xsl:with-param name="value" select="$result/t[@xml:lang=$lang]"/>
+            </xsl:call-template>
+        </xsl:if>
+        <xsl:if test="$result/h">
+            <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag">aus_link</xsl:with-param>
+                <xsl:with-param name="value" select="$result/h"/>
             </xsl:call-template>
         </xsl:if>
     </xsl:template>
