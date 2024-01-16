@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0">
     <xsl:output method="text"/>
     <!-- Sprache, default ist Deutsch -->
-    <xsl:param name="lang" select="(//lang,'de')[1]"/>
+    <xsl:param name="language" select="(//lang,'de')[1]"/>
     <!-- Default Standort-URL -->
     <xsl:param name="locationurl" select="'https://www.ub.uni-mainz.de/de/standorte'"/>
     <!-- Tabelle "bbtabelle" mit allen Infomationen zu den Standorten:
@@ -92,13 +92,20 @@
         <e><c>25/999-124-FBGESANG</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Gesangbucharchiv</n></e>
     </xsl:variable>
 
+    <xsl:template name="selectlanguage">
+        <xsl:param name="fields"/>
+        <xsl:choose>
+            <xsl:when test="$fields[@xml:lang=$language]"><xsl:value-of select="$fields[@xml:lang=$language]"/></xsl:when>
+            <xsl:otherwise><xsl:value-of select="$fields[1]"/></xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
     <xsl:template match="/">
         <xsl:apply-templates select="//instanceData"/>
     </xsl:template>
 
     <xsl:template match="instanceData">
         <xsl:text>&#10;</xsl:text>
-        
         <xsl:for-each select="holdings/holding[holdingsTypeId='996f93e2-5b5e-4cf2-9168-33ced1f95eed']"> <!-- für elektronische Bestände -->
             <!-- evtl. sortieren <xsl:sort select="..." order="ascending" lang="de"/> -->
             <xsl:apply-templates select=".//*"/> 
@@ -112,10 +119,9 @@
                 <xsl:apply-templates select="../../notes/note"/>
             </xsl:for-each>
         </xsl:for-each>
-        
     </xsl:template>
         
-     <xsl:template match="hrid"> <!-- wird sowohl aus dem Holding als auch aus dem Item genutzt -->
+    <xsl:template match="hrid"> <!-- wird sowohl aus dem Holding als auch aus dem Item genutzt -->
          <xsl:call-template name="DAIA">
              <xsl:with-param name="tag">epn</xsl:with-param>
              <xsl:with-param name="value" select="concat(ancestor::holding/hrid,'-',.)"/>
@@ -134,7 +140,9 @@
         </xsl:call-template>
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">abt_name</xsl:with-param>
-            <xsl:with-param name="value" select="$bbtabelle/e[c=current()]/n[@xml:lang=$lang]"/>
+            <xsl:with-param name="value">
+                <xsl:call-template name="selectlanguage"><xsl:with-param name="fields" select="$bbtabelle/e[c=current()]/n"/></xsl:call-template>
+            </xsl:with-param>
         </xsl:call-template>
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">abt_link</xsl:with-param>
@@ -215,7 +223,9 @@
         <xsl:if test="$result/t">
             <xsl:call-template name="DAIA">
                 <xsl:with-param name="tag">aus_text</xsl:with-param>
-                <xsl:with-param name="value" select="$result/t[@xml:lang=$lang]"/>
+                <xsl:with-param name="value">
+                    <xsl:call-template name="selectlanguage"><xsl:with-param name="fields" select="$result/t"/></xsl:call-template>
+                </xsl:with-param>
             </xsl:call-template>
         </xsl:if>
         <xsl:if test="$result/h">
