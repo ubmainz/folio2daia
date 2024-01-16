@@ -8,6 +8,7 @@
     <!-- Tabelle "bbtabelle" mit allen Infomationen zu den Standorten:
          c : [pflicht] Standort-Code wie er in effectiveLocation/discoveryDisplayName übergeben wird, gleichzeitig Sortierkriterium
          n : [pflicht] Name des Standorts wir er ausgegeben werden soll, ggf. sprachabhängig <n xml:lang="de">...</n><n xml:lang="en">...</n>
+             (Bei Fehlen des Sprachtextes wird der Text der ersten Sprache verwendet.)
          ind : [optional] Ausleihindikator, überschreibt für diesen Standort den Wert, der aus FOLIO kommt
          url : [optional] URL für den Nutzer mit Infomationen für den Nutzer (z.B. Normdatensatz), default siehe oben
          campus : [optional] Campus Germersheim ("cg") oder Campus Mainz ("cm") für campusübergreifende Ausleihe UB Mainz -->
@@ -193,6 +194,12 @@
                 <hinweis campus="cg"><t xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Germersheim: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Mainz: bestellen</t><t xml:lang="en">Germersheim: ...</t></hinweis>
                 <hinweis campus="cm"><t xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Mainz: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Germersheim: bestellen</t><t xml:lang="en">Mainz: ...</t></hinweis>
             </xsl:variable>
+            <!-- Liste der zu unterscheidenden Fälle im Discovery-System
+                 Code aus zwei Großbuchstaben: Zuordnungscode für diesen Fall
+                 i : Ausleihindikator, der weitergereicht wird
+                 s : Status, der weitergereicht wird
+                 t : Informationstext zu diesem Fall (Bei Fehlen des Sprachtextes wird der Text der ersten vorhandenen Sprache verwendet.)                 
+                 h : Link, wie er hinter dem Bestellbutton hinterlegt werden soll -->
             <xsl:variable name="cases">
                 <UF><i>u</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis[@campus=$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/campus]/*"/></UF> <!-- bestellbar -->
                 <IF><i>i</i><s>verfuegbar</s><t xml:lang="de">nur für den Lesesaal</t><t xml:lang="en">reading room only</t></IF> <!-- nur für den Lesesaal bestellbar -->
@@ -202,7 +209,6 @@
                 <IV><i>i</i><s>vormerkbar</s><t xml:lang="de">nur für den Lesesaal</t><t xml:lang="en">reading room only</t></IV> <!-- nur für den Lesesaal vormerkbar -->
                 <CN><i>c</i><s>nicht vormerkbar</s></CN> <!-- Präsenzbestand -->
                 <XO><i>a</i><s>gesperrt</s></XO> <!--  -->
-                
                 <IL><h>https://localhost</h></IL> <!-- Intellectual Item, Link muss noch festgelegt werden -->
                 <XX><i>g</i></XX> <!-- XX=Default: Nicht verfügbar -->
             </xsl:variable>
