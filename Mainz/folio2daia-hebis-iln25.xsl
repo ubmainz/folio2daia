@@ -177,7 +177,7 @@
                 <status name='Declared lost'/>   
                 <status name='In process'>                   <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
                 <status name='In process - not requestable'> <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
-                <status name='Intellectual item'>            <b>IL</b><c>IL</c><d>IL</d><e>IL</e><i>IL</i><s>IL</s><u>IL</u> </status>
+                <status name='Intellectual item'>            <b>UI</b><c>UI</c><d>UI</d><e>EM</e><i>II</i><s>SX</s><u>UI</u> </status>
                 <status name='In transit'>                   <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
                 <status name='Long missing'>                 <b>EM</b><c>EM</c><d>EM</d><e>EM</e><i>EM</i><s>EM</s><u>EM</u> </status>
                 <status name='Lost and paid'/>    
@@ -209,7 +209,9 @@
                 <IV><i>i</i><s>vormerkbar</s><t xml:lang="de">nur für den Lesesaal</t><t xml:lang="en">reading room only</t></IV> <!-- nur für den Lesesaal vormerkbar -->
                 <CN><i>c</i><s>nicht vormerkbar</s></CN> <!-- Präsenzbestand -->
                 <XO><i>a</i><s>gesperrt</s></XO> <!--  -->
-                <IL><h>https://localhost</h></IL> <!-- Intellectual Item, Link muss noch festgelegt werden -->
+                <UI><i>u</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis[@campus=$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/campus]/*"/>
+                    <h>localhost:5000/?hrid=<xsl:value-of select="../../hrid"/></h></UI> <!-- Intellectual Item, lokaler link nur zum Testen -->
+                <II><i>i</i><s>verfuegbar</s><t xml:lang="de">nur für den Lesesaal</t><t xml:lang="en">reading room only</t><h>localhost:5000/?hrid=<xsl:value-of select="../../hrid"/></h></II>
                 <XX><i>g</i></XX> <!-- XX=Default: Nicht verfügbar -->
             </xsl:variable>
             <xsl:copy-of select="$cases/*[name()=($emulator/status[@name=current()]/*[name()=$ind],'XX')[1]]/*"/>

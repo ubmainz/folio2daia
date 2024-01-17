@@ -86,19 +86,28 @@ DAIAinfo aus_text BASIS DAIA ofniAIAD
 
 DAIAinfo epn 070019789-070019789-1 ofniAIAD
 DAIAinfo sig ZG 831 ofniAIAD
-DAIAinfo aus_link https://localhost ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind i ofniAIAD
+DAIAinfo aus_text nur für den Lesesaal ofniAIAD
+DAIAinfo aus_link localhost:5000/?hrid=070019789-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 125142471-125142471-1 ofniAIAD
 DAIAinfo sig ZG 831 ofniAIAD
-DAIAinfo aus_link https://localhost ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind i ofniAIAD
+DAIAinfo aus_text nur für den Lesesaal ofniAIAD
+DAIAinfo aus_link localhost:5000/?hrid=125142471-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 125142463-125142463-1 ofniAIAD
 DAIAinfo sig ZG 831 ofniAIAD
-DAIAinfo aus_link https://localhost ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind i ofniAIAD
+DAIAinfo aus_text nur für den Lesesaal ofniAIAD
+DAIAinfo aus_link localhost:5000/?hrid=125142463-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -133,19 +142,25 @@ DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 12514248X-12514248X-1 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD
-DAIAinfo aus_link https://localhost ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ofniAIAD
+DAIAinfo aus_link localhost:5000/?hrid=12514248X-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 125142498-125142498-1 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD
-DAIAinfo aus_link https://localhost ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ofniAIAD
+DAIAinfo aus_link localhost:5000/?hrid=125142498-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 074678310-074678310-1 ofniAIAD
 DAIAinfo sig Pc-Pomm. 5 ofniAIAD
-DAIAinfo aus_link https://localhost ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ofniAIAD
+DAIAinfo aus_link localhost:5000/?hrid=074678310-1 ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -153,7 +168,9 @@ DAIAinfo standort <b>Standort: </b>Evangelische Theologie ofniAIAD
 
 DAIAinfo epn 070304823-070304823-1 ofniAIAD
 DAIAinfo sig 4° ZA 363 ofniAIAD
-DAIAinfo aus_link https://localhost ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ofniAIAD
+DAIAinfo aus_link localhost:5000/?hrid=070304823-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -162,7 +179,10 @@ DAIAinfo aus_text BASIS ofniAIAD
 
 DAIAinfo epn 577916610-577916610-1 ofniAIAD
 DAIAinfo sig Z 440 ofniAIAD
-DAIAinfo aus_link https://localhost ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind i ofniAIAD
+DAIAinfo aus_text nur für den Lesesaal ofniAIAD
+DAIAinfo aus_link localhost:5000/?hrid=577916610-1 ofniAIAD
 DAIAinfo abt_num 25/019-019-16-GHMAG ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -187,55 +207,70 @@ DAIAinfo aus_text BASIS DAIA ofniAIAD
 
 DAIAinfo epn 142907898-142907898-1 ofniAIAD
 DAIAinfo sig 29 998 ofniAIAD
-DAIAinfo aus_link https://localhost ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ofniAIAD
+DAIAinfo aus_link localhost:5000/?hrid=142907898-1 ofniAIAD
 DAIAinfo abt_num 25/002-002-10-GFGPÄD ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Erziehungswissenschaft ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 127443576-127443576-1 ofniAIAD
 DAIAinfo sig 92 FOR ofniAIAD
-DAIAinfo aus_link https://localhost ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ofniAIAD
+DAIAinfo aus_link localhost:5000/?hrid=127443576-1 ofniAIAD
 DAIAinfo abt_num 25/002-002-20-GFGPUB ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Publizistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 138047324-138047324-1 ofniAIAD
 DAIAinfo sig A h 18 ofniAIAD
-DAIAinfo aus_link https://localhost ofniAIAD
+DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/002-079-GFGKUN ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Kunstgeschichte ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 544101928-544101928-1 ofniAIAD
 DAIAinfo sig A 10.23 ofniAIAD
-DAIAinfo aus_link https://localhost ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ofniAIAD
+DAIAinfo aus_link localhost:5000/?hrid=544101928-1 ofniAIAD
 DAIAinfo abt_num 25/002-113-GFGSPO ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Sportwissenschaften ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 15045659X-15045659X-1 ofniAIAD
 DAIAinfo sig X R/I F 1 1999/2000 ofniAIAD
-DAIAinfo aus_link https://localhost ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ofniAIAD
+DAIAinfo aus_link localhost:5000/?hrid=15045659X-1 ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 154871745-154871745-1 ofniAIAD
 DAIAinfo sig I-3 FOR-1 ofniAIAD
-DAIAinfo aus_link https://localhost ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ofniAIAD
+DAIAinfo aus_link localhost:5000/?hrid=154871745-1 ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 144585952-144585952-1 ofniAIAD
 DAIAinfo sig Y 99-0-A15 ofniAIAD
-DAIAinfo aus_link https://localhost ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ofniAIAD
+DAIAinfo aus_link localhost:5000/?hrid=144585952-1 ofniAIAD
 DAIAinfo abt_num 25/004-075-PHSLAV ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Slavistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 169195503-169195503-1 ofniAIAD
 DAIAinfo sig Ab 555 ofniAIAD
-DAIAinfo aus_link https://localhost ofniAIAD
+DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/004-088-PHMNG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Mittlere und neuere Geschichte ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 169195511-169195511-1 ofniAIAD
 DAIAinfo sig Ag 111 ofniAIAD
-DAIAinfo aus_link https://localhost ofniAIAD
+DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/004-090-PHBUW ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Buchwissenschaft ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -599,20 +634,26 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text BASIS DAIA ofniAIAD
 DAIAinfo epn 1009145665-1009145665-1 ofniAIAD
 DAIAinfo sig 4° BF 7592 ofniAIAD
-DAIAinfo aus_link https://localhost ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ofniAIAD
+DAIAinfo aus_link localhost:5000/?hrid=1009145665-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text BASIS DAIA ofniAIAD
 DAIAinfo epn 1176923048-1176923048-1 ofniAIAD
 DAIAinfo sig 4° BG 6401 ofniAIAD
-DAIAinfo aus_link https://localhost ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ofniAIAD
+DAIAinfo aus_link localhost:5000/?hrid=1176923048-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 60030101X-60030101X-1 ofniAIAD
 DAIAinfo sig 28 BOFA 1/2009 ofniAIAD
-DAIAinfo aus_link https://localhost ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ofniAIAD
+DAIAinfo aus_link localhost:5000/?hrid=60030101X-1 ofniAIAD
 DAIAinfo abt_num 25/002-002-22-GFGSOZ ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Soziologie ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
