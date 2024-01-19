@@ -15,12 +15,12 @@
     <xsl:variable name="bbtabelle">
         <e><c>25/000-000-10-ZBFREI</c><n xml:lang="de">Zentralbibliothek, Bücherturm</n><n xml:lang="en">Central Library, Book Tower</n></e>  
         <e><c>25/000-000-12-ZBLBS</c><n xml:lang="de">Zentralbibliothek, Lehrbuchsammlung</n></e>
-        <e><c>25/000-000-14-ZBLS</c><n xml:lang="de">Zentralbibliothek,Lesesaal</n></e>
+        <e><c>25/000-000-14-ZBLS</c><campus>cm</campus><n xml:lang="de">Zentralbibliothek,Lesesaal</n></e>
         <e><c>25/000-000-16-ZBMAG</c><n xml:lang="de">Zentralbibliothek, Magazin</n></e>
         <e><c>25/000-000-18-ZBRARA</c><n xml:lang="de">Zentralbibliothek, Rara</n></e>
         <e><c>25/000-000-20-ZBSEM</c><ind>s Praesenzbestand</ind><n xml:lang="de">Zentralbibliothek, Semesterapparate</n></e>
         <e><c>25/000-000-22-ZBZEB</c><n xml:lang="de">Zentralbibliothek, Zur Erwerbung bestellt</n></e>
-        <e><c>25/002-002-10-GFGPÄD</c><n xml:lang="de">BB Georg Forster-Gebäude, Erziehungswissenschaft</n></e>
+        <e><c>25/002-002-10-GFGPÄD</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Erziehungswissenschaft</n></e>
         <e><c>25/002-002-12-GFGFILM</c><n xml:lang="de">BB Georg Forster-Gebäude, Filmwissenschaft</n></e>
         <e><c>25/002-002-14-GFGJOUR</c><n xml:lang="de">BB Georg Forster-Gebäude, Journalistik</n></e>
         <e><c>25/002-002-16-GFGPOL</c><n xml:lang="de">BB Georg Forster-Gebäude, Politikwissenschaft</n></e>
@@ -164,6 +164,12 @@
         </xsl:call-template>
     </xsl:template>
  
+    <xsl:template match="yearCaption">
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag">zeit_bestand01</xsl:with-param>
+        </xsl:call-template>        
+    </xsl:template>
+
     <xsl:template match="status/name"> <!-- Trigger für Status (als immer eindeutig vorhanden vorausgesetzt) für Status und Ausleihindikator - emuliert LBS -->
         <xsl:variable select="substring(($bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/ind,../../permanentLoanType/name)[1],1,1)" name="ind"/> <!-- + temp loan type -->
         <xsl:variable name="result">
@@ -191,10 +197,10 @@
                 <status name='Withdrawn'/>
             </xsl:variable>
             <xsl:variable name="campusubmainz">
-                <hinweis-u campus="cg"><t xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Germersheim: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Mainz: bestellen</t><t xml:lang="en">Germersheim: ...</t></hinweis-u>
-                <hinweis-u campus="cm"><t xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Mainz: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Germersheim: bestellen</t><t xml:lang="en">Mainz: ...</t></hinweis-u>
-                <hinweis-s campus="cg"><t xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Mainz möglich, bitte wenden Sie sich an die Information</t></hinweis-s>
-                <hinweis-s campus="cm"><t xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, bitte wenden Sie sich an die Information</t></hinweis-s>
+                <hinweis-u campus="cg"><t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Germersheim: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;</t2><t3 xml:lang="de">Mainz: bestellen</t3></hinweis-u> <!-- Z.B. Englisch: <t xml:lang="en">Germersheim: ...</t> -->
+                <hinweis-u campus="cm"><t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Mainz: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;</t2><t3 xml:lang="de">Germersheim: bestellen</t3></hinweis-u>
+                <hinweis-s campus="cg"><t2 xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Mainz möglich, bitte wenden Sie sich an die Information</t2></hinweis-s>
+                <hinweis-s campus="cm"><t2 xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, bitte wenden Sie sich an die Information</t2></hinweis-s>
             </xsl:variable>
             <!-- Liste der zu unterscheidenden Fälle im Discovery-System
                  Code aus zwei Großbuchstaben: Zuordnungscode für diesen Fall
@@ -203,19 +209,19 @@
                  t : Informationstext zu diesem Fall (Bei Fehlen des Sprachtextes wird der Text der ersten vorhandenen Sprache verwendet.)                 
                  h : Link, wie er hinter dem Bestellbutton hinterlegt werden soll -->
             <xsl:variable name="cases">
-                <UF><i>u</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/campus]/*"/></UF> <!-- bestellbar -->
-                <IF><i>i</i><s>verfuegbar</s><t xml:lang="de">nur für den Lesesaal</t><t xml:lang="en">reading room only</t></IF> <!-- nur für den Lesesaal bestellbar -->
-                <SX><i>s</i><t xml:lang="de">nicht ausleihbar</t><t xml:lang="en">not available for loan</t>
+                <UF><i>u ausleihbar</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/campus]/*"/></UF> <!-- bestellbar -->
+                <IF><i>i Lesesaal</i><s>verfuegbar</s><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1></IF> <!-- nur für den Lesesaal bestellbar -->
+                <SX><i>s Praesenzbestand</i><t1 xml:lang="de">nicht ausleihbar</t1><t1 xml:lang="en">not available for loan</t1>
                     <xsl:copy-of select="$campusubmainz/hinweis-s[@campus=$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/campus]/*"/></SX> <!-- Päsenzbestand -->
-                <EM><i>e</i><t xml:lang="de">vermisst</t><t xml:lang="en">missing</t></EM> <!-- vermisst -->
-                <UV><i>u</i><s>vormerkbar</s></UV> <!-- vormerkbar -->
-                <IV><i>i</i><s>vormerkbar</s><t xml:lang="de">nur für den Lesesaal</t><t xml:lang="en">reading room only</t></IV> <!-- nur für den Lesesaal vormerkbar -->
+                <EM><i>e vermisst</i><t1 xml:lang="de">vermisst</t1><t1 xml:lang="en">missing</t1><t2 xml:lang="de">nicht ausleihbar</t2><t2 xml:lang="en">not available for loan</t2></EM> <!-- vermisst -->
+                <UV><i>u ausleihbar</i><s>vormerkbar</s></UV> <!-- vormerkbar -->
+                <IV><i>i Lesesaal</i><s>vormerkbar</s><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1></IV> <!-- nur für den Lesesaal vormerkbar -->
                 <CN><i>c</i><s>nicht vormerkbar</s></CN> <!-- Präsenzbestand -->
                 <XO><i>a</i><s>gesperrt</s></XO> <!--  -->
-                <UI><i>u</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/campus]/*"/>
+                <UI><i>u ausleihbar</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/campus]/*"/>
                     <h>localhost:5000/?hrid=<xsl:value-of select="../../hrid"/></h></UI> <!-- Intellectual Item, lokaler link nur zum Testen -->
-                <II><i>i</i><s>verfuegbar</s><t xml:lang="de">nur für den Lesesaal</t><t xml:lang="en">reading room only</t><h>localhost:5000/?hrid=<xsl:value-of select="../../hrid"/></h></II>
-                <XX><i>g</i></XX> <!-- XX=Default: Nicht verfügbar -->
+                <II><i>i Lesesaal</i><s>verfuegbar</s><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1><h>localhost:5000/?hrid=<xsl:value-of select="../../hrid"/></h></II>
+                <XX><i>g nicht_ausleihbar</i></XX> <!-- XX=Default: Nicht verfügbar -->
             </xsl:variable>
             <xsl:copy-of select="$cases/*[name()=($emulator/status[@name=current()]/*[name()=$ind],'XX')[1]]/*"/>
         </xsl:variable>
@@ -231,11 +237,27 @@
                 <xsl:with-param name="value" select="$result/i"/>
             </xsl:call-template>
         </xsl:if>
-        <xsl:if test="$result/t">
+        <xsl:if test="$result/t1">
             <xsl:call-template name="DAIA">
                 <xsl:with-param name="tag">aus_text</xsl:with-param>
                 <xsl:with-param name="value">
-                    <xsl:call-template name="selectlanguage"><xsl:with-param name="fields" select="$result/t"/></xsl:call-template>
+                    <xsl:call-template name="selectlanguage"><xsl:with-param name="fields" select="$result/t1"/></xsl:call-template>
+                </xsl:with-param>
+            </xsl:call-template>
+        </xsl:if>
+        <xsl:if test="$result/t2">
+            <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag">aus_text</xsl:with-param>
+                <xsl:with-param name="value">
+                    <xsl:call-template name="selectlanguage"><xsl:with-param name="fields" select="$result/t2"/></xsl:call-template>
+                </xsl:with-param>
+            </xsl:call-template>
+        </xsl:if>
+        <xsl:if test="$result/t3">
+            <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag">aus_text</xsl:with-param>
+                <xsl:with-param name="value">
+                    <xsl:call-template name="selectlanguage"><xsl:with-param name="fields" select="$result/t3"/></xsl:call-template>
                 </xsl:with-param>
             </xsl:call-template>
         </xsl:if>
