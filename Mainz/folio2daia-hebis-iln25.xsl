@@ -191,8 +191,10 @@
                 <status name='Withdrawn'/>
             </xsl:variable>
             <xsl:variable name="campusubmainz">
-                <hinweis campus="cg"><t xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Germersheim: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Mainz: bestellen</t><t xml:lang="en">Germersheim: ...</t></hinweis>
-                <hinweis campus="cm"><t xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Mainz: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Germersheim: bestellen</t><t xml:lang="en">Mainz: ...</t></hinweis>
+                <hinweis-u campus="cg"><t xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Germersheim: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Mainz: bestellen</t><t xml:lang="en">Germersheim: ...</t></hinweis-u>
+                <hinweis-u campus="cm"><t xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Mainz: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Germersheim: bestellen</t><t xml:lang="en">Mainz: ...</t></hinweis-u>
+                <hinweis-s campus="cg"><t xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Mainz möglich, bitte wenden Sie sich an die Information</t></hinweis-s>
+                <hinweis-s campus="cm"><t xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, bitte wenden Sie sich an die Information</t></hinweis-s>
             </xsl:variable>
             <!-- Liste der zu unterscheidenden Fälle im Discovery-System
                  Code aus zwei Großbuchstaben: Zuordnungscode für diesen Fall
@@ -201,15 +203,16 @@
                  t : Informationstext zu diesem Fall (Bei Fehlen des Sprachtextes wird der Text der ersten vorhandenen Sprache verwendet.)                 
                  h : Link, wie er hinter dem Bestellbutton hinterlegt werden soll -->
             <xsl:variable name="cases">
-                <UF><i>u</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis[@campus=$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/campus]/*"/></UF> <!-- bestellbar -->
+                <UF><i>u</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/campus]/*"/></UF> <!-- bestellbar -->
                 <IF><i>i</i><s>verfuegbar</s><t xml:lang="de">nur für den Lesesaal</t><t xml:lang="en">reading room only</t></IF> <!-- nur für den Lesesaal bestellbar -->
-                <SX><i>s</i><t xml:lang="de">nicht ausleihbar</t><t xml:lang="en">not available for loan</t></SX> <!-- Päsenzbestand -->
+                <SX><i>s</i><t xml:lang="de">nicht ausleihbar</t><t xml:lang="en">not available for loan</t>
+                    <xsl:copy-of select="$campusubmainz/hinweis-s[@campus=$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/campus]/*"/></SX> <!-- Päsenzbestand -->
                 <EM><i>e</i><t xml:lang="de">vermisst</t><t xml:lang="en">missing</t></EM> <!-- vermisst -->
                 <UV><i>u</i><s>vormerkbar</s></UV> <!-- vormerkbar -->
                 <IV><i>i</i><s>vormerkbar</s><t xml:lang="de">nur für den Lesesaal</t><t xml:lang="en">reading room only</t></IV> <!-- nur für den Lesesaal vormerkbar -->
                 <CN><i>c</i><s>nicht vormerkbar</s></CN> <!-- Präsenzbestand -->
                 <XO><i>a</i><s>gesperrt</s></XO> <!--  -->
-                <UI><i>u</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis[@campus=$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/campus]/*"/>
+                <UI><i>u</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/campus]/*"/>
                     <h>localhost:5000/?hrid=<xsl:value-of select="../../hrid"/></h></UI> <!-- Intellectual Item, lokaler link nur zum Testen -->
                 <II><i>i</i><s>verfuegbar</s><t xml:lang="de">nur für den Lesesaal</t><t xml:lang="en">reading room only</t><h>localhost:5000/?hrid=<xsl:value-of select="../../hrid"/></h></II>
                 <XX><i>g</i></XX> <!-- XX=Default: Nicht verfügbar -->
