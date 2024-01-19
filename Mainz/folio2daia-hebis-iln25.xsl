@@ -237,30 +237,14 @@
                 <xsl:with-param name="value" select="$result/i"/>
             </xsl:call-template>
         </xsl:if>
-        <xsl:if test="$result/t1">
+        <xsl:for-each select="$result/t1[1]|$result/t2[1]|$result/t3[1]">
             <xsl:call-template name="DAIA">
                 <xsl:with-param name="tag">aus_text</xsl:with-param>
                 <xsl:with-param name="value">
-                    <xsl:call-template name="selectlanguage"><xsl:with-param name="fields" select="$result/t1"/></xsl:call-template>
+                    <xsl:call-template name="selectlanguage"><xsl:with-param name="fields" select="../*[name()=name(current())]"/></xsl:call-template>
                 </xsl:with-param>
             </xsl:call-template>
-        </xsl:if>
-        <xsl:if test="$result/t2">
-            <xsl:call-template name="DAIA">
-                <xsl:with-param name="tag">aus_text</xsl:with-param>
-                <xsl:with-param name="value">
-                    <xsl:call-template name="selectlanguage"><xsl:with-param name="fields" select="$result/t2"/></xsl:call-template>
-                </xsl:with-param>
-            </xsl:call-template>
-        </xsl:if>
-        <xsl:if test="$result/t3">
-            <xsl:call-template name="DAIA">
-                <xsl:with-param name="tag">aus_text</xsl:with-param>
-                <xsl:with-param name="value">
-                    <xsl:call-template name="selectlanguage"><xsl:with-param name="fields" select="$result/t3"/></xsl:call-template>
-                </xsl:with-param>
-            </xsl:call-template>
-        </xsl:if>
+        </xsl:for-each>
         <xsl:if test="$result/h">
             <xsl:call-template name="DAIA">
                 <xsl:with-param name="tag">aus_link</xsl:with-param>
