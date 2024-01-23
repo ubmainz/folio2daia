@@ -286,6 +286,11 @@
                      <xsl:with-param name="fields" select="$locationtext/t"/>
                  </xsl:call-template>
                  <xsl:text>&lt;/a&gt;</xsl:text>
+                 <xsl:text>&lt;img width=&quot;130&quot; height=&quot;130&quot; src=&quot;https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=</xsl:text>
+                 <xsl:value-of select="encode-for-uri(string-join((prefix,callNumber),' '))"/>
+                 <xsl:text>&amp;c3=</xsl:text>
+                 <xsl:value-of select="encode-for-uri(../effectiveLocation/discoveryDisplayName)"/>
+                 <xsl:text>&quot;&gt;</xsl:text>
              </xsl:with-param>
         </xsl:call-template>   
     </xsl:template>
