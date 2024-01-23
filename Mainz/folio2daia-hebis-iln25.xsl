@@ -267,10 +267,28 @@
     </xsl:template>
     
      <xsl:template match="effectiveCallNumberComponents">
+         <xsl:variable name="locationtext">
+             <t xml:lang="de">Standort zeigen</t>
+             <t xml:lang="en">show location</t>
+         </xsl:variable>
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">sig</xsl:with-param>
             <xsl:with-param name="value" select="string-join((prefix,callNumber),' ')"/>
         </xsl:call-template>
+        <xsl:call-template name="DAIA">
+             <xsl:with-param name="tag">standort</xsl:with-param>
+             <xsl:with-param name="value">
+                 <xsl:text>&lt;a &quot;https://ub-mainz.mapongo.de/viewer?p=1&amp;s=</xsl:text>
+                 <xsl:value-of select="encode-for-uri(string-join((prefix,callNumber),' '))"/>
+                 <xsl:text>&amp;c3=</xsl:text> <!-- c3:location -->
+                 <xsl:value-of select="encode-for-uri(../effectiveLocation/discoveryDisplayName)"/>
+                 <xsl:text>&quot;&gt;</xsl:text>
+                 <xsl:call-template name="selectlanguage">
+                     <xsl:with-param name="fields" select="$locationtext/t"/>
+                 </xsl:call-template>
+                 <xsl:text>&lt;/a&gt;</xsl:text>
+             </xsl:with-param>
+        </xsl:call-template>   
     </xsl:template>
     
     <xsl:template match="*"/>
