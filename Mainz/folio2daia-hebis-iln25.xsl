@@ -266,7 +266,7 @@
     </xsl:template>
     
      <xsl:template match="effectiveCallNumberComponents">
-         <xsl:variable name="locationtext">
+         <xsl:variable name="locationtext"> <!-- Mapongo-Link -->
              <t xml:lang="de">Standort zeigen</t>
              <t xml:lang="en">show location</t>
          </xsl:variable>
