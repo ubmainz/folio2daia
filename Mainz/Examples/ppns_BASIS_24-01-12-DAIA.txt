@@ -87,7 +87,7 @@ DAIAinfo aus_ind s Praesenzbestand ofniAIAD
 DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/999-034-FBGTEM ofniAIAD
 DAIAinfo abt_name Universität Mainz, Institut für Geschichte, Theorie und Ethik der Medizin ofniAIAD
-DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
+DAIAinfo abt_link http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102599866 ofniAIAD
 
 DAIAinfo epn 1009406612-1009406612-1 ofniAIAD
 DAIAinfo sig 89.2008 ofniAIAD

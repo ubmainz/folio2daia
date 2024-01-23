@@ -83,12 +83,12 @@
         <e><c>25/091-091-PHMUW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Musikwissenschaft</n></e>
         <e><c>25/112-112-10-PHHFMFREI</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Hochschule für Musik, Freihand</n></e>
         <e><c>25/112-112-12-PHHFMMAG</c><n xml:lang="de">BB BB Philosophicum, Hochschule für Musik, Magazin</n></e>
-        <e><c>25/999-009-FBMPI</c><ind>s Praesenzbestand</ind><n xml:lang="de">Max-Planck-Institut für Polymerforschung, Bibliothek</n></e>
-        <e><c>25/999-034-FBGTEM</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Institut für Geschichte, Theorie und Ethik der Medizin</n></e>
-        <e><c>25/999-094-FBIGL</c><ind>s Praesenzbestand</ind><n xml:lang="de">Institut für Geschichtliche Landeskunde Rheinland-Pfalz e.V., Bibliothek</n></e>
-        <e><c>25/999-069-FBPSY</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Psychologisches Institut</n></e>
-        <e><c>25/999-082-FBÄGYPT</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Institut für Altertumswissenschaften - Ägyptologie und Altorientalistik</n></e>
-        <e><c>25/999-085-FBAVFGA</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Institut für Altertumswissenschaften - Vor- und Frühgeschichtliche Archäologie</n></e>
+        <e><c>25/999-009-FBMPI</c><ind>s Praesenzbestand</ind><n xml:lang="de">Max-Planck-Institut für Polymerforschung, Bibliothek</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102599637</url></e>
+        <e><c>25/999-034-FBGTEM</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Institut für Geschichte, Theorie und Ethik der Medizin</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102599866</url></e>
+        <e><c>25/999-094-FBIGL</c><ind>s Praesenzbestand</ind><n xml:lang="de">Institut für Geschichtliche Landeskunde Rheinland-Pfalz e.V., Bibliothek</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=460818961</url></e>
+        <e><c>25/999-069-FBPSY</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Psychologisches Institut</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=10260018X</url></e>
+        <e><c>25/999-082-FBÄGYPT</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Institut für Altertumswissenschaften - Ägyptologie und Altorientalistik</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102600317</url></e>
+        <e><c>25/999-085-FBAVFGA</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Institut für Altertumswissenschaften - Vor- und Frühgeschichtliche Archäologie</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102600341</url></e>
         <e><c>25/999-111-FBKUNST</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Kunsthochschule</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102600600</url></e>
         <e><c>25/999-124-FBGESANG</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Gesangbucharchiv</n></e>
     </xsl:variable>
