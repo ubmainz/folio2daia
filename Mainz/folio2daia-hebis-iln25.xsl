@@ -206,7 +206,7 @@
                  Code aus zwei Großbuchstaben: Zuordnungscode für diesen Fall
                  i : Ausleihindikator, der weitergereicht wird
                  s : Status, der weitergereicht wird
-                 t : Informationstext zu diesem Fall (Bei Fehlen des Sprachtextes wird der Text der ersten vorhandenen Sprache verwendet.)                 
+                 t1, t2, t3 : Informationstext zu diesem Fall (Bei Fehlen des Sprachtextes wird der Text der ersten vorhandenen Sprache verwendet.)                 
                  h : Link, wie er hinter dem Bestellbutton hinterlegt werden soll -->
             <xsl:variable name="cases">
                 <UF><i>u ausleihbar</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/campus]/*"/></UF> <!-- bestellbar -->
