@@ -154,7 +154,6 @@
     <xsl:template match="notes[holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note"> <!-- Standorthinweis (aus 8201) -->
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">standort</xsl:with-param>
-            <xsl:with-param name="value"><xsl:value-of select="."/></xsl:with-param>
         </xsl:call-template>
     </xsl:template>
 
