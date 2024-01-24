@@ -277,7 +277,7 @@
         <xsl:call-template name="DAIA">
              <xsl:with-param name="tag">standort</xsl:with-param>
              <xsl:with-param name="value">
-                 <xsl:text>&lt;a &quot;https://ub-mainz.mapongo.de/viewer?p=1&amp;s=</xsl:text>
+                 <xsl:text>&lt;a href=&quot;https://ub-mainz.mapongo.de/viewer?p=1&amp;s=</xsl:text>
                  <xsl:value-of select="encode-for-uri(string-join((prefix,callNumber),' '))"/>
                  <xsl:text>&amp;c3=</xsl:text> <!-- c3:location -->
                  <xsl:value-of select="encode-for-uri(../effectiveLocation/discoveryDisplayName)"/>
