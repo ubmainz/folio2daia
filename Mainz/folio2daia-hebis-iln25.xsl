@@ -117,6 +117,9 @@
                 <xsl:sort select="chronology" order="ascending"/>
                 <xsl:sort select="hrid" order="ascending"/>
                 <xsl:apply-templates select="./*|./*/*"/>
+                <xsl:if test="not(chronology)">
+                    <xsl:apply-templates select="../../holdingsStatements"/>                 
+                </xsl:if>
                 <xsl:apply-templates select="../../notes/note"/>
             </xsl:for-each>
         </xsl:for-each>
@@ -163,15 +166,24 @@
         </xsl:call-template>
     </xsl:template>
  
-    <xsl:template match="yearCaption">
-        <xsl:call-template name="DAIA">
-            <xsl:with-param name="tag">zeit_bestand01</xsl:with-param>
-        </xsl:call-template>        
+    <xsl:template match="holdingsStatements">
+        <xsl:if test="statement">
+            <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag"><xsl:text>zeit_bestand0</xsl:text><xsl:number count="holdingsStatements"/></xsl:with-param>
+                <xsl:with-param name="value" select="statement"/>
+            </xsl:call-template>
+        </xsl:if>
+        <xsl:if test="note">
+            <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag"><xsl:text>zeit_bestand04</xsl:text></xsl:with-param>
+                <xsl:with-param name="value" select="note"/>
+            </xsl:call-template>
+        </xsl:if>
     </xsl:template>
     
     <xsl:template match="chronology">
         <xsl:call-template name="DAIA">
-            <xsl:with-param name="tag">zeit_bestand02</xsl:with-param>
+            <xsl:with-param name="tag">zeit_bestand01</xsl:with-param>
         </xsl:call-template>        
     </xsl:template>    
 
