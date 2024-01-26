@@ -119,7 +119,7 @@
                 <xsl:sort select="chronology" order="ascending"/>
                 <xsl:sort select="hrid" order="ascending"/>
                 <xsl:apply-templates select="./*|./*/*|../../notes/note">
-                    <xsl:sort select="index-of(('discoveryDisplayName','name','effectiveCallNumberComponents','hrid'),name())" order="descending"/> 
+                    <xsl:sort select="index-of(('discoveryDisplayName','status','effectiveCallNumberComponents','hrid'),name())" order="descending"/> 
                 </xsl:apply-templates>
                 <xsl:if test="not(chronology)"> <!-- keine Angaben zum Einzelband -->
                     <xsl:apply-templates select="../../holdingsStatements/*"/>                 
@@ -189,8 +189,8 @@
         </xsl:call-template>        
     </xsl:template>    
 
-    <xsl:template match="status/name"> <!-- Trigger für Status (als immer eindeutig vorhanden vorausgesetzt) für Status und Ausleihindikator - emuliert LBS -->
-        <xsl:variable select="substring(($bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/ind,../../permanentLoanType/name)[1],1,1)" name="ind"/> <!-- + temp loan type -->
+    <xsl:template match="status[name(..)='item']"> <!-- Trigger für Status (als immer eindeutig vorhanden vorausgesetzt) für Status und Ausleihindikator - emuliert LBS -->
+        <xsl:variable select="substring(($bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/ind,../permanentLoanType/name)[1],1,1)" name="ind"/> <!-- + temp loan type -->
         <xsl:variable name="result">
             <xsl:variable name="emulator">
                 <status name='Aged to lost'/>
@@ -228,21 +228,21 @@
                  t1, t2, t3 : Informationstext zu diesem Fall (Bei Fehlen des Sprachtextes wird der Text der ersten vorhandenen Sprache verwendet.)                 
                  h : Link, wie er hinter dem Bestellbutton hinterlegt werden soll -->
             <xsl:variable name="cases">
-                <UF><i>u ausleihbar</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/campus]/*"/></UF> <!-- bestellbar -->
+                <UF><i>u ausleihbar</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/campus]/*"/></UF> <!-- bestellbar -->
                 <IF><i>i Lesesaal</i><s>verfuegbar</s><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1></IF> <!-- nur für den Lesesaal bestellbar -->
                 <SX><i>s Praesenzbestand</i><t1 xml:lang="de">nicht ausleihbar</t1><t1 xml:lang="en">not available for loan</t1>
-                    <xsl:copy-of select="$campusubmainz/hinweis-s[@campus=$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/campus]/*"/></SX> <!-- Päsenzbestand -->
+                    <xsl:copy-of select="$campusubmainz/hinweis-s[@campus=$bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/campus]/*"/></SX> <!-- Päsenzbestand -->
                 <EM><i>e vermisst</i><t1 xml:lang="de">vermisst</t1><t1 xml:lang="en">missing</t1><t2 xml:lang="de">nicht ausleihbar</t2><t2 xml:lang="en">not available for loan</t2></EM> <!-- vermisst -->
                 <UV><i>u ausleihbar</i><s>vormerkbar</s></UV> <!-- vormerkbar -->
                 <IV><i>i Lesesaal</i><s>vormerkbar</s><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1></IV> <!-- nur für den Lesesaal vormerkbar -->
                 <CN><i>c</i><s>nicht vormerkbar</s></CN> <!-- Präsenzbestand -->
                 <XO><i>a</i><s>gesperrt</s></XO> <!--  -->
-                <UI><i>u ausleihbar</i><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/campus]/*"/>
-                    <h>localhost:5000/?hrid=<xsl:value-of select="../../hrid"/></h></UI> <!-- Intellectual Item, lokaler link nur zum Testen -->
-                <II><i>i Lesesaal</i><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1><h>localhost:5000/?hrid=<xsl:value-of select="../../hrid"/></h></II>
+                <UI><i>u ausleihbar</i><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/campus]/*"/>
+                    <h>localhost:5000/?hrid=<xsl:value-of select="../hrid"/></h></UI> <!-- Intellectual Item, lokaler link nur zum Testen -->
+                <II><i>i Lesesaal</i><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1><h>localhost:5000/?hrid=<xsl:value-of select="../hrid"/></h></II>
                 <XX><i>g nicht_ausleihbar</i></XX> <!-- XX=Default: Nicht verfügbar -->
             </xsl:variable>
-            <xsl:copy-of select="$cases/*[name()=($emulator/status[@name=current()]/*[name()=$ind],'XX')[1]]/*"/>
+            <xsl:copy-of select="$cases/*[name()=($emulator/status[@name=current()/name]/*[name()=$ind],'XX')[1]]/*"/>
         </xsl:variable>
         <xsl:if test="$result/s">
             <xsl:call-template name="DAIA">
