@@ -1,0 +1,11 @@
+
+
+DAIAinfo epn 575083883-575083883-1 ofniAIAD
+DAIAinfo sig FH kla Lb 9.7 ofniAIAD
+DAIAinfo aus_status vormerkbar ofniAIAD
+DAIAinfo aus_ind u ofniAIAD
+DAIAinfo aus_link http://vormerk.link ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name UB Freihand, 1. OG ofniAIAD
+DAIAinfo abt_link http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo aus_datum 2024-02-15T22:59:59.000+00:00 ofniAIAD

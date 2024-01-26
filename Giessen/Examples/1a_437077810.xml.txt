@@ -1,0 +1,9 @@
+
+
+DAIAinfo epn 1036506452-1036506452-1 ofniAIAD
+DAIAinfo sig 000 ST 530 M947 ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo abt_num 000 ofniAIAD
+DAIAinfo abt_name  ofniAIAD
+DAIAinfo abt_link http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
