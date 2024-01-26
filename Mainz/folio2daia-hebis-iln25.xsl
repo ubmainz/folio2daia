@@ -108,19 +108,23 @@
     <xsl:template match="instanceData">
         <xsl:text>&#10;</xsl:text>
         <xsl:for-each select="holdings/holding[holdingsTypeId='996f93e2-5b5e-4cf2-9168-33ced1f95eed']"> <!-- für elektronische Bestände -->
-            <!-- evtl. sortieren <xsl:sort select="..." order="ascending" lang="de"/> -->
-            <xsl:apply-templates select="./*|./*/*"/> 
+            <!-- evtl. sortieren <xsl:sort select="..."/> -->
+            <xsl:apply-templates select="./*|./*/*">
+                <xsl:sort select="index-of(('hrid'),name())" order="descending"/>
+            </xsl:apply-templates> 
         </xsl:for-each>
         <xsl:for-each select="holdings/holding[holdingsTypeId!='996f93e2-5b5e-4cf2-9168-33ced1f95eed']"> <!-- für nicht elektronische Bestände -->
             <xsl:sort select="effectiveLocation/discoveryDisplayName" order="ascending" lang="de"/>
             <xsl:for-each select="items/item">
                 <xsl:sort select="chronology" order="ascending"/>
                 <xsl:sort select="hrid" order="ascending"/>
-                <xsl:apply-templates select="./*|./*/*"/>
+                <xsl:apply-templates select="./*|./*/*|../../notes/note">
+                    <xsl:sort select="index-of(('discoveryDisplayName','name','effectiveCallNumberComponents','hrid'),name())" order="descending"/> 
+                </xsl:apply-templates>
                 <xsl:if test="not(chronology)"> <!-- keine Angaben zum Einzelband -->
                     <xsl:apply-templates select="../../holdingsStatements/*"/>                 
                 </xsl:if>
-                <xsl:apply-templates select="../../notes/note"/>
+                <xsl:call-template name="mapongo"/>
             </xsl:for-each>
         </xsl:for-each>
     </xsl:template>
@@ -282,41 +286,44 @@
     </xsl:template>
     
      <xsl:template match="effectiveCallNumberComponents">
-         <xsl:variable name="locationtext"> <!-- Mapongo-Link -->
-             <t xml:lang="de">Standort zeigen</t>
-             <t xml:lang="en">show location</t>
-         </xsl:variable>
-         <xsl:variable name="mapongopar">
-             <xsl:text>s=</xsl:text>
-             <xsl:value-of select="encode-for-uri(string-join((prefix,callNumber),' '))"/>
-             <xsl:text>&amp;c1=</xsl:text> <!-- c1:location -->
-             <xsl:value-of select="encode-for-uri(../effectiveLocation/discoveryDisplayName)"/>
-             <xsl:if test="../../../notes[holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note">
-                 <xsl:text>&amp;c2=</xsl:text> <!-- c2: "8201" -->
-                 <xsl:value-of select="encode-for-uri(../../../notes[holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note)"/>
-             </xsl:if>
-         </xsl:variable>
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">sig</xsl:with-param>
             <xsl:with-param name="value" select="string-join((prefix,callNumber),' ')"/>
         </xsl:call-template>
+    </xsl:template>
+ 
+    <xsl:template name="mapongo"> <!-- item -->
+        <xsl:variable name="locationtext"> <!-- Mapongo-Link -->
+            <t xml:lang="de">Standort zeigen</t>
+            <t xml:lang="en">show location</t>
+        </xsl:variable>
+        <xsl:variable name="mapongopar">
+            <xsl:text>s=</xsl:text>
+            <xsl:value-of select="encode-for-uri(string-join((effectiveCallNumberComponents/prefix,effectiveCallNumberComponents/callNumber),' '))"/>
+            <xsl:text>&amp;c1=</xsl:text> <!-- c1:location -->
+            <xsl:value-of select="encode-for-uri(effectiveLocation/discoveryDisplayName)"/>
+            <xsl:if test="../../notes[holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note">
+                <xsl:text>&amp;c2=</xsl:text> <!-- c2: "8201" -->
+                <xsl:value-of select="encode-for-uri(../../notes[holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note)"/>
+            </xsl:if>
+        </xsl:variable>
         <xsl:call-template name="DAIA">
-             <xsl:with-param name="tag">standort</xsl:with-param>
-             <xsl:with-param name="value">
-                 <xsl:text>&lt;a target=&quot;_blank&quot; href=&quot;https://ub-mainz.mapongo.de/viewer?p=1&amp;</xsl:text>
-                 <xsl:value-of select="$mapongopar"/>
-                 <xsl:text>&quot;&gt;</xsl:text>
-                 <xsl:call-template name="selectlanguage">
-                     <xsl:with-param name="fields" select="$locationtext/t"/>
-                 </xsl:call-template>
-                 <xsl:text>&lt;/a&gt;</xsl:text>
-                 <xsl:text>&lt;img width=&quot;130&quot; height=&quot;130&quot; src=&quot;https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?</xsl:text>
-                 <xsl:value-of select="$mapongopar"/>
-                 <xsl:text>&quot;&gt;</xsl:text>
-             </xsl:with-param>
+            <xsl:with-param name="tag">standort</xsl:with-param>
+            <xsl:with-param name="value">
+                <xsl:text>&lt;a target=&quot;_blank&quot; href=&quot;https://ub-mainz.mapongo.de/viewer?p=1&amp;</xsl:text>
+                <xsl:value-of select="$mapongopar"/>
+                <xsl:text>&quot;&gt;</xsl:text>
+                <xsl:call-template name="selectlanguage">
+                    <xsl:with-param name="fields" select="$locationtext/t"/>
+                </xsl:call-template>
+                <xsl:text>&lt;/a&gt;</xsl:text>
+                <xsl:text>&lt;img width=&quot;130&quot; height=&quot;130&quot; src=&quot;https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?</xsl:text>
+                <xsl:value-of select="$mapongopar"/>
+                <xsl:text>&quot;&gt;</xsl:text>
+            </xsl:with-param>
         </xsl:call-template>   
     </xsl:template>
-    
+ 
     <xsl:template match="*"/>
 
     <xsl:template name="DAIA"> <!-- Template für alle DAIA-Tags, Default-Node für den Wert ist "." -->
