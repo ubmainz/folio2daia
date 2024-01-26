@@ -118,7 +118,7 @@
                 <xsl:sort select="hrid" order="ascending"/>
                 <xsl:apply-templates select="./*|./*/*"/>
                 <xsl:if test="not(chronology)"> <!-- keine Angaben zum Einzelband -->
-                    <xsl:apply-templates select="../../holdingsStatements"/>                 
+                    <xsl:apply-templates select="../../holdingsStatements/*"/>                 
                 </xsl:if>
                 <xsl:apply-templates select="../../notes/note"/>
             </xsl:for-each>
@@ -166,19 +166,17 @@
         </xsl:call-template>
     </xsl:template>
  
-    <xsl:template match="holdingsStatements">
-        <xsl:if test="statement"> <!-- max. 3 holdingsstatements mit je max. 1 statement-->
+    <xsl:template match="holdingsStatements/statement"> <!-- max. 3 holdingsstatements mit je max. 1 statement-->
             <xsl:call-template name="DAIA">
                 <xsl:with-param name="tag"><xsl:text>zeit_bestand0</xsl:text><xsl:number count="holdingsStatements"/></xsl:with-param>
-                <xsl:with-param name="value" select="statement"/>
             </xsl:call-template>
-        </xsl:if>
-        <xsl:if test="note"> <!-- max. 1 holdingsstatement mit max. 1 note -->
-            <xsl:call-template name="DAIA">
-                <xsl:with-param name="tag"><xsl:text>zeit_bestand04</xsl:text></xsl:with-param>
-                <xsl:with-param name="value" select="note"/>
-            </xsl:call-template>
-        </xsl:if>
+    </xsl:template>
+
+        
+    <xsl:template match="holdingsStatements/note"> <!-- max. 1 holdingsstatement mit max. 1 note -->   
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag"><xsl:text>zeit_bestand04</xsl:text></xsl:with-param>
+        </xsl:call-template>
     </xsl:template>
     
     <xsl:template match="chronology">
@@ -297,7 +295,7 @@
              <xsl:with-param name="value">
                  <xsl:text>&lt;a target=&quot;_blank&quot; href=&quot;https://ub-mainz.mapongo.de/viewer?p=1&amp;s=</xsl:text>
                  <xsl:value-of select="encode-for-uri(string-join((prefix,callNumber),' '))"/>
-                 <xsl:text>&amp;c3=</xsl:text> <!-- c3:location -->
+                 <xsl:text>&amp;c3=</xsl:text> <!-- c1:location -->
                  <xsl:value-of select="encode-for-uri(../effectiveLocation/discoveryDisplayName)"/>
                  <xsl:text>&quot;&gt;</xsl:text>
                  <xsl:call-template name="selectlanguage">
