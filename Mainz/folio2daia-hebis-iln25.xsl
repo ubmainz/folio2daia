@@ -289,8 +289,12 @@
          <xsl:variable name="mapongopar">
              <xsl:text>s=</xsl:text>
              <xsl:value-of select="encode-for-uri(string-join((prefix,callNumber),' '))"/>
-             <xsl:text>&amp;c3=</xsl:text> <!-- c1:location -->
+             <xsl:text>&amp;c1=</xsl:text> <!-- c1:location -->
              <xsl:value-of select="encode-for-uri(../effectiveLocation/discoveryDisplayName)"/>
+             <xsl:if test="../../../notes[holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note">
+                 <xsl:text>&amp;c2=</xsl:text> <!-- c2: "8201" -->
+                 <xsl:value-of select="encode-for-uri(../../../notes[holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note)"/>
+             </xsl:if>
          </xsl:variable>
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">sig</xsl:with-param>
