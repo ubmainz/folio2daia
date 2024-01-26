@@ -114,7 +114,6 @@ DAIAinfo epn 070019789-070019789-1 ofniAIAD
 DAIAinfo sig ZG 831 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ZG%20831&c3=25%2F000-000-16-ZBMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=ZG%20831&c3=25%2F000-000-16-ZBMAG"> ofniAIAD
 DAIAinfo zeit_bestand01 21.1866; 25.1874 - 41.1891; 43.1893 - 46.1896 ofniAIAD
-DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind i Lesesaal ofniAIAD
 DAIAinfo aus_text nur für den Lesesaal ofniAIAD
 DAIAinfo aus_link localhost:5000/?hrid=070019789-1 ofniAIAD
@@ -125,7 +124,6 @@ DAIAinfo epn 125142471-125142471-1 ofniAIAD
 DAIAinfo sig ZG 831 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ZG%20831&c3=25%2F000-000-16-ZBMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=ZG%20831&c3=25%2F000-000-16-ZBMAG"> ofniAIAD
 DAIAinfo zeit_bestand01 - Index zu: 1/46.1902 ofniAIAD
-DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind i Lesesaal ofniAIAD
 DAIAinfo aus_text nur für den Lesesaal ofniAIAD
 DAIAinfo aus_link localhost:5000/?hrid=125142471-1 ofniAIAD
@@ -136,7 +134,6 @@ DAIAinfo epn 125142463-125142463-1 ofniAIAD
 DAIAinfo sig ZG 831 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ZG%20831&c3=25%2F000-000-16-ZBMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=ZG%20831&c3=25%2F000-000-16-ZBMAG"> ofniAIAD
 DAIAinfo zeit_bestand01 - Erg.Bd. zu: 1898 ofniAIAD
-DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind i Lesesaal ofniAIAD
 DAIAinfo aus_text nur für den Lesesaal ofniAIAD
 DAIAinfo aus_link localhost:5000/?hrid=125142463-1 ofniAIAD
@@ -180,7 +177,6 @@ DAIAinfo epn 12514248X-12514248X-1 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ZG%20779&c3=25%2F000-000-16-ZBMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=ZG%20779&c3=25%2F000-000-16-ZBMAG"> ofniAIAD
 DAIAinfo zeit_bestand01 N.F.: 1.1897 - 2.1898; 4.1900 - 32.1930; 36.1934 - ofniAIAD
-DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_link localhost:5000/?hrid=12514248X-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
@@ -190,7 +186,6 @@ DAIAinfo epn 125142498-125142498-1 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ZG%20779&c3=25%2F000-000-16-ZBMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=ZG%20779&c3=25%2F000-000-16-ZBMAG"> ofniAIAD
 DAIAinfo zeit_bestand01 - Index zu: 27/42.1925/40 ofniAIAD
-DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_link localhost:5000/?hrid=125142498-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
@@ -200,7 +195,6 @@ DAIAinfo epn 074678310-074678310-1 ofniAIAD
 DAIAinfo sig Pc-Pomm. 5 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Pc-Pomm.%205&c3=25%2F016-016-10-TH">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=Pc-Pomm.%205&c3=25%2F016-016-10-TH"> ofniAIAD
 DAIAinfo zeit_bestand01 N.F.: 30.1928; 33.1931 - 38.1936 ofniAIAD
-DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
@@ -214,7 +208,6 @@ DAIAinfo epn 070304823-070304823-1 ofniAIAD
 DAIAinfo sig 4° ZA 363 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=4%C2%B0%20ZA%20363&c3=25%2F000-000-16-ZBMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=4%C2%B0%20ZA%20363&c3=25%2F000-000-16-ZBMAG"> ofniAIAD
 DAIAinfo zeit_bestand01 N.F.: 40.1906 ofniAIAD
-DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_link localhost:5000/?hrid=070304823-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
@@ -227,7 +220,6 @@ DAIAinfo epn 577916610-577916610-1 ofniAIAD
 DAIAinfo sig Z 440 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Z%20440&c3=25%2F019-019-16-GHMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=Z%20440&c3=25%2F019-019-16-GHMAG"> ofniAIAD
 DAIAinfo zeit_bestand01 1.1857/59,4(1858); 3.1864 - 30.1948; 35.1964/65,2-4; 38.1969,2; 41.1974,1; 44.1978,1 ofniAIAD
-DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind i Lesesaal ofniAIAD
 DAIAinfo aus_text nur für den Lesesaal ofniAIAD
 DAIAinfo aus_link localhost:5000/?hrid=577916610-1 ofniAIAD
@@ -259,7 +251,6 @@ DAIAinfo epn 142907898-142907898-1 ofniAIAD
 DAIAinfo sig 29 998 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=29%20998&c3=25%2F002-002-10-GFGP%C3%84D">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=29%20998&c3=25%2F002-002-10-GFGP%C3%84D"> ofniAIAD
 DAIAinfo zeit_bestand01 4.1999/2000(1999) - 5.2001/2002(2000); 10.2007(2006) ofniAIAD
-DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
@@ -271,7 +262,6 @@ DAIAinfo epn 127443576-127443576-1 ofniAIAD
 DAIAinfo sig 92 FOR ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=92%20FOR&c3=25%2F002-002-20-GFGPUB">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=92%20FOR&c3=25%2F002-002-20-GFGPUB"> ofniAIAD
 DAIAinfo zeit_bestand01 2.1997 - 3.1998; 5.2001/02(2000) ofniAIAD
-DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
@@ -293,7 +283,6 @@ DAIAinfo epn 544101928-544101928-1 ofniAIAD
 DAIAinfo sig A 10.23 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=A%2010.23&c3=25%2F002-113-GFGSPO">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=A%2010.23&c3=25%2F002-113-GFGSPO"> ofniAIAD
 DAIAinfo zeit_bestand01 10.2007(2006) ofniAIAD
-DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
@@ -305,7 +294,6 @@ DAIAinfo epn 15045659X-15045659X-1 ofniAIAD
 DAIAinfo sig X R/I F 1 1999/2000 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=X%20R%2FI%20F%201%201999%2F2000&c3=25%2F004-072-PHANG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=X%20R%2FI%20F%201%201999%2F2000&c3=25%2F004-072-PHANG"> ofniAIAD
 DAIAinfo zeit_bestand01 4.1999/2000(1999) ofniAIAD
-DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
@@ -317,7 +305,6 @@ DAIAinfo epn 154871745-154871745-1 ofniAIAD
 DAIAinfo sig I-3 FOR-1 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=I-3%20FOR-1&c3=25%2F004-072-PHANG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=I-3%20FOR-1&c3=25%2F004-072-PHANG"> ofniAIAD
 DAIAinfo zeit_bestand01 5.2001/2002(2000) ofniAIAD
-DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
@@ -329,7 +316,6 @@ DAIAinfo epn 144585952-144585952-1 ofniAIAD
 DAIAinfo sig Y 99-0-A15 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Y%2099-0-A15&c3=25%2F004-075-PHSLAV">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=Y%2099-0-A15&c3=25%2F004-075-PHSLAV"> ofniAIAD
 DAIAinfo zeit_bestand01 4.1999/2000(1999) ofniAIAD
-DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
@@ -814,7 +800,6 @@ DAIAinfo epn 1009145665-1009145665-1 ofniAIAD
 DAIAinfo sig 4° BF 7592 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=4%C2%B0%20BF%207592&c3=25%2F000-000-16-ZBMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=4%C2%B0%20BF%207592&c3=25%2F000-000-16-ZBMAG"> ofniAIAD
 DAIAinfo zeit_bestand01 2017 ofniAIAD
-DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_link localhost:5000/?hrid=1009145665-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
@@ -825,7 +810,6 @@ DAIAinfo epn 1176923048-1176923048-1 ofniAIAD
 DAIAinfo sig 4° BG 6401 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=4%C2%B0%20BG%206401&c3=25%2F000-000-16-ZBMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=4%C2%B0%20BG%206401&c3=25%2F000-000-16-ZBMAG"> ofniAIAD
 DAIAinfo zeit_bestand01 2021 ofniAIAD
-DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_link localhost:5000/?hrid=1176923048-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
@@ -835,7 +819,6 @@ DAIAinfo epn 60030101X-60030101X-1 ofniAIAD
 DAIAinfo sig 28 BOFA 1/2009 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=28%20BOFA%201%2F2009&c3=25%2F002-002-22-GFGSOZ">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=28%20BOFA%201%2F2009&c3=25%2F002-002-22-GFGSOZ"> ofniAIAD
 DAIAinfo zeit_bestand01 2009(2010) ofniAIAD
-DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
