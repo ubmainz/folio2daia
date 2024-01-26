@@ -155,48 +155,40 @@ DAIAinfo zeit_bestand02 1.1897 - 2.1898; 4.1900 - 32.1930; 36.1934 - ofniAIAD
 DAIAinfo epn 12514248X-it00000000063 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ZG%20779&c3=25%2F000-000-16-ZBMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=ZG%20779&c3=25%2F000-000-16-ZBMAG"> ofniAIAD
-DAIAinfo zeit_bestand02 2019 105 ofniAIAD
+DAIAinfo zeit_bestand01 2019 105 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo zeit_bestand01 N.F. ofniAIAD
-DAIAinfo zeit_bestand02 1.1897 - 2.1898; 4.1900 - 32.1930; 36.1934 - ofniAIAD
 DAIAinfo epn 12514248X-it00000000062 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ZG%20779&c3=25%2F000-000-16-ZBMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=ZG%20779&c3=25%2F000-000-16-ZBMAG"> ofniAIAD
-DAIAinfo zeit_bestand02 2020 106 ofniAIAD
+DAIAinfo zeit_bestand01 2020 106 ofniAIAD
 DAIAinfo aus_status vormerkbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_datum 2024-10-25T21:59:59.000+00:00 ofniAIAD
-DAIAinfo zeit_bestand01 N.F. ofniAIAD
-DAIAinfo zeit_bestand02 1.1897 - 2.1898; 4.1900 - 32.1930; 36.1934 - ofniAIAD
 DAIAinfo epn 12514248X-it00000000061 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ZG%20779&c3=25%2F000-000-16-ZBMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=ZG%20779&c3=25%2F000-000-16-ZBMAG"> ofniAIAD
-DAIAinfo zeit_bestand02 2021 107 ofniAIAD
+DAIAinfo zeit_bestand01 2021 107 ofniAIAD
 DAIAinfo aus_status vormerkbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo zeit_bestand01 N.F. ofniAIAD
-DAIAinfo zeit_bestand02 1.1897 - 2.1898; 4.1900 - 32.1930; 36.1934 - ofniAIAD
 DAIAinfo epn 12514248X-it00000000060 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ZG%20779&c3=25%2F000-000-16-ZBMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=ZG%20779&c3=25%2F000-000-16-ZBMAG"> ofniAIAD
-DAIAinfo zeit_bestand02 2022 108 ofniAIAD
+DAIAinfo zeit_bestand01 2022 108 ofniAIAD
 DAIAinfo aus_status vormerkbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo zeit_bestand01 N.F. ofniAIAD
-DAIAinfo zeit_bestand02 1.1897 - 2.1898; 4.1900 - 32.1930; 36.1934 - ofniAIAD
 DAIAinfo epn 125142498-125142498-1 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ZG%20779&c3=25%2F000-000-16-ZBMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=ZG%20779&c3=25%2F000-000-16-ZBMAG"> ofniAIAD
@@ -217,9 +209,9 @@ DAIAinfo aus_link localhost:5000/?hrid=074678310-1 ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort Evangelische Theologie ofniAIAD
 DAIAinfo zeit_bestand01 N.F. ofniAIAD
 DAIAinfo zeit_bestand02 30.1928; 33.1931 - 38.1936 ofniAIAD
+DAIAinfo standort Evangelische Theologie ofniAIAD
 
 DAIAinfo epn 070304823-070304823-1 ofniAIAD
 DAIAinfo sig 4° ZA 363 ofniAIAD
@@ -229,10 +221,10 @@ DAIAinfo aus_link localhost:5000/?hrid=070304823-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo aus_text BASIS DAIA ofniAIAD
-DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo zeit_bestand01 N.F. ofniAIAD
 DAIAinfo zeit_bestand02 40.1906 ofniAIAD
+DAIAinfo aus_text BASIS DAIA ofniAIAD
+DAIAinfo aus_text BASIS ofniAIAD
 
 DAIAinfo epn 577916610-577916610-1 ofniAIAD
 DAIAinfo sig Z 440 ofniAIAD
@@ -369,9 +361,9 @@ DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
 DAIAinfo abt_num 25/006-006-10-MINT ofniAIAD
 DAIAinfo abt_name BB Mathematik, Informatik, Naturwissenschaften und Technik, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
+DAIAinfo zeit_bestand01 9.2006(2005) ofniAIAD
 DAIAinfo standort MIN / HANDAPPARAT METEOROLOGIE ofniAIAD
 DAIAinfo aus_text Genauen Standort in der BB MIN erfragen! ofniAIAD
-DAIAinfo zeit_bestand01 9.2006(2005) ofniAIAD
 
 DAIAinfo epn 1009778307-1009778307-1 ofniAIAD
 DAIAinfo sig INT 100/3 ofniAIAD
@@ -814,19 +806,18 @@ DAIAinfo aus_link localhost:5000/?hrid=1009145665-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo aus_text BASIS DAIA ofniAIAD
 DAIAinfo zeit_bestand01 2017 ofniAIAD
+DAIAinfo aus_text BASIS DAIA ofniAIAD
 DAIAinfo epn 1009145665-it00000000054 ofniAIAD
 DAIAinfo sig 4° BF 7592 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=4%C2%B0%20BF%207592&c3=25%2F000-000-16-ZBMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=4%C2%B0%20BF%207592&c3=25%2F000-000-16-ZBMAG"> ofniAIAD
-DAIAinfo zeit_bestand02 2017 ofniAIAD
+DAIAinfo zeit_bestand01 2017 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text BASIS DAIA ofniAIAD
-DAIAinfo zeit_bestand01 2017 ofniAIAD
 DAIAinfo epn 1176923048-1176923048-1 ofniAIAD
 DAIAinfo sig 4° BG 6401 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=4%C2%B0%20BG%206401&c3=25%2F000-000-16-ZBMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=4%C2%B0%20BG%206401&c3=25%2F000-000-16-ZBMAG"> ofniAIAD

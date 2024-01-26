@@ -109,7 +109,7 @@
         <xsl:text>&#10;</xsl:text>
         <xsl:for-each select="holdings/holding[holdingsTypeId='996f93e2-5b5e-4cf2-9168-33ced1f95eed']"> <!-- für elektronische Bestände -->
             <!-- evtl. sortieren <xsl:sort select="..." order="ascending" lang="de"/> -->
-            <xsl:apply-templates select=".//*"/> 
+            <xsl:apply-templates select="./*|./*/*"/> 
         </xsl:for-each>
         <xsl:for-each select="holdings/holding[holdingsTypeId!='996f93e2-5b5e-4cf2-9168-33ced1f95eed']"> <!-- für nicht elektronische Bestände -->
             <xsl:sort select="effectiveLocation/discoveryDisplayName" order="ascending" lang="de"/>
@@ -117,7 +117,7 @@
                 <xsl:sort select="chronology" order="ascending"/>
                 <xsl:sort select="hrid" order="ascending"/>
                 <xsl:apply-templates select="./*|./*/*"/>
-                <xsl:if test="not(chronology)">
+                <xsl:if test="not(chronology)"> <!-- keine Angaben zum Einzelband -->
                     <xsl:apply-templates select="../../holdingsStatements"/>                 
                 </xsl:if>
                 <xsl:apply-templates select="../../notes/note"/>
