@@ -168,6 +168,12 @@
             <xsl:with-param name="tag">zeit_bestand01</xsl:with-param>
         </xsl:call-template>        
     </xsl:template>
+    
+    <xsl:template match="chronology">
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag">zeit_bestand02</xsl:with-param>
+        </xsl:call-template>        
+    </xsl:template>    
 
     <xsl:template match="status/name"> <!-- Trigger für Status (als immer eindeutig vorhanden vorausgesetzt) für Status und Ausleihindikator - emuliert LBS -->
         <xsl:variable select="substring(($bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/ind,../../permanentLoanType/name)[1],1,1)" name="ind"/> <!-- + temp loan type -->

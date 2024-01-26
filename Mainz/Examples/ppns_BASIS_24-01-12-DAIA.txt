@@ -152,6 +152,7 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 12514248X-it00000000063 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ZG%20779&c3=25%2F000-000-16-ZBMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=ZG%20779&c3=25%2F000-000-16-ZBMAG"> ofniAIAD
+DAIAinfo zeit_bestand02 2019 105 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
@@ -160,6 +161,7 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 12514248X-it00000000062 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ZG%20779&c3=25%2F000-000-16-ZBMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=ZG%20779&c3=25%2F000-000-16-ZBMAG"> ofniAIAD
+DAIAinfo zeit_bestand02 2020 106 ofniAIAD
 DAIAinfo aus_status vormerkbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
@@ -169,6 +171,7 @@ DAIAinfo aus_datum 2024-10-25T21:59:59.000+00:00 ofniAIAD
 DAIAinfo epn 12514248X-it00000000061 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ZG%20779&c3=25%2F000-000-16-ZBMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=ZG%20779&c3=25%2F000-000-16-ZBMAG"> ofniAIAD
+DAIAinfo zeit_bestand02 2021 107 ofniAIAD
 DAIAinfo aus_status vormerkbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
@@ -177,6 +180,7 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo epn 12514248X-it00000000060 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ZG%20779&c3=25%2F000-000-16-ZBMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=ZG%20779&c3=25%2F000-000-16-ZBMAG"> ofniAIAD
+DAIAinfo zeit_bestand02 2022 108 ofniAIAD
 DAIAinfo aus_status vormerkbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
@@ -800,6 +804,7 @@ DAIAinfo aus_text BASIS DAIA ofniAIAD
 DAIAinfo epn 1009145665-it00000000054 ofniAIAD
 DAIAinfo sig 4° BF 7592 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=4%C2%B0%20BF%207592&c3=25%2F000-000-16-ZBMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?search_key=4%C2%B0%20BF%207592&c3=25%2F000-000-16-ZBMAG"> ofniAIAD
+DAIAinfo zeit_bestand02 2017 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
