@@ -167,13 +167,13 @@
     </xsl:template>
  
     <xsl:template match="holdingsStatements">
-        <xsl:if test="statement">
+        <xsl:if test="statement"> <!-- max. 3 holdingsstatements mit je max. 1 statement-->
             <xsl:call-template name="DAIA">
                 <xsl:with-param name="tag"><xsl:text>zeit_bestand0</xsl:text><xsl:number count="holdingsStatements"/></xsl:with-param>
                 <xsl:with-param name="value" select="statement"/>
             </xsl:call-template>
         </xsl:if>
-        <xsl:if test="note">
+        <xsl:if test="note"> <!-- max. 1 holdingsstatement mit max. 1 note -->
             <xsl:call-template name="DAIA">
                 <xsl:with-param name="tag"><xsl:text>zeit_bestand04</xsl:text></xsl:with-param>
                 <xsl:with-param name="value" select="note"/>
