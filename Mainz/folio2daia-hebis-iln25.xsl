@@ -116,7 +116,7 @@
         <xsl:for-each select="holdings/holding[holdingsTypeId!='996f93e2-5b5e-4cf2-9168-33ced1f95eed']"> <!-- für nicht elektronische Bestände -->
             <xsl:sort select="effectiveLocation/discoveryDisplayName" order="ascending" lang="de"/>
             <xsl:for-each select="items/item">
-                <xsl:sort select="chronology" order="ascending"/>
+                <xsl:sort select="enumeration|chronology" order="ascending"/>
                 <xsl:sort select="hrid" order="ascending"/>
                 <xsl:apply-templates select="./*|./*/*|../../notes/note">
                     <xsl:sort select="index-of(('discoveryDisplayName','status','effectiveCallNumberComponents','hrid'),name())" order="descending"/> 
@@ -179,7 +179,7 @@
         
     <xsl:template match="holdingsStatements/note"> <!-- max. 1 holdingsstatement mit max. 1 note -->   
         <xsl:call-template name="DAIA">
-            <xsl:with-param name="tag"><xsl:text>zeit_bestand04</xsl:text></xsl:with-param>
+            <xsl:with-param name="tag"><xsl:text>aus_text</xsl:text></xsl:with-param>
         </xsl:call-template>
     </xsl:template>
     

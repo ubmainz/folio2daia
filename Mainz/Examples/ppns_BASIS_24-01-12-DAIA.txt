@@ -236,7 +236,7 @@ DAIAinfo abt_num 25/019-019-16-GHMAG ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo zeit_bestand01 1.1857/59,4(1858); 3.1864 - 30.1948; 35.1964/65,2-4; 38.1969,2; 41.1974,1; 44.1978,1 ofniAIAD
-DAIAinfo zeit_bestand04 1-30=Repr.1966 ofniAIAD
+DAIAinfo aus_text 1-30=Repr.1966 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Z%20440&c1=25%2F019-019-16-GHMAG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Z%20440&c1=25%2F019-019-16-GHMAG"> ofniAIAD
 
 DAIAinfo epn 178441880-178441880-1 ofniAIAD
