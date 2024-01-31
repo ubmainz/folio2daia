@@ -121,7 +121,7 @@
                 <xsl:apply-templates select="./*|./*/*|../../notes/note">
                     <xsl:sort select="index-of(('discoveryDisplayName','status','effectiveCallNumberComponents','hrid'),name())" order="descending"/> 
                 </xsl:apply-templates>
-                <xsl:if test="not(chronology)"> <!-- keine Angaben zum Einzelband -->
+                <xsl:if test="not(chronology|enumeration)"> <!-- keine Angaben zum Einzelband -->
                     <xsl:apply-templates select="../../holdingsStatements/*"/>                 
                 </xsl:if>
                 <xsl:call-template name="mapongo"/>
@@ -183,11 +183,17 @@
         </xsl:call-template>
     </xsl:template>
     
-    <xsl:template match="chronology">
+    <xsl:template match="chronology[not(../enumeration)]">
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">zeit_bestand01</xsl:with-param>
         </xsl:call-template>        
-    </xsl:template>    
+    </xsl:template> 
+    
+    <xsl:template match="enumeration">
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag">zeit_bestand01</xsl:with-param>
+        </xsl:call-template>        
+    </xsl:template>
 
     <xsl:template match="status[name(..)='item']"> <!-- Trigger für Status (als immer eindeutig vorhanden vorausgesetzt) für Status und Ausleihindikator - emuliert LBS -->
         <xsl:variable select="substring(($bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/ind,../permanentLoanType/name)[1],1,1)" name="ind"/> <!-- + temp loan type -->
