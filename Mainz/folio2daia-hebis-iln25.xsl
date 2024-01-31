@@ -13,9 +13,9 @@
          url : [optional] URL für den Nutzer mit Infomationen für den Nutzer (z.B. Normdatensatz), default siehe oben
          campus : [optional] Campus Germersheim ("cg") oder Campus Mainz ("cm") für campusübergreifende Ausleihe UB Mainz -->
     <xsl:variable name="bbtabelle">
-        <e><c>25/000-000-10-ZBFREI</c><campus>cm</campus><n xml:lang="de">Zentralbibliothek, Bücherturm</n><n xml:lang="en">Central Library, Book Tower</n></e>  
-        <e><c>25/000-000-12-ZBLBS</c><campus>cm</campus><n xml:lang="de">Zentralbibliothek, Lehrbuchsammlung</n></e>
-        <e><c>25/000-000-14-ZBLS</c><campus>cm</campus><n xml:lang="de">Zentralbibliothek,Lesesaal</n></e>
+        <e><c>25/000-000-10-ZBFREI</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Bücherturm</n><n xml:lang="en">Central Library, Book Tower</n></e>  
+        <e><c>25/000-000-12-ZBLBS</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Lehrbuchsammlung</n></e>
+        <e><c>25/000-000-14-ZBLS</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek,Lesesaal</n></e>
         <e><c>25/000-000-16-ZBMAG</c><n xml:lang="de">Zentralbibliothek, Magazin</n></e>
         <e><c>25/000-000-18-ZBRARA</c><n xml:lang="de">Zentralbibliothek, Rara</n></e>
         <e><c>25/000-000-20-ZBSEM</c><ind>s Praesenzbestand</ind><n xml:lang="de">Zentralbibliothek, Semesterapparate</n></e>
@@ -58,8 +58,8 @@
         <e><c>25/005-035-UMRMED</c><n xml:lang="de">BB Universitätsmedizin, Institut für Rechtsmedizin</n></e>
         <e><c>25/005-043-UMPSY</c><n xml:lang="de">BB Universitätsmedizin, Klinik für Psychiatrie und Psychotherapie</n></e>
         <e><c>25/005-054-UMZMK</c><campus>cm</campus><n xml:lang="de">BB Universitätsmedizin, Zahnklinik</n></e>
-        <e><c>25/006-006-10-MINT</c><campus>cm</campus><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Freihand</n></e>
-        <e><c>25/006-006-12-MINTLBS</c><campus>cm</campus><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Lehrbuchsammlung</n></e>
+        <e><c>25/006-006-10-MINT</c><campus>cz</campus><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Freihand</n></e>
+        <e><c>25/006-006-12-MINTLBS</c><campus>cz</campus><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Lehrbuchsammlung</n></e>
         <e><c>25/006-006-14-MINTFAK</c><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Handapparate</n></e>
         <e><c>25/016-016-10-TH</c><campus>cm</campus><n xml:lang="de">BB Theologie, Freihand</n></e>
         <e><c>25/016-016-12-THLBS</c><campus>cm</campus><n xml:lang="de">BB Theologie, Lehrbuchsammlung</n></e>
@@ -218,14 +218,16 @@
             <xsl:variable name="campusubmainz">
                 <hinweis-u campus="cg"><t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Germersheim: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;</t2><t3 xml:lang="de">Mainz: bestellen</t3></hinweis-u> <!-- Z.B. Englisch: <t xml:lang="en">Germersheim: ...</t> -->
                 <hinweis-u campus="cm"><t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Mainz: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;</t2><t3 xml:lang="de">Germersheim: bestellen</t3></hinweis-u>
+                <hinweis-u campus="cz"><t2 xml:lang="de">Germersheim: bestellen</t2><t3 xml:lang="de">Universitätsmedizin: bestellen</t3><t4 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Alle anderen: selbst am Regal holen&lt;/font&gt;&lt;/b&gt;</t4></hinweis-u>
                 <hinweis-s campus="cg"><t2 xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Mainz möglich, bitte wenden Sie sich an die Information</t2></hinweis-s>
                 <hinweis-s campus="cm"><t2 xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, bitte wenden Sie sich an die Information</t2></hinweis-s>
+                <hinweis-s campus="cz"><t2 xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, bitte wenden Sie sich an die Information</t2></hinweis-s>
             </xsl:variable>
             <!-- Liste der zu unterscheidenden Fälle im Discovery-System
                  Code aus zwei Großbuchstaben: Zuordnungscode für diesen Fall
                  i : Ausleihindikator, der weitergereicht wird
                  s : Status, der weitergereicht wird
-                 t1, t2, t3 : Informationstext zu diesem Fall (Bei Fehlen des Sprachtextes wird der Text der ersten vorhandenen Sprache verwendet.)                 
+                 t1, t2, t3, t4 : Informationstext zu diesem Fall (Bei Fehlen des Sprachtextes wird der Text der ersten vorhandenen Sprache verwendet.)                 
                  h : Link, wie er hinter dem Bestellbutton hinterlegt werden soll -->
             <xsl:variable name="cases">
                 <UF><i>u ausleihbar</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/campus]/*"/></UF> <!-- bestellbar -->
@@ -256,7 +258,7 @@
                 <xsl:with-param name="value" select="$result/i"/>
             </xsl:call-template>
         </xsl:if>
-        <xsl:for-each select="$result/t1[1]|$result/t2[1]|$result/t3[1]">
+        <xsl:for-each select="$result/t1[1]|$result/t2[1]|$result/t3[1]|$result/t4[1]">
             <xsl:call-template name="DAIA">
                 <xsl:with-param name="tag">aus_text</xsl:with-param>
                 <xsl:with-param name="value">

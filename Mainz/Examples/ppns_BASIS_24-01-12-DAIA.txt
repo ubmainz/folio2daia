@@ -61,8 +61,9 @@ DAIAinfo epn 072195835-072195835-1 ofniAIAD
 DAIAinfo sig TD 5000 MAT1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/006-006-10-MINT ofniAIAD
 DAIAinfo abt_name BB Mathematik, Informatik, Naturwissenschaften und Technik, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -392,8 +393,9 @@ DAIAinfo epn 1011736160-1011736160-1 ofniAIAD
 DAIAinfo sig 20W 357 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -404,8 +406,9 @@ DAIAinfo epn 1011736160-1011736160-2 ofniAIAD
 DAIAinfo sig 20W 357 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -416,8 +419,9 @@ DAIAinfo epn 1011736160-1011736160-3 ofniAIAD
 DAIAinfo sig 20W 357 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -666,8 +670,9 @@ DAIAinfo epn 569018749-569018749-1 ofniAIAD
 DAIAinfo sig 20W 503 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -676,8 +681,9 @@ DAIAinfo epn 569018749-569018749-2 ofniAIAD
 DAIAinfo sig 20W 503 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -686,8 +692,9 @@ DAIAinfo epn 569018749-569018749-3 ofniAIAD
 DAIAinfo sig 20W 503 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -843,8 +850,9 @@ DAIAinfo epn 721780075-721780075-1 ofniAIAD
 DAIAinfo sig 20L 655 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -853,8 +861,9 @@ DAIAinfo epn 721780075-721780075-2 ofniAIAD
 DAIAinfo sig 20L 655 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -863,8 +872,9 @@ DAIAinfo epn 721780075-721780075-3 ofniAIAD
 DAIAinfo sig 20L 655 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -873,8 +883,9 @@ DAIAinfo epn 730811441-730811441-1 ofniAIAD
 DAIAinfo sig 20L 655 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -883,8 +894,9 @@ DAIAinfo epn 730811441-730811441-2 ofniAIAD
 DAIAinfo sig 20L 655 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -893,8 +905,9 @@ DAIAinfo epn 730811441-730811441-3 ofniAIAD
 DAIAinfo sig 20L 655 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -945,8 +958,9 @@ DAIAinfo epn 633387142-633387142-1 ofniAIAD
 DAIAinfo sig 256.994 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-10-ZBFREI ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Bücherturm ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -955,8 +969,9 @@ DAIAinfo epn 756901790-756901790-1 ofniAIAD
 DAIAinfo sig 13J 324 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -965,8 +980,9 @@ DAIAinfo epn 756901790-756901790-2 ofniAIAD
 DAIAinfo sig 13J 324 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -975,8 +991,9 @@ DAIAinfo epn 756901790-756901790-3 ofniAIAD
 DAIAinfo sig 13J 324 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -1128,8 +1145,9 @@ DAIAinfo epn 784544778-784544778-1 ofniAIAD
 DAIAinfo sig 274.926 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-10-ZBFREI ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Bücherturm ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -1142,8 +1160,9 @@ DAIAinfo epn 1214351387-1214351387-1 ofniAIAD
 DAIAinfo sig 302.689 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-10-ZBFREI ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Bücherturm ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -1329,8 +1348,9 @@ DAIAinfo epn 1147375208-1147375208-1 ofniAIAD
 DAIAinfo sig 15D 075,5.Aufl. ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -1340,8 +1360,9 @@ DAIAinfo epn 1147375208-1147375208-2 ofniAIAD
 DAIAinfo sig 15D 075,5.Aufl. ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -1351,8 +1372,9 @@ DAIAinfo epn 1147375208-1147375208-3 ofniAIAD
 DAIAinfo sig 15D 075,5.Aufl. ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -1453,8 +1475,9 @@ DAIAinfo epn 121336857X-121336857X-1 ofniAIAD
 DAIAinfo sig 303.033 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-10-ZBFREI ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Bücherturm ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -1486,8 +1509,9 @@ DAIAinfo epn 1229734694-1229734694-1 ofniAIAD
 DAIAinfo sig 210 DW 1400 S384 (3) ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek,Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
