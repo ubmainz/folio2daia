@@ -289,7 +289,6 @@
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">aus_datum</xsl:with-param>
             <xsl:with-param name="value" select="format-dateTime(.,'[D01]-[M01]-[Y0001]')"/>
-     <!--       <xsl:with-param name="value" select="substring(.,0,11)"/> -->
         </xsl:call-template>        
     </xsl:template>
 
