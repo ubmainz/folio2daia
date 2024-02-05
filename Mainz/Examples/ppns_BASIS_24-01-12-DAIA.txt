@@ -112,7 +112,7 @@ DAIAinfo epn 070019789-070019789-1 ofniAIAD
 DAIAinfo sig ZG 831 ofniAIAD
 DAIAinfo aus_ind i Lesesaal ofniAIAD
 DAIAinfo aus_text nur für den Lesesaal ofniAIAD
-DAIAinfo aus_link localhost:5000/?hrid=070019789-1 ofniAIAD
+DAIAinfo aus_link http://localhost:5000/?hrid=070019789-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -121,7 +121,7 @@ DAIAinfo epn 125142471-125142471-1 ofniAIAD
 DAIAinfo sig ZG 831 ofniAIAD
 DAIAinfo aus_ind i Lesesaal ofniAIAD
 DAIAinfo aus_text nur für den Lesesaal ofniAIAD
-DAIAinfo aus_link localhost:5000/?hrid=125142471-1 ofniAIAD
+DAIAinfo aus_link http://localhost:5000/?hrid=125142471-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -131,7 +131,7 @@ DAIAinfo epn 125142463-125142463-1 ofniAIAD
 DAIAinfo sig ZG 831 ofniAIAD
 DAIAinfo aus_ind i Lesesaal ofniAIAD
 DAIAinfo aus_text nur für den Lesesaal ofniAIAD
-DAIAinfo aus_link localhost:5000/?hrid=125142463-1 ofniAIAD
+DAIAinfo aus_link http://localhost:5000/?hrid=125142463-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -140,7 +140,7 @@ DAIAinfo zeit_bestand02 1898 ofniAIAD
 DAIAinfo epn 12514248X-12514248X-1 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_link localhost:5000/?hrid=12514248X-1 ofniAIAD
+DAIAinfo aus_link http://localhost:5000/?hrid=12514248X-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -158,15 +158,17 @@ DAIAinfo epn 12514248X-it00000000062 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD
 DAIAinfo aus_status vormerkbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_link http://vormerk.link ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo zeit_bestand01 2020 106 ofniAIAD
-DAIAinfo aus_datum 2024-10-25T21:59:59.000+00:00 ofniAIAD
+DAIAinfo aus_datum 25-10-2024 ofniAIAD
 DAIAinfo epn 12514248X-it00000000061 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD
 DAIAinfo aus_status vormerkbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_link http://vormerk.link ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -175,6 +177,7 @@ DAIAinfo epn 12514248X-it00000000060 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD
 DAIAinfo aus_status vormerkbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_link http://vormerk.link ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -182,7 +185,7 @@ DAIAinfo zeit_bestand01 2022 108 ofniAIAD
 DAIAinfo epn 125142498-125142498-1 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_link localhost:5000/?hrid=125142498-1 ofniAIAD
+DAIAinfo aus_link http://localhost:5000/?hrid=125142498-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -193,7 +196,7 @@ DAIAinfo sig Pc-Pomm. 5 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
-DAIAinfo aus_link localhost:5000/?hrid=074678310-1 ofniAIAD
+DAIAinfo aus_link http://localhost:5000/?hrid=074678310-1 ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -205,7 +208,7 @@ DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=
 DAIAinfo epn 070304823-070304823-1 ofniAIAD
 DAIAinfo sig 4° ZA 363 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_link localhost:5000/?hrid=070304823-1 ofniAIAD
+DAIAinfo aus_link http://localhost:5000/?hrid=070304823-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -218,7 +221,7 @@ DAIAinfo epn 577916610-577916610-1 ofniAIAD
 DAIAinfo sig Z 440 ofniAIAD
 DAIAinfo aus_ind i Lesesaal ofniAIAD
 DAIAinfo aus_text nur für den Lesesaal ofniAIAD
-DAIAinfo aus_link localhost:5000/?hrid=577916610-1 ofniAIAD
+DAIAinfo aus_link http://localhost:5000/?hrid=577916610-1 ofniAIAD
 DAIAinfo abt_num 25/019-019-16-GHMAG ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -249,7 +252,7 @@ DAIAinfo sig 29 998 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
-DAIAinfo aus_link localhost:5000/?hrid=142907898-1 ofniAIAD
+DAIAinfo aus_link http://localhost:5000/?hrid=142907898-1 ofniAIAD
 DAIAinfo abt_num 25/002-002-10-GFGPÄD ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Erziehungswissenschaft ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -260,7 +263,7 @@ DAIAinfo sig 92 FOR ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
-DAIAinfo aus_link localhost:5000/?hrid=127443576-1 ofniAIAD
+DAIAinfo aus_link http://localhost:5000/?hrid=127443576-1 ofniAIAD
 DAIAinfo abt_num 25/002-002-20-GFGPUB ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Publizistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -281,7 +284,7 @@ DAIAinfo sig A 10.23 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
-DAIAinfo aus_link localhost:5000/?hrid=544101928-1 ofniAIAD
+DAIAinfo aus_link http://localhost:5000/?hrid=544101928-1 ofniAIAD
 DAIAinfo abt_num 25/002-113-GFGSPO ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Sportwissenschaften ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -292,7 +295,7 @@ DAIAinfo sig X R/I F 1 1999/2000 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
-DAIAinfo aus_link localhost:5000/?hrid=15045659X-1 ofniAIAD
+DAIAinfo aus_link http://localhost:5000/?hrid=15045659X-1 ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -303,7 +306,7 @@ DAIAinfo sig I-3 FOR-1 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
-DAIAinfo aus_link localhost:5000/?hrid=154871745-1 ofniAIAD
+DAIAinfo aus_link http://localhost:5000/?hrid=154871745-1 ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -314,7 +317,7 @@ DAIAinfo sig Y 99-0-A15 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
-DAIAinfo aus_link localhost:5000/?hrid=144585952-1 ofniAIAD
+DAIAinfo aus_link http://localhost:5000/?hrid=144585952-1 ofniAIAD
 DAIAinfo abt_num 25/004-075-PHSLAV ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Slavistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -366,6 +369,7 @@ DAIAinfo sig RARA ZD 759-236 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind i Lesesaal ofniAIAD
 DAIAinfo aus_text nur für den Lesesaal ofniAIAD
+DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/000-000-18-ZBRARA ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Rara ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -572,11 +576,12 @@ DAIAinfo epn 238871002-238871002-1 ofniAIAD
 DAIAinfo sig L/E C 13 1/4 ofniAIAD
 DAIAinfo aus_status vormerkbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_link http://vormerk.link ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Amerikanistik ofniAIAD
-DAIAinfo aus_datum 2024-10-25T21:59:59.000+00:00 ofniAIAD
+DAIAinfo aus_datum 25-10-2024 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=L%2FE%20C%2013%201%2F4&c1=25%2F004-072-PHANG&c2=Amerikanistik">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=L%2FE%20C%2013%201%2F4&c1=25%2F004-072-PHANG&c2=Amerikanistik"> ofniAIAD
 DAIAinfo epn 1010451073-1010451073-1 ofniAIAD
 DAIAinfo sig LIT-AM 01.20 Berco 2-4 ofniAIAD
@@ -786,7 +791,7 @@ DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=
 DAIAinfo epn 1009145665-1009145665-1 ofniAIAD
 DAIAinfo sig 4° BF 7592 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_link localhost:5000/?hrid=1009145665-1 ofniAIAD
+DAIAinfo aus_link http://localhost:5000/?hrid=1009145665-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -804,7 +809,7 @@ DAIAinfo zeit_bestand01 2017 ofniAIAD
 DAIAinfo epn 1176923048-1176923048-1 ofniAIAD
 DAIAinfo sig 4° BG 6401 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_link localhost:5000/?hrid=1176923048-1 ofniAIAD
+DAIAinfo aus_link http://localhost:5000/?hrid=1176923048-1 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -814,7 +819,7 @@ DAIAinfo sig 28 BOFA 1/2009 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
-DAIAinfo aus_link localhost:5000/?hrid=60030101X-1 ofniAIAD
+DAIAinfo aus_link http://localhost:5000/?hrid=60030101X-1 ofniAIAD
 DAIAinfo abt_num 25/002-002-22-GFGSOZ ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Soziologie ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -1155,6 +1160,7 @@ DAIAinfo sig 073 Av 2016/2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind i Lesesaal ofniAIAD
 DAIAinfo aus_text nur für den Lesesaal ofniAIAD
+DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/004-127-PHMAG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -1491,6 +1497,7 @@ DAIAinfo sig 092 AaM 6 / 54,2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind i Lesesaal ofniAIAD
 DAIAinfo aus_text nur für den Lesesaal ofniAIAD
+DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/004-127-PHMAG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
