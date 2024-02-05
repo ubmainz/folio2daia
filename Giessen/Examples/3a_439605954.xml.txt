@@ -4,7 +4,8 @@ DAIAinfo epn 1058903306-1058903306-1 ofniAIAD
 DAIAinfo sig 22.611.28 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_link https://opac.uni-giessen.de/LBS_WEB/volumes/show.htm?USR=7701&BES=1&EPN={HRID}&LOGIN=ANONYMOUS ofniAIAD
+DAIAinfo aus_text Magazinbestellung ofniAIAD
+DAIAinfo aus_link https://magazin.link ofniAIAD
 DAIAinfo abt_num ILN204/CG/UB/UBMag3 ofniAIAD
-DAIAinfo abt_name UB Magazin ofniAIAD
-DAIAinfo abt_link http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=ILN204/CG/UB/UBMag3 ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
