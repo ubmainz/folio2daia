@@ -116,6 +116,7 @@
         </xsl:for-each>
         <xsl:for-each select="holdings/holding[holdingsTypeId!='996f93e2-5b5e-4cf2-9168-33ced1f95eed']"> <!-- für nicht elektronische Bestände -->
             <xsl:sort select="effectiveLocation/discoveryDisplayName" order="ascending" lang="de"/>
+            <xsl:sort select="callNumber" order="ascending" lang="de"/>
             <xsl:for-each select="items/item">
                 <xsl:sort select="enumeration|chronology" order="ascending"/>
                 <xsl:sort select="hrid" order="ascending"/>
