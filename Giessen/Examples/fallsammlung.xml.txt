@@ -1,0 +1,28 @@
+
+
+DAIAinfo epn 777781581-777781581-1 ofniAIAD
+DAIAinfo sig 000 KS 3375 O85 ofniAIAD
+DAIAinfo aus_ind s ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
+DAIAinfo abt_num UB Freihandbestand (1.Stock) ofniAIAD
+DAIAinfo abt_name  ofniAIAD
+DAIAinfo abt_link http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ ofniAIAD
+
+DAIAinfo epn 1036506452-1036506452-1 ofniAIAD
+DAIAinfo sig 000 ST 530 M947 ofniAIAD
+DAIAinfo aus_text Datenänderung 999 ofniAIAD
+DAIAinfo aus_text Datenänderung 990 ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ofniAIAD
+DAIAinfo abt_num 000 ofniAIAD
+DAIAinfo abt_name  ofniAIAD
+DAIAinfo abt_link http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ ofniAIAD
+
+DAIAinfo epn 575083883-575083883-1 ofniAIAD
+DAIAinfo sig FH kla Lb 9.7 ofniAIAD
+DAIAinfo aus_status vormerkbar ofniAIAD
+DAIAinfo aus_ind u ofniAIAD
+DAIAinfo abt_num UB Freihandbestand (2.Stock) ofniAIAD
+DAIAinfo abt_name  ofniAIAD
+DAIAinfo abt_link http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ ofniAIAD
+DAIAinfo aus_datum 2024-02-15T22:59:59.000+00:00 ofniAIAD

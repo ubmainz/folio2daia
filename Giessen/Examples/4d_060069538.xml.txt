@@ -1,0 +1,19 @@
+
+
+DAIAinfo epn 124617069-124617069-1 ofniAIAD
+DAIAinfo sig ADk 371.315.6/5 ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_link https://opac.uni-giessen.de/LBS_WEB/volumes/show.htm?USR=7701&BES=1&EPN={HRID}&LOGIN=ANONYMOUS ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/UBMagAltbau ofniAIAD
+DAIAinfo abt_name UB Altbaumagazin ofniAIAD
+DAIAinfo abt_link http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=ILN204/CG/UB/UBMagAltbau ofniAIAD
+
+
+DAIAinfo epn 210477946-210477946-1 ofniAIAD
+DAIAinfo sig FH Sport S-1.02-98-14 ofniAIAD
+DAIAinfo aus_ind g ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/UBSemapp ofniAIAD
+DAIAinfo abt_name Semesterapparate UB ofniAIAD
+DAIAinfo abt_link http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=ILN204/CG/UB/UBSemapp ofniAIAD
+DAIAinfo aus_text 00001 ofniAIAD
