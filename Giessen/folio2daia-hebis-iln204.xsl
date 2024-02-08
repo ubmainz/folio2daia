@@ -11,12 +11,9 @@
              (Bei Fehlen des Sprachtextes wird der Text der ersten Sprache verwendet.)
          ind : [optional] Ausleihindikator, überschreibt für diesen Standort den Wert, der aus FOLIO kommt
          url : [optional] URL für den Nutzer mit Infomationen für den Nutzer (z.B. Normdatensatz), default siehe oben
-         map : [optional, wiederholbar] mit linktype="mapongo" oder linktype="bibmap", z.B. <map linktype="mapongo"/>
-         campus : [optional] Campus Germersheim ("cg") oder Campus Mainz ("cm" bzw. "cz") für campusübergreifende Ausleihe UB Mainz, "cz" auch für Unimedizin -->
+         map : [optional, wiederholbar] mit linktype="mapongo" oder linktype="bibmap" oder linktype="semapp", z.B. <map linktype="mapongo"/>
+         campus : [optional] Für standortübergreifende Angaben, z.B. Magazinbestände oder Handapparate -->
     <xsl:variable name="bbtabelle">
-        <!--
-        <e><c>25/000-000-10-ZBFREI</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Bücherturm</n><n xml:lang="en">Central Library, Book Tower</n><map linktype="mapongo"/></e>
-        -->
         <e>
             <c>ILN204/CG/UB/Freihand1OG</c>
             <n xml:lang="de">UB Freihand, 1. OG</n>
@@ -37,10 +34,6 @@
             <n xml:lang="de">Universitätsbibliothek (UB), Otto-Behaghel-Str. 8</n>
             <n xml:lang="en">University Library (UB), Otto-Behaghel-Str. 8</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
-            
-            <sto_n xml:lang="de">Magazin</sto_n>
-            <!--<sto_n xml:lang="en">Closed Stacks</sto_n>-->
-            <h>https://opac.uni-giessen.de/LBS_WEB/volumes/show.htm?USR=7701&amp;BES=1&amp;EPN={HRID}&amp;LOGIN=ANONYMOUS</h>
         </e>
         <e>
             <c>ILN204/CG/UB/UBMag3</c>
@@ -48,28 +41,20 @@
             <n xml:lang="de">Universitätsbibliothek (UB), Otto-Behaghel-Str. 8</n>
             <n xml:lang="en">University Library (UB), Otto-Behaghel-Str. 8</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
-            
-            <sto_n xml:lang="de">Magazin</sto_n>
-            <!--<sto_n xml:lang="en">Closed Stacks</sto_n>-->
-            <h>https://opac.uni-giessen.de/LBS_WEB/volumes/show.htm?USR=7701&amp;BES=1&amp;EPN={HRID}&amp;LOGIN=ANONYMOUS</h>
         </e>
         <e>
             <c>ILN204/CG/UB/UBMagKeller</c>
             <campus>Magazin</campus>
             <n xml:lang="de">Universitätsbibliothek (UB), Otto-Behaghel-Str. 8</n>
             <n xml:lang="en">University Library (UB), Otto-Behaghel-Str. 8</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
-            
-            <sto_n xml:lang="de">Magazin</sto_n>
-            <!--<sto_n xml:lang="en">Closed Stacks</sto_n>-->
-            <h>https://opac.uni-giessen.de/LBS_WEB/volumes/show.htm?USR=7701&amp;BES=1&amp;EPN={HRID}&amp;LOGIN=ANONYMOUS</h>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>            
         </e>
         <e>
             <c>ILN204/CG/UB/UBSemapp</c>
-            <campus>Semesterapparate</campus>
             <n xml:lang="de">Semesterapparate UB</n>
             <n xml:lang="en">UB Course Reserves</n>
-            <ind>i</ind>
+            <ind>g</ind>
+            <map linktype="semapp"/>
             <url>https://www.uni-giessen.de/ub/de/forlehr/litbereit/semesterapparate/copy_of_semesterapparate</url>
         </e>
         <e>
@@ -486,6 +471,7 @@
                 <xsl:choose>
                     <xsl:when test="$map/@linktype='mapongo'"><xsl:call-template name="mapongo"/></xsl:when>
                     <xsl:when test="$map/@linktype='bibmap'"><xsl:call-template name="bibmap"/></xsl:when>
+                    <xsl:when test="$map/@linktype='semapp'"><xsl:call-template name="semapp"/></xsl:when>
                 </xsl:choose>
             </xsl:for-each>
         </xsl:for-each>
@@ -576,7 +562,7 @@
         <!-- MF: Hier war für Gießen eine Änderung in der substring-Funktion notwendig, da 
                  der Ausleihindikator bei uns in permanentLoanType/name an der dritten Stelle steht,
                  also z.B. "0 u ausleihbar" -->
-        <xsl:variable select="( $bbtabelle/e[c=current()/../../effectiveLocation/code]/ind,
+        <xsl:variable select="($bbtabelle/e[c=current()/../effectiveLocation/code]/ind,
             substring(../permanentLoanType/name, 3, 1)
             )[1]" name="ind"/> <!-- + temp loan type -->
         <xsl:variable name="result">
@@ -603,14 +589,6 @@
                 <status name='Unavailable'/>
                 <status name='Unknown'/>
                 <status name='Withdrawn'/>
-            </xsl:variable>
-            <xsl:variable name="campusubmainz">
-                <hinweis-u campus="cg"><t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Germersheim: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;</t2><t3 xml:lang="de">Mainz: bestellen</t3></hinweis-u> <!-- Z.B. Englisch: <t xml:lang="en">Germersheim: ...</t> -->
-                <hinweis-u campus="cm"><t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Mainz: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;</t2><t3 xml:lang="de">Germersheim: bestellen</t3></hinweis-u>
-                <hinweis-u campus="cz"><t2 xml:lang="de">Germersheim: bestellen</t2><t3 xml:lang="de">Universitätsmedizin: bestellen</t3><t4 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Alle anderen: selbst am Regal holen&lt;/font&gt;&lt;/b&gt;</t4></hinweis-u>
-                <hinweis-s campus="cg"><t2 xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Mainz möglich, bitte wenden Sie sich an die Information</t2></hinweis-s>
-                <hinweis-s campus="cm"><t2 xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, bitte wenden Sie sich an die Information</t2></hinweis-s>
-                <hinweis-s campus="cz"><t2 xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, bitte wenden Sie sich an die Information</t2></hinweis-s>
             </xsl:variable>
             <xsl:variable name="campusubgiessen">
                 <hinweis-u campus="Magazin"><h>https://magazin.link</h><t1 xml:lang="de">&lt;a href='https://magazin.stock'&gt;Magazin&lt;/a&gt;</t1></hinweis-u>
@@ -741,6 +719,32 @@
                 <xsl:text>&lt;/b&gt;&lt;/a&gt;</xsl:text>
             </xsl:with-param>
         </xsl:call-template>        
+    </xsl:template>
+    
+    <xsl:template name="semapp">
+        <xsl:variable name="locationtext"> <!-- Mapongo-Link -->
+            <t xml:lang="de">Standort in der Bibliothek anzeigen</t>
+            <t xml:lang="en">show location</t>
+        </xsl:variable>
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag">standort</xsl:with-param>
+            <xsl:with-param name="value">                
+                <xsl:text>&lt;a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?begriff=sem_app</xsl:text>
+                <xsl:text>"&gt;&lt;img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="</xsl:text>
+                <xsl:call-template name="selectlanguage">
+                    <xsl:with-param name="fields" select="$locationtext/t"/>
+                </xsl:call-template>             
+                <xsl:text>" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/&gt;&lt;b&gt;</xsl:text>
+                <xsl:call-template name="selectlanguage">
+                    <xsl:with-param name="fields" select="$locationtext/t"/>
+                </xsl:call-template>                                    
+                <xsl:text>&lt;/b&gt;&lt;/a&gt;</xsl:text>
+            </xsl:with-param>
+        </xsl:call-template>
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag">aus_text</xsl:with-param>
+            <xsl:with-param name="value">Semesterapparat</xsl:with-param>
+        </xsl:call-template>
     </xsl:template>
     
     <xsl:template name="hap-giessen"> <!-- Gießener Handapparat-Informationen -->

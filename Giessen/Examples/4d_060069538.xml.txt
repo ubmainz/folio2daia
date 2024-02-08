@@ -4,16 +4,17 @@ DAIAinfo epn 124617069-124617069-1 ofniAIAD
 DAIAinfo sig ADk 371.315.6/5 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_link https://opac.uni-giessen.de/LBS_WEB/volumes/show.htm?USR=7701&BES=1&EPN={HRID}&LOGIN=ANONYMOUS ofniAIAD
+DAIAinfo aus_text <a href='https://magazin.stock'>Magazin</a> ofniAIAD
+DAIAinfo aus_link https://magazin.link ofniAIAD
 DAIAinfo abt_num ILN204/CG/UB/UBMagAltbau ofniAIAD
-DAIAinfo abt_name UB Altbaumagazin ofniAIAD
-DAIAinfo abt_link http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=ILN204/CG/UB/UBMagAltbau ofniAIAD
-
-
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
 DAIAinfo epn 210477946-210477946-1 ofniAIAD
 DAIAinfo sig FH Sport S-1.02-98-14 ofniAIAD
-DAIAinfo aus_ind g ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo aus_text 00001 ofniAIAD
 DAIAinfo abt_num ILN204/CG/UB/UBSemapp ofniAIAD
 DAIAinfo abt_name Semesterapparate UB ofniAIAD
-DAIAinfo abt_link http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=ILN204/CG/UB/UBSemapp ofniAIAD
-DAIAinfo aus_text 00001 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/forlehr/litbereit/semesterapparate/copy_of_semesterapparate ofniAIAD
+DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=sem_app"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo aus_text Semesterapparat ofniAIAD
