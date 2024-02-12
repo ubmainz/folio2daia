@@ -5,20 +5,19 @@ DAIAinfo sig 000 ZX 9340 K15 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo abt_num ILN204/CG/UB/Freihand1OG ofniAIAD
-DAIAinfo abt_name UB Freihand, 1. OG ofniAIAD
+DAIAinfo abt_name Freihandbestand UB (1.Stock) ofniAIAD
 DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
-DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=000%20ZX%209340%20K15"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
 DAIAinfo epn 58478130X-58478130X-1 ofniAIAD
 DAIAinfo sig FH spo Dk 0.27 (2.Ex.) ofniAIAD
 DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
-DAIAinfo standort <b>Standort:</b> <a target="_blank" href="https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/hap?hap=hap10620171">Prof. Munzert, Sportpsych. u. Bewegungswiss.,  Kugelberg 62</a> ofniAIAD
+DAIAinfo standort <b>Standort:</b> <a target="_blank" href="https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/hap?hap=hap10620171">Prof. Munzert, Sportpsych. u. Bewegungswiss.,</a> ofniAIAD
 DAIAinfo abt_num ILN204/CG/UB/Handapparate ofniAIAD
-DAIAinfo abt_name Handapparate UB ofniAIAD
-DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-h/ag2-Handapparate ofniAIAD
+DAIAinfo abt_name UB Handapparate ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
 DAIAinfo epn 59875914X-59875914X-1 ofniAIAD
 DAIAinfo sig FH spo Dk 0.27 (3.Ex.) ofniAIAD
 DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
-DAIAinfo standort <b>Standort:</b> <a target="_blank" href="https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/hap?hap=hap10620172"></a> ofniAIAD
+DAIAinfo standort <b>Standort:</b> <a target="_blank" href="https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/hap?hap=hap10620172">Proff. Müller, Sportwiss., Kugelberg 62",</a> ofniAIAD
 DAIAinfo abt_num ILN204/CG/UB/Handapparate ofniAIAD
-DAIAinfo abt_name Handapparate UB ofniAIAD
-DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-h/ag2-Handapparate ofniAIAD
+DAIAinfo abt_name UB Handapparate ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
