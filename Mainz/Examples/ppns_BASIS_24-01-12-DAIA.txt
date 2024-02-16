@@ -140,7 +140,7 @@ DAIAinfo sig ZG 779 ofniAIAD
 DAIAinfo aus_status vormerkbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_link http://vormerk.link ofniAIAD
-DAIAinfo aus_datum 12-01-2024 ofniAIAD
+DAIAinfo aus_datum 09-02-2024 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
@@ -150,7 +150,7 @@ DAIAinfo sig ZG 779 ofniAIAD
 DAIAinfo aus_status vormerkbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_link http://vormerk.link ofniAIAD
-DAIAinfo aus_datum 12-01-2024 ofniAIAD
+DAIAinfo aus_datum 09-02-2024 ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
