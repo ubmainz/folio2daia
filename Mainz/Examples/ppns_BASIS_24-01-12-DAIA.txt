@@ -117,6 +117,24 @@ DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo zeit_bestand01 N.F. ofniAIAD
 DAIAinfo zeit_bestand02 1.1897 - 2.1898; 4.1900 - 32.1930; 36.1934 - ofniAIAD
+DAIAinfo epn 12514248X-it00000000095 ofniAIAD
+DAIAinfo sig ZG 779 ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
+DAIAinfo zeit_bestand01 104.2018 ofniAIAD
+DAIAinfo epn 12514248X-it00000000161 ofniAIAD
+DAIAinfo sig ZG 779 ofniAIAD
+DAIAinfo aus_status vormerkbar ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_link http://vormerk.link ofniAIAD
+DAIAinfo aus_datum 13-03-2024 ofniAIAD
+DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
+DAIAinfo zeit_bestand01 1984 0815 11-25 ofniAIAD
 DAIAinfo epn 12514248X-it00000000063 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -164,25 +182,6 @@ DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo zeit_bestand01 - Index zu ofniAIAD
 DAIAinfo zeit_bestand02 27/42.1925/40 ofniAIAD
-DAIAinfo epn 070019789-070019789-1 ofniAIAD
-DAIAinfo sig ZG 831 ofniAIAD
-DAIAinfo aus_ind i Lesesaal ofniAIAD
-DAIAinfo aus_text nur für den Lesesaal ofniAIAD
-DAIAinfo aus_link http://localhost:5000/?hrid=070019789-1 ofniAIAD
-DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
-DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
-DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo zeit_bestand01 21.1866; 25.1874 - 41.1891; 43.1893 - 46.1896 ofniAIAD
-DAIAinfo epn 125142471-125142471-1 ofniAIAD
-DAIAinfo sig ZG 831 ofniAIAD
-DAIAinfo aus_ind i Lesesaal ofniAIAD
-DAIAinfo aus_text nur für den Lesesaal ofniAIAD
-DAIAinfo aus_link http://localhost:5000/?hrid=125142471-1 ofniAIAD
-DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
-DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
-DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo zeit_bestand01 - Index zu ofniAIAD
-DAIAinfo zeit_bestand02 1/46.1902 ofniAIAD
 DAIAinfo epn 125142463-125142463-1 ofniAIAD
 DAIAinfo sig ZG 831 ofniAIAD
 DAIAinfo aus_ind i Lesesaal ofniAIAD
@@ -193,6 +192,35 @@ DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo zeit_bestand01 - Erg.Bd. zu ofniAIAD
 DAIAinfo zeit_bestand02 1898 ofniAIAD
+DAIAinfo epn 125142471-125142471-1 ofniAIAD
+DAIAinfo sig ZG 831 ofniAIAD
+DAIAinfo aus_ind i Lesesaal ofniAIAD
+DAIAinfo aus_text nur für den Lesesaal ofniAIAD
+DAIAinfo aus_link http://localhost:5000/?hrid=125142471-1 ofniAIAD
+DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
+DAIAinfo zeit_bestand01 - Index zu ofniAIAD
+DAIAinfo zeit_bestand02 1/46.1902 ofniAIAD
+DAIAinfo epn 070019789-070019789-1 ofniAIAD
+DAIAinfo sig ZG 831 ofniAIAD
+DAIAinfo aus_ind i Lesesaal ofniAIAD
+DAIAinfo aus_text nur für den Lesesaal ofniAIAD
+DAIAinfo aus_link http://localhost:5000/?hrid=070019789-1 ofniAIAD
+DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
+DAIAinfo zeit_bestand01 21.1866; 25.1874 - 41.1891; 43.1893 - 46.1896 ofniAIAD
+DAIAinfo epn 070019789-it00000000128 ofniAIAD
+DAIAinfo sig ZG 831 ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind i Lesesaal ofniAIAD
+DAIAinfo aus_text nur für den Lesesaal ofniAIAD
+DAIAinfo aus_link http://bestell.link ofniAIAD
+DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
+DAIAinfo zeit_bestand01 1899   ofniAIAD
 DAIAinfo epn 074678310-074678310-1 ofniAIAD
 DAIAinfo sig Pc-Pomm. 5 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
@@ -205,6 +233,42 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Evangelische Theologie ofniAIAD
 DAIAinfo zeit_bestand01 N.F. ofniAIAD
 DAIAinfo zeit_bestand02 30.1928; 33.1931 - 38.1936 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH"> ofniAIAD
+DAIAinfo epn 074678310-it00000000162 ofniAIAD
+DAIAinfo sig Pc-Pomm. 5 ofniAIAD
+DAIAinfo aus_status vormerkbar ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_link http://vormerk.link ofniAIAD
+DAIAinfo aus_datum 13-03-2024 ofniAIAD
+DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
+DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
+DAIAinfo standort Evangelische Theologie ofniAIAD
+DAIAinfo zeit_bestand01 1000   ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH"> ofniAIAD
+DAIAinfo epn 074678310-it00000000169 ofniAIAD
+DAIAinfo sig Pc-Pomm. 5 ofniAIAD
+DAIAinfo aus_status vormerkbar ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_link http://vormerk.link ofniAIAD
+DAIAinfo aus_datum 18-03-2024 ofniAIAD
+DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
+DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
+DAIAinfo standort Evangelische Theologie ofniAIAD
+DAIAinfo zeit_bestand01 1932 34  ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH"> ofniAIAD
+DAIAinfo epn 074678310-it00000000165 ofniAIAD
+DAIAinfo sig Pc-Pomm. 5 ofniAIAD
+DAIAinfo aus_status vormerkbar ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_link http://vormerk.link ofniAIAD
+DAIAinfo aus_datum 15-03-2024 ofniAIAD
+DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
+DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
+DAIAinfo standort Evangelische Theologie ofniAIAD
+DAIAinfo zeit_bestand01 1936 36 Seite 13 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH"> ofniAIAD
 
 DAIAinfo epn 070304823-070304823-1 ofniAIAD

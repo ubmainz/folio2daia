@@ -1292,7 +1292,7 @@ BCO 077</description>
   <lang>de</lang>
   <instance>
     <id>66fd7054-ffc6-46c1-8e84-6229680fd4df</id>
-    <_version>60</_version>
+    <_version>73</_version>
     <hrid>047264489</hrid>
     <source>hebis</source>
     <title>Baltische Studien : pommersche Jahrbücher für Landesgeschichte ; zugleich Mitteilungsorgan der Historischen Kommission für Pommern und der Arbeitsgemeinschaft für Pommersche Kirchengeschichte e.V. / hrsg. von der Gesellschaft für Pommersche Geschichte, Altertumskunde und Kunst e.V.</title>
@@ -1420,338 +1420,6 @@ BCO 077</description>
   </instance>
   <holdings>
     <holding>
-      <id>6bc248fd-77d2-47e7-9b88-e134916189a4</id>
-      <_version>4</_version>
-      <hrid>070019789</hrid>
-      <holdingsTypeId>0c422f92-0f4d-4d32-8cbe-390ebc33a3e5</holdingsTypeId>
-      <instanceId>66fd7054-ffc6-46c1-8e84-6229680fd4df</instanceId>
-      <permanentLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</permanentLocationId>
-      <effectiveLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</effectiveLocationId>
-      <callNumber>ZG 831</callNumber>
-      <notes>
-        <note>12.01.24 09:30</note>
-        <staffOnly>true</staffOnly>
-        <holdingsNoteTypeId>7cad8584-35f9-4ea7-8944-11bcf40ff29c</holdingsNoteTypeId>
-      </notes>
-      <notes>
-        <note>BASIS DAIA</note>
-        <staffOnly>true</staffOnly>
-        <holdingsNoteTypeId>49050d37-2d82-452c-a963-2645ffc0b9a9</holdingsNoteTypeId>
-      </notes>
-      <holdingsStatements>
-        <statement>21.1866; 25.1874 - 41.1891; 43.1893 - 46.1896</statement>
-      </holdingsStatements>
-      <discoverySuppress>false</discoverySuppress>
-      <metadata>
-        <createdDate>2023-08-16T06:21:17.867+00:00</createdDate>
-        <createdByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</createdByUserId>
-        <updatedDate>2024-01-12T08:30:52.101+00:00</updatedDate>
-        <updatedByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</updatedByUserId>
-      </metadata>
-      <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
-      <effectiveLocation>
-        <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
-        <name>ZB Magazin</name>
-        <code>ZBMAG</code>
-        <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder
-BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
-        <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
-        <isActive>true</isActive>
-        <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
-        <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
-        <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
-        <details/>
-        <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
-        <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
-        <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
-        <metadata>
-          <createdDate>2021-01-11T14:40:05.771+00:00</createdDate>
-          <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
-          <updatedDate>2023-12-13T14:27:21.744+00:00</updatedDate>
-          <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
-        </metadata>
-      </effectiveLocation>
-      <items>
-        <item>
-          <id>fc485318-99d1-4f3a-9065-9c88b04eed71</id>
-          <_version>4</_version>
-          <hrid>070019789-1</hrid>
-          <holdingsRecordId>6bc248fd-77d2-47e7-9b88-e134916189a4</holdingsRecordId>
-          <discoverySuppress>false</discoverySuppress>
-          <effectiveShelvingOrder>ZG 831</effectiveShelvingOrder>
-          <effectiveCallNumberComponents>
-            <callNumber>ZG 831</callNumber>
-          </effectiveCallNumberComponents>
-          <yearCaption>21.1866; 25.1874 - 41.1891; 43.1893 - 46.1896</yearCaption>
-          <status>
-            <name>Intellectual item</name>
-            <date>2023-08-16T06:21:17.903+00:00</date>
-          </status>
-          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
-          <permanentLoanTypeId>e04e82c1-1257-4046-bc5e-d742bbe061da</permanentLoanTypeId>
-          <effectiveLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</effectiveLocationId>
-          <metadata>
-            <createdDate>2023-08-16T06:21:17.906+00:00</createdDate>
-            <createdByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</createdByUserId>
-            <updatedDate>2024-01-12T08:30:52.153+00:00</updatedDate>
-            <updatedByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</updatedByUserId>
-          </metadata>
-          <permanentLoanType>
-            <id>e04e82c1-1257-4046-bc5e-d742bbe061da</id>
-            <name>i nur für den Lesesaal</name>
-            <metadata>
-              <createdDate>2021-01-05T12:06:07.129+00:00</createdDate>
-              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
-              <updatedDate>2023-12-15T12:35:09.586+00:00</updatedDate>
-              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
-            </metadata>
-          </permanentLoanType>
-          <effectiveLocation>
-            <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
-            <name>ZB Magazin</name>
-            <code>ZBMAG</code>
-            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder
-BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
-            <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
-            <isActive>true</isActive>
-            <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
-            <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
-            <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
-            <details/>
-            <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
-            <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
-            <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
-            <metadata>
-              <createdDate>2021-01-11T14:40:05.771+00:00</createdDate>
-              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
-              <updatedDate>2023-12-13T14:27:21.744+00:00</updatedDate>
-              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
-            </metadata>
-          </effectiveLocation>
-        </item>
-      </items>
-    </holding>
-    <holding>
-      <id>8442511c-cc72-4481-bf22-22cb72bbe853</id>
-      <_version>4</_version>
-      <hrid>125142471</hrid>
-      <holdingsTypeId>0c422f92-0f4d-4d32-8cbe-390ebc33a3e5</holdingsTypeId>
-      <instanceId>66fd7054-ffc6-46c1-8e84-6229680fd4df</instanceId>
-      <permanentLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</permanentLocationId>
-      <effectiveLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</effectiveLocationId>
-      <callNumber>ZG 831</callNumber>
-      <notes>
-        <note>12.01.24 09:30</note>
-        <staffOnly>true</staffOnly>
-        <holdingsNoteTypeId>7cad8584-35f9-4ea7-8944-11bcf40ff29c</holdingsNoteTypeId>
-      </notes>
-      <holdingsStatements>
-        <statement>- Index zu</statement>
-      </holdingsStatements>
-      <holdingsStatements>
-        <statement>1/46.1902</statement>
-      </holdingsStatements>
-      <discoverySuppress>false</discoverySuppress>
-      <metadata>
-        <createdDate>2023-08-16T06:21:17.867+00:00</createdDate>
-        <createdByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</createdByUserId>
-        <updatedDate>2024-01-12T08:30:52.101+00:00</updatedDate>
-        <updatedByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</updatedByUserId>
-      </metadata>
-      <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
-      <effectiveLocation>
-        <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
-        <name>ZB Magazin</name>
-        <code>ZBMAG</code>
-        <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder
-BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
-        <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
-        <isActive>true</isActive>
-        <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
-        <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
-        <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
-        <details/>
-        <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
-        <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
-        <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
-        <metadata>
-          <createdDate>2021-01-11T14:40:05.771+00:00</createdDate>
-          <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
-          <updatedDate>2023-12-13T14:27:21.744+00:00</updatedDate>
-          <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
-        </metadata>
-      </effectiveLocation>
-      <items>
-        <item>
-          <id>59f132e6-7e49-424a-939a-a2eaa8baaabd</id>
-          <_version>4</_version>
-          <hrid>125142471-1</hrid>
-          <holdingsRecordId>8442511c-cc72-4481-bf22-22cb72bbe853</holdingsRecordId>
-          <discoverySuppress>false</discoverySuppress>
-          <effectiveShelvingOrder>ZG 831</effectiveShelvingOrder>
-          <effectiveCallNumberComponents>
-            <callNumber>ZG 831</callNumber>
-          </effectiveCallNumberComponents>
-          <yearCaption>- Index zu: 1/46.1902</yearCaption>
-          <status>
-            <name>Intellectual item</name>
-            <date>2023-08-16T06:21:17.903+00:00</date>
-          </status>
-          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
-          <permanentLoanTypeId>e04e82c1-1257-4046-bc5e-d742bbe061da</permanentLoanTypeId>
-          <effectiveLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</effectiveLocationId>
-          <metadata>
-            <createdDate>2023-08-16T06:21:17.906+00:00</createdDate>
-            <createdByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</createdByUserId>
-            <updatedDate>2024-01-12T08:30:52.153+00:00</updatedDate>
-            <updatedByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</updatedByUserId>
-          </metadata>
-          <permanentLoanType>
-            <id>e04e82c1-1257-4046-bc5e-d742bbe061da</id>
-            <name>i nur für den Lesesaal</name>
-            <metadata>
-              <createdDate>2021-01-05T12:06:07.129+00:00</createdDate>
-              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
-              <updatedDate>2023-12-15T12:35:09.586+00:00</updatedDate>
-              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
-            </metadata>
-          </permanentLoanType>
-          <effectiveLocation>
-            <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
-            <name>ZB Magazin</name>
-            <code>ZBMAG</code>
-            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder
-BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
-            <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
-            <isActive>true</isActive>
-            <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
-            <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
-            <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
-            <details/>
-            <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
-            <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
-            <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
-            <metadata>
-              <createdDate>2021-01-11T14:40:05.771+00:00</createdDate>
-              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
-              <updatedDate>2023-12-13T14:27:21.744+00:00</updatedDate>
-              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
-            </metadata>
-          </effectiveLocation>
-        </item>
-      </items>
-    </holding>
-    <holding>
-      <id>a1050678-42f0-4c57-a93d-d1663f69ea29</id>
-      <_version>4</_version>
-      <hrid>125142463</hrid>
-      <holdingsTypeId>0c422f92-0f4d-4d32-8cbe-390ebc33a3e5</holdingsTypeId>
-      <instanceId>66fd7054-ffc6-46c1-8e84-6229680fd4df</instanceId>
-      <permanentLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</permanentLocationId>
-      <effectiveLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</effectiveLocationId>
-      <callNumber>ZG 831</callNumber>
-      <notes>
-        <note>12.01.24 09:30</note>
-        <staffOnly>true</staffOnly>
-        <holdingsNoteTypeId>7cad8584-35f9-4ea7-8944-11bcf40ff29c</holdingsNoteTypeId>
-      </notes>
-      <holdingsStatements>
-        <statement>- Erg.Bd. zu</statement>
-      </holdingsStatements>
-      <holdingsStatements>
-        <statement>1898</statement>
-      </holdingsStatements>
-      <discoverySuppress>false</discoverySuppress>
-      <metadata>
-        <createdDate>2023-08-16T06:21:17.867+00:00</createdDate>
-        <createdByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</createdByUserId>
-        <updatedDate>2024-01-12T08:30:52.101+00:00</updatedDate>
-        <updatedByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</updatedByUserId>
-      </metadata>
-      <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
-      <effectiveLocation>
-        <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
-        <name>ZB Magazin</name>
-        <code>ZBMAG</code>
-        <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder
-BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
-        <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
-        <isActive>true</isActive>
-        <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
-        <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
-        <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
-        <details/>
-        <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
-        <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
-        <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
-        <metadata>
-          <createdDate>2021-01-11T14:40:05.771+00:00</createdDate>
-          <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
-          <updatedDate>2023-12-13T14:27:21.744+00:00</updatedDate>
-          <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
-        </metadata>
-      </effectiveLocation>
-      <items>
-        <item>
-          <id>df90e224-ee8e-4e3a-89ec-6a781200afba</id>
-          <_version>4</_version>
-          <hrid>125142463-1</hrid>
-          <holdingsRecordId>a1050678-42f0-4c57-a93d-d1663f69ea29</holdingsRecordId>
-          <discoverySuppress>false</discoverySuppress>
-          <effectiveShelvingOrder>ZG 831</effectiveShelvingOrder>
-          <effectiveCallNumberComponents>
-            <callNumber>ZG 831</callNumber>
-          </effectiveCallNumberComponents>
-          <yearCaption>- Erg.Bd. zu: 1898</yearCaption>
-          <status>
-            <name>Intellectual item</name>
-            <date>2023-08-16T06:21:17.903+00:00</date>
-          </status>
-          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
-          <permanentLoanTypeId>e04e82c1-1257-4046-bc5e-d742bbe061da</permanentLoanTypeId>
-          <effectiveLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</effectiveLocationId>
-          <metadata>
-            <createdDate>2023-08-16T06:21:17.906+00:00</createdDate>
-            <createdByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</createdByUserId>
-            <updatedDate>2024-01-12T08:30:52.153+00:00</updatedDate>
-            <updatedByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</updatedByUserId>
-          </metadata>
-          <permanentLoanType>
-            <id>e04e82c1-1257-4046-bc5e-d742bbe061da</id>
-            <name>i nur für den Lesesaal</name>
-            <metadata>
-              <createdDate>2021-01-05T12:06:07.129+00:00</createdDate>
-              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
-              <updatedDate>2023-12-15T12:35:09.586+00:00</updatedDate>
-              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
-            </metadata>
-          </permanentLoanType>
-          <effectiveLocation>
-            <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
-            <name>ZB Magazin</name>
-            <code>ZBMAG</code>
-            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder
-BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
-            <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
-            <isActive>true</isActive>
-            <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
-            <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
-            <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
-            <details/>
-            <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
-            <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
-            <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
-            <metadata>
-              <createdDate>2021-01-11T14:40:05.771+00:00</createdDate>
-              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
-              <updatedDate>2023-12-13T14:27:21.744+00:00</updatedDate>
-              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
-            </metadata>
-          </effectiveLocation>
-        </item>
-      </items>
-    </holding>
-    <holding>
       <id>dd682fd0-5a1a-48c1-ba6f-a27ca4453c56</id>
       <_version>4</_version>
       <hrid>12514248X</hrid>
@@ -1783,8 +1451,7 @@ BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
         <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
         <name>ZB Magazin</name>
         <code>ZBMAG</code>
-        <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder
-BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
+        <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
         <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
         <isActive>true</isActive>
         <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
@@ -1802,6 +1469,66 @@ BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
         </metadata>
       </effectiveLocation>
       <items>
+        <item>
+          <id>0a8df7f2-397e-4291-b2e6-a9976fffc1c3</id>
+          <_version>2</_version>
+          <hrid>it00000000161</hrid>
+          <holdingsRecordId>dd682fd0-5a1a-48c1-ba6f-a27ca4453c56</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <accessionNumber></accessionNumber>
+          <effectiveShelvingOrder>ZG 779 1984 0815 11-25</effectiveShelvingOrder>
+          <itemLevelCallNumber></itemLevelCallNumber>
+          <effectiveCallNumberComponents>
+            <callNumber>ZG 779</callNumber>
+          </effectiveCallNumberComponents>
+          <chronology>1984 0815 11-25</chronology>
+          <yearCaption>FREIE BESTELLUNG</yearCaption>
+          <status>
+            <name>Paged</name>
+            <date>2024-02-14T12:20:43.208+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>7a03b2e2-c995-47a4-83d0-04bbe1930af4</permanentLoanTypeId>
+          <effectiveLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</effectiveLocationId>
+          <tags/>
+          <metadata>
+            <createdDate>2024-02-14T12:20:29.423+00:00</createdDate>
+            <createdByUserId>ccbadee8-e7d4-4c52-8b44-dbce2a20bd27</createdByUserId>
+            <updatedDate>2024-02-14T12:20:43.204+00:00</updatedDate>
+            <updatedByUserId>ccbadee8-e7d4-4c52-8b44-dbce2a20bd27</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
+            <name>ZB Magazin</name>
+            <code>ZBMAG</code>
+            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
+            <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+            <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+            <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
+            <details/>
+            <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
+            <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
+            <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
+            <metadata>
+              <createdDate>2021-01-11T14:40:05.771+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-13T14:27:21.744+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
+            <name>u ausleihbar</name>
+            <metadata>
+              <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-18T16:24:15.545+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
         <item>
           <id>f517d992-8777-4e72-92f2-3b9bf9f0a519</id>
           <_version>4</_version>
@@ -1826,22 +1553,11 @@ BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
             <updatedDate>2024-01-12T08:30:52.153+00:00</updatedDate>
             <updatedByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</updatedByUserId>
           </metadata>
-          <permanentLoanType>
-            <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>u ausleihbar</name>
-            <metadata>
-              <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
-              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
-              <updatedDate>2023-12-18T16:24:15.545+00:00</updatedDate>
-              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
-            </metadata>
-          </permanentLoanType>
           <effectiveLocation>
             <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
             <name>ZB Magazin</name>
             <code>ZBMAG</code>
-            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder
-BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
+            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
             <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
             <isActive>true</isActive>
             <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
@@ -1858,6 +1574,16 @@ BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
               <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
             </metadata>
           </effectiveLocation>
+          <permanentLoanType>
+            <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
+            <name>u ausleihbar</name>
+            <metadata>
+              <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-18T16:24:15.545+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
         </item>
         <item>
           <id>7ca47f06-a02f-4bac-a988-1bb4c0649b1b</id>
@@ -1884,22 +1610,11 @@ BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
             <updatedDate>2024-01-12T09:55:29.889+00:00</updatedDate>
             <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
           </metadata>
-          <permanentLoanType>
-            <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>u ausleihbar</name>
-            <metadata>
-              <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
-              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
-              <updatedDate>2023-12-18T16:24:15.545+00:00</updatedDate>
-              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
-            </metadata>
-          </permanentLoanType>
           <effectiveLocation>
             <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
             <name>ZB Magazin</name>
             <code>ZBMAG</code>
-            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder
-BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
+            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
             <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
             <isActive>true</isActive>
             <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
@@ -1916,6 +1631,16 @@ BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
               <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
             </metadata>
           </effectiveLocation>
+          <permanentLoanType>
+            <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
+            <name>u ausleihbar</name>
+            <metadata>
+              <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-18T16:24:15.545+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
           <loan>
             <id>025b9ad8-ada6-493b-ae59-4345efd18c77</id>
             <userId>e6ffb02b-5f05-4bd4-90af-00b8964dd030</userId>
@@ -2019,22 +1744,11 @@ BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
             <updatedDate>2024-01-12T09:56:46.686+00:00</updatedDate>
             <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
           </metadata>
-          <permanentLoanType>
-            <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>u ausleihbar</name>
-            <metadata>
-              <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
-              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
-              <updatedDate>2023-12-18T16:24:15.545+00:00</updatedDate>
-              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
-            </metadata>
-          </permanentLoanType>
           <effectiveLocation>
             <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
             <name>ZB Magazin</name>
             <code>ZBMAG</code>
-            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder
-BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
+            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
             <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
             <isActive>true</isActive>
             <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
@@ -2051,6 +1765,16 @@ BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
               <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
             </metadata>
           </effectiveLocation>
+          <permanentLoanType>
+            <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
+            <name>u ausleihbar</name>
+            <metadata>
+              <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-18T16:24:15.545+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
         </item>
         <item>
           <id>d907f8fd-6134-47bf-80a7-90a7c4dcd78b</id>
@@ -2083,22 +1807,11 @@ BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
             <servicePointId>30f2ebb9-5446-4aa7-b6ba-ff73653e7c7a</servicePointId>
             <staffMemberId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</staffMemberId>
           </lastCheckIn>
-          <permanentLoanType>
-            <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>u ausleihbar</name>
-            <metadata>
-              <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
-              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
-              <updatedDate>2023-12-18T16:24:15.545+00:00</updatedDate>
-              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
-            </metadata>
-          </permanentLoanType>
           <effectiveLocation>
             <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
             <name>ZB Magazin</name>
             <code>ZBMAG</code>
-            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder
-BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
+            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
             <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
             <isActive>true</isActive>
             <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
@@ -2115,6 +1828,16 @@ BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
               <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
             </metadata>
           </effectiveLocation>
+          <permanentLoanType>
+            <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
+            <name>u ausleihbar</name>
+            <metadata>
+              <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-18T16:24:15.545+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
         </item>
         <item>
           <id>9b210f3a-ae36-4dc5-9413-e15500c6c5ec</id>
@@ -2141,22 +1864,11 @@ BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
             <updatedDate>2024-01-12T09:59:59.284+00:00</updatedDate>
             <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
           </metadata>
-          <permanentLoanType>
-            <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>u ausleihbar</name>
-            <metadata>
-              <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
-              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
-              <updatedDate>2023-12-18T16:24:15.545+00:00</updatedDate>
-              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
-            </metadata>
-          </permanentLoanType>
           <effectiveLocation>
             <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
             <name>ZB Magazin</name>
             <code>ZBMAG</code>
-            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder
-BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
+            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
             <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
             <isActive>true</isActive>
             <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
@@ -2173,6 +1885,305 @@ BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
               <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
             </metadata>
           </effectiveLocation>
+          <permanentLoanType>
+            <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
+            <name>u ausleihbar</name>
+            <metadata>
+              <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-18T16:24:15.545+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
+        <item>
+          <id>efa428e3-7b05-48c7-bcbc-fde2e20dbc60</id>
+          <_version>2</_version>
+          <hrid>it00000000095</hrid>
+          <holdingsRecordId>dd682fd0-5a1a-48c1-ba6f-a27ca4453c56</holdingsRecordId>
+          <barcode>ausgedacht</barcode>
+          <effectiveShelvingOrder>ZG 779 104.2018</effectiveShelvingOrder>
+          <effectiveCallNumberComponents>
+            <callNumber>ZG 779</callNumber>
+          </effectiveCallNumberComponents>
+          <enumeration>104.2018</enumeration>
+          <status>
+            <name>Available</name>
+            <date>2024-01-26T11:47:20.137+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>7a03b2e2-c995-47a4-83d0-04bbe1930af4</permanentLoanTypeId>
+          <effectiveLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</effectiveLocationId>
+          <tags/>
+          <metadata>
+            <createdDate>2024-01-26T11:47:20.137+00:00</createdDate>
+            <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+            <updatedDate>2024-01-26T11:52:53.208+00:00</updatedDate>
+            <updatedByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
+            <name>ZB Magazin</name>
+            <code>ZBMAG</code>
+            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
+            <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+            <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+            <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
+            <details/>
+            <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
+            <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
+            <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
+            <metadata>
+              <createdDate>2021-01-11T14:40:05.771+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-13T14:27:21.744+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
+            <name>u ausleihbar</name>
+            <metadata>
+              <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-18T16:24:15.545+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
+      </items>
+      <pieces>
+        <piece>
+          <id>93400619-9541-4f89-8818-3fac9048b591</id>
+          <caption>2024 110, heft 1</caption>
+          <format>Physical</format>
+          <poLineId>44aae1f0-d88d-4b81-a4e0-5631227727ba</poLineId>
+          <titleId>b4d3c0f8-a48b-41aa-9be2-ba9c189208e3</titleId>
+          <holdingId>dd682fd0-5a1a-48c1-ba6f-a27ca4453c56</holdingId>
+          <displayOnHolding>true</displayOnHolding>
+          <enumeration>v. 110, Heft 1 </enumeration>
+          <discoverySuppress>false</discoverySuppress>
+          <receivingStatus>Received</receivingStatus>
+          <supplement>false</supplement>
+          <receivedDate>2024-01-29T15:55:15.715+00:00</receivedDate>
+        </piece>
+      </pieces>
+    </holding>
+    <holding>
+      <id>a1050678-42f0-4c57-a93d-d1663f69ea29</id>
+      <_version>4</_version>
+      <hrid>125142463</hrid>
+      <holdingsTypeId>0c422f92-0f4d-4d32-8cbe-390ebc33a3e5</holdingsTypeId>
+      <instanceId>66fd7054-ffc6-46c1-8e84-6229680fd4df</instanceId>
+      <permanentLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</permanentLocationId>
+      <effectiveLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</effectiveLocationId>
+      <callNumber>ZG 831</callNumber>
+      <notes>
+        <note>12.01.24 09:30</note>
+        <staffOnly>true</staffOnly>
+        <holdingsNoteTypeId>7cad8584-35f9-4ea7-8944-11bcf40ff29c</holdingsNoteTypeId>
+      </notes>
+      <holdingsStatements>
+        <statement>- Erg.Bd. zu</statement>
+      </holdingsStatements>
+      <holdingsStatements>
+        <statement>1898</statement>
+      </holdingsStatements>
+      <discoverySuppress>false</discoverySuppress>
+      <metadata>
+        <createdDate>2023-08-16T06:21:17.867+00:00</createdDate>
+        <createdByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</createdByUserId>
+        <updatedDate>2024-01-12T08:30:52.101+00:00</updatedDate>
+        <updatedByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</updatedByUserId>
+      </metadata>
+      <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
+      <effectiveLocation>
+        <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
+        <name>ZB Magazin</name>
+        <code>ZBMAG</code>
+        <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
+        <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
+        <isActive>true</isActive>
+        <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+        <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+        <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
+        <details/>
+        <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
+        <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
+        <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
+        <metadata>
+          <createdDate>2021-01-11T14:40:05.771+00:00</createdDate>
+          <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+          <updatedDate>2023-12-13T14:27:21.744+00:00</updatedDate>
+          <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+        </metadata>
+      </effectiveLocation>
+      <items>
+        <item>
+          <id>df90e224-ee8e-4e3a-89ec-6a781200afba</id>
+          <_version>4</_version>
+          <hrid>125142463-1</hrid>
+          <holdingsRecordId>a1050678-42f0-4c57-a93d-d1663f69ea29</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <effectiveShelvingOrder>ZG 831</effectiveShelvingOrder>
+          <effectiveCallNumberComponents>
+            <callNumber>ZG 831</callNumber>
+          </effectiveCallNumberComponents>
+          <yearCaption>- Erg.Bd. zu: 1898</yearCaption>
+          <status>
+            <name>Intellectual item</name>
+            <date>2023-08-16T06:21:17.903+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>e04e82c1-1257-4046-bc5e-d742bbe061da</permanentLoanTypeId>
+          <effectiveLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</effectiveLocationId>
+          <metadata>
+            <createdDate>2023-08-16T06:21:17.906+00:00</createdDate>
+            <createdByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</createdByUserId>
+            <updatedDate>2024-01-12T08:30:52.153+00:00</updatedDate>
+            <updatedByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
+            <name>ZB Magazin</name>
+            <code>ZBMAG</code>
+            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
+            <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+            <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+            <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
+            <details/>
+            <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
+            <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
+            <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
+            <metadata>
+              <createdDate>2021-01-11T14:40:05.771+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-13T14:27:21.744+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>e04e82c1-1257-4046-bc5e-d742bbe061da</id>
+            <name>i nur für den Lesesaal</name>
+            <metadata>
+              <createdDate>2021-01-05T12:06:07.129+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-15T12:35:09.586+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
+      </items>
+    </holding>
+    <holding>
+      <id>8442511c-cc72-4481-bf22-22cb72bbe853</id>
+      <_version>4</_version>
+      <hrid>125142471</hrid>
+      <holdingsTypeId>0c422f92-0f4d-4d32-8cbe-390ebc33a3e5</holdingsTypeId>
+      <instanceId>66fd7054-ffc6-46c1-8e84-6229680fd4df</instanceId>
+      <permanentLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</permanentLocationId>
+      <effectiveLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</effectiveLocationId>
+      <callNumber>ZG 831</callNumber>
+      <notes>
+        <note>12.01.24 09:30</note>
+        <staffOnly>true</staffOnly>
+        <holdingsNoteTypeId>7cad8584-35f9-4ea7-8944-11bcf40ff29c</holdingsNoteTypeId>
+      </notes>
+      <holdingsStatements>
+        <statement>- Index zu</statement>
+      </holdingsStatements>
+      <holdingsStatements>
+        <statement>1/46.1902</statement>
+      </holdingsStatements>
+      <discoverySuppress>false</discoverySuppress>
+      <metadata>
+        <createdDate>2023-08-16T06:21:17.867+00:00</createdDate>
+        <createdByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</createdByUserId>
+        <updatedDate>2024-01-12T08:30:52.101+00:00</updatedDate>
+        <updatedByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</updatedByUserId>
+      </metadata>
+      <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
+      <effectiveLocation>
+        <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
+        <name>ZB Magazin</name>
+        <code>ZBMAG</code>
+        <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
+        <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
+        <isActive>true</isActive>
+        <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+        <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+        <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
+        <details/>
+        <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
+        <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
+        <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
+        <metadata>
+          <createdDate>2021-01-11T14:40:05.771+00:00</createdDate>
+          <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+          <updatedDate>2023-12-13T14:27:21.744+00:00</updatedDate>
+          <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+        </metadata>
+      </effectiveLocation>
+      <items>
+        <item>
+          <id>59f132e6-7e49-424a-939a-a2eaa8baaabd</id>
+          <_version>4</_version>
+          <hrid>125142471-1</hrid>
+          <holdingsRecordId>8442511c-cc72-4481-bf22-22cb72bbe853</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <effectiveShelvingOrder>ZG 831</effectiveShelvingOrder>
+          <effectiveCallNumberComponents>
+            <callNumber>ZG 831</callNumber>
+          </effectiveCallNumberComponents>
+          <yearCaption>- Index zu: 1/46.1902</yearCaption>
+          <status>
+            <name>Intellectual item</name>
+            <date>2023-08-16T06:21:17.903+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>e04e82c1-1257-4046-bc5e-d742bbe061da</permanentLoanTypeId>
+          <effectiveLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</effectiveLocationId>
+          <metadata>
+            <createdDate>2023-08-16T06:21:17.906+00:00</createdDate>
+            <createdByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</createdByUserId>
+            <updatedDate>2024-01-12T08:30:52.153+00:00</updatedDate>
+            <updatedByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
+            <name>ZB Magazin</name>
+            <code>ZBMAG</code>
+            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
+            <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+            <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+            <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
+            <details/>
+            <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
+            <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
+            <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
+            <metadata>
+              <createdDate>2021-01-11T14:40:05.771+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-13T14:27:21.744+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>e04e82c1-1257-4046-bc5e-d742bbe061da</id>
+            <name>i nur für den Lesesaal</name>
+            <metadata>
+              <createdDate>2021-01-05T12:06:07.129+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-15T12:35:09.586+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
         </item>
       </items>
     </holding>
@@ -2208,8 +2219,7 @@ BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
         <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
         <name>ZB Magazin</name>
         <code>ZBMAG</code>
-        <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder
-BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
+        <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
         <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
         <isActive>true</isActive>
         <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
@@ -2251,22 +2261,11 @@ BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
             <updatedDate>2024-01-12T08:30:52.153+00:00</updatedDate>
             <updatedByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</updatedByUserId>
           </metadata>
-          <permanentLoanType>
-            <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
-            <name>u ausleihbar</name>
-            <metadata>
-              <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
-              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
-              <updatedDate>2023-12-18T16:24:15.545+00:00</updatedDate>
-              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
-            </metadata>
-          </permanentLoanType>
           <effectiveLocation>
             <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
             <name>ZB Magazin</name>
             <code>ZBMAG</code>
-            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder
-BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
+            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
             <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
             <isActive>true</isActive>
             <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
@@ -2283,6 +2282,186 @@ BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
               <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
             </metadata>
           </effectiveLocation>
+          <permanentLoanType>
+            <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
+            <name>u ausleihbar</name>
+            <metadata>
+              <createdDate>2021-01-05T12:05:10.396+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-18T16:24:15.545+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
+      </items>
+    </holding>
+    <holding>
+      <id>6bc248fd-77d2-47e7-9b88-e134916189a4</id>
+      <_version>4</_version>
+      <hrid>070019789</hrid>
+      <holdingsTypeId>0c422f92-0f4d-4d32-8cbe-390ebc33a3e5</holdingsTypeId>
+      <instanceId>66fd7054-ffc6-46c1-8e84-6229680fd4df</instanceId>
+      <permanentLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</permanentLocationId>
+      <effectiveLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</effectiveLocationId>
+      <callNumber>ZG 831</callNumber>
+      <notes>
+        <note>12.01.24 09:30</note>
+        <staffOnly>true</staffOnly>
+        <holdingsNoteTypeId>7cad8584-35f9-4ea7-8944-11bcf40ff29c</holdingsNoteTypeId>
+      </notes>
+      <notes>
+        <note>BASIS DAIA</note>
+        <staffOnly>true</staffOnly>
+        <holdingsNoteTypeId>49050d37-2d82-452c-a963-2645ffc0b9a9</holdingsNoteTypeId>
+      </notes>
+      <holdingsStatements>
+        <statement>21.1866; 25.1874 - 41.1891; 43.1893 - 46.1896</statement>
+      </holdingsStatements>
+      <discoverySuppress>false</discoverySuppress>
+      <metadata>
+        <createdDate>2023-08-16T06:21:17.867+00:00</createdDate>
+        <createdByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</createdByUserId>
+        <updatedDate>2024-01-12T08:30:52.101+00:00</updatedDate>
+        <updatedByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</updatedByUserId>
+      </metadata>
+      <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
+      <effectiveLocation>
+        <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
+        <name>ZB Magazin</name>
+        <code>ZBMAG</code>
+        <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
+        <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
+        <isActive>true</isActive>
+        <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+        <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+        <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
+        <details/>
+        <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
+        <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
+        <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
+        <metadata>
+          <createdDate>2021-01-11T14:40:05.771+00:00</createdDate>
+          <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+          <updatedDate>2023-12-13T14:27:21.744+00:00</updatedDate>
+          <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+        </metadata>
+      </effectiveLocation>
+      <items>
+        <item>
+          <id>fc485318-99d1-4f3a-9065-9c88b04eed71</id>
+          <_version>4</_version>
+          <hrid>070019789-1</hrid>
+          <holdingsRecordId>6bc248fd-77d2-47e7-9b88-e134916189a4</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <effectiveShelvingOrder>ZG 831</effectiveShelvingOrder>
+          <effectiveCallNumberComponents>
+            <callNumber>ZG 831</callNumber>
+          </effectiveCallNumberComponents>
+          <yearCaption>21.1866; 25.1874 - 41.1891; 43.1893 - 46.1896</yearCaption>
+          <status>
+            <name>Intellectual item</name>
+            <date>2023-08-16T06:21:17.903+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>e04e82c1-1257-4046-bc5e-d742bbe061da</permanentLoanTypeId>
+          <effectiveLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</effectiveLocationId>
+          <metadata>
+            <createdDate>2023-08-16T06:21:17.906+00:00</createdDate>
+            <createdByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</createdByUserId>
+            <updatedDate>2024-01-12T08:30:52.153+00:00</updatedDate>
+            <updatedByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
+            <name>ZB Magazin</name>
+            <code>ZBMAG</code>
+            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
+            <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+            <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+            <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
+            <details/>
+            <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
+            <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
+            <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
+            <metadata>
+              <createdDate>2021-01-11T14:40:05.771+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-13T14:27:21.744+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>e04e82c1-1257-4046-bc5e-d742bbe061da</id>
+            <name>i nur für den Lesesaal</name>
+            <metadata>
+              <createdDate>2021-01-05T12:06:07.129+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-15T12:35:09.586+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
+        <item>
+          <id>4f4bf838-3abd-4cea-a3e0-8fdcb26049eb</id>
+          <_version>3</_version>
+          <hrid>it00000000128</hrid>
+          <holdingsRecordId>6bc248fd-77d2-47e7-9b88-e134916189a4</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <accessionNumber></accessionNumber>
+          <effectiveShelvingOrder>ZG 831 1899</effectiveShelvingOrder>
+          <itemLevelCallNumber></itemLevelCallNumber>
+          <effectiveCallNumberComponents>
+            <callNumber>ZG 831</callNumber>
+          </effectiveCallNumberComponents>
+          <chronology>1899  </chronology>
+          <yearCaption>FREIE BESTELLUNG</yearCaption>
+          <status>
+            <name>Available</name>
+            <date>2024-02-12T15:49:30.628+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>e04e82c1-1257-4046-bc5e-d742bbe061da</permanentLoanTypeId>
+          <effectiveLocationId>413fe054-a4f3-423e-a62f-088eb111ea8d</effectiveLocationId>
+          <tags/>
+          <metadata>
+            <createdDate>2024-02-05T14:48:27.154+00:00</createdDate>
+            <createdByUserId>ccbadee8-e7d4-4c52-8b44-dbce2a20bd27</createdByUserId>
+            <updatedDate>2024-02-12T15:49:30.624+00:00</updatedDate>
+            <updatedByUserId>ccbadee8-e7d4-4c52-8b44-dbce2a20bd27</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>413fe054-a4f3-423e-a62f-088eb111ea8d</id>
+            <name>ZB Magazin</name>
+            <code>ZBMAG</code>
+            <description>000 ZBMAG BCO 000 alle anderen Fälle. Also 8201 enthält &quot;MAG&quot;. Außerdem Auffangstandort  für alle anderen Fälle von BCO 000 (fehlende 8201, andere Texte ... usw.) oder BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
+            <discoveryDisplayName>25/000-000-16-ZBMAG</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+            <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+            <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
+            <details/>
+            <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
+            <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
+            <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
+            <metadata>
+              <createdDate>2021-01-11T14:40:05.771+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-13T14:27:21.744+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>e04e82c1-1257-4046-bc5e-d742bbe061da</id>
+            <name>i nur für den Lesesaal</name>
+            <metadata>
+              <createdDate>2021-01-05T12:06:07.129+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-15T12:35:09.586+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
         </item>
       </items>
     </holding>
@@ -2341,6 +2520,183 @@ BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
       </effectiveLocation>
       <items>
         <item>
+          <id>559dd448-c835-4ea8-862b-fab3945c5b09</id>
+          <_version>2</_version>
+          <hrid>it00000000162</hrid>
+          <holdingsRecordId>2ff4b664-b0a9-43c5-b897-bb3f66951257</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <accessionNumber></accessionNumber>
+          <effectiveShelvingOrder>Pc-Pomm. 5 1000</effectiveShelvingOrder>
+          <itemLevelCallNumber></itemLevelCallNumber>
+          <effectiveCallNumberComponents>
+            <callNumber>Pc-Pomm. 5</callNumber>
+          </effectiveCallNumberComponents>
+          <chronology>1000  </chronology>
+          <yearCaption>FREIE BESTELLUNG</yearCaption>
+          <status>
+            <name>Paged</name>
+            <date>2024-02-14T12:36:19.739+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>31c550e8-86b7-4674-bab0-7011ba94148e</permanentLoanTypeId>
+          <effectiveLocationId>395d036a-83fd-4809-bf45-e607c086f13b</effectiveLocationId>
+          <tags/>
+          <metadata>
+            <createdDate>2024-02-14T12:36:08.349+00:00</createdDate>
+            <createdByUserId>ccbadee8-e7d4-4c52-8b44-dbce2a20bd27</createdByUserId>
+            <updatedDate>2024-02-14T12:36:19.734+00:00</updatedDate>
+            <updatedByUserId>ccbadee8-e7d4-4c52-8b44-dbce2a20bd27</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>395d036a-83fd-4809-bf45-e607c086f13b</id>
+            <name>BB Theologie</name>
+            <code>TH</code>
+            <description>BB Theologie BCO 016 alle anderen Fälle, (nicht Handapp Psych, nicht LBS, nicht Magazin/Rara). also 8201 &quot;Katholische Theologie&quot; oder &quot;Evangelische Theologie&quot;. Außerdem Auffangstandort für alle anderen Fälle von BCO 016 (fehlende 8201, andere Texte ... usw.). Auch für Bestellkatalogisate der BB Theologie</description>
+            <discoveryDisplayName>25/016-016-10-TH</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+            <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+            <libraryId>c00af4b3-d317-411e-b395-26e1406af43d</libraryId>
+            <details/>
+            <primaryServicePoint>3591eecf-327c-421d-bdff-6cc131413411</primaryServicePoint>
+            <servicePointIds>3591eecf-327c-421d-bdff-6cc131413411</servicePointIds>
+            <metadata>
+              <createdDate>2021-01-05T11:58:29.583+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-11-28T16:53:21.508+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
+            <name>d Präsenzbestand Wochenendausleihe</name>
+            <metadata>
+              <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-15T12:34:56.394+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
+        <item>
+          <id>b972efa1-8fd9-4f5f-a3e5-c772f1d3d2e2</id>
+          <_version>2</_version>
+          <hrid>it00000000165</hrid>
+          <holdingsRecordId>2ff4b664-b0a9-43c5-b897-bb3f66951257</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <accessionNumber></accessionNumber>
+          <effectiveShelvingOrder>Pc-Pomm. 5 1936 36 Seite 13</effectiveShelvingOrder>
+          <itemLevelCallNumber></itemLevelCallNumber>
+          <effectiveCallNumberComponents>
+            <callNumber>Pc-Pomm. 5</callNumber>
+          </effectiveCallNumberComponents>
+          <chronology>1936 36 Seite 13</chronology>
+          <yearCaption>FREIE BESTELLUNG</yearCaption>
+          <status>
+            <name>Paged</name>
+            <date>2024-02-16T10:28:48.289+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>31c550e8-86b7-4674-bab0-7011ba94148e</permanentLoanTypeId>
+          <effectiveLocationId>395d036a-83fd-4809-bf45-e607c086f13b</effectiveLocationId>
+          <tags/>
+          <metadata>
+            <createdDate>2024-02-16T10:28:40.311+00:00</createdDate>
+            <createdByUserId>ccbadee8-e7d4-4c52-8b44-dbce2a20bd27</createdByUserId>
+            <updatedDate>2024-02-16T10:28:48.285+00:00</updatedDate>
+            <updatedByUserId>ccbadee8-e7d4-4c52-8b44-dbce2a20bd27</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>395d036a-83fd-4809-bf45-e607c086f13b</id>
+            <name>BB Theologie</name>
+            <code>TH</code>
+            <description>BB Theologie BCO 016 alle anderen Fälle, (nicht Handapp Psych, nicht LBS, nicht Magazin/Rara). also 8201 &quot;Katholische Theologie&quot; oder &quot;Evangelische Theologie&quot;. Außerdem Auffangstandort für alle anderen Fälle von BCO 016 (fehlende 8201, andere Texte ... usw.). Auch für Bestellkatalogisate der BB Theologie</description>
+            <discoveryDisplayName>25/016-016-10-TH</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+            <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+            <libraryId>c00af4b3-d317-411e-b395-26e1406af43d</libraryId>
+            <details/>
+            <primaryServicePoint>3591eecf-327c-421d-bdff-6cc131413411</primaryServicePoint>
+            <servicePointIds>3591eecf-327c-421d-bdff-6cc131413411</servicePointIds>
+            <metadata>
+              <createdDate>2021-01-05T11:58:29.583+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-11-28T16:53:21.508+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
+            <name>d Präsenzbestand Wochenendausleihe</name>
+            <metadata>
+              <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-15T12:34:56.394+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
+        <item>
+          <id>beb6777f-af7d-46d4-a7b8-ba7d679a0cef</id>
+          <_version>2</_version>
+          <hrid>it00000000169</hrid>
+          <holdingsRecordId>2ff4b664-b0a9-43c5-b897-bb3f66951257</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <accessionNumber></accessionNumber>
+          <effectiveShelvingOrder>Pc-Pomm. 5 1932 34</effectiveShelvingOrder>
+          <itemLevelCallNumber></itemLevelCallNumber>
+          <effectiveCallNumberComponents>
+            <callNumber>Pc-Pomm. 5</callNumber>
+          </effectiveCallNumberComponents>
+          <chronology>1932 34 </chronology>
+          <yearCaption>FREIE BESTELLUNG</yearCaption>
+          <status>
+            <name>Paged</name>
+            <date>2024-02-19T09:43:31.720+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>31c550e8-86b7-4674-bab0-7011ba94148e</permanentLoanTypeId>
+          <effectiveLocationId>395d036a-83fd-4809-bf45-e607c086f13b</effectiveLocationId>
+          <tags/>
+          <metadata>
+            <createdDate>2024-02-19T09:43:02.801+00:00</createdDate>
+            <createdByUserId>ccbadee8-e7d4-4c52-8b44-dbce2a20bd27</createdByUserId>
+            <updatedDate>2024-02-19T09:43:31.709+00:00</updatedDate>
+            <updatedByUserId>ccbadee8-e7d4-4c52-8b44-dbce2a20bd27</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>395d036a-83fd-4809-bf45-e607c086f13b</id>
+            <name>BB Theologie</name>
+            <code>TH</code>
+            <description>BB Theologie BCO 016 alle anderen Fälle, (nicht Handapp Psych, nicht LBS, nicht Magazin/Rara). also 8201 &quot;Katholische Theologie&quot; oder &quot;Evangelische Theologie&quot;. Außerdem Auffangstandort für alle anderen Fälle von BCO 016 (fehlende 8201, andere Texte ... usw.). Auch für Bestellkatalogisate der BB Theologie</description>
+            <discoveryDisplayName>25/016-016-10-TH</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+            <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+            <libraryId>c00af4b3-d317-411e-b395-26e1406af43d</libraryId>
+            <details/>
+            <primaryServicePoint>3591eecf-327c-421d-bdff-6cc131413411</primaryServicePoint>
+            <servicePointIds>3591eecf-327c-421d-bdff-6cc131413411</servicePointIds>
+            <metadata>
+              <createdDate>2021-01-05T11:58:29.583+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-11-28T16:53:21.508+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
+            <name>d Präsenzbestand Wochenendausleihe</name>
+            <metadata>
+              <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-15T12:34:56.394+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
+        <item>
           <id>b612a995-e2fe-4f29-8ecf-06acf6f991d6</id>
           <_version>4</_version>
           <hrid>074678310-1</hrid>
@@ -2364,16 +2720,6 @@ BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
             <updatedDate>2024-01-12T08:30:52.153+00:00</updatedDate>
             <updatedByUserId>25b17144-cbd0-4f75-907d-2a68d119aee4</updatedByUserId>
           </metadata>
-          <permanentLoanType>
-            <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
-            <name>d Präsenzbestand Wochenendausleihe</name>
-            <metadata>
-              <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
-              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
-              <updatedDate>2023-12-15T12:34:56.394+00:00</updatedDate>
-              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
-            </metadata>
-          </permanentLoanType>
           <effectiveLocation>
             <id>395d036a-83fd-4809-bf45-e607c086f13b</id>
             <name>BB Theologie</name>
@@ -2394,11 +2740,22 @@ BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
               <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
             </metadata>
           </effectiveLocation>
+          <permanentLoanType>
+            <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
+            <name>d Präsenzbestand Wochenendausleihe</name>
+            <metadata>
+              <createdDate>2021-01-05T12:05:59.951+00:00</createdDate>
+              <createdByUserId>b7b7945c-4cf2-497f-a0e3-1202a8389673</createdByUserId>
+              <updatedDate>2023-12-15T12:34:56.394+00:00</updatedDate>
+              <updatedByUserId>ec1d6a21-a87d-49ef-9da6-62d5c6883d25</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
         </item>
       </items>
     </holding>
   </holdings>
 </instanceData>
+  
 <instanceData>
   <lang>de</lang>
   <instance>
