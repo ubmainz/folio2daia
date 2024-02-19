@@ -262,7 +262,7 @@
         </xsl:variable>
         <xsl:if test="$result/s">
             <xsl:choose>
-                <xsl:when test="../copyNumber">
+                <xsl:when test="../copyNumber">  <!-- d.h. Mehrfachexemplar -->
                     <xsl:call-template name="DAIA">
                         <xsl:with-param name="tag"><xsl:text>aus_status</xsl:text></xsl:with-param>
                         <xsl:with-param name="value" select="'BANDSTATUS'"/>
