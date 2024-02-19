@@ -261,10 +261,24 @@
             <xsl:copy-of select="$cases/*[name()=($emulator/status[@name=current()/name]/*[name()=$ind],'XX')[1]]/*"/>
         </xsl:variable>
         <xsl:if test="$result/s">
-            <xsl:call-template name="DAIA">
-                <xsl:with-param name="tag">aus_status</xsl:with-param>
-                <xsl:with-param name="value" select="$result/s"/>
-            </xsl:call-template>
+            <xsl:choose>
+                <xsl:when test="../copyNumber">
+                    <xsl:call-template name="DAIA">
+                        <xsl:with-param name="tag"><xsl:text>aus_status</xsl:text></xsl:with-param>
+                        <xsl:with-param name="value" select="'BANDSTATUS'"/>
+                    </xsl:call-template>
+                    <xsl:call-template name="DAIA">
+                        <xsl:with-param name="tag"><xsl:text>aus_bandstatus</xsl:text></xsl:with-param>
+                        <xsl:with-param name="value" select="$result/s"/>
+                    </xsl:call-template>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:call-template name="DAIA">
+                        <xsl:with-param name="tag"><xsl:text>aus_status</xsl:text></xsl:with-param>
+                        <xsl:with-param name="value" select="$result/s"/>
+                    </xsl:call-template>
+                </xsl:otherwise>
+            </xsl:choose>
         </xsl:if>
         <xsl:if test="$result/i">
             <xsl:call-template name="DAIA">
