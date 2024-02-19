@@ -132,6 +132,13 @@
                     <xsl:when test="$map/@linktype='bibmap'"><xsl:call-template name="bibmap"/></xsl:when>
                 </xsl:choose>
             </xsl:for-each>
+            <xsl:for-each select="pieces/piece[not(xs:boolean(discoverySuppress))]"> <!-- Hefteingänge -->
+                <xsl:sort select="caption"/>
+                <xsl:call-template name="DAIA">
+                    <xsl:with-param name="tag">aus_text</xsl:with-param>
+                    <xsl:with-param name="value" select="enumeration"/>
+                </xsl:call-template>
+            </xsl:for-each>
         </xsl:for-each>
     </xsl:template>
         
