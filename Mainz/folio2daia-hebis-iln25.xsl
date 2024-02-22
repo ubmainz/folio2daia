@@ -126,18 +126,20 @@
                 <xsl:if test="not(chronology|enumeration)"> <!-- keine Angaben zum Einzelband -->
                     <xsl:apply-templates select="../../holdingsStatements/*"/>                 
                 </xsl:if>
+                <xsl:if test="status/name='Intellectual item'">
+                    <xsl:for-each select="../../pieces/piece[not(xs:boolean(discoverySuppress))]"> <!-- Hefteingänge -->
+                        <xsl:sort select="caption"/>
+                        <xsl:call-template name="DAIA">
+                            <xsl:with-param name="tag">aus_text</xsl:with-param>
+                            <xsl:with-param name="value" select="enumeration"/>
+                        </xsl:call-template>
+                    </xsl:for-each>
+                </xsl:if>
                 <xsl:variable name="map" select="$bbtabelle/e[c=current()/effectiveLocation/discoveryDisplayName]/map"/>
                 <xsl:choose>
                     <xsl:when test="$map/@linktype='mapongo'"><xsl:call-template name="mapongo"/></xsl:when>
                     <xsl:when test="$map/@linktype='bibmap'"><xsl:call-template name="bibmap"/></xsl:when>
                 </xsl:choose>
-            </xsl:for-each>
-            <xsl:for-each select="pieces/piece[not(xs:boolean(discoverySuppress))]"> <!-- Hefteingänge -->
-                <xsl:sort select="caption"/>
-                <xsl:call-template name="DAIA">
-                    <xsl:with-param name="tag">aus_text</xsl:with-param>
-                    <xsl:with-param name="value" select="enumeration"/>
-                </xsl:call-template>
             </xsl:for-each>
         </xsl:for-each>
     </xsl:template>
