@@ -127,7 +127,7 @@
                     <xsl:apply-templates select="../../holdingsStatements/*"/>                 
                 </xsl:if>
                 <xsl:if test="status/name='Intellectual item'">
-                    <xsl:for-each select="../../pieces/piece[not(xs:boolean(discoverySuppress))]"> <!-- Hefteingänge -->
+                    <xsl:for-each select="../../pieces/piece[not(xs:boolean(discoverySuppress)) and xs:boolean(displayOnHolding)]"> <!-- Hefteingänge -->
                         <xsl:sort select="caption"/>
                         <xsl:call-template name="DAIA">
                             <xsl:with-param name="tag">aus_text</xsl:with-param>

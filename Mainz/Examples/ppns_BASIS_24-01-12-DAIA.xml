@@ -1969,6 +1969,19 @@ BCO 077</description>
           <supplement>false</supplement>
           <receivedDate>2024-01-29T15:55:15.715+00:00</receivedDate>
         </piece>
+        <piece>
+          <id>10a5d1fa-0522-4dd2-931c-475c6197a07d</id>
+          <caption>2024 110, Heft 2</caption>
+          <format>Physical</format>
+          <poLineId>44aae1f0-d88d-4b81-a4e0-5631227727ba</poLineId>
+          <titleId>b4d3c0f8-a48b-41aa-9be2-ba9c189208e3</titleId>
+          <holdingId>dd682fd0-5a1a-48c1-ba6f-a27ca4453c56</holdingId>
+          <displayOnHolding>false</displayOnHolding>
+          <enumeration>v.100, Heft 2</enumeration>
+          <receivingStatus>Received</receivingStatus>
+          <supplement>false</supplement>
+          <receivedDate>2024-02-23T13:17:31.072+00:00</receivedDate>
+        </piece>
       </pieces>
     </holding>
     <holding>
