@@ -118,7 +118,7 @@
             <xsl:sort select="effectiveLocation/discoveryDisplayName" order="ascending" lang="de"/>
             <xsl:sort select="callNumber" order="ascending" lang="de"/>
             <xsl:for-each select="items/item[not(xs:boolean(discoverySuppress))]">
-                <xsl:sort select="enumeration|chronology" order="ascending"/>
+                <xsl:sort select="(enumeration,chronology)[1]" order="ascending"/>
                 <xsl:sort select="hrid" order="ascending"/>
                 <xsl:apply-templates select="./*|./*/*|../../notes/note">
                     <xsl:sort select="index-of(('discoveryDisplayName','status','effectiveCallNumberComponents','hrid'),name())" order="descending"/> 
@@ -198,19 +198,16 @@
         </xsl:call-template>
     </xsl:template>
     
-    <xsl:template match="chronology[not(../enumeration)]">
-        <xsl:call-template name="DAIA">
-            <xsl:with-param name="tag">zeit_bestand01</xsl:with-param>
-        </xsl:call-template>        
-    </xsl:template> 
-    
-    <xsl:template match="enumeration">
-        <xsl:call-template name="DAIA">
-            <xsl:with-param name="tag">zeit_bestand01</xsl:with-param>
-        </xsl:call-template>        
+    <xsl:template match="enumeration|chronology">
+        <xsl:variable name="pos"><xsl:number count="enumeration|chronology"/></xsl:variable>
+        <xsl:if test="$pos=1">
+            <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag">zeit_bestand01</xsl:with-param>
+            </xsl:call-template>
+        </xsl:if>       
     </xsl:template>
 
-    <!-- TBD Band -->
+    <!-- TBD volume, displaySummary -->
 
     <xsl:template match="status[name(..)='item']"> <!-- Trigger für Status (als immer eindeutig vorhanden vorausgesetzt) für Status und Ausleihindikator - emuliert LBS -->
         <xsl:variable select="substring(($bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/ind,../permanentLoanType/name)[1],1,1)" name="ind"/> <!-- + temp loan type -->
