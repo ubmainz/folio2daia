@@ -1237,8 +1237,25 @@
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">standort</xsl:with-param>
             <xsl:with-param name="value">                
-                <xsl:text>&lt;a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?begriff=sem_app</xsl:text>
-                <xsl:text>"&gt;&lt;img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="</xsl:text>
+                <xsl:choose>
+                    <xsl:when test="effectiveLocation/code = 'ILN204/CG/UB/UBSemapp'">
+                        <xsl:text>&lt;a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?begriff=sem_app"&gt;</xsl:text>
+                    </xsl:when>
+                    <xsl:when test="effectiveLocation/code = 'ILN204/CG/ZP2/ZP2Semapp'">
+                        <xsl:text>&lt;a target="_blank" href="http://bibmap.ub.uni-giessen.de/zp2/BIBMAP_Server?begriff=semester&amp;ln=de"&gt;</xsl:text>
+                    </xsl:when>
+                    <xsl:when test="effectiveLocation/code = 'ILN204/CG/ZHB/ZHBSemapp'">
+                        <xsl:text>&lt;a target="_blank" href="https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/545"&gt;</xsl:text>
+                    </xsl:when>                    
+                    <xsl:when test="effectiveLocation/code = 'ILN204/CG/ZRW/ZRWSemapp'">
+                        <xsl:text>&lt;a target="_blank" href="https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/444"&gt;</xsl:text>
+                    </xsl:when>
+                    <!-- Default: Standort-Website UB -->
+                    <xsl:otherwise>
+                        <xsl:text>&lt;a target="_blank" href="https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1"&gt;</xsl:text>
+                    </xsl:otherwise>
+                </xsl:choose>               
+                <xsl:text>&lt;img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="</xsl:text>
                 <xsl:call-template name="selectlanguage">
                     <xsl:with-param name="fields" select="$locationtext/t"/>
                 </xsl:call-template>             
