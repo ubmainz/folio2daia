@@ -90,7 +90,11 @@
             <n xml:lang="de">Standort Unbekannt ZRW</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
         </e>
-
+        <e>
+            <c>ILN204/E/E/Datenbanken</c>
+            <n xml:lang="de">Datenbanken</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+        </e>
         <e>
             <c>ILN204/CG/DezFB/Tierhygiene</c>
             <n xml:lang="de">Bibliothek Hygiene der Tiere</n>
@@ -271,6 +275,12 @@
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
         </e>
         <e>
+            <c>ILN204/CG/ZHB/ZHBSemapp</c>
+            <n xml:lang="de">Semesterapparate Zeughaus</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <map linktype="semapp"/>            
+        </e>
+        <e>
             <c>ILN204/CG/ZRW/Handapparate</c>
             <n xml:lang="de">ZRW Handapparate</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
@@ -299,6 +309,11 @@
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
+            <c>ILN204/E/E/E-Books</c>
+            <n xml:lang="de">E-Books</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+        </e>
+        <e>
             <c>ILN204/CG/DezFB/WiWi-BWL08</c>
             <n xml:lang="de">WiWi / BWL 08</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
@@ -312,8 +327,9 @@
         </e>
         <e>
             <c>ILN204/CG/ZP2/ZP2Semapp</c>
-            <n xml:lang="de">ZP2 Semesterapparate</n>
+            <n xml:lang="de">Semesterapparate ZP2</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <map linktype="semapp"/>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Pathologie</c>
@@ -422,6 +438,11 @@
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
+            <c>ILN204/E/E/Online Medien</c>
+            <n xml:lang="de">Onlinemedien</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+        </e>
+        <e>
             <c>ILN204/CG/DezFB/Biochemie</c>
             <n xml:lang="de">Bibliothek Biochemie</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
@@ -434,11 +455,16 @@
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
+            <c>ILN204/CG/ZRW/ZRWSemapp</c>
+            <n xml:lang="de">Semesterapparate ZRW</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <map linktype="semapp"/>
+        </e>
+        <e>
             <c>ILN204/CG/DezFB/FB-Anglistik</c>
             <n xml:lang="de">Fachbibliothek Anglistik</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
-            <campus>Fachbibliotheken</campus>
-        </e>
+        </e>        
         <e>
             <c>ILN204/CG/DezFB/Strahelnschutz</c>
             <n xml:lang="de">Bibliothek Strahlenschutz</n>
@@ -617,7 +643,6 @@
             <n xml:lang="de">ZNL Tempor&#xe4;re Erwerbungssignaturen</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
         </e>
-
     </xsl:variable>
 
     <xsl:variable name="hap-tabelle">
