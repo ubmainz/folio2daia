@@ -1,0 +1,70 @@
+DAIA-Tags OPAC Giessen
+======================
+
+## Beispiel 1a, PPN = 437077810, EPN = 1036506452.
+DAIAinfo abt_link http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD  
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD 
+DAIAinfo abt_num 000 ofniAIAD 
+DAIAinfo aus_ind u ausleihbar ofniAIAD 
+DAIAinfo aus_status unbekannt ofniAIAD 
+DAIAinfo epn 1036506452 ofniAIAD  
+DAIAinfo sig 000 ST 530 M947 ofniAIAD           
+DAIAinfo standort Standort in der Bibliothek anzeigen ofniAIAD       
+
+## Beispiel 1b, PPN = 212491105, EPN = 575083883.
+DAIAinfo abt_link http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD  
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD 
+DAIAinfo abt_num 000 ofniAIAD 
+DAIAinfo aus_ind u ausleihbar ofniAIAD 
+DAIAinfo aus_status unbekannt ofniAIAD 
+DAIAinfo epn 575083883 ofniAIAD  
+DAIAinfo sig FH kla Lb 9.7 ofniAIAD           
+DAIAinfo standort Standort in der Bibliothek anzeigen ofniAIAD       
+
+## Beispiel 1e, PPN = 383990270, EPN = 777781581.
+DAIAinfo abt_link http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD  
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD 
+DAIAinfo abt_num 000 ofniAIAD 
+DAIAinfo aus_ind s Praesenzbestand ofniAIAD  
+DAIAinfo aus_status unbekannt ofniAIAD 
+DAIAinfo aus_text Vor Ort benutzbar ofniAIAD 
+DAIAinfo epn 777781581 ofniAIAD  
+DAIAinfo sig 000 KS 3375 O85 ofniAIAD           
+DAIAinfo standort Standort in der Bibliothek anzeigen ofniAIAD       
+
+## Beispiel 3a, PPN = 439605954, EPN = 1058903306.
+DAIAinfo abt_link http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD  
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD 
+DAIAinfo abt_num 000 ofniAIAD 
+DAIAinfo aus_ind u ausleihbar ofniAIAD 
+DAIAinfo aus_link https://opac.uni-giessen.de/LBS_WEB/volumes/show.htm?USR=7701&BES=1&EPN=105890330&LOGIN=ANONYMOUS ofniAIAD 
+DAIAinfo aus_status unbekannt ofniAIAD 
+DAIAinfo aus_status verfuegbar ofniAIAD 
+DAIAinfo epn 1058903306 ofniAIAD  
+DAIAinfo sig 22.611.28 ofniAIAD      
+DAIAinfo standort    Standort: Magazin ofniAIAD       
+
+## Beispiel 4a, PPN = 218273398, EPN = 58478130X.
+DAIAinfo abt_link http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD  
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD 
+DAIAinfo abt_num 000 ofniAIAD 
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD 
+DAIAinfo aus_status unbekannt ofniAIAD 
+DAIAinfo epn 58478130X ofniAIAD  
+DAIAinfo sig FH spo Dk 0.27 (2.Ex.) ofniAIAD    
+DAIAinfo standort    Standort: Prof. Munzert, Sportpsych. u. Bewegungswiss.,  Kugelberg 62 ofniAIAD       
+ 
+
+## Beispiel 4d, PPN = 060069538, EPN = 210477946.
+DAIAinfo abt_link http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD  
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD 
+DAIAinfo abt_num 000 ofniAIAD 
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD 
+DAIAinfo aus_ind u ausleihbar ofniAIAD  
+DAIAinfo aus_status vermisst ofniAIAD 
+DAIAinfo aus_text  Semesterapparat ofniAIAD 
+DAIAinfo epn 210477946 ofniAIAD  
+DAIAinfo sig FH Sport S-1.02-98-14 ofniAIAD           
+DAIAinfo standort Standort in der Bibliothek anzeigen ofniAIAD      
+ 
+
