@@ -271,7 +271,7 @@
                 <xsl:when test="../copyNumber">  <!-- d.h. Mehrfachexemplar -->
                     <xsl:call-template name="DAIA">
                         <xsl:with-param name="tag"><xsl:text>aus_status</xsl:text></xsl:with-param>
-                        <xsl:with-param name="value" select="'BANDSTATUS'"/>
+                        <xsl:with-param name="value" select="'bandliste'"/>
                     </xsl:call-template>
                     <xsl:call-template name="DAIA">
                         <xsl:with-param name="tag"><xsl:text>aus_bandstatus</xsl:text></xsl:with-param>
