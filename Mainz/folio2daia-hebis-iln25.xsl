@@ -250,7 +250,7 @@
                  t1, t2, t3, t4 : Informationstext zu diesem Fall (Bei Fehlen des Sprachtextes wird der Text der ersten vorhandenen Sprache verwendet.)                 
                  h : Link, wie er hinter dem Bestellbutton hinterlegt werden soll -->
             <xsl:variable name="cases">
-                <UF><i>u ausleihbar</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/campus]/*"/></UF> <!-- bestellbar -->
+                <UF><i>u ausleihbar</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/campus]/*"/><h>http://bestell.link</h></UF> <!-- bestellbar -->
                 <IF><i>i Lesesaal</i><s>verfuegbar</s><h>http://bestell.link</h><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1></IF> <!-- nur für den Lesesaal bestellbar -->
                 <SX><i>s Praesenzbestand</i><t1 xml:lang="de">nicht ausleihbar</t1><t1 xml:lang="en">not available for loan</t1>
                     <xsl:copy-of select="$campusubmainz/hinweis-s[@campus=$bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/campus]/*"/></SX> <!-- Päsenzbestand -->
