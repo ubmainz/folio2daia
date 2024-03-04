@@ -1,0 +1,349 @@
+<instanceData>
+  <lang>de</lang>
+  <instance>
+    <id>a4e8b32b-45f2-4ed9-8c1e-69745d41b0e7</id>
+    <_version>2</_version>
+    <hrid>378498584</hrid>
+    <source>hebis</source>
+    <title>Dada Afrika : Dialog mit dem Fremden / herausgegeben von Ralf Burmeister, Michaela Oberhofer, Esther Tisa Francini ; Museum Rietberg Zürich, Berlinische Galerie</title>
+    <indexTitle>Dada Afrika Dialog mit dem Fremden herausgegeben von Ralf Burmeister Michaela Oberhofer Esther Tisa Francini Museum Rietberg Zürich Berlinische Galerie</indexTitle>
+    <identifiers>
+      <value>378498584</value>
+      <identifierTypeId>1d5cb40c-508f-451b-8952-87c92be4255a</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>945999889</value>
+      <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>9783858815071 Festeinband : EUR 39.10 (AT), sfr 39.00 (freier Pr.), EUR 38.00 (DE)</value>
+      <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>9783940208422 Museumsausgabe Berlinische Galerie</value>
+      <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>3858815071</value>
+      <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>Verlags- und Firmenbestellnummer: 85881507</value>
+      <identifierTypeId>e0f6787d-a556-4d03-9850-e60c5a2baec1</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>9783858815071</value>
+      <identifierTypeId>7836bced-1d36-4ee0-b263-5d63db38676a</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>1080384898</value>
+      <identifierTypeId>63fd8fa0-a939-4d1e-869c-6dcc24c9d507</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>16,N01</value>
+      <identifierTypeId>aaeec26d-72e9-4952-b59e-86bd9fbfedd3</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>16,A47,1218</value>
+      <identifierTypeId>217a56e1-5e45-4253-b942-d2199cca183e</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>DNB: 1080384898</value>
+      <identifierTypeId>8e33c1be-e2c4-43ac-a975-8fb50f71137a</identifierTypeId>
+    </identifiers>
+    <contributors>
+      <name>Burmeister, Ralf *1963-*</name>
+      <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
+      <contributorTypeText>Herausgeber</contributorTypeText>
+      <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+    </contributors>
+    <contributors>
+      <name>Oberhofer, Michaela *1970-*</name>
+      <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
+      <contributorTypeText>Herausgeber</contributorTypeText>
+      <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+    </contributors>
+    <contributors>
+      <name>Tisa Francini, Esther *1972-*</name>
+      <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
+      <contributorTypeText>Herausgeber</contributorTypeText>
+      <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+    </contributors>
+    <contributors>
+      <name>Museum Rietberg</name>
+      <contributorNameTypeId>2e48e713-17f3-4c13-a9f8-23845bb210aa</contributorNameTypeId>
+    </contributors>
+    <contributors>
+      <name>Berlinische Galerie</name>
+      <contributorNameTypeId>2e48e713-17f3-4c13-a9f8-23845bb210aa</contributorNameTypeId>
+    </contributors>
+    <publication>
+      <publisher>Museum Rietberg</publisher>
+      <place>Zürich</place>
+      <dateOfPublication>[2016]</dateOfPublication>
+      <role>Publisher</role>
+    </publication>
+    <publication>
+      <publisher>Berlinische Galerie</publisher>
+      <place>Berlin</place>
+      <dateOfPublication>[2016]</dateOfPublication>
+      <role>Publisher</role>
+    </publication>
+    <publication>
+      <publisher>Scheidegger &amp; Spiess</publisher>
+      <place>Zürich</place>
+      <dateOfPublication>[2016]</dateOfPublication>
+      <role>Publisher</role>
+    </publication>
+    <publicationPeriod>
+      <start>2016</start>
+    </publicationPeriod>
+    <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
+    <instanceFormatIds>8d511d33-5e85-4c5d-9bce-6e3c9cd0c324</instanceFormatIds>
+    <physicalDescriptions>243 Seiten : Illustrationen ; 29 cm</physicalDescriptions>
+    <languages>ger</languages>
+    <notes>
+      <note>Vorletzte Seite: Museum Rietberg Zürich: 18. März-17. Juli 2016, Berlinische Galerie: 5. August-7. November 2016. Der Katalog erscheint anlässlich der gleichnamigen Ausstellung.&quot;</note>
+      <staffOnly>false</staffOnly>
+      <instanceNoteTypeId>6a2533a7-4de2-4e64-8466-074c2fa9308c</instanceNoteTypeId>
+    </notes>
+    <notes>
+      <note>Literaturverzeichnis Seite 232-238</note>
+      <staffOnly>false</staffOnly>
+      <instanceNoteTypeId>6a2533a7-4de2-4e64-8466-074c2fa9308c</instanceNoteTypeId>
+    </notes>
+    <administrativeNotes>Aau (Kategorie 0500)</administrativeNotes>
+    <administrativeNotes>TEST HDS-KONNEKTOR =&gt; BITTE NICHTS ÄNDERN</administrativeNotes>
+    <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
+    <previouslyHeld>false</previouslyHeld>
+    <discoverySuppress>false</discoverySuppress>
+    <statusUpdatedDate>2023-08-22T12:38:00.229+0000</statusUpdatedDate>
+    <tags/>
+    <metadata>
+      <createdDate>2023-08-22T12:38:00.230+00:00</createdDate>
+      <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+      <updatedDate>2023-08-22T12:38:53.765+00:00</updatedDate>
+      <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+    </metadata>
+    <natureOfContentTermIds>b82b3a0d-00fa-4811-96da-04f531da8ea8</natureOfContentTermIds>
+  </instance>
+  <holdings>
+    <holding>
+      <id>9027487d-a577-4ce1-9bfd-6f941243193c</id>
+      <_version>2</_version>
+      <hrid>1127789260</hrid>
+      <holdingsTypeId>0c422f92-0f4d-4d32-8cbe-390ebc33a3e5</holdingsTypeId>
+      <instanceId>a4e8b32b-45f2-4ed9-8c1e-69745d41b0e7</instanceId>
+      <permanentLocationId>4b0f04c3-80f6-41b8-b932-9ad6b1310ee1</permanentLocationId>
+      <effectiveLocationId>4b0f04c3-80f6-41b8-b932-9ad6b1310ee1</effectiveLocationId>
+      <callNumber>000 LH 49880.2016 D12</callNumber>
+      <notes>
+        <note>22.08.23 14:37</note>
+        <staffOnly>true</staffOnly>
+        <holdingsNoteTypeId>7cad8584-35f9-4ea7-8944-11bcf40ff29c</holdingsNoteTypeId>
+      </notes>
+      <discoverySuppress>false</discoverySuppress>
+      <metadata>
+        <createdDate>2023-08-22T12:38:00.276+00:00</createdDate>
+        <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+        <updatedDate>2023-08-22T12:38:00.276+00:00</updatedDate>
+        <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+      </metadata>
+      <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
+      <effectiveLocation>
+        <id>4b0f04c3-80f6-41b8-b932-9ad6b1310ee1</id>
+        <name>Freihandbestand UB (1.Stock)</name>
+        <code>ILN204/CG/UB/Freihand1OG</code>
+        <discoveryDisplayName>000</discoveryDisplayName>
+        <isActive>true</isActive>
+        <institutionId>42cd2c40-53e0-4d43-9308-af95afcef2db</institutionId>
+        <campusId>350d7aab-59ac-4dea-9084-e52f15321a26</campusId>
+        <libraryId>04dd3948-eb9d-467b-a623-19127cb91cd1</libraryId>
+        <details>
+          <BIK>000</BIK>
+        </details>
+        <primaryServicePoint>dd10b2e9-7ad5-4ec3-89e1-e771664d76ed</primaryServicePoint>
+        <servicePointIds>dd10b2e9-7ad5-4ec3-89e1-e771664d76ed</servicePointIds>
+        <servicePointIds>c9ef9eb4-4ce3-4aab-b589-57d458a03a9f</servicePointIds>
+        <servicePointIds>c4c90014-c8c9-4ade-8f24-b5e313319f4b</servicePointIds>
+        <metadata>
+          <createdDate>2022-08-19T07:23:37.227+00:00</createdDate>
+          <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+          <updatedDate>2024-01-19T13:46:51.584+00:00</updatedDate>
+          <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
+        </metadata>
+      </effectiveLocation>
+      <items>
+        <item>
+          <id>382d797b-272d-463f-b42a-85b850faac72</id>
+          <_version>1</_version>
+          <hrid>1127789260-1</hrid>
+          <holdingsRecordId>9027487d-a577-4ce1-9bfd-6f941243193c</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <barcode>64208853</barcode>
+          <effectiveShelvingOrder>0 LH 549880.2016 D 212</effectiveShelvingOrder>
+          <effectiveCallNumberComponents>
+            <callNumber>000 LH 49880.2016 D12</callNumber>
+          </effectiveCallNumberComponents>
+          <status>
+            <name>Available</name>
+            <date>2023-08-22T12:38:00.302+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>5170505e-f4a4-4f17-955b-e0ce202889c4</permanentLoanTypeId>
+          <effectiveLocationId>4b0f04c3-80f6-41b8-b932-9ad6b1310ee1</effectiveLocationId>
+          <metadata>
+            <createdDate>2023-08-22T12:38:00.303+00:00</createdDate>
+            <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+            <updatedDate>2023-08-22T12:38:00.303+00:00</updatedDate>
+            <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>4b0f04c3-80f6-41b8-b932-9ad6b1310ee1</id>
+            <name>Freihandbestand UB (1.Stock)</name>
+            <code>ILN204/CG/UB/Freihand1OG</code>
+            <discoveryDisplayName>000</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>42cd2c40-53e0-4d43-9308-af95afcef2db</institutionId>
+            <campusId>350d7aab-59ac-4dea-9084-e52f15321a26</campusId>
+            <libraryId>04dd3948-eb9d-467b-a623-19127cb91cd1</libraryId>
+            <details>
+              <BIK>000</BIK>
+            </details>
+            <primaryServicePoint>dd10b2e9-7ad5-4ec3-89e1-e771664d76ed</primaryServicePoint>
+            <servicePointIds>dd10b2e9-7ad5-4ec3-89e1-e771664d76ed</servicePointIds>
+            <servicePointIds>c9ef9eb4-4ce3-4aab-b589-57d458a03a9f</servicePointIds>
+            <servicePointIds>c4c90014-c8c9-4ade-8f24-b5e313319f4b</servicePointIds>
+            <metadata>
+              <createdDate>2022-08-19T07:23:37.227+00:00</createdDate>
+              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+              <updatedDate>2024-01-19T13:46:51.584+00:00</updatedDate>
+              <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>5170505e-f4a4-4f17-955b-e0ce202889c4</id>
+            <name>9 o Ausleihbarkeit unbekannt</name>
+            <metadata>
+              <createdDate>2022-08-19T11:42:17.467+00:00</createdDate>
+              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+              <updatedDate>2023-08-22T12:42:11.900+00:00</updatedDate>
+              <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
+      </items>
+    </holding>
+    <holding>
+      <id>884fc5c8-4d14-4fef-af52-9cd905c52cda</id>
+      <_version>2</_version>
+      <hrid>806527986</hrid>
+      <holdingsTypeId>0c422f92-0f4d-4d32-8cbe-390ebc33a3e5</holdingsTypeId>
+      <instanceId>a4e8b32b-45f2-4ed9-8c1e-69745d41b0e7</instanceId>
+      <permanentLocationId>4b0f04c3-80f6-41b8-b932-9ad6b1310ee1</permanentLocationId>
+      <effectiveLocationId>4b0f04c3-80f6-41b8-b932-9ad6b1310ee1</effectiveLocationId>
+      <callNumber>000 LH 49880.2016 D12</callNumber>
+      <notes>
+        <note>vermisst: 2020-10-29</note>
+        <staffOnly>true</staffOnly>
+        <holdingsNoteTypeId>b160f13a-ddba-4053-b9c4-60ec5ea45d56</holdingsNoteTypeId>
+      </notes>
+      <notes>
+        <note>30.10.20 07:30</note>
+        <staffOnly>true</staffOnly>
+        <holdingsNoteTypeId>7cad8584-35f9-4ea7-8944-11bcf40ff29c</holdingsNoteTypeId>
+      </notes>
+      <discoverySuppress>false</discoverySuppress>
+      <metadata>
+        <createdDate>2023-08-22T12:38:00.276+00:00</createdDate>
+        <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+        <updatedDate>2023-08-22T12:38:00.276+00:00</updatedDate>
+        <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+      </metadata>
+      <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
+      <effectiveLocation>
+        <id>4b0f04c3-80f6-41b8-b932-9ad6b1310ee1</id>
+        <name>Freihandbestand UB (1.Stock)</name>
+        <code>ILN204/CG/UB/Freihand1OG</code>
+        <discoveryDisplayName>000</discoveryDisplayName>
+        <isActive>true</isActive>
+        <institutionId>42cd2c40-53e0-4d43-9308-af95afcef2db</institutionId>
+        <campusId>350d7aab-59ac-4dea-9084-e52f15321a26</campusId>
+        <libraryId>04dd3948-eb9d-467b-a623-19127cb91cd1</libraryId>
+        <details>
+          <BIK>000</BIK>
+        </details>
+        <primaryServicePoint>dd10b2e9-7ad5-4ec3-89e1-e771664d76ed</primaryServicePoint>
+        <servicePointIds>dd10b2e9-7ad5-4ec3-89e1-e771664d76ed</servicePointIds>
+        <servicePointIds>c9ef9eb4-4ce3-4aab-b589-57d458a03a9f</servicePointIds>
+        <servicePointIds>c4c90014-c8c9-4ade-8f24-b5e313319f4b</servicePointIds>
+        <metadata>
+          <createdDate>2022-08-19T07:23:37.227+00:00</createdDate>
+          <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+          <updatedDate>2024-01-19T13:46:51.584+00:00</updatedDate>
+          <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
+        </metadata>
+      </effectiveLocation>
+      <items>
+        <item>
+          <id>5baa3c99-ccfd-4efa-a02a-febc1a24afe7</id>
+          <_version>1</_version>
+          <hrid>806527986-1</hrid>
+          <holdingsRecordId>884fc5c8-4d14-4fef-af52-9cd905c52cda</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <barcode>62153326</barcode>
+          <effectiveShelvingOrder>0 LH 549880.2016 D 212</effectiveShelvingOrder>
+          <effectiveCallNumberComponents>
+            <callNumber>000 LH 49880.2016 D12</callNumber>
+          </effectiveCallNumberComponents>
+          <status>
+            <name>Missing</name>
+            <date>2023-08-22T12:38:00.302+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>5e46da98-6ab0-4ff2-a911-531c8b7bc71d</permanentLoanTypeId>
+          <effectiveLocationId>4b0f04c3-80f6-41b8-b932-9ad6b1310ee1</effectiveLocationId>
+          <metadata>
+            <createdDate>2023-08-22T12:38:00.303+00:00</createdDate>
+            <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+            <updatedDate>2023-08-22T12:38:00.303+00:00</updatedDate>
+            <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>4b0f04c3-80f6-41b8-b932-9ad6b1310ee1</id>
+            <name>Freihandbestand UB (1.Stock)</name>
+            <code>ILN204/CG/UB/Freihand1OG</code>
+            <discoveryDisplayName>000</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>42cd2c40-53e0-4d43-9308-af95afcef2db</institutionId>
+            <campusId>350d7aab-59ac-4dea-9084-e52f15321a26</campusId>
+            <libraryId>04dd3948-eb9d-467b-a623-19127cb91cd1</libraryId>
+            <details>
+              <BIK>000</BIK>
+            </details>
+            <primaryServicePoint>dd10b2e9-7ad5-4ec3-89e1-e771664d76ed</primaryServicePoint>
+            <servicePointIds>dd10b2e9-7ad5-4ec3-89e1-e771664d76ed</servicePointIds>
+            <servicePointIds>c9ef9eb4-4ce3-4aab-b589-57d458a03a9f</servicePointIds>
+            <servicePointIds>c4c90014-c8c9-4ade-8f24-b5e313319f4b</servicePointIds>
+            <metadata>
+              <createdDate>2022-08-19T07:23:37.227+00:00</createdDate>
+              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+              <updatedDate>2024-01-19T13:46:51.584+00:00</updatedDate>
+              <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>5e46da98-6ab0-4ff2-a911-531c8b7bc71d</id>
+            <name>8 e Vermisst</name>
+            <metadata>
+              <createdDate>2022-08-19T11:41:23.517+00:00</createdDate>
+              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+              <updatedDate>2022-08-19T11:41:23.517+00:00</updatedDate>
+              <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
+      </items>
+    </holding>
+  </holdings>
+</instanceData>

@@ -180,26 +180,6 @@
             <servicePointId>dd10b2e9-7ad5-4ec3-89e1-e771664d76ed</servicePointId>
             <staffMemberId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</staffMemberId>
           </lastCheckIn>
-          <permanentLoanType>
-            <id>ecfbf446-421a-4a46-8e06-3e1e36d5b317</id>
-            <name>0 u Ausleihbar</name>
-            <metadata>
-              <createdDate>2022-08-19T11:38:10.700+00:00</createdDate>
-              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
-              <updatedDate>2022-08-19T11:38:10.700+00:00</updatedDate>
-              <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
-            </metadata>
-          </permanentLoanType>
-          <temporaryLoanType>
-            <id>4d3e1d7a-cf78-4a9e-bb00-e6596de015e2</id>
-            <name>5 i Nur für den Lesesaal</name>
-            <metadata>
-              <createdDate>2022-08-19T11:40:54.016+00:00</createdDate>
-              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
-              <updatedDate>2022-08-19T11:40:54.016+00:00</updatedDate>
-              <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
-            </metadata>
-          </temporaryLoanType>
           <effectiveLocation>
             <id>4b0f04c3-80f6-41b8-b932-9ad6b1310ee1</id>
             <name>Freihandbestand UB (1.Stock)</name>
@@ -223,6 +203,26 @@
               <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
             </metadata>
           </effectiveLocation>
+          <permanentLoanType>
+            <id>ecfbf446-421a-4a46-8e06-3e1e36d5b317</id>
+            <name>0 u Ausleihbar</name>
+            <metadata>
+              <createdDate>2022-08-19T11:38:10.700+00:00</createdDate>
+              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+              <updatedDate>2022-08-19T11:38:10.700+00:00</updatedDate>
+              <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+          <temporaryLoanType>
+            <id>4d3e1d7a-cf78-4a9e-bb00-e6596de015e2</id>
+            <name>5 i Nur für den Lesesaal</name>
+            <metadata>
+              <createdDate>2022-08-19T11:40:54.016+00:00</createdDate>
+              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+              <updatedDate>2022-08-19T11:40:54.016+00:00</updatedDate>
+              <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+            </metadata>
+          </temporaryLoanType>
         </item>
       </items>
     </holding>

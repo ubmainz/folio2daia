@@ -1,104 +1,141 @@
 <instanceData>
   <lang>de</lang>
   <instance>
-    <id>34781e9e-57e7-45cc-b172-38fd6ced17f4</id>
+    <id>fd33e0b0-9660-4588-86ce-573c2bd41c40</id>
     <_version>2</_version>
-    <hrid>383990270</hrid>
+    <hrid>385577974</hrid>
     <source>hebis</source>
-    <title>Česká publicistika mezi dvěma světovými válkami / Barbora Osvaldová - Jana Čeňková</title>
-    <indexTitle>Česká publicistika mezi dvěma světovými válkami Barbora Osvaldová Jana Čeňková</indexTitle>
-    <editions>Vydání první</editions>
-    <series>
-      <value>První republika ; svazek 7</value>
-    </series>
+    <title>WissenSchaf(f)t Sammlungen : Geschichten aus den Sammlungen der Universität Leipzig / Jana Raffel (Hrsg.)</title>
+    <indexTitle>WissenSchafft Sammlungen Geschichten aus den Sammlungen der Universität Leipzig Jana Raffel Hrsg</indexTitle>
+    <alternativeTitles>
+      <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+      <alternativeTitle>WissenSchafft Sammlungen</alternativeTitle>
+    </alternativeTitles>
+    <alternativeTitles>
+      <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+      <alternativeTitle>Wissenschaft Sammlungen</alternativeTitle>
+    </alternativeTitles>
+    <alternativeTitles>
+      <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+      <alternativeTitle>Wissen schafft Sammlungen</alternativeTitle>
+    </alternativeTitles>
     <identifiers>
-      <value>383990270</value>
+      <value>385577974</value>
       <identifierTypeId>1d5cb40c-508f-451b-8952-87c92be4255a</identifierTypeId>
     </identifiers>
     <identifiers>
-      <value>1019910764</value>
+      <value>953286005</value>
       <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
     </identifiers>
     <identifiers>
-      <value>9788020027542</value>
+      <value>9783960141433 Broschur : EUR 18.90 (DE), EUR 19.50 (AT)</value>
       <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
     </identifiers>
     <identifiers>
-      <value>HEB: 421487704</value>
-      <identifierTypeId>24f03461-e76a-49cb-baba-8f5dd505bac4</identifierTypeId>
+      <value>3960141432</value>
+      <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
     </identifiers>
     <identifiers>
-      <value>HEB: 383990270</value>
+      <value>9783960141433</value>
+      <identifierTypeId>7836bced-1d36-4ee0-b263-5d63db38676a</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>1105061817</value>
+      <identifierTypeId>63fd8fa0-a939-4d1e-869c-6dcc24c9d507</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>16,N27</value>
+      <identifierTypeId>aaeec26d-72e9-4952-b59e-86bd9fbfedd3</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>16,A48,0701</value>
+      <identifierTypeId>217a56e1-5e45-4253-b942-d2199cca183e</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>DNB: 1105061817</value>
       <identifierTypeId>8e33c1be-e2c4-43ac-a975-8fb50f71137a</identifierTypeId>
     </identifiers>
     <contributors>
-      <name>Osvaldová, Barbora</name>
-      <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-      <contributorTypeText>Verfasser</contributorTypeText>
+      <name>Raffel, Jana</name>
+      <contributorTypeId>9deb29d1-3e71-4951-9413-a80adac703d0</contributorTypeId>
+      <contributorTypeText>Herausgeber</contributorTypeText>
       <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
-      <primary>true</primary>
     </contributors>
     <contributors>
-      <name>Čeňková, Jana</name>
-      <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
-      <contributorTypeText>Verfasser</contributorTypeText>
-      <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+      <name>Ägyptisches Museum - Georg Steindorff</name>
+      <contributorTypeId>df7daf2f-7ab4-4c7b-a24d-d46695fa9072</contributorTypeId>
+      <contributorTypeText>Veranstalter</contributorTypeText>
+      <contributorNameTypeId>2e48e713-17f3-4c13-a9f8-23845bb210aa</contributorNameTypeId>
+    </contributors>
+    <contributors>
+      <name>Grassi-Museum, Leipzig</name>
+      <contributorTypeId>df7daf2f-7ab4-4c7b-a24d-d46695fa9072</contributorTypeId>
+      <contributorTypeText>Veranstalter</contributorTypeText>
+      <contributorNameTypeId>2e48e713-17f3-4c13-a9f8-23845bb210aa</contributorNameTypeId>
     </contributors>
     <publication>
-      <publisher>Academia</publisher>
-      <place>Praha</place>
-      <dateOfPublication>2017</dateOfPublication>
+      <publisher>edition winterwork</publisher>
+      <place>Borsdorf</place>
+      <dateOfPublication>2016</dateOfPublication>
       <role>Publisher</role>
     </publication>
     <publicationPeriod>
-      <start>2017</start>
+      <start>2016</start>
     </publicationPeriod>
     <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
     <instanceFormatIds>8d511d33-5e85-4c5d-9bce-6e3c9cd0c324</instanceFormatIds>
-    <physicalDescriptions>189 Seiten : Illustrationen</physicalDescriptions>
-    <languages>cze</languages>
+    <physicalDescriptions>170 Seiten ; 21 cm, 380 g</physicalDescriptions>
+    <languages>ger</languages>
     <notes>
-      <note>Literaturverzeichnis: Seite 167-173</note>
+      <note>Literaturverzeichnis Seite 155 - 165</note>
       <staffOnly>false</staffOnly>
       <instanceNoteTypeId>6a2533a7-4de2-4e64-8466-074c2fa9308c</instanceNoteTypeId>
     </notes>
     <notes>
-      <note>Zusammenfassung in englischer Sprache</note>
+      <note>Im Impressum: Katalog zur Sonderausstellung der Sammlungen der Universität, vereint in den Häusern des Ägyptischen Museums - Georg Steindorff  - und des GRASSI Museums für Musikinstrumente der Universität Leipzig 23.06. - 04.12.2016; Erscheinungsort nicht in der Vorlage</note>
       <staffOnly>false</staffOnly>
-      <instanceNoteTypeId>7356cde5-ec6b-4961-9cb0-961c48a37af4</instanceNoteTypeId>
+      <instanceNoteTypeId>6a2533a7-4de2-4e64-8466-074c2fa9308c</instanceNoteTypeId>
     </notes>
     <administrativeNotes>Aau (Kategorie 0500)</administrativeNotes>
+    <administrativeNotes>TEST HDS-KONNEKTOR =&gt; BITTE NICHTS ÄNDERN</administrativeNotes>
     <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
     <previouslyHeld>false</previouslyHeld>
     <discoverySuppress>false</discoverySuppress>
-    <statusUpdatedDate>2023-08-22T09:14:28.870+0000</statusUpdatedDate>
+    <statusUpdatedDate>2023-08-22T12:21:20.155+0000</statusUpdatedDate>
+    <tags/>
     <metadata>
-      <createdDate>2023-08-22T09:14:28.871+00:00</createdDate>
+      <createdDate>2023-08-22T12:21:20.156+00:00</createdDate>
       <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
-      <updatedDate>2023-08-22T09:14:28.871+00:00</updatedDate>
+      <updatedDate>2023-08-22T12:24:50.476+00:00</updatedDate>
       <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
     </metadata>
+    <natureOfContentTermIds>b82b3a0d-00fa-4811-96da-04f531da8ea8</natureOfContentTermIds>
   </instance>
   <holdings>
     <holding>
-      <id>068544b8-b634-438f-b7cd-357a7dccc1f1</id>
+      <id>a6d333a2-90de-4c42-960b-bf86adcb343a</id>
       <_version>2</_version>
-      <hrid>777781581</hrid>
+      <hrid>1007860359</hrid>
       <holdingsTypeId>0c422f92-0f4d-4d32-8cbe-390ebc33a3e5</holdingsTypeId>
-      <instanceId>34781e9e-57e7-45cc-b172-38fd6ced17f4</instanceId>
+      <instanceId>fd33e0b0-9660-4588-86ce-573c2bd41c40</instanceId>
       <permanentLocationId>4b0f04c3-80f6-41b8-b932-9ad6b1310ee1</permanentLocationId>
       <effectiveLocationId>4b0f04c3-80f6-41b8-b932-9ad6b1310ee1</effectiveLocationId>
-      <callNumber>000 KS 3375 O85</callNumber>
+      <callNumber>000 AL 12318 R136</callNumber>
       <notes>
-        <note>22.08.23 11:14</note>
+        <note>Vermisst: 2018-07-19</note>
+        <staffOnly>false</staffOnly>
+        <holdingsNoteTypeId>f862da41-4a7a-4864-8a52-befa58ab210b</holdingsNoteTypeId>
+      </notes>
+      <notes>
+        <note>22.08.23 14:21</note>
         <staffOnly>true</staffOnly>
         <holdingsNoteTypeId>7cad8584-35f9-4ea7-8944-11bcf40ff29c</holdingsNoteTypeId>
       </notes>
       <discoverySuppress>false</discoverySuppress>
       <metadata>
-        <createdDate>2023-08-22T09:14:28.893+00:00</createdDate>
+        <createdDate>2023-08-22T12:21:20.181+00:00</createdDate>
         <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
-        <updatedDate>2023-08-22T09:14:28.893+00:00</updatedDate>
+        <updatedDate>2023-08-22T12:21:20.181+00:00</updatedDate>
         <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
       </metadata>
       <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
@@ -127,34 +164,29 @@
       </effectiveLocation>
       <items>
         <item>
-          <id>7904f4e1-86fe-4789-a6e7-2e826b8f7227</id>
-          <_version>3</_version>
-          <hrid>777781581-1</hrid>
-          <holdingsRecordId>068544b8-b634-438f-b7cd-357a7dccc1f1</holdingsRecordId>
+          <id>cb00975e-b513-4b7e-a171-96acd1fee62e</id>
+          <_version>1</_version>
+          <hrid>1007860359-1</hrid>
+          <holdingsRecordId>a6d333a2-90de-4c42-960b-bf86adcb343a</holdingsRecordId>
           <discoverySuppress>false</discoverySuppress>
-          <barcode>62273909</barcode>
-          <effectiveShelvingOrder>0 KS 43375 O 285</effectiveShelvingOrder>
+          <barcode>62339527</barcode>
+          <effectiveShelvingOrder>0 AL 512318 R 3136</effectiveShelvingOrder>
           <effectiveCallNumberComponents>
-            <callNumber>000 KS 3375 O85</callNumber>
+            <callNumber>000 AL 12318 R136</callNumber>
           </effectiveCallNumberComponents>
           <status>
-            <name>Available</name>
-            <date>2024-02-21T13:09:19.912+00:00</date>
+            <name>Missing</name>
+            <date>2023-08-22T12:21:20.200+00:00</date>
           </status>
           <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
-          <permanentLoanTypeId>5d0c3d01-4dcb-4923-acda-dc0402f5f476</permanentLoanTypeId>
+          <permanentLoanTypeId>5e46da98-6ab0-4ff2-a911-531c8b7bc71d</permanentLoanTypeId>
           <effectiveLocationId>4b0f04c3-80f6-41b8-b932-9ad6b1310ee1</effectiveLocationId>
           <metadata>
-            <createdDate>2023-08-22T09:14:28.915+00:00</createdDate>
+            <createdDate>2023-08-22T12:21:20.202+00:00</createdDate>
             <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
-            <updatedDate>2024-02-21T13:09:19.911+00:00</updatedDate>
-            <updatedByUserId>29d118b9-f777-436e-82a0-c3af04c0a200</updatedByUserId>
+            <updatedDate>2023-08-22T12:21:20.202+00:00</updatedDate>
+            <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
           </metadata>
-          <lastCheckIn>
-            <dateTime>2024-02-21T13:09:19.822+00:00</dateTime>
-            <servicePointId>dd10b2e9-7ad5-4ec3-89e1-e771664d76ed</servicePointId>
-            <staffMemberId>29d118b9-f777-436e-82a0-c3af04c0a200</staffMemberId>
-          </lastCheckIn>
           <effectiveLocation>
             <id>4b0f04c3-80f6-41b8-b932-9ad6b1310ee1</id>
             <name>Freihandbestand UB (1.Stock)</name>
@@ -179,12 +211,12 @@
             </metadata>
           </effectiveLocation>
           <permanentLoanType>
-            <id>5d0c3d01-4dcb-4923-acda-dc0402f5f476</id>
-            <name>3 s Tagesausleihe</name>
+            <id>5e46da98-6ab0-4ff2-a911-531c8b7bc71d</id>
+            <name>8 e Vermisst</name>
             <metadata>
-              <createdDate>2022-08-19T11:40:24.982+00:00</createdDate>
+              <createdDate>2022-08-19T11:41:23.517+00:00</createdDate>
               <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
-              <updatedDate>2023-03-01T13:41:09.531+00:00</updatedDate>
+              <updatedDate>2022-08-19T11:41:23.517+00:00</updatedDate>
               <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
             </metadata>
           </permanentLoanType>

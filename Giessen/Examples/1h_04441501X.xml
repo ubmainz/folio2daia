@@ -1,0 +1,393 @@
+<instanceData>
+  <lang>de</lang>
+  <instance>
+    <id>1f5a239a-c004-4082-adc8-1be099cb8634</id>
+    <_version>2</_version>
+    <hrid>04441501X</hrid>
+    <source>hebis</source>
+    <title>Über König und Reich : Aufsätze zur deutschen Verfassungsgeschichte des späten Mittelalters / hrsg. von Rainer Christoph Schwinges aus Anlaß des 60. Geburtstags von Peter Moraw am 31. August 1995</title>
+    <indexTitle>Über König und Reich Aufsätze zur deutschen Verfassungsgeschichte des späten Mittelalters hrsg von Rainer Christoph Schwinges aus Anlaß des 60 Geburtstags von Peter Moraw am 31 August 1995</indexTitle>
+    <identifiers>
+      <value>04441501X</value>
+      <identifierTypeId>1d5cb40c-508f-451b-8952-87c92be4255a</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>33948541</value>
+      <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>3799570764</value>
+      <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>945881118</value>
+      <identifierTypeId>63fd8fa0-a939-4d1e-869c-6dcc24c9d507</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>95,N46,0625</value>
+      <identifierTypeId>aaeec26d-72e9-4952-b59e-86bd9fbfedd3</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>96,A10,2227</value>
+      <identifierTypeId>217a56e1-5e45-4253-b942-d2199cca183e</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>HEB: 04441501X</value>
+      <identifierTypeId>8e33c1be-e2c4-43ac-a975-8fb50f71137a</identifierTypeId>
+    </identifiers>
+    <contributors>
+      <name>Moraw, Peter *1935-2013*</name>
+      <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+      <primary>true</primary>
+    </contributors>
+    <contributors>
+      <name>Schwinges, Rainer Christoph *1943-*</name>
+      <contributorTypeText>Hrsg.</contributorTypeText>
+      <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+    </contributors>
+    <contributors>
+      <name>Moraw, Peter *1935-2013*</name>
+      <contributorTypeId>5c1e0a9e-1fdc-47a5-8d06-c12af63cbc5a</contributorTypeId>
+      <contributorTypeText>Gefeierter</contributorTypeText>
+      <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+    </contributors>
+    <publication>
+      <publisher>Thorbecke</publisher>
+      <place>Sigmaringen</place>
+      <dateOfPublication>1995</dateOfPublication>
+      <role>Publisher</role>
+    </publication>
+    <publicationPeriod>
+      <start>1995</start>
+    </publicationPeriod>
+    <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
+    <instanceFormatIds>98f0caa9-d38e-427b-9ec4-454de81a94d7</instanceFormatIds>
+    <physicalDescriptions>XV, 347 S. : Ill.</physicalDescriptions>
+    <languages>ger</languages>
+    <administrativeNotes>Aau (Kategorie 0500)</administrativeNotes>
+    <administrativeNotes>HDS-KONNEKTOR TEST =&gt; BITTE NICHTS ÄNDERN</administrativeNotes>
+    <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
+    <previouslyHeld>false</previouslyHeld>
+    <discoverySuppress>false</discoverySuppress>
+    <statusUpdatedDate>2023-08-22T11:22:44.817+0000</statusUpdatedDate>
+    <tags/>
+    <metadata>
+      <createdDate>2023-08-22T11:22:44.817+00:00</createdDate>
+      <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+      <updatedDate>2023-08-22T11:24:10.297+00:00</updatedDate>
+      <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+    </metadata>
+    <natureOfContentTermIds>b29d4dc1-f78b-48fe-b3e5-df6c37cdc58d</natureOfContentTermIds>
+  </instance>
+  <holdings>
+    <holding>
+      <id>32373d0d-1da5-4adb-b7d8-69b829aaed23</id>
+      <_version>2</_version>
+      <hrid>111858232</hrid>
+      <holdingsTypeId>0c422f92-0f4d-4d32-8cbe-390ebc33a3e5</holdingsTypeId>
+      <instanceId>1f5a239a-c004-4082-adc8-1be099cb8634</instanceId>
+      <permanentLocationId>2b6d95b8-a103-4aca-94a8-c506806b850d</permanentLocationId>
+      <effectiveLocationId>2b6d95b8-a103-4aca-94a8-c506806b850d</effectiveLocationId>
+      <callNumber>FH his Ke 0.2</callNumber>
+      <notes>
+        <note>22.08.23 13:22</note>
+        <staffOnly>true</staffOnly>
+        <holdingsNoteTypeId>7cad8584-35f9-4ea7-8944-11bcf40ff29c</holdingsNoteTypeId>
+      </notes>
+      <notes>
+        <note>00001</note>
+        <staffOnly>false</staffOnly>
+        <holdingsNoteTypeId>49050d37-2d82-452c-a963-2645ffc0b9a9</holdingsNoteTypeId>
+      </notes>
+      <notes>
+        <note>00010</note>
+        <staffOnly>false</staffOnly>
+        <holdingsNoteTypeId>49050d37-2d82-452c-a963-2645ffc0b9a9</holdingsNoteTypeId>
+      </notes>
+      <discoverySuppress>false</discoverySuppress>
+      <metadata>
+        <createdDate>2023-08-22T11:22:44.855+00:00</createdDate>
+        <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+        <updatedDate>2023-08-22T11:22:44.855+00:00</updatedDate>
+        <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+      </metadata>
+      <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
+      <effectiveLocation>
+        <id>2b6d95b8-a103-4aca-94a8-c506806b850d</id>
+        <name>Freihandbestand UB (2.Stock)</name>
+        <code>ILN204/CG/UB/Freihand2OG</code>
+        <discoveryDisplayName>000</discoveryDisplayName>
+        <isActive>true</isActive>
+        <institutionId>42cd2c40-53e0-4d43-9308-af95afcef2db</institutionId>
+        <campusId>350d7aab-59ac-4dea-9084-e52f15321a26</campusId>
+        <libraryId>04dd3948-eb9d-467b-a623-19127cb91cd1</libraryId>
+        <details>
+          <BIK>000</BIK>
+        </details>
+        <primaryServicePoint>dd10b2e9-7ad5-4ec3-89e1-e771664d76ed</primaryServicePoint>
+        <servicePointIds>dd10b2e9-7ad5-4ec3-89e1-e771664d76ed</servicePointIds>
+        <servicePointIds>c9ef9eb4-4ce3-4aab-b589-57d458a03a9f</servicePointIds>
+        <servicePointIds>c4c90014-c8c9-4ade-8f24-b5e313319f4b</servicePointIds>
+        <metadata>
+          <createdDate>2022-09-21T05:35:58.847+00:00</createdDate>
+          <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+          <updatedDate>2024-01-26T10:38:09.697+00:00</updatedDate>
+          <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
+        </metadata>
+      </effectiveLocation>
+      <items>
+        <item>
+          <id>1dd512e3-95e7-433f-b95c-610451436fb7</id>
+          <_version>4</_version>
+          <hrid>111858232-1</hrid>
+          <holdingsRecordId>32373d0d-1da5-4adb-b7d8-69b829aaed23</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <barcode>21560731</barcode>
+          <effectiveShelvingOrder>FH his Ke 0.2</effectiveShelvingOrder>
+          <effectiveCallNumberComponents>
+            <callNumber>FH his Ke 0.2</callNumber>
+          </effectiveCallNumberComponents>
+          <status>
+            <name>Checked out</name>
+            <date>2024-02-05T12:24:49.547+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>4d3e1d7a-cf78-4a9e-bb00-e6596de015e2</permanentLoanTypeId>
+          <effectiveLocationId>2b6d95b8-a103-4aca-94a8-c506806b850d</effectiveLocationId>
+          <metadata>
+            <createdDate>2023-08-22T11:22:44.875+00:00</createdDate>
+            <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+            <updatedDate>2024-02-05T12:24:49.537+00:00</updatedDate>
+            <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
+          </metadata>
+          <lastCheckIn>
+            <dateTime>2023-10-24T11:26:52.759+00:00</dateTime>
+            <servicePointId>c9ef9eb4-4ce3-4aab-b589-57d458a03a9f</servicePointId>
+            <staffMemberId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</staffMemberId>
+          </lastCheckIn>
+          <effectiveLocation>
+            <id>2b6d95b8-a103-4aca-94a8-c506806b850d</id>
+            <name>Freihandbestand UB (2.Stock)</name>
+            <code>ILN204/CG/UB/Freihand2OG</code>
+            <discoveryDisplayName>000</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>42cd2c40-53e0-4d43-9308-af95afcef2db</institutionId>
+            <campusId>350d7aab-59ac-4dea-9084-e52f15321a26</campusId>
+            <libraryId>04dd3948-eb9d-467b-a623-19127cb91cd1</libraryId>
+            <details>
+              <BIK>000</BIK>
+            </details>
+            <primaryServicePoint>dd10b2e9-7ad5-4ec3-89e1-e771664d76ed</primaryServicePoint>
+            <servicePointIds>dd10b2e9-7ad5-4ec3-89e1-e771664d76ed</servicePointIds>
+            <servicePointIds>c9ef9eb4-4ce3-4aab-b589-57d458a03a9f</servicePointIds>
+            <servicePointIds>c4c90014-c8c9-4ade-8f24-b5e313319f4b</servicePointIds>
+            <metadata>
+              <createdDate>2022-09-21T05:35:58.847+00:00</createdDate>
+              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+              <updatedDate>2024-01-26T10:38:09.697+00:00</updatedDate>
+              <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>4d3e1d7a-cf78-4a9e-bb00-e6596de015e2</id>
+            <name>5 i Nur für den Lesesaal</name>
+            <metadata>
+              <createdDate>2022-08-19T11:40:54.016+00:00</createdDate>
+              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+              <updatedDate>2022-08-19T11:40:54.016+00:00</updatedDate>
+              <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+          <loan>
+            <id>5340aea5-33d2-4783-8a89-d1d5ae75a4d2</id>
+            <userId>d88ef6d4-02e8-4c9d-9292-541567bd0517</userId>
+            <itemId>1dd512e3-95e7-433f-b95c-610451436fb7</itemId>
+            <itemEffectiveLocationIdAtCheckOut>2b6d95b8-a103-4aca-94a8-c506806b850d</itemEffectiveLocationIdAtCheckOut>
+            <status>
+              <name>Open</name>
+            </status>
+            <loanDate>2024-02-05T12:24:49.480Z</loanDate>
+            <dueDate>2024-02-29T22:59:00.000+00:00</dueDate>
+            <action>checkedOutThroughOverride</action>
+            <actionComment>OK</actionComment>
+            <loanPolicyId>637924b6-2ee5-4574-aabd-e4190472560f</loanPolicyId>
+            <checkoutServicePointId>dd10b2e9-7ad5-4ec3-89e1-e771664d76ed</checkoutServicePointId>
+            <overdueFinePolicyId>1373fb4d-f774-4a19-8c72-1d4c9f28233e</overdueFinePolicyId>
+            <lostItemPolicyId>3e97f327-d80d-4a79-88f7-7280d6ad711f</lostItemPolicyId>
+            <metadata>
+              <createdDate>2024-02-05T12:24:49.560+00:00</createdDate>
+              <createdByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</createdByUserId>
+              <updatedDate>2024-02-05T12:24:49.560+00:00</updatedDate>
+              <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
+            </metadata>
+            <patronGroupAtCheckout>
+              <id>08348a09-3fcb-4703-a5e0-770b1e581db0</id>
+              <name>30 Stadtbewohner</name>
+            </patronGroupAtCheckout>
+            <item>
+              <id>1dd512e3-95e7-433f-b95c-610451436fb7</id>
+              <holdingsRecordId>32373d0d-1da5-4adb-b7d8-69b829aaed23</holdingsRecordId>
+              <instanceId>1f5a239a-c004-4082-adc8-1be099cb8634</instanceId>
+              <title>Über König und Reich : Aufsätze zur deutschen Verfassungsgeschichte des späten Mittelalters / hrsg. von Rainer Christoph Schwinges aus Anlaß des 60. Geburtstags von Peter Moraw am 31. August 1995</title>
+              <barcode>21560731</barcode>
+              <contributors>
+                <name>Moraw, Peter *1935-2013*</name>
+              </contributors>
+              <contributors>
+                <name>Schwinges, Rainer Christoph *1943-*</name>
+              </contributors>
+              <contributors>
+                <name>Moraw, Peter *1935-2013*</name>
+              </contributors>
+              <callNumber>FH his Ke 0.2</callNumber>
+              <callNumberComponents>
+                <callNumber>FH his Ke 0.2</callNumber>
+              </callNumberComponents>
+              <status>
+                <name>Checked out</name>
+                <date>2024-02-05T12:24:49.547+00:00</date>
+              </status>
+              <location>
+                <name>Freihandbestand UB (2.Stock)</name>
+              </location>
+              <materialType>
+                <name>Druckschrift</name>
+              </materialType>
+            </item>
+            <checkoutServicePoint>
+              <name>UB Ausleihe</name>
+              <code>THUBAUsleihe</code>
+              <discoveryDisplayName>UB Ausleihe</discoveryDisplayName>
+              <description/>
+              <shelvingLagTime>60</shelvingLagTime>
+              <pickupLocation>true</pickupLocation>
+            </checkoutServicePoint>
+            <borrower>
+              <firstName>Testausweis</firstName>
+              <lastName>Kalok</lastName>
+              <middleName>weiterer Vorname</middleName>
+              <barcode>01098497</barcode>
+            </borrower>
+            <loanPolicy>
+              <name>PROD - Nicht ausleihbar</name>
+            </loanPolicy>
+            <overdueFinePolicy>
+              <name>keine</name>
+            </overdueFinePolicy>
+            <lostItemPolicy>
+              <name>keine</name>
+            </lostItemPolicy>
+            <feesAndFines>
+              <amountRemainingToPay>0.0</amountRemainingToPay>
+            </feesAndFines>
+          </loan>
+        </item>
+      </items>
+    </holding>
+    <holding>
+      <id>29b3f12f-e632-433c-84fd-838cdad2fb66</id>
+      <_version>2</_version>
+      <hrid>127601716</hrid>
+      <holdingsTypeId>0c422f92-0f4d-4d32-8cbe-390ebc33a3e5</holdingsTypeId>
+      <instanceId>1f5a239a-c004-4082-adc8-1be099cb8634</instanceId>
+      <permanentLocationId>32ad6c56-957e-4a4b-ad1f-458e254b1f6e</permanentLocationId>
+      <effectiveLocationId>32ad6c56-957e-4a4b-ad1f-458e254b1f6e</effectiveLocationId>
+      <callNumber>Ya 4000/94</callNumber>
+      <notes>
+        <note>17.02.15 14:47</note>
+        <staffOnly>true</staffOnly>
+        <holdingsNoteTypeId>7cad8584-35f9-4ea7-8944-11bcf40ff29c</holdingsNoteTypeId>
+      </notes>
+      <discoverySuppress>false</discoverySuppress>
+      <metadata>
+        <createdDate>2023-08-22T11:22:44.855+00:00</createdDate>
+        <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+        <updatedDate>2023-08-22T11:22:44.855+00:00</updatedDate>
+        <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+      </metadata>
+      <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
+      <effectiveLocation>
+        <id>32ad6c56-957e-4a4b-ad1f-458e254b1f6e</id>
+        <name>Dezentrale Fachbibliotheken</name>
+        <code>ILN204/CG/DezFB/Fachbibliotheken</code>
+        <discoveryDisplayName>XXX</discoveryDisplayName>
+        <isActive>true</isActive>
+        <institutionId>42cd2c40-53e0-4d43-9308-af95afcef2db</institutionId>
+        <campusId>350d7aab-59ac-4dea-9084-e52f15321a26</campusId>
+        <libraryId>9d3d7545-4e7f-47b0-9323-23f592c0a34a</libraryId>
+        <details>
+          <BIK>XXX</BIK>
+        </details>
+        <primaryServicePoint>3a40852d-49fd-4df2-a1f9-6e2641a6e91f</primaryServicePoint>
+        <servicePointIds>3a40852d-49fd-4df2-a1f9-6e2641a6e91f</servicePointIds>
+        <servicePointIds>c4c90014-c8c9-4ade-8f24-b5e313319f4b</servicePointIds>
+        <metadata>
+          <createdDate>2022-08-19T07:27:50.156+00:00</createdDate>
+          <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+          <updatedDate>2024-01-26T10:28:56.805+00:00</updatedDate>
+          <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
+        </metadata>
+      </effectiveLocation>
+      <items>
+        <item>
+          <id>08b9dc27-b71e-4992-b5fa-ce08c766e07f</id>
+          <_version>1</_version>
+          <hrid>127601716-1</hrid>
+          <holdingsRecordId>29b3f12f-e632-433c-84fd-838cdad2fb66</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <accessionNumber>084 Az 99/117</accessionNumber>
+          <barcode>86766965</barcode>
+          <effectiveShelvingOrder>Ya 4000/94</effectiveShelvingOrder>
+          <effectiveCallNumberComponents>
+            <callNumber>Ya 4000/94</callNumber>
+          </effectiveCallNumberComponents>
+          <status>
+            <name>Available</name>
+            <date>2023-08-22T11:22:44.874+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>5d0c3d01-4dcb-4923-acda-dc0402f5f476</permanentLoanTypeId>
+          <effectiveLocationId>32ad6c56-957e-4a4b-ad1f-458e254b1f6e</effectiveLocationId>
+          <metadata>
+            <createdDate>2023-08-22T11:22:44.875+00:00</createdDate>
+            <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+            <updatedDate>2023-08-22T11:22:44.875+00:00</updatedDate>
+            <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>32ad6c56-957e-4a4b-ad1f-458e254b1f6e</id>
+            <name>Dezentrale Fachbibliotheken</name>
+            <code>ILN204/CG/DezFB/Fachbibliotheken</code>
+            <discoveryDisplayName>XXX</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>42cd2c40-53e0-4d43-9308-af95afcef2db</institutionId>
+            <campusId>350d7aab-59ac-4dea-9084-e52f15321a26</campusId>
+            <libraryId>9d3d7545-4e7f-47b0-9323-23f592c0a34a</libraryId>
+            <details>
+              <BIK>XXX</BIK>
+            </details>
+            <primaryServicePoint>3a40852d-49fd-4df2-a1f9-6e2641a6e91f</primaryServicePoint>
+            <servicePointIds>3a40852d-49fd-4df2-a1f9-6e2641a6e91f</servicePointIds>
+            <servicePointIds>c4c90014-c8c9-4ade-8f24-b5e313319f4b</servicePointIds>
+            <metadata>
+              <createdDate>2022-08-19T07:27:50.156+00:00</createdDate>
+              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+              <updatedDate>2024-01-26T10:28:56.805+00:00</updatedDate>
+              <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>5d0c3d01-4dcb-4923-acda-dc0402f5f476</id>
+            <name>3 s Tagesausleihe</name>
+            <metadata>
+              <createdDate>2022-08-19T11:40:24.982+00:00</createdDate>
+              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+              <updatedDate>2023-03-01T13:41:09.531+00:00</updatedDate>
+              <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
+      </items>
+    </holding>
+  </holdings>
+</instanceData>

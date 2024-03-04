@@ -1,5 +1,106 @@
 
 
+DAIAinfo epn 1030914583-1030914583-1 ofniAIAD
+DAIAinfo sig 000 GB 1526 L263-4 ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind i Lesesaal ofniAIAD
+DAIAinfo aus_text nur für den Lesesaal ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand1OG ofniAIAD
+DAIAinfo abt_name Freihandbestand UB (1.Stock) ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=000%20GB%201526%20L263-4"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+
+DAIAinfo epn 584781296-584781296-1 ofniAIAD
+DAIAinfo sig 000 ZX 9340 K15 ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand1OG ofniAIAD
+DAIAinfo abt_name Freihandbestand UB (1.Stock) ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=000%20ZX%209340%20K15"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 58478130X-58478130X-1 ofniAIAD
+DAIAinfo sig FH spo Dk 0.27 (2.Ex.) ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo standort <b>Standort:</b> <a target="_blank" href="https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/hap?hap=hap10620171">Prof. Munzert, Sportpsych. u. Bewegungswiss.,</a> ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Handapparate ofniAIAD
+DAIAinfo abt_name UB Handapparate ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo epn 59875914X-59875914X-1 ofniAIAD
+DAIAinfo sig FH spo Dk 0.27 (3.Ex.) ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo standort <b>Standort:</b> <a target="_blank" href="https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/hap?hap=hap10620172">Prof. Müller, Sportwiss., Kugelberg 62",</a> ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Handapparate ofniAIAD
+DAIAinfo abt_name UB Handapparate ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+
+DAIAinfo epn 111858232-111858232-1 ofniAIAD
+DAIAinfo sig FH his Ke 0.2 ofniAIAD
+DAIAinfo aus_status vormerkbar ofniAIAD
+DAIAinfo aus_ind i Lesesaal ofniAIAD
+DAIAinfo aus_text nur für den Lesesaal ofniAIAD
+DAIAinfo aus_link http://vormerk.link ofniAIAD
+DAIAinfo aus_text 00001 ofniAIAD
+DAIAinfo aus_text 00010 ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Freihandbestand UB (2.Stock) ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo aus_datum 29-02-2024 ofniAIAD
+DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=FH%20his%20Ke%200.2"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 127601716-127601716-1 ofniAIAD
+DAIAinfo sig Ya 4000/94 ofniAIAD
+DAIAinfo aus_ind s Praesenzbestand ofniAIAD
+DAIAinfo aus_text vor Ort benutzbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/DezFB/Fachbibliotheken ofniAIAD
+DAIAinfo abt_name Dezentrale Fachbibliotheken ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+
+DAIAinfo epn 777781581-777781581-1 ofniAIAD
+DAIAinfo sig 000 KS 3375 O85 ofniAIAD
+DAIAinfo aus_ind s Praesenzbestand ofniAIAD
+DAIAinfo aus_text vor Ort benutzbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand1OG ofniAIAD
+DAIAinfo abt_name Freihandbestand UB (1.Stock) ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=000%20KS%203375%20O85"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+
+DAIAinfo epn 1125860960-1125860960-1 ofniAIAD
+DAIAinfo sig 002 agr Ud 1.16, 8.Aufl. ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/ZNL/Freihand ofniAIAD
+DAIAinfo abt_name ZNL Freihandbestand ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+
+DAIAinfo epn 208838023-208838023-1 ofniAIAD
+DAIAinfo sig 002 agr Mc 1.536 ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo aus_text Lfg. ff. ofniAIAD
+DAIAinfo standort <b>Standort:</b> <a target="_blank" href="https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/hap?hap=hap10910370">Prof. Siemens, Inst. f. Bodenkunde u. Bodenerhaltung, IFZ",</a> ofniAIAD
+DAIAinfo abt_num ILN204/CG/ZNL/Freihand ofniAIAD
+DAIAinfo abt_name ZNL Freihandbestand ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo epn 1012011534-1012011534-1 ofniAIAD
+DAIAinfo sig 005 RB 10159 B658 ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo aus_text Zur Fortsetzung ab 65. Ergänzungslieferung ofniAIAD
+DAIAinfo standort <b>Standort:</b> <a target="_blank" href="https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/hap?hap=hap10730174">Prof. Fuchs, Inst. für Geographie, Senckenbergstr. 1",</a> ofniAIAD
+DAIAinfo abt_num ILN204/CG/ZHB/Freihand ofniAIAD
+DAIAinfo abt_name Freihandbestand ZHB ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo epn 205878377-205878377-1 ofniAIAD
+DAIAinfo sig / ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/DezFB/Fachbibliotheken ofniAIAD
+DAIAinfo abt_name Dezentrale Fachbibliotheken ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+
+DAIAinfo epn 647967030-647967030-1 ofniAIAD
+DAIAinfo sig E SG 3033 ofniAIAD
+DAIAinfo aus_ind s Praesenzbestand ofniAIAD
+DAIAinfo aus_text vor Ort benutzbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/DezFB/FB-Anglistik ofniAIAD
+DAIAinfo abt_name Fachbibliothek Anglistik ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+
 DAIAinfo epn 1058903306-1058903306-1 ofniAIAD
 DAIAinfo sig 22.611.28 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -10,34 +111,31 @@ DAIAinfo abt_num ILN204/CG/UB/UBMag3 ofniAIAD
 DAIAinfo abt_name Magazin UB (3.Stock) ofniAIAD
 DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
 
-DAIAinfo epn 584781296-584781296-1 ofniAIAD
-DAIAinfo sig 000 ZX 9340 K15 ofniAIAD
-DAIAinfo aus_status verfuegbar ofniAIAD
-DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo abt_num ILN204/CG/UB/Freihand1OG ofniAIAD
-DAIAinfo abt_name Freihandbestand UB (1.Stock) ofniAIAD
-DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
-DAIAinfo epn 58478130X-58478130X-1 ofniAIAD
-DAIAinfo sig FH spo Dk 0.27 (2.Ex.) ofniAIAD
-DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
-DAIAinfo standort <b>Standort:</b> <a target="_blank" href="https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/hap?hap=hap10620171">Prof. Munzert, Sportpsych. u. Bewegungswiss.,</a> ofniAIAD
-DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
-DAIAinfo abt_name Freihandbestand UB (2.Stock) ofniAIAD
-DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
-DAIAinfo epn 59875914X-59875914X-1 ofniAIAD
-DAIAinfo sig FH spo Dk 0.27 (3.Ex.) ofniAIAD
-DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
-DAIAinfo standort <b>Standort:</b> <a target="_blank" href="https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/hap?hap=hap10620172">Prof. Müller, Sportwiss., Kugelberg 62",</a> ofniAIAD
-DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
-DAIAinfo abt_name Freihandbestand UB (2.Stock) ofniAIAD
-DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
-
-DAIAinfo epn 777781581-777781581-1 ofniAIAD
-DAIAinfo sig 000 KS 3375 O85 ofniAIAD
+DAIAinfo epn 1127789260-1127789260-1 ofniAIAD
+DAIAinfo sig 000 LH 49880.2016 D12 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
 DAIAinfo aus_text vor Ort benutzbar ofniAIAD
 DAIAinfo abt_num ILN204/CG/UB/Freihand1OG ofniAIAD
 DAIAinfo abt_name Freihandbestand UB (1.Stock) ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=000%20LH%2049880.2016%20D12"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 806527986-806527986-1 ofniAIAD
+DAIAinfo sig 000 LH 49880.2016 D12 ofniAIAD
+DAIAinfo aus_status vermisst ofniAIAD
+DAIAinfo aus_ind e vermisst ofniAIAD
+DAIAinfo aus_text vermisst ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand1OG ofniAIAD
+DAIAinfo abt_name Freihandbestand UB (1.Stock) ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=000%20LH%2049880.2016%20D12"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+
+DAIAinfo epn 1142541770-1142541770-1 ofniAIAD
+DAIAinfo sig / ofniAIAD
+DAIAinfo aus_status gesperrt ofniAIAD
+DAIAinfo aus_ind a bestellt ofniAIAD
+DAIAinfo aus_text erscheint voraussichtlich Novemer 2024 ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Erwerbungssignatur ofniAIAD
+DAIAinfo abt_name UB Temporäre Erwerbungssignaturen ofniAIAD
 DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
 
 DAIAinfo epn 1036506452-1036506452-1 ofniAIAD
@@ -47,6 +145,7 @@ DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo abt_num ILN204/CG/UB/Freihand1OG ofniAIAD
 DAIAinfo abt_name Freihandbestand UB (1.Stock) ofniAIAD
 DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=000%20ST%20530%20M947"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
 
 DAIAinfo epn 124617069-124617069-1 ofniAIAD
 DAIAinfo sig ADk 371.315.6/5 ofniAIAD
@@ -59,7 +158,6 @@ DAIAinfo epn 210477946-210477946-1 ofniAIAD
 DAIAinfo sig FH Sport S-1.02-98-14 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text 00001 ofniAIAD
 DAIAinfo abt_num ILN204/CG/UB/UBSemapp ofniAIAD
 DAIAinfo abt_name Semesterapparate UB ofniAIAD
 DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
@@ -67,11 +165,43 @@ DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BI
 DAIAinfo aus_text Semesterapparat ofniAIAD
 
 DAIAinfo epn 575083883-575083883-1 ofniAIAD
-DAIAinfo sig FH kla Lb 9.7 ofniAIAD
+DAIAinfo sig TEST Signatur am Item ofniAIAD
 DAIAinfo aus_status vormerkbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_link http://vormerk.link ofniAIAD
+DAIAinfo zeit_bestand01 55 / 1999 enumeration ofniAIAD
+DAIAinfo aus_text Test Anmerkungen zum Exemplar ofniAIAD
 DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
 DAIAinfo abt_name Freihandbestand UB (2.Stock) ofniAIAD
 DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
 DAIAinfo aus_datum 15-02-2024 ofniAIAD
+DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=TEST%20Signatur%20am%20Item"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+
+DAIAinfo epn 764622846-764622846-1 ofniAIAD
+DAIAinfo sig 000 BW 30180.980-3,2 ofniAIAD
+DAIAinfo aus_status vormerkbar ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_link http://vormerk.link ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand1OG ofniAIAD
+DAIAinfo abt_name Freihandbestand UB (1.Stock) ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo aus_datum 05-08-2024 ofniAIAD
+DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=000%20BW%2030180.980-3%2C2"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 776450379-776450379-1 ofniAIAD
+DAIAinfo sig 009 phi Cs 8.510-3,2 ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo standort <b>Standort:</b> <a target="_blank" href="https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/hap?hap=hap10410171">Prof. Brinkmann, Inst. f. Evangel. Theologie, Phil. II, Haus H",</a> ofniAIAD
+DAIAinfo abt_num ILN204/CG/ZP2/Freihand ofniAIAD
+DAIAinfo abt_name Freihandbestand ZP2 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+
+DAIAinfo epn 1007860359-1007860359-1 ofniAIAD
+DAIAinfo sig 000 AL 12318 R136 ofniAIAD
+DAIAinfo aus_status vermisst ofniAIAD
+DAIAinfo aus_ind e vermisst ofniAIAD
+DAIAinfo aus_text vermisst ofniAIAD
+DAIAinfo aus_text Vermisst: 2018-07-19 ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand1OG ofniAIAD
+DAIAinfo abt_name Freihandbestand UB (1.Stock) ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=000%20AL%2012318%20R136"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD

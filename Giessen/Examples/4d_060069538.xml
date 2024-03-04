@@ -71,7 +71,7 @@
   <holdings>
     <holding>
       <id>043b069d-52f4-4255-83a1-359d707ead8b</id>
-      <_version>2</_version>
+      <_version>3</_version>
       <hrid>210477946</hrid>
       <holdingsTypeId>0c422f92-0f4d-4d32-8cbe-390ebc33a3e5</holdingsTypeId>
       <instanceId>ce88a5a7-9b43-43a7-a42b-00991225bc7b</instanceId>
@@ -83,24 +83,19 @@
         <staffOnly>true</staffOnly>
         <holdingsNoteTypeId>7cad8584-35f9-4ea7-8944-11bcf40ff29c</holdingsNoteTypeId>
       </notes>
-      <notes>
-        <note>00001</note>
-        <staffOnly>false</staffOnly>
-        <holdingsNoteTypeId>49050d37-2d82-452c-a963-2645ffc0b9a9</holdingsNoteTypeId>
-      </notes>
       <discoverySuppress>false</discoverySuppress>
       <metadata>
         <createdDate>2023-08-23T13:31:29.063+00:00</createdDate>
         <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
-        <updatedDate>2023-08-23T13:31:29.063+00:00</updatedDate>
-        <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+        <updatedDate>2024-01-26T14:01:28.893+00:00</updatedDate>
+        <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
       </metadata>
       <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
       <effectiveLocation>
         <id>2b6d95b8-a103-4aca-94a8-c506806b850d</id>
         <name>Freihandbestand UB (2.Stock)</name>
         <code>ILN204/CG/UB/Freihand2OG</code>
-        <discoveryDisplayName>UB Freihandbestand (2.Stock)</discoveryDisplayName>
+        <discoveryDisplayName>000</discoveryDisplayName>
         <isActive>true</isActive>
         <institutionId>42cd2c40-53e0-4d43-9308-af95afcef2db</institutionId>
         <campusId>350d7aab-59ac-4dea-9084-e52f15321a26</campusId>
@@ -115,14 +110,14 @@
         <metadata>
           <createdDate>2022-09-21T05:35:58.847+00:00</createdDate>
           <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
-          <updatedDate>2023-08-29T12:01:21.979+00:00</updatedDate>
-          <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+          <updatedDate>2024-01-26T10:38:09.697+00:00</updatedDate>
+          <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
         </metadata>
       </effectiveLocation>
       <items>
         <item>
           <id>adc12114-164e-442d-b715-e37552e9c662</id>
-          <_version>4</_version>
+          <_version>7</_version>
           <hrid>210477946-1</hrid>
           <holdingsRecordId>043b069d-52f4-4255-83a1-359d707ead8b</holdingsRecordId>
           <discoverySuppress>false</discoverySuppress>
@@ -138,15 +133,38 @@
           </status>
           <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
           <permanentLoanTypeId>ecfbf446-421a-4a46-8e06-3e1e36d5b317</permanentLoanTypeId>
-          <temporaryLoanTypeId>4d3e1d7a-cf78-4a9e-bb00-e6596de015e2</temporaryLoanTypeId>
           <temporaryLocationId>04c31472-5e8b-4a3b-98d1-2aa422bdd442</temporaryLocationId>
           <effectiveLocationId>04c31472-5e8b-4a3b-98d1-2aa422bdd442</effectiveLocationId>
+          <tags/>
           <metadata>
             <createdDate>2023-08-23T13:31:29.091+00:00</createdDate>
             <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
-            <updatedDate>2023-08-23T13:40:30.905+00:00</updatedDate>
-            <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+            <updatedDate>2024-02-09T12:22:24.188+00:00</updatedDate>
+            <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
           </metadata>
+          <effectiveLocation>
+            <id>04c31472-5e8b-4a3b-98d1-2aa422bdd442</id>
+            <name>Semesterapparate UB</name>
+            <code>ILN204/CG/UB/UBSemapp</code>
+            <discoveryDisplayName>000</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>42cd2c40-53e0-4d43-9308-af95afcef2db</institutionId>
+            <campusId>350d7aab-59ac-4dea-9084-e52f15321a26</campusId>
+            <libraryId>04dd3948-eb9d-467b-a623-19127cb91cd1</libraryId>
+            <details>
+              <BIK>000</BIK>
+              <Map>SemApp</Map>
+              <URL>https://www.uni-giessen.de/ub/de/forlehr/litbereit/semesterapparate/copy_of_semesterapparate</URL>
+            </details>
+            <primaryServicePoint>c9ef9eb4-4ce3-4aab-b589-57d458a03a9f</primaryServicePoint>
+            <servicePointIds>c9ef9eb4-4ce3-4aab-b589-57d458a03a9f</servicePointIds>
+            <metadata>
+              <createdDate>2023-02-27T11:40:16.852+00:00</createdDate>
+              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+              <updatedDate>2024-02-23T15:00:55.572+00:00</updatedDate>
+              <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
           <permanentLoanType>
             <id>ecfbf446-421a-4a46-8e06-3e1e36d5b317</id>
             <name>0 u Ausleihbar</name>
@@ -157,37 +175,6 @@
               <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
             </metadata>
           </permanentLoanType>
-          <temporaryLoanType>
-            <id>4d3e1d7a-cf78-4a9e-bb00-e6596de015e2</id>
-            <name>5 i Nur für den Lesesaal</name>
-            <metadata>
-              <createdDate>2022-08-19T11:40:54.016+00:00</createdDate>
-              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
-              <updatedDate>2022-08-19T11:40:54.016+00:00</updatedDate>
-              <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
-            </metadata>
-          </temporaryLoanType>
-          <effectiveLocation>
-            <id>04c31472-5e8b-4a3b-98d1-2aa422bdd442</id>
-            <name>Semesterapparate UB</name>
-            <code>ILN204/CG/UB/UBSemapp</code>
-            <discoveryDisplayName>Semesterapparate UB</discoveryDisplayName>
-            <isActive>true</isActive>
-            <institutionId>42cd2c40-53e0-4d43-9308-af95afcef2db</institutionId>
-            <campusId>350d7aab-59ac-4dea-9084-e52f15321a26</campusId>
-            <libraryId>04dd3948-eb9d-467b-a623-19127cb91cd1</libraryId>
-            <details>
-              <BIK>000</BIK>
-            </details>
-            <primaryServicePoint>c9ef9eb4-4ce3-4aab-b589-57d458a03a9f</primaryServicePoint>
-            <servicePointIds>c9ef9eb4-4ce3-4aab-b589-57d458a03a9f</servicePointIds>
-            <metadata>
-              <createdDate>2023-02-27T11:40:16.852+00:00</createdDate>
-              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
-              <updatedDate>2023-08-29T12:02:16.765+00:00</updatedDate>
-              <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
-            </metadata>
-          </effectiveLocation>
         </item>
       </items>
     </holding>
@@ -217,7 +204,7 @@
         <id>c04637db-0938-499f-b4a4-92c28c4b1cd2</id>
         <name>Magazin UB (Altbau)</name>
         <code>ILN204/CG/UB/UBMagAltbau</code>
-        <discoveryDisplayName>Magazin UB (Altbau)</discoveryDisplayName>
+        <discoveryDisplayName>000</discoveryDisplayName>
         <isActive>true</isActive>
         <institutionId>42cd2c40-53e0-4d43-9308-af95afcef2db</institutionId>
         <campusId>350d7aab-59ac-4dea-9084-e52f15321a26</campusId>
@@ -234,14 +221,14 @@
         <metadata>
           <createdDate>2022-08-19T07:26:42.588+00:00</createdDate>
           <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
-          <updatedDate>2023-08-29T12:01:48.746+00:00</updatedDate>
-          <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+          <updatedDate>2024-01-26T10:38:36.645+00:00</updatedDate>
+          <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
         </metadata>
       </effectiveLocation>
       <items>
         <item>
           <id>d1df2662-ddf4-41f5-9bb8-42c262b18313</id>
-          <_version>1</_version>
+          <_version>7</_version>
           <hrid>124617069-1</hrid>
           <holdingsRecordId>09934215-bebb-4d5a-bc5e-65681304b1c9</holdingsRecordId>
           <discoverySuppress>false</discoverySuppress>
@@ -258,27 +245,18 @@
           <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
           <permanentLoanTypeId>ecfbf446-421a-4a46-8e06-3e1e36d5b317</permanentLoanTypeId>
           <effectiveLocationId>c04637db-0938-499f-b4a4-92c28c4b1cd2</effectiveLocationId>
+          <tags/>
           <metadata>
             <createdDate>2023-08-23T13:31:29.091+00:00</createdDate>
             <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
-            <updatedDate>2023-08-23T13:31:29.091+00:00</updatedDate>
-            <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+            <updatedDate>2024-01-26T13:57:34.245+00:00</updatedDate>
+            <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
           </metadata>
-          <permanentLoanType>
-            <id>ecfbf446-421a-4a46-8e06-3e1e36d5b317</id>
-            <name>0 u Ausleihbar</name>
-            <metadata>
-              <createdDate>2022-08-19T11:38:10.700+00:00</createdDate>
-              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
-              <updatedDate>2022-08-19T11:38:10.700+00:00</updatedDate>
-              <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
-            </metadata>
-          </permanentLoanType>
           <effectiveLocation>
             <id>c04637db-0938-499f-b4a4-92c28c4b1cd2</id>
             <name>Magazin UB (Altbau)</name>
             <code>ILN204/CG/UB/UBMagAltbau</code>
-            <discoveryDisplayName>Magazin UB (Altbau)</discoveryDisplayName>
+            <discoveryDisplayName>000</discoveryDisplayName>
             <isActive>true</isActive>
             <institutionId>42cd2c40-53e0-4d43-9308-af95afcef2db</institutionId>
             <campusId>350d7aab-59ac-4dea-9084-e52f15321a26</campusId>
@@ -295,10 +273,20 @@
             <metadata>
               <createdDate>2022-08-19T07:26:42.588+00:00</createdDate>
               <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
-              <updatedDate>2023-08-29T12:01:48.746+00:00</updatedDate>
-              <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+              <updatedDate>2024-01-26T10:38:36.645+00:00</updatedDate>
+              <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
             </metadata>
           </effectiveLocation>
+          <permanentLoanType>
+            <id>ecfbf446-421a-4a46-8e06-3e1e36d5b317</id>
+            <name>0 u Ausleihbar</name>
+            <metadata>
+              <createdDate>2022-08-19T11:38:10.700+00:00</createdDate>
+              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+              <updatedDate>2022-08-19T11:38:10.700+00:00</updatedDate>
+              <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
         </item>
       </items>
     </holding>

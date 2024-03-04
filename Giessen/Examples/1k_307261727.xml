@@ -1,0 +1,171 @@
+<instanceData>
+  <lang>de</lang>
+  <instance>
+    <id>807ce8aa-6f33-483f-bb9c-774c90a8ae7a</id>
+    <_version>2</_version>
+    <hrid>307261727</hrid>
+    <source>hebis</source>
+    <title>Timesaver project work / Janet Hardy-Gould</title>
+    <indexTitle>Timesaver project work Janet HardyGould</indexTitle>
+    <alternativeTitles>
+      <alternativeTitleTypeId>2584943f-36ad-4037-a7fa-3bdebb09f452</alternativeTitleTypeId>
+      <alternativeTitle>Project work</alternativeTitle>
+    </alternativeTitles>
+    <series>
+      <value>Timesaver</value>
+    </series>
+    <identifiers>
+      <value>307261727</value>
+      <identifierTypeId>1d5cb40c-508f-451b-8952-87c92be4255a</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>3464371859 spiralgeh. : EUR 25.95</value>
+      <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>1024071847</value>
+      <identifierTypeId>63fd8fa0-a939-4d1e-869c-6dcc24c9d507</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>12,A34,0709</value>
+      <identifierTypeId>217a56e1-5e45-4253-b942-d2199cca183e</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>DNB: 1024071847</value>
+      <identifierTypeId>8e33c1be-e2c4-43ac-a975-8fb50f71137a</identifierTypeId>
+    </identifiers>
+    <contributors>
+      <name>Hardy-Gould, Janet</name>
+      <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+      <primary>true</primary>
+    </contributors>
+    <publication>
+      <publisher>Cornelsen</publisher>
+      <place>[Berlin]</place>
+      <dateOfPublication>[ca. 2011]</dateOfPublication>
+      <role>Publisher</role>
+    </publication>
+    <publicationPeriod>
+      <start>2011</start>
+    </publicationPeriod>
+    <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
+    <instanceFormatIds>98f0caa9-d38e-427b-9ec4-454de81a94d7</instanceFormatIds>
+    <physicalDescriptions>94 S. : Ill. ; 30 cm</physicalDescriptions>
+    <languages>eng</languages>
+    <administrativeNotes>Aau (Kategorie 0500)</administrativeNotes>
+    <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
+    <previouslyHeld>false</previouslyHeld>
+    <discoverySuppress>false</discoverySuppress>
+    <statusUpdatedDate>2023-08-22T12:16:39.922+0000</statusUpdatedDate>
+    <metadata>
+      <createdDate>2023-08-22T12:16:39.922+00:00</createdDate>
+      <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+      <updatedDate>2023-08-22T12:16:39.922+00:00</updatedDate>
+      <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+    </metadata>
+  </instance>
+  <holdings>
+    <holding>
+      <id>32a469d0-fab9-4184-9361-d8bf070e1baa</id>
+      <_version>3</_version>
+      <hrid>647967030</hrid>
+      <holdingsTypeId>0c422f92-0f4d-4d32-8cbe-390ebc33a3e5</holdingsTypeId>
+      <instanceId>807ce8aa-6f33-483f-bb9c-774c90a8ae7a</instanceId>
+      <permanentLocationId>b69ff77e-db9c-4db6-ac0e-da0e77086c69</permanentLocationId>
+      <effectiveLocationId>b69ff77e-db9c-4db6-ac0e-da0e77086c69</effectiveLocationId>
+      <callNumber>E SG 3033</callNumber>
+      <notes>
+        <note>22.08.23 14:16</note>
+        <staffOnly>true</staffOnly>
+        <holdingsNoteTypeId>7cad8584-35f9-4ea7-8944-11bcf40ff29c</holdingsNoteTypeId>
+      </notes>
+      <discoverySuppress>false</discoverySuppress>
+      <metadata>
+        <createdDate>2023-08-22T12:16:39.955+00:00</createdDate>
+        <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+        <updatedDate>2024-02-07T14:23:55.508+00:00</updatedDate>
+        <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+      </metadata>
+      <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
+      <effectiveLocation>
+        <id>b69ff77e-db9c-4db6-ac0e-da0e77086c69</id>
+        <name>Fachbibliothek Anglistik</name>
+        <code>ILN204/CG/DezFB/FB-Anglistik</code>
+        <discoveryDisplayName>100</discoveryDisplayName>
+        <isActive>true</isActive>
+        <institutionId>42cd2c40-53e0-4d43-9308-af95afcef2db</institutionId>
+        <campusId>350d7aab-59ac-4dea-9084-e52f15321a26</campusId>
+        <libraryId>9d3d7545-4e7f-47b0-9323-23f592c0a34a</libraryId>
+        <details>
+          <BIK>100</BIK>
+        </details>
+        <primaryServicePoint>3a40852d-49fd-4df2-a1f9-6e2641a6e91f</primaryServicePoint>
+        <servicePointIds>3a40852d-49fd-4df2-a1f9-6e2641a6e91f</servicePointIds>
+        <metadata>
+          <createdDate>2023-08-29T11:44:41.728+00:00</createdDate>
+          <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+          <updatedDate>2024-01-26T10:29:22.186+00:00</updatedDate>
+          <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
+        </metadata>
+      </effectiveLocation>
+      <items>
+        <item>
+          <id>37a086bb-6d36-42b2-939e-7ad395626a3b</id>
+          <_version>2</_version>
+          <hrid>647967030-1</hrid>
+          <holdingsRecordId>32a469d0-fab9-4184-9361-d8bf070e1baa</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <barcode>85606425</barcode>
+          <effectiveShelvingOrder>E SG 3033</effectiveShelvingOrder>
+          <effectiveCallNumberComponents>
+            <callNumber>E SG 3033</callNumber>
+          </effectiveCallNumberComponents>
+          <status>
+            <name>Available</name>
+            <date>2023-08-22T12:16:39.972+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>5170505e-f4a4-4f17-955b-e0ce202889c4</permanentLoanTypeId>
+          <effectiveLocationId>b69ff77e-db9c-4db6-ac0e-da0e77086c69</effectiveLocationId>
+          <metadata>
+            <createdDate>2023-08-22T12:16:39.979+00:00</createdDate>
+            <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+            <updatedDate>2023-08-22T12:16:39.979+00:00</updatedDate>
+            <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>b69ff77e-db9c-4db6-ac0e-da0e77086c69</id>
+            <name>Fachbibliothek Anglistik</name>
+            <code>ILN204/CG/DezFB/FB-Anglistik</code>
+            <discoveryDisplayName>100</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>42cd2c40-53e0-4d43-9308-af95afcef2db</institutionId>
+            <campusId>350d7aab-59ac-4dea-9084-e52f15321a26</campusId>
+            <libraryId>9d3d7545-4e7f-47b0-9323-23f592c0a34a</libraryId>
+            <details>
+              <BIK>100</BIK>
+            </details>
+            <primaryServicePoint>3a40852d-49fd-4df2-a1f9-6e2641a6e91f</primaryServicePoint>
+            <servicePointIds>3a40852d-49fd-4df2-a1f9-6e2641a6e91f</servicePointIds>
+            <metadata>
+              <createdDate>2023-08-29T11:44:41.728+00:00</createdDate>
+              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+              <updatedDate>2024-01-26T10:29:22.186+00:00</updatedDate>
+              <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>5170505e-f4a4-4f17-955b-e0ce202889c4</id>
+            <name>9 o Ausleihbarkeit unbekannt</name>
+            <metadata>
+              <createdDate>2022-08-19T11:42:17.467+00:00</createdDate>
+              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+              <updatedDate>2023-08-22T12:42:11.900+00:00</updatedDate>
+              <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
+      </items>
+    </holding>
+  </holdings>
+</instanceData>

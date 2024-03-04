@@ -123,6 +123,7 @@
             <c>ILN204/CG/UB/Freihand2OG</c>
             <n xml:lang="de">Freihandbestand UB (2.Stock)</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Hermann-Hoffmann-Akademie</c>
@@ -232,6 +233,7 @@
             <c>ILN204/CG/UB/Freihand1OG</c>
             <n xml:lang="de">Freihandbestand UB (1.Stock)</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Anatomie</c>

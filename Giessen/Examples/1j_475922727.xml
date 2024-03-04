@@ -1,0 +1,182 @@
+<instanceData>
+  <lang>de</lang>
+  <instance>
+    <id>c59822ab-1745-496e-904b-6245ed4ecedc</id>
+    <_version>3</_version>
+    <hrid>475922727</hrid>
+    <source>hebis</source>
+    <title>Dunkelnacht / Kirsten Boie</title>
+    <indexTitle>Dunkelnacht Kirsten Boie</indexTitle>
+    <editions>Orig.-Ausg., 1. Aufl.</editions>
+    <identifiers>
+      <value>475922727</value>
+      <identifierTypeId>1d5cb40c-508f-451b-8952-87c92be4255a</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>9783751200530 : 13.00 EUR</value>
+      <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>3751200533</value>
+      <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>9783751200530</value>
+      <identifierTypeId>7836bced-1d36-4ee0-b263-5d63db38676a</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>1217862854</value>
+      <identifierTypeId>63fd8fa0-a939-4d1e-869c-6dcc24c9d507</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>HEB: 475922727</value>
+      <identifierTypeId>8e33c1be-e2c4-43ac-a975-8fb50f71137a</identifierTypeId>
+    </identifiers>
+    <contributors>
+      <name>Boie, Kirsten *1950-*</name>
+      <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+      <contributorTypeText>Verfasser</contributorTypeText>
+      <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+      <primary>true</primary>
+    </contributors>
+    <publication>
+      <publisher>Verlag Friedrich Oetinger GmbH</publisher>
+      <place>Hamburg</place>
+      <dateOfPublication>2021</dateOfPublication>
+      <role>Publisher</role>
+    </publication>
+    <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
+    <instanceFormatIds>8d511d33-5e85-4c5d-9bce-6e3c9cd0c324</instanceFormatIds>
+    <physicalDescriptions>112 Seiten : Ill. ; 20.3 cm x 12.1 cm</physicalDescriptions>
+    <languages>ger</languages>
+    <notes>
+      <note>Erscheint auch als Online-Ausgabe: ISBN 9783960522058</note>
+      <staffOnly>false</staffOnly>
+      <instanceNoteTypeId>1d51e8b2-dee7-43f5-983c-a40757b9cdfa</instanceNoteTypeId>
+    </notes>
+    <administrativeNotes>Aau (Kategorie 0500)</administrativeNotes>
+    <administrativeNotes>TEST HDS-KONNEKTOR =&gt; BITTE NICHTS ÄNDERN</administrativeNotes>
+    <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
+    <previouslyHeld>false</previouslyHeld>
+    <discoverySuppress>false</discoverySuppress>
+    <statusUpdatedDate>2023-08-22T12:05:50.439+0000</statusUpdatedDate>
+    <tags/>
+    <metadata>
+      <createdDate>2023-08-22T11:58:34.426+00:00</createdDate>
+      <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+      <updatedDate>2023-08-22T12:06:21.953+00:00</updatedDate>
+      <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+    </metadata>
+  </instance>
+  <holdings>
+    <holding>
+      <id>48461586-8ccb-4c38-9588-04c9ea41a339</id>
+      <_version>4</_version>
+      <hrid>1142541770</hrid>
+      <holdingsTypeId>0c422f92-0f4d-4d32-8cbe-390ebc33a3e5</holdingsTypeId>
+      <instanceId>c59822ab-1745-496e-904b-6245ed4ecedc</instanceId>
+      <permanentLocationId>4f790b65-3874-49a7-8dac-46b3cbcfd6ab</permanentLocationId>
+      <effectiveLocationId>4f790b65-3874-49a7-8dac-46b3cbcfd6ab</effectiveLocationId>
+      <callNumber>/</callNumber>
+      <notes>
+        <note>erscheint voraussichtlich Novemer 2024</note>
+        <staffOnly>false</staffOnly>
+        <holdingsNoteTypeId>f862da41-4a7a-4864-8a52-befa58ab210b</holdingsNoteTypeId>
+      </notes>
+      <notes>
+        <note>22.08.23 14:05</note>
+        <staffOnly>true</staffOnly>
+        <holdingsNoteTypeId>7cad8584-35f9-4ea7-8944-11bcf40ff29c</holdingsNoteTypeId>
+      </notes>
+      <discoverySuppress>false</discoverySuppress>
+      <metadata>
+        <createdDate>2023-08-22T11:58:34.450+00:00</createdDate>
+        <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+        <updatedDate>2024-02-05T12:42:15.701+00:00</updatedDate>
+        <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
+      </metadata>
+      <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
+      <effectiveLocation>
+        <id>4f790b65-3874-49a7-8dac-46b3cbcfd6ab</id>
+        <name>UB Temporäre Erwerbungssignaturen</name>
+        <code>ILN204/CG/UB/Erwerbungssignatur</code>
+        <discoveryDisplayName>000</discoveryDisplayName>
+        <isActive>true</isActive>
+        <institutionId>42cd2c40-53e0-4d43-9308-af95afcef2db</institutionId>
+        <campusId>350d7aab-59ac-4dea-9084-e52f15321a26</campusId>
+        <libraryId>04dd3948-eb9d-467b-a623-19127cb91cd1</libraryId>
+        <details>
+          <BIK>000</BIK>
+        </details>
+        <primaryServicePoint>dd10b2e9-7ad5-4ec3-89e1-e771664d76ed</primaryServicePoint>
+        <servicePointIds>dd10b2e9-7ad5-4ec3-89e1-e771664d76ed</servicePointIds>
+        <servicePointIds>c9ef9eb4-4ce3-4aab-b589-57d458a03a9f</servicePointIds>
+        <metadata>
+          <createdDate>2022-10-17T09:26:14.869+00:00</createdDate>
+          <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+          <updatedDate>2024-01-26T10:39:38.213+00:00</updatedDate>
+          <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
+        </metadata>
+      </effectiveLocation>
+      <items>
+        <item>
+          <id>cac8cd4d-7f33-453f-b4b1-377a887002b2</id>
+          <_version>3</_version>
+          <hrid>1142541770-1</hrid>
+          <holdingsRecordId>48461586-8ccb-4c38-9588-04c9ea41a339</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <barcode>64275372</barcode>
+          <effectiveShelvingOrder>/</effectiveShelvingOrder>
+          <effectiveCallNumberComponents>
+            <callNumber>/</callNumber>
+          </effectiveCallNumberComponents>
+          <status>
+            <name>On order</name>
+            <date>2023-08-22T11:58:34.488+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>48ddc2c8-8b09-4275-9de7-fabbb219d1e1</permanentLoanTypeId>
+          <effectiveLocationId>4f790b65-3874-49a7-8dac-46b3cbcfd6ab</effectiveLocationId>
+          <metadata>
+            <createdDate>2023-08-22T11:58:34.490+00:00</createdDate>
+            <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+            <updatedDate>2023-08-22T12:05:50.477+00:00</updatedDate>
+            <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>4f790b65-3874-49a7-8dac-46b3cbcfd6ab</id>
+            <name>UB Temporäre Erwerbungssignaturen</name>
+            <code>ILN204/CG/UB/Erwerbungssignatur</code>
+            <discoveryDisplayName>000</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>42cd2c40-53e0-4d43-9308-af95afcef2db</institutionId>
+            <campusId>350d7aab-59ac-4dea-9084-e52f15321a26</campusId>
+            <libraryId>04dd3948-eb9d-467b-a623-19127cb91cd1</libraryId>
+            <details>
+              <BIK>000</BIK>
+            </details>
+            <primaryServicePoint>dd10b2e9-7ad5-4ec3-89e1-e771664d76ed</primaryServicePoint>
+            <servicePointIds>dd10b2e9-7ad5-4ec3-89e1-e771664d76ed</servicePointIds>
+            <servicePointIds>c9ef9eb4-4ce3-4aab-b589-57d458a03a9f</servicePointIds>
+            <metadata>
+              <createdDate>2022-10-17T09:26:14.869+00:00</createdDate>
+              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+              <updatedDate>2024-01-26T10:39:38.213+00:00</updatedDate>
+              <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>48ddc2c8-8b09-4275-9de7-fabbb219d1e1</id>
+            <name>9 a Zur Erwerbung bestellt</name>
+            <metadata>
+              <createdDate>2022-08-19T11:41:42.630+00:00</createdDate>
+              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+              <updatedDate>2022-08-19T11:41:42.630+00:00</updatedDate>
+              <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
+      </items>
+    </holding>
+  </holdings>
+</instanceData>
