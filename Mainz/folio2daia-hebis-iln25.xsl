@@ -110,6 +110,10 @@
         <xsl:text>&#10;</xsl:text>
         <xsl:for-each select="holdings/holding[(holdingsTypeId='996f93e2-5b5e-4cf2-9168-33ced1f95eed') and not(xs:boolean(discoverySuppress))]"> <!-- für elektronische Bestände -->
             <!-- evtl. sortieren <xsl:sort select="..."/> -->
+            <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag">aus_ind</xsl:with-param>
+                <xsl:with-param name="value" select="'x online'"/>
+            </xsl:call-template>
             <xsl:apply-templates select="./*|./*/*">
                 <xsl:sort select="index-of(('hrid'),name())" order="descending"/>
             </xsl:apply-templates> 
