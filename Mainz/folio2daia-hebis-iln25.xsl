@@ -121,6 +121,19 @@
         <xsl:for-each select="holdings/holding[(holdingsTypeId!='996f93e2-5b5e-4cf2-9168-33ced1f95eed') and not(xs:boolean(discoverySuppress))]"> <!-- für nicht elektronische Bestände -->
             <xsl:sort select="effectiveLocation/discoveryDisplayName" order="ascending" lang="de"/>
             <xsl:sort select="callNumber" order="ascending" lang="de"/>
+            <xsl:if test="not(items/item)">
+                <xsl:apply-templates select="./hrid|./notes/note">
+                    <xsl:sort select="index-of(('hrid'),name())" order="descending"/>
+                </xsl:apply-templates>
+                <xsl:call-template name="DAIA">
+                    <xsl:with-param name="tag">aus_ind</xsl:with-param>
+                    <xsl:with-param name="value" select="'unknown'"/>
+                </xsl:call-template>
+                <xsl:call-template name="DAIA">
+                    <xsl:with-param name="tag">sig</xsl:with-param>
+                    <xsl:with-param name="value" select="string-join((callNumberPrefix,callNumber),' ')"/>
+                </xsl:call-template>
+            </xsl:if>
             <xsl:for-each select="items/item[not(xs:boolean(discoverySuppress))]">
                 <xsl:sort select="(enumeration,chronology)[1]" order="ascending"/>
                 <xsl:sort select="hrid" order="ascending"/>
