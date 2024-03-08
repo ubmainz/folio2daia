@@ -126,10 +126,6 @@
                     <xsl:sort select="index-of(('hrid'),name())" order="descending"/>
                 </xsl:apply-templates>
                 <xsl:call-template name="DAIA">
-                    <xsl:with-param name="tag">aus_ind</xsl:with-param>
-                    <xsl:with-param name="value" select="'unknown'"/>
-                </xsl:call-template>
-                <xsl:call-template name="DAIA">
                     <xsl:with-param name="tag">sig</xsl:with-param>
                     <xsl:with-param name="value" select="string-join((callNumberPrefix,callNumber),' ')"/>
                 </xsl:call-template>
