@@ -504,6 +504,9 @@ DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=
 DAIAinfo epn 1008827029-1008827029 ofniAIAD
 DAIAinfo aus_text Nachdr. 2011 ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
+DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
+DAIAinfo abt_name Zentralbibliothek,Lesesaal ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo sig HIST W 357 ofniAIAD
 DAIAinfo epn 182300447-182300447-1 ofniAIAD
 DAIAinfo sig 08 X - B 45 ofniAIAD
@@ -947,6 +950,9 @@ DAIAinfo zeit_bestand01 2009(2010) ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=28%20BOFA%201%2F2009&c2=25%2F002-002-22-GFGSOZ">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=28%20BOFA%201%2F2009&c2=25%2F002-002-22-GFGSOZ"> ofniAIAD
 
 DAIAinfo epn 599893117-599893117 ofniAIAD
+DAIAinfo abt_num 25/000-000-10-ZBFREI ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Bücherturm ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo sig 252.186 ofniAIAD
 DAIAinfo epn 721780075-721780075-1 ofniAIAD
 DAIAinfo sig 20L 655 ofniAIAD
@@ -1027,6 +1033,9 @@ DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20L%20655&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=20L%20655&c2=25%2F000-000-12-ZBLBS"> ofniAIAD
 DAIAinfo epn 721780067-721780067 ofniAIAD
+DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
+DAIAinfo abt_name Zentralbibliothek,Lesesaal ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo sig HIST P 4140 ofniAIAD
 DAIAinfo epn 1051448751-1051448751-1 ofniAIAD
 DAIAinfo sig P KL 77/45 ofniAIAD
@@ -1062,6 +1071,9 @@ DAIAinfo abt_name BB Philosophicum, Mittlere und neuere Geschichte ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Bab%2090-5%2C2.Ex.&c2=25%2F004-088-PHMNG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Bab%2090-5%2C2.Ex.&c2=25%2F004-088-PHMNG"> ofniAIAD
 DAIAinfo epn 607513683-607513683 ofniAIAD
+DAIAinfo abt_num 25/004-092-PHOEG ofniAIAD
+DAIAinfo abt_name BB Philosophicum, Osteuropäische Geschichte ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo sig Md 41 ofniAIAD
 DAIAinfo epn 1010637142-1010637142-1 ofniAIAD
 DAIAinfo sig HIS-PL 10.10 Borod 1 ofniAIAD
@@ -1196,6 +1208,9 @@ DAIAinfo standort Evangelische Theologie ofniAIAD
 DAIAinfo aus_text 01750 ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Fb%207568&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Fb%207568&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH"> ofniAIAD
 DAIAinfo epn 102565434X-102565434X ofniAIAD
+DAIAinfo abt_num 25/019-019-14-GHLS ofniAIAD
+DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lesesaal ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo sig LIT 10/21 ofniAIAD
 
 DAIAinfo epn 623198681-623198681-1 ofniAIAD
@@ -1548,12 +1563,21 @@ DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=
 
 DAIAinfo epn 1152813471-1152813471 ofniAIAD
 DAIAinfo aus_text Tagesausleihe möglich. Bitte bestellen Sie und wenden sich zur Abholung an die Ausleih-Theke in der ZB! ofniAIAD
+DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo sig BG 9999-Anatomie 134 ofniAIAD
 DAIAinfo epn 115281348X-115281348X ofniAIAD
 DAIAinfo aus_text Tagesausleihe möglich. Bitte bestellen Sie und wenden sich zur Abholung an die Ausleih-Theke in der ZB! ofniAIAD
+DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo sig BG 9999-Anatomie 135 ofniAIAD
 DAIAinfo epn 1152813498-1152813498 ofniAIAD
 DAIAinfo aus_text Tagesausleihe möglich. Bitte bestellen Sie und wenden sich zur Abholung an die Ausleih-Theke in der ZB! ofniAIAD
+DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo sig BG 9999-Anatomie 136 ofniAIAD
 
 DAIAinfo epn 116903084X-116903084X-1 ofniAIAD

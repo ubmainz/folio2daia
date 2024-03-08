@@ -122,7 +122,7 @@
             <xsl:sort select="effectiveLocation/discoveryDisplayName" order="ascending" lang="de"/>
             <xsl:sort select="callNumber" order="ascending" lang="de"/>
             <xsl:if test="not(items/item)">
-                <xsl:apply-templates select="./hrid|./notes/note">
+                <xsl:apply-templates select="./hrid|./notes/note|./effectiveLocation/discoveryDisplayName">
                     <xsl:sort select="index-of(('hrid'),name())" order="descending"/>
                 </xsl:apply-templates>
                 <xsl:call-template name="DAIA">
