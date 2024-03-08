@@ -376,9 +376,10 @@
                     <xsl:with-param name="fields" select="$locationtext/t"/>
                 </xsl:call-template>
                 <xsl:text>&lt;/a&gt;</xsl:text>
+                <!-- QR-Code
                 <xsl:text>&lt;img width=&quot;130&quot; height=&quot;130&quot; src=&quot;https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?</xsl:text>
                 <xsl:value-of select="$mapongopar"/>
-                <xsl:text>&quot;&gt;</xsl:text>
+                <xsl:text>&quot;&gt;</xsl:text> -->
             </xsl:with-param>
         </xsl:call-template>   
     </xsl:template>
