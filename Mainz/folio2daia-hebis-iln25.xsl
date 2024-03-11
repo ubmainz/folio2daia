@@ -115,7 +115,7 @@
                 <xsl:with-param name="value" select="'x online'"/>
             </xsl:call-template>
             <xsl:call-template name="DAIA">
-                <xsl:with-param name="tag">aus_satus</xsl:with-param>
+                <xsl:with-param name="tag">aus_status</xsl:with-param>
                 <xsl:with-param name="value" select="'frei'"/>
             </xsl:call-template>
             <xsl:apply-templates select="./*|./*/*">
