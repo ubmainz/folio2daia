@@ -110,6 +110,14 @@
         <xsl:text>&#10;</xsl:text>
         <xsl:for-each select="holdings/holding[(holdingsTypeId='996f93e2-5b5e-4cf2-9168-33ced1f95eed') and not(xs:boolean(discoverySuppress))]"> <!-- für elektronische Bestände -->
             <!-- evtl. sortieren <xsl:sort select="..."/> -->
+            <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag">aus_ind</xsl:with-param>
+                <xsl:with-param name="value" select="'x online'"/>
+            </xsl:call-template>
+            <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag">aus_status</xsl:with-param>
+                <xsl:with-param name="value" select="'frei'"/>
+            </xsl:call-template>
             <xsl:apply-templates select="./*|./*/*">
                 <xsl:sort select="index-of(('hrid'),name())" order="descending"/>
             </xsl:apply-templates> 
@@ -117,6 +125,19 @@
         <xsl:for-each select="holdings/holding[(holdingsTypeId!='996f93e2-5b5e-4cf2-9168-33ced1f95eed') and not(xs:boolean(discoverySuppress))]"> <!-- für nicht elektronische Bestände -->
             <xsl:sort select="effectiveLocation/discoveryDisplayName" order="ascending" lang="de"/>
             <xsl:sort select="callNumber" order="ascending" lang="de"/>
+            <xsl:if test="not(items/item)">
+                <xsl:apply-templates select="./hrid|./notes/note|./effectiveLocation/discoveryDisplayName">
+                    <xsl:sort select="index-of(('hrid'),name())" order="descending"/>
+                </xsl:apply-templates>
+                <xsl:call-template name="DAIA">
+                    <xsl:with-param name="tag">aus_ind</xsl:with-param>
+                    <xsl:with-param name="value" select="'y unbekannt'"/>
+                </xsl:call-template>
+                <xsl:call-template name="DAIA">
+                    <xsl:with-param name="tag">sig</xsl:with-param>
+                    <xsl:with-param name="value" select="string-join((callNumberPrefix,callNumber),' ')"/>
+                </xsl:call-template>
+            </xsl:if>
             <xsl:for-each select="items/item[not(xs:boolean(discoverySuppress))]">
                 <xsl:sort select="(enumeration,chronology)[1]" order="ascending"/>
                 <xsl:sort select="hrid" order="ascending"/>
@@ -359,9 +380,10 @@
                     <xsl:with-param name="fields" select="$locationtext/t"/>
                 </xsl:call-template>
                 <xsl:text>&lt;/a&gt;</xsl:text>
+                <!-- QR-Code
                 <xsl:text>&lt;img width=&quot;130&quot; height=&quot;130&quot; src=&quot;https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?</xsl:text>
                 <xsl:value-of select="$mapongopar"/>
-                <xsl:text>&quot;&gt;</xsl:text>
+                <xsl:text>&quot;&gt;</xsl:text> -->
             </xsl:with-param>
         </xsl:call-template>   
     </xsl:template>

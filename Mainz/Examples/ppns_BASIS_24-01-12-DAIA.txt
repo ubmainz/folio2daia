@@ -8,7 +8,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek,Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=PAED%20H%20524&c2=25%2F000-000-14-ZBLS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=PAED%20H%20524&c2=25%2F000-000-14-ZBLS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=PAED%20H%20524&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 072195789-072195789-1 ofniAIAD
 DAIAinfo sig AW 1967 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -27,7 +27,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/002-002-20-GFGPUB ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Publizistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=09%20UNI%202&c2=25%2F002-002-20-GFGPUB">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=09%20UNI%202&c2=25%2F002-002-20-GFGPUB"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=09%20UNI%202&c2=25%2F002-002-20-GFGPUB">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 361807481-361807481-1 ofniAIAD
 DAIAinfo sig 28 JGUM 4 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -38,7 +38,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/002-002-22-GFGSOZ ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Soziologie ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=28%20JGUM%204&c2=25%2F002-002-22-GFGSOZ">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=28%20JGUM%204&c2=25%2F002-002-22-GFGSOZ"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=28%20JGUM%204&c2=25%2F002-002-22-GFGSOZ">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 072037504-072037504-1 ofniAIAD
 DAIAinfo sig TOP M 80/1a.17 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -49,7 +49,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/002-079-GFGKUN ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Kunstgeschichte ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=TOP%20M%2080%2F1a.17&c2=25%2F002-079-GFGKUN">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=TOP%20M%2080%2F1a.17&c2=25%2F002-079-GFGKUN"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=TOP%20M%2080%2F1a.17&c2=25%2F002-079-GFGKUN">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 072195924-072195924-1 ofniAIAD
 DAIAinfo sig var 579 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -60,7 +60,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/004-077-PHKLP ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Klassische Philologie ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=var%20579&c2=25%2F004-077-PHKLP">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=var%20579&c2=25%2F004-077-PHKLP"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=var%20579&c2=25%2F004-077-PHKLP">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 072195835-072195835-1 ofniAIAD
 DAIAinfo sig TD 5000 MAT1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -72,7 +72,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/006-006-10-MINT ofniAIAD
 DAIAinfo abt_name BB Mathematik, Informatik, Naturwissenschaften und Technik, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=TD%205000%20MAT1&c2=25%2F006-006-10-MINT">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=TD%205000%20MAT1&c2=25%2F006-006-10-MINT"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=TD%205000%20MAT1&c2=25%2F006-006-10-MINT">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 306254212-306254212-1 ofniAIAD
 DAIAinfo sig A 37 c 3 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -84,7 +84,7 @@ DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Katholische Theologie ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=A%2037%20c%203&c1=Katholische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=A%2037%20c%203&c1=Katholische%20Theologie&c2=25%2F016-016-10-TH"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=A%2037%20c%203&c1=Katholische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 076191818-076191818-1 ofniAIAD
 DAIAinfo sig Af 123 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -97,7 +97,7 @@ DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Evangelische Theologie ofniAIAD
 DAIAinfo aus_text 01701 ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Af%20123&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Af%20123&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Af%20123&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 150699484-150699484-1 ofniAIAD
 DAIAinfo sig Univ 76 Mai 1987 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -245,7 +245,7 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Evangelische Theologie ofniAIAD
 DAIAinfo zeit_bestand01 N.F. ofniAIAD
 DAIAinfo zeit_bestand02 30.1928; 33.1931 - 38.1936 ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 074678310-it00000000162 ofniAIAD
 DAIAinfo sig Pc-Pomm. 5 ofniAIAD
 DAIAinfo aus_status vormerkbar ofniAIAD
@@ -257,7 +257,7 @@ DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Evangelische Theologie ofniAIAD
 DAIAinfo zeit_bestand01 1000   ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 074678310-it00000000169 ofniAIAD
 DAIAinfo sig Pc-Pomm. 5 ofniAIAD
 DAIAinfo aus_status vormerkbar ofniAIAD
@@ -269,7 +269,7 @@ DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Evangelische Theologie ofniAIAD
 DAIAinfo zeit_bestand01 1932 34  ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 074678310-it00000000165 ofniAIAD
 DAIAinfo sig Pc-Pomm. 5 ofniAIAD
 DAIAinfo aus_status vormerkbar ofniAIAD
@@ -281,7 +281,7 @@ DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Evangelische Theologie ofniAIAD
 DAIAinfo zeit_bestand01 1936 36 Seite 13 ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 070304823-070304823-1 ofniAIAD
 DAIAinfo sig 4° ZA 363 ofniAIAD
@@ -313,7 +313,7 @@ DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-20-ZBSEM ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Semesterapparate ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=086.931&c2=25%2F000-000-20-ZBSEM">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=086.931&c2=25%2F000-000-20-ZBSEM"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=086.931&c2=25%2F000-000-20-ZBSEM">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 113674406-113674406-1 ofniAIAD
 DAIAinfo sig 4° BB 1129 ofniAIAD
@@ -336,7 +336,7 @@ DAIAinfo abt_num 25/002-002-10-GFGPÄD ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Erziehungswissenschaft ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo zeit_bestand01 4.1999/2000(1999) - 5.2001/2002(2000); 10.2007(2006) ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=29%20998&c2=25%2F002-002-10-GFGP%C3%84D">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=29%20998&c2=25%2F002-002-10-GFGP%C3%84D"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=29%20998&c2=25%2F002-002-10-GFGP%C3%84D">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 127443576-127443576-1 ofniAIAD
 DAIAinfo sig 92 FOR ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
@@ -347,7 +347,7 @@ DAIAinfo abt_num 25/002-002-20-GFGPUB ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Publizistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo zeit_bestand01 2.1997 - 3.1998; 5.2001/02(2000) ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=92%20FOR&c2=25%2F002-002-20-GFGPUB">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=92%20FOR&c2=25%2F002-002-20-GFGPUB"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=92%20FOR&c2=25%2F002-002-20-GFGPUB">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 138047324-138047324-1 ofniAIAD
 DAIAinfo sig A h 18 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -357,7 +357,7 @@ DAIAinfo abt_num 25/002-079-GFGKUN ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Kunstgeschichte ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo zeit_bestand01 4.1999/2000(1999); 5.2001/2002(2000); 9.2006(2005) ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=A%20h%2018&c2=25%2F002-079-GFGKUN">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=A%20h%2018&c2=25%2F002-079-GFGKUN"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=A%20h%2018&c2=25%2F002-079-GFGKUN">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 544101928-544101928-1 ofniAIAD
 DAIAinfo sig A 10.23 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
@@ -368,7 +368,7 @@ DAIAinfo abt_num 25/002-113-GFGSPO ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Sportwissenschaften ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo zeit_bestand01 10.2007(2006) ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=A%2010.23&c2=25%2F002-113-GFGSPO">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=A%2010.23&c2=25%2F002-113-GFGSPO"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=A%2010.23&c2=25%2F002-113-GFGSPO">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 154871745-154871745-1 ofniAIAD
 DAIAinfo sig I-3 FOR-1 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
@@ -379,7 +379,7 @@ DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo zeit_bestand01 5.2001/2002(2000) ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=I-3%20FOR-1&c2=25%2F004-072-PHANG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=I-3%20FOR-1&c2=25%2F004-072-PHANG"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=I-3%20FOR-1&c2=25%2F004-072-PHANG">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 15045659X-15045659X-1 ofniAIAD
 DAIAinfo sig X R/I F 1 1999/2000 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
@@ -390,7 +390,7 @@ DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo zeit_bestand01 4.1999/2000(1999) ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=X%20R%2FI%20F%201%201999%2F2000&c2=25%2F004-072-PHANG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=X%20R%2FI%20F%201%201999%2F2000&c2=25%2F004-072-PHANG"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=X%20R%2FI%20F%201%201999%2F2000&c2=25%2F004-072-PHANG">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 144585952-144585952-1 ofniAIAD
 DAIAinfo sig Y 99-0-A15 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
@@ -401,7 +401,7 @@ DAIAinfo abt_num 25/004-075-PHSLAV ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Slavistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo zeit_bestand01 4.1999/2000(1999) ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Y%2099-0-A15&c2=25%2F004-075-PHSLAV">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Y%2099-0-A15&c2=25%2F004-075-PHSLAV"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Y%2099-0-A15&c2=25%2F004-075-PHSLAV">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 169195503-169195503-1 ofniAIAD
 DAIAinfo sig Ab 555 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -411,7 +411,7 @@ DAIAinfo abt_num 25/004-088-PHMNG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Mittlere und neuere Geschichte ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo zeit_bestand01 5.2001/02(2000) ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Ab%20555&c2=25%2F004-088-PHMNG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Ab%20555&c2=25%2F004-088-PHMNG"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Ab%20555&c2=25%2F004-088-PHMNG">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 169195511-169195511-1 ofniAIAD
 DAIAinfo sig Ag 111 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -421,7 +421,7 @@ DAIAinfo abt_num 25/004-090-PHBUW ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Buchwissenschaft ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo zeit_bestand01 4.1999/2000; 5.2001/02(2000) ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Ag%20111&c2=25%2F004-090-PHBUW">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Ag%20111&c2=25%2F004-090-PHBUW"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Ag%20111&c2=25%2F004-090-PHBUW">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 776201417-776201417-1 ofniAIAD
 DAIAinfo sig 90/METEOROLOGIE X 24 ofniAIAD
 DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
@@ -431,7 +431,7 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort MIN / HANDAPPARAT METEOROLOGIE ofniAIAD
 DAIAinfo aus_text Genauen Standort in der BB MIN erfragen! ofniAIAD
 DAIAinfo zeit_bestand01 9.2006(2005) ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=90%2FMETEOROLOGIE%20X%2024&c1=MIN%20%2F%20HANDAPPARAT%20METEOROLOGIE&c2=25%2F006-006-10-MINT">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=90%2FMETEOROLOGIE%20X%2024&c1=MIN%20%2F%20HANDAPPARAT%20METEOROLOGIE&c2=25%2F006-006-10-MINT"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=90%2FMETEOROLOGIE%20X%2024&c1=MIN%20%2F%20HANDAPPARAT%20METEOROLOGIE&c2=25%2F006-006-10-MINT">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 1009778307-1009778307-1 ofniAIAD
 DAIAinfo sig INT 100/3 ofniAIAD
@@ -441,7 +441,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Mainz möglich, bitte w
 DAIAinfo abt_num 25/019-019-14-GHLS ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=INT%20100%2F3&c2=25%2F019-019-14-GHLS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=INT%20100%2F3&c2=25%2F019-019-14-GHLS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=INT%20100%2F3&c2=25%2F019-019-14-GHLS">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 127646841-127646841-1 ofniAIAD
 DAIAinfo sig RARA ZD 759-236 ofniAIAD
@@ -470,7 +470,7 @@ DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text Nachdr. 2011 ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20W%20357&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=20W%20357&c2=25%2F000-000-12-ZBLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20W%20357&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1011736160-1011736160-2 ofniAIAD
 DAIAinfo sig 20W 357 ofniAIAD
 DAIAinfo aus_status bandliste ofniAIAD
@@ -485,7 +485,7 @@ DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text Nachdr. 2011 ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20W%20357&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=20W%20357&c2=25%2F000-000-12-ZBLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20W%20357&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1011736160-1011736160-3 ofniAIAD
 DAIAinfo sig 20W 357 ofniAIAD
 DAIAinfo aus_status bandliste ofniAIAD
@@ -500,7 +500,15 @@ DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text Nachdr. 2011 ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20W%20357&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=20W%20357&c2=25%2F000-000-12-ZBLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20W%20357&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
+DAIAinfo epn 1008827029-1008827029 ofniAIAD
+DAIAinfo aus_text Nachdr. 2011 ofniAIAD
+DAIAinfo aus_text BASIS ofniAIAD
+DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
+DAIAinfo abt_name Zentralbibliothek,Lesesaal ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
+DAIAinfo aus_ind y unbekannt ofniAIAD
+DAIAinfo sig HIST W 357 ofniAIAD
 DAIAinfo epn 182300447-182300447-1 ofniAIAD
 DAIAinfo sig 08 X - B 45 ofniAIAD
 DAIAinfo aus_ind e vermisst ofniAIAD
@@ -510,7 +518,7 @@ DAIAinfo abt_num 25/004-070-PHGER ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Germanistik I / Kulturanthropologie und Germanistik II ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=08%20X%20-%20B%2045&c2=25%2F004-070-PHGER">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=08%20X%20-%20B%2045&c2=25%2F004-070-PHGER"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=08%20X%20-%20B%2045&c2=25%2F004-070-PHGER">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 150329199-150329199-1 ofniAIAD
 DAIAinfo sig 15.2 - 115/3 ofniAIAD
 DAIAinfo aus_ind e vermisst ofniAIAD
@@ -520,7 +528,7 @@ DAIAinfo abt_num 25/004-071-PHAVL ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Allgemeine und Vergleichende Literaturwissenschaft ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=15.2%20-%20115%2F3&c2=25%2F004-071-PHAVL">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=15.2%20-%20115%2F3&c2=25%2F004-071-PHAVL"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=15.2%20-%20115%2F3&c2=25%2F004-071-PHAVL">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 166002399-166002399-1 ofniAIAD
 DAIAinfo sig L/VII B 5 I a ofniAIAD
 DAIAinfo aus_ind e vermisst ofniAIAD
@@ -532,7 +540,7 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Anglistik ofniAIAD
 DAIAinfo aus_text BB Philosophicum vermisst 2016-06 ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=L%2FVII%20B%205%20I%20a&c1=Anglistik&c2=25%2F004-072-PHANG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=L%2FVII%20B%205%20I%20a&c1=Anglistik&c2=25%2F004-072-PHANG"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=L%2FVII%20B%205%20I%20a&c1=Anglistik&c2=25%2F004-072-PHANG">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 174158661-174158661-1 ofniAIAD
 DAIAinfo sig L/VII B 5 I b ofniAIAD
 DAIAinfo aus_ind e vermisst ofniAIAD
@@ -544,7 +552,7 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Anglistik ofniAIAD
 DAIAinfo aus_text BB Philosophicum vermisst 2019-06 ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=L%2FVII%20B%205%20I%20b&c1=Anglistik&c2=25%2F004-072-PHANG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=L%2FVII%20B%205%20I%20b&c1=Anglistik&c2=25%2F004-072-PHANG"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=L%2FVII%20B%205%20I%20b&c1=Anglistik&c2=25%2F004-072-PHANG">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 165007893-165007893-1 ofniAIAD
 DAIAinfo sig T 02 / D / 160 ofniAIAD
 DAIAinfo aus_ind e vermisst ofniAIAD
@@ -555,7 +563,7 @@ DAIAinfo abt_name BB Philosophicum, Theaterwissenschaft / Medienkulturwissenscha
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Theaterwissenschaft ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=T%2002%20%2F%20D%20%2F%20160&c1=Theaterwissenschaft&c2=25%2F004-120-PHTHW">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=T%2002%20%2F%20D%20%2F%20160&c1=Theaterwissenschaft&c2=25%2F004-120-PHTHW"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=T%2002%20%2F%20D%20%2F%20160&c1=Theaterwissenschaft&c2=25%2F004-120-PHTHW">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 589398911-589398911-1 ofniAIAD
 DAIAinfo sig 083 MR 7100 BHA/ 1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -588,7 +596,7 @@ DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Katholische Theologie ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=M%20XVII%2061%2C4&c1=Katholische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=M%20XVII%2061%2C4&c1=Katholische%20Theologie&c2=25%2F016-016-10-TH"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=M%20XVII%2061%2C4&c1=Katholische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 188365591-188365591-1 ofniAIAD
 DAIAinfo sig SEM 18-4 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -608,7 +616,7 @@ DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Anglistik ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=L%2FII%2F4%20V%201%20I&c1=Anglistik&c2=25%2F004-072-PHANG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=L%2FII%2F4%20V%201%20I&c1=Anglistik&c2=25%2F004-072-PHANG"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=L%2FII%2F4%20V%201%20I&c1=Anglistik&c2=25%2F004-072-PHANG">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 101021411X-101021411X-1 ofniAIAD
 DAIAinfo sig 20025435 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -651,7 +659,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek,Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ANGL%20C%20621-4&c2=25%2F000-000-14-ZBLS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=ANGL%20C%20621-4&c2=25%2F000-000-14-ZBLS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ANGL%20C%20621-4&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 222212594-222212594-1 ofniAIAD
 DAIAinfo sig 810.9 CAM-4 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -663,7 +671,7 @@ DAIAinfo abt_num 25/002-126-GFGUSA ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, USA-Bibliothek ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text 00016 ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=810.9%20CAM-4&c2=25%2F002-126-GFGUSA">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=810.9%20CAM-4&c2=25%2F002-126-GFGUSA"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=810.9%20CAM-4&c2=25%2F002-126-GFGUSA">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 238871002-238871002-1 ofniAIAD
 DAIAinfo sig L/E C 13 1/4 ofniAIAD
 DAIAinfo aus_status vormerkbar ofniAIAD
@@ -674,7 +682,7 @@ DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Amerikanistik ofniAIAD
 DAIAinfo aus_datum 25-10-2024 ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=L%2FE%20C%2013%201%2F4&c1=Amerikanistik&c2=25%2F004-072-PHANG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=L%2FE%20C%2013%201%2F4&c1=Amerikanistik&c2=25%2F004-072-PHANG"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=L%2FE%20C%2013%201%2F4&c1=Amerikanistik&c2=25%2F004-072-PHANG">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1010451073-1010451073-1 ofniAIAD
 DAIAinfo sig LIT-AM 01.20 Berco 2-4 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -687,7 +695,7 @@ DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germe
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text 3. print., 2012 ofniAIAD
 DAIAinfo standort Freihand / Amerikanisch ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LIT-AM%2001.20%20Berco%202-4&c1=Freihand%20%2F%20Amerikanisch&c2=25%2F019-019-10-GHFREI">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=LIT-AM%2001.20%20Berco%202-4&c1=Freihand%20%2F%20Amerikanisch&c2=25%2F019-019-10-GHFREI"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LIT-AM%2001.20%20Berco%202-4&c1=Freihand%20%2F%20Amerikanisch&c2=25%2F019-019-10-GHFREI">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 399194665-399194665-1 ofniAIAD
 DAIAinfo sig L/VII G 7 I ofniAIAD
@@ -700,7 +708,7 @@ DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Anglistik ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=L%2FVII%20G%207%20I&c1=Anglistik&c2=25%2F004-072-PHANG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=L%2FVII%20G%207%20I&c1=Anglistik&c2=25%2F004-072-PHANG"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=L%2FVII%20G%207%20I&c1=Anglistik&c2=25%2F004-072-PHANG">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1010642685-1010642685-2 ofniAIAD
 DAIAinfo sig LBS KUL-AP 07.44 Gilro 200 (2.-4. Ex.) ofniAIAD
 DAIAinfo aus_status bandliste ofniAIAD
@@ -712,7 +720,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/019-019-12-GHLBS ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LBS%20KUL-AP%2007.44%20Gilro%20200%20%282.-4.%20Ex.%29&c2=25%2F019-019-12-GHLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=LBS%20KUL-AP%2007.44%20Gilro%20200%20%282.-4.%20Ex.%29&c2=25%2F019-019-12-GHLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LBS%20KUL-AP%2007.44%20Gilro%20200%20%282.-4.%20Ex.%29&c2=25%2F019-019-12-GHLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1010642685-1010642685-3 ofniAIAD
 DAIAinfo sig LBS KUL-AP 07.44 Gilro 200 (2.-4. Ex.) ofniAIAD
 DAIAinfo aus_status bandliste ofniAIAD
@@ -724,7 +732,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/019-019-12-GHLBS ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LBS%20KUL-AP%2007.44%20Gilro%20200%20%282.-4.%20Ex.%29&c2=25%2F019-019-12-GHLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=LBS%20KUL-AP%2007.44%20Gilro%20200%20%282.-4.%20Ex.%29&c2=25%2F019-019-12-GHLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LBS%20KUL-AP%2007.44%20Gilro%20200%20%282.-4.%20Ex.%29&c2=25%2F019-019-12-GHLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1010642685-1010642685-4 ofniAIAD
 DAIAinfo sig LBS KUL-AP 07.44 Gilro 200 (2.-4. Ex.) ofniAIAD
 DAIAinfo aus_status bandliste ofniAIAD
@@ -736,7 +744,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/019-019-12-GHLBS ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LBS%20KUL-AP%2007.44%20Gilro%20200%20%282.-4.%20Ex.%29&c2=25%2F019-019-12-GHLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=LBS%20KUL-AP%2007.44%20Gilro%20200%20%282.-4.%20Ex.%29&c2=25%2F019-019-12-GHLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LBS%20KUL-AP%2007.44%20Gilro%20200%20%282.-4.%20Ex.%29&c2=25%2F019-019-12-GHLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1010642677-1010642677-1 ofniAIAD
 DAIAinfo sig ANGL 860/1 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -747,7 +755,7 @@ DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germe
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo aus_text BASIS DAIA ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ANGL%20860%2F1&c2=25%2F019-019-14-GHLS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=ANGL%20860%2F1&c2=25%2F019-019-14-GHLS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ANGL%20860%2F1&c2=25%2F019-019-14-GHLS">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 569018749-569018749-1 ofniAIAD
 DAIAinfo sig 20W 503 ofniAIAD
@@ -761,7 +769,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20W%20503&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=20W%20503&c2=25%2F000-000-12-ZBLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20W%20503&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 569018749-569018749-2 ofniAIAD
 DAIAinfo sig 20W 503 ofniAIAD
 DAIAinfo aus_status bandliste ofniAIAD
@@ -774,7 +782,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20W%20503&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=20W%20503&c2=25%2F000-000-12-ZBLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20W%20503&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 569018749-569018749-3 ofniAIAD
 DAIAinfo sig 20W 503 ofniAIAD
 DAIAinfo aus_status bandliste ofniAIAD
@@ -787,7 +795,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20W%20503&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=20W%20503&c2=25%2F000-000-12-ZBLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20W%20503&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 568244516-568244516-1 ofniAIAD
 DAIAinfo sig HIST W 503 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -796,7 +804,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek,Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=HIST%20W%20503&c2=25%2F000-000-14-ZBLS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=HIST%20W%20503&c2=25%2F000-000-14-ZBLS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=HIST%20W%20503&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 605336644-605336644-1 ofniAIAD
 DAIAinfo sig K 616 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -807,7 +815,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/004-058-PHPHI ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Philosophie ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=K%20616&c2=25%2F004-058-PHPHI">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=K%20616&c2=25%2F004-058-PHPHI"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=K%20616&c2=25%2F004-058-PHPHI">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 507966201-507966201-1 ofniAIAD
 DAIAinfo sig ZK 253/190 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -818,7 +826,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/004-070-PHGER ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Germanistik I / Kulturanthropologie und Germanistik II ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ZK%20253%2F190&c2=25%2F004-070-PHGER">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=ZK%20253%2F190&c2=25%2F004-070-PHGER"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ZK%20253%2F190&c2=25%2F004-070-PHGER">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 504838326-504838326-1 ofniAIAD
 DAIAinfo sig R K 11 1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -830,7 +838,7 @@ DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Amerikanistik ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=R%20K%2011%201&c1=Amerikanistik&c2=25%2F004-072-PHANG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=R%20K%2011%201&c1=Amerikanistik&c2=25%2F004-072-PHANG"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=R%20K%2011%201&c1=Amerikanistik&c2=25%2F004-072-PHANG">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 588407364-588407364-1 ofniAIAD
 DAIAinfo sig MR 7100 DAE/ 1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -841,7 +849,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/004-083-PHKLW ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Historische Kulturwissenschaften ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=MR%207100%20DAE%2F%201&c2=25%2F004-083-PHKLW">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=MR%207100%20DAE%2F%201&c2=25%2F004-083-PHKLW"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=MR%207100%20DAE%2F%201&c2=25%2F004-083-PHKLW">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 50588609X-50588609X-1 ofniAIAD
 DAIAinfo sig T 02 / D / 206 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -853,7 +861,7 @@ DAIAinfo abt_num 25/004-120-PHTHW ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Theaterwissenschaft / Medienkulturwissenschaft / Alltagsmedien ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Theaterwissenschaft ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=T%2002%20%2F%20D%20%2F%20206&c1=Theaterwissenschaft&c2=25%2F004-120-PHTHW">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=T%2002%20%2F%20D%20%2F%20206&c1=Theaterwissenschaft&c2=25%2F004-120-PHTHW"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=T%2002%20%2F%20D%20%2F%20206&c1=Theaterwissenschaft&c2=25%2F004-120-PHTHW">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1010522914-1010522914-1 ofniAIAD
 DAIAinfo sig KUL-ALLG 02.50 Kultu 4 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -865,7 +873,7 @@ DAIAinfo abt_num 25/019-019-10-GHFREI ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Freihand / Allgemein ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=KUL-ALLG%2002.50%20Kultu%204&c1=Freihand%20%2F%20Allgemein&c2=25%2F019-019-10-GHFREI">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=KUL-ALLG%2002.50%20Kultu%204&c1=Freihand%20%2F%20Allgemein&c2=25%2F019-019-10-GHFREI"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=KUL-ALLG%2002.50%20Kultu%204&c1=Freihand%20%2F%20Allgemein&c2=25%2F019-019-10-GHFREI">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 544422562-544422562-1 ofniAIAD
 DAIAinfo sig 791.4365210979494 FEN ofniAIAD
@@ -878,7 +886,7 @@ DAIAinfo abt_num 25/002-126-GFGUSA ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, USA-Bibliothek ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text 00016 ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=791.4365210979494%20FEN&c2=25%2F002-126-GFGUSA">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=791.4365210979494%20FEN&c2=25%2F002-126-GFGUSA"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=791.4365210979494%20FEN&c2=25%2F002-126-GFGUSA">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 598354530-598354530-1 ofniAIAD
 DAIAinfo sig A3 Film / 2008,4 sek. ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -889,7 +897,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/004-074-PHROM ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Romanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=A3%20Film%20%2F%202008%2C4%20sek.&c2=25%2F004-074-PHROM">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=A3%20Film%20%2F%202008%2C4%20sek.&c2=25%2F004-074-PHROM"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=A3%20Film%20%2F%202008%2C4%20sek.&c2=25%2F004-074-PHROM">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1010558935-1010558935-1 ofniAIAD
 DAIAinfo sig GEN-AM 62.65 Fensk 1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -901,7 +909,7 @@ DAIAinfo abt_num 25/019-019-10-GHFREI ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Freihand / Amerikanisch ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=GEN-AM%2062.65%20Fensk%201&c1=Freihand%20%2F%20Amerikanisch&c2=25%2F019-019-10-GHFREI">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=GEN-AM%2062.65%20Fensk%201&c1=Freihand%20%2F%20Amerikanisch&c2=25%2F019-019-10-GHFREI"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=GEN-AM%2062.65%20Fensk%201&c1=Freihand%20%2F%20Amerikanisch&c2=25%2F019-019-10-GHFREI">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 1009145665-1009145665-1 ofniAIAD
 DAIAinfo sig 4° BF 7592 ofniAIAD
@@ -940,8 +948,14 @@ DAIAinfo abt_num 25/002-002-22-GFGSOZ ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Soziologie ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo zeit_bestand01 2009(2010) ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=28%20BOFA%201%2F2009&c2=25%2F002-002-22-GFGSOZ">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=28%20BOFA%201%2F2009&c2=25%2F002-002-22-GFGSOZ"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=28%20BOFA%201%2F2009&c2=25%2F002-002-22-GFGSOZ">Standort zeigen</a> ofniAIAD
 
+DAIAinfo epn 599893117-599893117 ofniAIAD
+DAIAinfo abt_num 25/000-000-10-ZBFREI ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Bücherturm ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
+DAIAinfo aus_ind y unbekannt ofniAIAD
+DAIAinfo sig 252.186 ofniAIAD
 DAIAinfo epn 721780075-721780075-1 ofniAIAD
 DAIAinfo sig 20L 655 ofniAIAD
 DAIAinfo aus_status bandliste ofniAIAD
@@ -954,7 +968,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20L%20655&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=20L%20655&c2=25%2F000-000-12-ZBLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20L%20655&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 721780075-721780075-2 ofniAIAD
 DAIAinfo sig 20L 655 ofniAIAD
 DAIAinfo aus_status bandliste ofniAIAD
@@ -967,7 +981,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20L%20655&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=20L%20655&c2=25%2F000-000-12-ZBLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20L%20655&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 721780075-721780075-3 ofniAIAD
 DAIAinfo sig 20L 655 ofniAIAD
 DAIAinfo aus_status bandliste ofniAIAD
@@ -980,7 +994,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20L%20655&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=20L%20655&c2=25%2F000-000-12-ZBLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20L%20655&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 730811441-730811441-1 ofniAIAD
 DAIAinfo sig 20L 655 ofniAIAD
 DAIAinfo aus_status bandliste ofniAIAD
@@ -993,7 +1007,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20L%20655&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=20L%20655&c2=25%2F000-000-12-ZBLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20L%20655&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 730811441-730811441-2 ofniAIAD
 DAIAinfo sig 20L 655 ofniAIAD
 DAIAinfo aus_status bandliste ofniAIAD
@@ -1006,7 +1020,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20L%20655&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=20L%20655&c2=25%2F000-000-12-ZBLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20L%20655&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 730811441-730811441-3 ofniAIAD
 DAIAinfo sig 20L 655 ofniAIAD
 DAIAinfo aus_status bandliste ofniAIAD
@@ -1019,7 +1033,13 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20L%20655&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=20L%20655&c2=25%2F000-000-12-ZBLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=20L%20655&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
+DAIAinfo epn 721780067-721780067 ofniAIAD
+DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
+DAIAinfo abt_name Zentralbibliothek,Lesesaal ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
+DAIAinfo aus_ind y unbekannt ofniAIAD
+DAIAinfo sig HIST P 4140 ofniAIAD
 DAIAinfo epn 1051448751-1051448751-1 ofniAIAD
 DAIAinfo sig P KL 77/45 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1030,7 +1050,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/004-076-PHPOL ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Polonicum ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=P%20KL%2077%2F45&c2=25%2F004-076-PHPOL">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=P%20KL%2077%2F45&c2=25%2F004-076-PHPOL"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=P%20KL%2077%2F45&c2=25%2F004-076-PHPOL">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 606234225-606234225-1 ofniAIAD
 DAIAinfo sig Bab 90-5 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1041,7 +1061,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/004-088-PHMNG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Mittlere und neuere Geschichte ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Bab%2090-5&c2=25%2F004-088-PHMNG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Bab%2090-5&c2=25%2F004-088-PHMNG"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Bab%2090-5&c2=25%2F004-088-PHMNG">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 647125870-647125870-1 ofniAIAD
 DAIAinfo sig Bab 90-5,2.Ex. ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1052,7 +1072,13 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/004-088-PHMNG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Mittlere und neuere Geschichte ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Bab%2090-5%2C2.Ex.&c2=25%2F004-088-PHMNG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Bab%2090-5%2C2.Ex.&c2=25%2F004-088-PHMNG"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Bab%2090-5%2C2.Ex.&c2=25%2F004-088-PHMNG">Standort zeigen</a> ofniAIAD
+DAIAinfo epn 607513683-607513683 ofniAIAD
+DAIAinfo abt_num 25/004-092-PHOEG ofniAIAD
+DAIAinfo abt_name BB Philosophicum, Osteuropäische Geschichte ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
+DAIAinfo aus_ind y unbekannt ofniAIAD
+DAIAinfo sig Md 41 ofniAIAD
 DAIAinfo epn 1010637142-1010637142-1 ofniAIAD
 DAIAinfo sig HIS-PL 10.10 Borod 1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1064,7 +1090,7 @@ DAIAinfo abt_num 25/019-019-10-GHFREI ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Freihand / Polnisch ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=HIS-PL%2010.10%20Borod%201&c1=Freihand%20%2F%20Polnisch&c2=25%2F019-019-10-GHFREI">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=HIS-PL%2010.10%20Borod%201&c1=Freihand%20%2F%20Polnisch&c2=25%2F019-019-10-GHFREI"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=HIS-PL%2010.10%20Borod%201&c1=Freihand%20%2F%20Polnisch&c2=25%2F019-019-10-GHFREI">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 633387142-633387142-1 ofniAIAD
 DAIAinfo sig 256.994 ofniAIAD
@@ -1077,7 +1103,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/000-000-10-ZBFREI ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Bücherturm ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=256.994&c2=25%2F000-000-10-ZBFREI">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=256.994&c2=25%2F000-000-10-ZBFREI"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=256.994&c2=25%2F000-000-10-ZBFREI">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 756901790-756901790-1 ofniAIAD
 DAIAinfo sig 13J 324 ofniAIAD
 DAIAinfo aus_status bandliste ofniAIAD
@@ -1090,7 +1116,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=13J%20324&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=13J%20324&c2=25%2F000-000-12-ZBLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=13J%20324&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 756901790-756901790-2 ofniAIAD
 DAIAinfo sig 13J 324 ofniAIAD
 DAIAinfo aus_status bandliste ofniAIAD
@@ -1103,7 +1129,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=13J%20324&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=13J%20324&c2=25%2F000-000-12-ZBLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=13J%20324&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 756901790-756901790-3 ofniAIAD
 DAIAinfo sig 13J 324 ofniAIAD
 DAIAinfo aus_status bandliste ofniAIAD
@@ -1116,7 +1142,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=13J%20324&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=13J%20324&c2=25%2F000-000-12-ZBLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=13J%20324&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 779283872-779283872-1 ofniAIAD
 DAIAinfo sig Le 27 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1127,7 +1153,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/002-002-14-GFGJOUR ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Journalistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Le%2027&c2=25%2F002-002-14-GFGJOUR">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Le%2027&c2=25%2F002-002-14-GFGJOUR"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Le%2027&c2=25%2F002-002-14-GFGJOUR">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 638142849-638142849-1 ofniAIAD
 DAIAinfo sig M 10 - H 55 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1138,7 +1164,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/004-070-PHGER ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Germanistik I / Kulturanthropologie und Germanistik II ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=M%2010%20-%20H%2055&c2=25%2F004-070-PHGER">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=M%2010%20-%20H%2055&c2=25%2F004-070-PHGER"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=M%2010%20-%20H%2055&c2=25%2F004-070-PHGER">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 743021827-743021827-1 ofniAIAD
 DAIAinfo sig 22.2 - 1/46 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1149,7 +1175,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/004-071-PHAVL ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Allgemeine und Vergleichende Literaturwissenschaft ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=22.2%20-%201%2F46&c2=25%2F004-071-PHAVL">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=22.2%20-%201%2F46&c2=25%2F004-071-PHAVL"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=22.2%20-%201%2F46&c2=25%2F004-071-PHAVL">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1016436637-1016436637-1 ofniAIAD
 DAIAinfo sig 22.2 - 1/46a ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1160,7 +1186,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/004-071-PHAVL ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Allgemeine und Vergleichende Literaturwissenschaft ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=22.2%20-%201%2F46a&c2=25%2F004-071-PHAVL">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=22.2%20-%201%2F46a&c2=25%2F004-071-PHAVL"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=22.2%20-%201%2F46a&c2=25%2F004-071-PHAVL">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 726398470-726398470-1 ofniAIAD
 DAIAinfo sig EC 7000 MAR/ 2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1171,7 +1197,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/004-083-PHKLW ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Historische Kulturwissenschaften ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=EC%207000%20MAR%2F%202&c2=25%2F004-083-PHKLW">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=EC%207000%20MAR%2F%202&c2=25%2F004-083-PHKLW"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=EC%207000%20MAR%2F%202&c2=25%2F004-083-PHKLW">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1029996393-1029996393-1 ofniAIAD
 DAIAinfo sig Fb 7568 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1184,7 +1210,13 @@ DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Evangelische Theologie ofniAIAD
 DAIAinfo aus_text 01750 ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Fb%207568&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Fb%207568&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Fb%207568&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a> ofniAIAD
+DAIAinfo epn 102565434X-102565434X ofniAIAD
+DAIAinfo abt_num 25/019-019-14-GHLS ofniAIAD
+DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lesesaal ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
+DAIAinfo aus_ind y unbekannt ofniAIAD
+DAIAinfo sig LIT 10/21 ofniAIAD
 
 DAIAinfo epn 623198681-623198681-1 ofniAIAD
 DAIAinfo sig 7880 FAF 5938 ofniAIAD
@@ -1207,7 +1239,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek,Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LING%20C%20315-12&c2=25%2F000-000-14-ZBLS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=LING%20C%20315-12&c2=25%2F000-000-14-ZBLS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LING%20C%20315-12&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 765020505-765020505-1 ofniAIAD
 DAIAinfo sig HB 23 405, 12 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -1216,7 +1248,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/002-002-10-GFGPÄD ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Erziehungswissenschaft ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=HB%2023%20405%2C%2012&c2=25%2F002-002-10-GFGP%C3%84D">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=HB%2023%20405%2C%2012&c2=25%2F002-002-10-GFGP%C3%84D"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=HB%2023%20405%2C%2012&c2=25%2F002-002-10-GFGP%C3%84D">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 76533139X-76533139X-1 ofniAIAD
 DAIAinfo sig O III - 40 / 12 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -1225,7 +1257,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/004-058-PHPHI ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Philosophie ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=O%20III%20-%2040%20%2F%2012&c2=25%2F004-058-PHPHI">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=O%20III%20-%2040%20%2F%2012&c2=25%2F004-058-PHPHI"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=O%20III%20-%2040%20%2F%2012&c2=25%2F004-058-PHPHI">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 768680778-768680778-1 ofniAIAD
 DAIAinfo sig WTerm / 502 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1236,7 +1268,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/004-074-PHROM ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Romanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=WTerm%20%2F%20502&c2=25%2F004-074-PHROM">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=WTerm%20%2F%20502&c2=25%2F004-074-PHROM"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=WTerm%20%2F%20502&c2=25%2F004-074-PHROM">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 765541602-765541602-1 ofniAIAD
 DAIAinfo sig 070 05 N - H 67 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -1255,7 +1287,7 @@ DAIAinfo abt_name BB Rechts- und Wirtschaftswissenschaften, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Recht ofniAIAD
 DAIAinfo aus_text 01810 ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=3%20S%2Fh%209&c1=Recht&c2=25%2F018-018-10-RW">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=3%20S%2Fh%209&c1=Recht&c2=25%2F018-018-10-RW"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=3%20S%2Fh%209&c1=Recht&c2=25%2F018-018-10-RW">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1010740881-1010740881-1 ofniAIAD
 DAIAinfo sig LIT 320/4 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -1264,7 +1296,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Mainz möglich, bitte w
 DAIAinfo abt_num 25/019-019-14-GHLS ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LIT%20320%2F4&c2=25%2F019-019-14-GHLS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=LIT%20320%2F4&c2=25%2F019-019-14-GHLS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LIT%20320%2F4&c2=25%2F019-019-14-GHLS">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 784544778-784544778-1 ofniAIAD
 DAIAinfo sig 274.926 ofniAIAD
@@ -1280,7 +1312,7 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text 00015 ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo aus_text BASIS DAIA ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=274.926&c2=25%2F000-000-10-ZBFREI">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=274.926&c2=25%2F000-000-10-ZBFREI"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=274.926&c2=25%2F000-000-10-ZBFREI">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 1214351387-1214351387-1 ofniAIAD
 DAIAinfo sig 302.689 ofniAIAD
@@ -1293,7 +1325,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/000-000-10-ZBFREI ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Bücherturm ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=302.689&c2=25%2F000-000-10-ZBFREI">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=302.689&c2=25%2F000-000-10-ZBFREI"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=302.689&c2=25%2F000-000-10-ZBFREI">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 102045931X-102045931X-1 ofniAIAD
 DAIAinfo sig 08 H - B 112 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1304,7 +1336,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/004-070-PHGER ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Germanistik I / Kulturanthropologie und Germanistik II ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=08%20H%20-%20B%20112&c2=25%2F004-070-PHGER">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=08%20H%20-%20B%20112&c2=25%2F004-070-PHGER"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=08%20H%20-%20B%20112&c2=25%2F004-070-PHGER">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 101238604X-101238604X-1 ofniAIAD
 DAIAinfo sig 073 Av 2016/2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1328,7 +1360,7 @@ DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germe
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo aus_text BASIS DAIA ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LBS%20LIN-DE%2083%3A1-3&c2=25%2F019-019-12-GHLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=LBS%20LIN-DE%2083%3A1-3&c2=25%2F019-019-12-GHLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LBS%20LIN-DE%2083%3A1-3&c2=25%2F019-019-12-GHLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1010876694-1010876694-2 ofniAIAD
 DAIAinfo sig LBS LIN-DE 83:1-3 ofniAIAD
 DAIAinfo aus_status bandliste ofniAIAD
@@ -1342,7 +1374,7 @@ DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germe
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo aus_text BASIS DAIA ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LBS%20LIN-DE%2083%3A1-3&c2=25%2F019-019-12-GHLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=LBS%20LIN-DE%2083%3A1-3&c2=25%2F019-019-12-GHLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LBS%20LIN-DE%2083%3A1-3&c2=25%2F019-019-12-GHLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1010876708-1010876708-1 ofniAIAD
 DAIAinfo sig GERM 550/1 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -1351,7 +1383,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Mainz möglich, bitte w
 DAIAinfo abt_num 25/019-019-14-GHLS ofniAIAD
 DAIAinfo abt_name BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=GERM%20550%2F1&c2=25%2F019-019-14-GHLS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=GERM%20550%2F1&c2=25%2F019-019-14-GHLS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=GERM%20550%2F1&c2=25%2F019-019-14-GHLS">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 1001932196-1001932196-1 ofniAIAD
 DAIAinfo sig 810.9352 KAN ofniAIAD
@@ -1364,7 +1396,7 @@ DAIAinfo abt_num 25/002-126-GFGUSA ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, USA-Bibliothek ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text 00016 ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=810.9352%20KAN&c2=25%2F002-126-GFGUSA">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=810.9352%20KAN&c2=25%2F002-126-GFGUSA"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=810.9352%20KAN&c2=25%2F002-126-GFGUSA">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1000321665-1000321665-1 ofniAIAD
 DAIAinfo sig L/B E K 6 1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1376,7 +1408,7 @@ DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik/Amerikanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Amerikanistik ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=L%2FB%20E%20K%206%201&c1=Amerikanistik&c2=25%2F004-072-PHANG">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=L%2FB%20E%20K%206%201&c1=Amerikanistik&c2=25%2F004-072-PHANG"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=L%2FB%20E%20K%206%201&c1=Amerikanistik&c2=25%2F004-072-PHANG">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1012300560-1012300560-1 ofniAIAD
 DAIAinfo sig 20036194 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1412,7 +1444,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/002-079-GFGKUN ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Kunstgeschichte ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Xa%20B.1%2F1506&c2=25%2F002-079-GFGKUN">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Xa%20B.1%2F1506&c2=25%2F002-079-GFGKUN"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Xa%20B.1%2F1506&c2=25%2F002-079-GFGKUN">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1038777925-1038777925-1 ofniAIAD
 DAIAinfo sig HU 359-7 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1423,7 +1455,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/004-087-PHBYZ ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Byzantinistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=HU%20359-7&c2=25%2F004-087-PHBYZ">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=HU%20359-7&c2=25%2F004-087-PHBYZ"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=HU%20359-7&c2=25%2F004-087-PHBYZ">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1021889687-1021889687-1 ofniAIAD
 DAIAinfo sig G I d 126 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1436,7 +1468,7 @@ DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Katholische Theologie ofniAIAD
 DAIAinfo aus_text 01650 ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=G%20I%20d%20126&c1=Katholische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=G%20I%20d%20126&c1=Katholische%20Theologie&c2=25%2F016-016-10-TH"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=G%20I%20d%20126&c1=Katholische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 1116531178-1116531178-1 ofniAIAD
 DAIAinfo sig LIT-AR 10:1 ofniAIAD
@@ -1451,7 +1483,7 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Freihand / Arabisch ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo aus_text BASIS DAIA ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LIT-AR%2010%3A1&c1=Freihand%20%2F%20Arabisch&c2=25%2F019-019-10-GHFREI">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=LIT-AR%2010%3A1&c1=Freihand%20%2F%20Arabisch&c2=25%2F019-019-10-GHFREI"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LIT-AR%2010%3A1&c1=Freihand%20%2F%20Arabisch&c2=25%2F019-019-10-GHFREI">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 1084099152-1084099152-1 ofniAIAD
 DAIAinfo sig bestellt BB Philosophicum ofniAIAD
@@ -1460,7 +1492,7 @@ DAIAinfo abt_num 25/004-087-PHBYZ ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Byzantinistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=bestellt%20BB%20Philosophicum&c2=25%2F004-087-PHBYZ">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=bestellt%20BB%20Philosophicum&c2=25%2F004-087-PHBYZ"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=bestellt%20BB%20Philosophicum&c2=25%2F004-087-PHBYZ">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 1107770459-1107770459-1 ofniAIAD
 DAIAinfo sig BG 1111-2 ofniAIAD
@@ -1495,7 +1527,7 @@ DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=15D%20075%2C5.Aufl.&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=15D%20075%2C5.Aufl.&c2=25%2F000-000-12-ZBLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=15D%20075%2C5.Aufl.&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1147375208-1147375208-2 ofniAIAD
 DAIAinfo sig 15D 075,5.Aufl. ofniAIAD
 DAIAinfo aus_status bandliste ofniAIAD
@@ -1509,7 +1541,7 @@ DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=15D%20075%2C5.Aufl.&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=15D%20075%2C5.Aufl.&c2=25%2F000-000-12-ZBLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=15D%20075%2C5.Aufl.&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1147375208-1147375208-3 ofniAIAD
 DAIAinfo sig 15D 075,5.Aufl. ofniAIAD
 DAIAinfo aus_status bandliste ofniAIAD
@@ -1523,7 +1555,7 @@ DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=15D%20075%2C5.Aufl.&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=15D%20075%2C5.Aufl.&c2=25%2F000-000-12-ZBLBS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=15D%20075%2C5.Aufl.&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1145954014-1145954014-1 ofniAIAD
 DAIAinfo sig GERM B 112 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -1532,8 +1564,29 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek,Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=GERM%20B%20112&c2=25%2F000-000-14-ZBLS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=GERM%20B%20112&c2=25%2F000-000-14-ZBLS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=GERM%20B%20112&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
 
+DAIAinfo epn 1152813471-1152813471 ofniAIAD
+DAIAinfo aus_text Tagesausleihe möglich. Bitte bestellen Sie und wenden sich zur Abholung an die Ausleih-Theke in der ZB! ofniAIAD
+DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
+DAIAinfo aus_ind y unbekannt ofniAIAD
+DAIAinfo sig BG 9999-Anatomie 134 ofniAIAD
+DAIAinfo epn 115281348X-115281348X ofniAIAD
+DAIAinfo aus_text Tagesausleihe möglich. Bitte bestellen Sie und wenden sich zur Abholung an die Ausleih-Theke in der ZB! ofniAIAD
+DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
+DAIAinfo aus_ind y unbekannt ofniAIAD
+DAIAinfo sig BG 9999-Anatomie 135 ofniAIAD
+DAIAinfo epn 1152813498-1152813498 ofniAIAD
+DAIAinfo aus_text Tagesausleihe möglich. Bitte bestellen Sie und wenden sich zur Abholung an die Ausleih-Theke in der ZB! ofniAIAD
+DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
+DAIAinfo aus_ind y unbekannt ofniAIAD
+DAIAinfo sig BG 9999-Anatomie 136 ofniAIAD
 
 DAIAinfo epn 116903084X-116903084X-1 ofniAIAD
 DAIAinfo sig LING A 2360-4,2 ofniAIAD
@@ -1543,7 +1596,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek,Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LING%20A%202360-4%2C2&c2=25%2F000-000-14-ZBLS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=LING%20A%202360-4%2C2&c2=25%2F000-000-14-ZBLS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LING%20A%202360-4%2C2&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1182674917-1182674917-1 ofniAIAD
 DAIAinfo sig HB 9056 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -1552,7 +1605,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/002-002-10-GFGPÄD ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Erziehungswissenschaft ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=HB%209056&c2=25%2F002-002-10-GFGP%C3%84D">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=HB%209056&c2=25%2F002-002-10-GFGP%C3%84D"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=HB%209056&c2=25%2F002-002-10-GFGP%C3%84D">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1174243635-1174243635-1 ofniAIAD
 DAIAinfo sig A a.26/14-4,2 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -1561,7 +1614,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/002-079-GFGKUN ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Kunstgeschichte ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=A%20a.26%2F14-4%2C2&c2=25%2F002-079-GFGKUN">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=A%20a.26%2F14-4%2C2&c2=25%2F002-079-GFGKUN"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=A%20a.26%2F14-4%2C2&c2=25%2F002-079-GFGKUN">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1178929450-1178929450-1 ofniAIAD
 DAIAinfo sig O III - 39 / IV - 2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1572,7 +1625,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/004-058-PHPHI ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Philosophie ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=O%20III%20-%2039%20%2F%20IV%20-%202&c2=25%2F004-058-PHPHI">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=O%20III%20-%2039%20%2F%20IV%20-%202&c2=25%2F004-058-PHPHI"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=O%20III%20-%2039%20%2F%20IV%20-%202&c2=25%2F004-058-PHPHI">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 118095713X-118095713X-1 ofniAIAD
 DAIAinfo sig WL / 2 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -1581,7 +1634,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/004-074-PHROM ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Romanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=WL%20%2F%202&c2=25%2F004-074-PHROM">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=WL%20%2F%202&c2=25%2F004-074-PHROM"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=WL%20%2F%202&c2=25%2F004-074-PHROM">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1184018081-1184018081-1 ofniAIAD
 DAIAinfo sig MAEV b 611 / 4,2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1592,7 +1645,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/004-077-PHKLP ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Klassische Philologie ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=MAEV%20b%20611%20%2F%204%2C2&c2=25%2F004-077-PHKLP">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=MAEV%20b%20611%20%2F%204%2C2&c2=25%2F004-077-PHKLP"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=MAEV%20b%20611%20%2F%204%2C2&c2=25%2F004-077-PHKLP">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 123028849X-123028849X-1 ofniAIAD
 DAIAinfo sig Aa 771-4,2 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -1602,7 +1655,7 @@ DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort Evangelische Theologie ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Aa%20771-4%2C2&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=Aa%20771-4%2C2&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Aa%20771-4%2C2&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1240880685-1240880685-1 ofniAIAD
 DAIAinfo sig E ling L 38,4 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -1615,7 +1668,7 @@ DAIAinfo aus_text Abbestellt, da dublett zu Ev. Theol., Signatur: Aa 77,... ofni
 DAIAinfo aus_text Lieferungen 8-10 ungebunden. Es fehlen: Lfrg. 11-16. ofniAIAD
 DAIAinfo standort Katholische Theologie ofniAIAD
 DAIAinfo aus_text 01650 ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=E%20ling%20L%2038%2C4&c1=Katholische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=E%20ling%20L%2038%2C4&c1=Katholische%20Theologie&c2=25%2F016-016-10-TH"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=E%20ling%20L%2038%2C4&c1=Katholische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 121336857X-121336857X-1 ofniAIAD
 DAIAinfo sig 303.033 ofniAIAD
@@ -1628,7 +1681,7 @@ DAIAinfo aus_link http://bestell.link ofniAIAD
 DAIAinfo abt_num 25/000-000-10-ZBFREI ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Bücherturm ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=303.033&c2=25%2F000-000-10-ZBFREI">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=303.033&c2=25%2F000-000-10-ZBFREI"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=303.033&c2=25%2F000-000-10-ZBFREI">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1239933584-1239933584-1 ofniAIAD
 DAIAinfo sig ZWW 04-2 ofniAIAD
 DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
@@ -1649,7 +1702,7 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo aus_text 00015 ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo aus_text BASIS DAIA ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LM%201%3A262-54.2022&c2=25%2F000-000-14-ZBLS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=LM%201%3A262-54.2022&c2=25%2F000-000-14-ZBLS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LM%201%3A262-54.2022&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 1229734694-1229734694-1 ofniAIAD
 DAIAinfo sig 210 DW 1400 S384 (3) ofniAIAD
@@ -1665,7 +1718,7 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo standort LESESAAL ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo aus_text BASIS DAIA ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=210%20DW%201400%20S384%20%283%29&c1=LESESAAL&c2=25%2F000-000-14-ZBLS">Standort zeigen</a><img width="130" height="130" src="https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?s=210%20DW%201400%20S384%20%283%29&c1=LESESAAL&c2=25%2F000-000-14-ZBLS"> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=210%20DW%201400%20S384%20%283%29&c1=LESESAAL&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 1234193264-1234193264-1 ofniAIAD
 DAIAinfo sig 092 AaM 6 / 54,2 ofniAIAD
