@@ -123,6 +123,7 @@
             <c>ILN204/CG/UB/Freihand2OG</c>
             <n xml:lang="de">Freihandbestand UB (2.Stock)</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Hermann-Hoffmann-Akademie</c>
@@ -232,6 +233,7 @@
             <c>ILN204/CG/UB/Freihand1OG</c>
             <n xml:lang="de">Freihandbestand UB (1.Stock)</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Anatomie</c>
@@ -1041,31 +1043,47 @@
             select="holdings/holding[(holdingsTypeId = '996f93e2-5b5e-4cf2-9168-33ced1f95eed') and not(xs:boolean(discoverySuppress))]">
             <!-- für elektronische Bestände -->
             <!-- evtl. sortieren <xsl:sort select="..."/> -->
-            <xsl:apply-templates select="./* | ./*/*">
-                <xsl:sort select="index-of(('hrid'), name())" order="descending"/>
-            </xsl:apply-templates>
+            <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag">aus_ind</xsl:with-param>
+                <xsl:with-param name="value" select="'x online'"/>
+            </xsl:call-template>
+            <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag">aus_status</xsl:with-param>
+                <xsl:with-param name="value" select="'frei'"/>
+            </xsl:call-template>
+            <xsl:apply-templates select="./*|./*/*">
+                <xsl:sort select="index-of(('hrid'),name())" order="descending"/>
+            </xsl:apply-templates> 
         </xsl:for-each>
         <xsl:for-each
             select="holdings/holding[(holdingsTypeId != '996f93e2-5b5e-4cf2-9168-33ced1f95eed') and not(xs:boolean(discoverySuppress))]">
             <!-- für nicht elektronische Bestände -->
             <xsl:sort select="effectiveLocation/discoveryDisplayName" order="ascending" lang="de"/>
             <xsl:sort select="callNumber" order="ascending" lang="de"/>
-            <xsl:for-each select="items/item[not(xs:boolean(discoverySuppress))]">
-                <xsl:sort select="(enumeration, chronology)[1]" order="ascending"/>
-                <xsl:sort select="hrid" order="ascending"/>
-                <xsl:apply-templates select="./* | ./*/* | ../../notes/note">
-                    <xsl:sort
-                        select="index-of(('discoveryDisplayName', 'status', 'effectiveCallNumberComponents', 'hrid'), name())"
-                        order="descending"/>
+            <xsl:if test="not(items/item)">
+                <xsl:apply-templates select="./hrid|./notes/note|./effectiveLocation/discoveryDisplayName">
+                    <xsl:sort select="index-of(('hrid'),name())" order="descending"/>
                 </xsl:apply-templates>
-                <xsl:if test="not(chronology | enumeration)">
-                    <!-- keine Angaben zum Einzelband -->
-                    <xsl:apply-templates select="../../holdingsStatements/*"/>
+                <xsl:call-template name="DAIA">
+                    <xsl:with-param name="tag">aus_ind</xsl:with-param>
+                    <xsl:with-param name="value" select="'y unbekannt'"/>
+                </xsl:call-template>
+                <xsl:call-template name="DAIA">
+                    <xsl:with-param name="tag">sig</xsl:with-param>
+                    <xsl:with-param name="value" select="string-join((callNumberPrefix,callNumber),' ')"/>
+                </xsl:call-template>
+            </xsl:if>
+            <xsl:for-each select="items/item[not(xs:boolean(discoverySuppress))]">
+                <xsl:sort select="(enumeration,chronology)[1]" order="ascending"/>
+                <xsl:sort select="hrid" order="ascending"/>
+                <xsl:apply-templates select="./*|./*/*|../../notes/note">
+                    <xsl:sort select="index-of(('discoveryDisplayName','status','effectiveCallNumberComponents','hrid'),name())" order="descending"/> 
+                </xsl:apply-templates>
+                <xsl:if test="not(chronology|enumeration)"> <!-- keine Angaben zum Einzelband -->
+                    <xsl:apply-templates select="../../holdingsStatements/*"/>                 
                 </xsl:if>
-                <xsl:if test="status/name = 'Intellectual item'">
-                    <xsl:for-each
-                        select="../../pieces/piece[not(xs:boolean(discoverySuppress)) and xs:boolean(displayOnHolding)]">
-                        <!-- Hefteingänge -->
+                <xsl:if test="status/name='Intellectual item'">
+                    <xsl:for-each select="../../pieces/piece[not(xs:boolean(discoverySuppress)) and xs:boolean(displayOnHolding)]"> <!-- Hefteingänge -->
                         <xsl:sort select="caption"/>
                         <xsl:call-template name="DAIA">
                             <xsl:with-param name="tag">aus_text</xsl:with-param>
@@ -1334,7 +1352,7 @@
                         <xsl:with-param name="tag">
                             <xsl:text>aus_status</xsl:text>
                         </xsl:with-param>
-                        <xsl:with-param name="value" select="'BANDSTATUS'"/>
+                        <xsl:with-param name="value" select="'bandliste'"/>
                     </xsl:call-template>
                     <xsl:call-template name="DAIA">
                         <xsl:with-param name="tag">

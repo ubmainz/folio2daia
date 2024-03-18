@@ -4,6 +4,7 @@ DAIAinfo epn 1036506452-1036506452-1 ofniAIAD
 DAIAinfo sig 000 ST 530 M947 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo abt_num 000 ofniAIAD
-DAIAinfo abt_name  ofniAIAD
-DAIAinfo abt_link http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand1OG ofniAIAD
+DAIAinfo abt_name Freihandbestand UB (1.Stock) ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=000%20ST%20530%20M947"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD

@@ -29,7 +29,7 @@ blocks = split_blocks(input_text)
 sorted_blocks = sort_and_join_blocks(blocks)
 
 # Write the sorted blocks back to a file
-header = 'DAIA-Tags OPAC Giessen\n======================\n\n'
+header = 'DAIA-Tags FOLIO Giessen\n=======================\n\n'
 
 output_file = './Examples/fallsammlung_sorted.txt'
 with open(output_file, "w", encoding="UTF-8") as outfile:
@@ -39,14 +39,14 @@ with open("./Examples/ppn_epn_list.txt", "r", encoding="UTF-8") as ppn_epn_list:
     ppn_epn_lines = ppn_epn_list.readlines()
     for ppn_epn_line in ppn_epn_lines:
         with open(output_file, "a", encoding="UTF-8") as outfile:
-            (example_nr, ppn, epn) = ppn_epn_line.split(";")
-            example_nr = example_nr.strip()
+            (nr, description, ppn, epn) = ppn_epn_line.split(";")
+            nr = nr.strip()
+            description = description.strip()
             ppn = ppn.strip()
             epn = epn.strip()
             for block in sorted_blocks:
                 if epn in block:
-                    outfile.write("## Beispiel " + example_nr + ", PPN = " + ppn + 
-                                  ", EPN = " + epn + ".\n")
+                    outfile.write("## Beispiel " + nr + ", " + description + ", + PPN = " + ppn + ", EPN = " + epn + ".\n")
                     outfile.write(block + "\n\n")
 
 print(f"Blocks sorted and written to {output_file}.")

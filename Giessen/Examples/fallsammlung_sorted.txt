@@ -1,7 +1,7 @@
 DAIA-Tags OPAC Giessen
 ======================
 
-## Beispiel 1a, PPN = 437077810, EPN = 1036506452.
+## Beispiel 1a, Ausind u, Status verfügbar, + PPN = 437077810, EPN = 1036506452.
 DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
 DAIAinfo abt_name Freihandbestand UB (1.Stock) ofniAIAD
 DAIAinfo abt_num ILN204/CG/UB/Freihand1OG ofniAIAD
@@ -9,8 +9,9 @@ DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo epn 1036506452-1036506452-1 ofniAIAD
 DAIAinfo sig 000 ST 530 M947 ofniAIAD
+DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=000%20ST%20530%20M947"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
 
-## Beispiel 1b, PPN = 212491105, EPN = 575083883.
+## Beispiel 1b, Ausind u, Status ausgeliehen, + PPN = 212491105, EPN = 575083883.
 DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
 DAIAinfo abt_name Freihandbestand UB (2.Stock) ofniAIAD
 DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
@@ -18,10 +19,13 @@ DAIAinfo aus_datum 15-02-2024 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_link http://vormerk.link ofniAIAD
 DAIAinfo aus_status vormerkbar ofniAIAD
+DAIAinfo aus_text Test Anmerkungen zum Exemplar ofniAIAD
 DAIAinfo epn 575083883-575083883-1 ofniAIAD
-DAIAinfo sig FH kla Lb 9.7 ofniAIAD
+DAIAinfo sig TEST Signatur am Item ofniAIAD
+DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=TEST%20Signatur%20am%20Item"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo zeit_bestand01 55 / 1999 enumeration ofniAIAD
 
-## Beispiel 1e, PPN = 383990270, EPN = 777781581.
+## Beispiel 1e, Fall 1e: Ausind s, Status verfügbar, + PPN = 383990270, EPN = 777781581.
 DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
 DAIAinfo abt_name Freihandbestand UB (1.Stock) ofniAIAD
 DAIAinfo abt_num ILN204/CG/UB/Freihand1OG ofniAIAD
@@ -29,8 +33,104 @@ DAIAinfo aus_ind s Praesenzbestand ofniAIAD
 DAIAinfo aus_text vor Ort benutzbar ofniAIAD
 DAIAinfo epn 777781581-777781581-1 ofniAIAD
 DAIAinfo sig 000 KS 3375 O85 ofniAIAD
+DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=000%20KS%203375%20O85"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
 
-## Beispiel 3a, PPN = 439605954, EPN = 1058903306.
+## Beispiel 1f, Ausind s, Status ausgeliehen, + PPN = 367350270, EPN = 764622846.
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo abt_name Freihandbestand UB (1.Stock) ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand1OG ofniAIAD
+DAIAinfo aus_datum 05-08-2024 ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_link http://vormerk.link ofniAIAD
+DAIAinfo aus_status vormerkbar ofniAIAD
+DAIAinfo epn 764622846-764622846-1 ofniAIAD
+DAIAinfo sig 000 BW 30180.980-3,2 ofniAIAD
+DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=000%20BW%2030180.980-3%2C2"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+
+## Beispiel 1g, Ausind i, Status verfügbar, + PPN = 437394654, EPN = 1030914583.
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo abt_name Freihandbestand UB (1.Stock) ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand1OG ofniAIAD
+DAIAinfo aus_ind i Lesesaal ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_text nur fÃ¼r den Lesesaal ofniAIAD
+DAIAinfo epn 1030914583-1030914583-1 ofniAIAD
+DAIAinfo sig 000 GB 1526 L263-4 ofniAIAD
+DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=000%20GB%201526%20L263-4"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+
+## Beispiel 1h, Ausind i, Status ausgeliehen, + PPN = 04441501X, EPN = 111858232.
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo abt_name Freihandbestand UB (2.Stock) ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo aus_datum 29-02-2024 ofniAIAD
+DAIAinfo aus_ind i Lesesaal ofniAIAD
+DAIAinfo aus_link http://vormerk.link ofniAIAD
+DAIAinfo aus_status vormerkbar ofniAIAD
+DAIAinfo aus_text 00001 ofniAIAD
+DAIAinfo aus_text 00010 ofniAIAD
+DAIAinfo aus_text nur fÃ¼r den Lesesaal ofniAIAD
+DAIAinfo epn 111858232-111858232-1 ofniAIAD
+DAIAinfo sig FH his Ke 0.2 ofniAIAD
+DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=FH%20his%20Ke%200.2"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+
+## Beispiel 1i, Ausind g, Status verfügbar, + PPN = 09116298X, EPN = 205878377.
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo abt_name Dezentrale Fachbibliotheken ofniAIAD
+DAIAinfo abt_num ILN204/CG/DezFB/Fachbibliotheken ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo epn 205878377-205878377-1 ofniAIAD
+DAIAinfo sig / ofniAIAD
+
+## Beispiel 1j, Ausind a, Status im Erwerbungsvorgang, + PPN = 475922727, EPN = 1142541770.
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo abt_name UB TemporÃ¤re Erwerbungssignaturen ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Erwerbungssignatur ofniAIAD
+DAIAinfo aus_ind a bestellt ofniAIAD
+DAIAinfo aus_status gesperrt ofniAIAD
+DAIAinfo aus_text erscheint voraussichtlich Novemer 2024 ofniAIAD
+DAIAinfo epn 1142541770-1142541770-1 ofniAIAD
+DAIAinfo sig / ofniAIAD
+
+## Beispiel 1k, Ausind o, Status verfügbar, + PPN = 307261727, EPN = 647967030.
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo abt_name Fachbibliothek Anglistik ofniAIAD
+DAIAinfo abt_num ILN204/CG/DezFB/FB-Anglistik ofniAIAD
+DAIAinfo aus_ind s Praesenzbestand ofniAIAD
+DAIAinfo aus_text vor Ort benutzbar ofniAIAD
+DAIAinfo epn 647967030-647967030-1 ofniAIAD
+DAIAinfo sig E SG 3033 ofniAIAD
+
+## Beispiel 1l, Ausind e, Status vermisst, + PPN = 385577974, EPN = 1007860359.
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo abt_name Freihandbestand UB (1.Stock) ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand1OG ofniAIAD
+DAIAinfo aus_ind e vermisst ofniAIAD
+DAIAinfo aus_status vermisst ofniAIAD
+DAIAinfo aus_text Vermisst: 2018-07-19 ofniAIAD
+DAIAinfo aus_text vermisst ofniAIAD
+DAIAinfo epn 1007860359-1007860359-1 ofniAIAD
+DAIAinfo sig 000 AL 12318 R136 ofniAIAD
+DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=000%20AL%2012318%20R136"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+
+## Beispiel 1m, Ausind z, Status Verlust, + PPN = 455711828, EPN = 1125860960.
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo abt_name ZNL Freihandbestand ofniAIAD
+DAIAinfo abt_num ILN204/CG/ZNL/Freihand ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo epn 1125860960-1125860960-1 ofniAIAD
+DAIAinfo sig 002 agr Ud 1.16, 8.Aufl. ofniAIAD
+
+## Beispiel 1n, kein Ausind, Status verfügbar, + PPN = 378498584, EPN = 1127789260.
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
+DAIAinfo abt_name Freihandbestand UB (1.Stock) ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand1OG ofniAIAD
+DAIAinfo aus_ind s Praesenzbestand ofniAIAD
+DAIAinfo aus_text vor Ort benutzbar ofniAIAD
+DAIAinfo epn 1127789260-1127789260-1 ofniAIAD
+DAIAinfo sig 000 LH 49880.2016 D12 ofniAIAD
+DAIAinfo standort <a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=000%20LH%2049880.2016%20D12"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+
+## Beispiel 3a, Ausind u, verfügbar, + PPN = 439605954, EPN = 1058903306.
 DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
 DAIAinfo abt_name Magazin UB (3.Stock) ofniAIAD
 DAIAinfo abt_num ILN204/CG/UB/UBMag3 ofniAIAD
@@ -41,22 +141,21 @@ DAIAinfo aus_text <a href='https://magazin.stock'>Magazin</a> ofniAIAD
 DAIAinfo epn 1058903306-1058903306-1 ofniAIAD
 DAIAinfo sig 22.611.28 ofniAIAD
 
-## Beispiel 4a, PPN = 218273398, EPN = 58478130X.
+## Beispiel 4a, Ausind g, Handapparate, + PPN = 218273398, EPN = 58478130X.
 DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
-DAIAinfo abt_name Freihandbestand UB (2.Stock) ofniAIAD
-DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name UB Handapparate ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Handapparate ofniAIAD
 DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
 DAIAinfo epn 58478130X-58478130X-1 ofniAIAD
 DAIAinfo sig FH spo Dk 0.27 (2.Ex.) ofniAIAD
 DAIAinfo standort <b>Standort:</b> <a target="_blank" href="https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/hap?hap=hap10620171">Prof. Munzert, Sportpsych. u. Bewegungswiss.,</a> ofniAIAD
 
-## Beispiel 4d, PPN = 060069538, EPN = 210477946.
+## Beispiel 4d, Semesterapparat, + PPN = 060069538, EPN = 210477946.
 DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1 ofniAIAD
 DAIAinfo abt_name Semesterapparate UB ofniAIAD
 DAIAinfo abt_num ILN204/CG/UB/UBSemapp ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
-DAIAinfo aus_text 00001 ofniAIAD
 DAIAinfo aus_text Semesterapparat ofniAIAD
 DAIAinfo epn 210477946-210477946-1 ofniAIAD
 DAIAinfo sig FH Sport S-1.02-98-14 ofniAIAD

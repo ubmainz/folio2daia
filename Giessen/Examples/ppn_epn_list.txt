@@ -1,6 +1,15 @@
-1a;437077810;1036506452
-1b;212491105;575083883
-1e;383990270;777781581
-3a;439605954;1058903306
-4a;218273398;58478130X
-4d;060069538;210477946
+1a;Ausind u, Status verfügbar;437077810;1036506452
+1b;Ausind u, Status ausgeliehen;212491105;575083883
+1e;Fall 1e: Ausind s, Status verfügbar;383990270;777781581
+1f;Ausind s, Status ausgeliehen;367350270;764622846
+1g;Ausind i, Status verfügbar;437394654;1030914583
+1h;Ausind i, Status ausgeliehen;04441501X;111858232
+1i;Ausind g, Status verfügbar;09116298X;205878377
+1j;Ausind a, Status im Erwerbungsvorgang;475922727;1142541770
+1k;Ausind o, Status verfügbar;307261727;647967030
+1l;Ausind e, Status vermisst;385577974;1007860359
+1m;Ausind z, Status Verlust;455711828;1125860960
+1n;kein Ausind, Status verfügbar;378498584;1127789260
+3a;Ausind u, verfügbar;439605954;1058903306
+4a;Ausind g, Handapparate;218273398;58478130X
+4d;Semesterapparat;060069538;210477946

@@ -103,7 +103,7 @@
         <id>2b6d95b8-a103-4aca-94a8-c506806b850d</id>
         <name>Freihandbestand UB (2.Stock)</name>
         <code>ILN204/CG/UB/Freihand2OG</code>
-        <discoveryDisplayName>UB Freihandbestand (2.Stock)</discoveryDisplayName>
+        <discoveryDisplayName>000</discoveryDisplayName>
         <isActive>true</isActive>
         <institutionId>42cd2c40-53e0-4d43-9308-af95afcef2db</institutionId>
         <campusId>350d7aab-59ac-4dea-9084-e52f15321a26</campusId>
@@ -118,22 +118,36 @@
         <metadata>
           <createdDate>2022-09-21T05:35:58.847+00:00</createdDate>
           <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
-          <updatedDate>2023-08-29T12:01:21.979+00:00</updatedDate>
-          <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+          <updatedDate>2024-01-26T10:38:09.697+00:00</updatedDate>
+          <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
         </metadata>
       </effectiveLocation>
       <items>
         <item>
           <id>95d3641a-ff13-4da7-a7ed-443922c91d6e</id>
-          <_version>4</_version>
+          <_version>10</_version>
           <hrid>575083883-1</hrid>
           <holdingsRecordId>d52f1bd3-9b2b-42c0-b04b-5aed4f6ecf4e</holdingsRecordId>
           <discoverySuppress>false</discoverySuppress>
           <barcode>60782121</barcode>
-          <effectiveShelvingOrder>FH kla Lb 9.7</effectiveShelvingOrder>
+          <effectiveShelvingOrder>TEST Signatur am Item 55 / 1999 enumeration</effectiveShelvingOrder>
+          <itemLevelCallNumber>TEST Signatur am Item</itemLevelCallNumber>
           <effectiveCallNumberComponents>
-            <callNumber>FH kla Lb 9.7</callNumber>
+            <callNumber>TEST Signatur am Item</callNumber>
           </effectiveCallNumberComponents>
+          <enumeration>55 / 1999 enumeration</enumeration>
+          <administrativeNotes>TEST Verwaltungsnotiz</administrativeNotes>
+          <administrativeNotes>Test Verwaltungsnotiz 2</administrativeNotes>
+          <notes>
+            <itemNoteTypeId>1dde7141-ec8a-4dae-9825-49ce14c728e7</itemNoteTypeId>
+            <note>Test Anmerkungen zum Exemplar</note>
+            <staffOnly>false</staffOnly>
+          </notes>
+          <notes>
+            <itemNoteTypeId>1dde7141-ec8a-4dae-9825-49ce14c728e7</itemNoteTypeId>
+            <note>Zweite Anmerkungen zum Exemplar. Hier nur für Personal</note>
+            <staffOnly>true</staffOnly>
+          </notes>
           <status>
             <name>Checked out</name>
             <date>2024-01-18T14:13:36.203+00:00</date>
@@ -141,32 +155,23 @@
           <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
           <permanentLoanTypeId>ecfbf446-421a-4a46-8e06-3e1e36d5b317</permanentLoanTypeId>
           <effectiveLocationId>2b6d95b8-a103-4aca-94a8-c506806b850d</effectiveLocationId>
+          <tags/>
           <metadata>
             <createdDate>2023-08-22T08:39:08.549+00:00</createdDate>
             <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
-            <updatedDate>2024-01-18T14:13:36.202+00:00</updatedDate>
-            <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+            <updatedDate>2024-02-25T13:45:31.358+00:00</updatedDate>
+            <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
           </metadata>
           <lastCheckIn>
             <dateTime>2023-10-24T11:26:38.373+00:00</dateTime>
             <servicePointId>c9ef9eb4-4ce3-4aab-b589-57d458a03a9f</servicePointId>
             <staffMemberId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</staffMemberId>
           </lastCheckIn>
-          <permanentLoanType>
-            <id>ecfbf446-421a-4a46-8e06-3e1e36d5b317</id>
-            <name>0 u Ausleihbar</name>
-            <metadata>
-              <createdDate>2022-08-19T11:38:10.700+00:00</createdDate>
-              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
-              <updatedDate>2022-08-19T11:38:10.700+00:00</updatedDate>
-              <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
-            </metadata>
-          </permanentLoanType>
           <effectiveLocation>
             <id>2b6d95b8-a103-4aca-94a8-c506806b850d</id>
             <name>Freihandbestand UB (2.Stock)</name>
             <code>ILN204/CG/UB/Freihand2OG</code>
-            <discoveryDisplayName>UB Freihandbestand (2.Stock)</discoveryDisplayName>
+            <discoveryDisplayName>000</discoveryDisplayName>
             <isActive>true</isActive>
             <institutionId>42cd2c40-53e0-4d43-9308-af95afcef2db</institutionId>
             <campusId>350d7aab-59ac-4dea-9084-e52f15321a26</campusId>
@@ -181,10 +186,20 @@
             <metadata>
               <createdDate>2022-09-21T05:35:58.847+00:00</createdDate>
               <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
-              <updatedDate>2023-08-29T12:01:21.979+00:00</updatedDate>
-              <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+              <updatedDate>2024-01-26T10:38:09.697+00:00</updatedDate>
+              <updatedByUserId>f8b1ffe5-45cd-4970-aa14-95c433a36ec0</updatedByUserId>
             </metadata>
           </effectiveLocation>
+          <permanentLoanType>
+            <id>ecfbf446-421a-4a46-8e06-3e1e36d5b317</id>
+            <name>0 u Ausleihbar</name>
+            <metadata>
+              <createdDate>2022-08-19T11:38:10.700+00:00</createdDate>
+              <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+              <updatedDate>2022-08-19T11:38:10.700+00:00</updatedDate>
+              <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
           <loan>
             <id>8984952c-a9c9-44a0-9e97-a5fde431de36</id>
             <userId>48fbe16c-7187-4a89-b549-554eb46855d8</userId>
@@ -208,7 +223,7 @@
             </metadata>
             <patronGroupAtCheckout>
               <id>9e7a5f7d-bf8a-408f-a02e-f0f5576a8214</id>
-              <name>81 Mitarbeiter</name>
+              <name>81 UB-Mitarbeiter</name>
             </patronGroupAtCheckout>
             <item>
               <id>95d3641a-ff13-4da7-a7ed-443922c91d6e</id>
@@ -219,9 +234,10 @@
               <contributors>
                 <name>Fögen, Thorsten *1971-*</name>
               </contributors>
-              <callNumber>FH kla Lb 9.7</callNumber>
+              <callNumber>TEST Signatur am Item</callNumber>
+              <enumeration>55 / 1999 enumeration</enumeration>
               <callNumberComponents>
-                <callNumber>FH kla Lb 9.7</callNumber>
+                <callNumber>TEST Signatur am Item</callNumber>
               </callNumberComponents>
               <status>
                 <name>Checked out</name>
@@ -239,7 +255,7 @@
               <code>THUBAUsleihe</code>
               <discoveryDisplayName>UB Ausleihe</discoveryDisplayName>
               <description/>
-              <shelvingLagTime/>
+              <shelvingLagTime>60</shelvingLagTime>
               <pickupLocation>true</pickupLocation>
             </checkoutServicePoint>
             <borrower>

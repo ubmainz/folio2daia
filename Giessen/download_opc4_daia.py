@@ -35,8 +35,9 @@ with open("./Examples/ppn_epn_list.txt", "r", encoding="UTF-8") as ppn_epn_list:
     ppn_epn_lines = ppn_epn_list.readlines()
     for ppn_epn_line in ppn_epn_lines:
         with open("./Examples/opc4_daia.txt", "a", encoding="UTF-8") as log:
-            (example_nr, ppn, epn) = ppn_epn_line.split(";")
-            example_nr = example_nr.strip()
+            (nr, description, ppn, epn) = ppn_epn_line.split(";")
+            nr = nr.strip()
+            description = description.strip()
             ppn = ppn.strip()
             epn = epn.strip()
             opc4_req = requests.get(BASE_URL_OPC4 + epn)
@@ -58,7 +59,7 @@ with open("./Examples/ppn_epn_list.txt", "r", encoding="UTF-8") as ppn_epn_list:
                     daia_tags.append(div.text)
             # sort and write DAIA tags to log
             daia_tags.sort() 
-            log.write("## Beispiel " + example_nr + ", PPN = " + ppn + 
+            log.write("## Beispiel " + nr + ", " + description + ", + PPN = " + ppn + 
                       ", EPN = " + epn + ".\n")
             for daia_tag in daia_tags:
                 log.write(daia_tag + "\n")
