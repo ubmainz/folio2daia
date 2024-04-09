@@ -1043,7 +1043,7 @@
             select="holdings/holding[(holdingsTypeId = '996f93e2-5b5e-4cf2-9168-33ced1f95eed') and not(xs:boolean(discoverySuppress))]">
             <!-- für elektronische Bestände -->
             <!-- evtl. sortieren <xsl:sort select="..."/> -->
-            <!-- MF: EPN vorangegestellt -->
+            <!-- MF: EPN vorangegestellt -->     
             <xsl:apply-templates select="./*|./*/*">
                 <xsl:sort select="index-of(('hrid'),name())" order="descending"/>
             </xsl:apply-templates>
@@ -1295,7 +1295,7 @@
                 <!-- vermisst -->
                 <UV>
                     <i>u ausleihbar</i>
-                    <s>vormerkbar</s>
+                    <s>ausgeliehen</s>
                     <h>http://vormerk.link</h>
                     <d>
                         <xsl:value-of
