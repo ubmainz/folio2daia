@@ -126,7 +126,7 @@ DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
 DAIAinfo zeit_bestand01 N.F. ofniAIAD
 DAIAinfo zeit_bestand02 1.1897 - 2.1898; 4.1900 - 32.1930; 36.1934 - ofniAIAD
-DAIAinfo aus_text Aktuelle Hefte ofniAIAD
+DAIAinfo aus_text Aktuelle Hefte: ofniAIAD
 DAIAinfo aus_text v. 110, Heft 1  ofniAIAD
 DAIAinfo epn 12514248X-it00000000095 ofniAIAD
 DAIAinfo sig ZG 779 ofniAIAD

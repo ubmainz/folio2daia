@@ -151,7 +151,7 @@
                     <xsl:if test="../../pieces/piece[not(xs:boolean(discoverySuppress)) and xs:boolean(displayOnHolding)]"> <!-- mindestens ein Heft -->
                         <xsl:call-template name="DAIA">
                             <xsl:with-param name="tag">aus_text</xsl:with-param>
-                            <xsl:with-param name="value">Aktuelle Hefte</xsl:with-param>
+                            <xsl:with-param name="value">Aktuelle Hefte:</xsl:with-param>
                         </xsl:call-template> 
                     </xsl:if>
                     <xsl:for-each select="../../pieces/piece[not(xs:boolean(discoverySuppress)) and xs:boolean(displayOnHolding)]"> <!-- Hefteingänge --> <!-- TBD die letzen drei -->
