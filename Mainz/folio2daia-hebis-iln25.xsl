@@ -81,8 +81,8 @@
         <e><c>25/066-066-10-RWETH</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften / Ethnologie und Afrikastudien</n><map linktype="mapongo"/></e>
         <e><c>25/066-066-12-RWAMA</c><n xml:lang="de">Zentralbibliothek, AMA - African Music Archives</n></e>
         <e><c>25/080-080-RWTURK</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften / Turkologie</n><map linktype="mapongo"/></e>
-        <e><c>25/091-091-PHMUW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Musikwissenschaft, Freihand</n><map linktype="mapongo"/></e>
-        <e><c>25/091-091-PHMUWMAG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Musikwissenschaft, Magazin</n></e>
+        <e><c>25/091-091-10-PHMUW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Musikwissenschaft, Freihand</n><map linktype="mapongo"/></e>
+        <e><c>25/091-091-12-PHMUWMAG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Musikwissenschaft, Magazin</n></e>
         <e><c>25/112-112-10-PHHFMFREI</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Hochschule für Musik, Freihand</n><map linktype="mapongo"/></e>
         <e><c>25/112-112-12-PHHFMMAG</c><n xml:lang="de">BB BB Philosophicum, Hochschule für Musik, Magazin</n></e>
         <e><c>25/999-009-FBMPI</c><ind>s Praesenzbestand</ind><n xml:lang="de">Max-Planck-Institut für Polymerforschung, Bibliothek</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102599637</url></e>
