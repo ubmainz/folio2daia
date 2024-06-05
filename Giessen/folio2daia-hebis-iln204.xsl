@@ -1243,11 +1243,11 @@
             </xsl:variable>
             <xsl:variable name="campusubgiessen">
                 <hinweis-u campus="Magazin">
-                    <h>https://magazin.link</h>
+                    <h>https://paia.link</h>
                     <t1 xml:lang="de">&lt;a href='https://magazin.stock'&gt;Magazin&lt;/a&gt;</t1>
                 </hinweis-u>
                 <hinweis-ui campus="Magazin">
-                    <h>https://freie-zs-best.link</h>
+                    <h>https://paia.link</h>
                     <t1 xml:lang="de">&lt;a href='https://magazin.stock'&gt;Magazin&lt;/a&gt;</t1>
                 </hinweis-ui>
                 <hinweis-s campus="Fachbibliotheken">
@@ -1296,7 +1296,7 @@
                 <UV>
                     <i>u ausleihbar</i>
                     <s>ausgeliehen</s>
-                    <h>http://vormerk.link</h>
+                    <h>https://paia.link</h>
                     <d>
                         <xsl:value-of
                             select="xs:dateTime((current()/../status/date, current-dateTime())[1]) + xs:dayTimeDuration('P28D')"
@@ -1307,7 +1307,7 @@
                 <IV>
                     <i>i Lesesaal</i>
                     <s>vormerkbar</s>
-                    <h>http://vormerk.link</h>
+                    <h>https://paia.link</h>
                     <t1 xml:lang="de">nur für den Lesesaal</t1>
                     <t1 xml:lang="en">reading room only</t1>
                 </IV>
