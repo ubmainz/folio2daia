@@ -3455,7 +3455,7 @@ BCO 093 und 8201 ist genau &quot;MAG&quot; oder BCO 125</description>
             <name>ZB Semesterapparate</name>
             <code>ZBSEM</code>
             <description>Zentralbibliothek / Semesterapparate</description>
-            <discoveryDisplayName>25/000-000-20-ZBSEM</discoveryDisplayName>
+            <discoveryDisplayName>25/000-000-20-ZB-SEMAPP</discoveryDisplayName>
             <isActive>true</isActive>
             <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
             <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>

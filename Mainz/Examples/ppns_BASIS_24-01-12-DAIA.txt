@@ -311,10 +311,10 @@ DAIAinfo epn 178441880-178441880-1 ofniAIAD
 DAIAinfo sig 086.931 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
 DAIAinfo aus_text nicht ausleihbar ofniAIAD
-DAIAinfo abt_num 25/000-000-20-ZBSEM ofniAIAD
+DAIAinfo abt_num 25/000-000-20-ZB-SEMAPP ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Semesterapparate ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=086.931&c2=25%2F000-000-20-ZBSEM">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&b=7&f=20&c=23620&l=19809,19815,19816">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 113674406-113674406-1 ofniAIAD
 DAIAinfo sig 4° BB 1129 ofniAIAD

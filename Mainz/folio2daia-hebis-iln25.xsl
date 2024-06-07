@@ -176,6 +176,7 @@
                 <xsl:variable name="map" select="$bbtabelle/e[c=current()/effectiveLocation/discoveryDisplayName]/map"/>
                 <xsl:choose>
                     <xsl:when test="$map/@linktype='mapongo'"><xsl:call-template name="mapongo"/></xsl:when>
+                    <xsl:when test="$map/@linktype='mapongosemapp'"><xsl:call-template name="mapongosemapp"/></xsl:when>
                     <xsl:when test="$map/@linktype='bibmap'"><xsl:call-template name="bibmap"/></xsl:when>
                 </xsl:choose>
             </xsl:for-each>
@@ -386,6 +387,33 @@
             </xsl:if>
             <xsl:text>&amp;c2=</xsl:text> <!-- c2:location -->
             <xsl:value-of select="encode-for-uri(effectiveLocation/discoveryDisplayName)"/>
+        </xsl:variable>
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag">standort</xsl:with-param>
+            <xsl:with-param name="value">
+                <xsl:text>&lt;a target=&quot;_blank&quot; href=&quot;https://ub-mainz.mapongo.de/viewer?p=1&amp;</xsl:text>
+                <xsl:value-of select="$mapongopar"/>
+                <xsl:text>&quot;&gt;</xsl:text>
+                <xsl:call-template name="selectlanguage">
+                    <xsl:with-param name="fields" select="$locationtext/t"/>
+                </xsl:call-template>
+                <xsl:text>&lt;/a&gt;</xsl:text>
+                <!-- QR-Code
+                <xsl:text>&lt;img width=&quot;130&quot; height=&quot;130&quot; src=&quot;https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?</xsl:text>
+                <xsl:value-of select="$mapongopar"/>
+                <xsl:text>&quot;&gt;</xsl:text> -->
+            </xsl:with-param>
+        </xsl:call-template>   
+    </xsl:template>
+    
+    <xsl:template name="mapongosemapp"> <!-- item -->
+        <xsl:variable name="locationtext"> <!-- Mapongo-Link -->
+            <t xml:lang="de">Standort zeigen</t>
+            <t xml:lang="en">show location</t>
+        </xsl:variable>
+        <!-- https://ub-mainz.mapongo.de/viewer?p=1&b=7&f=20&c=23620&l=19809,19815,19816 -->
+        <xsl:variable name="mapongopar">
+            <xsl:text>b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816</xsl:text>
         </xsl:variable>
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">standort</xsl:with-param>
