@@ -12,7 +12,7 @@
          ind : [optional] Ausleihindikator, überschreibt für diesen Standort den Wert, der aus FOLIO kommt
          url : [optional] URL für den Nutzer mit Infomationen für den Nutzer (z.B. Normdatensatz), default siehe oben
          map : [optional, wiederholbar] mit linktype="mapongo" oder linktype="bibmap", z.B. <map linktype="mapongo"/> 
-                oder mit url="http...", z.B. <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/> 
+                oder (ggf. linktype überschreibend) mit url="http...", z.B. <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/> 
          campus : [optional] Campus Germersheim ("cg") oder Campus Mainz ("cm" bzw. "cz") für campusübergreifende Ausleihe UB Mainz, "cz" auch für Unimedizin -->
     <xsl:variable name="bbtabelle">
         <e><c>25/000-000-10-ZBFREI</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Bücherturm</n><n xml:lang="en">Central Library, Book Tower</n><map linktype="mapongo"/></e>  
