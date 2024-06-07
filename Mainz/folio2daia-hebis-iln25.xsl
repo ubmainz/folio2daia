@@ -380,7 +380,7 @@
             <t xml:lang="en">show location</t>
         </xsl:variable>
         <xsl:variable name="mapongopar">
-            <xsl:text>s=</xsl:text>
+            <xsl:text>https://ub-mainz.mapongo.de/viewer?p=1&amp;s=</xsl:text>
             <xsl:value-of select="encode-for-uri(string-join((effectiveCallNumberComponents/prefix,effectiveCallNumberComponents/callNumber),' '))"/>
             <xsl:if test="../../notes[holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note">
                 <xsl:text>&amp;c1=</xsl:text> <!-- c1: "8201" -->
@@ -389,22 +389,11 @@
             <xsl:text>&amp;c2=</xsl:text> <!-- c2:location -->
             <xsl:value-of select="encode-for-uri(effectiveLocation/discoveryDisplayName)"/>
         </xsl:variable>
-        <xsl:call-template name="DAIA">
-            <xsl:with-param name="tag">standort</xsl:with-param>
-            <xsl:with-param name="value">
-                <xsl:text>&lt;a target=&quot;_blank&quot; href=&quot;https://ub-mainz.mapongo.de/viewer?p=1&amp;</xsl:text>
-                <xsl:value-of select="$mapongopar"/>
-                <xsl:text>&quot;&gt;</xsl:text>
-                <xsl:call-template name="selectlanguage">
-                    <xsl:with-param name="fields" select="$locationtext/t"/>
-                </xsl:call-template>
-                <xsl:text>&lt;/a&gt;</xsl:text>
-                <!-- QR-Code
+        <xsl:call-template name="mapurl"><xsl:with-param name="url" select="$mapongopar"></xsl:with-param></xsl:call-template>
+        <!-- QR-Code
                 <xsl:text>&lt;img width=&quot;130&quot; height=&quot;130&quot; src=&quot;https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?</xsl:text>
                 <xsl:value-of select="$mapongopar"/>
                 <xsl:text>&quot;&gt;</xsl:text> -->
-            </xsl:with-param>
-        </xsl:call-template>   
     </xsl:template>
     
     <xsl:template name="mapurl"> <!-- item -->
