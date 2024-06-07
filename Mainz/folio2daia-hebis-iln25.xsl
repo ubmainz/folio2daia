@@ -11,7 +11,8 @@
              (Bei Fehlen des Sprachtextes wird der Text der ersten Sprache verwendet.)
          ind : [optional] Ausleihindikator, überschreibt für diesen Standort den Wert, der aus FOLIO kommt
          url : [optional] URL für den Nutzer mit Infomationen für den Nutzer (z.B. Normdatensatz), default siehe oben
-         map : [optional, wiederholbar] mit linktype="mapongo" oder linktype="bibmap", z.B. <map linktype="mapongo"/>
+         map : [optional, wiederholbar] mit linktype="mapongo" oder linktype="bibmap", z.B. <map linktype="mapongo"/> 
+                oder mit url="http...", z.B. <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/> 
          campus : [optional] Campus Germersheim ("cg") oder Campus Mainz ("cm" bzw. "cz") für campusübergreifende Ausleihe UB Mainz, "cz" auch für Unimedizin -->
     <xsl:variable name="bbtabelle">
         <e><c>25/000-000-10-ZBFREI</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Bücherturm</n><n xml:lang="en">Central Library, Book Tower</n><map linktype="mapongo"/></e>  
@@ -19,7 +20,7 @@
         <e><c>25/000-000-14-ZBLS</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek,Lesesaal</n><map linktype="mapongo"/></e>
         <e><c>25/000-000-16-ZBMAG</c><n xml:lang="de">Zentralbibliothek, Magazin</n></e>
         <e><c>25/000-000-18-ZBRARA</c><n xml:lang="de">Zentralbibliothek, Rara</n></e>
-        <e><c>25/000-000-20-ZB-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">Zentralbibliothek, Semesterapparate</n><map linktype="mapongosemapp"/></e>
+        <e><c>25/000-000-20-ZB-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">Zentralbibliothek, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/></e>
         <e><c>25/000-000-22-ZBZEB</c><n xml:lang="de">Zentralbibliothek, Zur Erwerbung bestellt</n></e>
         <e><c>25/002-002-10-GFGPÄD</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Erziehungswissenschaft</n><map linktype="mapongo"/></e>
         <e><c>25/002-002-12-GFGFILM</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Filmwissenschaft</n><map linktype="mapongo"/></e>
@@ -28,14 +29,14 @@
         <e><c>25/002-002-18-GFGPSYCH</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Psychologie</n><map linktype="mapongo"/></e>
         <e><c>25/002-002-20-GFGPUB</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Publizistik</n><map linktype="mapongo"/></e>
         <e><c>25/002-002-22-GFGSOZ</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Soziologie</n><map linktype="mapongo"/></e>
-        <e><c>25/002-002-24-GFG-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Georg Forster-Gebäude, Semesterapparate</n><map linktype="mapongosemapp"/></e>
+        <e><c>25/002-002-24-GFG-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Georg Forster-Gebäude, Semesterapparate</n><map url=""/></e>
         <e><c>25/002-002-26-GFGZEB</c><n xml:lang="de">BB Georg Forster-Gebäude, Zur Erwerbung bestellt</n></e>
         <e><c>25/002-079-GFGKUN</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Kunstgeschichte</n><map linktype="mapongo"/></e>
         <e><c>25/002-110-GFGGEO</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Geographie und Geowissenschaften</n><map linktype="mapongo"/></e>
         <e><c>25/002-113-GFGSPO</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Sportwissenschaften</n><map linktype="mapongo"/></e>
         <e><c>25/002-126-GFGUSA</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, USA-Bibliothek</n><map linktype="mapongo"/></e>
         <e><c>25/004-004-PHRVK</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, RVK-Aufstellung</n><map linktype="mapongo"/></e>
-        <e><c>25/004-004-PH-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Philosophicum, Semesterapparate</n><map linktype="mapongosemapp"/></e>
+        <e><c>25/004-004-PH-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Philosophicum, Semesterapparate</n><map url=""/></e>
         <e><c>25/004-058-PHPHI</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Philosophie</n><map linktype="mapongo"/></e>
         <e><c>25/004-070-PHGER</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Germanistik I / Kulturanthropologie und Germanistik II</n><map linktype="mapongo"/></e>
         <e><c>25/004-071-PHAVL</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Allgemeine und Vergleichende Literaturwissenschaft</n><map linktype="mapongo"/></e>
@@ -63,7 +64,7 @@
         <e><c>25/006-006-10-MINT</c><campus>cz</campus><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Freihand</n><map linktype="mapongo"/></e>
         <e><c>25/006-006-12-MINTLBS</c><campus>cz</campus><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Lehrbuchsammlung</n><map linktype="mapongo"/></e>
         <e><c>25/006-006-14-MINTFAK</c><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Handapparate</n></e>
-        <e><c>25/006-006-16-MINT-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Semesterapparate</n><map linktype="mapongosemapp"/></e>
+        <e><c>25/006-006-16-MINT-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Semesterapparate</n><map url=""/></e>
         <e><c>25/016-016-10-TH</c><campus>cm</campus><n xml:lang="de">BB Theologie, Freihand</n><map linktype="mapongo"/></e>
         <e><c>25/016-016-12-THLBS</c><campus>cm</campus><n xml:lang="de">BB Theologie, Lehrbuchsammlung</n><map linktype="mapongo"/></e>
         <e><c>25/016-016-14-THRARA</c><n xml:lang="de">BB Theologie, Magazin</n></e>
@@ -72,7 +73,7 @@
         <e><c>25/018-018-10-RW</c><ind>s Praesenzbestand</ind><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Freihand</n><map linktype="mapongo"/></e>
         <e><c>25/018-018-12-RWLBS</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Lernzentrum</n><map linktype="mapongo"/></e>
         <e><c>25/018-018-14-RWMAG</c><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Magazin</n></e>
-        <e><c>25/018-018-16-RW-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Semesterapparate</n><map linktype="mapongosemapp"/></e>
+        <e><c>25/018-018-16-RW-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Semesterapparate</n><map url=""/></e>
         <e><c>25/018-020-RWFAK</c><ind>s Praesenzbestand</ind><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Lehrstühle</n></e>
         <e><c>25/019-019-10-GHFREI</c><campus>cg</campus><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand</n><map linktype="mapongo"/></e>
         <e><c>25/019-019-12-GHLBS</c><campus>cg</campus><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lehrbuchsammlung</n><map linktype="mapongo"/></e>
@@ -81,7 +82,7 @@
         <e><c>25/019-019-18-GHSEP</c><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Separiert</n></e>
         <e><c>25/019-019-20-GHFAK</c><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Handapparate</n></e>
         <e><c>25/019-019-22-GHZEB</c><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Zur Erwerbung bestellt</n></e>
-        <e><c>25/019-019-24-GH-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Semesterapparate</n><map linktype="mapongosemapp"/></e>
+        <e><c>25/019-019-24-GH-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/></e>
         <e><c>25/066-066-10-RWETH</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften / Ethnologie und Afrikastudien</n><map linktype="mapongo"/></e>
         <e><c>25/066-066-12-RWAMA</c><n xml:lang="de">Zentralbibliothek, AMA - African Music Archives</n></e>
         <e><c>25/080-080-RWTURK</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften / Turkologie</n><map linktype="mapongo"/></e>
@@ -175,8 +176,8 @@
                 </xsl:if>
                 <xsl:variable name="map" select="$bbtabelle/e[c=current()/effectiveLocation/discoveryDisplayName]/map"/>
                 <xsl:choose>
+                    <xsl:when test="$map/@url"><xsl:call-template name="mapurl"><xsl:with-param name="url" select="$map/@url"></xsl:with-param></xsl:call-template></xsl:when>
                     <xsl:when test="$map/@linktype='mapongo'"><xsl:call-template name="mapongo"/></xsl:when>
-                    <xsl:when test="$map/@linktype='mapongosemapp'"><xsl:call-template name="mapongosemapp"/></xsl:when>
                     <xsl:when test="$map/@linktype='bibmap'"><xsl:call-template name="bibmap"/></xsl:when>
                 </xsl:choose>
             </xsl:for-each>
@@ -406,29 +407,22 @@
         </xsl:call-template>   
     </xsl:template>
     
-    <xsl:template name="mapongosemapp"> <!-- item -->
-        <xsl:variable name="locationtext"> <!-- Mapongo-Link -->
+    <xsl:template name="mapurl"> <!-- item -->
+        <xsl:param name="url"/>
+        <xsl:variable name="locationtext"> <!-- Standort-Link -->
             <t xml:lang="de">Standort zeigen</t>
             <t xml:lang="en">show location</t>
-        </xsl:variable>
-        <!-- https://ub-mainz.mapongo.de/viewer?p=1&b=7&f=20&c=23620&l=19809,19815,19816 -->
-        <xsl:variable name="mapongopar">
-            <xsl:text>b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816</xsl:text>
         </xsl:variable>
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">standort</xsl:with-param>
             <xsl:with-param name="value">
-                <xsl:text>&lt;a target=&quot;_blank&quot; href=&quot;https://ub-mainz.mapongo.de/viewer?p=1&amp;</xsl:text>
-                <xsl:value-of select="$mapongopar"/>
+                <xsl:text>&lt;a target=&quot;_blank&quot; href=&quot;</xsl:text>
+                <xsl:value-of select="$url"/>
                 <xsl:text>&quot;&gt;</xsl:text>
                 <xsl:call-template name="selectlanguage">
                     <xsl:with-param name="fields" select="$locationtext/t"/>
                 </xsl:call-template>
                 <xsl:text>&lt;/a&gt;</xsl:text>
-                <!-- QR-Code
-                <xsl:text>&lt;img width=&quot;130&quot; height=&quot;130&quot; src=&quot;https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?</xsl:text>
-                <xsl:value-of select="$mapongopar"/>
-                <xsl:text>&quot;&gt;</xsl:text> -->
             </xsl:with-param>
         </xsl:call-template>   
     </xsl:template>
