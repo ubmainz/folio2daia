@@ -11,7 +11,8 @@
              (Bei Fehlen des Sprachtextes wird der Text der ersten Sprache verwendet.)
          ind : [optional] Ausleihindikator, überschreibt für diesen Standort den Wert, der aus FOLIO kommt
          url : [optional] URL für den Nutzer mit Infomationen für den Nutzer (z.B. Normdatensatz), default siehe oben
-         map : [optional, wiederholbar] mit linktype="mapongo" oder linktype="bibmap", z.B. <map linktype="mapongo"/>
+         map : [optional, wiederholbar] mit linktype="mapongo" oder linktype="bibmap", z.B. <map linktype="mapongo"/> 
+                oder (ggf. linktype überschreibend) mit url="http...", z.B. <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/> 
          campus : [optional] Campus Germersheim ("cg") oder Campus Mainz ("cm" bzw. "cz") für campusübergreifende Ausleihe UB Mainz, "cz" auch für Unimedizin -->
     <xsl:variable name="bbtabelle">
         <e><c>25/000-000-10-ZBFREI</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Bücherturm</n><n xml:lang="en">Central Library, Book Tower</n><map linktype="mapongo"/></e>  
@@ -19,7 +20,7 @@
         <e><c>25/000-000-14-ZBLS</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek,Lesesaal</n><map linktype="mapongo"/></e>
         <e><c>25/000-000-16-ZBMAG</c><n xml:lang="de">Zentralbibliothek, Magazin</n></e>
         <e><c>25/000-000-18-ZBRARA</c><n xml:lang="de">Zentralbibliothek, Rara</n></e>
-        <e><c>25/000-000-20-ZBSEM</c><ind>s Praesenzbestand</ind><n xml:lang="de">Zentralbibliothek, Semesterapparate</n><map linktype="mapongo"/></e>
+        <e><c>25/000-000-20-ZB-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">Zentralbibliothek, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/></e>
         <e><c>25/000-000-22-ZBZEB</c><n xml:lang="de">Zentralbibliothek, Zur Erwerbung bestellt</n></e>
         <e><c>25/002-002-10-GFGPÄD</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Erziehungswissenschaft</n><map linktype="mapongo"/></e>
         <e><c>25/002-002-12-GFGFILM</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Filmwissenschaft</n><map linktype="mapongo"/></e>
@@ -28,13 +29,14 @@
         <e><c>25/002-002-18-GFGPSYCH</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Psychologie</n><map linktype="mapongo"/></e>
         <e><c>25/002-002-20-GFGPUB</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Publizistik</n><map linktype="mapongo"/></e>
         <e><c>25/002-002-22-GFGSOZ</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Soziologie</n><map linktype="mapongo"/></e>
-        <e><c>25/002-002-24-GFGSEM</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Georg Forster-Gebäude, Semesterapparate</n><map linktype="mapongo"/></e>
+        <e><c>25/002-002-24-GFG-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Georg Forster-Gebäude, Semesterapparate</n><map url=""/></e>
         <e><c>25/002-002-26-GFGZEB</c><n xml:lang="de">BB Georg Forster-Gebäude, Zur Erwerbung bestellt</n></e>
         <e><c>25/002-079-GFGKUN</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Kunstgeschichte</n><map linktype="mapongo"/></e>
         <e><c>25/002-110-GFGGEO</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Geographie und Geowissenschaften</n><map linktype="mapongo"/></e>
         <e><c>25/002-113-GFGSPO</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Sportwissenschaften</n><map linktype="mapongo"/></e>
         <e><c>25/002-126-GFGUSA</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, USA-Bibliothek</n><map linktype="mapongo"/></e>
         <e><c>25/004-004-PHRVK</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, RVK-Aufstellung</n><map linktype="mapongo"/></e>
+        <e><c>25/004-004-PH-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Philosophicum, Semesterapparate</n><map url=""/></e>
         <e><c>25/004-058-PHPHI</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Philosophie</n><map linktype="mapongo"/></e>
         <e><c>25/004-070-PHGER</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Germanistik I / Kulturanthropologie und Germanistik II</n><map linktype="mapongo"/></e>
         <e><c>25/004-071-PHAVL</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Allgemeine und Vergleichende Literaturwissenschaft</n><map linktype="mapongo"/></e>
@@ -62,6 +64,7 @@
         <e><c>25/006-006-10-MINT</c><campus>cz</campus><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Freihand</n><map linktype="mapongo"/></e>
         <e><c>25/006-006-12-MINTLBS</c><campus>cz</campus><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Lehrbuchsammlung</n><map linktype="mapongo"/></e>
         <e><c>25/006-006-14-MINTFAK</c><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Handapparate</n></e>
+        <e><c>25/006-006-16-MINT-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Semesterapparate</n><map url=""/></e>
         <e><c>25/016-016-10-TH</c><campus>cm</campus><n xml:lang="de">BB Theologie, Freihand</n><map linktype="mapongo"/></e>
         <e><c>25/016-016-12-THLBS</c><campus>cm</campus><n xml:lang="de">BB Theologie, Lehrbuchsammlung</n><map linktype="mapongo"/></e>
         <e><c>25/016-016-14-THRARA</c><n xml:lang="de">BB Theologie, Magazin</n></e>
@@ -70,6 +73,7 @@
         <e><c>25/018-018-10-RW</c><ind>s Praesenzbestand</ind><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Freihand</n><map linktype="mapongo"/></e>
         <e><c>25/018-018-12-RWLBS</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Lernzentrum</n><map linktype="mapongo"/></e>
         <e><c>25/018-018-14-RWMAG</c><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Magazin</n></e>
+        <e><c>25/018-018-16-RW-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Semesterapparate</n><map url=""/></e>
         <e><c>25/018-020-RWFAK</c><ind>s Praesenzbestand</ind><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Lehrstühle</n></e>
         <e><c>25/019-019-10-GHFREI</c><campus>cg</campus><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand</n><map linktype="mapongo"/></e>
         <e><c>25/019-019-12-GHLBS</c><campus>cg</campus><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lehrbuchsammlung</n><map linktype="mapongo"/></e>
@@ -78,12 +82,14 @@
         <e><c>25/019-019-18-GHSEP</c><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Separiert</n></e>
         <e><c>25/019-019-20-GHFAK</c><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Handapparate</n></e>
         <e><c>25/019-019-22-GHZEB</c><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Zur Erwerbung bestellt</n></e>
+        <e><c>25/019-019-24-GH-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/></e>
         <e><c>25/066-066-10-RWETH</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften / Ethnologie und Afrikastudien</n><map linktype="mapongo"/></e>
         <e><c>25/066-066-12-RWAMA</c><n xml:lang="de">Zentralbibliothek, AMA - African Music Archives</n></e>
         <e><c>25/080-080-RWTURK</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften / Turkologie</n><map linktype="mapongo"/></e>
-        <e><c>25/091-091-PHMUW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Musikwissenschaft</n><map linktype="mapongo"/></e>
+        <e><c>25/091-091-10-PHMUW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Musikwissenschaft, Freihand</n><map linktype="mapongo"/></e>
+        <e><c>25/091-091-12-PHMUWMAG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Musikwissenschaft, Magazin</n></e>
         <e><c>25/112-112-10-PHHFMFREI</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Hochschule für Musik, Freihand</n><map linktype="mapongo"/></e>
-        <e><c>25/112-112-12-PHHFMMAG</c><n xml:lang="de">BB BB Philosophicum, Hochschule für Musik, Magazin</n></e>
+        <e><c>25/112-112-12-PHHFMMAG</c><n xml:lang="de">BB Philosophicum, Hochschule für Musik, Magazin</n></e>
         <e><c>25/999-009-FBMPI</c><ind>s Praesenzbestand</ind><n xml:lang="de">Max-Planck-Institut für Polymerforschung, Bibliothek</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102599637</url></e>
         <e><c>25/999-034-FBGTEM</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Institut für Geschichte, Theorie und Ethik der Medizin</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102599866</url></e>
         <e><c>25/999-094-FBIGL</c><ind>s Praesenzbestand</ind><n xml:lang="de">Institut für Geschichtliche Landeskunde Rheinland-Pfalz e.V., Bibliothek</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=460818961</url></e>
@@ -110,17 +116,32 @@
         <xsl:text>&#10;</xsl:text>
         <xsl:for-each select="holdings/holding[(holdingsTypeId='996f93e2-5b5e-4cf2-9168-33ced1f95eed') and not(xs:boolean(discoverySuppress))]"> <!-- für elektronische Bestände -->
             <!-- evtl. sortieren <xsl:sort select="..."/> -->
-            <xsl:call-template name="DAIA">
-                <xsl:with-param name="tag">aus_ind</xsl:with-param>
-                <xsl:with-param name="value" select="'x online'"/>
-            </xsl:call-template>
-            <xsl:call-template name="DAIA">
-                <xsl:with-param name="tag">aus_status</xsl:with-param>
-                <xsl:with-param name="value" select="'frei'"/>
-            </xsl:call-template>
             <xsl:apply-templates select="./*|./*/*">
                 <xsl:sort select="index-of(('hrid'),name())" order="descending"/>
-            </xsl:apply-templates> 
+            </xsl:apply-templates>
+            <!-- Unterscheidung nötig für E-Ressourcen in Bestellung --> 
+            <xsl:choose>
+                <xsl:when test="items/item"> <!-- TBD: wird gelöscht, wenn nicht mehr "bestellt"? -->
+                    <xsl:call-template name="DAIA">
+                        <xsl:with-param name="tag">aus_ind</xsl:with-param>
+                        <xsl:with-param name="value" select="'a bestellt'"/>
+                    </xsl:call-template>
+                    <xsl:call-template name="DAIA">
+                        <xsl:with-param name="tag">aus_status</xsl:with-param>
+                        <xsl:with-param name="value" select="'gesperrt'"/>
+                    </xsl:call-template> 
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:call-template name="DAIA">
+                        <xsl:with-param name="tag">aus_ind</xsl:with-param>
+                        <xsl:with-param name="value" select="'x online'"/>
+                    </xsl:call-template>
+                    <xsl:call-template name="DAIA">
+                        <xsl:with-param name="tag">aus_status</xsl:with-param>
+                        <xsl:with-param name="value" select="'frei'"/>
+                    </xsl:call-template>
+                </xsl:otherwise>
+            </xsl:choose>
         </xsl:for-each>
         <xsl:for-each select="holdings/holding[(holdingsTypeId!='996f93e2-5b5e-4cf2-9168-33ced1f95eed') and not(xs:boolean(discoverySuppress))]"> <!-- für nicht elektronische Bestände -->
             <xsl:sort select="effectiveLocation/discoveryDisplayName" order="ascending" lang="de"/>
@@ -148,7 +169,13 @@
                     <xsl:apply-templates select="../../holdingsStatements/*"/>                 
                 </xsl:if>
                 <xsl:if test="status/name='Intellectual item'">
-                    <xsl:for-each select="../../pieces/piece[not(xs:boolean(discoverySuppress)) and xs:boolean(displayOnHolding)]"> <!-- Hefteingänge -->
+                    <xsl:if test="../../pieces/piece[not(xs:boolean(discoverySuppress)) and xs:boolean(displayOnHolding)]"> <!-- mindestens ein Heft -->
+                        <xsl:call-template name="DAIA">
+                            <xsl:with-param name="tag">aus_text</xsl:with-param>
+                            <xsl:with-param name="value">Aktuelle Hefte:</xsl:with-param>
+                        </xsl:call-template> 
+                    </xsl:if>
+                    <xsl:for-each select="../../pieces/piece[not(xs:boolean(discoverySuppress)) and xs:boolean(displayOnHolding)]"> <!-- Hefteingänge --> <!-- TBD die letzen drei -->
                         <xsl:sort select="caption"/>
                         <xsl:call-template name="DAIA">
                             <xsl:with-param name="tag">aus_text</xsl:with-param>
@@ -158,6 +185,7 @@
                 </xsl:if>
                 <xsl:variable name="map" select="$bbtabelle/e[c=current()/effectiveLocation/discoveryDisplayName]/map"/>
                 <xsl:choose>
+                    <xsl:when test="$map/@url"><xsl:call-template name="mapurl"><xsl:with-param name="url" select="$map/@url"></xsl:with-param></xsl:call-template></xsl:when>
                     <xsl:when test="$map/@linktype='mapongo'"><xsl:call-template name="mapongo"/></xsl:when>
                     <xsl:when test="$map/@linktype='bibmap'"><xsl:call-template name="bibmap"/></xsl:when>
                 </xsl:choose>
@@ -231,7 +259,7 @@
     <!-- TBD volume, displaySummary -->
 
     <xsl:template match="status[name(..)='item']"> <!-- Trigger für Status (als immer eindeutig vorhanden vorausgesetzt) für Status und Ausleihindikator - emuliert LBS -->
-        <xsl:variable select="substring(($bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/ind,../permanentLoanType/name)[1],1,1)" name="ind"/> <!-- + temp loan type -->
+        <xsl:variable select="substring(($bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/ind,../permanentLoanType/name)[1],1,1)" name="ind"/> <!-- + temp loan type ? -->
         <xsl:variable name="result">
             <xsl:variable name="emulator">
                 <status name='Aged to lost'/>
@@ -257,7 +285,7 @@
                 <status name='Withdrawn'/>
             </xsl:variable>
             <xsl:variable name="campusubmainz">
-                <hinweis-u campus="cg"><t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Germersheim: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;</t2><t3 xml:lang="de">Mainz: bestellen</t3></hinweis-u> <!-- Z.B. Englisch: <t xml:lang="en">Germersheim: ...</t> -->
+                <hinweis-u campus="cg"><t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Germersheim: ohne Bestellung am Reschal holen&lt;/font&gt;&lt;/b&gt;</t2><t3 xml:lang="de">Mainz: bestellen</t3></hinweis-u> <!-- Z.B. Englisch: <t xml:lang="en">Germersheim: ...</t> -->
                 <hinweis-u campus="cm"><t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Mainz: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;</t2><t3 xml:lang="de">Germersheim: bestellen</t3></hinweis-u>
                 <hinweis-u campus="cz"><t2 xml:lang="de">Germersheim: bestellen</t2><t3 xml:lang="de">Universitätsmedizin: bestellen</t3><t4 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Alle anderen: selbst am Regal holen&lt;/font&gt;&lt;/b&gt;</t4></hinweis-u>
                 <hinweis-s campus="cg"><t2 xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Mainz möglich, bitte wenden Sie sich an die Information</t2></hinweis-s>
@@ -271,17 +299,17 @@
                  t1, t2, t3, t4 : Informationstext zu diesem Fall (Bei Fehlen des Sprachtextes wird der Text der ersten vorhandenen Sprache verwendet.)                 
                  h : Link, wie er hinter dem Bestellbutton hinterlegt werden soll -->
             <xsl:variable name="cases">
-                <UF><i>u ausleihbar</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/campus]/*"/><h>http://bestell.link</h></UF> <!-- bestellbar -->
-                <IF><i>i Lesesaal</i><s>verfuegbar</s><h>http://bestell.link</h><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1></IF> <!-- nur für den Lesesaal bestellbar -->
+                <UF><i>u ausleihbar</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/campus]/*"/><h>https://paia.link</h></UF> <!-- bestellbar -->
+                <IF><i>i Lesesaal</i><s>verfuegbar</s><h>https://paia.link</h><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1></IF> <!-- nur für den Lesesaal bestellbar -->
                 <SX><i>s Praesenzbestand</i><t1 xml:lang="de">nicht ausleihbar</t1><t1 xml:lang="en">not available for loan</t1>
                     <xsl:copy-of select="$campusubmainz/hinweis-s[@campus=$bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/campus]/*"/></SX> <!-- Päsenzbestand -->
                 <EM><i>e vermisst</i><t1 xml:lang="de">vermisst</t1><t1 xml:lang="en">missing</t1><t2 xml:lang="de">nicht ausleihbar</t2><t2 xml:lang="en">not available for loan</t2></EM> <!-- vermisst -->
-                <UV><i>u ausleihbar</i><s>vormerkbar</s><h>http://vormerk.link</h><d><xsl:value-of select="xs:dateTime((current()/../status/date,current-dateTime())[1])+xs:dayTimeDuration('P28D')"/></d></UV> <!-- vormerkbar -->
-                <IV><i>i Lesesaal</i><s>vormerkbar</s><h>http://vormerk.link</h><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1></IV> <!-- nur für den Lesesaal vormerkbar -->
-                <CN><i>c</i><s>nicht vormerkbar</s></CN> <!-- Präsenzbestand -->
+                <UV><i>u ausleihbar</i><s>vormerkbar</s><h>https://paia.link</h><d><xsl:value-of select="xs:dateTime((current()/../status/date,current-dateTime())[1])+xs:dayTimeDuration('P28D')"/></d></UV> <!-- vormerkbar -->
+                <IV><i>i Lesesaal</i><s>vormerkbar</s><h>https://paia.link</h><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1></IV> <!-- nur für den Lesesaal vormerkbar -->
+                <CN><i>c Lehrbuchsammlung</i><s>nicht vormerkbar</s></CN> <!-- Präsenzbestand -->
                 <XO><i>a</i><s>gesperrt</s></XO> <!--  -->
                 <UI><i>u ausleihbar</i><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/campus]/*"/>
-                    <h>http://libserv.ub.uni-mainz.de/?hrid=<xsl:value-of select="../hrid"/></h></UI> <!-- Intellectual Item, lokaler link nur zum Testen -->
+                    <h>https://libserv.ub.uni-mainz.de/request?hrid=<xsl:value-of select="../hrid"/></h></UI> <!-- Intellectual Item, lokaler link nur zum Testen -->
                 <II><i>i Lesesaal</i><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1><h>http://localhost:5000/?hrid=<xsl:value-of select="../hrid"/></h></II>
                 <XX><i>g nicht_ausleihbar</i></XX> <!-- XX=Default: Nicht verfügbar -->
             </xsl:variable>
@@ -361,7 +389,7 @@
             <t xml:lang="en">show location</t>
         </xsl:variable>
         <xsl:variable name="mapongopar">
-            <xsl:text>s=</xsl:text>
+            <xsl:text>https://ub-mainz.mapongo.de/viewer?p=1&amp;s=</xsl:text>
             <xsl:value-of select="encode-for-uri(string-join((effectiveCallNumberComponents/prefix,effectiveCallNumberComponents/callNumber),' '))"/>
             <xsl:if test="../../notes[holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note">
                 <xsl:text>&amp;c1=</xsl:text> <!-- c1: "8201" -->
@@ -370,20 +398,29 @@
             <xsl:text>&amp;c2=</xsl:text> <!-- c2:location -->
             <xsl:value-of select="encode-for-uri(effectiveLocation/discoveryDisplayName)"/>
         </xsl:variable>
+        <xsl:call-template name="mapurl"><xsl:with-param name="url" select="$mapongopar"></xsl:with-param></xsl:call-template>
+        <!-- QR-Code
+                <xsl:text>&lt;img width=&quot;130&quot; height=&quot;130&quot; src=&quot;https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?</xsl:text>
+                <xsl:value-of select="$mapongopar"/>
+                <xsl:text>&quot;&gt;</xsl:text> -->
+    </xsl:template>
+    
+    <xsl:template name="mapurl"> <!-- item -->
+        <xsl:param name="url"/>
+        <xsl:variable name="locationtext"> <!-- Standort-Link -->
+            <t xml:lang="de">Standort zeigen</t>
+            <t xml:lang="en">show location</t>
+        </xsl:variable>
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">standort</xsl:with-param>
             <xsl:with-param name="value">
-                <xsl:text>&lt;a target=&quot;_blank&quot; href=&quot;https://ub-mainz.mapongo.de/viewer?p=1&amp;</xsl:text>
-                <xsl:value-of select="$mapongopar"/>
+                <xsl:text>&lt;a target=&quot;_blank&quot; href=&quot;</xsl:text>
+                <xsl:value-of select="$url"/>
                 <xsl:text>&quot;&gt;</xsl:text>
                 <xsl:call-template name="selectlanguage">
                     <xsl:with-param name="fields" select="$locationtext/t"/>
                 </xsl:call-template>
                 <xsl:text>&lt;/a&gt;</xsl:text>
-                <!-- QR-Code
-                <xsl:text>&lt;img width=&quot;130&quot; height=&quot;130&quot; src=&quot;https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?</xsl:text>
-                <xsl:value-of select="$mapongopar"/>
-                <xsl:text>&quot;&gt;</xsl:text> -->
             </xsl:with-param>
         </xsl:call-template>   
     </xsl:template>
