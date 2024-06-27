@@ -494,7 +494,7 @@
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
-            <c>ILN204/CG/UB/UBMagAltbau</c>
+            <c>ILN204/CG/UB/UBMagPohlheim</c>
             <n xml:lang="de">Magazin UB (Altbau)</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
             <campus>Fachbibliotheken</campus>
@@ -647,6 +647,7 @@
             <n xml:lang="de">ZNL Tempor&#xe4;re Erwerbungssignaturen</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
         </e>
+        
     </xsl:variable>
 
     <xsl:variable name="hap-tabelle">
