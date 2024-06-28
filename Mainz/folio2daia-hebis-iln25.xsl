@@ -310,7 +310,7 @@
                 <XO><i>a</i><s>gesperrt</s></XO> <!--  -->
                 <UI><i>u ausleihbar</i><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/campus]/*"/>
                     <h>https://libserv.ub.uni-mainz.de/request?hrid=<xsl:value-of select="../hrid"/></h></UI> <!-- Intellectual Item, lokaler link nur zum Testen -->
-                <II><i>i Lesesaal</i><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1><h>http://localhost:5000/?hrid=<xsl:value-of select="../hrid"/></h></II>
+                <II><i>i Lesesaal</i><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1><h>https://libserv.ub.uni-mainz.de/request?hrid=<xsl:value-of select="../hrid"/></h></II>
                 <XX><i>g nicht_ausleihbar</i></XX> <!-- XX=Default: Nicht verfügbar -->
             </xsl:variable>
             <xsl:copy-of select="$cases/*[name()=($emulator/status[@name=current()/name]/*[name()=$ind],'XX')[1]]/*"/>
