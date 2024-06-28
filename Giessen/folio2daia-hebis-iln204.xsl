@@ -163,7 +163,8 @@
         </e>
         <e>
             <c>ILN204/CG/Aufsatz/Aufsatzkatalogisate</c>
-            <n xml:lang="de">Aufsatzkatalogisate</n>
+            <n xml:lang="de">Standort / Signatur siehe Link weiter oben hinter "Erschienen in:"</n>
+            <ind>y</ind>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
         </e>
         <e>
@@ -494,7 +495,7 @@
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
-            <c>ILN204/CG/UB/UBMagAltbau</c>
+            <c>ILN204/CG/UB/UBMagPohlheim</c>
             <n xml:lang="de">Magazin UB (Altbau)</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
             <campus>Fachbibliotheken</campus>
@@ -647,6 +648,7 @@
             <n xml:lang="de">ZNL Tempor&#xe4;re Erwerbungssignaturen</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
         </e>
+        
     </xsl:variable>
 
     <xsl:variable name="hap-tabelle">
@@ -1043,6 +1045,10 @@
             select="holdings/holding[(holdingsTypeId = '996f93e2-5b5e-4cf2-9168-33ced1f95eed') and not(xs:boolean(discoverySuppress))]">
             <!-- für elektronische Bestände -->
             <!-- evtl. sortieren <xsl:sort select="..."/> -->
+            <!-- MF: EPN vorangegestellt -->     
+            <xsl:apply-templates select="./*|./*/*">
+                <xsl:sort select="index-of(('hrid'),name())" order="descending"/>
+            </xsl:apply-templates>
             <xsl:call-template name="DAIA">
                 <xsl:with-param name="tag">aus_ind</xsl:with-param>
                 <xsl:with-param name="value" select="'x online'"/>
@@ -1050,10 +1056,7 @@
             <xsl:call-template name="DAIA">
                 <xsl:with-param name="tag">aus_status</xsl:with-param>
                 <xsl:with-param name="value" select="'frei'"/>
-            </xsl:call-template>
-            <xsl:apply-templates select="./*|./*/*">
-                <xsl:sort select="index-of(('hrid'),name())" order="descending"/>
-            </xsl:apply-templates> 
+            </xsl:call-template>            
         </xsl:for-each>
         <xsl:for-each
             select="holdings/holding[(holdingsTypeId != '996f93e2-5b5e-4cf2-9168-33ced1f95eed') and not(xs:boolean(discoverySuppress))]">
@@ -1219,22 +1222,22 @@
         <xsl:variable name="result">
             <xsl:variable name="emulator">
                 <status name="Aged to lost"/>
-                <status name="Available">                            <b>UF</b><c>UF</c><d>UF</d><e>EM</e><i>IF</i><o>SX</o><s>SX</s><u>UF</u></status><!-- b,c,d ist in Mainz ausleihbar -->
+                <status name="Available">                            <b>UF</b><c>UF</c><d>UF</d><e>EM</e><i>IF</i><o>SX</o><s>SX</s><u>UF</u><y>YY</y></status><!-- b,c,d ist in Mainz ausleihbar -->
                 <status name="Awaiting delivery"/> <!-- wird in Mainz nicht benutzt -->
-                <status name="Awaiting pickup">                      <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u></status>
-                <status name="Checked out">                          <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u></status>
+                <status name="Awaiting pickup">                      <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u><y>YY</y></status>
+                <status name="Checked out">                          <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u><y>YY</y></status>
                 <status name="Claimed returned"/>
                 <status name="Declared lost"/>
-                <status name="In process">                           <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u></status>
+                <status name="In process">                           <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u><y>YY</y></status>
                 <status name="In process - not requestable"/>
-                <status name="Intellectual item">                    <b>UI</b><c>UI</c><d>UI</d><e>EM</e><i>II</i><o>SX</o><s>SX</s><u>UI</u></status>
-                <status name="In transit">                           <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u></status>
-                <status name="Long missing">                         <b>EM</b><c>EM</c><d>EM</d><e>EM</e><i>EM</i><o>SX</o><s>EM</s><u>EM</u></status>
+                <status name="Intellectual item">                    <b>UI</b><c>UI</c><d>UI</d><e>EM</e><i>II</i><o>SX</o><s>SX</s><u>UI</u><y>YY</y></status>
+                <status name="In transit">                           <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u><y>YY</y></status>
+                <status name="Long missing">                         <b>EM</b><c>EM</c><d>EM</d><e>EM</e><i>EM</i><o>SX</o><s>EM</s><u>EM</u><y>YY</y></status>
                 <status name="Lost and paid"/>
-                <status name="Missing">                              <b>EM</b><c>EM</c><d>EM</d><e>EM</e><i>EM</i><o>SX</o><s>EM</s><u>EM</u></status>                
-                <status name="On order">                    <a>XO</a><b>XO</b><c>XO</c><d>XO</d><e>XO</e><i>XO</i><o>SX</o><s>XO</s><u>XO</u></status><!-- Indikator a für Gießen ergänzt -->
+                <status name="Missing">                              <b>EM</b><c>EM</c><d>EM</d><e>EM</e><i>EM</i><o>SX</o><s>EM</s><u>EM</u><y>YY</y></status>                
+                <status name="On order">                    <a>XO</a><b>XO</b><c>XO</c><d>XO</d><e>XO</e><i>XO</i><o>SX</o><s>XO</s><u>XO</u><y>YY</y></status><!-- Indikator a für Gießen ergänzt -->
                 <status name="Order closed"/> <!-- Status kann in Hebis und GBV nicht erreicht werden -->
-                <status name="Paged">                                <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u></status>
+                <status name="Paged">                                <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u><y>YY</y></status>
                 <status name="Restricted"/>
                 <status name="Unavailable"/>
                 <status name="Unknown"/>
@@ -1242,11 +1245,11 @@
             </xsl:variable>
             <xsl:variable name="campusubgiessen">
                 <hinweis-u campus="Magazin">
-                    <h>https://magazin.link</h>
+                    <h>https://paia.link</h>
                     <t1 xml:lang="de">&lt;a href='https://magazin.stock'&gt;Magazin&lt;/a&gt;</t1>
                 </hinweis-u>
                 <hinweis-ui campus="Magazin">
-                    <h>https://freie-zs-best.link</h>
+                    <h>https://paia.link</h>
                     <t1 xml:lang="de">&lt;a href='https://magazin.stock'&gt;Magazin&lt;/a&gt;</t1>
                 </hinweis-ui>
                 <hinweis-s campus="Fachbibliotheken">
@@ -1294,8 +1297,8 @@
                 <!-- vermisst -->
                 <UV>
                     <i>u ausleihbar</i>
-                    <s>vormerkbar</s>
-                    <h>http://vormerk.link</h>
+                    <s>ausgeliehen</s>
+                    <h>https://paia.link</h>
                     <d>
                         <xsl:value-of
                             select="xs:dateTime((current()/../status/date, current-dateTime())[1]) + xs:dayTimeDuration('P28D')"
@@ -1306,7 +1309,7 @@
                 <IV>
                     <i>i Lesesaal</i>
                     <s>vormerkbar</s>
-                    <h>http://vormerk.link</h>
+                    <h>https://paia.link</h>
                     <t1 xml:lang="de">nur für den Lesesaal</t1>
                     <t1 xml:lang="en">reading room only</t1>
                 </IV>
@@ -1338,6 +1341,9 @@
                 <XX>
                     <i>g nicht_ausleihbar</i>
                 </XX>
+                <YY>
+                    <i>y unbekannt</i>
+                </YY>
                 <!-- XX=Default: Nicht verfügbar -->
             </xsl:variable>
             <xsl:copy-of
