@@ -163,7 +163,8 @@
         </e>
         <e>
             <c>ILN204/CG/Aufsatz/Aufsatzkatalogisate</c>
-            <n xml:lang="de">Aufsatzkatalogisate</n>
+            <n xml:lang="de">Standort / Signatur siehe Link weiter oben hinter "Erschienen in:"</n>
+            <ind>y</ind>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
         </e>
         <e>
@@ -1221,22 +1222,22 @@
         <xsl:variable name="result">
             <xsl:variable name="emulator">
                 <status name="Aged to lost"/>
-                <status name="Available">                            <b>UF</b><c>UF</c><d>UF</d><e>EM</e><i>IF</i><o>SX</o><s>SX</s><u>UF</u></status><!-- b,c,d ist in Mainz ausleihbar -->
+                <status name="Available">                            <b>UF</b><c>UF</c><d>UF</d><e>EM</e><i>IF</i><o>SX</o><s>SX</s><u>UF</u><y>YY</y></status><!-- b,c,d ist in Mainz ausleihbar -->
                 <status name="Awaiting delivery"/> <!-- wird in Mainz nicht benutzt -->
-                <status name="Awaiting pickup">                      <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u></status>
-                <status name="Checked out">                          <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u></status>
+                <status name="Awaiting pickup">                      <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u><y>YY</y></status>
+                <status name="Checked out">                          <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u><y>YY</y></status>
                 <status name="Claimed returned"/>
                 <status name="Declared lost"/>
-                <status name="In process">                           <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u></status>
+                <status name="In process">                           <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u><y>YY</y></status>
                 <status name="In process - not requestable"/>
-                <status name="Intellectual item">                    <b>UI</b><c>UI</c><d>UI</d><e>EM</e><i>II</i><o>SX</o><s>SX</s><u>UI</u></status>
-                <status name="In transit">                           <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u></status>
-                <status name="Long missing">                         <b>EM</b><c>EM</c><d>EM</d><e>EM</e><i>EM</i><o>SX</o><s>EM</s><u>EM</u></status>
+                <status name="Intellectual item">                    <b>UI</b><c>UI</c><d>UI</d><e>EM</e><i>II</i><o>SX</o><s>SX</s><u>UI</u><y>YY</y></status>
+                <status name="In transit">                           <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u><y>YY</y></status>
+                <status name="Long missing">                         <b>EM</b><c>EM</c><d>EM</d><e>EM</e><i>EM</i><o>SX</o><s>EM</s><u>EM</u><y>YY</y></status>
                 <status name="Lost and paid"/>
-                <status name="Missing">                              <b>EM</b><c>EM</c><d>EM</d><e>EM</e><i>EM</i><o>SX</o><s>EM</s><u>EM</u></status>                
-                <status name="On order">                    <a>XO</a><b>XO</b><c>XO</c><d>XO</d><e>XO</e><i>XO</i><o>SX</o><s>XO</s><u>XO</u></status><!-- Indikator a für Gießen ergänzt -->
+                <status name="Missing">                              <b>EM</b><c>EM</c><d>EM</d><e>EM</e><i>EM</i><o>SX</o><s>EM</s><u>EM</u><y>YY</y></status>                
+                <status name="On order">                    <a>XO</a><b>XO</b><c>XO</c><d>XO</d><e>XO</e><i>XO</i><o>SX</o><s>XO</s><u>XO</u><y>YY</y></status><!-- Indikator a für Gießen ergänzt -->
                 <status name="Order closed"/> <!-- Status kann in Hebis und GBV nicht erreicht werden -->
-                <status name="Paged">                                <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u></status>
+                <status name="Paged">                                <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u><y>YY</y></status>
                 <status name="Restricted"/>
                 <status name="Unavailable"/>
                 <status name="Unknown"/>
@@ -1340,6 +1341,9 @@
                 <XX>
                     <i>g nicht_ausleihbar</i>
                 </XX>
+                <YY>
+                    <i>y unbekannt</i>
+                </YY>
                 <!-- XX=Default: Nicht verfügbar -->
             </xsl:variable>
             <xsl:copy-of
