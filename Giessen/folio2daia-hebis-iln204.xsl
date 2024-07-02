@@ -1277,6 +1277,9 @@
                     <s>unbekannt</s>
                     <t1 xml:lang="de">nur für den Lesesaal</t1>
                     <t1 xml:lang="en">reading room only</t1>
+                    <xsl:copy-of
+                        select="$campusubgiessen/hinweis-u[@campus = $bbtabelle/e[c = current()/../effectiveLocation/code]/campus]/*"
+                    />
                 </IF>
                 <!-- nur für den Lesesaal bestellbar -->
                 <SX>
