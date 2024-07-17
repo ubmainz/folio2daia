@@ -282,7 +282,7 @@
                 <status name='Paged'>                        <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
                 <status name='Restricted'/>
                 <status name='Unavailable'/>
-                <status name='Unknown'/>
+                <status name='Unknown'>                                                                                       <y>YY</y></status>
                 <status name='Withdrawn'/>
             </xsl:variable>
             <xsl:variable name="campusubmainz">
@@ -312,6 +312,7 @@
                 <UI><i>u ausleihbar</i><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/campus]/*"/>
                     <h>https://libserv.ub.uni-mainz.de/request?hrid=<xsl:value-of select="../hrid"/></h></UI> <!-- Intellectual Item, lokaler link nur zum Testen -->
                 <II><i>i Lesesaal</i><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1><h>https://libserv.ub.uni-mainz.de/request?hrid=<xsl:value-of select="../hrid"/></h></II>
+                <YY><i>y unbekannt</i></YY> <!-- Aufsatz -->
                 <XX><i>g nicht_ausleihbar</i></XX> <!-- XX=Default: Nicht verfügbar -->
             </xsl:variable>
             <xsl:copy-of select="$cases/*[name()=($emulator/status[@name=current()/name]/*[name()=$ind],'XX')[1]]/*"/>
