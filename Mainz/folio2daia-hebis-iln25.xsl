@@ -98,7 +98,7 @@
         <e><c>25/999-085-FBAVFGA</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Institut für Altertumswissenschaften - Vor- und Frühgeschichtliche Archäologie</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102600341</url></e>
         <e><c>25/999-111-FBKUNST</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Kunsthochschule</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102600600</url></e>
         <e><c>25/999-124-FBGESANG</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Gesangbucharchiv</n></e>
-        <e><c>25/Aufsatz</c><ind>y unbekannt</ind><n xml:lang="de">Aufsatz, Ermittlung des Standorts unter "enthalten in"</n><map linktype="mapongo"/></e>
+        <e><c>25/Aufsatz</c><ind>y unbekannt</ind><n xml:lang="de">Aufsatz, Ermittlung des Standorts unter "veröffentlicht in"</n><map linktype="mapongo"/></e>
     </xsl:variable>
 
     <xsl:template name="selectlanguage">
