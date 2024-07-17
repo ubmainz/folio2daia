@@ -365,7 +365,7 @@
     </xsl:template>
     
      <xsl:template match="effectiveCallNumberComponents">
-        <xsl:if test="not(callNumber='/')">    
+         <xsl:if test="not((callNumber='/') or (callNumber=''))">    
              <xsl:call-template name="DAIA">
                 <xsl:with-param name="tag">sig</xsl:with-param>
                 <xsl:with-param name="value" select="string-join((prefix,callNumber),' ')"/>
