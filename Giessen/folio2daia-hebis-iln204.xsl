@@ -1354,31 +1354,10 @@
             />
         </xsl:variable>
         <xsl:if test="$result/s">
-            <xsl:choose>
-                <xsl:when test="../copyNumber">
-                    <!-- d.h. Mehrfachexemplar -->
-                    <xsl:call-template name="DAIA">
-                        <xsl:with-param name="tag">
-                            <xsl:text>aus_status</xsl:text>
-                        </xsl:with-param>
-                        <xsl:with-param name="value" select="'bandliste'"/>
-                    </xsl:call-template>
-                    <xsl:call-template name="DAIA">
-                        <xsl:with-param name="tag">
-                            <xsl:text>aus_bandstatus</xsl:text>
-                        </xsl:with-param>
-                        <xsl:with-param name="value" select="$result/s"/>
-                    </xsl:call-template>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:call-template name="DAIA">
-                        <xsl:with-param name="tag">
-                            <xsl:text>aus_status</xsl:text>
-                        </xsl:with-param>
-                        <xsl:with-param name="value" select="$result/s"/>
-                    </xsl:call-template>
-                </xsl:otherwise>
-            </xsl:choose>
+            <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag"><xsl:text>aus_status</xsl:text></xsl:with-param>
+                <xsl:with-param name="value" select="$result/s"/>
+            </xsl:call-template>
         </xsl:if>
         <xsl:if test="$result/i">
             <xsl:call-template name="DAIA">
