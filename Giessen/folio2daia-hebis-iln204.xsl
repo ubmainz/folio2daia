@@ -1277,6 +1277,9 @@
                     <s>unbekannt</s>
                     <t1 xml:lang="de">nur für den Lesesaal</t1>
                     <t1 xml:lang="en">reading room only</t1>
+                    <xsl:copy-of
+                        select="$campusubgiessen/hinweis-u[@campus = $bbtabelle/e[c = current()/../effectiveLocation/code]/campus]/*"
+                    />
                 </IF>
                 <!-- nur für den Lesesaal bestellbar -->
                 <SX>
@@ -1351,31 +1354,10 @@
             />
         </xsl:variable>
         <xsl:if test="$result/s">
-            <xsl:choose>
-                <xsl:when test="../copyNumber">
-                    <!-- d.h. Mehrfachexemplar -->
-                    <xsl:call-template name="DAIA">
-                        <xsl:with-param name="tag">
-                            <xsl:text>aus_status</xsl:text>
-                        </xsl:with-param>
-                        <xsl:with-param name="value" select="'bandliste'"/>
-                    </xsl:call-template>
-                    <xsl:call-template name="DAIA">
-                        <xsl:with-param name="tag">
-                            <xsl:text>aus_bandstatus</xsl:text>
-                        </xsl:with-param>
-                        <xsl:with-param name="value" select="$result/s"/>
-                    </xsl:call-template>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:call-template name="DAIA">
-                        <xsl:with-param name="tag">
-                            <xsl:text>aus_status</xsl:text>
-                        </xsl:with-param>
-                        <xsl:with-param name="value" select="$result/s"/>
-                    </xsl:call-template>
-                </xsl:otherwise>
-            </xsl:choose>
+            <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag"><xsl:text>aus_status</xsl:text></xsl:with-param>
+                <xsl:with-param name="value" select="$result/s"/>
+            </xsl:call-template>
         </xsl:if>
         <xsl:if test="$result/i">
             <xsl:call-template name="DAIA">
@@ -1422,10 +1404,12 @@
     </xsl:template>
 
     <xsl:template match="effectiveCallNumberComponents">
-        <xsl:call-template name="DAIA">
-            <xsl:with-param name="tag">sig</xsl:with-param>
-            <xsl:with-param name="value" select="string-join((prefix, callNumber), ' ')"/>
-        </xsl:call-template>
+        <xsl:if test="not((callNumber='/') or (callNumber=''))">
+            <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag">sig</xsl:with-param>
+                <xsl:with-param name="value" select="string-join((prefix, callNumber), ' ')"/>
+            </xsl:call-template>
+        </xsl:if>
     </xsl:template>
 
     <xsl:template name="mapongo">
