@@ -1284,6 +1284,7 @@
                 <!-- nur für den Lesesaal bestellbar -->
                 <SX>
                     <i>s Praesenzbestand</i>
+                    <s>unbekannt</s>
                     <t1 xml:lang="de">vor Ort benutzbar</t1>
                     <t1 xml:lang="en">not available for loan</t1>
                     <xsl:copy-of
@@ -1343,6 +1344,7 @@
                 <!-- Fallbehandlung Fachbibliotheken, ind = o -->
                 <XX>
                     <i>g nicht_ausleihbar</i>
+                    <s>unbekannt</s>
                 </XX>
                 <YY>
                     <i>y unbekannt</i>
