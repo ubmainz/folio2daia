@@ -51,8 +51,8 @@
         <e><c>25/004-086-PHALG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Alte Geschichte</n><map linktype="mapongo"/></e>
         <e><c>25/004-087-PHBYZ</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Byzantinistik</n><map linktype="mapongo"/></e>
         <e><c>25/004-088-PHMNG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Mittlere und neuere Geschichte</n><map linktype="mapongo"/></e>
-            <e><c>25/004-090-PHBUW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Buchwissenschaft</n><map linktype="mapongo"/></e>
-            <e><c>25/004-092-PHOEG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Osteuropäische Geschichte</n><map linktype="mapongo"/></e>
+        <e><c>25/004-090-PHBUW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Buchwissenschaft</n><map linktype="mapongo"/></e>
+        <e><c>25/004-092-PHOEG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Osteuropäische Geschichte</n><map linktype="mapongo"/></e>
         <e><c>25/004-120-PHTHW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Theaterwissenschaft / Medienkulturwissenschaft / Alltagsmedien</n><map linktype="mapongo"/></e>
         <e><c>25/004-127-PHMAG</c><n xml:lang="de">BB Philosophicum, Magazin</n></e>
         <e><c>25/005-005-10-UMFH</c><campus>cm</campus><n xml:lang="de">BB Universitätsmedizin, Freihand</n><map linktype="mapongo"/></e>
@@ -98,6 +98,7 @@
         <e><c>25/999-085-FBAVFGA</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Institut für Altertumswissenschaften - Vor- und Frühgeschichtliche Archäologie</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102600341</url></e>
         <e><c>25/999-111-FBKUNST</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Kunsthochschule</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102600600</url></e>
         <e><c>25/999-124-FBGESANG</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Gesangbucharchiv</n></e>
+        <e><c>25/Aufsatz</c><ind>y unbekannt</ind><n xml:lang="de">Aufsatz, Ermittlung des Standorts unter "veröffentlicht in"</n></e>
     </xsl:variable>
 
     <xsl:template name="selectlanguage">
@@ -281,11 +282,11 @@
                 <status name='Paged'>                        <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
                 <status name='Restricted'/>
                 <status name='Unavailable'/>
-                <status name='Unknown'/>
+                <status name='Unknown'>                                                                                       <y>YY</y></status>
                 <status name='Withdrawn'/>
             </xsl:variable>
             <xsl:variable name="campusubmainz">
-                <hinweis-u campus="cg"><t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Germersheim: ohne Bestellung am Reschal holen&lt;/font&gt;&lt;/b&gt;</t2><t3 xml:lang="de">Mainz: bestellen</t3></hinweis-u> <!-- Z.B. Englisch: <t xml:lang="en">Germersheim: ...</t> -->
+                <hinweis-u campus="cg"><t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Germersheim: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;</t2><t3 xml:lang="de">Mainz: bestellen</t3></hinweis-u> <!-- Z.B. Englisch: <t xml:lang="en">Germersheim: ...</t> -->
                 <hinweis-u campus="cm"><t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Mainz: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;</t2><t3 xml:lang="de">Germersheim: bestellen</t3></hinweis-u>
                 <hinweis-u campus="cz"><t2 xml:lang="de">Germersheim: bestellen</t2><t3 xml:lang="de">Universitätsmedizin: bestellen</t3><t4 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Alle anderen: selbst am Regal holen&lt;/font&gt;&lt;/b&gt;</t4></hinweis-u>
                 <hinweis-s campus="cg"><t2 xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Mainz möglich, bitte wenden Sie sich an die Information</t2></hinweis-s>
@@ -311,29 +312,16 @@
                 <UI><i>u ausleihbar</i><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/campus]/*"/>
                     <h>https://libserv.ub.uni-mainz.de/request?hrid=<xsl:value-of select="../hrid"/></h></UI> <!-- Intellectual Item, lokaler link nur zum Testen -->
                 <II><i>i Lesesaal</i><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1><h>https://libserv.ub.uni-mainz.de/request?hrid=<xsl:value-of select="../hrid"/></h></II>
+                <YY><i>y unbekannt</i></YY> <!-- Aufsatz -->
                 <XX><i>g nicht_ausleihbar</i></XX> <!-- XX=Default: Nicht verfügbar -->
             </xsl:variable>
             <xsl:copy-of select="$cases/*[name()=($emulator/status[@name=current()/name]/*[name()=$ind],'XX')[1]]/*"/>
         </xsl:variable>
         <xsl:if test="$result/s">
-            <xsl:choose>
-                <xsl:when test="../copyNumber">  <!-- d.h. Mehrfachexemplar -->
-                    <xsl:call-template name="DAIA">
-                        <xsl:with-param name="tag"><xsl:text>aus_status</xsl:text></xsl:with-param>
-                        <xsl:with-param name="value" select="'bandliste'"/>
-                    </xsl:call-template>
-                    <xsl:call-template name="DAIA">
-                        <xsl:with-param name="tag"><xsl:text>aus_bandstatus</xsl:text></xsl:with-param>
-                        <xsl:with-param name="value" select="$result/s"/>
-                    </xsl:call-template>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:call-template name="DAIA">
-                        <xsl:with-param name="tag"><xsl:text>aus_status</xsl:text></xsl:with-param>
-                        <xsl:with-param name="value" select="$result/s"/>
-                    </xsl:call-template>
-                </xsl:otherwise>
-            </xsl:choose>
+            <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag"><xsl:text>aus_status</xsl:text></xsl:with-param>
+                <xsl:with-param name="value" select="$result/s"/>
+            </xsl:call-template>
         </xsl:if>
         <xsl:if test="$result/i">
             <xsl:call-template name="DAIA">
@@ -377,10 +365,12 @@
     </xsl:template>
     
      <xsl:template match="effectiveCallNumberComponents">
-        <xsl:call-template name="DAIA">
-            <xsl:with-param name="tag">sig</xsl:with-param>
-            <xsl:with-param name="value" select="string-join((prefix,callNumber),' ')"/>
-        </xsl:call-template>
+         <xsl:if test="not((callNumber='/') or (callNumber=''))">    
+             <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag">sig</xsl:with-param>
+                <xsl:with-param name="value" select="string-join((prefix,callNumber),' ')"/>
+            </xsl:call-template>
+         </xsl:if>    
     </xsl:template>
  
     <xsl:template name="mapongo"> <!-- item -->
