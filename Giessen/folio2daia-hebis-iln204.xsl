@@ -17,124 +17,124 @@
     <xsl:variable name="bbtabelle">
         <e>
             <c>ILN204/CG/DezFB/WiWi-BWL05</c>
-            <n xml:lang="de">WiWi / BWL 05</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">WiWi/BWL 5; Licher Str. 74</n>
+            <url>http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=025</url>
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Psychiat-Neurol</c>
-            <n xml:lang="de">Bibliothek Psychiatrie und Neurologie</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Bibl. Psychiatr. / Neurol.; Klinikstr. 36 </n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=259</url>
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
             <c>ILN204/CG/DezFB/ÖkologischerLandbau</c>
-            <n xml:lang="de">Professur f&#xfc;r Ökologischen Landbau</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Prof. f. Ökolog. Landbau, Schwerp. Nachw. Bodennutzung; Phil. II C, Zi. 116b</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=372</url>
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Milchwissenschaften</c>
-            <n xml:lang="de">Bibliothek Milchwissenschaften</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Bibl. Milchwissenschaften; Ludwigstr. 21, EG</n>
+            <url>http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=172</url>
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
             <c>ILN204/CG/UB/UBSemapp</c>
-            <n xml:lang="de">Semesterapparate UB</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Universitätsbibliothek (UB), Otto-Behaghel-Str. 8</n>
+            <url>http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000</url>
             <map linktype="semapp"/>
         </e>
         <e>
             <c>ILN204/CG/DezFB/WiWi-VWL05</c>
-            <n xml:lang="de">WiWi / VWL 05</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Wiwi/VWL 5; Licher Str. 66</n>
+            <url>http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=335</url>
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
             <c>ILN204/CG/ZNL/Magazin</c>
-            <n xml:lang="de">ZNL Magazin</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">ZwBibl. Natur- u. Lebenswiss. (ZNL); Heinrich-Buff-Ring 58, 5. OG</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=002</url>
             <campus>Magazin</campus>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Genetik</c>
-            <n xml:lang="de">Bibliothek Genetik</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Bibl. Genetik; Heinrich-Buff-Ring 58, 3. OG</n>
+            <url>http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=157</url>
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Klinik-Wiederkäuer</c>
-            <n xml:lang="de">Bibliothek Klinik Wiederk&#xe4;uer</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Bibl. Klinik Wiederkaeuer; Frankfurter Str. 110, 1. OG</n>
+            <url>http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=186</url>
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
             <c>ILN204/CG/ZNL/Handapparate</c>
-            <n xml:lang="de">ZNL Handapparate</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">ZwBibl. Natur- u. Lebenswiss. (ZNL); Heinrich-Buff-Ring 58, 5. OG</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=002</url>
         </e>
         <e>
             <c>ILN204/CG/DezFB/FB-Mathe-Informatik</c>
-            <n xml:lang="de">Fachbibliothek Mathematik / Informatik</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Bibl. Mathematik; Arndtstr. 2 </n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=120</url>
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
             <c>ILN204/CG/DezFB/WiWi-BWL09</c>
-            <n xml:lang="de">WiWi / BWL 09</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Wiwi/BWL 9; Licher Str. 70</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=342</url>
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
             <c>ILN204/CG/ZRW/Unbekannt</c>
-            <n xml:lang="de">Standort Unbekannt ZRW</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">ZwBibl. Recht und Wirtschaft, Licher Str. 68</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=010</url>
         </e>
         <e>
             <c>ILN204/E/E/Datenbanken</c>
-            <n xml:lang="de">Datenbanken</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Bibliothekssystem Gießen: Datenbanken</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=993</url>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Tierhygiene</c>
-            <n xml:lang="de">Bibliothek Hygiene der Tiere</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Bibl. Hygiene d. Tiere; Frankfurter Str. 89-91, 1. OG</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=179</url>
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
             <c>ILN204/CG/ZP2/Unbekannt</c>
-            <n xml:lang="de">Standort Unbekannt ZP2</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">ZwBibl. im Phil. II F; Erdgeschoss</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=009</url>
         </e>
         <e>
             <c>ILN204/CG/DezFB/LW-Inklusion-ZfL</c>
-            <n xml:lang="de">Lernwerkstatt Inklusion / Zentrum f&#xfc;r Lehrerbildung</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Lernwerkstatt Inklusion / Zentrum für Lehrerbildung </n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=374</url>
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
             <c>ILN204/CG/ZHB/Magazin</c>
-            <n xml:lang="de">Magazin Zeughaus</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Zeughausbibl.; Senckenbergstr. 3, Erdgeschoss</n>
+            <url>http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=005</url>
             <campus>Magazin</campus>
         </e>
         <e>
             <c>ILN204/CG/UB/Freihand2OG</c>
-            <n xml:lang="de">Freihandbestand UB (2.Stock)</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Universitätsbibliothek (UB), Otto-Behaghel-Str. 8</n>
+            <url>http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000</url>
             <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Hermann-Hoffmann-Akademie</c>
-            <n xml:lang="de">Bibliothek Hermann-Hoffmann-Akademie</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Bibl. Hermann-Hoffmann-Akademie; Senckenbergstr. 17 u. 25, 1. OG</n>
+            <url>http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=151</url>
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
             <c>ILN204/CG/ZP2/Handapparate</c>
-            <n xml:lang="de">ZP2 Handapparate</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">ZwBibl. im Phil. II F; Erdgeschoss</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=009</url>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Fachbibliotheken</c>
@@ -143,61 +143,61 @@
         </e>
         <e>
             <c>ILN204/CG/DezFB/WiWi-VWL01</c>
-            <n xml:lang="de">WiWi / VWL 01</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Wiwi/VWL 1; Licher Str. 62</n>
+            <url>http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=331</url>
         </e>
         <e>
             <c>ILN204/CG/DezFB/FB-Klass-Philologie</c>
-            <n xml:lang="de">Fachbibliothek Klassische Philologie</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Bibl. Klass. Philologie; Phil. I G, 1. OG</n>
+            <url>http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=111</url>
         </e>
         <e>
             <c>ILN204/E/E/E-Journals</c>
-            <n xml:lang="de">E-Journals</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Elektronische Zeitschriftenbibliothek der Universität Gießen</n>
+            <url>http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=992</url>
         </e>
         <e>
             <c>ILN204/CG/DezFB/WiWi-VWL04</c>
-            <n xml:lang="de">WiWi / VWL 04</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Wiwi/VWL 4; Licher Str. 62</n>
+            <url>http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=345</url>
         </e>
         <e>
             <c>ILN204/CG/Aufsatz/Aufsatzkatalogisate</c>
             <n xml:lang="de">Standort / Signatur siehe Link weiter oben hinter "Erschienen in:"</n>
             <ind>y</ind>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <url>http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=950</url>
         </e>
         <e>
             <c>ILN204/CG/DezFB/WiWi-VWL02</c>
-            <n xml:lang="de">WiWi / VWL 02</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Wiwi/VWL 2; Licher Str. 74</n>
+            <url>http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=332</url>
         </e>
         <e>
             <c>ILN204/CG/DezFB/SlavistikMediathek</c>
-            <n xml:lang="de">Slavistik / Mediathek</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Slavistik / Mediathek; Phil. I D, R. 504</n>
+            <url>http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=116</url>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Ländliches-Genossenschaftswesen</c>
-            <n xml:lang="de">Bibliothek L&#xe4;ndliches Genossenschaftswesen</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Bibl. Ländl. Genossensch.; Senckenbergstr. 3, 2. OG</n>
+            <url>http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=209</url>
         </e>
         <e>
             <c>ILN204/CG/UB/UBMagPhil1</c>
-            <n xml:lang="de">Magazin UB (Phil 1)</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Universitätsbibliothek (UB), Otto-Behaghel-Str. 8</n>
+            <url>http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000</url>
             <campus>Magazin</campus>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Hygiene-Umweltmedizin</c>
-            <n xml:lang="de">Bibliothek Hygiene und Umweltmedizin</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Bibl. Hygiene u. Umweltmedizin; Friedrichstr. 16, 2. OG</n>
+            <url>http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=237</url>
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
             <c>ILN204/CG/UB/UBMagKeller</c>
-            <n xml:lang="de">Magazin UB (Keller)</n>
-            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
+            <n xml:lang="de">Universitätsbibliothek (UB), Otto-Behaghel-Str. 8</n>
+            <url>http://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000</url>
             <campus>Magazin</campus>
         </e>
         <e>
