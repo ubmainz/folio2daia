@@ -277,7 +277,7 @@
                 <status name='Long missing'>                 <b>EM</b><c>EM</c><d>EM</d><e>EM</e><i>EM</i><s>EM</s><u>EM</u> </status>
                 <status name='Lost and paid'/>    
                 <status name='Missing'>                      <b>EM</b><c>EM</c><d>EM</d><e>EM</e><i>EM</i><s>EM</s><u>EM</u> </status>
-                <status name='On order'>                     <b>XO</b><c>XO</c><d>XO</d><e>XO</e><i>XO</i><s>XO</s><u>XO</u> </status>
+                <status name='On order'>            <a>XO</a><b>XO</b><c>XO</c><d>XO</d>         <i>XO</i>         <u>XO</u> </status>
                 <status name='Order closed'/> <!-- Status kann in Hebis und GBV nicht erreicht werden -->                  
                 <status name='Paged'>                        <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
                 <status name='Restricted'/>
@@ -308,7 +308,7 @@
                 <UV><i>u ausleihbar</i><s>vormerkbar</s><h>https://paia.link</h><d><xsl:value-of select="xs:dateTime((current()/../status/date,current-dateTime())[1])+xs:dayTimeDuration('P28D')"/></d></UV> <!-- vormerkbar -->
                 <IV><i>i Lesesaal</i><s>vormerkbar</s><h>https://paia.link</h><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1></IV> <!-- nur für den Lesesaal vormerkbar -->
                 <CN><i>c Lehrbuchsammlung</i><s>nicht vormerkbar</s></CN> <!-- Präsenzbestand -->
-                <XO><i>a</i><s>gesperrt</s></XO> <!--  -->
+                <XO><i>a bestellt</i><s>gesperrt</s><h>https://paia.link</h></XO> <!-- Bestellt -->
                 <UI><i>u ausleihbar</i><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/campus]/*"/>
                     <h>https://libserv.ub.uni-mainz.de/request?hrid=<xsl:value-of select="../hrid"/></h></UI> <!-- Intellectual Item, lokaler link nur zum Testen -->
                 <II><i>i Lesesaal</i><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1><h>https://libserv.ub.uni-mainz.de/request?hrid=<xsl:value-of select="../hrid"/></h></II>

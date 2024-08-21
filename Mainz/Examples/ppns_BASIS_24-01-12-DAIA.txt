@@ -1468,7 +1468,9 @@ DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=
 
 DAIAinfo epn 1084099152-1084099152-1 ofniAIAD
 DAIAinfo sig bestellt BB Philosophicum ofniAIAD
-DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo aus_status gesperrt ofniAIAD
+DAIAinfo aus_ind a bestellt ofniAIAD
+DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-087-PHBYZ ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Byzantinistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
