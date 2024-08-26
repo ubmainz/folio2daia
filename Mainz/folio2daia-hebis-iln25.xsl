@@ -36,7 +36,7 @@
         <e><c>25/002-113-GFGSPO</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Sportwissenschaften</n><map linktype="mapongo"/></e>
         <e><c>25/002-126-GFGUSA</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, USA-Bibliothek</n><map linktype="mapongo"/></e>
         <e><c>25/004-004-PHRVK</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, RVK-Aufstellung</n><map linktype="mapongo"/></e>
-        <e><c>25/004-004-PH-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Philosophicum, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/?p=1&amp;b=2&amp;f=3&amp;c=23811&amp;l=23808,23809"/></e>
+        <e><c>25/004-004-10-PH-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Philosophicum, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/?p=1&amp;b=2&amp;f=3&amp;c=23811&amp;l=23808,23809"/></e>
         <e><c>25/004-058-PHPHI</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Philosophie</n><map linktype="mapongo"/></e>
         <e><c>25/004-070-PHGER</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Germanistik I / Kulturanthropologie und Germanistik II</n><map linktype="mapongo"/></e>
         <e><c>25/004-071-PHAVL</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Allgemeine und Vergleichende Literaturwissenschaft</n><map linktype="mapongo"/></e>
