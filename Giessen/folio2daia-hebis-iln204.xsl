@@ -121,9 +121,9 @@
         </e>
         <e>
             <c>ILN204/CG/UB/Freihand2OG</c>
-            <n xml:lang="de">Freihandbestand UB (2.Stock)</n>
+            <n xml:lang="de">Universitätsbibliothek (UB), Otto-Behaghel-Str. 8</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
-            <map linktype="bibmap"/>
+            <map linktype="mapongo"/>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Hermann-Hoffmann-Akademie</c>
@@ -232,9 +232,9 @@
         </e>
         <e>
             <c>ILN204/CG/UB/Freihand1OG</c>
-            <n xml:lang="de">Freihandbestand UB (1.Stock)</n>
+            <n xml:lang="de">Universitätsbibliothek (UB), Otto-Behaghel-Str. 8</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/1</url>
-            <map linktype="bibmap"/>
+            <map linktype="mapongo"/>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Anatomie</c>
@@ -1418,53 +1418,40 @@
         <!-- item -->
         <xsl:variable name="locationtext">
             <!-- Mapongo-Link -->
-            <t xml:lang="de">Standort zeigen</t>
-            <t xml:lang="en">show location</t>
+            <t xml:lang="de">Standort in der Bibliothek anzeigen</t>
+            <t xml:lang="en">Show location</t>
         </xsl:variable>
         <xsl:variable name="mapongopar">
             <xsl:text>s=</xsl:text>
             <xsl:value-of
                 select="encode-for-uri(string-join((effectiveCallNumberComponents/prefix, effectiveCallNumberComponents/callNumber), ' '))"/>
-            <xsl:if
-                test="../../notes[holdingsNoteTypeId = '013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note">
-                <xsl:text>&amp;c1=</xsl:text>
-                <!-- c1: "8201" -->
-                <xsl:value-of
-                    select="encode-for-uri(../../notes[holdingsNoteTypeId = '013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note)"
-                />
-            </xsl:if>
-            <xsl:text>&amp;c2=</xsl:text>
-            <!-- c2:location -->
-            <xsl:value-of select="encode-for-uri(effectiveLocation/discoveryDisplayName)"/>
-            <xsl:if
-                test="../../notes[holdingsNoteTypeId = '013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note">
-                <xsl:text>&amp;c2=</xsl:text>
-                <!-- c2: "8201" -->
-                <xsl:value-of
-                    select="encode-for-uri(../../notes[holdingsNoteTypeId = '013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note)"
-                />
-            </xsl:if>
         </xsl:variable>
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">standort</xsl:with-param>
             <xsl:with-param name="value">
-                <xsl:text>&lt;a target=&quot;_blank&quot; href=&quot;https://ub-mainz.mapongo.de/viewer?p=1&amp;</xsl:text>
+                <xsl:text>&lt;a target=&quot;_blank&quot; href=&quot;https://ub-giessen.mapongo.de/viewer?p=1&amp;</xsl:text>
                 <xsl:value-of select="$mapongopar"/>
                 <xsl:text>&quot;&gt;</xsl:text>
+                <xsl:text>&lt;img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="</xsl:text>
                 <xsl:call-template name="selectlanguage">
                     <xsl:with-param name="fields" select="$locationtext/t"/>
                 </xsl:call-template>
-                <xsl:text>&lt;/a&gt;</xsl:text>
-                <xsl:text>&lt;img width=&quot;130&quot; height=&quot;130&quot; src=&quot;https://ub-mainz.mapongo.de/static_images/projects/1/search_qrcode.png?</xsl:text>
+                <xsl:text>" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/&gt;&lt;b&gt;</xsl:text>                
+                <xsl:call-template name="selectlanguage">
+                    <xsl:with-param name="fields" select="$locationtext/t"/>
+                </xsl:call-template>
+                <xsl:text>&lt;/b&gt;&lt;/a&gt;</xsl:text>
+                <!-- QR-Code -->
+                <!-- <xsl:text>&lt;img width=&quot;130&quot; height=&quot;130&quot; src=&quot;https://ub-giessen.mapongo.de/static_images/projects/1/search_qrcode.png?</xsl:text>
                 <xsl:value-of select="$mapongopar"/>
-                <xsl:text>&quot;&gt;</xsl:text>
-            </xsl:with-param>
+                <xsl:text>&quot;&gt;</xsl:text> -->
+               </xsl:with-param>
         </xsl:call-template>
     </xsl:template>
 
     <xsl:template name="bibmap">
         <xsl:variable name="locationtext">
-            <!-- Mapongo-Link -->
+            <!-- Bibmap-Link -->
             <t xml:lang="de">Standort in der Bibliothek anzeigen</t>
             <t xml:lang="en">show location</t>
         </xsl:variable>
