@@ -365,6 +365,12 @@
             <campus>Magazin</campus>
         </e>
         <e>
+            <c>ILN204/CG/UB/UBMagZNL</c>
+            <n xml:lang="de">Universitätsbibliothek (UB), Otto-Behaghel-Str. 8</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000</url>
+            <campus>Magazin</campus>
+        </e>
+        <e>
             <c>ILN204/CG/DezFB/WiWi-Statistik-Oekonometrie</c>
             <n xml:lang="de">Wiwi/ Statistik &amp; Oekonometrie; Licher Str. 64</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=341</url>
