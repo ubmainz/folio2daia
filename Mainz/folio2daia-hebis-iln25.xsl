@@ -310,8 +310,8 @@
                 <CN><i>c Lehrbuchsammlung</i><s>nicht vormerkbar</s></CN> <!-- Präsenzbestand -->
                 <XO><i>a bestellt</i><s>gesperrt</s><h>https://paia.link</h></XO> <!-- Bestellt -->
                 <UI><i>u ausleihbar</i><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/campus]/*"/>
-                    <h>https://libserv.ub.uni-mainz.de/request?hrid=<xsl:value-of select="../hrid"/></h></UI> <!-- Intellectual Item, lokaler link nur zum Testen -->
-                <II><i>i Lesesaal</i><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1><h>https://libserv.ub.uni-mainz.de/request?hrid=<xsl:value-of select="../hrid"/></h></II>
+                    <h>https://libserv.ub.uni-mainz.de/request?hrid=<xsl:value-of select="../hrid"/>&amp;lng=<xsl:value-of select="$language"/></h></UI> <!-- Intellectual Item -->
+                <II><i>i Lesesaal</i><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1><h>https://libserv.ub.uni-mainz.de/request?hrid=<xsl:value-of select="../hrid"/>&amp;lng=<xsl:value-of select="$language"/></h></II>
                 <YY><i>y unbekannt</i></YY> <!-- Aufsatz -->
                 <XX><i>g nicht_ausleihbar</i></XX> <!-- XX=Default: Nicht verfügbar -->
             </xsl:variable>
