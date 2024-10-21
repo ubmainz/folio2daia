@@ -17,7 +17,7 @@
     <xsl:variable name="bbtabelle">
         <e><c>25/000-000-10-ZBFREI</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Bücherturm</n><n xml:lang="en">Central Library, Book Tower</n><map linktype="mapongo"/></e>  
         <e><c>25/000-000-12-ZBLBS</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Lehrbuchsammlung</n><map linktype="mapongo"/></e>
-        <e><c>25/000-000-14-ZBLS</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek,Lesesaal</n><map linktype="mapongo"/></e>
+        <e><c>25/000-000-14-ZBLS</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Lesesaal</n><map linktype="mapongo"/></e>
         <e><c>25/000-000-16-ZBMAG</c><n xml:lang="de">Zentralbibliothek, Magazin</n></e>
         <e><c>25/000-000-18-ZBRARA</c><n xml:lang="de">Zentralbibliothek, Rara</n></e>
         <e><c>25/000-000-20-ZB-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">Zentralbibliothek, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/></e>
@@ -40,8 +40,8 @@
         <e><c>25/004-058-PHPHI</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Philosophie</n><map linktype="mapongo"/></e>
         <e><c>25/004-070-PHGER</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Germanistik I / Kulturanthropologie und Germanistik II</n><map linktype="mapongo"/></e>
         <e><c>25/004-071-PHAVL</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Allgemeine und Vergleichende Literaturwissenschaft</n><map linktype="mapongo"/></e>
-        <e><c>25/004-072-PHANG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Anglistik/Amerikanistik</n><map linktype="mapongo"/></e>
-        <e><c>25/004-073-PHAVS</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Allgemeine und Vergleichende Spachwissenschaft</n><map linktype="mapongo"/></e>
+        <e><c>25/004-072-PHANG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Anglistik / Amerikanistik</n><map linktype="mapongo"/></e>
+        <e><c>25/004-073-PHAVS</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Allgemeine und Vergleichende Sprachwissenschaft</n><map linktype="mapongo"/></e>
         <e><c>25/004-074-PHROM</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Romanistik</n><map linktype="mapongo"/></e>
         <e><c>25/004-075-PHSLAV</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Slavistik</n><map linktype="mapongo"/></e>
         <e><c>25/004-076-PHPOL</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Polonicum</n><map linktype="mapongo"/></e>
@@ -50,10 +50,10 @@
         <e><c>25/004-083-PHKLW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Historische Kulturwissenschaften</n><map linktype="mapongo"/></e>
         <e><c>25/004-086-PHALG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Alte Geschichte</n><map linktype="mapongo"/></e>
         <e><c>25/004-087-PHBYZ</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Byzantinistik</n><map linktype="mapongo"/></e>
-        <e><c>25/004-088-PHMNG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Mittlere und neuere Geschichte</n><map linktype="mapongo"/></e>
+        <e><c>25/004-088-PHMNG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Mittlere und Neuere Geschichte</n><map linktype="mapongo"/></e>
         <e><c>25/004-090-PHBUW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Buchwissenschaft</n><map linktype="mapongo"/></e>
         <e><c>25/004-092-PHOEG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Osteuropäische Geschichte</n><map linktype="mapongo"/></e>
-        <e><c>25/004-120-PHTHW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Theaterwissenschaft / Medienkulturwissenschaft / Alltagsmedien</n><map linktype="mapongo"/></e>
+        <e><c>25/004-120-PHTHW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Theaterwissenschaft</n><map linktype="mapongo"/></e>
         <e><c>25/004-127-PHMAG</c><n xml:lang="de">BB Philosophicum, Magazin</n></e>
         <e><c>25/005-005-10-UMFH</c><campus>cm</campus><n xml:lang="de">BB Universitätsmedizin, Freihand</n><map linktype="mapongo"/></e>
         <e><c>25/005-005-12-UMLBS</c><campus>cm</campus><n xml:lang="de">BB Universitätsmedizin, Lehrbuchsammlung</n><map linktype="mapongo"/></e>
@@ -70,7 +70,7 @@
         <e><c>25/016-016-14-THRARA</c><n xml:lang="de">BB Theologie, Magazin</n></e>
         <e><c>25/016-016-16-THPSYCH</c><n xml:lang="de">BB Theologie, Handapparat Psychologie</n></e>
         <e><c>25/016-016-18-THFAK</c><n xml:lang="de">BB Theologie, Handapparate Fachbereich</n></e>
-        <e><c>25/018-018-10-RW</c><ind>s Praesenzbestand</ind><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Freihand</n><map linktype="mapongo"/></e>
+        <e><c>25/018-018-10-RW</c><ind>s Praesenzbestand</ind><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Lesesaal</n><map linktype="mapongo"/></e>
         <e><c>25/018-018-12-RWLBS</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Lernzentrum</n><map linktype="mapongo"/></e>
         <e><c>25/018-018-14-RWMAG</c><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Magazin</n></e>
         <e><c>25/018-018-16-RW-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Semesterapparate</n><map url=""/></e>
@@ -83,9 +83,9 @@
         <e><c>25/019-019-20-GHFAK</c><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Handapparate</n></e>
         <e><c>25/019-019-22-GHZEB</c><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Zur Erwerbung bestellt</n></e>
         <e><c>25/019-019-24-GH-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/></e>
-        <e><c>25/066-066-10-RWETH</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften / Ethnologie und Afrikastudien</n><map linktype="mapongo"/></e>
+        <e><c>25/066-066-10-RWETH</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Ethnologie und Afrikastudien</n><map linktype="mapongo"/></e>
         <e><c>25/066-066-12-RWAMA</c><n xml:lang="de">Zentralbibliothek, AMA - African Music Archives</n></e>
-        <e><c>25/080-080-RWTURK</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften / Turkologie</n><map linktype="mapongo"/></e>
+        <e><c>25/080-080-RWTURK</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Turkologie</n><map linktype="mapongo"/></e>
         <e><c>25/091-091-10-PHMUW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Musikwissenschaft, Freihand</n><map linktype="mapongo"/></e>
         <e><c>25/091-091-12-PHMUWMAG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Musikwissenschaft, Magazin</n></e>
         <e><c>25/112-112-10-PHHFMFREI</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Hochschule für Musik, Freihand</n><map linktype="mapongo"/></e>
