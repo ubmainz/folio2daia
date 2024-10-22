@@ -503,7 +503,7 @@
             <c>ILN204/CG/UB/UBMagPohlheim</c>
             <n xml:lang="de">Universitätsbibliothek (UB), Otto-Behaghel-Str. 8</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000</url>
-            <campus>Fachbibliotheken</campus>
+            <campus>Magazin</campus>
         </e>
         <e>
             <c>ILN204/CG/DezFB/WiWi-BWL10</c>
