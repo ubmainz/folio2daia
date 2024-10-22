@@ -81,6 +81,11 @@
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
+            <c>ILN204/CG/DezFB/FB-Mathe-Informatik-HAP</c>
+            <n xml:lang="de">Bibl. Mathematik; Arndtstr. 2 </n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=120</url>
+        </e>
+        <e>
             <c>ILN204/CG/DezFB/WiWi-BWL09</c>
             <n xml:lang="de">Wiwi/BWL 9; Licher Str. 70</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=342</url>
@@ -383,6 +388,11 @@
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
+            <c>ILN204/CG/DezFB/FB-Germanistik-HAP</c>
+            <n xml:lang="de">Bibl. Germanistik; Phil. I B, 2. OG</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=090</url>
+        </e>
+        <e>
             <c>ILN204/CG/DezFB/DidWerkSpr</c>
             <n xml:lang="de">Didaktische Werkstatt Sprachen, Otto-Behaghel-Str. 10B, Raum 230</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=376</url>
@@ -474,6 +484,12 @@
             <c>ILN204/CG/DezFB/FB-Anglistik</c>
             <n xml:lang="de">Bibl. Anglistik; Phil. I B, 3. OG</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=100</url>
+            <campus>Fachbibliotheken</campus>
+        </e>
+        <e>
+            <c>ILN204/CG/DezFB/FB-Anglistik-HAP</c>
+            <n xml:lang="de">Bibl. Anglistik; Phil. I B, 3. OG</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=100</url>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Strahelnschutz</c>
@@ -544,6 +560,11 @@
             <n xml:lang="de">Bibl. Romanistik; Phil. II G, 2. OG</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=112</url>
             <campus>Fachbibliotheken</campus>
+        </e>
+        <e>
+            <c>ILN204/CG/DezFB/FB-Romanistik-HAP</c>
+            <n xml:lang="de">Bibl. Romanistik; Phil. II G, 2. OG</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=112</url>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Arbeitsmedizin</c>
