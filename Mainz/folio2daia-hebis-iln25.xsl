@@ -15,12 +15,12 @@
                 oder (ggf. linktype überschreibend) mit url="http...", z.B. <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/> 
          campus : [optional] Campus Germersheim ("cg") oder Campus Mainz ("cm" bzw. "cz") für campusübergreifende Ausleihe UB Mainz, "cz" auch für Unimedizin -->
     <xsl:variable name="bbtabelle">
-        <e><c>25/000-000-10-ZBFREI</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Bücherturm</n><n xml:lang="en">Central Library, Book Tower</n><map linktype="mapongo"/></e>  
+        <e><c>25/000-000-10-ZBFREI</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Bücherturm</n><map linktype="mapongo"/></e>  
         <e><c>25/000-000-12-ZBLBS</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Lehrbuchsammlung</n><map linktype="mapongo"/></e>
         <e><c>25/000-000-14-ZBLS</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Lesesaal</n><map linktype="mapongo"/></e>
         <e><c>25/000-000-16-ZBMAG</c><n xml:lang="de">Zentralbibliothek, Magazin</n></e>
         <e><c>25/000-000-18-ZBRARA</c><n xml:lang="de">Zentralbibliothek, Rara</n></e>
-        <e><c>25/000-000-20-ZB-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">Zentralbibliothek, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/></e>
+        <e><c>25/000-000-20-ZB-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">Zentralbibliothek, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=5&amp;f=14&amp;c=23728&amp;l=9736"/></e>
         <e><c>25/000-000-22-ZBZEB</c><n xml:lang="de">Zentralbibliothek, Zur Erwerbung bestellt</n></e>
         <e><c>25/002-002-10-GFGPÄD</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Erziehungswissenschaft</n><map linktype="mapongo"/></e>
         <e><c>25/002-002-12-GFGFILM</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Filmwissenschaft</n><map linktype="mapongo"/></e>
@@ -29,7 +29,7 @@
         <e><c>25/002-002-18-GFGPSYCH</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Psychologie</n><map linktype="mapongo"/></e>
         <e><c>25/002-002-20-GFGPUB</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Publizistik</n><map linktype="mapongo"/></e>
         <e><c>25/002-002-22-GFGSOZ</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Soziologie</n><map linktype="mapongo"/></e>
-        <e><c>25/002-002-24-GFG-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Georg Forster-Gebäude, Semesterapparate</n><map url=""/></e>
+        <e><c>25/002-002-24-GFG-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Georg Forster-Gebäude, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=5&amp;f=14&amp;c=23728&amp;l=9736"/></e>
         <e><c>25/002-002-26-GFGZEB</c><n xml:lang="de">BB Georg Forster-Gebäude, Zur Erwerbung bestellt</n></e>
         <e><c>25/002-079-GFGKUN</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Kunstgeschichte</n><map linktype="mapongo"/></e>
         <e><c>25/002-110-GFGGEO</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Geographie und Geowissenschaften</n><map linktype="mapongo"/></e>
@@ -286,12 +286,38 @@
                 <status name='Withdrawn'/>
             </xsl:variable>
             <xsl:variable name="campusubmainz">
-                <hinweis-u campus="cg"><t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Germersheim: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;</t2><t3 xml:lang="de">Mainz: bestellen</t3></hinweis-u> <!-- Z.B. Englisch: <t xml:lang="en">Germersheim: ...</t> -->
-                <hinweis-u campus="cm"><t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Mainz: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;</t2><t3 xml:lang="de">Germersheim: bestellen</t3></hinweis-u>
-                <hinweis-u campus="cz"><t2 xml:lang="de">Germersheim: bestellen</t2><t3 xml:lang="de">Universitätsmedizin: bestellen</t3><t4 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Alle anderen: selbst am Regal holen&lt;/font&gt;&lt;/b&gt;</t4></hinweis-u>
-                <hinweis-s campus="cg"><t2 xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Mainz möglich, bitte wenden Sie sich an die Information</t2></hinweis-s>
-                <hinweis-s campus="cm"><t2 xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, bitte wenden Sie sich an die Information</t2></hinweis-s>
-                <hinweis-s campus="cz"><t2 xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, bitte wenden Sie sich an die Information</t2></hinweis-s>
+                <hinweis-u campus="cg">
+                    <t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Germersheim: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;</t2>
+                    <t2 xml:lang="en">&lt;b&gt;&lt;font color="red"&gt;Germersheim: pick up on the shelf without ordering&lt;/font&gt;&lt;/b&gt;</t2>
+                    <t3 xml:lang="de">Mainz: bestellen</t3>
+                    <t3 xml:lang="en">Mainz: order</t3>
+                </hinweis-u> <!-- Z.B. Englisch: <t xml:lang="en">Germersheim: ...</t> -->
+                <hinweis-u campus="cm">
+                    <t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Mainz: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;</t2>
+                    <t2 xml:lang="en">&lt;b&gt;&lt;font color="red"&gt;Mainz: pick up on the shelf without ordering&lt;/font&gt;&lt;/b&gt;</t2>
+                    <t3 xml:lang="de">Germersheim: bestellen</t3>
+                    <t3 xml:lang="en">Germersheim: order</t3>
+                </hinweis-u>
+                <hinweis-u campus="cz">
+                    <t2 xml:lang="de">Germersheim: bestellen</t2>
+                    <t2 xml:lang="en">Germersheim: order</t2>
+                    <t3 xml:lang="de">Universitätsmedizin: bestellen</t3>
+                    <t3 xml:lang="en">Universitätsmedizin: order</t3>
+                    <t4 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Alle anderen: selbst am Regal holen&lt;/font&gt;&lt;/b&gt;</t4>
+                    <t4 xml:lang="en">&lt;b&gt;&lt;font color="red"&gt;Everyone else: pick up on the shelf&lt;/font&gt;&lt;/b&gt;</t4>
+                </hinweis-u>
+                <hinweis-s campus="cg">
+                    <t2 xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Mainz möglich, bitte wenden Sie sich an die Information</t2>
+                    <t2 xml:lang="en">Copies of paper/short-term loans are possible for Campus Mainz, please contact the information desk</t2>
+                </hinweis-s>
+                <hinweis-s campus="cm">
+                    <t2 xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, bitte wenden Sie sich an die Information</t2>
+                    <t2 xml:lang="en">Copies of paper/short-term loans are possible for Campus Germersheim, please contact the information desk</t2>
+                </hinweis-s>
+                <hinweis-s campus="cz">
+                    <t2 xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, bitte wenden Sie sich an die Information</t2>
+                    <t2 xml:lang="en">Copies of paper/short-term loans are possible for Campus Germersheim, please contact the information desk</t2>
+                </hinweis-s>
             </xsl:variable>
             <!-- Liste der zu unterscheidenden Fälle im Discovery-System
                  Code aus zwei Großbuchstaben: Zuordnungscode für diesen Fall
