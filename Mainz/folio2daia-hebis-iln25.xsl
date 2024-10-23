@@ -36,7 +36,8 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek</url>
         </e>
         <e>
-            <c>25/000-000-20-ZB-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">Zentralbibliothek, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=5&amp;f=14&amp;c=23728&amp;l=9736"/>
+            <c>25/000-000-20-ZB-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">Zentralbibliothek, Semesterapparate</n>
+            <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=5&amp;f=14&amp;c=23728&amp;l=9736"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek</url>
         </e>
         <e>
@@ -72,7 +73,8 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
         </e>
         <e>
-            <c>25/002-002-24-GFG-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Georg Forster-Gebäude, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=5&amp;f=14&amp;c=23728&amp;l=9736"/>
+            <c>25/002-002-24-GFG-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Georg Forster-Gebäude, Semesterapparate</n>
+            <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=5&amp;f=14&amp;c=23728&amp;l=9736"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
         </e>
         <e>
@@ -285,7 +287,8 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#translations-sprach-und-kulturwissenschaft</url>
         </e>
         <e>
-            <c>25/019-019-24-GH-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/>
+            <c>25/019-019-24-GH-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Semesterapparate</n>
+            <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#translations-sprach-und-kulturwissenschaft</url>
         </e>
         <e>
