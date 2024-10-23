@@ -15,90 +15,340 @@
                 oder (ggf. linktype überschreibend) mit url="http...", z.B. <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/> 
          campus : [optional] Campus Germersheim ("cg") oder Campus Mainz ("cm" bzw. "cz") für campusübergreifende Ausleihe UB Mainz, "cz" auch für Unimedizin -->
     <xsl:variable name="bbtabelle">
-        <e><c>25/000-000-10-ZBFREI</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Bücherturm</n><map linktype="mapongo"/></e>  
-        <e><c>25/000-000-12-ZBLBS</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Lehrbuchsammlung</n><map linktype="mapongo"/></e>
-        <e><c>25/000-000-14-ZBLS</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Lesesaal</n><map linktype="mapongo"/></e>
-        <e><c>25/000-000-16-ZBMAG</c><n xml:lang="de">Zentralbibliothek, Magazin</n></e>
-        <e><c>25/000-000-18-ZBRARA</c><n xml:lang="de">Zentralbibliothek, Rara</n></e>
-        <e><c>25/000-000-20-ZB-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">Zentralbibliothek, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=5&amp;f=14&amp;c=23728&amp;l=9736"/></e>
-        <e><c>25/000-000-22-ZBZEB</c><n xml:lang="de">Zentralbibliothek, Zur Erwerbung bestellt</n></e>
-        <e><c>25/002-002-10-GFGPÄD</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Erziehungswissenschaft</n><map linktype="mapongo"/></e>
-        <e><c>25/002-002-12-GFGFILM</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Filmwissenschaft</n><map linktype="mapongo"/></e>
-        <e><c>25/002-002-14-GFGJOUR</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Journalistik</n><map linktype="mapongo"/></e>
-        <e><c>25/002-002-16-GFGPOL</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Politikwissenschaft</n><map linktype="mapongo"/></e>
-        <e><c>25/002-002-18-GFGPSYCH</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Psychologie</n><map linktype="mapongo"/></e>
-        <e><c>25/002-002-20-GFGPUB</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Publizistik</n><map linktype="mapongo"/></e>
-        <e><c>25/002-002-22-GFGSOZ</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Soziologie</n><map linktype="mapongo"/></e>
-        <e><c>25/002-002-24-GFG-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Georg Forster-Gebäude, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=5&amp;f=14&amp;c=23728&amp;l=9736"/></e>
-        <e><c>25/002-002-26-GFGZEB</c><n xml:lang="de">BB Georg Forster-Gebäude, Zur Erwerbung bestellt</n></e>
-        <e><c>25/002-079-GFGKUN</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Kunstgeschichte</n><map linktype="mapongo"/></e>
-        <e><c>25/002-110-GFGGEO</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Geographie und Geowissenschaften</n><map linktype="mapongo"/></e>
-        <e><c>25/002-113-GFGSPO</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Sportwissenschaften</n><map linktype="mapongo"/></e>
-        <e><c>25/002-126-GFGUSA</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, USA-Bibliothek</n><map linktype="mapongo"/></e>
-        <e><c>25/004-004-PHRVK</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, RVK-Aufstellung</n><map linktype="mapongo"/></e>
-        <e><c>25/004-004-10-PH-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Philosophicum, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/?p=1&amp;b=2&amp;f=3&amp;c=23811&amp;l=23808,23809"/></e>
-        <e><c>25/004-058-PHPHI</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Philosophie</n><map linktype="mapongo"/></e>
-        <e><c>25/004-070-PHGER</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Germanistik I / Kulturanthropologie und Germanistik II</n><map linktype="mapongo"/></e>
-        <e><c>25/004-071-PHAVL</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Allgemeine und Vergleichende Literaturwissenschaft</n><map linktype="mapongo"/></e>
-        <e><c>25/004-072-PHANG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Anglistik / Amerikanistik</n><map linktype="mapongo"/></e>
-        <e><c>25/004-073-PHAVS</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Allgemeine und Vergleichende Sprachwissenschaft</n><map linktype="mapongo"/></e>
-        <e><c>25/004-074-PHROM</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Romanistik</n><map linktype="mapongo"/></e>
-        <e><c>25/004-075-PHSLAV</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Slavistik</n><map linktype="mapongo"/></e>
-        <e><c>25/004-076-PHPOL</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Polonicum</n><map linktype="mapongo"/></e>
-        <e><c>25/004-077-PHKLP</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Klassische Philologie</n><map linktype="mapongo"/></e>
-        <e><c>25/004-078-PHKLA</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Klassische Archäologie</n><map linktype="mapongo"/></e>
-        <e><c>25/004-083-PHKLW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Historische Kulturwissenschaften</n><map linktype="mapongo"/></e>
-        <e><c>25/004-086-PHALG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Alte Geschichte</n><map linktype="mapongo"/></e>
-        <e><c>25/004-087-PHBYZ</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Byzantinistik</n><map linktype="mapongo"/></e>
-        <e><c>25/004-088-PHMNG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Mittlere und Neuere Geschichte</n><map linktype="mapongo"/></e>
-        <e><c>25/004-090-PHBUW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Buchwissenschaft</n><map linktype="mapongo"/></e>
-        <e><c>25/004-092-PHOEG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Osteuropäische Geschichte</n><map linktype="mapongo"/></e>
-        <e><c>25/004-120-PHTHW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Theaterwissenschaft</n><map linktype="mapongo"/></e>
-        <e><c>25/004-127-PHMAG</c><n xml:lang="de">BB Philosophicum, Magazin</n></e>
-        <e><c>25/005-005-10-UMFH</c><campus>cm</campus><n xml:lang="de">BB Universitätsmedizin, Freihand</n><map linktype="mapongo"/></e>
-        <e><c>25/005-005-12-UMLBS</c><campus>cm</campus><n xml:lang="de">BB Universitätsmedizin, Lehrbuchsammlung</n><map linktype="mapongo"/></e>
-        <e><c>25/005-005-14-UMLS</c><campus>cm</campus><n xml:lang="de">BB Universitätsmedizin, Lesesaal</n><map linktype="mapongo"/></e>
-        <e><c>25/005-035-UMRMED</c><n xml:lang="de">BB Universitätsmedizin, Institut für Rechtsmedizin</n></e>
-        <e><c>25/005-043-UMPSY</c><n xml:lang="de">BB Universitätsmedizin, Klinik für Psychiatrie und Psychotherapie</n></e>
-        <e><c>25/005-054-UMZMK</c><campus>cm</campus><n xml:lang="de">BB Universitätsmedizin, Zahnklinik</n><map linktype="mapongo"/></e>
-        <e><c>25/006-006-10-MINT</c><campus>cz</campus><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Freihand</n><map linktype="mapongo"/></e>
-        <e><c>25/006-006-12-MINTLBS</c><campus>cz</campus><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Lehrbuchsammlung</n><map linktype="mapongo"/></e>
-        <e><c>25/006-006-14-MINTFAK</c><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Handapparate</n></e>
-        <e><c>25/006-006-16-MINT-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Semesterapparate</n><map url=""/></e>
-        <e><c>25/016-016-10-TH</c><campus>cm</campus><n xml:lang="de">BB Theologie, Freihand</n><map linktype="mapongo"/></e>
-        <e><c>25/016-016-12-THLBS</c><campus>cm</campus><n xml:lang="de">BB Theologie, Lehrbuchsammlung</n><map linktype="mapongo"/></e>
-        <e><c>25/016-016-14-THRARA</c><n xml:lang="de">BB Theologie, Magazin</n></e>
-        <e><c>25/016-016-16-THPSYCH</c><n xml:lang="de">BB Theologie, Handapparat Psychologie</n></e>
-        <e><c>25/016-016-18-THFAK</c><n xml:lang="de">BB Theologie, Handapparate Fachbereich</n></e>
-        <e><c>25/018-018-10-RW</c><ind>s Praesenzbestand</ind><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Lesesaal</n><map linktype="mapongo"/></e>
-        <e><c>25/018-018-12-RWLBS</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Lernzentrum</n><map linktype="mapongo"/></e>
-        <e><c>25/018-018-14-RWMAG</c><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Magazin</n></e>
-        <e><c>25/018-018-16-RW-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Semesterapparate</n><map url=""/></e>
-        <e><c>25/018-020-RWFAK</c><ind>s Praesenzbestand</ind><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Lehrstühle</n></e>
-        <e><c>25/019-019-10-GHFREI</c><campus>cg</campus><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand</n><map linktype="mapongo"/></e>
-        <e><c>25/019-019-12-GHLBS</c><campus>cg</campus><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lehrbuchsammlung</n><map linktype="mapongo"/></e>
-        <e><c>25/019-019-14-GHLS</c><campus>cg</campus><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lesesaal</n><map linktype="mapongo"/></e>
-        <e><c>25/019-019-16-GHMAG</c><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Magazin</n></e>
-        <e><c>25/019-019-18-GHSEP</c><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Separiert</n></e>
-        <e><c>25/019-019-20-GHFAK</c><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Handapparate</n></e>
-        <e><c>25/019-019-22-GHZEB</c><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Zur Erwerbung bestellt</n></e>
-        <e><c>25/019-019-24-GH-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/></e>
-        <e><c>25/066-066-10-RWETH</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Ethnologie und Afrikastudien</n><map linktype="mapongo"/></e>
-        <e><c>25/066-066-12-RWAMA</c><n xml:lang="de">Zentralbibliothek, AMA - African Music Archives</n></e>
-        <e><c>25/080-080-RWTURK</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Turkologie</n><map linktype="mapongo"/></e>
-        <e><c>25/091-091-10-PHMUW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Musikwissenschaft, Freihand</n><map linktype="mapongo"/></e>
-        <e><c>25/091-091-12-PHMUWMAG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Musikwissenschaft, Magazin</n></e>
-        <e><c>25/112-112-10-PHHFMFREI</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Hochschule für Musik, Freihand</n><map linktype="mapongo"/></e>
-        <e><c>25/112-112-12-PHHFMMAG</c><n xml:lang="de">BB Philosophicum, Hochschule für Musik, Magazin</n></e>
-        <e><c>25/999-009-FBMPI</c><ind>s Praesenzbestand</ind><n xml:lang="de">Max-Planck-Institut für Polymerforschung, Bibliothek</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102599637</url></e>
-        <e><c>25/999-034-FBGTEM</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Institut für Geschichte, Theorie und Ethik der Medizin</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102599866</url></e>
-        <e><c>25/999-094-FBIGL</c><ind>s Praesenzbestand</ind><n xml:lang="de">Institut für Geschichtliche Landeskunde Rheinland-Pfalz e.V., Bibliothek</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=460818961</url></e>
-        <e><c>25/999-069-FBPSY</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Psychologisches Institut</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=10260018X</url></e>
-        <e><c>25/999-082-FBÄGYPT</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Institut für Altertumswissenschaften - Ägyptologie und Altorientalistik</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102600317</url></e>
-        <e><c>25/999-085-FBAVFGA</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Institut für Altertumswissenschaften - Vor- und Frühgeschichtliche Archäologie</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102600341</url></e>
-        <e><c>25/999-111-FBKUNST</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Kunsthochschule</n><url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102600600</url></e>
-        <e><c>25/999-124-FBGESANG</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Gesangbucharchiv</n></e>
-        <e><c>25/Aufsatz</c><ind>y unbekannt</ind><n xml:lang="de">Aufsatz, Ermittlung des Standorts unter "veröffentlicht in"</n></e>
+        <e>
+            <c>25/000-000-10-ZBFREI</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Bücherturm</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek</url>
+        </e>  
+        <e>
+            <c>25/000-000-12-ZBLBS</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Lehrbuchsammlung</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek</url>
+        </e>
+        <e>
+            <c>25/000-000-14-ZBLS</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Lesesaal</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek</url>
+        </e>
+        <e>
+            <c>25/000-000-16-ZBMAG</c><n xml:lang="de">Zentralbibliothek, Magazin</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek</url>
+        </e>
+        <e>
+            <c>25/000-000-18-ZBRARA</c><n xml:lang="de">Zentralbibliothek, Rara</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek</url>
+        </e>
+        <e>
+            <c>25/000-000-20-ZB-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">Zentralbibliothek, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=5&amp;f=14&amp;c=23728&amp;l=9736"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek</url>
+        </e>
+        <e>
+            <c>25/000-000-22-ZBZEB</c><n xml:lang="de">Zentralbibliothek, Zur Erwerbung bestellt</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek</url>
+        </e>
+        <e>
+            <c>25/002-002-10-GFGPÄD</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Erziehungswissenschaft</n>
+            <map linktype="mapongo"/><url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
+        </e>
+        <e>
+            <c>25/002-002-12-GFGFILM</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Filmwissenschaft</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
+        </e>
+        <e>
+            <c>25/002-002-14-GFGJOUR</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Journalistik</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
+        </e>
+        <e>
+            <c>25/002-002-16-GFGPOL</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Politikwissenschaft</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
+        </e>
+        <e>
+            <c>25/002-002-18-GFGPSYCH</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Psychologie</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
+        </e>
+        <e>
+            <c>25/002-002-20-GFGPUB</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Publizistik</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
+        </e>
+        <e>
+            <c>25/002-002-22-GFGSOZ</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Soziologie</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
+        </e>
+        <e>
+            <c>25/002-002-24-GFG-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Georg Forster-Gebäude, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=5&amp;f=14&amp;c=23728&amp;l=9736"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
+        </e>
+        <e>
+            <c>25/002-002-26-GFGZEB</c><n xml:lang="de">BB Georg Forster-Gebäude, Zur Erwerbung bestellt</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
+        </e>
+        <e>
+            <c>25/002-079-GFGKUN</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Kunstgeschichte</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
+        </e>
+        <e>
+            <c>25/002-110-GFGGEO</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Geographie und Geowissenschaften</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
+        </e>
+        <e>
+            <c>25/002-113-GFGSPO</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Sportwissenschaften</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
+        </e>
+        <e>
+            <c>25/002-126-GFGUSA</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, USA-Bibliothek</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
+        </e>
+        <e>
+            <c>25/004-004-PHRVK</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, RVK-Aufstellung</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/004-004-10-PH-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Philosophicum, Semesterapparate</n>
+            <map url="https://ub-mainz.mapongo.de/?p=1&amp;b=2&amp;f=3&amp;c=23811&amp;l=23808,23809"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/004-058-PHPHI</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Philosophie</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/004-070-PHGER</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Germanistik I / Kulturanthropologie und Germanistik II</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/004-071-PHAVL</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Allgemeine und Vergleichende Literaturwissenschaft</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/004-072-PHANG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Anglistik / Amerikanistik</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/004-073-PHAVS</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Allgemeine und Vergleichende Sprachwissenschaft</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/004-074-PHROM</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Romanistik</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/004-075-PHSLAV</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Slavistik</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/004-076-PHPOL</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Polonicum</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/004-077-PHKLP</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Klassische Philologie</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/004-078-PHKLA</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Klassische Archäologie</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/004-083-PHKLW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Historische Kulturwissenschaften</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/004-086-PHALG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Alte Geschichte</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/004-087-PHBYZ</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Byzantinistik</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/004-088-PHMNG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Mittlere und Neuere Geschichte</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/004-090-PHBUW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Buchwissenschaft</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/004-092-PHOEG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Osteuropäische Geschichte</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/004-120-PHTHW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Theaterwissenschaft</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/004-127-PHMAG</c><n xml:lang="de">BB Philosophicum, Magazin</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/005-005-10-UMFH</c><campus>cm</campus><n xml:lang="de">BB Universitätsmedizin, Freihand</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#universitaetsmedizin</url>
+        </e>
+        <e>
+            <c>25/005-005-12-UMLBS</c><campus>cm</campus><n xml:lang="de">BB Universitätsmedizin, Lehrbuchsammlung</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#universitaetsmedizin</url>
+        </e>
+        <e>
+            <c>25/005-005-14-UMLS</c><campus>cm</campus><n xml:lang="de">BB Universitätsmedizin, Lesesaal</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#universitaetsmedizin</url>
+        </e>
+        <e>
+            <c>25/005-035-UMRMED</c><n xml:lang="de">BB Universitätsmedizin, Institut für Rechtsmedizin</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#universitaetsmedizin</url>
+        </e>
+        <e>
+            <c>25/005-043-UMPSY</c><n xml:lang="de">BB Universitätsmedizin, Klinik für Psychiatrie und Psychotherapie</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#universitaetsmedizin</url>
+        </e>
+        <e>
+            <c>25/005-054-UMZMK</c><campus>cm</campus><n xml:lang="de">BB Universitätsmedizin, Zahnklinik</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#universitaetsmedizin-standort-zahnklinik</url>
+        </e>
+        <e>
+            <c>25/006-006-10-MINT</c><campus>cz</campus><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Freihand</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#mathematik-informatik-naturwissenschaften-und-technik</url>
+        </e>
+        <e>
+            <c>25/006-006-12-MINTLBS</c><campus>cz</campus><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Lehrbuchsammlung</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#mathematik-informatik-naturwissenschaften-und-technik</url>
+        </e>
+        <e>
+            <c>25/006-006-14-MINTFAK</c><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Handapparate</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#mathematik-informatik-naturwissenschaften-und-technik</url>
+        </e>
+        <e>
+            <c>25/006-006-16-MINT-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Semesterapparate</n><map url=""/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#mathematik-informatik-naturwissenschaften-und-technik</url>
+        </e>
+        <e>
+            <c>25/016-016-10-TH</c><campus>cm</campus><n xml:lang="de">BB Theologie, Freihand</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#theologie</url>
+        </e>
+        <e>
+            <c>25/016-016-12-THLBS</c><campus>cm</campus><n xml:lang="de">BB Theologie, Lehrbuchsammlung</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#theologie</url>
+        </e>
+        <e>
+            <c>25/016-016-14-THRARA</c><n xml:lang="de">BB Theologie, Magazin</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#theologie</url>
+        </e>
+        <e>
+            <c>25/016-016-16-THPSYCH</c><n xml:lang="de">BB Theologie, Handapparat Psychologie</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#theologie</url>
+        </e>
+        <e>
+            <c>25/016-016-18-THFAK</c><n xml:lang="de">BB Theologie, Handapparate Fachbereich</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#theologie</url>
+        </e>
+        <e>
+            <c>25/018-018-10-RW</c><ind>s Praesenzbestand</ind><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Lesesaal</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#rechts-und-wirtschaftswissenschaften</url>
+        </e>
+        <e>
+            <c>25/018-018-12-RWLBS</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Lernzentrum</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#rechts-und-wirtschaftswissenschaften</url>
+        </e>
+        <e>
+            <c>25/018-018-14-RWMAG</c><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Magazin</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#rechts-und-wirtschaftswissenschaften</url>
+        </e>
+        <e>
+            <c>25/018-018-16-RW-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Semesterapparate</n><map url=""/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#rechts-und-wirtschaftswissenschaften</url>
+        </e>
+        <e>
+            <c>25/018-020-RWFAK</c><ind>s Praesenzbestand</ind><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Lehrstühle</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#rechts-und-wirtschaftswissenschaften</url>
+        </e>
+        <e>
+            <c>25/019-019-10-GHFREI</c><campus>cg</campus><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Freihand</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#translations-sprach-und-kulturwissenschaft</url>
+        </e>
+        <e>
+            <c>25/019-019-12-GHLBS</c><campus>cg</campus><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lehrbuchsammlung</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#translations-sprach-und-kulturwissenschaft</url>
+        </e>
+        <e>
+            <c>25/019-019-14-GHLS</c><campus>cg</campus><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Lesesaal</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#translations-sprach-und-kulturwissenschaft</url>
+        </e>
+        <e>
+            <c>25/019-019-16-GHMAG</c><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Magazin</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#translations-sprach-und-kulturwissenschaft</url>
+        </e>
+        <e>
+            <c>25/019-019-18-GHSEP</c><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Separiert</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#translations-sprach-und-kulturwissenschaft</url>
+        </e>
+        <e>
+            <c>25/019-019-20-GHFAK</c><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Handapparate</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#translations-sprach-und-kulturwissenschaft</url>
+        </e>
+        <e>
+            <c>25/019-019-22-GHZEB</c><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Zur Erwerbung bestellt</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#translations-sprach-und-kulturwissenschaft</url>
+        </e>
+        <e>
+            <c>25/019-019-24-GH-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Semesterapparate</n><map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#translations-sprach-und-kulturwissenschaft</url>
+        </e>
+        <e>
+            <c>25/066-066-10-RWETH</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Ethnologie und Afrikastudien</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#rechts-und-wirtschaftswissenschaften</url><map linktype="mapongo"/>
+        </e>
+        <e>
+            <c>25/066-066-12-RWAMA</c><n xml:lang="de">Zentralbibliothek, AMA - African Music Archives</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek</url>
+        </e>
+        <e>
+            <c>25/080-080-RWTURK</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Turkologie</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#rechts-und-wirtschaftswissenschaften</url>
+        </e>
+        <e>
+            <c>25/091-091-10-PHMUW</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Musikwissenschaft, Freihand</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-musikwissenschaft</url>
+        </e>
+        <e>
+            <c>25/091-091-12-PHMUWMAG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Musikwissenschaft, Magazin</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-musikwissenschaft</url>
+        </e>
+        <e>
+            <c>25/112-112-10-PHHFMFREI</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Hochschule für Musik, Freihand</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-hochschule-fuer-musik</url>
+        </e>
+        <e>
+            <c>25/112-112-12-PHHFMMAG</c><n xml:lang="de">BB Philosophicum, Hochschule für Musik, Magazin</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-hochschule-fuer-musik</url>
+        </e>
+        <e>
+            <c>25/999-009-FBMPI</c><ind>s Praesenzbestand</ind><n xml:lang="de">Max-Planck-Institut für Polymerforschung, Bibliothek</n>
+            <url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102599637</url>
+        </e>
+        <e>
+            <c>25/999-034-FBGTEM</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Institut für Geschichte, Theorie und Ethik der Medizin</n>
+            <url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102599866</url>
+        </e>
+        <e>
+            <c>25/999-094-FBIGL</c><ind>s Praesenzbestand</ind><n xml:lang="de">Institut für Geschichtliche Landeskunde Rheinland-Pfalz e.V., Bibliothek</n>
+            <url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=460818961</url>
+        </e>
+        <e>
+            <c>25/999-069-FBPSY</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Psychologisches Institut</n>
+            <url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=10260018X</url>
+        </e>
+        <e>
+            <c>25/999-082-FBÄGYPT</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Institut für Altertumswissenschaften - Ägyptologie und Altorientalistik</n>
+            <url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102600317</url>
+        </e>
+        <e>
+            <c>25/999-085-FBAVFGA</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Institut für Altertumswissenschaften - Vor- und Frühgeschichtliche Archäologie</n>
+            <url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102600341</url>
+        </e>
+        <e>
+            <c>25/999-111-FBKUNST</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Kunsthochschule</n>
+            <url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102600600</url>
+        </e>
+        <e>
+            <c>25/999-124-FBGESANG</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Gesangbucharchiv</n></e>
+        <e>
+            <c>25/Aufsatz</c><ind>y unbekannt</ind><n xml:lang="de">Aufsatz, Ermittlung des Standorts unter "veröffentlicht in"</n>
+        </e>
     </xsl:variable>
 
     <xsl:template name="selectlanguage">
