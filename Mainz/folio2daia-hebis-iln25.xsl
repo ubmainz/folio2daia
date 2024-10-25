@@ -312,11 +312,20 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-musikwissenschaft</url>
         </e>
         <e>
+            <c>25/091-091-14-PHMUW-SEMAPP</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Musikwissenschaft, Semesterapparate</n>
+            <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=2&amp;f=4&amp;c=23932&amp;l=7919&amp;lang=de"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-musikwissenschaft</url>
+        </e>        
+        <e>
             <c>25/112-112-10-PHHFMFREI</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Hochschule für Musik, Freihand</n><map linktype="mapongo"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-hochschule-fuer-musik</url>
         </e>
         <e>
             <c>25/112-112-12-PHHFMMAG</c><n xml:lang="de">BB Philosophicum, Hochschule für Musik, Magazin</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-hochschule-fuer-musik</url>
+        </e>
+        <e>
+            <c>25/112-112-14-PHHFM-SEMAPP</c><n xml:lang="de">BB Philosophicum, Hochschule für Musik, Semesterapparat Musikpädagogik</n>
             <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-hochschule-fuer-musik</url>
         </e>
         <e>
