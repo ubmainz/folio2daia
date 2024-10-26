@@ -1710,3 +1710,96 @@ DAIAinfo abt_num 25/004-127-PHMAG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#philosophicum ofniAIAD
 DAIAinfo standort Osteuropäische Geschichte / Separiert ofniAIAD
+
+DAIAinfo epn 614798612-614798612-1 ofniAIAD
+DAIAinfo sig 22E 661 ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_link https://paia.link ofniAIAD
+DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=22E%20661&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
+DAIAinfo epn 614798612-614798612-2 ofniAIAD
+DAIAinfo sig 22E 661 ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_link https://paia.link ofniAIAD
+DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=22E%20661&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
+DAIAinfo epn 614798612-614798612-3 ofniAIAD
+DAIAinfo sig 22E 661 ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_link https://paia.link ofniAIAD
+DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=22E%20661&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
+DAIAinfo epn 614798612-614798612-4 ofniAIAD
+DAIAinfo sig 22E 661 ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_link https://paia.link ofniAIAD
+DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=22E%20661&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
+DAIAinfo epn 730127729-730127729-1 ofniAIAD
+DAIAinfo sig 22E 661 ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_link https://paia.link ofniAIAD
+DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=22E%20661&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
+DAIAinfo epn 730127729-730127729-2 ofniAIAD
+DAIAinfo sig 22E 661 ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_text Universitätsmedizin: bestellen ofniAIAD
+DAIAinfo aus_text <b><font color="red">Alle anderen: selbst am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_link https://paia.link ofniAIAD
+DAIAinfo abt_num 25/000-000-12-ZBLBS ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Lehrbuchsammlung ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=22E%20661&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
+DAIAinfo epn 611274884-611274884-1 ofniAIAD
+DAIAinfo sig PHILOS D 81/05 ofniAIAD
+DAIAinfo aus_status nicht vormerkbar ofniAIAD
+DAIAinfo aus_ind c Lehrbuchsammlung ofniAIAD
+DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
+DAIAinfo abt_name Zentralbibliothek, Lesesaal ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek ofniAIAD
+DAIAinfo aus_datum 21-11-2024 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=PHILOS%20D%2081%2F05&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
+DAIAinfo epn 510930638-510930638-1 ofniAIAD
+DAIAinfo sig IX 1 b - 1961 ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text Germersheim: bestellen ofniAIAD
+DAIAinfo aus_link https://paia.link ofniAIAD
+DAIAinfo abt_num 25/004-058-PHPHI ofniAIAD
+DAIAinfo abt_name BB Philosophicum, Philosophie ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#philosophicum ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=IX%201%20b%20-%201961&c2=25%2F004-058-PHPHI">Standort zeigen</a> ofniAIAD

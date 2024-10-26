@@ -18577,4 +18577,884 @@ BCO 127</description>
     </holding>
   </holdings>
 </instanceData>
+<instanceData>
+  <lang>de</lang>
+  <instance>
+    <id>0750da88-e84c-4e76-9919-10262340b67f</id>
+    <_version>2</_version>
+    <hrid>119509679</hrid>
+    <source>hebis</source>
+    <title>Immanuel Kant / Heiner F. Klemme</title>
+    <indexTitle>Immanuel Kant Heiner F Klemme</indexTitle>
+    <series>
+      <value>Campus Einführungen</value>
+    </series>
+    <identifiers>
+      <value>119509679</value>
+      <identifierTypeId>1d5cb40c-508f-451b-8952-87c92be4255a</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>54695999</value>
+      <identifierTypeId>439bfbae-75bc-4f74-9fc7-b2a2d47ce3ef</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>3593371855</value>
+      <identifierTypeId>8261054f-be78-422d-bd51-4ed9f33c3422</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>9783593371856</value>
+      <identifierTypeId>7836bced-1d36-4ee0-b263-5d63db38676a</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>96972604X</value>
+      <identifierTypeId>63fd8fa0-a939-4d1e-869c-6dcc24c9d507</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>04,N04,0112</value>
+      <identifierTypeId>aaeec26d-72e9-4952-b59e-86bd9fbfedd3</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>04,A15,0116,1219</value>
+      <identifierTypeId>217a56e1-5e45-4253-b942-d2199cca183e</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>HEB: 119509679</value>
+      <identifierTypeId>8e33c1be-e2c4-43ac-a975-8fb50f71137a</identifierTypeId>
+    </identifiers>
+    <contributors>
+      <name>Klemme, Heiner F. *1962-*</name>
+      <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+      <primary>true</primary>
+    </contributors>
+    <publication>
+      <publisher>Campus-Verl.</publisher>
+      <place>Frankfurt/Main {[u.a.]</place>
+      <dateOfPublication>2004</dateOfPublication>
+      <role>Publisher</role>
+    </publication>
+    <instanceTypeId>30fffe0e-e985-4144-b2e2-1e8179bdb41f</instanceTypeId>
+    <instanceFormatIds>98f0caa9-d38e-427b-9ec4-454de81a94d7</instanceFormatIds>
+    <physicalDescriptions>172 S.</physicalDescriptions>
+    <languages>ger</languages>
+    <notes>
+      <instanceNoteTypeId>06b44741-888e-4b15-a75e-cb29e27752d1</instanceNoteTypeId>
+      <note>Literaturverz. S. [159] - 166</note>
+      <staffOnly>false</staffOnly>
+    </notes>
+    <administrativeNotes>Aau (Bibliografische Gattung)</administrativeNotes>
+    <administrativeNotes>12.08.17, 18:58 (Letzte Änderung CBS)</administrativeNotes>
+    <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
+    <previouslyHeld>false</previouslyHeld>
+    <discoverySuppress>false</discoverySuppress>
+    <statusUpdatedDate>2023-10-26T09:31:38.421+0000</statusUpdatedDate>
+    <metadata>
+      <createdDate>2023-10-25T23:01:36.338+00:00</createdDate>
+      <createdByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</createdByUserId>
+      <updatedDate>2023-10-26T09:31:38.423+00:00</updatedDate>
+      <updatedByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</updatedByUserId>
+    </metadata>
+  </instance>
+  <holdings>
+    <holding>
+      <id>dae6938a-b55a-49dd-8be2-a223913b67f2</id>
+      <_version>2</_version>
+      <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
+      <hrid>611274884</hrid>
+      <holdingsTypeId>0c422f92-0f4d-4d32-8cbe-390ebc33a3e5</holdingsTypeId>
+      <instanceId>0750da88-e84c-4e76-9919-10262340b67f</instanceId>
+      <permanentLocationId>c23399ef-6776-4442-a53a-dfca759c3b9f</permanentLocationId>
+      <effectiveLocationId>c23399ef-6776-4442-a53a-dfca759c3b9f</effectiveLocationId>
+      <callNumber>PHILOS D 81/05</callNumber>
+      <notes>
+        <holdingsNoteTypeId>7cad8584-35f9-4ea7-8944-11bcf40ff29c</holdingsNoteTypeId>
+        <note>03.05.11 10:39</note>
+        <staffOnly>true</staffOnly>
+      </notes>
+      <discoverySuppress>false</discoverySuppress>
+      <metadata>
+        <createdDate>2023-10-25T23:01:36.588+00:00</createdDate>
+        <createdByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</createdByUserId>
+        <updatedDate>2023-10-26T09:31:38.423+00:00</updatedDate>
+        <updatedByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</updatedByUserId>
+      </metadata>
+      <effectiveLocation>
+        <id>c23399ef-6776-4442-a53a-dfca759c3b9f</id>
+        <name>ZB Lesesaal</name>
+        <code>ZBLS</code>
+        <description>
+          Zentralbibliothek Lesesaal BCO 000 und 8201 enthält "LESESAAL" oder BCO 003 und 8201 enthält "LESESAAL" oder BCO 093 und 8201 ist nicht "MAG""
+        </description>
+        <discoveryDisplayName>25/000-000-14-ZBLS</discoveryDisplayName>
+        <isActive>true</isActive>
+        <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+        <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+        <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
+        <details/>
+        <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
+        <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
+        <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
+        <servicePointIds>2a7ad6bf-e9e3-4a39-9fbc-2f59cdf5dfff</servicePointIds>
+        <servicePointIds>79178024-ba3f-459b-a0ae-1a62d5ffbe15</servicePointIds>
+        <metadata>
+          <createdDate>2023-10-10T06:21:24.695+00:00</createdDate>
+          <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+          <updatedDate>2024-10-23T09:49:47.280+00:00</updatedDate>
+          <updatedByUserId>0084a796-e145-4e72-a0d2-f07298b6cdf3</updatedByUserId>
+        </metadata>
+      </effectiveLocation>
+      <items>
+        <item>
+          <id>97117e09-d81f-4f59-9213-182c905fcd73</id>
+          <_version>4</_version>
+          <hrid>611274884-1</hrid>
+          <holdingsRecordId>dae6938a-b55a-49dd-8be2-a223913b67f2</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <accessionNumber>11/ACQ</accessionNumber>
+          <barcode>12069809</barcode>
+          <effectiveShelvingOrder>PHILOS D 81/05</effectiveShelvingOrder>
+          <effectiveCallNumberComponents>
+            <callNumber>PHILOS D 81/05</callNumber>
+          </effectiveCallNumberComponents>
+          <circulationNotes>
+            <id>c0923399-28b0-4ea4-b3e2-7d16bc4fb362</id>
+            <noteType>Check in</noteType>
+            <note>
+              Nach der endgültigen Rückgabe temporären Ausleihtyp und die Anmerkungen entfernen
+            </note>
+            <source>
+              <id>3a080fc8-98b0-4847-8504-b2cf015c75fd</id>
+              <personal>
+                <lastName>FOLIO-Starter</lastName>
+                <firstName/>
+              </personal>
+            </source>
+            <date>2024-10-24T12:10:03.238+0000</date>
+            <staffOnly>false</staffOnly>
+          </circulationNotes>
+          <circulationNotes>
+            <id>a7776301-3bc9-465d-84b1-e05b719ff658</id>
+            <noteType>Check out</noteType>
+            <note>
+              Nach der endgültigen Rückgabe temporären Ausleihtyp und die Anmerkungen entfernen
+            </note>
+            <source>
+              <id>3a080fc8-98b0-4847-8504-b2cf015c75fd</id>
+              <personal>
+                <lastName>FOLIO-Starter</lastName>
+                <firstName/>
+              </personal>
+            </source>
+            <date>2024-10-24T12:10:03.241+0000</date>
+            <staffOnly>false</staffOnly>
+          </circulationNotes>
+          <status>
+            <name>Checked out</name>
+            <date>2024-10-24T12:14:17.322+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>1cecc65a-a7c4-437a-bb04-6756c23b422e</permanentLoanTypeId>
+          <temporaryLoanTypeId>7a03b2e2-c995-47a4-83d0-04bbe1930af4</temporaryLoanTypeId>
+          <effectiveLocationId>c23399ef-6776-4442-a53a-dfca759c3b9f</effectiveLocationId>
+          <tags/>
+          <metadata>
+            <createdDate>2023-10-25T23:01:36.766+00:00</createdDate>
+            <createdByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</createdByUserId>
+            <updatedDate>2024-10-24T12:14:17.318+00:00</updatedDate>
+            <updatedByUserId>3a080fc8-98b0-4847-8504-b2cf015c75fd</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>c23399ef-6776-4442-a53a-dfca759c3b9f</id>
+            <name>ZB Lesesaal</name>
+            <code>ZBLS</code>
+            <description>
+              Zentralbibliothek Lesesaal BCO 000 und 8201 enthält "LESESAAL" oder BCO 003 und 8201 enthält "LESESAAL" oder BCO 093 und 8201 ist nicht "MAG""
+            </description>
+            <discoveryDisplayName>25/000-000-14-ZBLS</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+            <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+            <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
+            <details/>
+            <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
+            <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
+            <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
+            <servicePointIds>2a7ad6bf-e9e3-4a39-9fbc-2f59cdf5dfff</servicePointIds>
+            <servicePointIds>79178024-ba3f-459b-a0ae-1a62d5ffbe15</servicePointIds>
+            <metadata>
+              <createdDate>2023-10-10T06:21:24.695+00:00</createdDate>
+              <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+              <updatedDate>2024-10-23T09:49:47.280+00:00</updatedDate>
+              <updatedByUserId>0084a796-e145-4e72-a0d2-f07298b6cdf3</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>1cecc65a-a7c4-437a-bb04-6756c23b422e</id>
+            <name>s Präsenzbestand Lesesaal</name>
+            <metadata>
+              <createdDate>2023-10-16T06:06:33.162+00:00</createdDate>
+              <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+              <updatedDate>2023-10-16T06:06:33.162+00:00</updatedDate>
+              <updatedByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+          <temporaryLoanType>
+            <id>7a03b2e2-c995-47a4-83d0-04bbe1930af4</id>
+            <name>u ausleihbar (auch Fernleihe)</name>
+            <metadata>
+              <createdDate>2023-10-16T06:06:32.866+00:00</createdDate>
+              <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+              <updatedDate>2024-07-17T11:25:45.681+00:00</updatedDate>
+              <updatedByUserId>3a080fc8-98b0-4847-8504-b2cf015c75fd</updatedByUserId>
+            </metadata>
+          </temporaryLoanType>
+          <loan>
+            <id>45a60d3f-f347-43e9-8dfb-8cac7412bc62</id>
+            <userId>6c3be6c8-d778-4362-8f59-5039b05ea5f0</userId>
+            <itemId>97117e09-d81f-4f59-9213-182c905fcd73</itemId>
+            <itemEffectiveLocationIdAtCheckOut>c23399ef-6776-4442-a53a-dfca759c3b9f</itemEffectiveLocationIdAtCheckOut>
+            <status>
+              <name>Open</name>
+            </status>
+            <loanDate>2024-10-24T12:14:16.698Z</loanDate>
+            <dueDate>2024-11-21T22:59:59.000+00:00</dueDate>
+            <action>checkedout</action>
+            <loanPolicyId>cedac509-2b0f-4f0c-9f48-99a57b12f0e3</loanPolicyId>
+            <checkoutServicePointId>05ab989a-5104-4c6c-a5d1-d55e80e4637d</checkoutServicePointId>
+            <overdueFinePolicyId>1cf1b27e-08c7-46c1-be97-b3737f9eb256</overdueFinePolicyId>
+            <lostItemPolicyId>6f5c4934-6586-4ff3-8b04-630337cba4fa</lostItemPolicyId>
+            <metadata>
+              <createdDate>2024-10-24T12:14:17.351+00:00</createdDate>
+              <createdByUserId>3a080fc8-98b0-4847-8504-b2cf015c75fd</createdByUserId>
+              <updatedDate>2024-10-24T12:14:17.351+00:00</updatedDate>
+              <updatedByUserId>3a080fc8-98b0-4847-8504-b2cf015c75fd</updatedByUserId>
+            </metadata>
+            <patronGroupAtCheckout>
+              <id>08e7b5db-8b18-4174-989c-c9c5e562d7ff</id>
+              <name>81 Handapparate für Projektgruppen (JGU)</name>
+            </patronGroupAtCheckout>
+            <item>
+              <id>97117e09-d81f-4f59-9213-182c905fcd73</id>
+              <holdingsRecordId>dae6938a-b55a-49dd-8be2-a223913b67f2</holdingsRecordId>
+              <instanceId>0750da88-e84c-4e76-9919-10262340b67f</instanceId>
+              <title>Immanuel Kant / Heiner F. Klemme</title>
+              <barcode>12069809</barcode>
+              <contributors>
+                <name>Klemme, Heiner F. *1962-*</name>
+              </contributors>
+              <callNumber>PHILOS D 81/05</callNumber>
+              <callNumberComponents>
+                <callNumber>PHILOS D 81/05</callNumber>
+              </callNumberComponents>
+              <status>
+                <name>Checked out</name>
+                <date>2024-10-24T12:14:17.322+00:00</date>
+              </status>
+              <location>
+                <name>ZB Lesesaal</name>
+              </location>
+              <materialType>
+                <name>0 Druckschrift</name>
+              </materialType>
+            </item>
+            <checkoutServicePoint>
+              <name>ZB Ausleihe</name>
+              <code>the01</code>
+              <discoveryDisplayName>Zentralbibliothek Ausleihe, Campus Mainz</discoveryDisplayName>
+              <description/>
+              <shelvingLagTime>60</shelvingLagTime>
+              <pickupLocation>true</pickupLocation>
+            </checkoutServicePoint>
+            <borrower>
+              <firstName/>
+              <lastName>Kant-Forschungsstelle</lastName>
+              <middleName/>
+              <barcode>007877607077</barcode>
+            </borrower>
+            <loanPolicy>
+              <name>4 Wochen - 5 Verl.</name>
+            </loanPolicy>
+            <overdueFinePolicy>
+              <name>Mahngebühren</name>
+            </overdueFinePolicy>
+            <lostItemPolicy>
+              <name>tatsächliche Kosten</name>
+            </lostItemPolicy>
+            <feesAndFines>
+              <amountRemainingToPay>0.0</amountRemainingToPay>
+            </feesAndFines>
+          </loan>
+        </item>
+      </items>
+    </holding>
+    <holding>
+      <id>5fef6fdb-c8c0-4ab6-afe7-4f2f24522f05</id>
+      <_version>2</_version>
+      <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
+      <hrid>614798612</hrid>
+      <holdingsTypeId>0c422f92-0f4d-4d32-8cbe-390ebc33a3e5</holdingsTypeId>
+      <instanceId>0750da88-e84c-4e76-9919-10262340b67f</instanceId>
+      <permanentLocationId>67ae08e9-89f9-4939-8def-5666cf7bfc3d</permanentLocationId>
+      <effectiveLocationId>67ae08e9-89f9-4939-8def-5666cf7bfc3d</effectiveLocationId>
+      <callNumber>22E 661</callNumber>
+      <notes>
+        <holdingsNoteTypeId>7cad8584-35f9-4ea7-8944-11bcf40ff29c</holdingsNoteTypeId>
+        <note>08.04.11 00:04</note>
+        <staffOnly>true</staffOnly>
+      </notes>
+      <discoverySuppress>false</discoverySuppress>
+      <metadata>
+        <createdDate>2023-10-25T23:01:36.588+00:00</createdDate>
+        <createdByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</createdByUserId>
+        <updatedDate>2023-10-26T09:31:38.423+00:00</updatedDate>
+        <updatedByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</updatedByUserId>
+      </metadata>
+      <effectiveLocation>
+        <id>67ae08e9-89f9-4939-8def-5666cf7bfc3d</id>
+        <name>ZB Lehrbuchsammlung</name>
+        <code>ZBLBS</code>
+        <description>
+          Zentralbibliothek Lehrbuchsammlung BCO 000 und 8201 enthält "LBS"
+        </description>
+        <discoveryDisplayName>25/000-000-12-ZBLBS</discoveryDisplayName>
+        <isActive>true</isActive>
+        <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+        <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+        <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
+        <details/>
+        <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
+        <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
+        <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
+        <servicePointIds>2a7ad6bf-e9e3-4a39-9fbc-2f59cdf5dfff</servicePointIds>
+        <servicePointIds>79178024-ba3f-459b-a0ae-1a62d5ffbe15</servicePointIds>
+        <metadata>
+          <createdDate>2023-10-10T06:21:23.408+00:00</createdDate>
+          <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+          <updatedDate>2024-10-23T09:49:34.939+00:00</updatedDate>
+          <updatedByUserId>0084a796-e145-4e72-a0d2-f07298b6cdf3</updatedByUserId>
+        </metadata>
+      </effectiveLocation>
+      <items>
+        <item>
+          <id>9182ada5-17c7-47a1-a1a7-268a15fd0f89</id>
+          <_version>2</_version>
+          <hrid>614798612-1</hrid>
+          <holdingsRecordId>5fef6fdb-c8c0-4ab6-afe7-4f2f24522f05</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <barcode>12069858</barcode>
+          <effectiveShelvingOrder>222 E 3661 11</effectiveShelvingOrder>
+          <effectiveCallNumberComponents>
+            <callNumber>22E 661</callNumber>
+          </effectiveCallNumberComponents>
+          <copyNumber>1</copyNumber>
+          <status>
+            <name>Available</name>
+            <date>2023-10-25T23:01:36.765+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</permanentLoanTypeId>
+          <effectiveLocationId>67ae08e9-89f9-4939-8def-5666cf7bfc3d</effectiveLocationId>
+          <metadata>
+            <createdDate>2023-10-25T23:01:36.766+00:00</createdDate>
+            <createdByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</createdByUserId>
+            <updatedDate>2023-10-26T09:31:38.467+00:00</updatedDate>
+            <updatedByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>67ae08e9-89f9-4939-8def-5666cf7bfc3d</id>
+            <name>ZB Lehrbuchsammlung</name>
+            <code>ZBLBS</code>
+            <description>
+              Zentralbibliothek Lehrbuchsammlung BCO 000 und 8201 enthält "LBS"
+            </description>
+            <discoveryDisplayName>25/000-000-12-ZBLBS</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+            <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+            <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
+            <details/>
+            <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
+            <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
+            <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
+            <servicePointIds>2a7ad6bf-e9e3-4a39-9fbc-2f59cdf5dfff</servicePointIds>
+            <servicePointIds>79178024-ba3f-459b-a0ae-1a62d5ffbe15</servicePointIds>
+            <metadata>
+              <createdDate>2023-10-10T06:21:23.408+00:00</createdDate>
+              <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+              <updatedDate>2024-10-23T09:49:34.939+00:00</updatedDate>
+              <updatedByUserId>0084a796-e145-4e72-a0d2-f07298b6cdf3</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
+            <name>c Lehrbuchsammlung</name>
+            <metadata>
+              <createdDate>2023-10-16T06:06:33.097+00:00</createdDate>
+              <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+              <updatedDate>2023-10-16T06:06:33.097+00:00</updatedDate>
+              <updatedByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
+        <item>
+          <id>0a890031-5051-4a8f-8a6c-95750fa8bff7</id>
+          <_version>2</_version>
+          <hrid>614798612-2</hrid>
+          <holdingsRecordId>5fef6fdb-c8c0-4ab6-afe7-4f2f24522f05</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <barcode>12069860</barcode>
+          <effectiveShelvingOrder>222 E 3661 12</effectiveShelvingOrder>
+          <effectiveCallNumberComponents>
+            <callNumber>22E 661</callNumber>
+          </effectiveCallNumberComponents>
+          <copyNumber>2</copyNumber>
+          <status>
+            <name>Available</name>
+            <date>2023-10-25T23:01:36.765+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</permanentLoanTypeId>
+          <effectiveLocationId>67ae08e9-89f9-4939-8def-5666cf7bfc3d</effectiveLocationId>
+          <metadata>
+            <createdDate>2023-10-25T23:01:36.766+00:00</createdDate>
+            <createdByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</createdByUserId>
+            <updatedDate>2023-10-26T09:31:38.467+00:00</updatedDate>
+            <updatedByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>67ae08e9-89f9-4939-8def-5666cf7bfc3d</id>
+            <name>ZB Lehrbuchsammlung</name>
+            <code>ZBLBS</code>
+            <description>
+              Zentralbibliothek Lehrbuchsammlung BCO 000 und 8201 enthält "LBS"
+            </description>
+            <discoveryDisplayName>25/000-000-12-ZBLBS</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+            <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+            <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
+            <details/>
+            <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
+            <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
+            <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
+            <servicePointIds>2a7ad6bf-e9e3-4a39-9fbc-2f59cdf5dfff</servicePointIds>
+            <servicePointIds>79178024-ba3f-459b-a0ae-1a62d5ffbe15</servicePointIds>
+            <metadata>
+              <createdDate>2023-10-10T06:21:23.408+00:00</createdDate>
+              <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+              <updatedDate>2024-10-23T09:49:34.939+00:00</updatedDate>
+              <updatedByUserId>0084a796-e145-4e72-a0d2-f07298b6cdf3</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
+            <name>c Lehrbuchsammlung</name>
+            <metadata>
+              <createdDate>2023-10-16T06:06:33.097+00:00</createdDate>
+              <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+              <updatedDate>2023-10-16T06:06:33.097+00:00</updatedDate>
+              <updatedByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
+        <item>
+          <id>fef63317-d32a-4157-9257-b52ebc847368</id>
+          <_version>2</_version>
+          <hrid>614798612-3</hrid>
+          <holdingsRecordId>5fef6fdb-c8c0-4ab6-afe7-4f2f24522f05</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <barcode>12069871</barcode>
+          <effectiveShelvingOrder>222 E 3661 13</effectiveShelvingOrder>
+          <effectiveCallNumberComponents>
+            <callNumber>22E 661</callNumber>
+          </effectiveCallNumberComponents>
+          <copyNumber>3</copyNumber>
+          <status>
+            <name>Available</name>
+            <date>2023-10-25T23:01:36.765+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</permanentLoanTypeId>
+          <effectiveLocationId>67ae08e9-89f9-4939-8def-5666cf7bfc3d</effectiveLocationId>
+          <metadata>
+            <createdDate>2023-10-25T23:01:36.766+00:00</createdDate>
+            <createdByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</createdByUserId>
+            <updatedDate>2023-10-26T09:31:38.467+00:00</updatedDate>
+            <updatedByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>67ae08e9-89f9-4939-8def-5666cf7bfc3d</id>
+            <name>ZB Lehrbuchsammlung</name>
+            <code>ZBLBS</code>
+            <description>
+              Zentralbibliothek Lehrbuchsammlung BCO 000 und 8201 enthält "LBS"
+            </description>
+            <discoveryDisplayName>25/000-000-12-ZBLBS</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+            <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+            <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
+            <details/>
+            <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
+            <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
+            <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
+            <servicePointIds>2a7ad6bf-e9e3-4a39-9fbc-2f59cdf5dfff</servicePointIds>
+            <servicePointIds>79178024-ba3f-459b-a0ae-1a62d5ffbe15</servicePointIds>
+            <metadata>
+              <createdDate>2023-10-10T06:21:23.408+00:00</createdDate>
+              <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+              <updatedDate>2024-10-23T09:49:34.939+00:00</updatedDate>
+              <updatedByUserId>0084a796-e145-4e72-a0d2-f07298b6cdf3</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
+            <name>c Lehrbuchsammlung</name>
+            <metadata>
+              <createdDate>2023-10-16T06:06:33.097+00:00</createdDate>
+              <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+              <updatedDate>2023-10-16T06:06:33.097+00:00</updatedDate>
+              <updatedByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
+        <item>
+          <id>56ed8da6-a35e-4945-9e2e-57b493167481</id>
+          <_version>2</_version>
+          <hrid>614798612-4</hrid>
+          <holdingsRecordId>5fef6fdb-c8c0-4ab6-afe7-4f2f24522f05</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <barcode>12069913</barcode>
+          <effectiveShelvingOrder>222 E 3661 14</effectiveShelvingOrder>
+          <effectiveCallNumberComponents>
+            <callNumber>22E 661</callNumber>
+          </effectiveCallNumberComponents>
+          <copyNumber>4</copyNumber>
+          <status>
+            <name>Available</name>
+            <date>2023-10-25T23:01:36.765+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</permanentLoanTypeId>
+          <effectiveLocationId>67ae08e9-89f9-4939-8def-5666cf7bfc3d</effectiveLocationId>
+          <metadata>
+            <createdDate>2023-10-25T23:01:36.766+00:00</createdDate>
+            <createdByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</createdByUserId>
+            <updatedDate>2023-10-26T09:31:38.467+00:00</updatedDate>
+            <updatedByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>67ae08e9-89f9-4939-8def-5666cf7bfc3d</id>
+            <name>ZB Lehrbuchsammlung</name>
+            <code>ZBLBS</code>
+            <description>
+              Zentralbibliothek Lehrbuchsammlung BCO 000 und 8201 enthält "LBS"
+            </description>
+            <discoveryDisplayName>25/000-000-12-ZBLBS</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+            <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+            <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
+            <details/>
+            <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
+            <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
+            <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
+            <servicePointIds>2a7ad6bf-e9e3-4a39-9fbc-2f59cdf5dfff</servicePointIds>
+            <servicePointIds>79178024-ba3f-459b-a0ae-1a62d5ffbe15</servicePointIds>
+            <metadata>
+              <createdDate>2023-10-10T06:21:23.408+00:00</createdDate>
+              <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+              <updatedDate>2024-10-23T09:49:34.939+00:00</updatedDate>
+              <updatedByUserId>0084a796-e145-4e72-a0d2-f07298b6cdf3</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
+            <name>c Lehrbuchsammlung</name>
+            <metadata>
+              <createdDate>2023-10-16T06:06:33.097+00:00</createdDate>
+              <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+              <updatedDate>2023-10-16T06:06:33.097+00:00</updatedDate>
+              <updatedByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
+      </items>
+    </holding>
+    <holding>
+      <id>d19470fc-c125-4452-9f3d-d196f90f11dd</id>
+      <_version>2</_version>
+      <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
+      <hrid>510930638</hrid>
+      <holdingsTypeId>0c422f92-0f4d-4d32-8cbe-390ebc33a3e5</holdingsTypeId>
+      <instanceId>0750da88-e84c-4e76-9919-10262340b67f</instanceId>
+      <permanentLocationId>e8d099fb-53ce-4042-8824-35fb49ef42e0</permanentLocationId>
+      <effectiveLocationId>e8d099fb-53ce-4042-8824-35fb49ef42e0</effectiveLocationId>
+      <callNumber>IX 1 b - 1961</callNumber>
+      <notes>
+        <holdingsNoteTypeId>7cad8584-35f9-4ea7-8944-11bcf40ff29c</holdingsNoteTypeId>
+        <note>07.03.23 16:35</note>
+        <staffOnly>true</staffOnly>
+      </notes>
+      <discoverySuppress>false</discoverySuppress>
+      <metadata>
+        <createdDate>2023-10-25T23:01:36.588+00:00</createdDate>
+        <createdByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</createdByUserId>
+        <updatedDate>2023-10-26T09:31:38.423+00:00</updatedDate>
+        <updatedByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</updatedByUserId>
+      </metadata>
+      <effectiveLocation>
+        <id>e8d099fb-53ce-4042-8824-35fb49ef42e0</id>
+        <name>Philosophicum, Philosophie</name>
+        <code>PHPHI</code>
+        <description>BB Philosophicum, Philosophie BCO 058</description>
+        <discoveryDisplayName>25/004-058-PHPHI</discoveryDisplayName>
+        <isActive>true</isActive>
+        <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+        <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+        <libraryId>147cd2f9-32b1-47cf-a8c3-fde78b2bfeaf</libraryId>
+        <details/>
+        <primaryServicePoint>b3cd1e37-f95f-4dd3-b6bb-b754784e9fad</primaryServicePoint>
+        <servicePointIds>b3cd1e37-f95f-4dd3-b6bb-b754784e9fad</servicePointIds>
+        <servicePointIds>296d41ab-5477-4cae-8468-fab9c79c1887</servicePointIds>
+        <metadata>
+          <createdDate>2023-10-10T06:21:20.706+00:00</createdDate>
+          <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+          <updatedDate>2024-10-23T09:31:20.636+00:00</updatedDate>
+          <updatedByUserId>0084a796-e145-4e72-a0d2-f07298b6cdf3</updatedByUserId>
+        </metadata>
+      </effectiveLocation>
+      <items>
+        <item>
+          <id>fc14cf27-44ac-47b5-899b-a16ddcfd67b8</id>
+          <_version>2</_version>
+          <hrid>510930638-1</hrid>
+          <holdingsRecordId>d19470fc-c125-4452-9f3d-d196f90f11dd</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <accessionNumber>407/2007</accessionNumber>
+          <barcode>70754509</barcode>
+          <effectiveShelvingOrder>IX 1 b - 1961</effectiveShelvingOrder>
+          <effectiveCallNumberComponents>
+            <callNumber>IX 1 b - 1961</callNumber>
+          </effectiveCallNumberComponents>
+          <status>
+            <name>Available</name>
+            <date>2023-10-25T23:01:36.765+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>31c550e8-86b7-4674-bab0-7011ba94148e</permanentLoanTypeId>
+          <effectiveLocationId>e8d099fb-53ce-4042-8824-35fb49ef42e0</effectiveLocationId>
+          <metadata>
+            <createdDate>2023-10-25T23:01:36.766+00:00</createdDate>
+            <createdByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</createdByUserId>
+            <updatedDate>2023-10-26T09:31:38.467+00:00</updatedDate>
+            <updatedByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>e8d099fb-53ce-4042-8824-35fb49ef42e0</id>
+            <name>Philosophicum, Philosophie</name>
+            <code>PHPHI</code>
+            <description>BB Philosophicum, Philosophie BCO 058</description>
+            <discoveryDisplayName>25/004-058-PHPHI</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+            <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+            <libraryId>147cd2f9-32b1-47cf-a8c3-fde78b2bfeaf</libraryId>
+            <details/>
+            <primaryServicePoint>b3cd1e37-f95f-4dd3-b6bb-b754784e9fad</primaryServicePoint>
+            <servicePointIds>b3cd1e37-f95f-4dd3-b6bb-b754784e9fad</servicePointIds>
+            <servicePointIds>296d41ab-5477-4cae-8468-fab9c79c1887</servicePointIds>
+            <metadata>
+              <createdDate>2023-10-10T06:21:20.706+00:00</createdDate>
+              <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+              <updatedDate>2024-10-23T09:31:20.636+00:00</updatedDate>
+              <updatedByUserId>0084a796-e145-4e72-a0d2-f07298b6cdf3</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>31c550e8-86b7-4674-bab0-7011ba94148e</id>
+            <name>d ausleihbar (keine Fernleihe)</name>
+            <metadata>
+              <createdDate>2023-10-16T06:06:33.224+00:00</createdDate>
+              <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+              <updatedDate>2024-07-17T11:25:34.364+00:00</updatedDate>
+              <updatedByUserId>3a080fc8-98b0-4847-8504-b2cf015c75fd</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
+      </items>
+    </holding>
+    <holding>
+      <id>195e60b9-3592-4630-b490-27a09a4e6e73</id>
+      <_version>2</_version>
+      <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
+      <hrid>730127729</hrid>
+      <holdingsTypeId>0c422f92-0f4d-4d32-8cbe-390ebc33a3e5</holdingsTypeId>
+      <instanceId>0750da88-e84c-4e76-9919-10262340b67f</instanceId>
+      <permanentLocationId>67ae08e9-89f9-4939-8def-5666cf7bfc3d</permanentLocationId>
+      <effectiveLocationId>67ae08e9-89f9-4939-8def-5666cf7bfc3d</effectiveLocationId>
+      <callNumber>22E 661</callNumber>
+      <notes>
+        <holdingsNoteTypeId>7cad8584-35f9-4ea7-8944-11bcf40ff29c</holdingsNoteTypeId>
+        <note>02.04.14 23:56</note>
+        <staffOnly>true</staffOnly>
+      </notes>
+      <discoverySuppress>false</discoverySuppress>
+      <metadata>
+        <createdDate>2023-10-25T23:01:36.588+00:00</createdDate>
+        <createdByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</createdByUserId>
+        <updatedDate>2023-10-26T09:31:38.423+00:00</updatedDate>
+        <updatedByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</updatedByUserId>
+      </metadata>
+      <effectiveLocation>
+        <id>67ae08e9-89f9-4939-8def-5666cf7bfc3d</id>
+        <name>ZB Lehrbuchsammlung</name>
+        <code>ZBLBS</code>
+        <description>
+          Zentralbibliothek Lehrbuchsammlung BCO 000 und 8201 enthält "LBS"
+        </description>
+        <discoveryDisplayName>25/000-000-12-ZBLBS</discoveryDisplayName>
+        <isActive>true</isActive>
+        <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+        <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+        <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
+        <details/>
+        <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
+        <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
+        <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
+        <servicePointIds>2a7ad6bf-e9e3-4a39-9fbc-2f59cdf5dfff</servicePointIds>
+        <servicePointIds>79178024-ba3f-459b-a0ae-1a62d5ffbe15</servicePointIds>
+        <metadata>
+          <createdDate>2023-10-10T06:21:23.408+00:00</createdDate>
+          <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+          <updatedDate>2024-10-23T09:49:34.939+00:00</updatedDate>
+          <updatedByUserId>0084a796-e145-4e72-a0d2-f07298b6cdf3</updatedByUserId>
+        </metadata>
+      </effectiveLocation>
+      <items>
+        <item>
+          <id>b69c3a0a-0003-4850-b010-862f566a255d</id>
+          <_version>2</_version>
+          <hrid>730127729-1</hrid>
+          <holdingsRecordId>195e60b9-3592-4630-b490-27a09a4e6e73</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <barcode>14217566</barcode>
+          <effectiveShelvingOrder>222 E 3661 11</effectiveShelvingOrder>
+          <effectiveCallNumberComponents>
+            <callNumber>22E 661</callNumber>
+          </effectiveCallNumberComponents>
+          <copyNumber>1</copyNumber>
+          <status>
+            <name>Available</name>
+            <date>2023-10-25T23:01:36.765+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</permanentLoanTypeId>
+          <effectiveLocationId>67ae08e9-89f9-4939-8def-5666cf7bfc3d</effectiveLocationId>
+          <metadata>
+            <createdDate>2023-10-25T23:01:36.766+00:00</createdDate>
+            <createdByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</createdByUserId>
+            <updatedDate>2023-10-26T09:31:38.467+00:00</updatedDate>
+            <updatedByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>67ae08e9-89f9-4939-8def-5666cf7bfc3d</id>
+            <name>ZB Lehrbuchsammlung</name>
+            <code>ZBLBS</code>
+            <description>
+              Zentralbibliothek Lehrbuchsammlung BCO 000 und 8201 enthält "LBS"
+            </description>
+            <discoveryDisplayName>25/000-000-12-ZBLBS</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+            <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+            <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
+            <details/>
+            <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
+            <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
+            <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
+            <servicePointIds>2a7ad6bf-e9e3-4a39-9fbc-2f59cdf5dfff</servicePointIds>
+            <servicePointIds>79178024-ba3f-459b-a0ae-1a62d5ffbe15</servicePointIds>
+            <metadata>
+              <createdDate>2023-10-10T06:21:23.408+00:00</createdDate>
+              <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+              <updatedDate>2024-10-23T09:49:34.939+00:00</updatedDate>
+              <updatedByUserId>0084a796-e145-4e72-a0d2-f07298b6cdf3</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
+            <name>c Lehrbuchsammlung</name>
+            <metadata>
+              <createdDate>2023-10-16T06:06:33.097+00:00</createdDate>
+              <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+              <updatedDate>2023-10-16T06:06:33.097+00:00</updatedDate>
+              <updatedByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
+        <item>
+          <id>065a7924-702c-4fd1-8a95-360d31a61d42</id>
+          <_version>2</_version>
+          <hrid>730127729-2</hrid>
+          <holdingsRecordId>195e60b9-3592-4630-b490-27a09a4e6e73</holdingsRecordId>
+          <discoverySuppress>false</discoverySuppress>
+          <barcode>14217554</barcode>
+          <effectiveShelvingOrder>222 E 3661 12</effectiveShelvingOrder>
+          <effectiveCallNumberComponents>
+            <callNumber>22E 661</callNumber>
+          </effectiveCallNumberComponents>
+          <copyNumber>2</copyNumber>
+          <status>
+            <name>Available</name>
+            <date>2023-10-25T23:01:36.765+00:00</date>
+          </status>
+          <materialTypeId>24080190-7539-4520-bde1-762f57d006fc</materialTypeId>
+          <permanentLoanTypeId>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</permanentLoanTypeId>
+          <effectiveLocationId>67ae08e9-89f9-4939-8def-5666cf7bfc3d</effectiveLocationId>
+          <metadata>
+            <createdDate>2023-10-25T23:01:36.766+00:00</createdDate>
+            <createdByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</createdByUserId>
+            <updatedDate>2023-10-26T09:31:38.467+00:00</updatedDate>
+            <updatedByUserId>fcf889a9-fa72-4d03-a562-db3e51285c66</updatedByUserId>
+          </metadata>
+          <effectiveLocation>
+            <id>67ae08e9-89f9-4939-8def-5666cf7bfc3d</id>
+            <name>ZB Lehrbuchsammlung</name>
+            <code>ZBLBS</code>
+            <description>
+              Zentralbibliothek Lehrbuchsammlung BCO 000 und 8201 enthält "LBS"
+            </description>
+            <discoveryDisplayName>25/000-000-12-ZBLBS</discoveryDisplayName>
+            <isActive>true</isActive>
+            <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
+            <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
+            <libraryId>26aa1666-6d00-4221-bcf0-65f0ab963e98</libraryId>
+            <details/>
+            <primaryServicePoint>05ab989a-5104-4c6c-a5d1-d55e80e4637d</primaryServicePoint>
+            <servicePointIds>05ab989a-5104-4c6c-a5d1-d55e80e4637d</servicePointIds>
+            <servicePointIds>dc1df8ec-56e0-4540-8986-5ddb6e65eeff</servicePointIds>
+            <servicePointIds>2a7ad6bf-e9e3-4a39-9fbc-2f59cdf5dfff</servicePointIds>
+            <servicePointIds>79178024-ba3f-459b-a0ae-1a62d5ffbe15</servicePointIds>
+            <metadata>
+              <createdDate>2023-10-10T06:21:23.408+00:00</createdDate>
+              <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+              <updatedDate>2024-10-23T09:49:34.939+00:00</updatedDate>
+              <updatedByUserId>0084a796-e145-4e72-a0d2-f07298b6cdf3</updatedByUserId>
+            </metadata>
+          </effectiveLocation>
+          <permanentLoanType>
+            <id>d1ba00c9-3f08-4df9-9d70-c7e1ab3b1702</id>
+            <name>c Lehrbuchsammlung</name>
+            <metadata>
+              <createdDate>2023-10-16T06:06:33.097+00:00</createdDate>
+              <createdByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</createdByUserId>
+              <updatedDate>2023-10-16T06:06:33.097+00:00</updatedDate>
+              <updatedByUserId>c4a1d9a7-e86b-4f73-bb22-0ffb6f536857</updatedByUserId>
+            </metadata>
+          </permanentLoanType>
+        </item>
+      </items>
+    </holding>
+  </holdings>
+</instanceData>
 </root>
