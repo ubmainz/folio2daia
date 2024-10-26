@@ -522,7 +522,7 @@
     <!-- TBD volume, displaySummary -->
 
     <xsl:template match="status[name(..)='item']"> <!-- Trigger für Status (als immer eindeutig vorhanden vorausgesetzt) für Status und Ausleihindikator - emuliert LBS -->
-        <xsl:variable select="substring(($bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/ind,../permanentLoanType/name)[1],1,1)" name="ind"/> <!-- + temp loan type ? -->
+        <xsl:variable select="substring(($bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/ind,../temporaryLoanType/name,../permanentLoanType/name)[1],1,1)" name="ind"/> <!-- + temp loan type ? -->
         <xsl:variable name="result">
             <xsl:variable name="emulator">
                 <status name='Aged to lost'/>

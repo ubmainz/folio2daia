@@ -1785,8 +1785,9 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek ofn
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=22E%20661&c2=25%2F000-000-12-ZBLBS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 611274884-611274884-1 ofniAIAD
 DAIAinfo sig PHILOS D 81/05 ofniAIAD
-DAIAinfo aus_status nicht vormerkbar ofniAIAD
-DAIAinfo aus_ind c Lehrbuchsammlung ofniAIAD
+DAIAinfo aus_status vormerkbar ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek ofniAIAD
