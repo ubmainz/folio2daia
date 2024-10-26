@@ -476,7 +476,7 @@
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">abt_name</xsl:with-param>
             <xsl:with-param name="value">
-                <xsl:call-template name="selectlanguage"><xsl:with-param name="fields" select="$bbtabelle/e[c=current()]/n"/></xsl:call-template>
+                <xsl:call-template name="selectlanguage"><xsl:with-param name="fields" select="$bbtabelle/e[c=normalize-space(current())]/n"/></xsl:call-template>
             </xsl:with-param>
         </xsl:call-template>
         <xsl:call-template name="DAIA">
