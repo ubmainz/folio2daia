@@ -41,6 +41,7 @@
         </e>
         <e>
             <c>ILN204/CG/UB/UBSemapp</c>
+            <ind>g nicht_ausleihbar</ind>
             <n xml:lang="de">Universitätsbibliothek (UB), Otto-Behaghel-Str. 8</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000</url>
             <map linktype="semapp"/>
@@ -280,6 +281,7 @@
         </e>
         <e>
             <c>ILN204/CG/ZHB/ZHBSemapp</c>
+            <ind>g nicht_ausleihbar</ind>
             <n xml:lang="de">Zeughausbibl.; Senckenbergstr. 3, Erdgeschoss</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=005</url>
             <map linktype="semapp"/>
@@ -331,6 +333,7 @@
         </e>
         <e>
             <c>ILN204/CG/ZP2/ZP2Semapp</c>
+            <ind>g nicht_ausleihbar</ind>
             <n xml:lang="de">ZwBibl. im Phil. II F</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=009</url>
             <map linktype="semapp"/>
@@ -460,6 +463,7 @@
         </e>
         <e>
             <c>ILN204/CG/ZRW/ZRWSemapp</c>
+            <ind>g nicht_ausleihbar</ind>
             <n xml:lang="de">ZwBibl. Recht und Wirtschaft, Licher Str. 68</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=010</url>
             <map linktype="semapp"/>
@@ -1052,10 +1056,13 @@
                 <xsl:with-param name="tag">aus_ind</xsl:with-param>
                 <xsl:with-param name="value" select="'x online'"/>
             </xsl:call-template>
-            <xsl:call-template name="DAIA">
-                <xsl:with-param name="tag">aus_status</xsl:with-param>
-                <xsl:with-param name="value" select="'frei'"/>
-            </xsl:call-template>            
+            <xsl:if test="notes[holdingsNoteTypeId = 'd1d99196-8904-4b2e-9125-9f7bbbf54cc1' and
+                                note = '0']">
+                <xsl:call-template name="DAIA">
+                    <xsl:with-param name="tag">aus_status</xsl:with-param>
+                    <xsl:with-param name="value" select="'frei'"/>
+                </xsl:call-template>            
+            </xsl:if>
         </xsl:for-each>
         <xsl:for-each
             select="holdings/holding[(holdingsTypeId != '996f93e2-5b5e-4cf2-9168-33ced1f95eed') and not(xs:boolean(discoverySuppress))]">
