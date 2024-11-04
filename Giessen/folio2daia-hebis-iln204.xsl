@@ -82,6 +82,11 @@
             <campus>Fachbibliotheken</campus>
         </e>
         <e>
+            <c>ILN204/CG/DezFB/FB-Mathe-Informatik-HAP</c>
+            <n xml:lang="de">Bibl. Mathematik; Arndtstr. 2 </n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=120</url>
+        </e>
+        <e>
             <c>ILN204/CG/DezFB/WiWi-BWL09</c>
             <n xml:lang="de">Wiwi/BWL 9; Licher Str. 70</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=342</url>
@@ -368,6 +373,12 @@
             <campus>Magazin</campus>
         </e>
         <e>
+            <c>ILN204/CG/UB/UBMagZNL</c>
+            <n xml:lang="de">Universitätsbibliothek (UB), Otto-Behaghel-Str. 8</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000</url>
+            <campus>Magazin</campus>
+        </e>
+        <e>
             <c>ILN204/CG/DezFB/WiWi-Statistik-Oekonometrie</c>
             <n xml:lang="de">Wiwi/ Statistik &amp; Oekonometrie; Licher Str. 64</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=341</url>
@@ -378,6 +389,11 @@
             <n xml:lang="de">Bibl. Germanistik; Phil. I B, 2. OG</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=090</url>
             <campus>Fachbibliotheken</campus>
+        </e>
+        <e>
+            <c>ILN204/CG/DezFB/FB-Germanistik-HAP</c>
+            <n xml:lang="de">Bibl. Germanistik; Phil. I B, 2. OG</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=090</url>
         </e>
         <e>
             <c>ILN204/CG/DezFB/DidWerkSpr</c>
@@ -472,6 +488,12 @@
             <c>ILN204/CG/DezFB/FB-Anglistik</c>
             <n xml:lang="de">Bibl. Anglistik; Phil. I B, 3. OG</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=100</url>
+            <campus>Fachbibliotheken</campus>
+        </e>
+        <e>
+            <c>ILN204/CG/DezFB/FB-Anglistik-HAP</c>
+            <n xml:lang="de">Bibl. Anglistik; Phil. I B, 3. OG</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=100</url>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Strahelnschutz</c>
@@ -501,7 +523,7 @@
             <c>ILN204/CG/UB/UBMagPohlheim</c>
             <n xml:lang="de">Universitätsbibliothek (UB), Otto-Behaghel-Str. 8</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000</url>
-            <campus>Fachbibliotheken</campus>
+            <campus>Magazin</campus>
         </e>
         <e>
             <c>ILN204/CG/DezFB/WiWi-BWL10</c>
@@ -542,6 +564,11 @@
             <n xml:lang="de">Bibl. Romanistik; Phil. II G, 2. OG</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=112</url>
             <campus>Fachbibliotheken</campus>
+        </e>
+        <e>
+            <c>ILN204/CG/DezFB/FB-Romanistik-HAP</c>
+            <n xml:lang="de">Bibl. Romanistik; Phil. II G, 2. OG</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=112</url>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Arbeitsmedizin</c>
@@ -1412,7 +1439,7 @@
     </xsl:template>
 
     <xsl:template match="effectiveCallNumberComponents">
-        <xsl:if test="not((callNumber='/') or (callNumber=''))">
+        <xsl:if test="not(callNumber='')">
             <xsl:call-template name="DAIA">
                 <xsl:with-param name="tag">sig</xsl:with-param>
                 <xsl:with-param name="value" select="string-join((prefix, callNumber), ' ')"/>
