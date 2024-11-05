@@ -394,6 +394,7 @@
             <c>ILN204/CG/DezFB/FB-Germanistik-HAP</c>
             <n xml:lang="de">Bibl. Germanistik; Phil. I B, 2. OG</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=090</url>
+            <campus>Fachbibliotheken</campus>
         </e>
         <e>
             <c>ILN204/CG/DezFB/DidWerkSpr</c>
