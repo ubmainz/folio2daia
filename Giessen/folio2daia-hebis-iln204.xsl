@@ -174,6 +174,10 @@
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=950</url>
         </e>
         <e>
+            <c>ILN204/CG/Aufsatz/dodummy</c>
+            <ind>y</ind>
+        </e>
+        <e>
             <c>ILN204/CG/DezFB/WiWi-VWL02</c>
             <n xml:lang="de">Wiwi/VWL 2; Licher Str. 74</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=332</url>
@@ -1186,6 +1190,20 @@
             <xsl:with-param name="value" select="($bbtabelle/e[c = current()]/url, $locationurl)[1]"
             />
         </xsl:call-template>
+        
+        <!-- Ergänzung eines aus_text für den Spezialfall do-Dummy-Aufnahmen -->
+        <xsl:if test=". = 'ILN204/CG/Aufsatz/dodummy'">
+            <xsl:variable name="dodummy-hint-text">
+                <xsl:text>Titel nicht in diesem Katalog nachgewiesen, bitte suchen Sie im &lt;a href=&quot;</xsl:text>
+                <xsl:text>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/LNG=DU/CHARSET=ISO-8859-1/PRS=HOL/CMD?ACT=SRCH&amp;IKT=12&amp;TRM=</xsl:text>
+                <xsl:value-of select="ancestor::instanceData/instance/hrid"/>
+                <xsl:text>&quot;&gt;Hessischen Verbundkatalog&lt;/a&gt;.</xsl:text>
+            </xsl:variable>
+            <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag">aus_text</xsl:with-param>
+                <xsl:with-param name="value" select="$dodummy-hint-text"/>
+            </xsl:call-template>
+        </xsl:if>
     </xsl:template>
 
     <xsl:template match="notes[holdingsNoteTypeId = '013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note">
