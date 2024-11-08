@@ -1,0 +1,6 @@
+
+
+DAIAinfo epn 747636907-747636907 ofniAIAD
+DAIAinfo online_link https://doi.org/10.22029/jlupub-7649 ofniAIAD
+DAIAinfo aus_ind x online ofniAIAD
+DAIAinfo aus_status frei ofniAIAD

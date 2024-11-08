@@ -1075,8 +1075,10 @@
             select="holdings/holding[(holdingsTypeId = '996f93e2-5b5e-4cf2-9168-33ced1f95eed') and not(xs:boolean(discoverySuppress))]">
             <!-- für elektronische Bestände -->
             <!-- evtl. sortieren <xsl:sort select="..."/> -->
-            <!-- MF: EPN vorangegestellt -->     
-            <xsl:apply-templates select="./*|./*/*">
+            <!-- EPN vorangestellt -->
+            <!-- name() != effectiveLocation : Standortangaben ignorieren, um abt_name
+                                               abt_num und abt_link zu unterdrücken -->
+            <xsl:apply-templates select="./*[name() != 'effectiveLocation']|./*[name() != 'effectiveLocation']/*">
                 <xsl:sort select="index-of(('hrid'),name())" order="descending"/>
             </xsl:apply-templates>
             <xsl:call-template name="DAIA">
