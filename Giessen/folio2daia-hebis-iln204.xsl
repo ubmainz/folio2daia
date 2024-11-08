@@ -1277,6 +1277,10 @@
                 <status name="Withdrawn"/>
             </xsl:variable>
             <xsl:variable name="campusubgiessen">
+                <hinweis-ii campus="Magazin">
+                    <h>https://paia.link</h>
+                    <t1 xml:lang="de">&lt;a href='https://magazin.stock'&gt;Magazin&lt;/a&gt;</t1>
+                </hinweis-ii>
                 <hinweis-u campus="Magazin">
                     <h>https://paia.link</h>
                     <t1 xml:lang="de">&lt;a href='https://magazin.stock'&gt;Magazin&lt;/a&gt;</t1>
@@ -1372,7 +1376,9 @@
                     <i>i Lesesaal</i>
                     <t1 xml:lang="de">nur für den Lesesaal</t1>
                     <t1 xml:lang="en">reading room only</t1>
-                    <h>http://localhost:5000/?hrid=<xsl:value-of select="../hrid"/></h>
+                    <xsl:copy-of
+                        select="$campusubgiessen/hinweis-ii[@campus = $bbtabelle/e[c = current()/../effectiveLocation/code]/campus]/*"
+                    />
                 </II>
                 <!-- Fallbehandlung Fachbibliotheken, ind = o -->
                 <XX>
