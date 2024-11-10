@@ -1265,11 +1265,12 @@
     <xsl:template match="status[name(..) = 'item']">
         <!-- Trigger für Status (als immer eindeutig vorhanden vorausgesetzt) für Status und Ausleihindikator - emuliert LBS -->
         <!-- MF: Hier war für Gießen eine Änderung in der substring-Funktion notwendig, da 
-                 der Ausleihindikator bei uns in permanentLoanType/name an der dritten Stelle steht,
+                 der Ausleihindikator bei uns an der dritten Stelle steht,
                  also z.B. "0 u ausleihbar" -->
         <xsl:variable select="
                 ($bbtabelle/e[c = current()/../effectiveLocation/code]/ind,
-                substring(../permanentLoanType/name, 3, 1)
+                 substring(../temporaryLoanType/name, 3, 1),
+                 substring(../permanentLoanType/name, 3, 1)
                 )[1]" name="ind"/>
         <!-- + temp loan type -->
         <xsl:variable name="result">
