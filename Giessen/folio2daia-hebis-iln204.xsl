@@ -1117,7 +1117,7 @@
             </xsl:if>
             <xsl:for-each select="items/item[not(xs:boolean(discoverySuppress))]">
                 <xsl:sort select="(enumeration,chronology)[1]" order="ascending"/>
-                <xsl:sort select="hrid" order="ascending"/>
+                <xsl:sort select="hrid" order="ascending"/>                
                 <xsl:apply-templates select="./*|./*/*|../../notes/note">
                     <xsl:sort select="index-of(('discoveryDisplayName','status','effectiveCallNumberComponents','hrid'),name())" order="descending"/> 
                 </xsl:apply-templates>
@@ -1252,12 +1252,22 @@
     </xsl:template>
 
     <xsl:template match="enumeration | chronology">
-        <xsl:variable name="pos"><xsl:number count="enumeration|chronology"/></xsl:variable>
-        <xsl:if test="$pos=1">
-            <xsl:call-template name="DAIA">
-                <xsl:with-param name="tag">zeit_bestand01</xsl:with-param>
-            </xsl:call-template>
-        </xsl:if>
+        <xsl:choose>
+            <!-- Wenn Art des Inhalts = Zeitschrift -->
+            <xsl:when test="ancestor::instanceData/instance/natureOfContentTermIds = '0abeee3d-8ad2-4b04-92ff-221b4fce1075'">
+                <xsl:variable name="pos"><xsl:number count="enumeration|chronology"/></xsl:variable>
+                <xsl:if test="$pos=1">
+                    <xsl:call-template name="DAIA">
+                        <xsl:with-param name="tag">zeit_bestand01</xsl:with-param>
+                    </xsl:call-template>
+                </xsl:if>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:call-template name="DAIA">
+                    <xsl:with-param name="tag">aus_text</xsl:with-param>
+                </xsl:call-template>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 
     <!-- TBD volume, displaySummary -->
