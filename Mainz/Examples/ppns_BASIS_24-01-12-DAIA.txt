@@ -27,7 +27,7 @@ DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/002-002-20-GFGPUB ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Publizistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=09%20UNI%202&c2=25%2F002-002-20-GFGPUB">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=09%20UNI%202&c1=Publizistik&c2=25%2F002-002-20-GFGPUB">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 361807481-361807481-1 ofniAIAD
 DAIAinfo sig 28 JGUM 4 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -38,7 +38,7 @@ DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/002-002-22-GFGSOZ ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Soziologie ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=28%20JGUM%204&c2=25%2F002-002-22-GFGSOZ">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=28%20JGUM%204&c1=Soziologie&c2=25%2F002-002-22-GFGSOZ">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 072037504-072037504-1 ofniAIAD
 DAIAinfo sig TOP M 80/1a.17 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -337,7 +337,7 @@ DAIAinfo abt_num 25/002-002-10-GFGPÄD ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Erziehungswissenschaft ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude ofniAIAD
 DAIAinfo zeit_bestand01 4.1999/2000(1999) - 5.2001/2002(2000); 10.2007(2006) ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=29%20998&c2=25%2F002-002-10-GFGP%C3%84D">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=29%20998&c1=Erziehungswissenschaft&c2=25%2F002-002-10-GFGP%C3%84D">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 127443576-127443576-1 ofniAIAD
 DAIAinfo sig 92 FOR ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
@@ -348,7 +348,7 @@ DAIAinfo abt_num 25/002-002-20-GFGPUB ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Publizistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude ofniAIAD
 DAIAinfo zeit_bestand01 2.1997 - 3.1998; 5.2001/02(2000) ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=92%20FOR&c2=25%2F002-002-20-GFGPUB">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=92%20FOR&c1=Publizistik&c2=25%2F002-002-20-GFGPUB">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 138047324-138047324-1 ofniAIAD
 DAIAinfo sig A h 18 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -940,7 +940,7 @@ DAIAinfo abt_num 25/002-002-22-GFGSOZ ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Soziologie ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude ofniAIAD
 DAIAinfo zeit_bestand01 2009(2010) ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=28%20BOFA%201%2F2009&c2=25%2F002-002-22-GFGSOZ">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=28%20BOFA%201%2F2009&c1=Soziologie&c2=25%2F002-002-22-GFGSOZ">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 599893117-599893117 ofniAIAD
 DAIAinfo abt_num 25/000-000-10-ZBFREI ofniAIAD
@@ -1136,7 +1136,7 @@ DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/002-002-14-GFGJOUR ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Journalistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Le%2027&c2=25%2F002-002-14-GFGJOUR">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Le%2027&c1=Journalistik&c2=25%2F002-002-14-GFGJOUR">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 638142849-638142849-1 ofniAIAD
 DAIAinfo sig M 10 - H 55 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1231,7 +1231,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/002-002-10-GFGPÄD ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Erziehungswissenschaft ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=HB%2023%20405%2C%2012&c2=25%2F002-002-10-GFGP%C3%84D">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=HB%2023%20405%2C%2012&c1=Erziehungswissenschaft&c2=25%2F002-002-10-GFGP%C3%84D">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 76533139X-76533139X-1 ofniAIAD
 DAIAinfo sig O III - 40 / 12 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -1585,7 +1585,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/002-002-10-GFGPÄD ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Erziehungswissenschaft ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=HB%209056&c2=25%2F002-002-10-GFGP%C3%84D">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=HB%209056&c1=Erziehungswissenschaft&c2=25%2F002-002-10-GFGP%C3%84D">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1174243635-1174243635-1 ofniAIAD
 DAIAinfo sig A a.26/14-4,2 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD

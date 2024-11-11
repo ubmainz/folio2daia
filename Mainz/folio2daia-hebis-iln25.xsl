@@ -47,30 +47,37 @@
         </e>
         <e>
             <c>25/002-002-10-GFGPÄD</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Erziehungswissenschaft</n>
-            <map linktype="mapongo"/><url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
-        </e>
-        <e>
-            <c>25/002-002-12-GFGFILM</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Filmwissenschaft</n><map linktype="mapongo"/>
+            <map linktype="mapongo" defaultlocationtext="Erziehungswissenschaft"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
         </e>
         <e>
-            <c>25/002-002-14-GFGJOUR</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Journalistik</n><map linktype="mapongo"/>
+            <c>25/002-002-12-GFGFILM</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Filmwissenschaft</n>
+            <map linktype="mapongo" defaultlocationtext="Filmwissenschaft"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
         </e>
         <e>
-            <c>25/002-002-16-GFGPOL</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Politikwissenschaft</n><map linktype="mapongo"/>
+            <c>25/002-002-14-GFGJOUR</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Journalistik</n>
+            <map linktype="mapongo" defaultlocationtext="Journalistik"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
         </e>
         <e>
-            <c>25/002-002-18-GFGPSYCH</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Psychologie</n><map linktype="mapongo"/>
+            <c>25/002-002-16-GFGPOL</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Politikwissenschaft</n>
+            <map linktype="mapongo" defaultlocationtext="Politikwissenschaft"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
         </e>
         <e>
-            <c>25/002-002-20-GFGPUB</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Publizistik</n><map linktype="mapongo"/>
+            <c>25/002-002-18-GFGPSYCH</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Psychologie</n>
+            <map linktype="mapongo" defaultlocationtext="Psychologie"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
         </e>
         <e>
-            <c>25/002-002-22-GFGSOZ</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Soziologie</n><map linktype="mapongo"/>
+            <c>25/002-002-20-GFGPUB</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Publizistik</n>
+            <map linktype="mapongo" defaultlocationtext="Publizistik"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
+        </e>
+        <e>
+            <c>25/002-002-22-GFGSOZ</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Soziologie</n>
+            <map linktype="mapongo" defaultlocationtext="Soziologie"></map>
             <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
         </e>
         <e>
