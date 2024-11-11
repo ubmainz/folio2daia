@@ -41,7 +41,7 @@
         </e>
         <e>
             <c>ILN204/CG/UB/UBSemapp</c>
-            <ind>g nicht_ausleihbar</ind>
+            <ind>9 g nicht_ausleihbar</ind>
             <n xml:lang="de">Universitätsbibliothek (UB), Otto-Behaghel-Str. 8</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000</url>
             <map linktype="semapp"/>
@@ -170,7 +170,7 @@
         <e>
             <c>ILN204/CG/Aufsatz/Aufsatzkatalogisate</c>
             <n xml:lang="de">Standort / Signatur siehe Link weiter oben hinter "Erschienen in:"</n>
-            <ind>y</ind>
+            <ind>9 y unbekannt</ind>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=950</url>
         </e>
         <e>
@@ -1277,11 +1277,10 @@
         <!-- MF: Hier war für Gießen eine Änderung in der substring-Funktion notwendig, da 
                  der Ausleihindikator bei uns an der dritten Stelle steht,
                  also z.B. "0 u ausleihbar" -->
-        <xsl:variable select="
-                ($bbtabelle/e[c = current()/../effectiveLocation/code]/ind,
-                 substring(../temporaryLoanType/name, 3, 1),
-                 substring(../permanentLoanType/name, 3, 1)
-                )[1]" name="ind"/>
+        <xsl:variable select="substring(
+                               ($bbtabelle/e[c = current()/../effectiveLocation/code]/ind,
+                                ../temporaryLoanType/name, ../permanentLoanType/name)[1],
+                              3, 1)" name="ind"/>
         <!-- + temp loan type -->
         <xsl:variable name="result">
             <xsl:variable name="emulator">

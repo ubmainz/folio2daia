@@ -1,0 +1,531 @@
+
+
+DAIAinfo epn 1057805718-1057805718-1 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-10 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-11 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-12 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-13 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-14 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-15 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-16 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-17 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-18 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-19 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-2 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-20 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-21 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-22 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-23 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-24 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-25 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-26 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-27 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-28 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-29 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-3 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-30 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-31 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-32 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-33 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-34 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-35 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-36 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-37 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-38 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-39 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-4 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-40 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-41 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-42 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-43 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-44 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-45 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-46 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-47 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-48 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-49 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-5 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-50 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-51 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-52 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-53 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-54 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-55 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-56 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-57 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-58 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-59 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-6 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-60 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-61 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-62 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-7 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-8 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1057805718-1057805718-9 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl., (1.-62.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%2C%20%281.-62.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1150695528-1150695528-1 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl. (63.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/Freihand2OG ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&s=002%20che%20At%200.901%2C%2013.Aufl.%20%2863.Ex.%29"><img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="Standort in der Bibliothek anzeigen" src="https://opac.uni-giessen.de/static/img_psi/2.0/gui/bibmaplink.png"/><b>Standort in der Bibliothek anzeigen</b></a> ofniAIAD
+DAIAinfo epn 1220225436-1220225436-1 ofniAIAD
+DAIAinfo sig MAG 002 che At 0.901, 13.Aufl. (64.Ex.) ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/UBMagZNL ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
+DAIAinfo epn 1065506872-1065506872-1 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl. ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo standort <b>Standort:</b> <a target="_blank" href="https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/hap?hap=hap10911272">Prof. Schetelig, Inst. f. Insektenbiotechnologie, Winchesterstr.
+            2</a> ofniAIAD
+DAIAinfo abt_num ILN204/CG/ZNL/Handapparate ofniAIAD
+DAIAinfo abt_name ZwBibl. Natur- u. Lebenswiss. (ZNL); Heinrich-Buff-Ring 58, 5. OG ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=002 ofniAIAD
+DAIAinfo epn 1082566543-1082566543-1 ofniAIAD
+DAIAinfo sig 002 che At 0.901, 13.Aufl. ofniAIAD
+DAIAinfo aus_status unbekannt ofniAIAD
+DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
+DAIAinfo standort <b>Standort:</b> <a target="_blank" href="https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/hap?hap=hap10920370">Prof. Eder, Inst. f. Tiernaehrung u. Ernährungsphysiol.,
+            IFZ</a> ofniAIAD
+DAIAinfo abt_num ILN204/CG/ZNL/Handapparate ofniAIAD
+DAIAinfo abt_name ZwBibl. Natur- u. Lebenswiss. (ZNL); Heinrich-Buff-Ring 58, 5. OG ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=002 ofniAIAD
