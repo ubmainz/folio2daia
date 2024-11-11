@@ -12,7 +12,8 @@
          ind : [optional] Ausleihindikator, überschreibt für diesen Standort den Wert, der aus FOLIO kommt
          url : [optional] URL für den Nutzer mit Infomationen für den Nutzer (z.B. Normdatensatz), default siehe oben
          map : [optional, wiederholbar] mit linktype="mapongo" oder linktype="bibmap", z.B. <map linktype="mapongo"/> 
-                oder (ggf. linktype überschreibend) mit url="http...", z.B. <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/> 
+                oder (ggf. linktype überschreibend) mit url="http...", z.B. <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/>
+                Weiteres optionales Attribut defaultlocationtext als ersatz für die 8201, z.B. <map linktype="mapongo" defaultlocationtext="USA BIBL"/>
          campus : [optional] Campus Germersheim ("cg") oder Campus Mainz ("cm" bzw. "cz") für campusübergreifende Ausleihe UB Mainz, "cz" auch für Unimedizin -->
     <xsl:variable name="bbtabelle">
         <e>
@@ -94,7 +95,7 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
         </e>
         <e>
-            <c>25/002-126-GFGUSA</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, USA-Bibliothek</n><map linktype="mapongo"/>
+            <c>25/002-126-GFGUSA</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, USA-Bibliothek</n><map linktype="mapongo" defaultlocationtext="USA BIBL"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
         </e>
         <e>
@@ -679,10 +680,16 @@
         <xsl:variable name="mapongopar">
             <xsl:text>https://ub-mainz.mapongo.de/viewer?p=1&amp;s=</xsl:text>
             <xsl:value-of select="encode-for-uri(string-join((effectiveCallNumberComponents/prefix,effectiveCallNumberComponents/callNumber),' '))"/>
-            <xsl:if test="../../notes[holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note">
-                <xsl:text>&amp;c1=</xsl:text> <!-- c1: "8201" -->
-                <xsl:value-of select="encode-for-uri(../../notes[holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note)"/>
-            </xsl:if>
+            <xsl:choose>
+                <xsl:when test="../../notes[holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note">
+                    <xsl:text>&amp;c1=</xsl:text> <!-- c1: "8201" -->
+                    <xsl:value-of select="encode-for-uri(../../notes[holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note)"/>
+                </xsl:when>
+                <xsl:when test="$bbtabelle/e[c=current()/effectiveLocation/discoveryDisplayName]/map/@defaultlocationtext">
+                    <xsl:text>&amp;c1=</xsl:text>
+                    <xsl:value-of select="encode-for-uri($bbtabelle/e[c=current()/effectiveLocation/discoveryDisplayName]/map/@defaultlocationtext)"/>
+                </xsl:when>                
+            </xsl:choose>
             <xsl:text>&amp;c2=</xsl:text> <!-- c2:location -->
             <xsl:value-of select="encode-for-uri(effectiveLocation/discoveryDisplayName)"/>
         </xsl:variable>
