@@ -21,7 +21,7 @@ DAIAinfo epn 072195827-072195827-1 ofniAIAD
 DAIAinfo sig 09 UNI 2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/002-002-20-GFGPUB ofniAIAD
@@ -32,7 +32,7 @@ DAIAinfo epn 361807481-361807481-1 ofniAIAD
 DAIAinfo sig 28 JGUM 4 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/002-002-22-GFGSOZ ofniAIAD
@@ -43,7 +43,7 @@ DAIAinfo epn 072037504-072037504-1 ofniAIAD
 DAIAinfo sig TOP M 80/1a.17 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/002-079-GFGKUN ofniAIAD
@@ -54,7 +54,7 @@ DAIAinfo epn 072195924-072195924-1 ofniAIAD
 DAIAinfo sig var 579 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-077-PHKLP ofniAIAD
@@ -77,7 +77,7 @@ DAIAinfo epn 306254212-306254212-1 ofniAIAD
 DAIAinfo sig A 37 c 3 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
@@ -89,7 +89,7 @@ DAIAinfo epn 076191818-076191818-1 ofniAIAD
 DAIAinfo sig Af 123 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
@@ -237,7 +237,7 @@ DAIAinfo zeit_bestand01 1899   ofniAIAD
 DAIAinfo epn 074678310-074678310-1 ofniAIAD
 DAIAinfo sig Pc-Pomm. 5 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://libserv.ub.uni-mainz.de/request?hrid=074678310-1&lng=de ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
@@ -330,7 +330,7 @@ DAIAinfo aus_text BASIS DAIA ofniAIAD
 DAIAinfo epn 142907898-142907898-1 ofniAIAD
 DAIAinfo sig 29 998 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://libserv.ub.uni-mainz.de/request?hrid=142907898-1&lng=de ofniAIAD
 DAIAinfo abt_num 25/002-002-10-GFGPÄD ofniAIAD
@@ -341,7 +341,7 @@ DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=
 DAIAinfo epn 127443576-127443576-1 ofniAIAD
 DAIAinfo sig 92 FOR ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://libserv.ub.uni-mainz.de/request?hrid=127443576-1&lng=de ofniAIAD
 DAIAinfo abt_num 25/002-002-20-GFGPUB ofniAIAD
@@ -362,7 +362,7 @@ DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=
 DAIAinfo epn 544101928-544101928-1 ofniAIAD
 DAIAinfo sig A 10.23 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://libserv.ub.uni-mainz.de/request?hrid=544101928-1&lng=de ofniAIAD
 DAIAinfo abt_num 25/002-113-GFGSPO ofniAIAD
@@ -373,7 +373,7 @@ DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=
 DAIAinfo epn 154871745-154871745-1 ofniAIAD
 DAIAinfo sig I-3 FOR-1 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://libserv.ub.uni-mainz.de/request?hrid=154871745-1&lng=de ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
@@ -384,7 +384,7 @@ DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=
 DAIAinfo epn 15045659X-15045659X-1 ofniAIAD
 DAIAinfo sig X R/I F 1 1999/2000 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://libserv.ub.uni-mainz.de/request?hrid=15045659X-1&lng=de ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
@@ -395,7 +395,7 @@ DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=
 DAIAinfo epn 144585952-144585952-1 ofniAIAD
 DAIAinfo sig Y 99-0-A15 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://libserv.ub.uni-mainz.de/request?hrid=144585952-1&lng=de ofniAIAD
 DAIAinfo abt_num 25/004-075-PHSLAV ofniAIAD
@@ -587,7 +587,7 @@ DAIAinfo epn 255134517-255134517-1 ofniAIAD
 DAIAinfo sig M XVII 61,4 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
@@ -607,7 +607,7 @@ DAIAinfo epn 165857854-165857854-1 ofniAIAD
 DAIAinfo sig L/II/4 V 1 I ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
@@ -662,7 +662,7 @@ DAIAinfo epn 222212594-222212594-1 ofniAIAD
 DAIAinfo sig 810.9 CAM-4 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/002-126-GFGUSA ofniAIAD
@@ -685,7 +685,7 @@ DAIAinfo epn 1010451073-1010451073-1 ofniAIAD
 DAIAinfo sig LIT-AM 01.20 Berco 2-4 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Germersheim: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Germersheim: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Mainz: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/019-019-10-GHFREI ofniAIAD
@@ -699,7 +699,7 @@ DAIAinfo epn 399194665-399194665-1 ofniAIAD
 DAIAinfo sig L/VII G 7 I ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
@@ -711,7 +711,7 @@ DAIAinfo epn 1010642685-1010642685-2 ofniAIAD
 DAIAinfo sig LBS KUL-AP 07.44 Gilro 200 (2.-4. Ex.) ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Germersheim: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Germersheim: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Mainz: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/019-019-12-GHLBS ofniAIAD
@@ -722,7 +722,7 @@ DAIAinfo epn 1010642685-1010642685-3 ofniAIAD
 DAIAinfo sig LBS KUL-AP 07.44 Gilro 200 (2.-4. Ex.) ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Germersheim: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Germersheim: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Mainz: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/019-019-12-GHLBS ofniAIAD
@@ -733,7 +733,7 @@ DAIAinfo epn 1010642685-1010642685-4 ofniAIAD
 DAIAinfo sig LBS KUL-AP 07.44 Gilro 200 (2.-4. Ex.) ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Germersheim: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Germersheim: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Mainz: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/019-019-12-GHLBS ofniAIAD
@@ -801,7 +801,7 @@ DAIAinfo epn 605336644-605336644-1 ofniAIAD
 DAIAinfo sig K 616 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-058-PHPHI ofniAIAD
@@ -812,7 +812,7 @@ DAIAinfo epn 507966201-507966201-1 ofniAIAD
 DAIAinfo sig ZK 253/190 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-070-PHGER ofniAIAD
@@ -823,7 +823,7 @@ DAIAinfo epn 504838326-504838326-1 ofniAIAD
 DAIAinfo sig R K 11 1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
@@ -835,7 +835,7 @@ DAIAinfo epn 588407364-588407364-1 ofniAIAD
 DAIAinfo sig MR 7100 DAE/ 1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-083-PHKLW ofniAIAD
@@ -846,7 +846,7 @@ DAIAinfo epn 50588609X-50588609X-1 ofniAIAD
 DAIAinfo sig T 02 / D / 206 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-120-PHTHW ofniAIAD
@@ -858,7 +858,7 @@ DAIAinfo epn 1010522914-1010522914-1 ofniAIAD
 DAIAinfo sig KUL-ALLG 02.50 Kultu 4 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Germersheim: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Germersheim: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Mainz: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/019-019-10-GHFREI ofniAIAD
@@ -871,7 +871,7 @@ DAIAinfo epn 544422562-544422562-1 ofniAIAD
 DAIAinfo sig 791.4365210979494 FEN ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/002-126-GFGUSA ofniAIAD
@@ -883,7 +883,7 @@ DAIAinfo epn 598354530-598354530-1 ofniAIAD
 DAIAinfo sig A3 Film / 2008,4 sek. ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-074-PHROM ofniAIAD
@@ -894,7 +894,7 @@ DAIAinfo epn 1010558935-1010558935-1 ofniAIAD
 DAIAinfo sig GEN-AM 62.65 Fensk 1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Germersheim: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Germersheim: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Mainz: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/019-019-10-GHFREI ofniAIAD
@@ -933,7 +933,7 @@ DAIAinfo zeit_bestand01 2021 ofniAIAD
 DAIAinfo epn 60030101X-60030101X-1 ofniAIAD
 DAIAinfo sig 28 BOFA 1/2009 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://libserv.ub.uni-mainz.de/request?hrid=60030101X-1&lng=de ofniAIAD
 DAIAinfo abt_num 25/002-002-22-GFGSOZ ofniAIAD
@@ -1030,7 +1030,7 @@ DAIAinfo epn 1051448751-1051448751-1 ofniAIAD
 DAIAinfo sig P KL 77/45 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-076-PHPOL ofniAIAD
@@ -1041,7 +1041,7 @@ DAIAinfo epn 606234225-606234225-1 ofniAIAD
 DAIAinfo sig Bab 90-5 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-088-PHMNG ofniAIAD
@@ -1052,7 +1052,7 @@ DAIAinfo epn 647125870-647125870-1 ofniAIAD
 DAIAinfo sig Bab 90-5,2.Ex. ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-088-PHMNG ofniAIAD
@@ -1069,7 +1069,7 @@ DAIAinfo epn 1010637142-1010637142-1 ofniAIAD
 DAIAinfo sig HIS-PL 10.10 Borod 1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Germersheim: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Germersheim: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Mainz: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/019-019-10-GHFREI ofniAIAD
@@ -1130,7 +1130,7 @@ DAIAinfo epn 779283872-779283872-1 ofniAIAD
 DAIAinfo sig Le 27 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/002-002-14-GFGJOUR ofniAIAD
@@ -1141,7 +1141,7 @@ DAIAinfo epn 638142849-638142849-1 ofniAIAD
 DAIAinfo sig M 10 - H 55 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-070-PHGER ofniAIAD
@@ -1152,7 +1152,7 @@ DAIAinfo epn 743021827-743021827-1 ofniAIAD
 DAIAinfo sig 22.2 - 1/46 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-071-PHAVL ofniAIAD
@@ -1163,7 +1163,7 @@ DAIAinfo epn 1016436637-1016436637-1 ofniAIAD
 DAIAinfo sig 22.2 - 1/46a ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-071-PHAVL ofniAIAD
@@ -1174,7 +1174,7 @@ DAIAinfo epn 726398470-726398470-1 ofniAIAD
 DAIAinfo sig EC 7000 MAR/ 2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-083-PHKLW ofniAIAD
@@ -1185,7 +1185,7 @@ DAIAinfo epn 1029996393-1029996393-1 ofniAIAD
 DAIAinfo sig Fb 7568 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
@@ -1245,7 +1245,7 @@ DAIAinfo epn 768680778-768680778-1 ofniAIAD
 DAIAinfo sig WTerm / 502 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-074-PHROM ofniAIAD
@@ -1313,7 +1313,7 @@ DAIAinfo epn 102045931X-102045931X-1 ofniAIAD
 DAIAinfo sig 08 H - B 112 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-070-PHGER ofniAIAD
@@ -1334,7 +1334,7 @@ DAIAinfo epn 1010876694-1010876694-1 ofniAIAD
 DAIAinfo sig LBS LIN-DE 83:1-3 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Germersheim: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Germersheim: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Mainz: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/019-019-12-GHLBS ofniAIAD
@@ -1347,7 +1347,7 @@ DAIAinfo epn 1010876694-1010876694-2 ofniAIAD
 DAIAinfo sig LBS LIN-DE 83:1-3 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Germersheim: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Germersheim: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Mainz: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/019-019-12-GHLBS ofniAIAD
@@ -1370,7 +1370,7 @@ DAIAinfo epn 1001932196-1001932196-1 ofniAIAD
 DAIAinfo sig 810.9352 KAN ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/002-126-GFGUSA ofniAIAD
@@ -1382,7 +1382,7 @@ DAIAinfo epn 1000321665-1000321665-1 ofniAIAD
 DAIAinfo sig L/B E K 6 1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
@@ -1419,7 +1419,7 @@ DAIAinfo epn 1038384141-1038384141-1 ofniAIAD
 DAIAinfo sig Xa B.1/1506 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/002-079-GFGKUN ofniAIAD
@@ -1430,7 +1430,7 @@ DAIAinfo epn 1038777925-1038777925-1 ofniAIAD
 DAIAinfo sig HU 359-7 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-087-PHBYZ ofniAIAD
@@ -1441,7 +1441,7 @@ DAIAinfo epn 1021889687-1021889687-1 ofniAIAD
 DAIAinfo sig G I d 126 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
@@ -1455,7 +1455,7 @@ DAIAinfo epn 1116531178-1116531178-1 ofniAIAD
 DAIAinfo sig LIT-AR 10:1 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Germersheim: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Germersheim: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Mainz: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/019-019-10-GHFREI ofniAIAD
@@ -1599,7 +1599,7 @@ DAIAinfo epn 1178929450-1178929450-1 ofniAIAD
 DAIAinfo sig O III - 39 / IV - 2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-058-PHPHI ofniAIAD
@@ -1619,7 +1619,7 @@ DAIAinfo epn 1184018081-1184018081-1 ofniAIAD
 DAIAinfo sig MAEV b 611 / 4,2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-077-PHKLP ofniAIAD
@@ -1797,7 +1797,7 @@ DAIAinfo epn 510930638-510930638-1 ofniAIAD
 DAIAinfo sig IX 1 b - 1961 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
-DAIAinfo aus_text <b><font color="red">Mainz: ohne Bestellung am Regal holen</font></b> ofniAIAD
+DAIAinfo aus_text <b><font color="red">Mainz: selbst am Regal holen</font></b> ofniAIAD
 DAIAinfo aus_text Germersheim: bestellen ofniAIAD
 DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-058-PHPHI ofniAIAD

@@ -179,15 +179,15 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
         </e>
         <e>
-            <c>25/005-005-10-UMFH</c><campus>cm</campus><n xml:lang="de">BB Universitätsmedizin, Freihand</n><map linktype="mapongo"/>
+            <c>25/005-005-10-UMFH</c><campus>cu</campus><n xml:lang="de">BB Universitätsmedizin, Freihand</n><map linktype="mapongo"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#universitaetsmedizin</url>
         </e>
         <e>
-            <c>25/005-005-12-UMLBS</c><campus>cm</campus><n xml:lang="de">BB Universitätsmedizin, Lehrbuchsammlung</n><map linktype="mapongo"/>
+            <c>25/005-005-12-UMLBS</c><campus>cu</campus><n xml:lang="de">BB Universitätsmedizin, Lehrbuchsammlung</n><map linktype="mapongo"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#universitaetsmedizin</url>
         </e>
         <e>
-            <c>25/005-005-14-UMLS</c><campus>cm</campus><n xml:lang="de">BB Universitätsmedizin, Lesesaal</n><map linktype="mapongo"/>
+            <c>25/005-005-14-UMLS</c><campus>cu</campus><n xml:lang="de">BB Universitätsmedizin, Lesesaal</n><map linktype="mapongo"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#universitaetsmedizin</url>
         </e>
         <e>
@@ -199,7 +199,7 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#universitaetsmedizin</url>
         </e>
         <e>
-            <c>25/005-054-UMZMK</c><campus>cm</campus><n xml:lang="de">BB Universitätsmedizin, Zahnklinik</n><map linktype="mapongo"/>
+            <c>25/005-054-UMZMK</c><campus>cu</campus><n xml:lang="de">BB Universitätsmedizin, Zahnklinik</n><map linktype="mapongo"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#universitaetsmedizin-standort-zahnklinik</url>
         </e>
         <e>
@@ -308,7 +308,7 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-musikwissenschaft</url>
         </e>
         <e>
-            <c>25/091-091-12-PHMUWMAG</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Musikwissenschaft, Magazin</n>
+            <c>25/091-091-12-PHMUWMAG</c><n xml:lang="de">BB Philosophicum, Musikwissenschaft, Magazin</n>
             <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-musikwissenschaft</url>
         </e>
         <e>
@@ -549,16 +549,22 @@
             </xsl:variable>
             <xsl:variable name="campusubmainz">
                 <hinweis-u campus="cg">
-                    <t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Germersheim: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;</t2>
-                    <t2 xml:lang="en">&lt;b&gt;&lt;font color="red"&gt;Germersheim: pick up on the shelf without ordering&lt;/font&gt;&lt;/b&gt;</t2>
+                    <t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Germersheim: selbst am Regal holen&lt;/font&gt;&lt;/b&gt;</t2>
+                    <t2 xml:lang="en">&lt;b&gt;&lt;font color="red"&gt;Germersheim: pick up on the shelf&lt;/font&gt;&lt;/b&gt;</t2>
                     <t3 xml:lang="de">Mainz: bestellen</t3>
                     <t3 xml:lang="en">Mainz: order</t3>
                 </hinweis-u> <!-- Z.B. Englisch: <t xml:lang="en">Germersheim: ...</t> -->
                 <hinweis-u campus="cm">
-                    <t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Mainz: ohne Bestellung am Regal holen&lt;/font&gt;&lt;/b&gt;</t2>
-                    <t2 xml:lang="en">&lt;b&gt;&lt;font color="red"&gt;Mainz: pick up on the shelf without ordering&lt;/font&gt;&lt;/b&gt;</t2>
+                    <t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Mainz: selbst am Regal holen&lt;/font&gt;&lt;/b&gt;</t2>
+                    <t2 xml:lang="en">&lt;b&gt;&lt;font color="red"&gt;Mainz: pick up on the shelf&lt;/font&gt;&lt;/b&gt;</t2>
                     <t3 xml:lang="de">Germersheim: bestellen</t3>
                     <t3 xml:lang="en">Germersheim: order</t3>
+                </hinweis-u>
+                <hinweis-u campus="cu">
+                    <t2 xml:lang="de">&lt;b&gt;&lt;font color="red"&gt;Universitätsmedizin: selbst am Regal holen&lt;/font&gt;&lt;/b&gt;</t2>
+                    <t2 xml:lang="en">&lt;b&gt;&lt;font color="red"&gt;Universitätsmedizin: pick up on the shelf&lt;/font&gt;&lt;/b&gt;</t2>
+                    <t3 xml:lang="de">Alle anderen: bestellen</t3>
+                    <t3 xml:lang="en">Everyone else: order</t3>
                 </hinweis-u>
                 <hinweis-u campus="cz">
                     <t2 xml:lang="de">Germersheim: bestellen</t2>
@@ -573,6 +579,10 @@
                     <t2 xml:lang="en">Copies of paper/short-term loans are possible for Campus Mainz, please contact the information desk</t2>
                 </hinweis-s>
                 <hinweis-s campus="cm">
+                    <t2 xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, bitte wenden Sie sich an die Information</t2>
+                    <t2 xml:lang="en">Copies of paper/short-term loans are possible for Campus Germersheim, please contact the information desk</t2>
+                </hinweis-s>
+                <hinweis-s campus="cu">
                     <t2 xml:lang="de">Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, bitte wenden Sie sich an die Information</t2>
                     <t2 xml:lang="en">Copies of paper/short-term loans are possible for Campus Germersheim, please contact the information desk</t2>
                 </hinweis-s>
