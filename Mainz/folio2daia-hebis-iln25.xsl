@@ -199,11 +199,11 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#universitaetsmedizin</url>
         </e>
         <e>
-            <c>25/005-035-UMRMED</c><n xml:lang="de">BB Universitätsmedizin, Institut für Rechtsmedizin</n>
+            <c>25/005-035-UMRMED</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Universitätsmedizin, Institut für Rechtsmedizin</n>
             <url>https://www.ub.uni-mainz.de/de/standorte#universitaetsmedizin</url>
         </e>
         <e>
-            <c>25/005-043-UMPSY</c><n xml:lang="de">BB Universitätsmedizin, Klinik für Psychiatrie und Psychotherapie</n>
+            <c>25/005-043-UMPSY</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Universitätsmedizin, Klinik für Psychiatrie und Psychotherapie</n>
             <url>https://www.ub.uni-mainz.de/de/standorte#universitaetsmedizin</url>
         </e>
         <e>
