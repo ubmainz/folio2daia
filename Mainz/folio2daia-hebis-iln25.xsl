@@ -611,8 +611,11 @@
                 <SX><i>s Praesenzbestand</i><t1 xml:lang="de">nicht ausleihbar</t1><t1 xml:lang="en">not available for loan</t1>
                     <xsl:copy-of select="$campusubmainz/hinweis-s[@campus=$bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/campus]/*"/></SX> <!-- Päsenzbestand -->
                 <EM><i>e vermisst</i><t1 xml:lang="de">vermisst</t1><t1 xml:lang="en">missing</t1><t2 xml:lang="de">nicht ausleihbar</t2><t2 xml:lang="en">not available for loan</t2></EM> <!-- vermisst -->
-                <UV><i>u ausleihbar</i><s>vormerkbar</s><h>https://paia.link</h><d><xsl:value-of select="xs:dateTime((current()/../status/date,current-dateTime())[1])+xs:dayTimeDuration('P28D')"/></d></UV> <!-- vormerkbar -->
-                <IV><i>i Lesesaal</i><s>vormerkbar</s><h>https://paia.link</h><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1></IV> <!-- nur für den Lesesaal vormerkbar -->
+                <UV><i>u ausleihbar</i><s>vormerkbar</s><h>https://paia.link</h>
+                    <d><xsl:value-of select="xs:dateTime((current()/../status/date,current-dateTime())[1])+xs:dayTimeDuration('P28D')"/></d></UV> <!-- vormerkbar -->
+                <IV><i>i Lesesaal</i><s>vormerkbar</s><h>https://paia.link</h>
+                    <d><xsl:value-of select="xs:dateTime((current()/../status/date,current-dateTime())[1])+xs:dayTimeDuration('P28D')"/></d>
+                    <t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1></IV> <!-- nur für den Lesesaal vormerkbar -->
                 <CN><i>c Lehrbuchsammlung</i><s>nicht vormerkbar</s></CN> <!-- Präsenzbestand -->
                 <XO><i>a bestellt</i><s>gesperrt</s><h>https://paia.link</h></XO> <!-- Bestellt -->
                 <UI><i>u ausleihbar</i><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/campus]/*"/>
