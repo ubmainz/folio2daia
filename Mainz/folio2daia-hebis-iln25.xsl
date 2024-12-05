@@ -25,7 +25,7 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek</url>
         </e>
         <e>
-            <c>25/000-000-14-ZBLS</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Lesesaal</n><map linktype="mapongo"/>
+            <c>25/000-000-14-ZBLS</c><campus>cz</campus><n xml:lang="de">Zentralbibliothek, Lesesaal</n><map linktype="mapongo" defaultlocationtext="LESESAAL"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek</url>
         </e>
         <e>
@@ -90,7 +90,7 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
         </e>
         <e>
-            <c>25/002-079-GFGKUN</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Kunstgeschichte</n><map linktype="mapongo"/>
+            <c>25/002-079-GFGKUN</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Kunstgeschichte</n><map linktype="mapongo" defaultlocationtext="Kunstgeschichte"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
         </e>
         <e>
