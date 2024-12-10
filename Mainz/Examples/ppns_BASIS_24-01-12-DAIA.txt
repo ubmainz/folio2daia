@@ -8,7 +8,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=PAED%20H%20524&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=PAED%20H%20524&c1=LESESAAL&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 072195789-072195789-1 ofniAIAD
 DAIAinfo sig AW 1967 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -49,7 +49,7 @@ DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/002-079-GFGKUN ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Kunstgeschichte ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=TOP%20M%2080%2F1a.17&c2=25%2F002-079-GFGKUN">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=TOP%20M%2080%2F1a.17&c1=Kunstgeschichte&c2=25%2F002-079-GFGKUN">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 072195924-072195924-1 ofniAIAD
 DAIAinfo sig var 579 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -358,7 +358,7 @@ DAIAinfo abt_num 25/002-079-GFGKUN ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Kunstgeschichte ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude ofniAIAD
 DAIAinfo zeit_bestand01 4.1999/2000(1999); 5.2001/2002(2000); 9.2006(2005) ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=A%20h%2018&c2=25%2F002-079-GFGKUN">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=A%20h%2018&c1=Kunstgeschichte&c2=25%2F002-079-GFGKUN">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 544101928-544101928-1 ofniAIAD
 DAIAinfo sig A 10.23 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
@@ -369,7 +369,7 @@ DAIAinfo abt_num 25/002-113-GFGSPO ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Sportwissenschaften ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude ofniAIAD
 DAIAinfo zeit_bestand01 10.2007(2006) ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=A%2010.23&c2=25%2F002-113-GFGSPO">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=A%2010.23&c1=Sport&c2=25%2F002-113-GFGSPO">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 154871745-154871745-1 ofniAIAD
 DAIAinfo sig I-3 FOR-1 ofniAIAD
 DAIAinfo aus_ind u ausleihbar ofniAIAD
@@ -657,7 +657,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ANGL%20C%20621-4&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=ANGL%20C%20621-4&c1=LESESAAL&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 222212594-222212594-1 ofniAIAD
 DAIAinfo sig 810.9 CAM-4 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -796,7 +796,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=HIST%20W%20503&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=HIST%20W%20503&c1=LESESAAL&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 605336644-605336644-1 ofniAIAD
 DAIAinfo sig K 616 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1222,7 +1222,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LING%20C%20315-12&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LING%20C%20315-12&c1=LESESAAL&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 765020505-765020505-1 ofniAIAD
 DAIAinfo sig HB 23 405, 12 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -1425,7 +1425,7 @@ DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/002-079-GFGKUN ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Kunstgeschichte ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Xa%20B.1%2F1506&c2=25%2F002-079-GFGKUN">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Xa%20B.1%2F1506&c1=Kunstgeschichte&c2=25%2F002-079-GFGKUN">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1038777925-1038777925-1 ofniAIAD
 DAIAinfo sig HU 359-7 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1544,7 +1544,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=GERM%20B%20112&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=GERM%20B%20112&c1=LESESAAL&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 1152813471-1152813471 ofniAIAD
 DAIAinfo aus_text Tagesausleihe möglich. Bitte bestellen Sie und wenden sich zur Abholung an die Ausleih-Theke in der ZB! ofniAIAD
@@ -1576,7 +1576,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LING%20A%202360-4%2C2&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LING%20A%202360-4%2C2&c1=LESESAAL&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1182674917-1182674917-1 ofniAIAD
 DAIAinfo sig HB 9056 ofniAIAD
 DAIAinfo aus_ind s Praesenzbestand ofniAIAD
@@ -1594,7 +1594,7 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/002-079-GFGKUN ofniAIAD
 DAIAinfo abt_name BB Georg Forster-Gebäude, Kunstgeschichte ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=A%20a.26%2F14-4%2C2&c2=25%2F002-079-GFGKUN">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=A%20a.26%2F14-4%2C2&c1=Kunstgeschichte&c2=25%2F002-079-GFGKUN">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1178929450-1178929450-1 ofniAIAD
 DAIAinfo sig O III - 39 / IV - 2 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -1682,7 +1682,7 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek ofn
 DAIAinfo aus_text 00015 ofniAIAD
 DAIAinfo aus_text BASIS ofniAIAD
 DAIAinfo aus_text BASIS DAIA ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LM%201%3A262-54.2022&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=LM%201%3A262-54.2022&c1=LESESAAL&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 1229734694-1229734694-1 ofniAIAD
 DAIAinfo sig 210 DW 1400 S384 (3) ofniAIAD
@@ -1792,7 +1792,7 @@ DAIAinfo abt_num 25/000-000-14-ZBLS ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek ofniAIAD
 DAIAinfo aus_datum 21-11-2024 ofniAIAD
-DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=PHILOS%20D%2081%2F05&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
+DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=PHILOS%20D%2081%2F05&c1=LESESAAL&c2=25%2F000-000-14-ZBLS">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 510930638-510930638-1 ofniAIAD
 DAIAinfo sig IX 1 b - 1961 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD

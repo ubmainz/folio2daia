@@ -98,7 +98,7 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
         </e>
         <e>
-            <c>25/002-113-GFGSPO</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Sportwissenschaften</n><map linktype="mapongo"/>
+            <c>25/002-113-GFGSPO</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Sportwissenschaften</n><map linktype="mapongo" defaultlocationtext="Sport"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
         </e>
         <e>
