@@ -1299,18 +1299,18 @@
                         <xsl:text>https://folio-t-serv.uni-giessen.de/services/zeitschrift/journal/</xsl:text>
                         <xsl:value-of select="../hrid"/>
                     </h>
-                    <t1 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t1>
+                    <t2 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t2>
                 </hinweis-ii>
                 <hinweis-u campus="Magazin">
                     <h>https://paia.link</h>
-                    <t1 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t1>
+                    <t2 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t2>
                 </hinweis-u>
                 <hinweis-ui campus="Magazin">
                     <h>
                         <xsl:text>https://folio-t-serv.uni-giessen.de/services/zeitschrift/journal/</xsl:text>
                         <xsl:value-of select="../hrid"/>
                     </h>
-                    <t1 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t1>
+                    <t2 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t2>
                 </hinweis-ui>
                 <hinweis-s campus="Fachbibliotheken">
                     <t2 xml:lang="de">Bitte erfragen Sie die Ausleihbedingungen vor Ort</t2>
@@ -1321,7 +1321,7 @@
                         <xsl:text>https://folio-t-serv.uni-giessen.de/services/zeitschrift/journal/</xsl:text>
                         <xsl:value-of select="../hrid"/>
                     </h>
-                    <t1 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t1>
+                    <t2 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t2>
                 </hinweis-s>
                 <hinweis-y campus="JLU-Bibliografie">
                     <xsl:variable name="dodummy-hint-text">
@@ -1330,7 +1330,7 @@
                         <xsl:value-of select="ancestor::instanceData/instance/hrid"/>
                         <xsl:text>&quot;&gt;Hessischen Verbundkatalog&lt;/a&gt;.</xsl:text>
                     </xsl:variable>
-                    <t1 xml:lang="de"><xsl:value-of select="$dodummy-hint-text"/></t1>
+                    <t2 xml:lang="de"><xsl:value-of select="$dodummy-hint-text"/></t2>
                 </hinweis-y>
             </xsl:variable>
             <!-- Liste der zu unterscheidenden Fälle im Discovery-System
