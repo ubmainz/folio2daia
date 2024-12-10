@@ -1295,20 +1295,33 @@
             </xsl:variable>
             <xsl:variable name="campusubgiessen">
                 <hinweis-ii campus="Magazin">
-                    <h>https://paia.link</h>
-                    <t1 xml:lang="de">&lt;a href='https://magazin.stock'&gt;Magazin&lt;/a&gt;</t1>
+                    <h>
+                        <xsl:text>https://folio-t-serv.uni-giessen.de/services/zeitschrift/journal/</xsl:text>
+                        <xsl:value-of select="../hrid"/>
+                    </h>
+                    <t1 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t1>
                 </hinweis-ii>
                 <hinweis-u campus="Magazin">
                     <h>https://paia.link</h>
-                    <t1 xml:lang="de">&lt;a href='https://magazin.stock'&gt;Magazin&lt;/a&gt;</t1>
+                    <t1 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t1>
                 </hinweis-u>
                 <hinweis-ui campus="Magazin">
-                    <h>https://paia.link</h>
-                    <t1 xml:lang="de">&lt;a href='https://magazin.stock'&gt;Magazin&lt;/a&gt;</t1>
+                    <h>
+                        <xsl:text>https://folio-t-serv.uni-giessen.de/services/zeitschrift/journal/</xsl:text>
+                        <xsl:value-of select="../hrid"/>
+                    </h>
+                    <t1 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t1>
                 </hinweis-ui>
                 <hinweis-s campus="Fachbibliotheken">
                     <t2 xml:lang="de">Bitte erfragen Sie die Ausleihbedingungen vor Ort</t2>
                     <t2 xml:lang="en">Please inquire about the borrowing conditions on site</t2>
+                </hinweis-s>
+                <hinweis-s campus="Magazin">
+                    <h>
+                        <xsl:text>https://folio-t-serv.uni-giessen.de/services/zeitschrift/journal/</xsl:text>
+                        <xsl:value-of select="../hrid"/>
+                    </h>
+                    <t1 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t1>
                 </hinweis-s>
                 <hinweis-y campus="JLU-Bibliografie">
                     <xsl:variable name="dodummy-hint-text">
@@ -1347,14 +1360,22 @@
                 <!-- nur für den Lesesaal bestellbar -->
                 <SX>
                     <i>s Praesenzbestand</i>
-                    <s>unbekannt</s>
+                    <xsl:choose>
+                        <!-- Campus = Magazin? -->
+                        <xsl:when test="$bbtabelle/e[c = current()/../effectiveLocation/code]/campus = 'Magazin'">
+                            <s>verfuegbar</s>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <s>unbekannt</s>        
+                        </xsl:otherwise>
+                    </xsl:choose>
                     <t1 xml:lang="de">vor Ort benutzbar</t1>
                     <t1 xml:lang="en">not available for loan</t1>
                     <xsl:copy-of
                         select="$campusubgiessen/hinweis-s[@campus = $bbtabelle/e[c = current()/../effectiveLocation/code]/campus]/*"
                     />
                 </SX>
-                <!-- Päsenzbestand -->
+                <!-- Präsenzbestand -->
                 <EM>
                     <i>e vermisst</i>
                     <s>vermisst</s>
