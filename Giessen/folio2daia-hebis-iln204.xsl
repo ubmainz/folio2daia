@@ -1116,7 +1116,8 @@
                     <xsl:with-param name="value" select="string-join((callNumberPrefix,callNumber),' ')"/>
                 </xsl:call-template>
             </xsl:if>
-            <xsl:for-each select="items/item[not(xs:boolean(discoverySuppress))]">
+            <xsl:for-each select="items/item[not(xs:boolean(discoverySuppress)) and
+                                             not(contains(status/name, 'Missing'))]">
                 <xsl:sort select="(enumeration,chronology)[1]" order="ascending"/>
                 <xsl:sort select="hrid" order="ascending"/>                
                 <xsl:apply-templates select="./*|./*/*|../../notes/note">
@@ -1377,11 +1378,11 @@
                 </SX>
                 <!-- Präsenzbestand -->
                 <EM>
-                    <i>e vermisst</i>
+<!--                    <i>e vermisst</i>
                     <s>vermisst</s>
                     <t1 xml:lang="de">vermisst</t1>
                     <t1 xml:lang="en">missing</t1>
-                </EM>
+-->                </EM>
                 <!-- vermisst -->
                 <UV>
                     <i>u ausleihbar</i>
