@@ -1378,11 +1378,11 @@
                 </SX>
                 <!-- Präsenzbestand -->
                 <EM>
-<!--                    <i>e vermisst</i>
+                    <i>e vermisst</i>
                     <s>vermisst</s>
                     <t1 xml:lang="de">vermisst</t1>
                     <t1 xml:lang="en">missing</t1>
--->                </EM>
+                </EM>
                 <!-- vermisst -->
                 <UV>
                     <i>u ausleihbar</i>
