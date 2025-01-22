@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0">
     <xsl:output method="text"/>
@@ -524,6 +523,18 @@
             <n xml:lang="de">Universitätsbibliothek (UB), Otto-Behaghel-Str. 8</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000</url>
             <campus>Fachbibliotheken</campus>
+        </e>
+        <e>
+            <c>ILN204/CG/UB/OSR</c>
+            <n xml:lang="de">Universitätsbibliothek (UB), Otto-Behaghel-Str. 8</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000</url>
+            <map linktype="auskunft"/>
+        </e>
+        <e>
+            <c>ILN204/CG/UB/Mikroformen</c>
+            <n xml:lang="de">Universitätsbibliothek (UB), Otto-Behaghel-Str. 8</n>
+            <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000</url>
+            <map linktype="auskunft"/>
         </e>
         <e>
             <c>ILN204/CG/UB/UBMagPohlheim</c>
@@ -1145,6 +1156,9 @@
                     <xsl:when test="$map/@linktype = 'mapongo'">
                         <xsl:call-template name="mapongo"/>
                     </xsl:when>
+                    <xsl:when test="$map/@linktype = 'auskunft'">
+                        <xsl:call-template name="mapongo-auskunft"/>
+                    </xsl:when>
                     <xsl:when test="$map/@linktype = 'bibmap'">
                         <xsl:call-template name="bibmap"/>
                     </xsl:when>
@@ -1536,6 +1550,34 @@
                 <xsl:value-of select="$mapongopar"/>
                 <xsl:text>&quot;&gt;</xsl:text> -->
                </xsl:with-param>
+        </xsl:call-template>
+    </xsl:template>
+    
+    <xsl:template name="mapongo-auskunft">
+        <!-- item -->
+        <xsl:variable name="locationtext">
+            <!-- Mapongo-Link -->
+            <t xml:lang="de">Bitte wenden Sie sich an die Auskunft im 1. OG</t>
+            <t xml:lang="en">Please ask our staff at the reference desk on the 1st floor.</t>
+        </xsl:variable>
+        <xsl:variable name="mapongopar">
+            <xsl:text>p=1&amp;b=1&amp;f=2&amp;c=46399&amp;l=1209&amp;lang=de</xsl:text>
+        </xsl:variable>
+        <xsl:call-template name="DAIA">
+            <xsl:with-param name="tag">standort</xsl:with-param>
+            <xsl:with-param name="value">
+                <xsl:text>&lt;a target=&quot;_blank&quot; href=&quot;https://ub-giessen.mapongo.de/viewer?p=1&amp;</xsl:text>
+                <xsl:value-of select="$mapongopar"/>
+                <xsl:text>&quot;&gt;</xsl:text>
+                <xsl:call-template name="selectlanguage">
+                    <xsl:with-param name="fields" select="$locationtext/t"/>
+                </xsl:call-template>
+                <xsl:text>&lt;/a&gt;</xsl:text>
+                <!-- QR-Code -->
+                <!-- <xsl:text>&lt;img width=&quot;130&quot; height=&quot;130&quot; src=&quot;https://ub-giessen.mapongo.de/static_images/projects/1/search_qrcode.png?</xsl:text>
+                <xsl:value-of select="$mapongopar"/>
+                <xsl:text>&quot;&gt;</xsl:text> -->
+            </xsl:with-param>
         </xsl:call-template>
     </xsl:template>
 
