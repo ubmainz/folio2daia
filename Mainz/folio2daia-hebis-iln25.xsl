@@ -430,7 +430,7 @@
                     <xsl:with-param name="value" select="string-join((callNumberPrefix,callNumber),' ')"/>
                 </xsl:call-template>
             </xsl:if>
-            <xsl:for-each select="items/item[not(xs:boolean(discoverySuppress) or ../../statisticalCodeIds)]">
+            <xsl:for-each select="items/item[not(xs:boolean(discoverySuppress) or ../../statisticalCodeIds)]"> <!-- Statistical Codes werden nur für Problemfälle (Löschschutz) gesetzt, deshalb ausgeblendet -->
                 <xsl:sort select="(enumeration,chronology)[1]" order="ascending"/>
                 <xsl:sort select="hrid" order="ascending"/>
                 <xsl:apply-templates select="./*|./*/*|../../notes/note">
