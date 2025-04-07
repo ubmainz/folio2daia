@@ -78,7 +78,7 @@
             <c>ILN204/CG/DezFB/FB-Mathe-Informatik</c>
             <n xml:lang="de">Bibl. Mathematik; Arndtstr. 2 </n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=120</url>
-            <campus>Fachbibliotheken</campus>
+            <campus>Mathe-Informatik</campus>
         </e>
         <e>
             <c>ILN204/CG/DezFB/FB-Mathe-Informatik-HAP</c>
@@ -1331,6 +1331,11 @@
                     <t2 xml:lang="de">Bitte erfragen Sie die Ausleihbedingungen vor Ort</t2>
                     <t2 xml:lang="en">Please inquire about the borrowing conditions on site</t2>
                 </hinweis-s>
+                <hinweis-s campus="Mathe-Informatik">
+                    <t2 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/files/mathe.pdf'&gt;Regelung des Ausleihverfahrens&lt;/a&gt;</t2>
+                    <t2 xml:lang="en">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/files/mathe.pdf'&gt;Borrowing conditions&lt;/a&gt;</t2>
+                </hinweis-s>
+                <campus>Mathe-Informatik</campus>
                 <hinweis-s campus="Magazin">
                     <h>
                         <xsl:text>https://folio-t-serv.uni-giessen.de/services/zeitschrift/journal/</xsl:text>
@@ -1564,11 +1569,11 @@
             <xsl:text>p=1&amp;b=1&amp;f=2&amp;c=46399&amp;l=1209&amp;lang=de</xsl:text>
         </xsl:variable>
         <xsl:call-template name="DAIA">
-            <xsl:with-param name="tag">standort</xsl:with-param>
+            <xsl:with-param name="tag">aus_text</xsl:with-param>
             <xsl:with-param name="value">
                 <xsl:text>&lt;a target=&quot;_blank&quot; href=&quot;https://ub-giessen.mapongo.de/viewer?p=1&amp;</xsl:text>
                 <xsl:value-of select="$mapongopar"/>
-                <xsl:text>&quot;&gt;</xsl:text>
+                <xsl:text>&quot;&gt; </xsl:text>
                 <xsl:call-template name="selectlanguage">
                     <xsl:with-param name="fields" select="$locationtext/t"/>
                 </xsl:call-template>
