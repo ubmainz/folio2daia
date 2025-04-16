@@ -503,13 +503,20 @@
     </xsl:template>
     
     <xsl:template match="notes[holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note"> <!-- Standorthinweis (aus 8201) -->
-        <xsl:if test="not($bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/standtext='')">
-            <xsl:call-template name="DAIA">
-                <xsl:with-param name="tag">standort</xsl:with-param>
-                <xsl:with-param name="value" select="($bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/standtext,.)[1]"/>
-            </xsl:call-template>
-        </xsl:if>
-    </xsl:template>
+        <xsl:choose>
+            <xsl:when test="not($bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/standtext)">
+                <xsl:call-template name="DAIA">
+                    <xsl:with-param name="tag">standort</xsl:with-param>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:when test="$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/standtext/text()">
+                <xsl:call-template name="DAIA">
+                    <xsl:with-param name="tag">standort</xsl:with-param>
+                    <xsl:with-param name="value" select="$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/standtext"/>
+                </xsl:call-template>
+            </xsl:when>
+        </xsl:choose>
+</xsl:template>
 
     <xsl:template match="notes[not(holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1') and staffOnly='false']/note"> <!-- greift auf Holdings- und Itemebene -->
         <xsl:call-template name="DAIA">
