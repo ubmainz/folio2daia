@@ -509,7 +509,7 @@
                     <xsl:with-param name="tag">standort</xsl:with-param>
                 </xsl:call-template>
             </xsl:when>
-            <xsl:when test="$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/standtext/text()">
+            <xsl:when test="string-length($bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/standtext)>0">
                 <xsl:call-template name="DAIA">
                     <xsl:with-param name="tag">standort</xsl:with-param>
                     <xsl:with-param name="value" select="$bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/standtext"/>
