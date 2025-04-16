@@ -6576,6 +6576,11 @@ BCO 127</description>
         <staffOnly>true</staffOnly>
         <holdingsNoteTypeId>7cad8584-35f9-4ea7-8944-11bcf40ff29c</holdingsNoteTypeId>
       </notes>
+      <notes>
+        <note>8201-Standort</note>
+        <staffOnly>false</staffOnly>
+        <holdingsNoteTypeId>013e0b2c-2259-4ee8-8d15-f463f1aeb0b1</holdingsNoteTypeId>
+      </notes>
       <discoverySuppress>false</discoverySuppress>
       <metadata>
         <createdDate>2023-10-26T05:06:56.998+00:00</createdDate>
@@ -6587,9 +6592,9 @@ BCO 127</description>
       <effectiveLocation>
         <id>f3956a73-496a-4ffc-aa28-f638b54987f4</id>
         <name>Kunsthochschule</name>
-        <code>FBKUNST</code>
+        <code>KUNST</code>
         <description>Kunsthochschule BCO 111</description>
-        <discoveryDisplayName>25/999-111-FBKUNST</discoveryDisplayName>
+        <discoveryDisplayName>25/000-111-12-KUNST-SEMAPP</discoveryDisplayName>
         <isActive>true</isActive>
         <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
         <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>
@@ -6642,9 +6647,9 @@ BCO 127</description>
           <effectiveLocation>
             <id>f3956a73-496a-4ffc-aa28-f638b54987f4</id>
             <name>Kunsthochschule</name>
-            <code>FBKUNST</code>
+            <code>KUNST</code>
             <description>Kunsthochschule BCO 111</description>
-            <discoveryDisplayName>25/999-111-FBKUNST</discoveryDisplayName>
+            <discoveryDisplayName>25/000-111-12-KUNST-SEMAPP</discoveryDisplayName>
             <isActive>true</isActive>
             <institutionId>fe3f6097-691f-4349-b86b-ac5cfff9a763</institutionId>
             <campusId>b8c8a576-282d-4909-94e1-85485b8ed044</campusId>

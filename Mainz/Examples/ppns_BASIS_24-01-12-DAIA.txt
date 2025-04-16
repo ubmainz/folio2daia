@@ -423,6 +423,14 @@ DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek ofn
 DAIAinfo aus_ind y unbekannt ofniAIAD
 DAIAinfo sig HIST W 357 ofniAIAD
 
+DAIAinfo epn 188365591-188365591-1 ofniAIAD
+DAIAinfo sig SEM 18-4 ofniAIAD
+DAIAinfo aus_ind s Praesenzbestand ofniAIAD
+DAIAinfo aus_text nicht ausleihbar ofniAIAD
+DAIAinfo abt_num 25/000-111-12-KUNST-SEMAPP ofniAIAD
+DAIAinfo abt_name Universität Mainz, Kunsthochschule Semesterapparate ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek-standort-kunsthochschule ofniAIAD
+DAIAinfo standort  ofniAIAD
 DAIAinfo epn 255134517-255134517-1 ofniAIAD
 DAIAinfo sig M XVII 61,4 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -435,13 +443,6 @@ DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#theologie ofniAIAD
 DAIAinfo standort Katholische Theologie ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=M%20XVII%2061%2C4&c1=Katholische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a> ofniAIAD
-DAIAinfo epn 188365591-188365591-1 ofniAIAD
-DAIAinfo sig SEM 18-4 ofniAIAD
-DAIAinfo aus_ind s Praesenzbestand ofniAIAD
-DAIAinfo aus_text nicht ausleihbar ofniAIAD
-DAIAinfo abt_num 25/999-111-FBKUNST ofniAIAD
-DAIAinfo abt_name Universität Mainz, Kunsthochschule ofniAIAD
-DAIAinfo abt_link http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102600600 ofniAIAD
 
 DAIAinfo epn 165857854-165857854-1 ofniAIAD
 DAIAinfo sig L/II/4 V 1 I ofniAIAD
