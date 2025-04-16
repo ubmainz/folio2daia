@@ -247,6 +247,11 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#theologie</url>
         </e>
         <e>
+            <c>25/016-016-20-SEMAPP</c><n xml:lang="de">BB Theologie, Semesterapparate</n>
+            <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=1&amp;f=1&amp;l=1170&amp;lang=de"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#theologie</url>
+        </e>
+        <e>
             <c>25/018-018-10-RW</c><ind>s Praesenzbestand</ind><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Lesesaal</n><map linktype="mapongo"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#rechts-und-wirtschaftswissenschaften</url>
         </e>
