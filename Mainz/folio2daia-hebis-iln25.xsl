@@ -46,6 +46,14 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek</url>
         </e>
         <e>
+            <c>25/000-111-10-KUNST</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Kunsthochschule</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek-standort-kunsthochschule</url>
+        </e>
+        <e>
+            <c>25/000-111-12-KUNSTSEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Kunsthochschule Semesterapparate</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek-standort-kunsthochschule</url>
+        </e>
+        <e>
             <c>25/002-002-10-GFGPÄD</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Erziehungswissenschaft</n>
             <map linktype="mapongo" defaultlocationtext="Erziehungswissenschaft"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
@@ -364,10 +372,6 @@
         <e>
             <c>25/999-085-FBAVFGA</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Institut für Altertumswissenschaften - Vor- und Frühgeschichtliche Archäologie</n>
             <url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102600341</url>
-        </e>
-        <e>
-            <c>25/999-111-FBKUNST</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Kunsthochschule</n>
-            <url>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/SET=2/TTL=1/PPNSET?PPN=102600600</url>
         </e>
         <e>
             <c>25/999-124-FBGESANG</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Gesangbucharchiv</n></e>
