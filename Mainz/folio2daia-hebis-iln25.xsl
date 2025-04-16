@@ -503,13 +503,12 @@
     </xsl:template>
     
     <xsl:template match="notes[holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note"> <!-- Standorthinweis (aus 8201) -->
-        <xsl:call-template name="DAIA">
-            <xsl:with-param name="tag">standort</xsl:with-param>
-            <xsl:with-param name="value" select="
-                if ($bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/standtext)
-                then $bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/standtext
-                else ."/>
-        </xsl:call-template>
+        <xsl:if test="not($bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/standtext='')">
+            <xsl:call-template name="DAIA">
+                <xsl:with-param name="tag">standort</xsl:with-param>
+                <xsl:with-param name="value" select="($bbtabelle/e[c=current()/../../effectiveLocation/discoveryDisplayName]/standtext,.)[1]"/>
+            </xsl:call-template>
+        </xsl:if>
     </xsl:template>
 
     <xsl:template match="notes[not(holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1') and staffOnly='false']/note"> <!-- greift auf Holdings- und Itemebene -->
