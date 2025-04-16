@@ -50,7 +50,7 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek-standort-kunsthochschule</url>
         </e>
         <e>
-            <c>25/000-111-12-KUNSTSEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Kunsthochschule Semesterapparate</n>
+            <c>25/000-111-12-KUNST-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Kunsthochschule Semesterapparate</n>
             <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek-standort-kunsthochschule</url>
         </e>
         <e>
