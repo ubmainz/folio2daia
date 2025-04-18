@@ -11,6 +11,7 @@
              (Bei Fehlen des Sprachtextes wird der Text der ersten Sprache verwendet.)
          ind : [optional] Ausleihindikator, überschreibt für diesen Standort den Wert, der aus FOLIO kommt
          url : [optional] URL für den Nutzer mit Infomationen für den Nutzer (z.B. Normdatensatz), default siehe oben
+         nostandort : [optinonal] unterdrückt die Standortangabe aus der 8201 (z.B. für Semesterapparate)
          map : [optional, wiederholbar] mit linktype="mapongo" oder linktype="bibmap", z.B. <map linktype="mapongo"/> 
                 oder (ggf. linktype überschreibend) mit url="http...", z.B. <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/>
                 Weiteres optionales Attribut defaultlocationtext als ersatz für die 8201, z.B. <map linktype="mapongo" defaultlocationtext="USA BIBL"/>
@@ -445,7 +446,7 @@
                 <xsl:apply-templates select="./*|./*/*|../../notes[not(holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1')]/note">
                     <xsl:sort select="index-of(('discoveryDisplayName','status','effectiveCallNumberComponents','hrid'),name())" order="descending"/> 
                 </xsl:apply-templates>
-                <xsl:if test="not($bbtabelle/e[c=current()/effectiveLocation/discoveryDisplayName]/nostandort)">
+                <xsl:if test="not($bbtabelle/e[c=current()/effectiveLocation/discoveryDisplayName]/nostandort)"> <!-- Standorthinweis (aus 8201) -->
                     <xsl:apply-templates select="../../notes[holdingsNoteTypeId='013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note"/>
                 </xsl:if>
                 <xsl:if test="not(chronology|enumeration)"> <!-- keine Angaben zum Einzelband -->
