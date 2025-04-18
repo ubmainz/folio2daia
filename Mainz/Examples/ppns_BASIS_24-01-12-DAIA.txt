@@ -95,8 +95,8 @@ DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#theologie ofniAIAD
-DAIAinfo standort Evangelische Theologie ofniAIAD
 DAIAinfo aus_text 01701 ofniAIAD
+DAIAinfo standort Evangelische Theologie ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Af%20123&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 150699484-150699484-1 ofniAIAD
 DAIAinfo sig Univ 76 Mai 1987 ofniAIAD
@@ -246,8 +246,8 @@ DAIAinfo aus_datum 13-03-2024 ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#theologie ofniAIAD
-DAIAinfo standort Evangelische Theologie ofniAIAD
 DAIAinfo zeit_bestand01 1000   ofniAIAD
+DAIAinfo standort Evangelische Theologie ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 074678310-it00000000169 ofniAIAD
 DAIAinfo sig Pc-Pomm. 5 ofniAIAD
@@ -258,8 +258,8 @@ DAIAinfo aus_datum 18-03-2024 ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#theologie ofniAIAD
-DAIAinfo standort Evangelische Theologie ofniAIAD
 DAIAinfo zeit_bestand01 1932 34  ofniAIAD
+DAIAinfo standort Evangelische Theologie ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 074678310-it00000000165 ofniAIAD
 DAIAinfo sig Pc-Pomm. 5 ofniAIAD
@@ -270,8 +270,8 @@ DAIAinfo aus_datum 15-03-2024 ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#theologie ofniAIAD
-DAIAinfo standort Evangelische Theologie ofniAIAD
 DAIAinfo zeit_bestand01 1936 36 Seite 13 ofniAIAD
+DAIAinfo standort Evangelische Theologie ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Pc-Pomm.%205&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a> ofniAIAD
 
 
@@ -398,8 +398,8 @@ DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
 DAIAinfo abt_num 25/006-006-10-MINT ofniAIAD
 DAIAinfo abt_name BB Mathematik, Informatik, Naturwissenschaften und Technik, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#mathematik-informatik-naturwissenschaften-und-technik ofniAIAD
-DAIAinfo standort MIN / HANDAPPARAT METEOROLOGIE ofniAIAD
 DAIAinfo aus_text Genauen Standort in der BB MIN erfragen! ofniAIAD
+DAIAinfo standort MIN / HANDAPPARAT METEOROLOGIE ofniAIAD
 DAIAinfo zeit_bestand01 9.2006(2005) ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=90%2FMETEOROLOGIE%20X%2024&c1=MIN%20%2F%20HANDAPPARAT%20METEOROLOGIE&c2=25%2F006-006-10-MINT">Standort zeigen</a> ofniAIAD
 
@@ -430,7 +430,6 @@ DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-111-12-KUNST-SEMAPP ofniAIAD
 DAIAinfo abt_name Universität Mainz, Kunsthochschule Semesterapparate ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek-standort-kunsthochschule ofniAIAD
-DAIAinfo standort Semesterapparat ofniAIAD
 DAIAinfo epn 255134517-255134517-1 ofniAIAD
 DAIAinfo sig M XVII 61,4 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD
@@ -466,8 +465,8 @@ DAIAinfo abt_num 25/004-127-PHMAG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#philosophicum ofniAIAD
 DAIAinfo aus_text Buch bestellen. Standort: RaRa-Schrank Nr. 2 ofniAIAD
-DAIAinfo standort Buchwissenschaft / Separiert ofniAIAD
 DAIAinfo aus_text Tagesausleihe erst nach Rücksprache möglich ofniAIAD
+DAIAinfo standort Buchwissenschaft / Separiert ofniAIAD
 
 DAIAinfo epn 222302275-222302275-1 ofniAIAD
 DAIAinfo sig ANGL C 621-4 ofniAIAD
@@ -486,8 +485,8 @@ DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/004-072-PHANG ofniAIAD
 DAIAinfo abt_name BB Philosophicum, Anglistik / Amerikanistik ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#philosophicum ofniAIAD
-DAIAinfo standort Amerikanistik ofniAIAD
 DAIAinfo aus_datum 25-10-2024 ofniAIAD
+DAIAinfo standort Amerikanistik ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=L%2FE%20C%2013%201%2F4&c1=Amerikanistik&c2=25%2F004-072-PHANG">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1010451073-1010451073-1 ofniAIAD
 DAIAinfo sig LIT-AM 01.20 Berco 2-4 ofniAIAD
@@ -976,8 +975,8 @@ DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#theologie ofniAIAD
-DAIAinfo standort Evangelische Theologie ofniAIAD
 DAIAinfo aus_text 01750 ofniAIAD
+DAIAinfo standort Evangelische Theologie ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=Fb%207568&c1=Evangelische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 102565434X-102565434X ofniAIAD
 DAIAinfo abt_num 25/019-019-14-GHLS ofniAIAD
@@ -1041,8 +1040,8 @@ DAIAinfo aus_text Aufsatzkopien/Kurzausleihe für Campus Germersheim möglich, b
 DAIAinfo abt_num 25/018-018-10-RW ofniAIAD
 DAIAinfo abt_name BB Rechts- und Wirtschaftswissenschaften, Lesesaal ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#rechts-und-wirtschaftswissenschaften ofniAIAD
-DAIAinfo standort Recht ofniAIAD
 DAIAinfo aus_text 01810 ofniAIAD
+DAIAinfo standort Recht ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=3%20S%2Fh%209&c1=Recht&c2=25%2F018-018-10-RW">Standort zeigen</a> ofniAIAD
 DAIAinfo epn 1010740881-1010740881-1 ofniAIAD
 DAIAinfo sig LIT 320/4 ofniAIAD
@@ -1167,8 +1166,8 @@ DAIAinfo aus_link https://paia.link ofniAIAD
 DAIAinfo abt_num 25/016-016-10-TH ofniAIAD
 DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#theologie ofniAIAD
-DAIAinfo standort Katholische Theologie ofniAIAD
 DAIAinfo aus_text 01650 ofniAIAD
+DAIAinfo standort Katholische Theologie ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=G%20I%20d%20126&c1=Katholische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a> ofniAIAD
 
 
@@ -1284,8 +1283,8 @@ DAIAinfo abt_name BB Theologie, Freihand ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#theologie ofniAIAD
 DAIAinfo aus_text Abbestellt, da dublett zu Ev. Theol., Signatur: Aa 77,... ofniAIAD
 DAIAinfo aus_text Lieferungen 8-10 ungebunden. Es fehlen: Lfrg. 11-16. ofniAIAD
-DAIAinfo standort Katholische Theologie ofniAIAD
 DAIAinfo aus_text 01650 ofniAIAD
+DAIAinfo standort Katholische Theologie ofniAIAD
 DAIAinfo standort <a target="_blank" href="https://ub-mainz.mapongo.de/viewer?p=1&s=E%20ling%20L%2038%2C4&c1=Katholische%20Theologie&c2=25%2F016-016-10-TH">Standort zeigen</a> ofniAIAD
 
 DAIAinfo epn 121336857X-121336857X-1 ofniAIAD
@@ -1306,8 +1305,8 @@ DAIAinfo aus_ind g nicht_ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-000-16-ZBMAG ofniAIAD
 DAIAinfo abt_name Zentralbibliothek, Magazin ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek ofniAIAD
-DAIAinfo standort ZWW Dienstliteratur ofniAIAD
 DAIAinfo aus_text Dienstliteratur, Einsicht nur nach Anfrage an info@zww.uni-mainz.de ofniAIAD
+DAIAinfo standort ZWW Dienstliteratur ofniAIAD
 
 
 
