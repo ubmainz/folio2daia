@@ -255,7 +255,7 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#theologie</url>
         </e>
         <e>
-            <c>25/016-016-20-SEMAPP</c><n xml:lang="de">BB Theologie, Semesterapparate</n>
+            <c>25/016-016-20-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Theologie, Semesterapparate</n>
             <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=1&amp;f=1&amp;l=1170&amp;lang=de"/><standtext empty="true"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#theologie</url>
         </e>
@@ -333,7 +333,7 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-musikwissenschaft</url>
         </e>
         <e>
-            <c>25/091-091-14-PHMUW-SEMAPP</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Musikwissenschaft, Semesterapparate</n>
+            <c>25/091-091-14-PHMUW-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Philosophicum, Musikwissenschaft, Semesterapparate</n>
             <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=2&amp;f=4&amp;c=23932&amp;l=7919&amp;lang=de"/><standtext empty="true"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-musikwissenschaft</url>
         </e>        
@@ -346,7 +346,7 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-hochschule-fuer-musik</url>
         </e>
         <e>
-            <c>25/112-112-14-PHHFM-SEMAPP</c><n xml:lang="de">BB Philosophicum, Hochschule für Musik, Semesterapparat Musikpädagogik</n>
+            <c>25/112-112-14-PHHFM-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Philosophicum, Hochschule für Musik, Semesterapparat Musikpädagogik</n>
             <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-hochschule-fuer-musik</url><standtext empty="true"/>
         </e>
         <e>
