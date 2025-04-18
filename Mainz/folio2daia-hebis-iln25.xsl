@@ -11,7 +11,7 @@
              (Bei Fehlen des Sprachtextes wird der Text der ersten Sprache verwendet.)
          ind : [optional] Ausleihindikator, überschreibt für diesen Standort den Wert, der aus FOLIO kommt
          url : [optional] URL für den Nutzer mit Infomationen für den Nutzer (z.B. Normdatensatz), default siehe oben
-         nostandort : [optinonal] unterdrückt die Standortangabe aus der 8201 (z.B. für Semesterapparate)
+         nostandort : [optional] unterdrückt die Standortangabe aus der 8201 (z.B. für Semesterapparate)
          map : [optional, wiederholbar] mit linktype="mapongo" oder linktype="bibmap", z.B. <map linktype="mapongo"/> 
                 oder (ggf. linktype überschreibend) mit url="http...", z.B. <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/>
                 Weiteres optionales Attribut defaultlocationtext als ersatz für die 8201, z.B. <map linktype="mapongo" defaultlocationtext="USA BIBL"/>
