@@ -430,6 +430,7 @@ DAIAinfo aus_text nicht ausleihbar ofniAIAD
 DAIAinfo abt_num 25/000-111-12-KUNST-SEMAPP ofniAIAD
 DAIAinfo abt_name Universität Mainz, Kunsthochschule Semesterapparate ofniAIAD
 DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek-standort-kunsthochschule ofniAIAD
+DAIAinfo standort Semesterapparat ofniAIAD
 DAIAinfo epn 255134517-255134517-1 ofniAIAD
 DAIAinfo sig M XVII 61,4 ofniAIAD
 DAIAinfo aus_status verfuegbar ofniAIAD

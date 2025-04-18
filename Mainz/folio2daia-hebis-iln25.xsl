@@ -38,7 +38,7 @@
         </e>
         <e>
             <c>25/000-000-20-ZB-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">Zentralbibliothek, Semesterapparate</n>
-            <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=5&amp;f=14&amp;c=23728&amp;l=9736"/><standtext empty="true"/>
+            <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=5&amp;f=14&amp;c=23728&amp;l=9736"/><standtext>Semesterapparat</standtext>
             <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek</url>
         </e>
         <e>
@@ -51,7 +51,7 @@
         </e>
         <e>
             <c>25/000-111-12-KUNST-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Kunsthochschule Semesterapparate</n>
-            <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek-standort-kunsthochschule</url><standtext empty="true"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek-standort-kunsthochschule</url><standtext>Semesterapparat</standtext>
         </e>
         <e>
             <c>25/002-002-10-GFGPÄD</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Erziehungswissenschaft</n>
@@ -90,7 +90,7 @@
         </e>
         <e>
             <c>25/002-002-24-GFG-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Georg Forster-Gebäude, Semesterapparate</n>
-            <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=5&amp;f=14&amp;c=23728&amp;l=9736"/><standtext empty="true"/>
+            <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=5&amp;f=14&amp;c=23728&amp;l=9736"/><standtext>Semesterapparat</standtext>
             <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
         </e>
         <e>
@@ -119,7 +119,7 @@
         </e>
         <e>
             <c>25/004-004-10-PH-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Philosophicum, Semesterapparate</n>
-            <map url="https://ub-mainz.mapongo.de/?p=1&amp;b=2&amp;f=3&amp;c=23811&amp;l=23808,23809"/><standtext empty="true"/>
+            <map url="https://ub-mainz.mapongo.de/?p=1&amp;b=2&amp;f=3&amp;c=23811&amp;l=23808,23809"/><standtext>Semesterapparat</standtext>
             <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
         </e>
         <e>
@@ -232,7 +232,7 @@
         </e>
         <e>
             <c>25/006-006-16-MINT-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Mathematik, Informatik, Naturwissenschaften und Technik, Semesterapparate</n><map url=""/>
-            <url>https://www.ub.uni-mainz.de/de/standorte#mathematik-informatik-naturwissenschaften-und-technik</url><standtext empty="true"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#mathematik-informatik-naturwissenschaften-und-technik</url><standtext>Semesterapparat</standtext>
         </e>
         <e>
             <c>25/016-016-10-TH</c><campus>cm</campus><n xml:lang="de">BB Theologie, Freihand</n><map linktype="mapongo"/>
@@ -256,7 +256,7 @@
         </e>
         <e>
             <c>25/016-016-20-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Theologie, Semesterapparate</n>
-            <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=1&amp;f=1&amp;l=1170&amp;lang=de"/><standtext empty="true"/>
+            <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=1&amp;f=1&amp;l=1170&amp;lang=de"/><standtext>Semesterapparat</standtext>
             <url>https://www.ub.uni-mainz.de/de/standorte#theologie</url>
         </e>
         <e>
@@ -273,7 +273,7 @@
         </e>
         <e>
             <c>25/018-018-16-RW-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Semesterapparate</n><map url=""/>
-            <url>https://www.ub.uni-mainz.de/de/standorte#rechts-und-wirtschaftswissenschaften</url><standtext empty="true"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#rechts-und-wirtschaftswissenschaften</url><standtext>Semesterapparat</standtext>
         </e>
         <e>
             <c>25/018-020-RWFAK</c><ind>s Praesenzbestand</ind><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Lehrstühle</n>
@@ -309,7 +309,7 @@
         </e>
         <e>
             <c>25/019-019-24-GH-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Translations-, Sprach- und Kulturwissenschaft, Campus Germersheim, Semesterapparate</n>
-            <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/><standtext empty="true"/>
+            <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=7&amp;f=20&amp;c=23620&amp;l=19809,19815,19816"/><standtext>Semesterapparat</standtext>
             <url>https://www.ub.uni-mainz.de/de/standorte#translations-sprach-und-kulturwissenschaft</url>
         </e>
         <e>
@@ -334,7 +334,7 @@
         </e>
         <e>
             <c>25/091-091-14-PHMUW-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Philosophicum, Musikwissenschaft, Semesterapparate</n>
-            <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=2&amp;f=4&amp;c=23932&amp;l=7919&amp;lang=de"/><standtext empty="true"/>
+            <map url="https://ub-mainz.mapongo.de/viewer?p=1&amp;b=2&amp;f=4&amp;c=23932&amp;l=7919&amp;lang=de"/><standtext>Semesterapparat</standtext>
             <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-musikwissenschaft</url>
         </e>        
         <e>
@@ -347,7 +347,7 @@
         </e>
         <e>
             <c>25/112-112-14-PHHFM-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Philosophicum, Hochschule für Musik, Semesterapparat Musikpädagogik</n>
-            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-hochschule-fuer-musik</url><standtext empty="true"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-hochschule-fuer-musik</url><standtext>Semesterapparat</standtext>
         </e>
         <e>
             <c>25/999-009-FBMPI</c><ind>s Praesenzbestand</ind><n xml:lang="de">Max-Planck-Institut für Polymerforschung, Bibliothek</n>
