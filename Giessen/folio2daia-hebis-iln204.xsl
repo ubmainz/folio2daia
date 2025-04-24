@@ -95,6 +95,7 @@
             <c>ILN204/CG/ZRW/Unbekannt</c>
             <n xml:lang="de">ZwBibl. Recht und Wirtschaft, Licher Str. 68</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=010</url>
+            <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/E/E/Datenbanken</c>
@@ -111,6 +112,7 @@
             <c>ILN204/CG/ZP2/Unbekannt</c>
             <n xml:lang="de">ZwBibl. im Phil. II F</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=009</url>
+            <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/CG/DezFB/LW-Inklusion-ZfL</c>
@@ -140,6 +142,7 @@
             <c>ILN204/CG/ZP2/Handapparate</c>
             <n xml:lang="de">ZwBibl. im Phil. II F</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=009</url>
+            <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Fachbibliotheken</c>
@@ -238,6 +241,7 @@
             <c>ILN204/CG/ZRW/Freihand</c>
             <n xml:lang="de">ZwBibl. Recht und Wirtschaft, Licher Str. 68</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=010</url>
+            <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/CG/UB/Freihand1OG</c>
@@ -255,6 +259,7 @@
             <c>ILN204/CG/ZHB/Handapparate</c>
             <n xml:lang="de">Zeughausbibl.; Senckenbergstr. 3, Erdgeschoss</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=005</url>
+            <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/CG/DezFB/WiWi-BWL03</c>
@@ -277,6 +282,7 @@
             <c>ILN204/CG/ZHB/Erwerbungssignatur</c>
             <n xml:lang="de">Zeughausbibl.; Senckenbergstr. 3, Erdgeschoss</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=005</url>
+            <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/CG/UB/Erwerbungssignatur</c>
@@ -287,6 +293,7 @@
             <c>ILN204/CG/ZRW/Erwerbungssignatur</c>
             <n xml:lang="de">ZwBibl. Recht und Wirtschaft, Licher Str. 68</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=010</url>
+            <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/CG/ZHB/ZHBSemapp</c>
@@ -299,6 +306,7 @@
             <c>ILN204/CG/ZRW/Handapparate</c>
             <n xml:lang="de">ZwBibl. Recht und Wirtschaft, Licher Str. 68</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=010</url>
+            <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Veterinaerphysiologie</c>
@@ -316,6 +324,7 @@
             <c>ILN204/CG/ZHB/Unbekannt</c>
             <n xml:lang="de">Zeughausbibl.; Senckenbergstr. 3, Erdgeschoss</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=005</url>
+            <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Pferdeklinik</c>
@@ -570,11 +579,13 @@
             <c>ILN204/CG/ZP2/Erwerbungssignatur</c>
             <n xml:lang="de">ZwBibl. im Phil. II F</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=009</url>
+            <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/CG/ZHB/Freihand</c>
             <n xml:lang="de">Zeughausbibl.; Senckenbergstr. 3, Erdgeschoss</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=005</url>
+            <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/CG/DezFB/FB-Romanistik</c>
@@ -671,6 +682,7 @@
             <c>ILN204/CG/ZP2/Freihand</c>
             <n xml:lang="de">ZwBibl. im Phil. II F</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=009</url>
+            <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Kleintier-Innere-Chirurgie</c>
@@ -1595,7 +1607,22 @@
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">standort</xsl:with-param>
             <xsl:with-param name="value">
-                <xsl:text>&lt;a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?signatur=</xsl:text>
+                <xsl:text>&lt;a target="_blank" href="http://bibmap.ub.uni-giessen.de/</xsl:text>
+                <xsl:choose>
+                    <xsl:when test="starts-with(effectiveLocation/code, 'ILN204/CG/ZRW/')">
+                        <xsl:text>epm</xsl:text>
+                    </xsl:when>
+                    <xsl:when test="starts-with(effectiveLocation/code, 'ILN204/CG/ZHB/')">
+                        <xsl:text>zhb</xsl:text>
+                    </xsl:when>
+                    <xsl:when test="starts-with(effectiveLocation/code, 'ILN204/CG/ZP2/')">
+                        <xsl:text>zp2</xsl:text>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:text>bm</xsl:text>
+                    </xsl:otherwise>
+                </xsl:choose>
+                <xsl:text>/BIBMAP_Server?signatur=</xsl:text>
                 <xsl:value-of select="encode-for-uri(effectiveCallNumberComponents/callNumber)"/>
                 <xsl:text>"&gt;&lt;img style="vertical-align:center" name="inline_arrow" hspace="0" vspace="0" border="0" alt="</xsl:text>
                 <xsl:call-template name="selectlanguage">
