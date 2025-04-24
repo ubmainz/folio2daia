@@ -53,7 +53,7 @@
         </e>
         <e>
             <c>ILN204/CG/ZNL/Magazin</c>
-            <n xml:lang="de">ZwBibl. Natur- u. Lebenswiss. (ZNL); Heinrich-Buff-Ring 58, 5. OG</n>
+            <n xml:lang="de">Zweigbibliothek Natur- und Lebenswissenschaften (ZNL), Seltersweg 85</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=002</url>
             <campus>Magazin</campus>
         </e>
@@ -71,7 +71,7 @@
         </e>
         <e>
             <c>ILN204/CG/ZNL/Handapparate</c>
-            <n xml:lang="de">ZwBibl. Natur- u. Lebenswiss. (ZNL); Heinrich-Buff-Ring 58, 5. OG</n>
+            <n xml:lang="de">Zweigbibliothek Natur- und Lebenswissenschaften (ZNL), Seltersweg 85</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=002</url>
         </e>
         <e>
@@ -612,7 +612,7 @@
         </e>
         <e>
             <c>ILN204/CG/ZNL/Unbekannt</c>
-            <n xml:lang="de">ZwBibl. Natur- u. Lebenswiss. (ZNL); Heinrich-Buff-Ring 58, 5. OG</n>
+            <n xml:lang="de">Zweigbibliothek Natur- und Lebenswissenschaften (ZNL), Seltersweg 85</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=002</url>
         </e>
         <e>
@@ -647,7 +647,7 @@
         </e>
         <e>
             <c>ILN204/CG/ZNL/Freihand</c>
-            <n xml:lang="de">ZwBibl. Natur- u. Lebenswiss. (ZNL); Heinrich-Buff-Ring 58, 5. OG</n>
+            <n xml:lang="de">Zweigbibliothek Natur- und Lebenswissenschaften (ZNL), Seltersweg 85</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=002</url>
         </e>
         <e>
@@ -692,7 +692,7 @@
         </e>
         <e>
             <c>ILN204/CG/ZNL/Erwerbungssignatur</c>
-            <n xml:lang="de">ZwBibl. Natur- u. Lebenswiss. (ZNL); Heinrich-Buff-Ring 58, 5. OG</n>
+            <n xml:lang="de">Zweigbibliothek Natur- und Lebenswissenschaften (ZNL), Seltersweg 85</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=002</url>
         </e>        
 
