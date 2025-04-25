@@ -1339,22 +1339,25 @@
                     </h>
                     <t2 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t2>
                 </hinweis-ui>
-                <hinweis-s campus="Fachbibliotheken">
+                <hinweis-sx campus="Fachbibliotheken">
                     <t2 xml:lang="de">Bitte erfragen Sie die Ausleihbedingungen vor Ort</t2>
                     <t2 xml:lang="en">Please inquire about the borrowing conditions on site</t2>
-                </hinweis-s>
-                <hinweis-s campus="Mathe-Informatik">
+                </hinweis-sx>
+                <hinweis-sx campus="Mathe-Informatik">
                     <t2 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/files/mathe.pdf'&gt;Regelung des Ausleihverfahrens&lt;/a&gt;</t2>
                     <t2 xml:lang="en">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/files/mathe.pdf'&gt;Borrowing conditions&lt;/a&gt;</t2>
-                </hinweis-s>
-                <campus>Mathe-Informatik</campus>
-                <hinweis-s campus="Magazin">
+                </hinweis-sx>
+                <hinweis-si campus="Magazin">
                     <h>
                         <xsl:text>https://folio-t-serv.uni-giessen.de/services/zeitschrift/journal/</xsl:text>
                         <xsl:value-of select="../hrid"/>
                     </h>
                     <t2 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t2>
-                </hinweis-s>
+                </hinweis-si>
+                <hinweis-sx campus="Magazin">
+                    <h>https://paia.link</h>
+                    <t2 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t2>
+                </hinweis-sx>
                 <hinweis-y campus="JLU-Bibliografie">
                     <xsl:variable name="dodummy-hint-text">
                         <xsl:text>Titel nicht in diesem Katalog nachgewiesen, bitte suchen Sie im &lt;a href=&quot;</xsl:text>
@@ -1390,6 +1393,24 @@
                     />
                 </IF>
                 <!-- nur für den Lesesaal bestellbar -->
+                <SI>
+                    <i>s Praesenzbestand</i>
+                    <xsl:choose>
+                        <!-- Campus = Magazin? -->
+                        <xsl:when test="$bbtabelle/e[c = current()/../effectiveLocation/code]/campus = 'Magazin'">
+                            <s>verfuegbar</s>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <s>unbekannt</s>        
+                        </xsl:otherwise>
+                    </xsl:choose>
+                    <t1 xml:lang="de">vor Ort benutzbar</t1>
+                    <t1 xml:lang="en">not available for loan</t1>
+                    <xsl:copy-of
+                        select="$campusubgiessen/hinweis-si[@campus = $bbtabelle/e[c = current()/../effectiveLocation/code]/campus]/*"
+                    />
+                </SI>
+                <!-- Präsenzbestand Zeitschriften -->
                 <SX>
                     <i>s Praesenzbestand</i>
                     <xsl:choose>
@@ -1404,7 +1425,7 @@
                     <t1 xml:lang="de">vor Ort benutzbar</t1>
                     <t1 xml:lang="en">not available for loan</t1>
                     <xsl:copy-of
-                        select="$campusubgiessen/hinweis-s[@campus = $bbtabelle/e[c = current()/../effectiveLocation/code]/campus]/*"
+                        select="$campusubgiessen/hinweis-sx[@campus = $bbtabelle/e[c = current()/../effectiveLocation/code]/campus]/*"
                     />
                 </SX>
                 <!-- Präsenzbestand -->
@@ -1430,15 +1451,28 @@
                     <i>i Lesesaal</i>
                     <s>vormerkbar</s>
                     <h>https://paia.link</h>
+                    <d>
+                        <xsl:value-of
+                            select="xs:dateTime((current()/../status/date, current-dateTime())[1]) + xs:dayTimeDuration('P28D')"
+                        />
+                    </d>
                     <t1 xml:lang="de">nur für den Lesesaal</t1>
                     <t1 xml:lang="en">reading room only</t1>
                 </IV>
                 <!-- nur für den Lesesaal vormerkbar -->
                 <CN>
                     <i>c</i>
-                    <s>nicht vormerkbar</s>
+                    <s>vormerkbar</s>
+                    <h>https://paia.link</h>
+                    <d>
+                        <xsl:value-of
+                            select="xs:dateTime((current()/../status/date, current-dateTime())[1]) + xs:dayTimeDuration('P28D')"
+                        />
+                    </d>
+                    <t1 xml:lang="de">nur für den Lesesaal</t1>
+                    <t1 xml:lang="en">reading room only</t1>
                 </CN>
-                <!-- Präsenzbestand -->
+                <!-- Präsenzbestand, nur für den Lesesaal vormerkbar -->
                 <XO>
                     <i>a bestellt</i>
                     <s>gesperrt</s>
