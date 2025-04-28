@@ -1360,7 +1360,7 @@
                 </hinweis-sx>
                 <hinweis-y campus="JLU-Bibliografie">
                     <xsl:variable name="dodummy-hint-text">
-                        <xsl:text>Titel nicht in diesem Katalog nachgewiesen, bitte suchen Sie im &lt;a href=&quot;</xsl:text>
+                        <xsl:text>Exemplar nicht in diesem Katalog nachgewiesen, bitte suchen Sie im &lt;a href=&quot;</xsl:text>
                         <xsl:text>http://cbsopac.rz.uni-frankfurt.de/DB=2.1/LNG=DU/CHARSET=ISO-8859-1/PRS=HOL/CMD?ACT=SRCH&amp;IKT=12&amp;TRM=</xsl:text>
                         <xsl:value-of select="ancestor::instanceData/instance/hrid"/>
                         <xsl:text>&quot;&gt;Hessischen Verbundkatalog&lt;/a&gt;.</xsl:text>
