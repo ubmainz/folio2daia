@@ -1323,7 +1323,7 @@
             <xsl:variable name="campusubgiessen">
                 <hinweis-ii campus="Magazin">
                     <h>
-                        <xsl:text>https://folio-t-serv.uni-giessen.de/services/zeitschrift/journal/</xsl:text>
+                        <xsl:text>https://folio-serv.uni-giessen.de/services/zeitschrift/journal/</xsl:text>
                         <xsl:value-of select="../hrid"/>
                     </h>
                     <t2 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t2>
@@ -1334,7 +1334,7 @@
                 </hinweis-u>
                 <hinweis-ui campus="Magazin">
                     <h>
-                        <xsl:text>https://folio-t-serv.uni-giessen.de/services/zeitschrift/journal/</xsl:text>
+                        <xsl:text>https://folio-serv.uni-giessen.de/services/zeitschrift/journal/</xsl:text>
                         <xsl:value-of select="../hrid"/>
                     </h>
                     <t2 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t2>
@@ -1349,7 +1349,7 @@
                 </hinweis-sx>
                 <hinweis-si campus="Magazin">
                     <h>
-                        <xsl:text>https://folio-t-serv.uni-giessen.de/services/zeitschrift/journal/</xsl:text>
+                        <xsl:text>https://folio-serv.uni-giessen.de/services/zeitschrift/journal/</xsl:text>
                         <xsl:value-of select="../hrid"/>
                     </h>
                     <t2 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t2>
