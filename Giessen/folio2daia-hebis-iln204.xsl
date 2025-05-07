@@ -735,63 +735,49 @@
         <hap nr="hap10117097">Prof. Rudkowski, Licher Str. 72</hap>
         <hap nr="hap10117098">Prof. Hailbronner, Licher Str. 64</hap>
         <hap nr="hap10117099">Prof. Auer, Licher Str. 76</hap>
-        <hap nr="hap10217087">Juniorprof. Gissel, Gesundheits&#xf6;konomie VWL VIII, Licher Str.
-            62</hap>
+        <hap nr="hap10217087">Juniorprof. Gissel, Gesundheits&#xf6;konomie VWL VIII, Licher Str. 62</hap>
         <hap nr="hap10217088">Prof. Bertschek, VWL IX, Licher Str. 64</hap>
-        <hap nr="hap10217090">Prof. Pr&#xf6;llochs, Data Science und Digitalisierung, Licher Str.
-            74</hap>
-        <hap nr="hap10217091">Prof. J. Pfeiffer, BWL, Digitalisierung, E-Business und Operations
-            Management, Licher Str. 74</hap>
+        <hap nr="hap10217090">Prof. Pr&#xf6;llochs, Data Science und Digitalisierung, Licher Str. 74</hap>
+        <hap nr="hap10217091">Prof. J. Pfeiffer, BWL, Digitalisierung, E-Business und Operations Management, Licher Str. 74</hap>
         <hap nr="hap10217092">Prof. Stockburger, Daten&#xf6;konomie VWL X, Licher Str. 62</hap>
+        <hap nr="hap10217093">Prof. Kurz, IT-Management (BWL XIV), HRZ</hap>
         <hap nr="hap10310010">Prof. Gronemeyer, Inst. f. Soziologie, Phil. II H</hap>
         <hap nr="hap10310172">Prof. Bruesemeister, Inst. f. Soziologie, Phil. II E</hap>
         <hap nr="hap10310173">Prof. Schl&#xfc;ter, Inst. f. Soziologie, Phil. II E, Zi. 017b</hap>
         <hap nr="hap10310176">Prof. Ahrens, Inst. f. Soziologie, Phil. II E</hap>
+        <hap nr="hap10310178">Prof. Schwindenhammer, Inst. f. Soziologie, Phil. II E</hap>
         <hap nr="hap10310271">Prof. Grasse, Politikwiss., Phil. II E, Zi.109</hap>
         <hap nr="hap10310272">Prof. Kreide, Inst. f. Politikwiss., Phil. II E</hap>
         <hap nr="hap10310274">Prof. de Ne\-ve, Inst. f. Politikwiss., Phil. II E</hap>
         <hap nr="hap10310275">Prof. Abendsch&#xf6;n, Inst. f. Politikwiss., Phil. II E</hap>
         <hap nr="hap10310276">Prof. Breitmeier, Inst. f. Politikwiss., Phil. II E</hap>
         <hap nr="hap10310277">Prof. Gawrich, Inst. f. Politikwiss., Phil. II E</hap>
+        <hap nr="hap10310279">Prof. Klapeer, Inst. f. Politikwiss., Phil. II E</hap>
         <hap nr="hap10310280">Prof. Schmitt, Did. d. Sozialwiss., Phil. II E</hap>
         <hap nr="hap10320170">Prof. Miethe, Inst. f. Erziehungswiss., Phil. II B</hap>
         <hap nr="hap10320171">Prof. Wiezorek, Phil. II B</hap>
         <hap nr="hap10320173">Prof. K&#xe4;pplinger, Inst. f. Erziehungswiss., Phil. II B</hap>
         <hap nr="hap10320174">Prof. C. Schmidt, Berufsp&#xe4;dagogik, Phil II, Haus B</hap>
-        <hap nr="hap10320175">Prof. Stecher, Inst. f. Erziehungswiss., Emp. Bildungsforschung, Phil.
-            II B</hap>
-        <hap nr="hap10320176">Prof. Braun, Inst. f. Erziehungswiss., Lehrerbildung, Bismarckstr.
-            37</hap>
+        <hap nr="hap10320175">Prof. Stecher, Inst. f. Erziehungswiss., Emp. Bildungsforschung, Phil. II B</hap>
+        <hap nr="hap10320176">Prof. Braun, Inst. f. Erziehungswiss., Lehrerbildung, Phil. II B</hap>
         <hap nr="hap10320270">Prof. Stoeppler, Inst. f. Heil- u. Sonderp&#xe4;d., Phil. II B</hap>
-        <hap nr="hap10320271">Prof. Timberlake , Inst. f. Heil- u. Sonderp&#xe4;d., Phil. II
-            B</hap>
-        <hap nr="hap10320272">Prof. van Minnen, Inst. f. Heil- u. Sonderp&#xe4;d., Phil. II
-            B</hap>
+        <hap nr="hap10320271">Prof. Timberlake , Inst. f. Heil- u. Sonderp&#xe4;d., Phil. II B</hap>
+        <hap nr="hap10320272">Prof. van Minnen, Inst. f. Heil- u. Sonderp&#xe4;d., Phil. II B</hap>
         <hap nr="hap10320273">Prof. von Stechow, Heil- u. Sonderp&#xe4;d., Phil. II, Haus B</hap>
         <hap nr="hap10320370">Prof. Seifert, Inst. f. Schulp&#xe4;d., Phil. II B</hap>
-        <hap nr="hap10320371">Prof. Rakoczy, Erziehungswiss. Schwerpunkt Schulp&#xe4;d. u. emp.
-            Bildungsf. Phil. II B 123</hap>
-        <hap nr="hap10320374">Prof. Neuss, Inst. f. Schulp&#xe4;d. und Did. d. Sozialwiss., Phil. II
-            B</hap>
-        <hap nr="hap10320375">Prof. Hinzke, Erziehungswiss. mdS Lehrerfortbildungsf., Bismarckstr.
-            37, R. 204</hap>
-        <hap nr="hap10320376">Prof. Ernst, Inst. f. Kindheits- und Schulp&#xe4;dagogik, Ludwigstr.
-            34 (ZMI)</hap>
-        <hap nr="hap10329997">F&#xf6;rderwerkstatt d. Abt. Sprachheilp&#xe4;dagogik, Phil. II B, R.
-            013</hap>
+        <hap nr="hap10320371">Prof. Rakoczy, Erziehungswiss. Schwerpunkt Schulp&#xe4;d. u. emp. Bildungsf. Phil. II B 123</hap>
+        <hap nr="hap10320374">Prof. Neuss, Inst. f. Schulp&#xe4;d. und Did. d. Sozialwiss., Phil. II B</hap>
+        <hap nr="hap10320375">Prof. Hinzke, Erziehungswiss. Lehrerfortbildungsf., Phil. II B</hap>
+        <hap nr="hap10320376">Prof. Ernst, Inst. f. Kindheits- und Schulp&#xe4;dagogik, Ludwigstr. 34 (ZMI)</hap>
+        <hap nr="hap10329997">F&#xf6;rderwerkstatt d. Abt. Sprachheilp&#xe4;dagogik, Phil. II B, R. 013</hap>
         <hap nr="hap10329998">Bildungswerkstatt, Phil. II B 122 a</hap>
-        <hap nr="hap10329999">Didaktische Lernwerkstatt / Arbeitsstelle f&#xfc;r Inklusion, Phil. II
-            B, R. 013</hap>
-        <hap nr="hap10330101">Diathek / Herr Dr. Steinm&#xfc;ller, Inst. f. Kunstp&#xe4;dagogik,
-            Phil. II, Haus H</hap>
-        <hap nr="hap10330170">Prof. Buschk&#xfc;hle, Inst. f. Kunstp&#xe4;dagogik, Phil. II, Haus
-            H</hap>
+        <hap nr="hap10329999">Didaktische Lernwerkstatt / Arbeitsstelle f&#xfc;r Inklusion, Phil. II B, R. 013</hap>
+        <hap nr="hap10330101">Diathek / Herr Dr. Steinm&#xfc;ller, Inst. f. Kunstp&#xe4;dagogik, Phil. II, Haus H</hap>
+        <hap nr="hap10330170">Prof. Buschk&#xfc;hle, Inst. f. Kunstp&#xe4;dagogik, Phil. II, Haus H</hap>
         <hap nr="hap10330171">Prof. Schnurr</hap>
         <hap nr="hap10330173">Prof. Schepers, Inst. f. Kunstp&#xe4;dagogik, Phil. II, Haus H</hap>
-        <hap nr="hap10340171">Prof. Bullerjahn, Inst. f. Musikwiss. u. Musikpaed., Phil. II
-            D</hap>
-        <hap nr="hap10409999">Mediathek Evangelische und Katholische Theologie, Phil. II H
-            209</hap>
+        <hap nr="hap10340171">Prof. Bullerjahn, Inst. f. Musikwiss. u. Musikpaed., Phil. II D</hap>
+        <hap nr="hap10409999">Mediathek Evangelische und Katholische Theologie, Phil. II H 209</hap>
         <hap nr="hap10410170">Prof. Eisen, Ev. Theologie, Phil. II H</hap>
         <hap nr="hap10410171">Prof. Brinkmann, Inst. f. Evangel. Theologie, Phil. II, Haus H</hap>
         <hap nr="hap10410172">Prof. David, Ev. Theologie, Phil. II H</hap>
@@ -799,41 +785,34 @@
         <hap nr="hap10420171">Prof. Pruchniewicz, Inst. f. Kath. Theol., Phil II H</hap>
         <hap nr="hap10420173">Prof. Schmidt, Kath. Theologie, Phil. II H</hap>
         <hap nr="hap10437001">Didaktik d. Geschichte, Phil. I C, Zi. 204</hap>
-        <hap nr="hap10437070">Handapparat Alte Geschichte, Histor. Inst., Alte Geschichte, Phil. I
-            G</hap>
+        <hap nr="hap10437070">Handapparat Alte Geschichte, Histor. Inst., Alte Geschichte, Phil. I G</hap>
         <hap nr="hap10437072">Prof. Weckel, Fachjournalistik Geschichte, Phil. I, C</hap>
-        <hap nr="hap10440170">Prof. Ruby, Inst. f. Kunstgesch., Otto-Behaghel-Str. 10G, Raum
-            G332</hap>
+        <hap nr="hap10440170">Prof. Ruby, Inst. f. Kunstgesch., Otto-Behaghel-Str. 10G, Raum G332</hap>
         <hap nr="hap10440171">Prof. Sp&#xe4;th, Kunstgeschichte, Phil. I G</hap>
         <hap nr="hap10447171">Inst. f. Kunstgeschichte, Phil. I, G</hap>
         <hap nr="hap10450170">Prof. Lorenz, Klass. Arch&#xe4;ologie, Otto-Behaghel-Str. 10 D</hap>
         <hap nr="hap10470170">SFB Erinnerungskulturen, Islamwissenschaft, Phil. I E</hap>
         <hap nr="hap10470171">Prof. Kirchner, Professur f. Turkologie, Phil. I E</hap>
         <hap nr="hap10470172">Prof. Sarikaya, Prof. f. Islamische Theologie, Phil. I E</hap>
-        <hap nr="hap10470174">Prof. C\,akir-Mattner, Prof. f. Isl. Theol. musl. Lebensgest., Phil. I
-            D</hap>
+        <hap nr="hap10470174">Prof. C\,akir-Mattner, Prof. f. Isl. Theol. musl. Lebensgest., Phil. I D</hap>
         <hap nr="hap10490170">Prof. \Oezmen, Zentr. f. Philos., Rathenaustr. 8</hap>
         <hap nr="hap10510113">Arbeitsstelle Holocaustliteratur, Phil. I D, 4. OG</hap>
-        <hap nr="hap10510170">Prof. Voeste, Inst. f. Germanistik, Phil. I, Haus B</hap>
+        <hap nr="hap10510170">Prof. Voeste, Inst. f. Germanistik, Phil. I B</hap>
         <hap nr="hap10510171">Prof. Hennig, Inst. f. Germanistik, Phil. I, Haus B, Raum 111</hap>
         <hap nr="hap10510172">Prof. Lobin, Angew. Sprachw. u. Computerlinguistik, Phil. I D</hap>
-        <hap nr="hap10510173">Prof. Gloning, Germanist. Sprachwiss., Phil. I, Haus B</hap>
-        <hap nr="hap10510272">Prof. Jacob, Inst. f. Germanistik, Arbeitsber. Literatur, Phil I, Haus B</hap>
+        <hap nr="hap10510173">Prof. Gloning, Germanist. Sprachwiss., Phil. I B</hap>
+        <hap nr="hap10510272">Prof. Jacob, Inst. f. Germanistik, Arbeitsber. Literatur, Phil I B</hap>
         <hap nr="hap10510273">Prof. Simonis, Germanistik, Phil. I G, Zi. 29</hap>
-        <hap nr="hap10510274">Prof. Wirth, Inst. f. Germanistik, Neuere dt. Lit., Phil. I, Haus B</hap>
+        <hap nr="hap10510274">Prof. Wirth, Inst. f. Germanistik, Neuere dt. Lit., Phil. I, B</hap>
         <hap nr="hap10510275">Prof. Dietl, Inst. f. Germanistik, Phil. I, Haus B, Zi. 135</hap>
-        <hap nr="hap10510370">Prof. M&#xf6;bius, Inst. f. Germanistik, Literaturdid., Haus B, Zi.
-            206</hap>
+        <hap nr="hap10510370">Prof. M&#xf6;bius, Inst. f. Germanistik, Literaturdid., Haus B, Zi. 206</hap>
         <hap nr="hap10510371">Prof. Dube, Inst. f. Germanistik, Phil. I B</hap>
-        <hap nr="hap10510372">Prof. Lehnen, Germanist. Sprach- u. Mediendidaktik, Phil. I B, 2.
-            Stock</hap>
-        <hap nr="hap10510375">Prof. Feilke, Prof. f. Did. der dt. Sprache und Literatur, Phil. I
-            Haus B</hap>
+        <hap nr="hap10510372">Prof. Lehnen, Germanist. Sprach- u. Mediendidaktik, Phil. I B, 2. Stock</hap>
+        <hap nr="hap10510374">Prof. Madlener-Charpentier, Deutsch als Fremdsprache, Phil. I Haus D</hap>
+        <hap nr="hap10510375">Prof. Feilke, Prof. f. Did. der dt. Sprache und Literatur, Phil. I Haus B</hap>
         <hap nr="hap10510376">Prof. Gamper, Deutsch als Zweitsprache, Phil. I Haus D</hap>
-        <hap nr="hap10520173">Prof. Olson, Anglophone Literatur-, Kultur- und Medienwiss., Phil. I
-            B</hap>
-        <hap nr="hap10520174">Prof. Rostek, Anglophone Literatur-, Kultur- und Medienwiss., Phil. I
-            B</hap>
+        <hap nr="hap10520173">Prof. Olson, Anglophone Literatur-, Kultur- und Medienwiss., Phil. I B</hap>
+        <hap nr="hap10520174">Prof. Rostek, Anglophone Literatur-, Kultur- und Medienwiss., Phil. I B</hap>
         <hap nr="hap10520176">Prof. Luo, Intercultural Communication and Business, Phil. I B</hap>
         <hap nr="hap10530170">Prof. Born, Inst. f. Roman. Phil., Phil. II G</hap>
         <hap nr="hap10530171">Prof. Seiler, Inst. f. Roman. Phil., Phil. II, G</hap>
@@ -849,7 +828,7 @@
         <hap nr="hap10617040">Prof. Stark, Klin. Psychol./VT-Ambulanz, Phil.I F</hap>
         <hap nr="hap10617070">Prof. Gegenfurtner, Allg. Psychol., Phil. I F</hap>
         <hap nr="hap10617071">Prof. Knauff, Allg. Psychol., Phil I F</hap>
-        <hap nr="hap10617073">Prof. Schuster, Psycholog. Methodenlehre,</hap>
+        <hap nr="hap10617073">Prof. Schuster, Psycholog. Methodenlehre</hap>
         <hap nr="hap10617074">Prof. Klehe, Arbeits- u. Organisationspsychol., Phil. I F</hap>
         <hap nr="hap10617076">Prof. Sch&#xf6;ne, P&#xe4;d. Psychol., Phil. I F</hap>
         <hap nr="hap10617077">Prof. Brunstein, P&#xe4;d. Psychol., Phil. I F</hap>
@@ -861,21 +840,18 @@
         <hap nr="hap10617090">Prof. Fleming, Allg. Psychol., Phil. I F, 3. OG</hap>
         <hap nr="hap10617092">Prof. Wittmann, Biolog. Psychol., Phil. I, Haus F</hap>
         <hap nr="hap10617093">Prof. Fiehler, Allg. Psychol., Phil. I F, 3.OG</hap>
-        <hap nr="hap10617095">Prof. Schwenck, Prof. klin. Kinder- u. Jugendpsychol., Phil. I
-            C</hap>
+        <hap nr="hap10617095">Prof. Schwenck, Prof. klin. Kinder- u. Jugendpsychol., Phil. I C</hap>
         <hap nr="hap10617097">Prof. Eitel, P&#xe4;dagog. Psychol., Phil. I</hap>
         <hap nr="hap10617170">Prof. de Haas, Experiment. Psychologie, Phil. I F</hap>
         <hap nr="hap10620170">Prof. Oesterhelt, Inst. f. Sportwissenschaft, Kugelberg 62</hap>
         <hap nr="hap10620171">Prof. Munzert, Sportpsych. u. Bewegungswiss.</hap>
         <hap nr="hap10620172">Prof. M&#xfc;ller, Sportwiss., Kugelberg 62</hap>
-        <hap nr="hap10620173">Prof. Kr&#xfc;ger, Leistungsphysiologie und Sporttherapie, Kugelberg
-            62</hap>
+        <hap nr="hap10620173">Prof. Kr&#xfc;ger, Leistungsphysiologie und Sporttherapie, Kugelberg 62</hap>
         <hap nr="hap10620174">Professur f&#xfc;r Sportp&#xe4;d. u. Sportsoz., Kugelberg 62</hap>
         <hap nr="hap10620175">Prof. Hegele, Inst. f. Sportwiss., Kugelberg 62</hap>
         <hap nr="hap10629999">Dr. D&#xf6;hring, Inst. f. Sportwiss., Kugelberg 62</hap>
         <hap nr="hap10710270">Prof. Holzer, Inst. f. Informatik, Arndstr. 2</hap>
-        <hap nr="hap10710172">Prof. Witzel, Math. Inst., Diskrete Mathematik und Geometrie,
-            Arndtstr. 2</hap>
+        <hap nr="hap10710172">Prof. Witzel, Math. Inst., Diskrete Mathematik und Geometrie, Arndtstr. 2</hap>
         <hap nr="hap10710173">Prof. Buhmann, Math. Inst., Numerik, Heinrich-Buff-Ring 44</hap>
         <hap nr="hap10710174">Prof. Ould-Ahmedou, Math. Inst., AG Analysis, Arndtstr. 2</hap>
         <hap nr="hap10710177">Prof. Metsch, Math. Inst., AG Diskr. Math., Arndstr. 2</hap>
@@ -884,25 +860,22 @@
         <hap nr="hap10710181">Prof. Davydov, Math. Inst., Numerik, Heinrich-Buff-Ring 44</hap>
         <hap nr="hap10710182">Prof. Overbeck, Math. Inst., AG Finanzmathematik, Arndstr. 2</hap>
         <hap nr="hap10710199">Dr. Eichner, Math. Inst., AG Stochastik, Arndtstr. 2</hap>
-        <hap nr="hap10710274">Prof. Kaiser, Inst. f. Informatik, Arndtstr. 2</hap>
+        <hap nr="hap10710274">Prof. Kaiser, Math. Inst., Arndtstr. 2</hap>
+        <hap nr="hap10710276">Prof. Wendlandt, Inst. f. Informatik, Arndtstr. 2</hap>
+        <hap nr="hap10710277">Prof. Dobs, Inst. f. Informatik, Otto-Behaghel-Str. 10F</hap>
         <hap nr="hap10710299">Prof. Kutrib, Inst. f. Informatik, Arndtstr. 2</hap>
         <hap nr="hap10710370">Prof. Schreiber, Didaktik d. Mathematik, Phil. II C</hap>
         <hap nr="hap10710372">Prof. Lengnink, Did. d. Mathematik, Phil. II C</hap>
         <hap nr="hap10719998">Lernzentrum Mathematik, Heinrich-Buff-Ring 16, R. P516</hap>
         <hap nr="hap10719999">Testothek Mathematik, Phil. II C</hap>
         <hap nr="hap10720170">Prof. Eickhoff, 1. Physikal. Inst., Heinrich-Buff-Ring 16</hap>
-        <hap nr="hap10720171">Prof. Chatterjee, 1. Physikal. Inst., Heinrich-Buff-Ring 16, 2.
-            OG</hap>
+        <hap nr="hap10720171">Prof. Chatterjee, 1. Physikal. Inst., Heinrich-Buff-Ring 16, 2. OG</hap>
         <hap nr="hap10720172">Prof. Klar, 1. Physikal. Inst., Heinrich-Buff-Ring 16, 4. OG</hap>
-        <hap nr="hap10720173">Prof. Heiliger, 1. Physikal. Inst., Heinrich-Buff-Ring 16, Zi.
-            211</hap>
+        <hap nr="hap10720173">Prof. Heiliger, 1. Physikal. Inst., Heinrich-Buff-Ring 16, Zi. 211</hap>
         <hap nr="hap10720174">Prof. Hannemann, 1. Physikal. Inst., Heinrich-Buff-Ring 16</hap>
-        <hap nr="hap10720177">Prof. Thoma, 1. Physikal. Inst., Heinrich-Buff-Ring 16, Zi.
-            309</hap>
-        <hap nr="hap10720271">Prof. Brinkmann, 2. Physikal. Inst., Heinrich-Buff-Ring 16, 1.
-            OG</hap>
-        <hap nr="hap10720274">Prof. Scheidenberger, 2. Physikal. Inst., Heinrich-Buff-Ring
-            14</hap>
+        <hap nr="hap10720177">Prof. Thoma, 1. Physikal. Inst., Heinrich-Buff-Ring 16, Zi. 309</hap>
+        <hap nr="hap10720271">Prof. Brinkmann, 2. Physikal. Inst., Heinrich-Buff-Ring 16, 1. OG</hap>
+        <hap nr="hap10720274">Prof. Scheidenberger, 2. Physikal. Inst., Heinrich-Buff-Ring 14</hap>
         <hap nr="hap10720275">Prof. H&#xf6;hne, 2. Physikal. Inst., Heinrich-Buff-Ring 16</hap>
         <hap nr="hap10720370">Prof. Schlettwein, Angew. Physik, Heinrich-Buff-Ring 16, 1. OG</hap>
         <hap nr="hap10720371">Prof. Kohl, Angew. Physik, Heinrich-Buff-Ring 14</hap>
@@ -910,15 +883,12 @@
         <hap nr="hap10720373">Prof. D&#xfc;rr, Inst. f. Angew. Physik, Heinrich-Buff-Ring 16</hap>
         <hap nr="hap10720471">Prof. Bunde, Theoret. Physik 3, Heinrich-Buff-Ring 16, 4. OG</hap>
         <hap nr="hap10720474">Prof. Fischer, Theoret. Physik, Heinrich-Buff-Ring 16, 4. OG</hap>
-        <hap nr="hap10720477">Prof. von Smekal, Inst. f. Theoret. Physik, Heinrich-Buff-Ring
-            16</hap>
+        <hap nr="hap10720477">Prof. von Smekal, Inst. f. Theoret. Physik, Heinrich-Buff-Ring 16</hap>
         <hap nr="hap10720478">Prof. Sanna, Inst. f. Theoret. Physik, Heinrich-Buff-Ring 16</hap>
         <hap nr="hap10720570">Prof. von Aufschnaiter, Didaktik d. Physik, Phil. II C</hap>
-        <hap nr="hap10729998">Physik Demonstrationspraktikum, Hoersaalgeb.,</hap>
-        <hap nr="hap10729999">Physik Vorlesungsvorbereitung, Hoersaalgeb., Heinrich-Buff-Ring
-            14</hap>
-        <hap nr="hap10730170">Prof. Luterbacher, Inst. f&#xfc;r Geographie, Senckenbergstr.
-            1</hap>
+        <hap nr="hap10729998">Physik Demonstrationspraktikum, Hoersaalgeb.</hap>
+        <hap nr="hap10729999">Physik Vorlesungsvorbereitung, Hoersaalgeb., Heinrich-Buff-Ring 14</hap>
+        <hap nr="hap10730170">Prof. Luterbacher, Inst. f&#xfc;r Geographie, Senckenbergstr. 1</hap>
         <hap nr="hap10730171">Prof. Dittmann, Inst. f&#xfc;r Geographie, Senckenbergstr. 1</hap>
         <hap nr="hap10730172">Prof. Hennemann, Inst. f&#xfc;r Geographie, Senckenbergstr. 1</hap>
         <hap nr="hap10730173">Prof. Diller, Inst. f&#xfc;r Geographie, Schlossgasse 7</hap>
@@ -938,141 +908,103 @@
         <hap nr="hap10810470">Prof. M&#xfc;ller, Inst. f. Pflanzenoekol. , IFZ</hap>
         <hap nr="hap10810471">Dr. Lenhart, Inst. f. Pflanzenoekol., IFZ</hap>
         <hap nr="hap10810472">Prof. Kunze, Angew. Oekol., IFZ</hap>
-        <hap nr="hap10810670">Prof. Thormann, Inst. f. Mikro- und Molekularbiologie, IFZ, Raum B
-            243</hap>
+        <hap nr="hap10810572">Prof. Hake, Inst. f. Genetik, Heinrich-Buff-Ring 58</hap>
+        <hap nr="hap10810573">Prof. Braun, Inst. f. Genetik, Heinrich-Buff-Ring 17</hap>
+        <hap nr="hap10810670">Prof. Thormann, Inst. f. Mikro- und Molekularbiologie, IFZ, Raum B 243</hap>
         <hap nr="hap10810671">Prof. Klug, Inst. f. Mikrobiol. u. Molekularbiol., IFZ</hap>
         <hap nr="hap10810760">Prof. Werding, Tieroekologie, IFZ</hap>
-        <hap nr="hap10810772">Prof. Prpic-Sch&#xe4;per, Allg. u. Spezielle Zool., Heinrich-Buff-Ring
-            38</hap>
+        <hap nr="hap10810772">Prof. Prpic-Sch&#xe4;per, Allg. u. Spezielle Zool., Heinrich-Buff-Ring 38</hap>
         <hap nr="hap10810780">Prof. Wolters, Tieroekologie, IFZ</hap>
         <hap nr="hap10810781">Prof. Wilke, Allg. und Spezielle Zool., IFZ</hap>
-        <hap nr="hap10810782">Prof. Encarnacao, Allg. u. Spez. Zoologie, IFZ, Heinrich-Buff-Ring
-            26-32</hap>
-        <hap nr="hap10810784">Prof. Poppenborg Martin, Tieroekologie, IFZ, Heinrich-Buff-Ring
-            26-32</hap>
-        <hap nr="hap10810870">Prof. Manzini, Inst. f&#xfc;r Tierphysiologie, MZVG,
-            Heinrich-Buff-Ring 38</hap>
+        <hap nr="hap10810782">Prof. Encarnacao, Allg. u. Spez. Zoologie, IFZ, Heinrich-Buff-Ring 26-32</hap>
+        <hap nr="hap10810784">Prof. Poppenborg Martin, Tieroekologie, IFZ, Heinrich-Buff-Ring 26-32</hap>
+        <hap nr="hap10810870">Prof. Manzini, Inst. f&#xfc;r Tierphysiologie, MZVG, Heinrich-Buff-Ring 38</hap>
         <hap nr="hap10810871">Prof. Lakes-Harlan, Standort</hap>
         <hap nr="hap10810970">Prof. Kr&#xfc;ger, Mol. Immunologie, Schubertstr. 81</hap>
         <hap nr="hap10811070">Dr. Zeidler, Pflanzenphysiologie, Senckenbergstr. 3, 3. OG</hap>
         <hap nr="hap10817071">Prof. Goesmann, Systembiologie, Heinrich-Buff-Ring 58, Zi. 03</hap>
         <hap nr="hap10817072">Prof. Janssen, Algorithm. Bioinformatik, Heinrich-Buff-Ring 58</hap>
-        <hap nr="hap10820170">Prof. G&#xf6;ttlich, Inst. f. Organ. Chemie, Heinrich-Buff-Ring 17,
-            Zi. B 227</hap>
+        <hap nr="hap10820170">Prof. G&#xf6;ttlich, Inst. f. Organ. Chemie, Heinrich-Buff-Ring 17, Zi. B 227</hap>
         <hap nr="hap10820171">Prof. Maison, Inst. f. Organ. Chemie, Heinrich-Buff-Ring 58</hap>
-        <hap nr="hap10820270">Prof. Schindler, Inst. f. Anorgan. u. Analyt. Chemie,
-            Heinrich-Buff-Ring 17, Zi. B 121</hap>
-        <hap nr="hap10820271">Prof. M&#xfc;ller-Buschbaum, Anorg. u. Analyt. Chemie,
-            Heinrich-Buff-Ring 17, Zi. B 128</hap>
-        <hap nr="hap10820272">Prof. Spengler, Inst. f. Anorgan. u. Analyt. Chemie,
-            Heinrich-Buff-Ring 17, Zi. B 157</hap>
-        <hap nr="hap10820371">Prof. Over, Physikal.-Chem. Inst., Heinrich-Buff-Ring 17, Zi. B
-            41</hap>
-        <hap nr="hap10820372">Prof. Smarsly, Phys.-Chem. Inst., Heinrich-Buff-Ring 17, Zi. B
-            42</hap>
+        <hap nr="hap10820270">Prof. Schindler, Inst. f. Anorgan. u. Analyt. Chemie, Heinrich-Buff-Ring 17, Zi. B 121</hap>
+        <hap nr="hap10820271">Prof. M&#xfc;ller-Buschbaum, Anorg. u. Analyt. Chemie, Heinrich-Buff-Ring 17, Zi. B 128</hap>
+        <hap nr="hap10820272">Prof. Spengler, Inst. f. Anorgan. u. Analyt. Chemie, Heinrich-Buff-Ring 17, Zi. B 157</hap>
+        <hap nr="hap10820371">Prof. Over, Physikal.-Chem. Inst., Heinrich-Buff-Ring 17, Zi. B 41</hap>
+        <hap nr="hap10820372">Prof. Smarsly, Phys.-Chem. Inst., Heinrich-Buff-Ring 17, Zi. B 42</hap>
         <hap nr="hap10820373">Prof. Mollenhauer, Phys.-Chem. Inst., Heinrich-Buff-Ring 17</hap>
-        <hap nr="hap10820470">Prof. Graulich, Didaktik d. Chemie, Heinrich-Buff-Ring 17, B
-            13</hap>
+        <hap nr="hap10820470">Prof. Graulich, Didaktik d. Chemie, Heinrich-Buff-Ring 17, B 13</hap>
         <hap nr="hap10820499">Handapp. Didaktik d. Chemie, Heinrich-Buff-Ring 17</hap>
-        <hap nr="hap10820570">Prof. Zorn, Inst. f. Lebensmittelchemie, Heinrich-Buff-Ring 17, Zi. B
-            246</hap>
-        <hap nr="hap10820571">Prof. Hamscher, Inst. f. Lebensmittelchemie u. -biotechnologie,
-            Heinrich-Buff-Ring 17, Zi. B 246</hap>
-        <hap nr="hap10820572">Prof. R&#xfc;hl,</hap>
+        <hap nr="hap10820570">Prof. Zorn, Inst. f. Lebensmittelchemie, Heinrich-Buff-Ring 17, Zi. B 246</hap>
+        <hap nr="hap10820571">Prof. Hamscher, Inst. f. Lebensmittelchemie u. -biotechnologie, Heinrich-Buff-Ring 17, Zi. B 246</hap>
+        <hap nr="hap10820572">Prof. R&#xfc;hl</hap>
         <hap nr="hap10910170">Prof. Teuber, Agrarpol. u. Marktforschung, Zeughaus</hap>
-        <hap nr="hap10910172">Prof. Nuppenau, Agrarpolitik u. Marktforschung, Zeughaus,
-            Senckenbergstr. 3</hap>
-        <hap nr="hap10910173">Prof. Petrick, Agrar-, Ern&#xe4;hrungs- und Umweltpolitik,
-            Zeughaus</hap>
+        <hap nr="hap10910172">Prof. Nuppenau, Agrarpolitik u. Marktforschung, Zeughaus, Senckenbergstr. 3</hap>
+        <hap nr="hap10910173">Prof. Petrick, Agrar-, Ern&#xe4;hrungs- und Umweltpolitik, Zeughaus</hap>
         <hap nr="hap10910301">Inst. f. Bodenkunde u. Bodenerhaltung, IFZ</hap>
         <hap nr="hap10910370">Prof. Siemens, Inst. f. Bodenkunde u. Bodenerhaltung, IFZ</hap>
         <hap nr="hap10910470">AG Prozesstechnik, Stephanstr. 24</hap>
-        <hap nr="hap10910572">Prof. Herzig, Betriebslehre d. Agrar- u. Ernaehrungswirtsch.,
-            Zeughaus, Senckenbergstr. 3</hap>
-        <hap nr="hap10910573">Prof. Aurbacher, Prof. fuer Landwirtschaftl. Produktionsoekonomik,
-            Zeughaus</hap>
+        <hap nr="hap10910572">Prof. Herzig, Betriebslehre d. Agrar- u. Ernaehrungswirtsch., Zeughaus, Senckenbergstr. 3</hap>
+        <hap nr="hap10910573">Prof. Aurbacher, Prof. fuer Landwirtschaftl. Produktionsoekonomik, Zeughaus</hap>
         <hap nr="hap10910670">Prof. Kaempfer, Mikrobiol. d. Recyclingprozesse, IFZ</hap>
         <hap nr="hap10910671">Prof. Schnell, Allgem. u. Bodenmikrobiol., IFZ</hap>
         <hap nr="hap10910770">Prof. Breuer, Landschafts-, Wasser- und Stoffhaushalt, IFZ</hap>
         <hap nr="hap10910771">Prof. Gaeth, Abfall- u. Ressourcenmanagement, IFZ</hap>
         <hap nr="hap10910772">Prof. Kleinebecker, Landschaftsoekol. u. Landschaftsplanung</hap>
         <hap nr="hap10910775">Prof. Clifton-Brown, Nachw. Rohstoffe u. Bioressourcen, IFZ</hap>
+        <hap nr="hap10910812">Prof. Golicz, Agrarbioinformatik, IFZ</hap>
         <hap nr="hap10910870">Prof. Snowdon, Pflanzenzuechtung, IFZ</hap>
         <hap nr="hap10910871">Prof. Frei, Pflanzenbau u. Ertragsphysiologie, IFZ</hap>
+        <hap nr="hap10910873">Prof. Schie&#xdf;l-Weidenweber, Genetik d. Nutzpflanzendiversit&#xe4;t, IFZ</hap>
         <hap nr="hap10910971">Prof. Frisch, Biometrie u. Populationsgenetik, IFZ</hap>
         <hap nr="hap10911071">Prof. Vilcinskas, Angew. Entomologie, IFZ</hap>
         <hap nr="hap10911073">Prof. Sch&#xe4;fer, Inst. f. Phytopathologie, IFZ</hap>
         <hap nr="hap10911170">Prof. K&#xf6;nig, Tierzucht u. Haustiergenetik, Ludwigstr. 21b</hap>
-        <hap nr="hap10911172">Prof. Koenig von Borstel, Tierzucht u. Haustiergenetik, Leihgesterner
-            Weg 52</hap>
+        <hap nr="hap10911172">Prof. Koenig von Borstel, Tierzucht u. Haustiergenetik, Leihgesterner Weg 52</hap>
         <hap nr="hap10911174">Prof. L&#xfc;hken, Tierzucht u. Haustiergenetik, Ludwigstr. 21</hap>
-        <hap nr="hap10911271">Prof. Sch&#xe4;berle, Inst. f. Insektenbiotechnologie, Ohlebergsweg
-            12</hap>
-        <hap nr="hap10911272">Prof. Schetelig, Inst. f. Insektenbiotechnologie, Winchesterstr.
-            2</hap>
+        <hap nr="hap10911271">Prof. Sch&#xe4;berle, Inst. f. Insektenbiotechnologie, Ohlebergsweg 12</hap>
+        <hap nr="hap10911272">Prof. Schetelig, Inst. f. Insektenbiotechnologie, Winchesterstr. 2</hap>
         <hap nr="hap10920170">Prof. Becker, Biochem. d. Ernaehrung d. Menschen, IFZ</hap>
         <hap nr="hap10920171">Prof. Morlock, Lebensmittelwiss., IFZ</hap>
         <hap nr="hap10920172">Prof. Eckert, Ernaehrungswiss., Wilhelmstr. 20</hap>
         <hap nr="hap10920173">Prof. Wagner, Inst. f. Ernaehrungswiss., Wilhelmstr. 20</hap>
         <hap nr="hap10920175">Prof. Fasshauer, Inst. f. Ern&#xe4;hrungswiss., Goethestr. 55</hap>
         <hap nr="hap10920178">AG Ern&#xe4;hrungsoekologie, Zeughaus, Senckenbergstr. 3</hap>
-        <hap nr="hap10920179">Prof. Wenzel, Ern&#xe4;hrungswiss., Molekulare Ern.forschung,
-            IFZ</hap>
-        <hap nr="hap10920183">Prof. Gisch, Ern&#xe4;hrungspsychologie, Zeughaus, Senckenbergstr.
-            3</hap>
+        <hap nr="hap10920179">Prof. Wenzel, Ern&#xe4;hrungswiss., Molekulare Ern.forschung, IFZ</hap>
+        <hap nr="hap10920183">Prof. Gisch, Ern&#xe4;hrungspsychologie, Zeughaus, Senckenbergstr. 3</hap>
         <hap nr="hap10920180">Prof. Eckert, Ernaehrungswiss., Wilhelmstr. 20</hap>
         <hap nr="hap10920270">Prof. B&#xf6;rnke, Inst. f. Pflanzenern&#xe4;hrung, IFZ</hap>
         <hap nr="hap10920271">Prof. Santner, Inst. f. Pflanzenern&#xe4;hrung, IFZ</hap>
-        <hap nr="hap10920370">Prof. Eder, Inst. f. Tiernaehrung u. Ern&#xe4;hrungsphysiol.,
-            IFZ</hap>
-        <hap nr="hap10920470">Prof. Br&#xe4;unig, Wirtschaftsl. d. Haush., Senckenbergstr. 3</hap>
-        <hap nr="hap10920472">Prof. Gwozdz, Versorgungs- und Verbrauchsforschung, Senckenbergstr.
-            3</hap>
-        <hap nr="hap10920474">Prof. Godemann, Kommunikation u. Beratung in Agrar- u.
-            Ern&#xe4;hrungswiss., Senckenbergstr. 3</hap>
-        <hap nr="hap10920475">Prof. Gwozdz, Versorgungs- und Verbrauchsforschung, Senckenbergstr.
-            3</hap>
+        <hap nr="hap10920370">Prof. Eder, Inst. f. Tiernaehrung u. Ern&#xe4;hrungsphysiol., IFZ</hap>
+        <hap nr="hap10920470">Prof. Br&#xe4;unig, Management personaler Versorgungsbetr., Otto-Behaghel-Str. 10D</hap>
+        <hap nr="hap10920474">Prof. Godemann, Kommunikation u. Beratung in Agrar- u. Ern&#xe4;hrungswiss., Senckenbergstr. 3</hap>
+        <hap nr="hap10920475">Prof. Gwozdz, Versorgungs- und Verbrauchsforschung, Senckenbergstr. 3</hap>
         <hap nr="hap10920476">Prof. Wahlen, Ern&#xe4;hrungssoziologie, Senckenbergstr. 3</hap>
-        <hap nr="hap11017072">Prof. Kr&#xe4;mer, Tierschutz u. Ethologie, Frankfurter Str.
-            110</hap>
-        <hap nr="hap11010370">Prof. L&#xfc;tteke, Biochem. u. Endokrinol., Frankfurter Str.
-            100</hap>
-        <hap nr="hap11010371">Prof. Mazurek, Vet.-Physiologie u. - biochemie, Frankf. Str.
-            100</hap>
+        <hap nr="hap11017072">Prof. Kr&#xe4;mer, Tierschutz u. Ethologie, Frankfurter Str. 110</hap>
+        <hap nr="hap11010370">Prof. L&#xfc;tteke, Biochem. u. Endokrinol., Frankfurter Str. 100</hap>
+        <hap nr="hap11010371">Prof. Mazurek, Vet.-Physiologie u. - biochemie, Frankf. Str. 100</hap>
         <hap nr="hap11010472">Prof. Olias, Vet.-Pathologie, Frankfurter Str. 96</hap>
         <hap nr="hap11010473">Prof. Herden, Vet.-Pathologie, Frankfurter Str. 96</hap>
         <hap nr="hap11010670">Prof. Weber, Inst. f. Virologie, BFS, Schubertstr. 81</hap>
-        <hap nr="hap11010770">Prof. Ewers, Inst. f. Hygiene u. Infektionskrankh., Frankfurter Str.
-            89</hap>
+        <hap nr="hap11010770">Prof. Ewers, Inst. f. Hygiene u. Infektionskrankh., Frankfurter Str. 89</hap>
         <hap nr="hap11010870">Prof. Taubert, Inst. f. Parasitologie, BFS, Schubertstr. 81</hap>
         <hap nr="hap11010872">Prof. Falcone, Parasitologie,Zoonosen, BFS, Schubertstr. 81</hap>
-        <hap nr="hap11010972">Prof. Geyer, Inst. f. Pharmakol. und Toxikol., BFS, Schubertstr.
-            81</hap>
-        <hap nr="hap11010970">Prof. Hamann, Inst. f. Pharmakol. und Toxikol., BFS, Schubertstr.
-            81</hap>
+        <hap nr="hap11010972">Prof. Geyer, Inst. f. Pharmakol. und Toxikol., BFS, Schubertstr. 81</hap>
+        <hap nr="hap11010970">Prof. Hamann, Inst. f. Pharmakol. und Toxikol., BFS, Schubertstr. 81</hap>
         <hap nr="hap11010672">Prof. Lamp, Inst. f. Virologie, BFS, Schubertr. 81</hap>
-        <hap nr="hap11011071">Prof. Kramer, Chirurg. Vet.-Klinik, Frankfurter Str. 108, Zi.
-            137</hap>
-        <hap nr="hap11011171">Prof. Fey, Klinik f. Pferde - Innere Med., Frankfurter Str.
-            126</hap>
-        <hap nr="hap11011270">Prof. Gr&#xfc;nberg, Klinik f. Wiederk&#xe4;uer, Frankfurter Str.
-            104</hap>
-        <hap nr="hap11011471">Prof. Wenisch, Inst. f. Vet.-Anatomie, -Histol. u. Embryologie,
-            Frankfurter Str. 98</hap>
+        <hap nr="hap11011071">Prof. Kramer, Chirurg. Vet.-Klinik, Frankfurter Str. 108, Zi. 137</hap>
+        <hap nr="hap11011171">Prof. Fey, Klinik f. Pferde - Innere Med., Frankfurter Str. 126</hap>
+        <hap nr="hap11011270">Prof. Gr&#xfc;nberg, Klinik f. Wiederk&#xe4;uer, Frankfurter Str. 104</hap>
+        <hap nr="hap11011471">Prof. Wenisch, Inst. f. Vet.-Anatomie, -Histol. u. Embryologie, Frankfurter Str. 98</hap>
         <hap nr="hap11011473">Prof. Moritz, Kleintierklinik, Frankfurter Str. 114</hap>
         <hap nr="hap11011476">Prof. M. Schmidt, Kleintierklinik, Frankfurter Str. 108</hap>
         <hap nr="hap11011477">Prof. Pa&#xdf;lack, Kleintierklinik, Frankfurter Str. 114</hap>
-        <hap nr="hap11011573">Prof. Burk, Pferdeorthop&#xe4;die, Frankfurter Str. 108, Zi.
-            113</hap>
-        <hap nr="hap11011771">Prof. Rummel, Vet.-Physiologie u. -Biochemie, Frankfurter Str.
-            100</hap>
+        <hap nr="hap11011573">Prof. Burk, Pferdeorthop&#xe4;die, Frankfurter Str. 108, Zi. 113</hap>
+        <hap nr="hap11011771">Prof. Rummel, Vet.-Physiologie u. -Biochemie, Frankfurter Str. 100</hap>
         <hap nr="hap11110370">Prof. Roelcke, Geschichte der Medizin, Leihgesterner Weg 52</hap>
         <hap nr="hap11110372">Prof. Knipper, Geschichte der Medizin, Leihgesterner Weg 52</hap>
         <hap nr="hap12500001">Dr. Hergenhan, ZMI, Ludwigstr. 34</hap>
-        <hap nr="hap12510070">Ludwig-B&#xf6;rne-Professur, Prof. Leggewie, ZMI, Liebigstr.
-            35</hap>
-        <hap nr="hap12900001">ZfL Referat Studien- u. Pr&#xfc;fungsangelegenheiten, Rathenaustr.
-            8</hap>
+        <hap nr="hap12510070">Ludwig-B&#xf6;rne-Professur, Prof. Leggewie, ZMI, Liebigstr. 35</hap>
+        <hap nr="hap12900001">ZfL Referat Studien- u. Pr&#xfc;fungsangelegenheiten, Rathenaustr. 8</hap>
         <hap nr="hap30100501">Tierschutzbeauftragte/r, Frankfurter Str. 110</hap>
         <hap nr="hap60500805">Vertriebenenprojekt / Zeitgeschichte, Ludwigstr. 34, 1. Stock</hap>
         <hap nr="hap62000539">ZfbK, Studiencoaching, Karl-Gl&#xf6;ckner-Str. 5 A, Raum 122</hap>
