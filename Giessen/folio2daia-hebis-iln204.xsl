@@ -1097,6 +1097,8 @@
                 <xsl:variable name="map"
                     select="$bbtabelle/e[c = current()/effectiveLocation/code]/map"/>
                 <xsl:choose>
+                    <!-- bei HAPs kein Template aufrufen -->
+                    <xsl:when test="matches(../../notes[holdingsNoteTypeId = '013e0b2c-2259-4ee8-8d15-f463f1aeb0b1']/note, 'hap\d+')"/>
                     <xsl:when test="$map/@linktype = 'mapongo'">
                         <xsl:call-template name="mapongo"/>
                     </xsl:when>
