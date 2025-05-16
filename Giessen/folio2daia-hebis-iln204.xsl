@@ -1050,7 +1050,32 @@
                 <xsl:call-template name="DAIA">
                     <xsl:with-param name="tag">aus_status</xsl:with-param>
                     <xsl:with-param name="value" select="'frei'"/>
-                </xsl:call-template>            
+                </xsl:call-template>
+            </xsl:if>
+            <xsl:variable name="electronicAccessURIs">
+                <xsl:copy-of select="../../instance/electronicAccess/uri/text()"/>
+                <xsl:copy-of select="electronicAccess/uri/text()"/>
+            </xsl:variable>
+            <xsl:if test="contains($electronicAccessURIs, 'beck.de')">
+                <xsl:call-template name="DAIA">
+                    <xsl:with-param name="tag">aus_text</xsl:with-param>                    
+                    <xsl:with-param name="value">
+                        <xsl:text>Für die Nutzung ist eine persönliche Registrierung bei Beck erforderlich, siehe </xsl:text>
+                        <xsl:text>&lt;a target=&quot;_blank&quot; href=&quot;</xsl:text>
+                        <xsl:text>https://www.uni-giessen.de/ub/de/rech/emedien/ebooks-tipps/beck-online/beck-online-und-beck-ebibliothek-zugang</xsl:text>
+                        <xsl:text>&quot;&gt;</xsl:text>
+                        <xsl:text>Anleitung</xsl:text>
+                        <xsl:text>&lt;/a&gt;</xsl:text>
+                        <xsl:text>. </xsl:text>
+                        <xsl:text>(Von außerhalb des JLU-Campusnetzes zusätzlich</xsl:text>
+                        <xsl:text>&lt;a target=&quot;_blank&quot; href=&quot;</xsl:text>
+                        <xsl:text>https://www.uni-giessen.de/ub/de/rech/emedien/zugang/ezproxy</xsl:text>
+                        <xsl:text>&quot;&gt; </xsl:text>
+                        <xsl:text>EZ-Proxy</xsl:text>
+                        <xsl:text>&lt;/a&gt;</xsl:text>    
+                        <xsl:text> aktivieren)</xsl:text>
+                    </xsl:with-param>
+                </xsl:call-template>
             </xsl:if>
         </xsl:for-each>
         <xsl:for-each
