@@ -47,12 +47,20 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek</url>
         </e>
         <e>
+            <c>25/000-000-40-ZBSON</c><n xml:lang="de">Zentralbibliothek, Sonderstandorte</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek</url>
+        </e>
+        <e>
             <c>25/000-111-10-KUNST</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Kunsthochschule</n>
             <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek-standort-kunsthochschule</url>
         </e>
         <e>
             <c>25/000-111-12-KUNST-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">Universität Mainz, Kunsthochschule Semesterapparate</n>
             <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek-standort-kunsthochschule</url><nostandort/>
+        </e>
+        <e>
+            <c>25/000-111-22-KUNSTSON</c><n xml:lang="de">Universität Mainz, Kunsthochschule, Sonderstandorte</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek-standort-kunsthochschule</url>
         </e>
         <e>
             <c>25/002-002-10-GFGPÄD</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, Erziehungswissenschaft</n>
@@ -113,6 +121,10 @@
         <e>
             <c>25/002-126-GFGUSA</c><campus>cm</campus><n xml:lang="de">BB Georg Forster-Gebäude, USA-Bibliothek</n><map linktype="mapongo" defaultlocationtext="USA BIBL"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
+        </e>
+        <e>
+            <c>25/002-999-GFGFAC</c><n xml:lang="de"> BB Georg Forster-Gebäude, Fachbereiche</n>
+                <url>https://www.ub.uni-mainz.de/de/ standorte#georg-forster-gebaeude</url>
         </e>
         <e>
             <c>25/004-004-PHRVK</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, RVK-Aufstellung</n><map linktype="mapongo"/>
@@ -193,6 +205,10 @@
         </e>
         <e>
             <c>25/004-127-PHMAG</c><n xml:lang="de">BB Philosophicum, Magazin</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
+            <c>25/004-999-PHSON</c><n xml:lang="de">BB Philosophicum, Sonderstandorte</n>
             <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
         </e>
         <e>
