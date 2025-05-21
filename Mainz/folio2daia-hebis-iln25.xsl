@@ -547,25 +547,25 @@
         <xsl:variable name="result">
             <xsl:variable name="emulator">
                 <status name='Aged to lost'/>
-                <status name='Available'>                    <b>UF</b><c>UF</c><d>UF</d><e>EM</e><i>IF</i><s>SX</s><u>UF</u> </status> <!-- b,c,d ist in Mainz ausleihbar -->
+                <status name='Available'>              <b>UF</b><c>UF</c><d>UF</d><e>EM</e><i>IF</i><s>SX</s><u>UF</u><anatomie>SX</anatomie><zap-dinge>ZF</zap-dinge> </status> <!-- b,c,d ist in Mainz ausleihbar -->
                 <status name='Awaiting delivery'/> <!-- wird in Mainz nicht benutzt -->
-                <status name='Awaiting pickup'>              <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
-                <status name='Checked out'>                  <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
+                <status name='Awaiting pickup'>        <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
+                <status name='Checked out'>            <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u><anatomie>CN</anatomie><zap-dinge>UV</zap-dinge> </status>
                 <status name='Claimed returned'/> 
                 <status name='Declared lost'/>   
-                <status name='In process'>                   <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
+                <status name='In process'>             <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
                 <status name='In process - not requestable'/>
-                <status name='Intellectual item'>            <b>UI</b><c>UI</c><d>UI</d><e>EM</e><i>II</i><s>SX</s><u>UI</u> </status>
-                <status name='In transit'>                   <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
-                <status name='Long missing'>                 <b>EM</b><c>EM</c><d>EM</d><e>EM</e><i>EM</i><s>EM</s><u>EM</u> </status>
+                <status name='Intellectual item'>      <b>UI</b><c>UI</c><d>UI</d><e>EM</e><i>II</i><s>SX</s><u>UI</u> </status>
+                <status name='In transit'>             <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
+                <status name='Long missing'>           <b>EM</b><c>EM</c><d>EM</d><e>EM</e><i>EM</i><s>EM</s><u>EM</u> </status>
                 <status name='Lost and paid'/>    
-                <status name='Missing'>                      <b>EM</b><c>EM</c><d>EM</d><e>EM</e><i>EM</i><s>EM</s><u>EM</u> </status>
-                <status name='On order'>            <a>XO</a><b>XO</b><c>XO</c><d>XO</d>         <i>XO</i><s>YO</s><u>XO</u> </status>
+                <status name='Missing'>                <b>EM</b><c>EM</c><d>EM</d><e>EM</e><i>EM</i><s>EM</s><u>EM</u> </status>
+                <status name='On order'>         <a>XO</a><b>XO</b><c>XO</c><d>XO</d>         <i>XO</i><s>YO</s><u>XO</u> </status>
                 <status name='Order closed'/> <!-- Status kann in Hebis und GBV nicht erreicht werden -->                  
-                <status name='Paged'>                        <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
+                <status name='Paged'>                  <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><s>CN</s><u>UV</u> </status>
                 <status name='Restricted'/>
                 <status name='Unavailable'/>
-                <status name='Unknown'>                                                                                       <y>YY</y></status>
+                <status name='Unknown'>                                                                                 <y>YY</y></status>
                 <status name='Withdrawn'/>
             </xsl:variable>
             <xsl:variable name="campusubmainz">
@@ -620,6 +620,7 @@
                  h : Link, wie er hinter dem Bestellbutton hinterlegt werden soll -->
             <xsl:variable name="cases">
                 <UF><i>u ausleihbar</i><s>verfuegbar</s><xsl:copy-of select="$campusubmainz/hinweis-u[@campus=$bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/campus]/*"/><h>https://paia.link</h></UF> <!-- bestellbar -->
+                <ZF><i>u ausleihbar</i><s>verfuegbar</s></ZF> <!-- ZAP ausleihbar -->
                 <IF><i>i Lesesaal</i><s>verfuegbar</s><h>https://paia.link</h><t1 xml:lang="de">nur für den Lesesaal</t1><t1 xml:lang="en">reading room only</t1></IF> <!-- nur für den Lesesaal bestellbar -->
                 <SX><i>s Praesenzbestand</i><t1 xml:lang="de">nicht ausleihbar</t1><t1 xml:lang="en">not available for loan</t1>
                     <xsl:copy-of select="$campusubmainz/hinweis-s[@campus=$bbtabelle/e[c=current()/../effectiveLocation/discoveryDisplayName]/campus]/*"/></SX> <!-- Päsenzbestand -->
