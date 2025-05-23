@@ -124,7 +124,7 @@
         </e>
         <e>
             <c>25/002-999-GFGFAC</c><n xml:lang="de"> BB Georg Forster-Gebäude, Fachbereiche</n>
-                <url>https://www.ub.uni-mainz.de/de/ standorte#georg-forster-gebaeude</url>
+                <url>https://www.ub.uni-mainz.de/de/standorte#georg-forster-gebaeude</url>
         </e>
         <e>
             <c>25/004-004-PHRVK</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, RVK-Aufstellung</n><map linktype="mapongo"/>
