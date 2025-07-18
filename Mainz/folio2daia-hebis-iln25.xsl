@@ -136,6 +136,10 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
         </e>
         <e>
+            <c>25/004-004-12-PHNC</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Numerus Currens</n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
+        </e>
+        <e>
             <c>25/004-058-PHPHI</c><campus>cm</campus><n xml:lang="de">BB Philosophicum, Philosophie</n><map linktype="mapongo"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum</url>
         </e>
