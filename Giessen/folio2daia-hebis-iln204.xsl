@@ -1206,7 +1206,9 @@
     </xsl:template>
 
     <xsl:template
-        match="notes[not(holdingsNoteTypeId = '013e0b2c-2259-4ee8-8d15-f463f1aeb0b1') and staffOnly = 'false']/note">
+        match="notes[not(holdingsNoteTypeId = '013e0b2c-2259-4ee8-8d15-f463f1aeb0b1') and
+                     not(holdingsNoteTypeId = 'db9b4787-95f0-4e78-becf-26748ce6bdeb') and
+                     staffOnly = 'false']/note">
 
         <xsl:call-template name="DAIA">
             <xsl:with-param name="tag">aus_text</xsl:with-param>
