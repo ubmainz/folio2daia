@@ -1077,6 +1077,15 @@
                     </xsl:with-param>
                 </xsl:call-template>
             </xsl:if>
+            <!-- Lizenzindikator -->
+            <xsl:if test="notes[holdingsNoteTypeId = 'd1d99196-8904-4b2e-9125-9f7bbbf54cc1'][note = '0']">
+                <xsl:call-template name="DAIA">
+                    <xsl:with-param name="tag">aus_text</xsl:with-param>                    
+                    <xsl:with-param name="value">
+                        <xsl:text>Frei zugänglich</xsl:text>
+                    </xsl:with-param>
+                </xsl:call-template>
+            </xsl:if>
         </xsl:for-each>
         <xsl:for-each
             select="holdings/holding[(holdingsTypeId != '996f93e2-5b5e-4cf2-9168-33ced1f95eed') and not(xs:boolean(discoverySuppress))]">
