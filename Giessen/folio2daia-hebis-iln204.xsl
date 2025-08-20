@@ -1291,23 +1291,41 @@
                 <status name="Withdrawn"/>
             </xsl:variable>
             <xsl:variable name="campusubgiessen">
+                <xsl:variable name="t2-magazin">
+                    <xsl:choose>
+                        <xsl:when test="current()/../effectiveLocation/code = 'ILN204/CG/UB/UBMagPohlheim'">
+                            <t2 xml:lang="de">
+                                <xsl:text>&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;</xsl:text>
+                                <xsl:text>Magazin Pohlheim - Lieferung bis zu 3 Tage</xsl:text>
+                                <xsl:text>&lt;/a&gt;</xsl:text>
+                            </t2>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <t2 xml:lang="de">
+                                <xsl:text>&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;</xsl:text>                                
+                                <xsl:text>Magazin</xsl:text>
+                                <xsl:text>&lt;/a&gt;</xsl:text>
+                            </t2>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable>
                 <hinweis-ii campus="Magazin">
                     <h>
                         <xsl:text>https://folio-serv.uni-giessen.de/services/zeitschrift/journal/</xsl:text>
                         <xsl:value-of select="../hrid"/>
                     </h>
-                    <t2 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t2>
+                    <xsl:copy-of select="$t2-magazin"/>
                 </hinweis-ii>
                 <hinweis-u campus="Magazin">
                     <h>https://paia.link</h>
-                    <t2 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t2>
+                    <xsl:copy-of select="$t2-magazin"/>
                 </hinweis-u>
                 <hinweis-ui campus="Magazin">
                     <h>
                         <xsl:text>https://folio-serv.uni-giessen.de/services/zeitschrift/journal/</xsl:text>
                         <xsl:value-of select="../hrid"/>
                     </h>
-                    <t2 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t2>
+                    <xsl:copy-of select="$t2-magazin"/>
                 </hinweis-ui>
                 <hinweis-sx campus="Fachbibliotheken">
                     <t2 xml:lang="de">Bitte erfragen Sie die Ausleihbedingungen vor Ort</t2>
@@ -1322,11 +1340,11 @@
                         <xsl:text>https://folio-serv.uni-giessen.de/services/zeitschrift/journal/</xsl:text>
                         <xsl:value-of select="../hrid"/>
                     </h>
-                    <t2 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t2>
+                    <xsl:copy-of select="$t2-magazin"/>
                 </hinweis-si>
                 <hinweis-sx campus="Magazin">
                     <h>https://paia.link</h>
-                    <t2 xml:lang="de">&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;Magazin&lt;/a&gt;</t2>
+                    <xsl:copy-of select="$t2-magazin"/>
                 </hinweis-sx>
                 <hinweis-y campus="JLU-Bibliografie">
                     <xsl:variable name="dodummy-hint-text">

@@ -1,0 +1,11 @@
+
+
+DAIAinfo epn 1058903306-1058903306-1 ofniAIAD
+DAIAinfo sig 22.611.28 ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_text <a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'>Magazina</a> <a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'>Magazina</a> ofniAIAD
+DAIAinfo aus_link https://paia.link https://paia.link ofniAIAD
+DAIAinfo abt_num ILN204/CG/UB/UBMag3 ofniAIAD
+DAIAinfo abt_name Universitätsbibliothek (UB), Otto-Behaghel-Str. 8 ofniAIAD
+DAIAinfo abt_link https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=000 ofniAIAD
