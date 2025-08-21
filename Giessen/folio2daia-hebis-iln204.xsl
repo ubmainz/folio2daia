@@ -1670,7 +1670,7 @@
             <xsl:with-param name="value">
                 <xsl:choose>
                     <xsl:when test="effectiveLocation/code = 'ILN204/CG/UB/UBSemapp'">
-                        <xsl:text>&lt;a target="_blank" href="http://bibmap.ub.uni-giessen.de/bm/BIBMAP_Server?begriff=sem_app"&gt;</xsl:text>
+                        <xsl:text>&lt;a target="_blank" href="https://ub-giessen.mapongo.de/viewer?p=1&amp;b=1&amp;f=3&amp;c=46411&amp;l=20249,20250,20251,20252,20253,20254,20255"&gt;</xsl:text>
                     </xsl:when>
                     <xsl:when test="effectiveLocation/code = 'ILN204/CG/ZP2/ZP2Semapp'">
                         <xsl:text>&lt;a target="_blank" href="http://bibmap.ub.uni-giessen.de/zp2/BIBMAP_Server?begriff=semester&amp;ln=de"&gt;</xsl:text>
