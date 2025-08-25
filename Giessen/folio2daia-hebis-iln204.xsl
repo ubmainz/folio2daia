@@ -1296,7 +1296,7 @@
                         <xsl:when test="current()/../effectiveLocation/code = 'ILN204/CG/UB/UBMagPohlheim'">
                             <t2 xml:lang="de">
                                 <xsl:text>&lt;a href='https://www.uni-giessen.de/ub/de/ueber-uns/a-z/az-m/ag3-magazin'&gt;</xsl:text>
-                                <xsl:text>Magazin Pohlheim - Lieferung bis zu 3 Tage</xsl:text>
+                                <xsl:text>Magazin Pohlheim - Bereitstellungsdauer bis zu 3 Tage</xsl:text>
                                 <xsl:text>&lt;/a&gt;</xsl:text>
                             </t2>
                         </xsl:when>
