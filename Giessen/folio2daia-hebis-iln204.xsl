@@ -1090,7 +1090,9 @@
         <xsl:for-each
             select="holdings/holding[(holdingsTypeId != '996f93e2-5b5e-4cf2-9168-33ced1f95eed') and not(xs:boolean(discoverySuppress))]">
             <!-- für nicht elektronische Bestände -->
-            <xsl:sort select="effectiveLocation/discoveryDisplayName" order="ascending" lang="de"/>
+            <xsl:sort select="index-of(('ILN204/CG/UB/UBMagKeller', 'ILN204/CG/UB/UBMag3', 'ILN204/CG/UB/UBMagPohlheim'),
+                effectiveLocation/code/name())" order="ascending" lang="de"/>
+            <xsl:sort select="index-of(('hrid'),name())" order="descending"/>
             <xsl:sort select="callNumber" order="ascending" lang="de"/>
             <xsl:if test="not(items/item)">
                 <xsl:apply-templates select="./hrid|./notes/note|./effectiveLocation/discoveryDisplayName">
