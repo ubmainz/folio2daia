@@ -112,7 +112,6 @@
             <c>ILN204/CG/ZP2/Unbekannt</c>
             <n xml:lang="de">ZwBibl. im Phil. II F</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=009</url>
-            <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/CG/DezFB/LW-Inklusion-ZfL</c>
@@ -142,7 +141,6 @@
             <c>ILN204/CG/ZP2/Handapparate</c>
             <n xml:lang="de">ZwBibl. im Phil. II F</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=009</url>
-            <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Fachbibliotheken</c>
@@ -354,7 +352,6 @@
             <ind>g nicht_ausleihbar</ind>
             <n xml:lang="de">ZwBibl. im Phil. II F</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=009</url>
-            <map linktype="semapp"/>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Pathologie</c>
@@ -579,7 +576,6 @@
             <c>ILN204/CG/ZP2/Erwerbungssignatur</c>
             <n xml:lang="de">ZwBibl. im Phil. II F</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=009</url>
-            <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/CG/ZHB/Freihand</c>
@@ -682,7 +678,6 @@
             <c>ILN204/CG/ZP2/Freihand</c>
             <n xml:lang="de">ZwBibl. im Phil. II F</n>
             <url>https://www.uni-giessen.de/ub/de/ueber-uns/standorte/ub-db/bik?bik=009</url>
-            <map linktype="bibmap"/>
         </e>
         <e>
             <c>ILN204/CG/DezFB/Kleintier-Innere-Chirurgie</c>
