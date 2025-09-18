@@ -1,0 +1,138 @@
+<instanceData>
+  <lang>de</lang>
+  <instance>
+    <id>de136d8c-0d56-405c-a117-faad67abc193</id>
+    <_version>8</_version>
+    <hrid>352812370</hrid>
+    <source>hebis</source>
+    <title>Katalog einer Sammlung neuerer Handschriften (Hs Sg 1-204) in der Universitätsbibliothek / Hermann Schüling</title>
+    <indexTitle>Katalog einer Sammlung neuerer Handschriften Hs Sg 1204 in der Universitätsbibliothek Hermann Schüling</indexTitle>
+    <alternativeTitles>
+      <alternativeTitleTypeId>79ea6d17-8247-4126-aab5-99fbd2ac6dda</alternativeTitleTypeId>
+      <alternativeTitle>Katalog einer Sammlung neuerer Handschriften (Hs Sg 1 - 204) in der Universitätsbibliothek Gießen</alternativeTitle>
+    </alternativeTitles>
+    <series>
+      <value>Handschriftenkataloge der Universitätsbibliothek Giessen ; 9 / 1996</value>
+    </series>
+    <identifiers>
+      <value>352812370</value>
+      <identifierTypeId>1d5cb40c-508f-451b-8952-87c92be4255a</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>10.22029/jlupub-7649</value>
+      <identifierTypeId>39554f54-d0bb-4f0a-89a4-e422f6136316</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>1062970861</value>
+      <identifierTypeId>63fd8fa0-a939-4d1e-869c-6dcc24c9d507</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>15,O01,1202</value>
+      <identifierTypeId>217a56e1-5e45-4253-b942-d2199cca183e</identifierTypeId>
+    </identifiers>
+    <identifiers>
+      <value>DNB: 1062970861</value>
+      <identifierTypeId>8e33c1be-e2c4-43ac-a975-8fb50f71137a</identifierTypeId>
+    </identifiers>
+    <contributors>
+      <name>Schüling, Hermann *1926-2019*</name>
+      <contributorTypeId>6e09d47d-95e2-4d8a-831b-f777b8ef6d81</contributorTypeId>
+      <contributorTypeText>Verfasser</contributorTypeText>
+      <contributorNameTypeId>2b94c631-fca9-4892-a730-03ee529ffe2a</contributorNameTypeId>
+      <primary>true</primary>
+    </contributors>
+    <publication>
+      <publisher>Universitätsbibliothek</publisher>
+      <place>Gießen</place>
+      <dateOfPublication>2006</dateOfPublication>
+      <role>Publisher</role>
+    </publication>
+    <electronicAccess>
+      <uri>http://nbn-resolving.de/urn:nbn:de:hebis:26-opus-30870</uri>
+      <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
+    </electronicAccess>
+    <electronicAccess>
+      <uri>http://d-nb.info/1062970861/34</uri>
+      <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
+    </electronicAccess>
+    <electronicAccess>
+      <uri>https://doi.org/10.22029/jlupub-7649</uri>
+      <relationshipId>f5d0068e-6272-458e-8a81-b85e7b9a14aa</relationshipId>
+    </electronicAccess>
+    <instanceTypeId>6312d172-f0cf-40f6-b27d-9fa8feaf332f</instanceTypeId>
+    <instanceFormatIds>f5e8210f-7640-459b-a71f-552567f92369</instanceFormatIds>
+    <physicalDescriptions>1 Online-Ressource</physicalDescriptions>
+    <languages>ger</languages>
+    <notes>
+      <instanceNoteTypeId>1d51e8b2-dee7-43f5-983c-a40757b9cdfa</instanceNoteTypeId>
+      <note>Erscheint auch als Druck-Ausgabe: Schüling, Hermann. Katalog einer Sammlung neuerer Handschriften (Hs Sg 1 - 204) in der Universitätsbibliothek Gießen</note>
+      <staffOnly>false</staffOnly>
+    </notes>
+    <administrativeNotes>Oax (Bibliografische Gattung)</administrativeNotes>
+    <administrativeNotes>09.10.24, 01:53 (Letzte Änderung CBS)</administrativeNotes>
+    <modeOfIssuanceId>9d18a02f-5897-4c31-9106-c9abb5c7ae8b</modeOfIssuanceId>
+    <previouslyHeld>false</previouslyHeld>
+    <discoverySuppress>false</discoverySuppress>
+    <statusUpdatedDate>2024-11-04T08:20:52.796+0000</statusUpdatedDate>
+    <metadata>
+      <createdDate>2024-08-01T15:05:20.250+00:00</createdDate>
+      <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+      <updatedDate>2024-11-04T08:20:52.798+00:00</updatedDate>
+      <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+    </metadata>
+    <natureOfContentTermIds>9250535a-348e-4d28-9ae3-136c6c797172</natureOfContentTermIds>
+  </instance>
+  <holdings>
+    <holding>
+      <id>01b92faf-a467-496e-beb7-18be8ab8d523</id>
+      <_version>8</_version>
+      <sourceId>ed96edb1-d91d-4a31-9c40-006f5199d782</sourceId>
+      <hrid>747636907</hrid>
+      <holdingsTypeId>996f93e2-5b5e-4cf2-9168-33ced1f95eed</holdingsTypeId>
+      <instanceId>de136d8c-0d56-405c-a117-faad67abc193</instanceId>
+      <permanentLocationId>a8147c16-5fea-47e0-b7b6-24016f0c4c86</permanentLocationId>
+      <effectiveLocationId>a8147c16-5fea-47e0-b7b6-24016f0c4c86</effectiveLocationId>
+      <electronicAccess>
+        <uri>https://doi.org/10.22029/jlupub-7649</uri>
+      </electronicAccess>
+      <notes>
+        <holdingsNoteTypeId>7cad8584-35f9-4ea7-8944-11bcf40ff29c</holdingsNoteTypeId>
+        <note>04.11.24 09:20</note>
+        <staffOnly>true</staffOnly>
+      </notes>
+      <notes>
+        <holdingsNoteTypeId>d1d99196-8904-4b2e-9125-9f7bbbf54cc1</holdingsNoteTypeId>
+        <note>0</note>
+        <staffOnly>true</staffOnly>
+      </notes>
+      <discoverySuppress>false</discoverySuppress>
+      <metadata>
+        <createdDate>2024-08-01T15:05:20.400+00:00</createdDate>
+        <createdByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</createdByUserId>
+        <updatedDate>2024-11-04T08:20:52.811+00:00</updatedDate>
+        <updatedByUserId>1b1900a4-dd88-4d0d-b2f2-3a9d765fd628</updatedByUserId>
+      </metadata>
+      <effectiveLocation>
+        <id>a8147c16-5fea-47e0-b7b6-24016f0c4c86</id>
+        <name>Onlinemedien</name>
+        <code>ILN204/E/E/Online Medien</code>
+        <discoveryDisplayName>Onlinemedien</discoveryDisplayName>
+        <isActive>true</isActive>
+        <institutionId>42cd2c40-53e0-4d43-9308-af95afcef2db</institutionId>
+        <campusId>93ccae3c-7fc4-4afd-981d-e9578d4f94ff</campusId>
+        <libraryId>88f17798-a8bb-43ef-9f83-b92ede0e0f8e</libraryId>
+        <details>
+          <BIK>992</BIK>
+        </details>
+        <primaryServicePoint>7c5abc9f-f3d7-4856-b8d7-6712462ca007</primaryServicePoint>
+        <servicePointIds>7c5abc9f-f3d7-4856-b8d7-6712462ca007</servicePointIds>
+        <metadata>
+          <createdDate>2024-07-24T14:32:12.547+00:00</createdDate>
+          <createdByUserId>c7224375-b6af-5f86-ab92-35d65de4bcbb</createdByUserId>
+          <updatedDate>2024-07-24T14:32:12.547+00:00</updatedDate>
+          <updatedByUserId>c7224375-b6af-5f86-ab92-35d65de4bcbb</updatedByUserId>
+        </metadata>
+      </effectiveLocation>
+    </holding>
+  </holdings>
+</instanceData>

@@ -334,7 +334,7 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#translations-sprach-und-kulturwissenschaft</url>
         </e>
         <e>
-            <c>25/066-066-10-RWETH</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Ethnologie und Afrikastudien</n>
+            <c>25/066-066-10-RWETH</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Ethnologie und Afrikanistik</n>
             <url>https://www.ub.uni-mainz.de/de/standorte#rechts-und-wirtschaftswissenschaften</url><map linktype="mapongo"/>
         </e>
         <e>

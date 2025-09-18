@@ -1,0 +1,687 @@
+/*
+** Datei : gie_jlu_handapparate.fcv.i.250424
+**
+** Inhalt: Tabellen-Definition: table jlu_handapparate
+**
+** Zweck : Mittels der table 'jlu_handapparate' erfolgt bei der
+**         Praesentation der Lokaldaten die Umsetzung von Handapparat-Codes
+**         aus #209G/XY   in HTML-Hyperlinks: Anstelle von  wird
+**         jlu_handapparate() angezeigt.
+**
+** Aenderungs-Log (neue Eintraege bitte  o b e n  anfuegen!):
+**
+**  Datum   : Name : Art der Aenderung
+** ================================================================================================
+** 24.04.25 :  CP  : hap10320375 Hinzke (korr. Adresse)
+**                   hap10320176 Braun (korr. Adresse)
+** 09.04.25 :  CP  : hap10310178 neu: Schwindenhammer
+** 20.03.25 :  CP  : hap10510374 neu: Madlener-Charpentier
+** 03.02.25 :  CP  : hap10710277 neu: Dobs
+** 21.10.24 :  CP  : hap10910812 neu: Golicz
+** 15.10.24 :  CP  : hap10310279 neu: Klapeer
+** 14.10.24 :  CP  : hap10710276 neu: Wendlandt
+** 13.09.24 :  CP  : hap10920470 Bräunig (korr. Adresse)
+**				   : hap10910873 neu: Schießl-Weidenweber	
+** 07.06.24 :  CP  : hap10710274 Kaiser (korr.)
+** 24.05.24 :  CP  : hap10810572 Hake
+**				   : hap10810573 Braun
+**                 : hap10217093 Kurz
+** 23.01.24 :  CP  : hap10810784 Poppenborg Martin
+** 04.01.24 :  CP  : hap10617170 de Haas
+** 29.11.23 :  CP  : hap10520176 Luo
+** 28.09.23 :  CP  : hap10320375 Hinzke
+** 22.09.23 :  CP  : hap10617076 Schoene (alt: Stiensmeier)
+**					 hap10510371 Dube (alt: Gansel)
+**					 hap10720273 geloescht (Düren)
+**					 hap10910171 geloescht (Schmitz)
+**                   hap10910201 geloescht (Agrarsoziologie)
+**					 hap10910371 geloescht (Harrach)
+**					 hap10911070 geloescht (Kogel)
+**					 hap10920371 geloescht (Weigand)
+** 15.09.23 :  CP  : hap10811070 neu: Zeidler
+** 06.09.23 :  CP  : hap10920271 Santner (alt: Schubert)
+**                   hap10117088 geloescht (Europarecht)
+**					 hap62300114 geloescht (Eissel)
+**					 hap62000280 geloescht (Friese)
+**					 hap10310174 geloescht (Greschke)
+**					 hap62200371 geloescht (Gronemeyer, AIDS)
+**					 hap62700102 geloescht (Gronemeyer, Hospiz)
+**					 hap10310273 geloescht (Holland-Cunz)
+**					 hap10310178 geloescht (Hornig)
+**					 hap10320274 geloescht (Adl-Amini)
+**					 hap10320372 geloescht (Andersen)
+**					 hap10310279 geloescht (Dhawan)
+**					 hap10340174 geloescht (Phleps)
+** 					 hap10310370 geloescht (Sander)
+**					 hap10320373 geloescht (Wissinger)
+**					 hap10310175 geloescht (Neckel)
+**					 hap60000192 geloescht (Neckel, Medien)
+**					 hap62200656 geloescht (Neckel, CyberCrash)
+** 					 hap62200729 geloescht (Schmidt)		 
+**					 hap10310170 geloescht (Willems)
+**					 hap10430174 geloescht (Landfrieden)
+**					 hap10437999 geloescht (Alte Geschichte, Sep.)
+**					 hap10447170 geloescht (Baumgartner)
+**					 hap10420170 geloescht (Hauser)
+**					 hape0530172 geloescht (Rieger)
+**					 hap10480173 geloescht (Rohdewald)
+**					 hap63700212 geloescht (Identitaetsstiftung)
+**					 hap10510112 geloescht (Sudetendt. WB)
+**					 hap10519999 geloescht (Rezat)
+**					 hap10520172 geloescht (Borgmeier)
+**					 hap10550170 geloescht (Goebbels)
+**					 hap10530176 geloescht (Prinz)
+**					 hap63201122 geloescht (Geschichtsatlanten)
+**					 hap10617087 geloescht (Ennemoser)
+**					 hap10617089 geloescht (Glaser)
+**					 hap10617075 geloescht (Glowalla)
+**					 hap10617091 geloescht (Entwicklungsf.)
+**					 hap10617096 geloescht (Rubel)
+**					 hap10618080 geloescht (Vaitl, BION)
+**					 hape0617080 geloescht (Vaitl)
+**					 hap62000262 geloescht (Faili)
+**					 hap10710176 geloescht (Haeusler)
+**					 hap10720175 geloescht (Mitic)
+**					 hap10720571 geloescht (Vorholzer
+**					 hap10720670 geloescht (Mueller, IAMP)
+**					 hap10710301 geloescht (Did. Mathem.)
+**					 hap10710184 geloescht (Horn)
+**					 hap10710180 geloescht (Walther)
+**					 hap10811070 geloescht (Hughes)
+**					 hap10911171 geloescht (Erhardt)
+**					 hap11010170 geloescht (Bergmann)
+**					 hap11011170 geloescht (Neiger)
+**					 hap11010999 geloescht (Ziegler)
+**					 hap62000489 geloescht (HRZ, Weiterbildung)
+**					 hap20310199 geloescht (HRZ, KOMM)
+**					 hap13200001 geloescht (Gender Studies)
+**					 hap13500070 geloescht (ZfbK, Goepferich)
+**					 hap20110201 geloescht (ZIL)
+**					 hap60000226 geloescht (Leggewie, BiPolAr)
+**					 hap62200459 geloescht (Lobin, ZMI)
+**					 hap60500306 geloescht (Inklusion)
+**					 hap62200635 geloescht (Schmidt, Mobil)
+**					 hap62200395 geloescht (Leibfried)
+**					 hap62200703 geloescht (Oesterle)
+**					 hap62201490 geloescht (Wolga)
+** 21.08.23 :  CP  : hap10720171 Chatterjee (alt: Meyer)
+** 18.08.23 :  CP  : hap10520173 (Olson, Adresse korr.)
+** 03.07.23 :  CP  : hap10117081 (Gruber, Adresse korr.)
+**					 hap10117099 (Auer) neu angelegt
+** 19.06.23 :  CP  : hap10117078 (Adresse korr.)
+**                 : hap10117097 (Adresse korr.)
+** 02.05.23 :  CP  : hap10911073 (Schaefer) neu angelegt
+** 28.03.23 :  CP  : hap10320376 (Ernst) neu angelegt
+** 10.03.23 :  CP  : hap11011771 (Rummel) neu angelegt
+**                 : hap10540172 Uffelmann (alt: Ibler)
+** 28.02.23 :  CP  : hap62202488 (SoHaMi) neu angelegt
+**					 hap10330173 (Schepers) neu angelegt
+** 22.02.23 :  CP  : hap11011573 Burk (alt: Burk-Luibl)
+**					 hap10920183 (Gisch) neu angelegt
+** 21.12.22 :  CP  : hap10420171 Pruchniewicz (alt: Baeumer)
+** 16.12.22 :  CP  : hap60500805 (Vertriebenenprojekt) neu angelegt
+**                   hap11011573 (Burk-Luibl) neu angelegt
+** 14.12.22 :  CP  : ausgeblendet: hap20310199 (KOMM)
+**                   ausgeblendet: hap10710176 (Kruse)
+**             CP  : ausgeblendet: hap10720571 (Vorholzer)
+** 12.10.22 :  CP  : hap11110370 (Roelcke) neu angelegt
+**					 hap11110372 (Knipper) neu angelegt
+** 06.09.22 :  CP  : geaendert: hap10117097 (Korr. Adresse)
+** 25.08.22 :  CP  : hap10610014 (Billino) neu angelegt
+** 04.08.22 :  CP  : geaendert: hap10910572 Herzig (alt: Kuehl)
+** 13.07.22 :  CP  : geaendert: hap62202094 Panel (Korr. Adresse)
+**					 geaendert: hap12510070 Leggewie (Korr. Adresse)
+**					 hap10610015 (Drewing) neu angelegt
+** 03.06.22 :  CP  : hap10217092 (Stockburger) neu angelegt
+** 25.05.22 :  CP  : hap62700561 (Proj. NIDIT) neu angelegt
+** 20.04.22 :  CP  : hap10810271 Kremer (alt: Graf)
+**					 hap10117078 Dubovitskaya (alt: Hammen)
+** 14.04.22 :  CP  : hap10520173 (Olson) neu angelegt
+**					 geaendert: hap10217090 (Korr. Adresse)
+** 13.04.22 :  CP  : hap10810970 Krueger (alt: Martin)
+** 06.04.22 :  CP  : hap11010472 (Olias) neu angelegt
+** 					 hap11011270 (Gruenberg) neu angelegt
+** 12.01.22 :  CP  : hap10510113 (AHL) Korrektur Adresse 
+** 14.12.21 :  CP  : hap10911271 (Schäberle) Korrektur Adresse
+** 08.12.21 :  CP  : hap10910775 (Clifton-Brown) neu angelegt
+** 24.11.21 :  CP  : geaendert: hap10510376 (Korr. Adresse)					 				
+** 08.11.21 :  CP  : hap62202094 (Panel on Planetary ) neu angelegt
+** 27.10.21 :  CP  : geaendert: hap10710171 (alt: Koehl, neu: N.N.)
+**                   geaendert: hap10710274 (Kaiser) neu angelegt
+** 02.09.21 :  CP  : geaendert: hap10320371 (alt: Abs, neu: Rakoczy)
+** 16.08.21 :  CP  : geaendert: hap10810171 (Adresse)
+** 12.07.21 :  CP  : geaendert: hap10617094 (alt: Prof. Hense, neu: N.N.)
+** 18.05.21 :  CP  : geaendert: hap10820271 (alt: Wickleder, neu: Mueller-Buschbaum)
+** 		     		 geaendert: hap10810970 (alt: Martin)
+** 30.03.21 :  CP  : hap11011477 (Passlack) neu angelegt
+** 18.02.21 :  CP  : geaendert: hap10910871 (alt: Honermeier, neu: Frei)
+** 04.02.21 :  CP  : geaendert: hap11010872 (Adresse)
+**                   geaendert: hap11011473 (Adresse)
+** 13.01.21 :  CP  : geaendert: hap11010870 (Adresse)
+**                   hap10710172 (Witzel, alt: Hartnick)
+** 21.12.20 :  CP  : geaendert: hap10620170 (Oesterhelt, alt: Friedrich)
+** 14.12.20 :  CP  : geaendert: hap10910770 (Bezeichnung)
+** 07.12.20 :  CP  : geaendert: hap10510375 (alt: Institut, neu: Professur)
+** 23.11.20 :  CP  : geaendert: hap10320271 (alt: Greisbach, neu: Timberlake)
+** 16.11.20 :  CP  : geaendert: hap11017072 (alt: hap11010272)
+** 29.10.20 :  CP  : geaendert: hap10320174 (alt: Friese, neu: Schmidt)
+** 19.10.20 :  CP  : Professur abgekuerzt (Jura)
+** 19.10.20 :  CP  : hap10710178 (Meiners) neu angelegt
+** 07.07.20 :  Th  : Bezeichnung geaendert (hap10440171)
+** 01.07.20 :  CP  : Adresse geaendert (hap10920178)
+** 18.05.20 :  Th  : Adresse geaendert (hap30100501)
+** 06.05.20 :  Th  : umbenannt: hap10910470 (alt: Schlich, neu: AG Prozesstechnik)
+** 03.04.20 :  Th  : geaendert: hap10320370 (alt: Duncker, neu: Seifert)
+** 04.03.20 :  CP  : geaendert : hap10470174 (Çakir-Mattner)
+** 04.12.19 :  Th  : hap10320274 (Adl-Amini), hap11010872 (Falcone) neu angelegt
+** 18.11.19 :  Th  : hap10510376 (Gamper) neu angelegt
+** 12.11.19 :  Th  : hap10730176 (Schneider) neu angelegt, hap10730172 umbenannt
+** 11.11.19 :  Th  : hap10730172 (Schneider) umbenannt, Geographieeintraege vereinheitlicht
+** 05.11.19 :  Th  : hap10310279 (Dhawan) neu angelegt
+** 28.10.19 :  Th  : hap11010672 (Lamp) neu angelegt
+** 24.10.19 :  Th  : hap10620173 (Krueger, NF Mooren) geaendert
+** 24.10.19 :  Th  : hap10920476 (Wahlen) neu angelegt
+** 02.10.19 :  Th  : hap10450170 (Lorenz) neu angelegt
+** 30.09.19 :  Th  : hap10817072 (Janssen) neu angelegt
+** 26.09.19 :  Th  : hap10617097 (Eitel) neu angelegt
+** 26.09.19 :  Th  : hap10217091 (Pfeiffer) neu angelegt
+** 25.09.19 :  Th  : hap10310010 (Gronemeyer) neu angelegt
+** 19.09.19 :  Th  : geaendert: hap10920474 (Godemann), Bezeichnung leicht geaendert
+** 16.09.19 :  CP  : geaendert: hap11010272 Kraemer (alt: Wuerbel)
+** 21.08.19 :  CP  : hap10470174 (Çakir-Mattner) neu eingerichtet
+** 09.08.19 :  Th  : hap10920180 (Eckert) als NF von 10920172 angelegt
+** 05.08.19 :  Th  : hap10810772 (Prpic-Schaeper) neu eingerichtet
+** 22.05.19 :  CP  : hap10617096 (Rubel) neu eingerichtet
+**                   hap10320176 (Braun) neu eingerichtet
+** 20.05.19 :  Th  : Bezeichnung hap10320174 geaendert
+** 02.05.19 :  Th  : neue WiWi-Professuren als HAP angelegt:
+**                   hap10217088 (Bertschek)
+**                   hap10217090 (Proellochs)
+** 29.04.19 :  Th  : hap10117098 (Hailbronner) neu eingerichtet                     
+** 15.04.19 :  Th  : hap10310280 (Schmitt) neu eingerichtet
+**                   hap10710176 (Kruse) neu eingerichtet
+** 29.03.19 :  Th  : hap10920173 und hap10910772 umbenannt
+** 26.03.19 :  Th  : hap10710184 (Horn) aufgeloest
+** 21.01.19 :  Th  : Tippfehler bei hap10910172 korr.
+** 19.12.18 :  Th  : hap10911171 (Erhardt) aufgeloest
+**                   neu: hap10910173 (Petrick)
+**                   geaendert: hap10910170 (alt: Herrmann, neu: Teuber)
+** 04.12.18 :  Th  : hap10410172, Bezeichnung geaendert, alt: Prof. Barth
+** 27.11.18 :  Th  : hap10920175, Bezeichnung geaendert, alt: Neuhaeuser-Berthold
+** 21.11.18 :  Th  : hap10117085, Gropp,Hauck: Bezeichnung geaendert
+** 20.11.18 :  Th  : hap10910573, Prof. Aurbacher: Bezeichnung geaendert
+** 14.11.18 :  Th  : hap125368283, doppelte Bez. Prof. gestrichen 
+** 05.11.18 :  CP  : Korr. HAp Rostek ("c" gestrichen)
+** 01.11.18 :  Th  : hap10520174, HAp Rostek, neu eingerichtet
+** 24.10.18 :  Th  : hap10329997 geaendert, Raumbezeichnung geaendert
+** 31.08.18 :  Mi  : hap10329999 geaendert: "R. 05" durch "R. 013" ersetzt
+** 20.08.18 :  Th  : hap10117097 neu eingerichtet
+** 06.08.18 :  Th  : hap10710172 neu eingerichtet
+** 18.07.18 :  Th  : hap12500001 neu eingerichtet
+** 05.06.18 :  Th  : hap13500070 umbenannt
+** 29.05.18 :  Th  : hap10920475 neu eingerichtet
+** 24.05.18 :  Th  : hap10920472, Bezeichnung geaendert
+** 11.04.18 :  Th  : hap10720474, Bezeichnung geaendert
+** 11.04.18 :  Th  : hap10447071, Bezeichnung geaendert
+** 27.03.18 :  CP  : hap10510113: Adresse geaendert
+** 21.03.18 :  Th  : hap10320371, Bezeichnung geaendert
+** 05.03.18 :  Th  : hap10117083, Adresse geaendert
+** 05.03.18 :  Th  : hap10440170, Prof. Ruby, neu angelegt
+** 28.02.18 :  Th  : hap10117084: Adresse geaendert
+** 23.02.18 :  Th  : haps 10117093 und 10117094: Bezeichnung geaendert
+** 11.01.18 :  Th  : hap10911172, ehm. Hoy, umbenannt
+** 21.11.17 :  Th  : neuer hap10710173, Prof. Buhmann, angelegt
+** 13.10.17 :  Th  : Aenderung Bezeichnung hap10320370
+** 11.09.17 :  Th  : neuer hap10710181, Prof. Davydov, angelegt
+** 16.08.17 :  Th  : neuer hap10911271, Prof. Schaeberle, angelegt
+** 24.07.17 :  Th  : neuer hap10720478, Prof. Sanna, angelegt
+** 20.07.17 :  Th  : HAps Bauer, Leonhaeuser und Liefner geloescht
+** 12.07.17 :  Th  : hap62700262, Projekt Globale Hilfe, geloescht
+** 10.07.17 :  Th  : Bezeichnung bei hap10720477 geaendert
+** 23.06.17 :  Th  : neuen hap10720571, Vorholzer, eingerichtet
+** 19.06.17 :  Th  : Bezeichnung hap10620174 geaendert
+** 22.05.17 :  Th  : Aenderung Keiser wieder zurueckgenommen
+** 14.03.17 :  CP  : Neu: hap10217087 Gissel
+** 23.02.17 :  CP  : Geaendert: hap30100501 Tierschutzbeauftragte/r (alt: Peters)
+** 16.02.17 :  Th  : Geaendert: hap10530171, Prof. Seiler, Romanistik
+** 09.01.17 :  Th  : voruebergehend geaendert: hap10117080, spaeter zuruecksetzen zu:
+**                 : Professur Keiser, Licher Str. 76
+** 21.12.16 :  CP  : geaendert: hap10490170 \Oezmen (alt: Didaktikwerkstatt)
+**                 : geloescht: hap10490172 Prof. Voland
+** 01.12.16 :  CP  : geaendert: hap10617083 H\aeusser (alt: Sporer)
+** 16.11.16 :  CP  : geaendert: Adresse hap10329997 F\oerderwerkstatt Sprachheilp\aedagogik
+**                 : geaendert: Adresse hap10329999 Didaktische Lernwerkstatt Inklusion
+**                 : geaendert: hap10810870 Manzini (alt: Clauss)
+**                 : geaendert: hap10320371 Dippelhofer (alt: Nerowski)
+** 15.09.16 :  CP  : geaendert: Adresse hap10820499 Did. Chemie
+**				   : Neu: hap10911170 K\oenig
+** 				   : geaendert: Adresse hap10820373 Mollenhauer
+** 17.08.16 :  CP  : Neu: hap10720174 Hannemann
+** 27.07.16 :  CP  : Neu: hap11011476 Schmidt
+**                 : Neu: hap12510070 Ludwig-B\oerne-Professur, Prof. Leggewie
+** 20.07.16 :  CP  : Neu: hap10911272 Schetelig
+**                 : geaendert: hap10117094 Czelk (alt: Bauer)
+** 09.06.16 :  CP  : geaendert: hap10310275 Abendsch\oen (alt: Schmidt)
+**                 : geaendert: hap10329999 Didaktische Lernwerkstatt (alt: Lernwerkstatt)
+**                 : Neu: hap60500306 Lernwerkstatt Inklusion
+** 02.05.16 :  Th  : ausgeblendet: hap10710176 (vorm. H\aeusler)
+**                 :  - "hap10710176"  "N.N. (NF Prof. H\aeusler, Math. Inst., AG Stochastik, Arndtstr. 2)",
+** 12.04.16 :  CP  : geaendert: hap10117080 Prof. Keiser (alt: Lipp)
+** 31.03.16 :  CP  : geaendert: hap10920172 Prof. Eckert (alt: Krawinkel)
+** 14.12.15 :  CP  : geaendert: hap11010670 Prof. Weber (alt: Thiel)
+**                 : geaendert: hap10617091 Entwicklungsorientierte Lernf\oerderung (alt: Krajewski)
+** 11.12.15 :  JR  : Eintraege von vor 2013 geloscht
+** 19.11.15 :  CP  : geaendert: hap10320173 Prof. K\aepplinger (alt: Feld)
+** 13.11.15 :  CP  : geaendert: hap10910370 Prof. Siemens (alt: Felix-Henningsen)
+**                 : Neu: hap11010970 Prof. Hamann (NF Petzinger)
+** 29.10.15 :  CP  : Adressaenderungen Neubau Chemie
+** 06.10.15 :  CP  : geaendert: hap10320371 Dr. Nerowski (alt: Prof. Abs)
+** 09.09.15 :  CP  : geaendert: hap10117093 Oeffentl. Recht JP / N.N. (alt: JP Sch\oendorf-Haubold
+**                 : geaendert: hap10117072 Prof. Sch\oendorf-Haubold (alt: Dann)
+** 13.08.15 :  CP  : Neu: hap10330171, Prof. Schnurr
+** 25.06.15 :  Th  : geaendert: Tippfehler in hap10320273
+** 03.06.15 :  CP  : geaendert: hap10310274 Prof. de Nève (alt: Prof. von Blumenthal)
+** 29.05.15 :  CP  : Neu: hap10730175, Prof. Mehren
+** 22.05.15 :  CP  : geaendert: hap10820271, Prof. Wickleder (alt: Prof. Schlecht)
+** 21.04.15 :  CP  : Neu: hap10617095, Prof. Schwenck
+** 25.02.15 :  CP  : Neu: hap10920474, Prof. Godemann
+** 15.01.15 :  CP  : geaendert: hap10320173, Dr. Feld (alt: Prof. Schemmann)
+** 22.12.14 :  CP  : Neu: hap12900001, ZfL
+**                 : Neu: hap20310199, KOMM
+** 12.12.14 :  CP  : Neu: hap10539999, Selbst-Lern-Werkstatt Romanistik
+** 24.11.14 :  Th  : Neu: hap10720175, Prof. Mitic, geaendert: hap10117071,
+**                 : hap10117072
+** 17.11.14 :  Th  : Neu: hap10540172 Prof. Ibler
+** 07.11.14 :  CP  : geaendert: hap10820470 Prof. Graulich (alt: Did. Chemie)
+**                 : Neu: hap10820499 Did. Chemie
+** 05.11.14 :  CP  : Neu: hap62000539 ZfbK Studiencoaching
+** 15.10.14 :  CP  : geaendert: hap10920470 Adresse
+** 07.10.14 :  CP  : Neu: hap10820373 JProf. Mollenhauer
+** 02.09.14 :  CP  : geaendert: hap10810171 Prof. Straesser (alt: Pingoud)
+**                 : Neu: hap10710177  Prof. Metsch
+** 16.07.14 :  CP  : Neu: hap10310276  Prof. Breitmeier
+** 27.06.14 :  CP  : Neu: hap10710199 Dr. Eichner
+** 14.06.14 :  CP  : geaendert: hap10430174 Projekt Landfrieden (alt: Carl)
+**                 : Neu: hap62000489 Weiterbildung Mittelhessen
+** 21.05.14 :  CP  : geaendert: hap10910770 Prof. Breuer (alt: Frede)
+**                 : geaendert: hap10810471 Dr. Lenhart (Vertretung für Prof. Gioria)
+**                 : geaendert: hap10920472 Prof. Meier-Graewe (alt: Ipaktschi)
+**                 : Neu: hap10920470 Prof. Braeunig
+** 02.04.14 :  CP  : geaendert: hap11011171 Prof. Fey (alt: Dr. Fey)
+**                 : geaendert: hap10920178 AG Ernaehrungsoekologie (alt:Hoffmann)
+** 26.03.14 :  CP  : Neu: hap10710182 Overbeck
+**                 : Neu: hap10710270 Holzer
+**                 : Neu: hap10430174 Carl
+** 24.03.14 :  CP  : geaendert: hap10710370 Schreiber (alt: Primarstufe)
+** 07.03.14 :  CP  : Neu: hap10437072 Weckel
+**                 : Neu: hap10710171 Koehl
+**                 : Neu: hap10710174 Ould-Ahmedou
+**                 : Neu: hap10710176 Haeusler
+**                 : Neu: hap10710179 Muehlherr
+**                 : Neu: hap10710180 Walther
+**                 : Neu: hap10710184 Horn
+**                 : Neu: hap10710299 Kutrib
+** 12.02.14 :  CP  : Neu: hap62201490 Projekt Sprachenpolitik Wolgaregion
+** 14.01.14 :  CP  : geloescht: hap10820370 Janek
+** 10.01.14 :  CP  : Neu: hap10617094 Hense
+** 20.12.13 :  CP  : Neu: hap10817071 Goesmann
+**                 : Neu: hap10470172 Sarikaya
+** 13.12.13 :  CP  : Neu: hap10519999 Rezat
+** 06.12.13 :  CP  : Neu: hap10480173 Rohdewald
+** 04.12.13 :  CP  : geaendert: hap10320371 Erz.Wiss. Schwerp. (alt: Abs)
+** 12.11.13 :  CP  : geaendert: hap11010272 N.N. (alt: Würbel)
+**                 : Neu: hap10720177 Thoma
+** 24.10.13 :  CP  : geaendert: hap10620174 Radtke (alt: Schwier)
+** 21.10.13 :  CP  : geaendert: hap10550171 Siegmund (alt: Finter)
+**                 : geaendert: Adresse hap10911172 Hoy
+** 30.09.13 :  CP  : Neu: hap10510370 M\oebius
+** 20.09.13 :  CP  : geaendert: hap10410172 Barth (alt: Graeb-Schmidt)
+**                 : geaendert: hap10910201 Agrarsoziologie (alt: Boland)
+**                 : Neu: hap10510113 Holocaustliteratur
+** 16.07.13 :  CP  : geaendert: hap10811070 Hughes (alt: 10810380)
+** 04.07.13 :  CP  : Neu: hap10911171 Erhardt
+**                 : Neu: hap10911172 Hoy
+**                 : Neu: hap10911174 Luehken
+**                 : geaendert: hap10117071 Bast (alt: Eifert)
+** 18.06.13 :  CP  : geaendert: hap10810670 Thormann (alt: Wilde)
+**                 : geaendert: hap10910870 Snowdon (alt: Friedt)
+**                 : Neu: hap10920270 Boernke
+** 06.06.13 :  CP  : Neu: hap10820470 Did. d. Chemie
+** 25.04.13 :  CP  : Neu: hap10720373 Prof. Duerr
+** 23.04.13 :  CP  : geaendert: hap10320272 van Minnen (alt: Stachowiak)
+**                 : geaendert: hap10810171 Biochemie (alt: Pingoud)
+**                 : geaendert: hap10320171 Wiezorek (alt: Paed. Jugend)
+** 25.03.13 :  CP  : geaendert: Greschke (alt: Gresche)
+**                 : Neu: hap11010170 Prof. Bergmann
+**                 : geaendert: hap10710370 Prof. fuer die Primarstufe (alt: Schreiber)
+**                 : geaendert: hap10710372 Prof. Lengnink (alt: Straesser)
+**                 : geanedert: hap10117070 Prof. Augsberg (alt: Bryde)
+** 19.03.13 :  CP  : geaendert: hap10310174 Prof. Gresche (alt: Reimann)
+**                 : geaendert: hap10117083 Prof. Kretschmer (alt: Wolfslast)
+**                 : geaendert: hap10117081 Prof. Auer (alt: Forster)
+**                 : geaendert: hap10310173 Prof. Schlueter (alt: Krebs)
+** 04.03.13 :  CP  : geaendert: hap10320171 Prof. f. Päd. d. Jugendalters (alt: Ecarius)
+** 26.02.13 :  CP  : geaendert: hap10810271 Prof. Graf (alt: Mayer)
+** ===============================================================================================
+**
+** Bemerkungen: Einige spezielle Zeichen sind wie folgt anzugeben:
+**
+**              * Spitzwinkelklammern von HTML-tags:
+**                 - Mit vorangestelltem Backslash, also z.B. \</a\> fuer </a>
+**
+**              * Umlaute, SZ: \Ae , \ae , \Oe , \oe , \Ue , \ue , \ss
+**
+*
+*/
+
+
+
+table jlu_handapparate =
+"hap10109999"  "Lernzentrum Veterin\aermedizin, Frankfurter Str. 98",
+"hap10117070"  "Prof. Augsberg, Hein-Heckroth-Str. 5",
+"hap10117071"  "Prof. Bast, Licher Str. 64",
+"hap10117072"  "Prof. Sch\oendorf-Haubold, Hein-Heckroth-Str. 5",
+"hap10117073"  "Prof. Marauhn, Licher Str. 76",
+"hap10117074"  "Prof. Reimer, Hein-Heckroth-Str. 5",
+"hap10117075"  "Prof. Adolphsen, Licher Str. 76",
+"hap10117076"  "Prof. Walker, Licher Str. 72",
+"hap10117077"  "Prof. Ekkenga, Licher Str. 76",
+"hap10117078"  "Prof. Dubovitskaya, Licher Str. 72",
+"hap10117079"  "Prof. Gutzeit, Licher Str. 76",
+"hap10117080"  "Prof. Keiser, Licher Str. 76",
+"hap10117081"  "Prof. Gruber, Licher Str. 76",
+"hap10117082"  "Prof. Benicke, Licher Str. 76",
+"hap10117083"  "Prof. Kretschmer, Bismarckstr. 16",
+"hap10117084"  "Prof. Rotsch, Bismarckstr. 16",
+"hap10117085"  "Prof. Hauck, Licher Str. 76",
+"hap10117086"  "Prof. Bannenberg, Licher Str. 64",
+"hap10117087"  "Prof. Britz, Hein-Heckroth-Str. 5",
+"hap10117093"  "Juniorprof. von Achenbach, \Oeffentl. Recht, Licher Str. 64",
+"hap10117094"  "Juniorprof. Czelk, B\uergerl. Recht, Licher Str. 64",
+"hap10117097"  "Prof. Rudkowski, Licher Str. 72",
+"hap10117098"  "Prof. Hailbronner, Licher Str. 64",
+"hap10117099"  "Prof. Auer, Licher Str. 76",
+"hap10217087"  "Juniorprof. Gissel, Gesundheits\oekonomie VWL VIII, Licher Str. 62",
+"hap10217088"  "Prof. Bertschek, VWL IX, Licher Str. 64",
+"hap10217090"  "Prof. Pr\oellochs, Data Science und Digitalisierung, Licher Str. 74",
+"hap10217091"  "Prof. J. Pfeiffer, BWL, Digitalisierung, E-Business und Operations Management, Licher Str. 74",
+"hap10217092"  "Prof. Stockburger, Daten\oekonomie VWL X, Licher Str. 62",
+"hap10217093"  "Prof. Kurz, IT-Management (BWL XIV), HRZ",
+"hap10310010"  "Prof. Gronemeyer, Inst. f. Soziologie, Phil. II H",
+"hap10310172"  "Prof. Bruesemeister, Inst. f. Soziologie, Phil. II E",
+"hap10310173"  "Prof. Schl\ueter, Inst. f. Soziologie, Phil. II E, Zi. 017b",
+"hap10310176"  "Prof. Ahrens, Inst. f. Soziologie, Phil. II E",
+"hap10310178"  "Prof. Schwindenhammer, Inst. f. Soziologie, Phil. II E",
+"hap10310271"  "Prof. Grasse, Politikwiss., Phil. II E, Zi.109",
+"hap10310272"  "Prof. Kreide, Inst. f. Politikwiss., Phil. II E",
+"hap10310274"  "Prof. de Ne\-ve, Inst. f. Politikwiss., Phil. II E",
+"hap10310275"  "Prof. Abendsch\oen, Inst. f. Politikwiss., Phil. II E",
+"hap10310276"  "Prof. Breitmeier, Inst. f. Politikwiss., Phil. II E",
+"hap10310277"  "Prof. Gawrich, Inst. f. Politikwiss., Phil. II E",
+"hap10310279"  "Prof. Klapeer, Inst. f. Politikwiss., Phil. II E",
+"hap10310280"  "Prof. Schmitt, Did. d. Sozialwiss., Phil. II E",
+"hap10320170"  "Prof. Miethe, Inst. f. Erziehungswiss., Phil. II B",
+"hap10320171"  "Prof. Wiezorek, Phil. II B",
+"hap10320173"  "Prof. K\aepplinger, Inst. f. Erziehungswiss., Phil. II B",
+"hap10320174"  "Prof. C. Schmidt, Berufsp\aedagogik, Phil II, Haus B",
+"hap10320175"  "Prof. Stecher, Inst. f. Erziehungswiss., Emp. Bildungsforschung, Phil. II B",
+"hap10320176"  "Prof. Braun, Inst. f. Erziehungswiss., Lehrerbildung, Phil. II B",
+"hap10320270"  "Prof. Stoeppler, Inst. f. Heil- u. Sonderp\aed., Phil. II B",
+"hap10320271"  "Prof. Timberlake , Inst. f. Heil- u. Sonderp\aed., Phil. II B",
+"hap10320272"  "Prof. van Minnen, Inst. f. Heil- u. Sonderp\aed., Phil. II B",
+"hap10320273"  "Prof. von Stechow, Heil- u. Sonderp\aed., Phil. II, Haus B",
+"hap10320370"  "Prof. Seifert, Inst. f. Schulp\aed., Phil. II B",
+"hap10320371"  "Prof. Rakoczy, Erziehungswiss. Schwerpunkt Schulp\aed. u. emp. Bildungsf. Phil. II B 123",
+"hap10320374"  "Prof. Neuss, Inst. f. Schulp\aed. und Did. d. Sozialwiss., Phil. II B",
+"hap10320375"  "Prof. Hinzke, Erziehungswiss. Lehrerfortbildungsf., Phil. II B",
+"hap10320376"  "Prof. Ernst, Inst. f. Kindheits- und Schulp\aedagogik, Ludwigstr. 34 (ZMI)",
+"hap10329997"  "F\oerderwerkstatt d. Abt. Sprachheilp\aedagogik, Phil. II B, R. 013",
+"hap10329998"  "Bildungswerkstatt, Phil. II B 122 a",
+"hap10329999"  "Didaktische Lernwerkstatt / Arbeitsstelle f\uer Inklusion, Phil. II B, R. 013",
+"hap10330101"  "Diathek / Herr Dr. Steinm\ueller, Inst. f. Kunstp\aedagogik, Phil. II, Haus H",
+"hap10330170"  "Prof. Buschk\uehle, Inst. f. Kunstp\aedagogik, Phil. II, Haus H",
+"hap10330171"  "Prof. Schnurr,  Inst. f. Kunstp\aedagogik, Phil. II, Haus H",
+"hap10330173"  "Prof. Schepers, Inst. f. Kunstp\aedagogik, Phil. II, Haus H",
+"hap10340171"  "Prof. Bullerjahn, Inst. f. Musikwiss. u. Musikpaed., Phil. II D",
+"hap10409999"  "Mediathek Evangelische und Katholische Theologie, Phil. II H 209",
+"hap10410170"  "Prof. Eisen, Ev. Theologie, Phil. II H",
+"hap10410171"  "Prof. Brinkmann, Inst. f. Evangel. Theologie, Phil. II, Haus H",
+"hap10410172"  "Prof. David, Ev. Theologie, Phil. II H",
+"hap10410173"  "Prof. Lexutt, Ev. Theologie, Phil. II H",
+"hap10420171"  "Prof. Pruchniewicz, Inst. f. Kath. Theol., Phil II H",
+"hap10420173"  "Prof. Schmidt, Kath. Theologie, Phil. II H",
+"hap10437001"  "Didaktik d. Geschichte, Phil. I C, Zi. 204",
+"hap10437070"  "Handapparat Alte Geschichte, Histor. Inst., Alte Geschichte, Phil. I G",
+"hap10437072"  "Prof. Weckel, Fachjournalistik Geschichte, Phil. I, C",
+"hap10440170"  "Prof. Ruby, Inst. f. Kunstgesch., Otto-Behaghel-Str. 10G, Raum G332",
+"hap10440171"  "Prof. Sp\aeth, Kunstgeschichte, Phil. I G",
+"hap10447171"  "Inst. f. Kunstgeschichte, Phil. I, G",
+"hap10450170"  "Prof. Lorenz, Klass. Arch\aeologie, Otto-Behaghel-Str. 10 D",
+"hap10470170"  "SFB Erinnerungskulturen, Islamwissenschaft, Phil. I E",
+"hap10470171"  "Prof. Kirchner, Professur f. Turkologie, Phil. I E",
+"hap10470172"  "Prof. Sarikaya, Prof. f. Islamische Theologie, Phil. I E",
+"hap10470174"  "Prof. C\,akir-Mattner, Prof. f. Isl. Theol. musl. Lebensgest., Phil. I D",
+"hap10490170"  "Prof. \Oezmen, Zentr. f. Philos., Rathenaustr. 8",
+"hap10510113"  "Arbeitsstelle Holocaustliteratur, Phil. I D, 4. OG",
+"hap10510170"  "Prof. Voeste, Inst. f. Germanistik, Phil. I B",
+"hap10510171"  "Prof. Hennig, Inst. f. Germanistik, Phil. I, Haus B, Raum 111",
+"hap10510172"  "Prof. Lobin, Angew. Sprachw. u. Computerlinguistik, Phil. I D",
+"hap10510173"  "Prof. Gloning, Germanist. Sprachwiss., Phil. I B",
+"hap10510272"  "Prof. Jacob, Inst. f. Germanistik, Arbeitsber. Literatur, Phil I B",
+"hap10510273"  "Prof. Simonis, Germanistik, Phil. I G, Zi. 29",
+"hap10510274"  "Prof. Wirth, Inst. f. Germanistik, Neuere dt. Lit., Phil. I, B",
+"hap10510275"  "Prof. Dietl, Inst. f. Germanistik, Phil. I, Haus B, Zi. 135",
+"hap10510370"  "Prof. M\oebius, Inst. f. Germanistik, Literaturdid., Haus B, Zi. 206",
+"hap10510371"  "Prof. Dube, Inst. f. Germanistik, Phil. I B",
+"hap10510372"  "Prof. Lehnen, Germanist. Sprach- u. Mediendidaktik, Phil. I B, 2. Stock",
+"hap10510374"  "Prof. Madlener-Charpentier, Deutsch als Fremdsprache, Phil. I Haus D",
+"hap10510375"  "Prof. Feilke, Prof. f. Did. der dt. Sprache und Literatur, Phil. I Haus B",
+"hap10510376"  "Prof. Gamper, Deutsch als Zweitsprache, Phil. I Haus D",
+"hap10520173"  "Prof. Olson, Anglophone Literatur-, Kultur- und Medienwiss., Phil. I B",
+"hap10520174"  "Prof. Rostek, Anglophone Literatur-, Kultur- und Medienwiss., Phil. I B",
+"hap10520176"  "Prof. Luo, Intercultural Communication and Business, Phil. I B",
+"hap10530170"  "Prof. Born, Inst. f. Roman. Phil., Phil. II G",
+"hap10530171"  "Prof. Seiler, Inst. f. Roman. Phil., Phil. II, G",
+"hap10530174"  "Prof. Dolle, Inst. f. Roman. Philol. u. Lit., Phil II G",
+"hap10530175"  "Prof. Martinez, Inst. f. Roman. Philol. u. Lit., Phil II G",
+"hap10539999"  "Selbst-Lern-Werkstatt Romanistik, Phil. II G",
+"hap10540171"  "Prof. Wingender, Inst. f. Slavistik, Phil. II G, 1. OG",
+"hap10540172"  "Prof. Uffelmann, Inst. f. Slavistik, Phil. I, Haus D",
+"hap10540173"  "Prof. Daiber, Inst. f. Slavistik, Phil. I, Haus D, Zi. 517",
+"hap10550171"  "Prof. Siegmund, Inst. f. Angew. Theaterwiss., Phil. II A",
+"hap10610014"  "Prof. Billino, Neuropsych. d. Lebensspanne, Phil. I F",
+"hap10610015"  "Prof. Drewing, Allg. Psychol., Phil. I F",
+"hap10617040"  "Prof. Stark, Klin. Psychol./VT-Ambulanz, Phil.I F",
+"hap10617070"  "Prof. Gegenfurtner, Allg. Psychol., Phil. I F",
+"hap10617071"  "Prof. Knauff, Allg. Psychol., Phil I F",
+"hap10617073"  "Prof. Schuster, Psycholog. Methodenlehre,  Phil I F",
+"hap10617074"  "Prof. Klehe, Arbeits- u. Organisationspsychol., Phil. I F",
+"hap10617076"  "Prof. Sch\oene, P\aed. Psychol., Phil. I F",
+"hap10617077"  "Prof. Brunstein, P\aed. Psychol., Phil. I F",
+"hap10617079"  "Prof. Kersting, Psycholog. Diagnostik, Phil. I F",
+"hap10617080"  "Prof. Hermann, Klin. Psychol., Phil. I F",
+"hap10617081"  "Prof. Hennig, Diff. Psychol., Phil. I F",
+"hap10617082"  "Prof. Schwarzer, Entwicklungspsychol., Phil I F",
+"hap10617083"  "Prof. H\aeusser, Sozialpsychol., Phil. I D",
+"hap10617090"  "Prof. Fleming, Allg. Psychol., Phil. I F, 3. OG",
+"hap10617092"  "Prof. Wittmann, Biolog. Psychol., Phil. I, Haus F",
+"hap10617093"  "Prof. Fiehler, Allg. Psychol., Phil. I F, 3.OG",
+"hap10617095"  "Prof. Schwenck, Prof. klin. Kinder- u. Jugendpsychol., Phil. I C",
+"hap10617097"  "Prof. Eitel, P\aedagog. Psychol., Phil. I",
+"hap10617170"  "Prof. de Haas, Experiment. Psychologie, Phil. I F",
+"hap10620170"  "Prof. Oesterhelt, Inst. f. Sportwissenschaft, Kugelberg 62",
+"hap10620171"  "Prof. Munzert, Sportpsych. u. Bewegungswiss.,  Kugelberg 62",
+"hap10620172"  "Prof. M\ueller, Sportwiss., Kugelberg 62",
+"hap10620173"  "Prof. Kr\ueger, Leistungsphysiologie und Sporttherapie, Kugelberg 62",
+"hap10620174"  "Professur f\uer Sportp\aed. u. Sportsoz., Kugelberg 62",
+"hap10620175"  "Prof. Hegele, Inst. f. Sportwiss., Kugelberg 62",
+"hap10629999"  "Dr. D\oehring, Inst. f. Sportwiss., Kugelberg 62",
+"hap10710270"  "Prof. Holzer, Inst. f. Informatik, Arndstr. 2",
+"hap10710172"  "Prof. Witzel, Math. Inst., Diskrete Mathematik und Geometrie, Arndtstr. 2",
+"hap10710173"  "Prof. Buhmann, Math. Inst., Numerik, Heinrich-Buff-Ring 44",
+"hap10710174"  "Prof. Ould-Ahmedou, Math. Inst., AG Analysis, Arndtstr. 2",
+"hap10710177"  "Prof. Metsch, Math. Inst., AG Diskr. Math., Arndstr. 2",
+"hap10710178"  "Prof. Meiners, Math. Inst., AG Stochastik, Arndstr. 2",
+"hap10710179"  "Prof. M\uehlherr, Math. Inst., AG Algebra, Arndtstr. 2",
+"hap10710181"  "Prof. Davydov, Math. Inst., Numerik, Heinrich-Buff-Ring 44",
+"hap10710182"  "Prof. Overbeck, Math. Inst., AG Finanzmathematik, Arndstr. 2",
+"hap10710199"  "Dr. Eichner, Math. Inst., AG Stochastik, Arndtstr. 2",
+"hap10710274"  "Prof. Kaiser, Math. Inst., Arndtstr. 2",
+"hap10710276"  "Prof. Wendlandt, Inst. f. Informatik, Arndtstr. 2",
+"hap10710277"  "Prof. Dobs, Inst. f. Informatik, Otto-Behaghel-Str. 10F",
+"hap10710299"  "Prof. Kutrib, Inst. f. Informatik, Arndtstr. 2",
+"hap10710370"  "Prof. Schreiber, Didaktik d. Mathematik, Phil. II C",
+"hap10710372"  "Prof. Lengnink, Did. d. Mathematik, Phil. II C",
+"hap10719998"  "Lernzentrum Mathematik, Heinrich-Buff-Ring 16, R. P516",
+"hap10719999"  "Testothek Mathematik, Phil. II C",
+"hap10720170"  "Prof. Eickhoff, 1. Physikal. Inst., Heinrich-Buff-Ring 16",
+"hap10720171"  "Prof. Chatterjee, 1. Physikal. Inst., Heinrich-Buff-Ring 16, 2. OG",
+"hap10720172"  "Prof. Klar, 1. Physikal. Inst., Heinrich-Buff-Ring 16, 4. OG",
+"hap10720173"  "Prof. Heiliger, 1. Physikal. Inst., Heinrich-Buff-Ring 16, Zi. 211",
+"hap10720174"  "Prof. Hannemann, 1. Physikal. Inst., Heinrich-Buff-Ring 16",
+"hap10720177"  "Prof. Thoma, 1. Physikal. Inst., Heinrich-Buff-Ring 16, Zi. 309",
+"hap10720271"  "Prof. Brinkmann, 2. Physikal. Inst., Heinrich-Buff-Ring 16, 1. OG",
+"hap10720274"  "Prof. Scheidenberger, 2. Physikal. Inst., Heinrich-Buff-Ring 14",
+"hap10720275"  "Prof. H\oehne, 2. Physikal. Inst., Heinrich-Buff-Ring 16",
+"hap10720370"  "Prof. Schlettwein, Angew. Physik, Heinrich-Buff-Ring 16, 1. OG",
+"hap10720371"  "Prof. Kohl, Angew. Physik, Heinrich-Buff-Ring 14",
+"hap10720372"  "Prof. Schirmeisen,  Inst. f. Angewandte Physik, Heinrich-Buff-Ring 16",
+"hap10720373"  "Prof. D\uerr, Inst. f. Angew. Physik, Heinrich-Buff-Ring 16",
+"hap10720471"  "Prof. Bunde, Theoret. Physik 3, Heinrich-Buff-Ring 16, 4. OG",
+"hap10720474"  "Prof. Fischer, Theoret. Physik, Heinrich-Buff-Ring 16, 4. OG",
+"hap10720477"  "Prof. von Smekal, Inst. f. Theoret. Physik, Heinrich-Buff-Ring 16",
+"hap10720478"  "Prof. Sanna, Inst. f. Theoret. Physik, Heinrich-Buff-Ring 16",
+"hap10720570"  "Prof. von Aufschnaiter, Didaktik d. Physik, Phil. II C",
+"hap10729998"  "Physik Demonstrationspraktikum, Hoersaalgeb.,  Heinrich-Buff-Ring 14",
+"hap10729999"  "Physik Vorlesungsvorbereitung, Hoersaalgeb., Heinrich-Buff-Ring 14",
+"hap10730170"  "Prof. Luterbacher, Inst. f\uer Geographie, Senckenbergstr. 1",
+"hap10730171"  "Prof. Dittmann, Inst. f\uer Geographie, Senckenbergstr. 1",
+"hap10730172"  "Prof. Hennemann, Inst. f\uer Geographie, Senckenbergstr. 1",
+"hap10730173"  "Prof. Diller, Inst. f\uer Geographie, Schlossgasse 7",
+"hap10730174"  "Prof. Fuchs, Inst. f\uer Geographie, Senckenbergstr. 1",
+"hap10730175"  "Prof. Mehren, Did. Geographie, Phil. II, Haus G",
+"hap10730176"  "Prof. Schneider, Inst. f\uer Geographie, Senckenbergstr. 1",
+"hap10730270"  "Prof. Haversath, Did. Geographie, Phil. II, Haus G",
+"hap10730271"  "Prof. Werle, Did. d. Geographie, Phil. II G",
+"hap10739999"  "Dr. Volker, Geographie, Schlossgasse 7, Zi. 211",
+"hap10810170"  "Prof. Bindereif, Inst. f. Biochemie, Heinrich-Buff-Ring 58",
+"hap10810171"  "Prof. Str\aesser, Inst. f. Biochemie, Heinrich-Buff-Ring 17",
+"hap10810199"  "Prof. Friedhoff, Inst. f. Biochemie, Heinrich-Buff-Ring 58",
+"hap10810270"  "Prof. Ziemek, Inst. f. Biologiedid., Phil. II C, Raum 05A",
+"hap10810271"  "Prof. Kremer, Inst. f. Biologiedid., Phil. II C",
+"hap10810371"  "Prof. Wissemann, AG Spezielle Botanik, Heinrich-Buff-Ring 38",
+"hap10810370"  "Prof. Becker, Inst. f. Botanik, Heinrich-Buff-Ring 38",
+"hap10810470"  "Prof. M\ueller, Inst. f. Pflanzenoekol. , IFZ",
+"hap10810471"  "Dr. Lenhart, Inst. f. Pflanzenoekol., IFZ",
+"hap10810472"  "Prof. Kunze, Angew. Oekol., IFZ",
+"hap10810572"  "Prof. Hake, Inst. f. Genetik, Heinrich-Buff-Ring 58",
+"hap10810573"  "Prof. Braun, Inst. f. Genetik, Heinrich-Buff-Ring 17",
+"hap10810670"  "Prof. Thormann, Inst. f. Mikro- und Molekularbiologie, IFZ, Raum B 243",
+"hap10810671"  "Prof. Klug, Inst. f. Mikrobiol. u. Molekularbiol., IFZ",
+"hap10810760"  "Prof. Werding, Tieroekologie, IFZ",
+"hap10810772"  "Prof. Prpic-Sch\aeper, Allg. u. Spezielle Zool., Heinrich-Buff-Ring 38",
+"hap10810780"  "Prof. Wolters, Tieroekologie, IFZ",
+"hap10810781"  "Prof. Wilke, Allg. und Spezielle Zool., IFZ",
+"hap10810782"  "Prof. Encarnacao, Allg. u. Spez. Zoologie, IFZ, Heinrich-Buff-Ring 26-32",
+"hap10810784"  "Prof. Poppenborg Martin, Tieroekologie, IFZ, Heinrich-Buff-Ring 26-32",
+"hap10810870"  "Prof. Manzini, Inst. f\uer Tierphysiologie, MZVG, Heinrich-Buff-Ring 38",
+"hap10810871"  "Prof. Lakes-Harlan, Standort  Heinrich-Buff-Ring 38, Zi. 328",
+"hap10810970"  "Prof. Kr\ueger, Mol. Immunologie, Schubertstr. 81",
+"hap10811070"  "Dr. Zeidler, Pflanzenphysiologie, Senckenbergstr. 3, 3. OG",
+"hap10817071"  "Prof. Goesmann, Systembiologie, Heinrich-Buff-Ring 58, Zi. 03",
+"hap10817072"  "Prof. Janssen, Algorithm. Bioinformatik, Heinrich-Buff-Ring 58",
+"hap10820170"  "Prof. G\oettlich, Inst. f. Organ. Chemie, Heinrich-Buff-Ring 17, Zi. B 227",
+"hap10820171"  "Prof. Maison, Inst. f. Organ. Chemie, Heinrich-Buff-Ring 58",
+"hap10820270"  "Prof. Schindler, Inst. f. Anorgan. u. Analyt. Chemie, Heinrich-Buff-Ring 17, Zi. B 121",
+"hap10820271"  "Prof. M\ueller-Buschbaum, Anorg. u. Analyt. Chemie, Heinrich-Buff-Ring 17, Zi. B 128",
+"hap10820272"  "Prof. Spengler, Inst. f. Anorgan. u. Analyt. Chemie, Heinrich-Buff-Ring 17, Zi. B 157",
+"hap10820371"  "Prof. Over, Physikal.-Chem. Inst., Heinrich-Buff-Ring 17, Zi. B 41",
+"hap10820372"  "Prof. Smarsly, Phys.-Chem. Inst., Heinrich-Buff-Ring 17, Zi. B 42",
+"hap10820373"  "Prof. Mollenhauer, Phys.-Chem. Inst., Heinrich-Buff-Ring 17",
+"hap10820470"  "Prof. Graulich, Didaktik d. Chemie, Heinrich-Buff-Ring 17, B 13",
+"hap10820499"  "Handapp. Didaktik d. Chemie, Heinrich-Buff-Ring 17",
+"hap10820570"  "Prof. Zorn, Inst. f. Lebensmittelchemie, Heinrich-Buff-Ring 17, Zi. B 246",
+"hap10820571"  "Prof. Hamscher, Inst. f. Lebensmittelchemie u. -biotechnologie, Heinrich-Buff-Ring 17, Zi. B 246",
+"hap10820572"  "Prof. R\uehl,  Inst. f. Lebensmittelchemie u. -biotechnologie, Heinrich-Buff-Ring 17, Zi. B 246",
+"hap10910170"  "Prof. Teuber, Agrarpol. u. Marktforschung, Zeughaus",
+"hap10910172"  "Prof. Nuppenau, Agrarpolitik u. Marktforschung, Zeughaus, Senckenbergstr. 3",
+"hap10910173"  "Prof. Petrick, Agrar-, Ern\aehrungs- und Umweltpolitik, Zeughaus",
+"hap10910301"  "Inst. f. Bodenkunde u. Bodenerhaltung, IFZ",
+"hap10910370"  "Prof. Siemens, Inst. f. Bodenkunde u. Bodenerhaltung, IFZ",
+"hap10910470"  "AG Prozesstechnik, Stephanstr. 24",
+"hap10910572"  "Prof. Herzig, Betriebslehre d. Agrar- u. Ernaehrungswirtsch., Zeughaus, Senckenbergstr. 3",
+"hap10910573"  "Prof. Aurbacher, Prof. fuer Landwirtschaftl. Produktionsoekonomik, Zeughaus",
+"hap10910670"  "Prof. Kaempfer, Mikrobiol. d. Recyclingprozesse, IFZ",
+"hap10910671"  "Prof. Schnell, Allgem. u. Bodenmikrobiol., IFZ",
+"hap10910770"  "Prof. Breuer, Landschafts-, Wasser- und Stoffhaushalt, IFZ",
+"hap10910771"  "Prof. Gaeth, Abfall- u. Ressourcenmanagement, IFZ",
+"hap10910772"  "Prof. Kleinebecker, Landschaftsoekol. u. Landschaftsplanung,  IFZ",
+"hap10910775"  "Prof. Clifton-Brown, Nachw. Rohstoffe u. Bioressourcen, IFZ",
+"hap10910812"  "Prof. Golicz, Agrarbioinformatik, IFZ",
+"hap10910870"  "Prof. Snowdon, Pflanzenzuechtung, IFZ",
+"hap10910871"  "Prof. Frei, Pflanzenbau u. Ertragsphysiologie, IFZ",
+"hap10910873"  "Prof. Schie\ssl-Weidenweber, Genetik d. Nutzpflanzendiversit\aet, IFZ",
+"hap10910971"  "Prof. Frisch, Biometrie u. Populationsgenetik, IFZ",
+"hap10911071"  "Prof. Vilcinskas, Angew. Entomologie, IFZ",
+"hap10911073"  "Prof. Sch\aefer, Inst. f. Phytopathologie, IFZ",
+"hap10911170"  "Prof. K\oenig, Tierzucht u. Haustiergenetik, Ludwigstr. 21b",
+"hap10911172"  "Prof. Koenig von Borstel, Tierzucht u. Haustiergenetik, Leihgesterner Weg 52",
+"hap10911174"  "Prof. L\uehken, Tierzucht u. Haustiergenetik, Ludwigstr. 21",
+"hap10911271"  "Prof. Sch\aeberle, Inst. f. Insektenbiotechnologie, Ohlebergsweg 12",
+"hap10911272"  "Prof. Schetelig, Inst. f. Insektenbiotechnologie, Winchesterstr. 2",
+"hap10920170"  "Prof. Becker, Biochem. d. Ernaehrung d. Menschen, IFZ",
+"hap10920171"  "Prof. Morlock, Lebensmittelwiss., IFZ",
+"hap10920172"  "Prof. Eckert, Ernaehrungswiss., Wilhelmstr. 20",
+"hap10920173"  "Prof. Wagner, Inst. f. Ernaehrungswiss., Wilhelmstr. 20",
+"hap10920175"  "Prof. Fasshauer, Inst. f. Ern\aehrungswiss., Goethestr. 55",
+"hap10920178"  "AG Ern\aehrungsoekologie, Zeughaus, Senckenbergstr. 3",
+"hap10920179"  "Prof. Wenzel, Ern\aehrungswiss., Molekulare Ern.forschung, IFZ",
+"hap10920183"  "Prof. Gisch, Ern\aehrungspsychologie, Zeughaus, Senckenbergstr. 3",
+"hap10920180"  "Prof. Eckert, Ernaehrungswiss., Wilhelmstr. 20",
+"hap10920270"  "Prof. B\oernke, Inst. f. Pflanzenern\aehrung, IFZ",
+"hap10920271"  "Prof. Santner, Inst. f. Pflanzenern\aehrung, IFZ",
+"hap10920370"  "Prof. Eder, Inst. f. Tiernaehrung u. Ern\aehrungsphysiol., IFZ",
+"hap10920470"  "Prof. Br\aeunig, Management personaler Versorgungsbetr., Otto-Behaghel-Str. 10D",
+"hap10920474"  "Prof. Godemann, Kommunikation u. Beratung in Agrar- u. Ern\aehrungswiss., Senckenbergstr. 3",
+"hap10920475"  "Prof. Gwozdz, Versorgungs- und Verbrauchsforschung, Senckenbergstr. 3",
+"hap10920476"  "Prof. Wahlen, Ern\aehrungssoziologie, Senckenbergstr. 3",
+"hap11017072"  "Prof. Kr\aemer, Tierschutz u. Ethologie, Frankfurter Str. 110",
+"hap11010370"  "Prof. L\uetteke, Biochem. u. Endokrinol., Frankfurter Str. 100",
+"hap11010371"  "Prof. Mazurek, Vet.-Physiologie u. - biochemie, Frankf. Str. 100",
+"hap11010472"  "Prof. Olias, Vet.-Pathologie, Frankfurter Str. 96",
+"hap11010473"  "Prof. Herden, Vet.-Pathologie, Frankfurter Str. 96",
+"hap11010670"  "Prof. Weber, Inst. f. Virologie, BFS, Schubertstr. 81",
+"hap11010770"  "Prof. Ewers, Inst. f. Hygiene u. Infektionskrankh., Frankfurter Str. 89",
+"hap11010870"  "Prof. Taubert, Inst. f. Parasitologie, BFS, Schubertstr. 81",
+"hap11010872"  "Prof. Falcone, Parasitologie,Zoonosen, BFS, Schubertstr. 81",
+"hap11010972"  "Prof. Geyer, Inst. f. Pharmakol. und Toxikol., BFS, Schubertstr. 81",
+"hap11010970"  "Prof. Hamann, Inst. f. Pharmakol. und Toxikol., BFS, Schubertstr. 81",
+"hap11010672"  "Prof. Lamp, Inst. f. Virologie, BFS, Schubertr. 81",
+"hap11011071"  "Prof. Kramer, Chirurg. Vet.-Klinik, Frankfurter Str. 108, Zi. 137",
+"hap11011171"  "Prof. Fey, Klinik f. Pferde - Innere Med., Frankfurter Str. 126",
+"hap11011270"  "Prof. Gr\uenberg, Klinik f. Wiederk\aeuer, Frankfurter Str. 104",
+"hap11011471"  "Prof. Wenisch, Inst. f. Vet.-Anatomie, -Histol. u. Embryologie, Frankfurter Str. 98",
+"hap11011473"  "Prof. Moritz, Kleintierklinik, Frankfurter Str. 114",
+"hap11011476"  "Prof. M. Schmidt, Kleintierklinik, Frankfurter Str. 108",
+"hap11011477"  "Prof. Pa\sslack, Kleintierklinik, Frankfurter Str. 114",
+"hap11011573"  "Prof. Burk, Pferdeorthop\aedie, Frankfurter Str. 108, Zi. 113",
+"hap11011771"  "Prof. Rummel, Vet.-Physiologie u. -Biochemie, Frankfurter Str. 100",
+"hap11110370"  "Prof. Roelcke, Geschichte der Medizin, Leihgesterner Weg 52",
+"hap11110372"  "Prof. Knipper, Geschichte der Medizin, Leihgesterner Weg 52",
+"hap12500001"  "Dr. Hergenhan, ZMI, Ludwigstr. 34",
+"hap12510070"  "Ludwig-B\oerne-Professur, Prof. Leggewie, ZMI, Liebigstr. 35",
+"hap12900001"  "ZfL Referat Studien- u. Pr\uefungsangelegenheiten, Rathenaustr. 8",
+"hap30100501"  "Tierschutzbeauftragte/r, Frankfurter Str. 110",
+"hap60500805"  "Vertriebenenprojekt / Zeitgeschichte, Ludwigstr. 34, 1. Stock",
+"hap62000539"  "ZfbK, Studiencoaching, Karl-Gl\oeckner-Str. 5 A, Raum 122",
+"hap62202094"  "Panel on Planetary Thinking, Liebigstr. 35",
+"hap62202488"  "Projekt SoHaMi, Phil. II B",
+"hap62700561"  "Proj. NIDIT / ZfbK, Leihgesterner Weg 52",
+default "Handapparat"
+;
+
+
+
+/*
+*** EOF ***
+*/
