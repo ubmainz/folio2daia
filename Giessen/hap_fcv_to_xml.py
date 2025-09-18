@@ -7,7 +7,7 @@ def convert_to_xml(line):
 
     # Extract the data enclosed in quotes
     nr = parts[0].strip().strip('"')
-    address = parts[1].strip().strip('"')
+    address = parts[1].strip().strip('"').strip(',"')
     address = translate_umlauts(address)
     # Construct the XML tag using the provided structure in 'b'
     xml_tag = f'<hap nr="{nr}">{address}</hap>'
