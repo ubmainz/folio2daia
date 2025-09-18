@@ -1094,8 +1094,8 @@
                                 index-of(('ILN204/CG/UB/UBMagKeller', 'ILN204/CG/UB/UBMag3', 'ILN204/CG/UB/UBMagPohlheim'),
                                          effectiveLocation/code)
                               else
-                                effectiveLocation/code" order="descending" lang="de"/>            
-            <xsl:sort select="holdingsStatements" order="ascending" lang="de"/>
+                                effectiveLocation/code" order="descending" lang="de"/>
+            <xsl:sort select="index-of(('holdingsStatements'),name())" order="ascending" lang="de"/>
             <xsl:sort select="callNumber" order="ascending" lang="de"/>            
             <xsl:if test="not(items/item)">
                 <xsl:apply-templates select="./hrid|./notes/note|./effectiveLocation/discoveryDisplayName">
@@ -1281,7 +1281,7 @@
                 <status name="Claimed returned"/>
                 <status name="Declared lost"/>
                 <status name="In process">                           <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u><y>YY</y></status>
-                <status name="In process - not requestable"/>
+                <status name="In process (not-requestable)"/>
                 <status name="Intellectual item">                    <b>UI</b><c>UI</c><d>UI</d><e>EM</e><i>II</i><o>SX</o><s>SX</s><u>UI</u><y>YY</y></status>
                 <status name="In transit">                           <b>UV</b><c>UV</c><d>UV</d><e>EM</e><i>IV</i><o>SX</o><s>CN</s><u>UV</u><y>YY</y></status>
                 <status name="Long missing">                         <b>EM</b><c>EM</c><d>EM</d><e>EM</e><i>EM</i><o>SX</o><s>EM</s><u>EM</u><y>YY</y></status>
