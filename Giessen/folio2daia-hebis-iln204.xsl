@@ -1090,9 +1090,9 @@
                                 index-of(('ILN204/CG/UB/UBMagKeller', 'ILN204/CG/UB/UBMag3', 'ILN204/CG/UB/UBMagPohlheim'),
                                          effectiveLocation/code)
                               else
-                                effectiveLocation/code" order="descending" lang="de"/>
+                                effectiveLocation/code" order="ascending" lang="de"/>
             <xsl:sort select="index-of(('holdingsStatements'),name())" order="ascending" lang="de"/>
-            <xsl:sort select="callNumber" order="ascending" lang="de"/>            
+            <xsl:sort select="callNumber" order="ascending" lang="de"/>
             <xsl:if test="not(items/item)">
                 <xsl:apply-templates select="./hrid|./notes/note|./effectiveLocation/discoveryDisplayName">
                     <xsl:sort select="index-of(('hrid'),name())" order="descending"/>
