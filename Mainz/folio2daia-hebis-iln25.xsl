@@ -342,6 +342,10 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#zentralbibliothek</url>
         </e>
         <e>
+            <c>25/066-066-14-RWJAHN</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Ethnologie und Afrikanistik, Jahn-Bibliothek für afrikanische Literaturen</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#rechts-und-wirtschaftswissenschaften</url><map linktype="mapongo"/>
+        </e>
+        <e>
             <c>25/080-080-RWTURK</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Turkologie</n><map linktype="mapongo"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#rechts-und-wirtschaftswissenschaften</url>
         </e>
