@@ -371,6 +371,10 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-hochschule-fuer-musik</url>
         </e>
         <e>
+            <c>25/112-112-13-PHHFM-SEMAPPALLG</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Philosophicum, Hochschule für Musik, Semesterapparat</n>
+            <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-hochschule-fuer-musik</url><nostandort/>
+        </e>
+        <e>
             <c>25/112-112-14-PHHFM-SEMAPP</c><ind>s Praesenzbestand</ind><n xml:lang="de">BB Philosophicum, Hochschule für Musik, Semesterapparat Musikpädagogik</n>
             <url>https://www.ub.uni-mainz.de/de/standorte#philosophicum-standort-hochschule-fuer-musik</url><nostandort/>
         </e>
