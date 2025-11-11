@@ -1,0 +1,10 @@
+
+
+DAIAinfo epn 76827012X-76827012X-1 ofniAIAD
+DAIAinfo sig 277.668 ofniAIAD
+DAIAinfo aus_status verfuegbar ofniAIAD
+DAIAinfo aus_ind u ausleihbar ofniAIAD
+DAIAinfo aus_link https://paia.link ofniAIAD
+DAIAinfo abt_num   25/112-112-13-PHHFM-SEMAPPALLG ofniAIAD
+DAIAinfo abt_name  ofniAIAD
+DAIAinfo abt_link https://www.ub.uni-mainz.de/de/standorte ofniAIAD
