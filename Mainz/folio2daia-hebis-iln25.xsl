@@ -293,6 +293,10 @@
             <url>https://www.ub.uni-mainz.de/de/standorte#rechts-und-wirtschaftswissenschaften</url>
         </e>
         <e>
+            <c>25/018-018-13-RWW</c><ind>s Praesenzbestand</ind><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Medizin </n><map linktype="mapongo"/>
+            <url>https://www.ub.uni-mainz.de/de/standorte#rechts-und-wirtschaftswissenschaften</url>
+        </e>
+        <e>
             <c>25/018-018-12-RWLBS</c><campus>cm</campus><n xml:lang="de">BB Rechts- und Wirtschaftswissenschaften, Lernzentrum</n><map linktype="mapongo"/>
             <url>https://www.ub.uni-mainz.de/de/standorte#rechts-und-wirtschaftswissenschaften</url>
         </e>
